@@ -1393,12 +1393,23 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="12.7" y1="86.36" x2="25.4" y2="86.36" width="0.1524" layer="91"/>
 <label x="12.7" y="86.36" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP43" gate="G$1" pin="1"/>
+<wire x1="12.7" y1="-60.96" x2="30.48" y2="-60.96" width="0.1524" layer="91"/>
+<label x="12.7" y="-60.96" size="1.778" layer="95"/>
+<label x="12.7" y="-60.96" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="1-2" class="0">
 <segment>
 <pinref part="JP1" gate="G$1" pin="2"/>
 <wire x1="12.7" y1="88.9" x2="25.4" y2="88.9" width="0.1524" layer="91"/>
 <label x="12.7" y="88.9" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP43" gate="G$1" pin="2"/>
+<wire x1="12.7" y1="-58.42" x2="30.48" y2="-58.42" width="0.1524" layer="91"/>
+<label x="12.7" y="-58.42" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="1-3" class="0">
@@ -1407,12 +1418,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="12.7" y1="91.44" x2="25.4" y2="91.44" width="0.1524" layer="91"/>
 <label x="12.7" y="91.44" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP43" gate="G$1" pin="3"/>
+<wire x1="12.7" y1="-55.88" x2="30.48" y2="-55.88" width="0.1524" layer="91"/>
+<label x="12.7" y="-55.88" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="1-4" class="0">
 <segment>
 <pinref part="JP1" gate="G$1" pin="4"/>
 <wire x1="12.7" y1="93.98" x2="25.4" y2="93.98" width="0.1524" layer="91"/>
 <label x="12.7" y="93.98" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP43" gate="G$1" pin="4"/>
+<wire x1="12.7" y1="-53.34" x2="30.48" y2="-53.34" width="0.1524" layer="91"/>
+<label x="12.7" y="-53.34" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="1-5" class="0">
@@ -1421,12 +1442,24 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="12.7" y1="96.52" x2="25.4" y2="96.52" width="0.1524" layer="91"/>
 <label x="12.7" y="96.52" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP43" gate="G$1" pin="5"/>
+<wire x1="12.7" y1="-50.8" x2="30.48" y2="-50.8" width="0.1524" layer="91"/>
+<label x="12.7" y="-50.8" size="1.778" layer="95"/>
+<label x="12.7" y="-50.8" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="1-6" class="0">
 <segment>
 <pinref part="JP1" gate="G$1" pin="6"/>
 <wire x1="12.7" y1="99.06" x2="25.4" y2="99.06" width="0.1524" layer="91"/>
 <label x="12.7" y="99.06" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP42" gate="G$1" pin="1"/>
+<wire x1="12.7" y1="-43.18" x2="30.48" y2="-43.18" width="0.1524" layer="91"/>
+<label x="12.7" y="-43.18" size="1.778" layer="95"/>
+<label x="12.7" y="-43.18" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="1-7" class="0">
@@ -1435,12 +1468,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="12.7" y1="101.6" x2="25.4" y2="101.6" width="0.1524" layer="91"/>
 <label x="12.7" y="101.6" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP42" gate="G$1" pin="2"/>
+<wire x1="12.7" y1="-40.64" x2="30.48" y2="-40.64" width="0.1524" layer="91"/>
+<label x="12.7" y="-40.64" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="1-8" class="0">
 <segment>
 <pinref part="JP1" gate="G$1" pin="8"/>
 <wire x1="12.7" y1="104.14" x2="25.4" y2="104.14" width="0.1524" layer="91"/>
 <label x="12.7" y="104.14" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP42" gate="G$1" pin="3"/>
+<wire x1="12.7" y1="-38.1" x2="30.48" y2="-38.1" width="0.1524" layer="91"/>
+<label x="12.7" y="-38.1" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="1-9" class="0">
@@ -1449,12 +1492,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="12.7" y1="106.68" x2="25.4" y2="106.68" width="0.1524" layer="91"/>
 <label x="12.7" y="106.68" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP42" gate="G$1" pin="4"/>
+<wire x1="12.7" y1="-35.56" x2="30.48" y2="-35.56" width="0.1524" layer="91"/>
+<label x="12.7" y="-35.56" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="1-10" class="0">
 <segment>
 <pinref part="JP1" gate="G$1" pin="10"/>
 <wire x1="12.7" y1="109.22" x2="25.4" y2="109.22" width="0.1524" layer="91"/>
 <label x="12.7" y="109.22" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP42" gate="G$1" pin="5"/>
+<wire x1="12.7" y1="-33.02" x2="30.48" y2="-33.02" width="0.1524" layer="91"/>
+<label x="12.7" y="-33.02" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="1-11" class="0">
@@ -1463,12 +1516,23 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="12.7" y1="111.76" x2="25.4" y2="111.76" width="0.1524" layer="91"/>
 <label x="12.7" y="111.76" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP161" gate="G$1" pin="1"/>
+<wire x1="12.7" y1="-25.4" x2="30.48" y2="-25.4" width="0.1524" layer="91"/>
+<label x="12.7" y="-25.4" size="1.778" layer="95"/>
+<label x="12.7" y="-25.4" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="1-12" class="0">
 <segment>
 <pinref part="JP1" gate="G$1" pin="12"/>
 <wire x1="12.7" y1="114.3" x2="25.4" y2="114.3" width="0.1524" layer="91"/>
 <label x="12.7" y="114.3" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP161" gate="G$1" pin="2"/>
+<wire x1="12.7" y1="-22.86" x2="30.48" y2="-22.86" width="0.1524" layer="91"/>
+<label x="12.7" y="-22.86" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="1-13" class="0">
@@ -1477,12 +1541,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="12.7" y1="116.84" x2="25.4" y2="116.84" width="0.1524" layer="91"/>
 <label x="12.7" y="116.84" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP161" gate="G$1" pin="3"/>
+<wire x1="12.7" y1="-20.32" x2="30.48" y2="-20.32" width="0.1524" layer="91"/>
+<label x="12.7" y="-20.32" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="1-14" class="0">
 <segment>
 <pinref part="JP1" gate="G$1" pin="14"/>
 <wire x1="12.7" y1="119.38" x2="25.4" y2="119.38" width="0.1524" layer="91"/>
 <label x="12.7" y="119.38" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP161" gate="G$1" pin="4"/>
+<wire x1="12.7" y1="-17.78" x2="30.48" y2="-17.78" width="0.1524" layer="91"/>
+<label x="12.7" y="-17.78" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="1-15" class="0">
@@ -1491,12 +1565,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="12.7" y1="121.92" x2="25.4" y2="121.92" width="0.1524" layer="91"/>
 <label x="12.7" y="121.92" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP161" gate="G$1" pin="5"/>
+<wire x1="12.7" y1="-15.24" x2="30.48" y2="-15.24" width="0.1524" layer="91"/>
+<label x="12.7" y="-15.24" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="2-1" class="0">
 <segment>
 <pinref part="JP2" gate="G$1" pin="1"/>
 <wire x1="45.72" y1="86.36" x2="60.96" y2="86.36" width="0.1524" layer="91"/>
 <label x="45.72" y="86.36" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP46" gate="G$1" pin="1"/>
+<wire x1="45.72" y1="-60.96" x2="63.5" y2="-60.96" width="0.1524" layer="91"/>
+<label x="45.72" y="-60.96" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="2-2" class="0">
@@ -1505,12 +1589,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="45.72" y1="88.9" x2="60.96" y2="88.9" width="0.1524" layer="91"/>
 <label x="45.72" y="88.9" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP46" gate="G$1" pin="2"/>
+<wire x1="45.72" y1="-58.42" x2="63.5" y2="-58.42" width="0.1524" layer="91"/>
+<label x="45.72" y="-58.42" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="2-3" class="0">
 <segment>
 <pinref part="JP2" gate="G$1" pin="3"/>
 <wire x1="45.72" y1="91.44" x2="60.96" y2="91.44" width="0.1524" layer="91"/>
 <label x="45.72" y="91.44" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP46" gate="G$1" pin="3"/>
+<wire x1="45.72" y1="-55.88" x2="63.5" y2="-55.88" width="0.1524" layer="91"/>
+<label x="45.72" y="-55.88" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="2-4" class="0">
@@ -1519,12 +1613,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="45.72" y1="93.98" x2="60.96" y2="93.98" width="0.1524" layer="91"/>
 <label x="45.72" y="93.98" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP46" gate="G$1" pin="4"/>
+<wire x1="45.72" y1="-53.34" x2="63.5" y2="-53.34" width="0.1524" layer="91"/>
+<label x="45.72" y="-53.34" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="2-5" class="0">
 <segment>
 <pinref part="JP2" gate="G$1" pin="5"/>
 <wire x1="45.72" y1="96.52" x2="60.96" y2="96.52" width="0.1524" layer="91"/>
 <label x="45.72" y="96.52" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP46" gate="G$1" pin="5"/>
+<wire x1="45.72" y1="-50.8" x2="63.5" y2="-50.8" width="0.1524" layer="91"/>
+<label x="45.72" y="-50.8" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="2-6" class="0">
@@ -1533,12 +1637,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="45.72" y1="99.06" x2="60.96" y2="99.06" width="0.1524" layer="91"/>
 <label x="45.72" y="99.06" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP45" gate="G$1" pin="1"/>
+<wire x1="45.72" y1="-43.18" x2="63.5" y2="-43.18" width="0.1524" layer="91"/>
+<label x="45.72" y="-43.18" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="2-7" class="0">
 <segment>
 <pinref part="JP2" gate="G$1" pin="7"/>
 <wire x1="45.72" y1="101.6" x2="60.96" y2="101.6" width="0.1524" layer="91"/>
 <label x="45.72" y="101.6" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP45" gate="G$1" pin="2"/>
+<wire x1="45.72" y1="-40.64" x2="63.5" y2="-40.64" width="0.1524" layer="91"/>
+<label x="45.72" y="-40.64" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="2-8" class="0">
@@ -1547,12 +1661,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="45.72" y1="104.14" x2="60.96" y2="104.14" width="0.1524" layer="91"/>
 <label x="45.72" y="104.14" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP45" gate="G$1" pin="3"/>
+<wire x1="45.72" y1="-38.1" x2="63.5" y2="-38.1" width="0.1524" layer="91"/>
+<label x="45.72" y="-38.1" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="2-9" class="0">
 <segment>
 <pinref part="JP2" gate="G$1" pin="9"/>
 <wire x1="45.72" y1="106.68" x2="60.96" y2="106.68" width="0.1524" layer="91"/>
 <label x="45.72" y="106.68" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP45" gate="G$1" pin="4"/>
+<wire x1="45.72" y1="-35.56" x2="63.5" y2="-35.56" width="0.1524" layer="91"/>
+<label x="45.72" y="-35.56" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="2-10" class="0">
@@ -1561,12 +1685,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="45.72" y1="109.22" x2="60.96" y2="109.22" width="0.1524" layer="91"/>
 <label x="45.72" y="109.22" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP45" gate="G$1" pin="5"/>
+<wire x1="45.72" y1="-33.02" x2="63.5" y2="-33.02" width="0.1524" layer="91"/>
+<label x="45.72" y="-33.02" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="2-11" class="0">
 <segment>
 <pinref part="JP2" gate="G$1" pin="11"/>
 <wire x1="45.72" y1="111.76" x2="60.96" y2="111.76" width="0.1524" layer="91"/>
 <label x="45.72" y="111.76" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP44" gate="G$1" pin="1"/>
+<wire x1="45.72" y1="-25.4" x2="63.5" y2="-25.4" width="0.1524" layer="91"/>
+<label x="45.72" y="-25.4" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="2-12" class="0">
@@ -1575,12 +1709,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="45.72" y1="114.3" x2="60.96" y2="114.3" width="0.1524" layer="91"/>
 <label x="45.72" y="114.3" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP44" gate="G$1" pin="2"/>
+<wire x1="45.72" y1="-22.86" x2="63.5" y2="-22.86" width="0.1524" layer="91"/>
+<label x="45.72" y="-22.86" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="2-13" class="0">
 <segment>
 <pinref part="JP2" gate="G$1" pin="13"/>
 <wire x1="45.72" y1="116.84" x2="60.96" y2="116.84" width="0.1524" layer="91"/>
 <label x="45.72" y="116.84" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP44" gate="G$1" pin="3"/>
+<wire x1="45.72" y1="-20.32" x2="63.5" y2="-20.32" width="0.1524" layer="91"/>
+<label x="45.72" y="-20.32" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="2-14" class="0">
@@ -1589,12 +1733,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="45.72" y1="119.38" x2="60.96" y2="119.38" width="0.1524" layer="91"/>
 <label x="45.72" y="119.38" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP44" gate="G$1" pin="4"/>
+<wire x1="45.72" y1="-17.78" x2="63.5" y2="-17.78" width="0.1524" layer="91"/>
+<label x="45.72" y="-17.78" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="2-15" class="0">
 <segment>
 <pinref part="JP2" gate="G$1" pin="15"/>
 <wire x1="45.72" y1="121.92" x2="60.96" y2="121.92" width="0.1524" layer="91"/>
 <label x="45.72" y="121.92" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP44" gate="G$1" pin="5"/>
+<wire x1="45.72" y1="-15.24" x2="63.5" y2="-15.24" width="0.1524" layer="91"/>
+<label x="45.72" y="-15.24" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="3-1" class="0">
@@ -1603,12 +1757,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="78.74" y1="86.36" x2="93.98" y2="86.36" width="0.1524" layer="91"/>
 <label x="78.74" y="86.36" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP49" gate="G$1" pin="1"/>
+<wire x1="78.74" y1="-60.96" x2="96.52" y2="-60.96" width="0.1524" layer="91"/>
+<label x="78.74" y="-60.96" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="3-2" class="0">
 <segment>
 <pinref part="JP3" gate="G$1" pin="2"/>
 <wire x1="78.74" y1="88.9" x2="93.98" y2="88.9" width="0.1524" layer="91"/>
 <label x="78.74" y="88.9" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP49" gate="G$1" pin="2"/>
+<wire x1="78.74" y1="-58.42" x2="96.52" y2="-58.42" width="0.1524" layer="91"/>
+<label x="78.74" y="-58.42" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="3-3" class="0">
@@ -1617,12 +1781,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="78.74" y1="91.44" x2="93.98" y2="91.44" width="0.1524" layer="91"/>
 <label x="78.74" y="91.44" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP49" gate="G$1" pin="3"/>
+<wire x1="78.74" y1="-55.88" x2="96.52" y2="-55.88" width="0.1524" layer="91"/>
+<label x="78.74" y="-55.88" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="3-4" class="0">
 <segment>
 <pinref part="JP3" gate="G$1" pin="4"/>
 <wire x1="78.74" y1="93.98" x2="93.98" y2="93.98" width="0.1524" layer="91"/>
 <label x="78.74" y="93.98" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP49" gate="G$1" pin="4"/>
+<wire x1="78.74" y1="-53.34" x2="96.52" y2="-53.34" width="0.1524" layer="91"/>
+<label x="78.74" y="-53.34" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="3-5" class="0">
@@ -1631,12 +1805,23 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="78.74" y1="96.52" x2="93.98" y2="96.52" width="0.1524" layer="91"/>
 <label x="78.74" y="96.52" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP49" gate="G$1" pin="5"/>
+<wire x1="78.74" y1="-50.8" x2="96.52" y2="-50.8" width="0.1524" layer="91"/>
+<label x="78.74" y="-50.8" size="1.778" layer="95"/>
+<label x="78.74" y="-50.8" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="3-6" class="0">
 <segment>
 <pinref part="JP3" gate="G$1" pin="6"/>
 <wire x1="78.74" y1="99.06" x2="93.98" y2="99.06" width="0.1524" layer="91"/>
 <label x="78.74" y="99.06" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP48" gate="G$1" pin="1"/>
+<wire x1="78.74" y1="-43.18" x2="96.52" y2="-43.18" width="0.1524" layer="91"/>
+<label x="78.74" y="-43.18" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="3-7" class="0">
@@ -1645,12 +1830,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="78.74" y1="101.6" x2="93.98" y2="101.6" width="0.1524" layer="91"/>
 <label x="78.74" y="101.6" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP48" gate="G$1" pin="2"/>
+<wire x1="78.74" y1="-40.64" x2="96.52" y2="-40.64" width="0.1524" layer="91"/>
+<label x="78.74" y="-40.64" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="3-8" class="0">
 <segment>
 <pinref part="JP3" gate="G$1" pin="8"/>
 <wire x1="78.74" y1="104.14" x2="93.98" y2="104.14" width="0.1524" layer="91"/>
 <label x="78.74" y="104.14" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP48" gate="G$1" pin="3"/>
+<wire x1="78.74" y1="-38.1" x2="96.52" y2="-38.1" width="0.1524" layer="91"/>
+<label x="78.74" y="-38.1" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="3-9" class="0">
@@ -1659,12 +1854,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="78.74" y1="106.68" x2="93.98" y2="106.68" width="0.1524" layer="91"/>
 <label x="78.74" y="106.68" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP48" gate="G$1" pin="4"/>
+<wire x1="78.74" y1="-35.56" x2="96.52" y2="-35.56" width="0.1524" layer="91"/>
+<label x="78.74" y="-35.56" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="3-10" class="0">
 <segment>
 <pinref part="JP3" gate="G$1" pin="10"/>
 <wire x1="78.74" y1="109.22" x2="93.98" y2="109.22" width="0.1524" layer="91"/>
 <label x="78.74" y="109.22" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP48" gate="G$1" pin="5"/>
+<wire x1="78.74" y1="-33.02" x2="96.52" y2="-33.02" width="0.1524" layer="91"/>
+<label x="78.74" y="-33.02" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="3-11" class="0">
@@ -1673,12 +1878,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="78.74" y1="111.76" x2="93.98" y2="111.76" width="0.1524" layer="91"/>
 <label x="78.74" y="111.76" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP47" gate="G$1" pin="1"/>
+<wire x1="78.74" y1="-25.4" x2="96.52" y2="-25.4" width="0.1524" layer="91"/>
+<label x="78.74" y="-25.4" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="3-12" class="0">
 <segment>
 <pinref part="JP3" gate="G$1" pin="12"/>
 <wire x1="78.74" y1="114.3" x2="93.98" y2="114.3" width="0.1524" layer="91"/>
 <label x="78.74" y="114.3" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP47" gate="G$1" pin="2"/>
+<wire x1="78.74" y1="-22.86" x2="96.52" y2="-22.86" width="0.1524" layer="91"/>
+<label x="78.74" y="-22.86" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="3-13" class="0">
@@ -1687,12 +1902,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="78.74" y1="116.84" x2="93.98" y2="116.84" width="0.1524" layer="91"/>
 <label x="78.74" y="116.84" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP47" gate="G$1" pin="3"/>
+<wire x1="78.74" y1="-20.32" x2="96.52" y2="-20.32" width="0.1524" layer="91"/>
+<label x="78.74" y="-20.32" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="3-14" class="0">
 <segment>
 <pinref part="JP3" gate="G$1" pin="14"/>
 <wire x1="78.74" y1="119.38" x2="93.98" y2="119.38" width="0.1524" layer="91"/>
 <label x="78.74" y="119.38" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP47" gate="G$1" pin="4"/>
+<wire x1="78.74" y1="-17.78" x2="96.52" y2="-17.78" width="0.1524" layer="91"/>
+<label x="78.74" y="-17.78" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="3-15" class="0">
@@ -1701,12 +1926,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="78.74" y1="121.92" x2="93.98" y2="121.92" width="0.1524" layer="91"/>
 <label x="78.74" y="121.92" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP47" gate="G$1" pin="5"/>
+<wire x1="78.74" y1="-15.24" x2="96.52" y2="-15.24" width="0.1524" layer="91"/>
+<label x="78.74" y="-15.24" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="4-1" class="0">
 <segment>
 <pinref part="JP4" gate="G$1" pin="1"/>
 <wire x1="111.76" y1="86.36" x2="127" y2="86.36" width="0.1524" layer="91"/>
 <label x="111.76" y="86.36" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP52" gate="G$1" pin="1"/>
+<wire x1="111.76" y1="-60.96" x2="129.54" y2="-60.96" width="0.1524" layer="91"/>
+<label x="111.76" y="-60.96" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="4-2" class="0">
@@ -1715,12 +1950,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="111.76" y1="88.9" x2="127" y2="88.9" width="0.1524" layer="91"/>
 <label x="111.76" y="88.9" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP52" gate="G$1" pin="2"/>
+<wire x1="111.76" y1="-58.42" x2="129.54" y2="-58.42" width="0.1524" layer="91"/>
+<label x="111.76" y="-58.42" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="4-3" class="0">
 <segment>
 <pinref part="JP4" gate="G$1" pin="3"/>
 <wire x1="111.76" y1="91.44" x2="127" y2="91.44" width="0.1524" layer="91"/>
 <label x="111.76" y="91.44" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP52" gate="G$1" pin="3"/>
+<wire x1="111.76" y1="-55.88" x2="129.54" y2="-55.88" width="0.1524" layer="91"/>
+<label x="111.76" y="-55.88" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="4-4" class="0">
@@ -1729,12 +1974,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="111.76" y1="93.98" x2="127" y2="93.98" width="0.1524" layer="91"/>
 <label x="111.76" y="93.98" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP52" gate="G$1" pin="4"/>
+<wire x1="111.76" y1="-53.34" x2="129.54" y2="-53.34" width="0.1524" layer="91"/>
+<label x="111.76" y="-53.34" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="4-5" class="0">
 <segment>
 <pinref part="JP4" gate="G$1" pin="5"/>
 <wire x1="111.76" y1="96.52" x2="127" y2="96.52" width="0.1524" layer="91"/>
 <label x="111.76" y="96.52" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP52" gate="G$1" pin="5"/>
+<wire x1="111.76" y1="-50.8" x2="129.54" y2="-50.8" width="0.1524" layer="91"/>
+<label x="111.76" y="-50.8" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="4-6" class="0">
@@ -1743,12 +1998,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="111.76" y1="99.06" x2="127" y2="99.06" width="0.1524" layer="91"/>
 <label x="111.76" y="99.06" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP51" gate="G$1" pin="1"/>
+<wire x1="111.76" y1="-43.18" x2="129.54" y2="-43.18" width="0.1524" layer="91"/>
+<label x="111.76" y="-43.18" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="4-7" class="0">
 <segment>
 <pinref part="JP4" gate="G$1" pin="7"/>
 <wire x1="111.76" y1="101.6" x2="127" y2="101.6" width="0.1524" layer="91"/>
 <label x="111.76" y="101.6" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP51" gate="G$1" pin="2"/>
+<wire x1="111.76" y1="-40.64" x2="129.54" y2="-40.64" width="0.1524" layer="91"/>
+<label x="111.76" y="-40.64" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="4-8" class="0">
@@ -1757,12 +2022,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="111.76" y1="104.14" x2="127" y2="104.14" width="0.1524" layer="91"/>
 <label x="111.76" y="104.14" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP51" gate="G$1" pin="3"/>
+<wire x1="111.76" y1="-38.1" x2="129.54" y2="-38.1" width="0.1524" layer="91"/>
+<label x="111.76" y="-38.1" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="4-9" class="0">
 <segment>
 <pinref part="JP4" gate="G$1" pin="9"/>
 <wire x1="111.76" y1="106.68" x2="127" y2="106.68" width="0.1524" layer="91"/>
 <label x="111.76" y="106.68" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP51" gate="G$1" pin="4"/>
+<wire x1="111.76" y1="-35.56" x2="129.54" y2="-35.56" width="0.1524" layer="91"/>
+<label x="111.76" y="-35.56" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="4-10" class="0">
@@ -1771,12 +2046,23 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="111.76" y1="109.22" x2="127" y2="109.22" width="0.1524" layer="91"/>
 <label x="111.76" y="109.22" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP51" gate="G$1" pin="5"/>
+<wire x1="111.76" y1="-33.02" x2="129.54" y2="-33.02" width="0.1524" layer="91"/>
+<label x="111.76" y="-33.02" size="1.778" layer="95"/>
+<label x="111.76" y="-33.02" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="4-11" class="0">
 <segment>
 <pinref part="JP4" gate="G$1" pin="11"/>
 <wire x1="111.76" y1="111.76" x2="127" y2="111.76" width="0.1524" layer="91"/>
 <label x="111.76" y="111.76" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP50" gate="G$1" pin="1"/>
+<wire x1="111.76" y1="-25.4" x2="129.54" y2="-25.4" width="0.1524" layer="91"/>
+<label x="111.76" y="-25.4" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="4-12" class="0">
@@ -1785,12 +2071,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="111.76" y1="114.3" x2="127" y2="114.3" width="0.1524" layer="91"/>
 <label x="111.76" y="114.3" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP50" gate="G$1" pin="2"/>
+<wire x1="111.76" y1="-22.86" x2="129.54" y2="-22.86" width="0.1524" layer="91"/>
+<label x="111.76" y="-22.86" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="4-13" class="0">
 <segment>
 <pinref part="JP4" gate="G$1" pin="13"/>
 <wire x1="111.76" y1="116.84" x2="127" y2="116.84" width="0.1524" layer="91"/>
 <label x="111.76" y="116.84" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP50" gate="G$1" pin="3"/>
+<wire x1="111.76" y1="-20.32" x2="129.54" y2="-20.32" width="0.1524" layer="91"/>
+<label x="111.76" y="-20.32" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="4-14" class="0">
@@ -1799,12 +2095,23 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="111.76" y1="119.38" x2="127" y2="119.38" width="0.1524" layer="91"/>
 <label x="111.76" y="119.38" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP50" gate="G$1" pin="4"/>
+<wire x1="111.76" y1="-17.78" x2="129.54" y2="-17.78" width="0.1524" layer="91"/>
+<label x="111.76" y="-17.78" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="4-15" class="0">
 <segment>
 <pinref part="JP4" gate="G$1" pin="15"/>
 <wire x1="111.76" y1="121.92" x2="127" y2="121.92" width="0.1524" layer="91"/>
 <label x="111.76" y="121.92" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP50" gate="G$1" pin="5"/>
+<wire x1="111.76" y1="-15.24" x2="129.54" y2="-15.24" width="0.1524" layer="91"/>
+<label x="111.76" y="-15.24" size="1.778" layer="95"/>
+<label x="111.76" y="-15.24" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="5-1" class="0">
@@ -1813,12 +2120,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="142.24" y1="86.36" x2="154.94" y2="86.36" width="0.1524" layer="91"/>
 <label x="142.24" y="86.36" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP55" gate="G$1" pin="1"/>
+<wire x1="142.24" y1="-60.96" x2="160.02" y2="-60.96" width="0.1524" layer="91"/>
+<label x="142.24" y="-60.96" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="5-2" class="0">
 <segment>
 <pinref part="JP5" gate="G$1" pin="2"/>
 <wire x1="142.24" y1="88.9" x2="154.94" y2="88.9" width="0.1524" layer="91"/>
 <label x="142.24" y="88.9" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP55" gate="G$1" pin="2"/>
+<wire x1="142.24" y1="-58.42" x2="160.02" y2="-58.42" width="0.1524" layer="91"/>
+<label x="142.24" y="-58.42" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="5-3" class="0">
@@ -1827,12 +2144,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="142.24" y1="91.44" x2="154.94" y2="91.44" width="0.1524" layer="91"/>
 <label x="142.24" y="91.44" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP55" gate="G$1" pin="3"/>
+<wire x1="142.24" y1="-55.88" x2="160.02" y2="-55.88" width="0.1524" layer="91"/>
+<label x="142.24" y="-55.88" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="5-4" class="0">
 <segment>
 <pinref part="JP5" gate="G$1" pin="4"/>
 <wire x1="142.24" y1="93.98" x2="154.94" y2="93.98" width="0.1524" layer="91"/>
 <label x="142.24" y="93.98" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP55" gate="G$1" pin="4"/>
+<wire x1="142.24" y1="-53.34" x2="160.02" y2="-53.34" width="0.1524" layer="91"/>
+<label x="142.24" y="-53.34" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="5-5" class="0">
@@ -1841,12 +2168,23 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="142.24" y1="96.52" x2="154.94" y2="96.52" width="0.1524" layer="91"/>
 <label x="142.24" y="96.52" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP55" gate="G$1" pin="5"/>
+<wire x1="142.24" y1="-50.8" x2="160.02" y2="-50.8" width="0.1524" layer="91"/>
+<label x="142.24" y="-50.8" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="5-6" class="0">
 <segment>
 <pinref part="JP5" gate="G$1" pin="6"/>
 <wire x1="142.24" y1="99.06" x2="154.94" y2="99.06" width="0.1524" layer="91"/>
 <label x="142.24" y="99.06" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP54" gate="G$1" pin="1"/>
+<wire x1="142.24" y1="-43.18" x2="160.02" y2="-43.18" width="0.1524" layer="91"/>
+<label x="142.24" y="-43.18" size="1.778" layer="95"/>
+<label x="142.24" y="-43.18" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="5-7" class="0">
@@ -1855,12 +2193,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="142.24" y1="101.6" x2="154.94" y2="101.6" width="0.1524" layer="91"/>
 <label x="142.24" y="101.6" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP54" gate="G$1" pin="2"/>
+<wire x1="142.24" y1="-40.64" x2="160.02" y2="-40.64" width="0.1524" layer="91"/>
+<label x="142.24" y="-40.64" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="5-8" class="0">
 <segment>
 <pinref part="JP5" gate="G$1" pin="8"/>
 <wire x1="142.24" y1="104.14" x2="154.94" y2="104.14" width="0.1524" layer="91"/>
 <label x="142.24" y="104.14" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP54" gate="G$1" pin="3"/>
+<wire x1="142.24" y1="-38.1" x2="160.02" y2="-38.1" width="0.1524" layer="91"/>
+<label x="142.24" y="-38.1" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="5-9" class="0">
@@ -1869,12 +2217,23 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="142.24" y1="106.68" x2="154.94" y2="106.68" width="0.1524" layer="91"/>
 <label x="142.24" y="106.68" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP54" gate="G$1" pin="4"/>
+<wire x1="142.24" y1="-35.56" x2="160.02" y2="-35.56" width="0.1524" layer="91"/>
+<label x="142.24" y="-35.56" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="5-10" class="0">
 <segment>
 <pinref part="JP5" gate="G$1" pin="10"/>
 <wire x1="142.24" y1="109.22" x2="154.94" y2="109.22" width="0.1524" layer="91"/>
 <label x="142.24" y="109.22" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP54" gate="G$1" pin="5"/>
+<wire x1="142.24" y1="-33.02" x2="160.02" y2="-33.02" width="0.1524" layer="91"/>
+<label x="142.24" y="-33.02" size="1.778" layer="95"/>
+<label x="142.24" y="-33.02" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="5-11" class="0">
@@ -1883,12 +2242,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="142.24" y1="111.76" x2="154.94" y2="111.76" width="0.1524" layer="91"/>
 <label x="142.24" y="111.76" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP53" gate="G$1" pin="1"/>
+<wire x1="142.24" y1="-25.4" x2="160.02" y2="-25.4" width="0.1524" layer="91"/>
+<label x="142.24" y="-25.4" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="5-12" class="0">
 <segment>
 <pinref part="JP5" gate="G$1" pin="12"/>
 <wire x1="142.24" y1="114.3" x2="154.94" y2="114.3" width="0.1524" layer="91"/>
 <label x="142.24" y="114.3" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP53" gate="G$1" pin="2"/>
+<wire x1="142.24" y1="-22.86" x2="160.02" y2="-22.86" width="0.1524" layer="91"/>
+<label x="142.24" y="-22.86" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="5-13" class="0">
@@ -1897,12 +2266,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="142.24" y1="116.84" x2="154.94" y2="116.84" width="0.1524" layer="91"/>
 <label x="142.24" y="116.84" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP53" gate="G$1" pin="3"/>
+<wire x1="142.24" y1="-20.32" x2="160.02" y2="-20.32" width="0.1524" layer="91"/>
+<label x="142.24" y="-20.32" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="5-14" class="0">
 <segment>
 <pinref part="JP5" gate="G$1" pin="14"/>
 <wire x1="142.24" y1="119.38" x2="154.94" y2="119.38" width="0.1524" layer="91"/>
 <label x="142.24" y="119.38" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP53" gate="G$1" pin="4"/>
+<wire x1="142.24" y1="-17.78" x2="160.02" y2="-17.78" width="0.1524" layer="91"/>
+<label x="142.24" y="-17.78" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="5-15" class="0">
@@ -1911,12 +2290,23 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="142.24" y1="121.92" x2="154.94" y2="121.92" width="0.1524" layer="91"/>
 <label x="142.24" y="121.92" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP53" gate="G$1" pin="5"/>
+<wire x1="142.24" y1="-15.24" x2="160.02" y2="-15.24" width="0.1524" layer="91"/>
+<label x="142.24" y="-15.24" size="1.778" layer="95"/>
+<label x="142.24" y="-15.24" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="6-1" class="0">
 <segment>
 <pinref part="JP6" gate="G$1" pin="1"/>
 <wire x1="172.72" y1="86.36" x2="187.96" y2="86.36" width="0.1524" layer="91"/>
 <label x="172.72" y="86.36" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP58" gate="G$1" pin="1"/>
+<wire x1="175.26" y1="-60.96" x2="193.04" y2="-60.96" width="0.1524" layer="91"/>
+<label x="175.26" y="-60.96" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="6-2" class="0">
@@ -1925,12 +2315,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="172.72" y1="88.9" x2="187.96" y2="88.9" width="0.1524" layer="91"/>
 <label x="172.72" y="88.9" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP58" gate="G$1" pin="2"/>
+<wire x1="175.26" y1="-58.42" x2="193.04" y2="-58.42" width="0.1524" layer="91"/>
+<label x="175.26" y="-58.42" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="6-3" class="0">
 <segment>
 <pinref part="JP6" gate="G$1" pin="3"/>
 <wire x1="172.72" y1="91.44" x2="187.96" y2="91.44" width="0.1524" layer="91"/>
 <label x="172.72" y="91.44" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP58" gate="G$1" pin="3"/>
+<wire x1="175.26" y1="-55.88" x2="193.04" y2="-55.88" width="0.1524" layer="91"/>
+<label x="175.26" y="-55.88" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="6-4" class="0">
@@ -1939,12 +2339,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="172.72" y1="93.98" x2="187.96" y2="93.98" width="0.1524" layer="91"/>
 <label x="172.72" y="93.98" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP58" gate="G$1" pin="4"/>
+<wire x1="175.26" y1="-53.34" x2="193.04" y2="-53.34" width="0.1524" layer="91"/>
+<label x="175.26" y="-53.34" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="6-5" class="0">
 <segment>
 <pinref part="JP6" gate="G$1" pin="5"/>
 <wire x1="172.72" y1="96.52" x2="187.96" y2="96.52" width="0.1524" layer="91"/>
 <label x="172.72" y="96.52" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP58" gate="G$1" pin="5"/>
+<wire x1="175.26" y1="-50.8" x2="193.04" y2="-50.8" width="0.1524" layer="91"/>
+<label x="175.26" y="-50.8" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="6-6" class="0">
@@ -1953,12 +2363,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="172.72" y1="99.06" x2="187.96" y2="99.06" width="0.1524" layer="91"/>
 <label x="172.72" y="99.06" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP57" gate="G$1" pin="1"/>
+<wire x1="175.26" y1="-43.18" x2="193.04" y2="-43.18" width="0.1524" layer="91"/>
+<label x="175.26" y="-43.18" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="6-7" class="0">
 <segment>
 <pinref part="JP6" gate="G$1" pin="7"/>
 <wire x1="172.72" y1="101.6" x2="187.96" y2="101.6" width="0.1524" layer="91"/>
 <label x="172.72" y="101.6" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP57" gate="G$1" pin="2"/>
+<wire x1="175.26" y1="-40.64" x2="193.04" y2="-40.64" width="0.1524" layer="91"/>
+<label x="175.26" y="-40.64" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="6-8" class="0">
@@ -1967,12 +2387,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="172.72" y1="104.14" x2="187.96" y2="104.14" width="0.1524" layer="91"/>
 <label x="172.72" y="104.14" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP57" gate="G$1" pin="3"/>
+<wire x1="175.26" y1="-38.1" x2="193.04" y2="-38.1" width="0.1524" layer="91"/>
+<label x="175.26" y="-38.1" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="6-9" class="0">
 <segment>
 <pinref part="JP6" gate="G$1" pin="9"/>
 <wire x1="172.72" y1="106.68" x2="187.96" y2="106.68" width="0.1524" layer="91"/>
 <label x="172.72" y="106.68" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP57" gate="G$1" pin="4"/>
+<wire x1="175.26" y1="-35.56" x2="193.04" y2="-35.56" width="0.1524" layer="91"/>
+<label x="175.26" y="-35.56" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="6-10" class="0">
@@ -1981,12 +2411,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="172.72" y1="109.22" x2="187.96" y2="109.22" width="0.1524" layer="91"/>
 <label x="172.72" y="109.22" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP57" gate="G$1" pin="5"/>
+<wire x1="175.26" y1="-33.02" x2="193.04" y2="-33.02" width="0.1524" layer="91"/>
+<label x="175.26" y="-33.02" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="6-11" class="0">
 <segment>
 <pinref part="JP6" gate="G$1" pin="11"/>
 <wire x1="172.72" y1="111.76" x2="187.96" y2="111.76" width="0.1524" layer="91"/>
 <label x="172.72" y="111.76" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP56" gate="G$1" pin="1"/>
+<wire x1="175.26" y1="-25.4" x2="193.04" y2="-25.4" width="0.1524" layer="91"/>
+<label x="175.26" y="-25.4" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="6-12" class="0">
@@ -1995,12 +2435,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="172.72" y1="114.3" x2="187.96" y2="114.3" width="0.1524" layer="91"/>
 <label x="172.72" y="114.3" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP56" gate="G$1" pin="2"/>
+<wire x1="175.26" y1="-22.86" x2="193.04" y2="-22.86" width="0.1524" layer="91"/>
+<label x="175.26" y="-22.86" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="6-13" class="0">
 <segment>
 <pinref part="JP6" gate="G$1" pin="13"/>
 <wire x1="172.72" y1="116.84" x2="187.96" y2="116.84" width="0.1524" layer="91"/>
 <label x="172.72" y="116.84" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP56" gate="G$1" pin="3"/>
+<wire x1="175.26" y1="-20.32" x2="193.04" y2="-20.32" width="0.1524" layer="91"/>
+<label x="175.26" y="-20.32" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="6-14" class="0">
@@ -2009,12 +2459,23 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="172.72" y1="119.38" x2="187.96" y2="119.38" width="0.1524" layer="91"/>
 <label x="172.72" y="119.38" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP56" gate="G$1" pin="4"/>
+<wire x1="175.26" y1="-17.78" x2="193.04" y2="-17.78" width="0.1524" layer="91"/>
+<label x="175.26" y="-17.78" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="6-15" class="0">
 <segment>
 <pinref part="JP6" gate="G$1" pin="15"/>
 <wire x1="172.72" y1="121.92" x2="187.96" y2="121.92" width="0.1524" layer="91"/>
 <label x="172.72" y="121.92" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP56" gate="G$1" pin="5"/>
+<wire x1="175.26" y1="-15.24" x2="193.04" y2="-15.24" width="0.1524" layer="91"/>
+<label x="175.26" y="-15.24" size="1.778" layer="95"/>
+<label x="175.26" y="-15.24" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="7-1" class="0">
@@ -2023,12 +2484,23 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="203.2" y1="86.36" x2="220.98" y2="86.36" width="0.1524" layer="91"/>
 <label x="203.2" y="86.36" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP61" gate="G$1" pin="1"/>
+<wire x1="208.28" y1="-60.96" x2="226.06" y2="-60.96" width="0.1524" layer="91"/>
+<label x="208.28" y="-60.96" size="1.778" layer="95"/>
+<label x="208.28" y="-60.96" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="7-2" class="0">
 <segment>
 <pinref part="JP7" gate="G$1" pin="2"/>
 <wire x1="203.2" y1="88.9" x2="220.98" y2="88.9" width="0.1524" layer="91"/>
 <label x="203.2" y="88.9" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP61" gate="G$1" pin="2"/>
+<wire x1="208.28" y1="-58.42" x2="226.06" y2="-58.42" width="0.1524" layer="91"/>
+<label x="208.28" y="-58.42" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="7-3" class="0">
@@ -2037,12 +2509,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="203.2" y1="91.44" x2="220.98" y2="91.44" width="0.1524" layer="91"/>
 <label x="203.2" y="91.44" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP61" gate="G$1" pin="3"/>
+<wire x1="208.28" y1="-55.88" x2="226.06" y2="-55.88" width="0.1524" layer="91"/>
+<label x="208.28" y="-55.88" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="7-4" class="0">
 <segment>
 <pinref part="JP7" gate="G$1" pin="4"/>
 <wire x1="203.2" y1="93.98" x2="220.98" y2="93.98" width="0.1524" layer="91"/>
 <label x="203.2" y="93.98" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP61" gate="G$1" pin="4"/>
+<wire x1="208.28" y1="-53.34" x2="226.06" y2="-53.34" width="0.1524" layer="91"/>
+<label x="208.28" y="-53.34" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="7-5" class="0">
@@ -2051,12 +2533,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="203.2" y1="96.52" x2="220.98" y2="96.52" width="0.1524" layer="91"/>
 <label x="203.2" y="96.52" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP61" gate="G$1" pin="5"/>
+<wire x1="208.28" y1="-50.8" x2="226.06" y2="-50.8" width="0.1524" layer="91"/>
+<label x="208.28" y="-50.8" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="7-6" class="0">
 <segment>
 <pinref part="JP7" gate="G$1" pin="6"/>
 <wire x1="203.2" y1="99.06" x2="220.98" y2="99.06" width="0.1524" layer="91"/>
 <label x="203.2" y="99.06" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP60" gate="G$1" pin="1"/>
+<wire x1="208.28" y1="-43.18" x2="226.06" y2="-43.18" width="0.1524" layer="91"/>
+<label x="208.28" y="-43.18" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="7-7" class="0">
@@ -2065,12 +2557,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="203.2" y1="101.6" x2="220.98" y2="101.6" width="0.1524" layer="91"/>
 <label x="203.2" y="101.6" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP60" gate="G$1" pin="2"/>
+<wire x1="208.28" y1="-40.64" x2="226.06" y2="-40.64" width="0.1524" layer="91"/>
+<label x="208.28" y="-40.64" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="7-8" class="0">
 <segment>
 <pinref part="JP7" gate="G$1" pin="8"/>
 <wire x1="203.2" y1="104.14" x2="220.98" y2="104.14" width="0.1524" layer="91"/>
 <label x="203.2" y="104.14" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP60" gate="G$1" pin="3"/>
+<wire x1="208.28" y1="-38.1" x2="226.06" y2="-38.1" width="0.1524" layer="91"/>
+<label x="208.28" y="-38.1" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="7-9" class="0">
@@ -2079,12 +2581,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="203.2" y1="106.68" x2="220.98" y2="106.68" width="0.1524" layer="91"/>
 <label x="203.2" y="106.68" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP60" gate="G$1" pin="4"/>
+<wire x1="208.28" y1="-35.56" x2="226.06" y2="-35.56" width="0.1524" layer="91"/>
+<label x="208.28" y="-35.56" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="7-10" class="0">
 <segment>
 <pinref part="JP7" gate="G$1" pin="10"/>
 <wire x1="203.2" y1="109.22" x2="220.98" y2="109.22" width="0.1524" layer="91"/>
 <label x="203.2" y="109.22" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP60" gate="G$1" pin="5"/>
+<wire x1="208.28" y1="-33.02" x2="226.06" y2="-33.02" width="0.1524" layer="91"/>
+<label x="208.28" y="-33.02" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="7-11" class="0">
@@ -2093,12 +2605,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="203.2" y1="111.76" x2="220.98" y2="111.76" width="0.1524" layer="91"/>
 <label x="203.2" y="111.76" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP59" gate="G$1" pin="1"/>
+<wire x1="208.28" y1="-25.4" x2="226.06" y2="-25.4" width="0.1524" layer="91"/>
+<label x="208.28" y="-25.4" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="7-12" class="0">
 <segment>
 <pinref part="JP7" gate="G$1" pin="12"/>
 <wire x1="203.2" y1="114.3" x2="220.98" y2="114.3" width="0.1524" layer="91"/>
 <label x="203.2" y="114.3" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP59" gate="G$1" pin="2"/>
+<wire x1="208.28" y1="-22.86" x2="226.06" y2="-22.86" width="0.1524" layer="91"/>
+<label x="208.28" y="-22.86" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="7-13" class="0">
@@ -2107,12 +2629,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="203.2" y1="116.84" x2="220.98" y2="116.84" width="0.1524" layer="91"/>
 <label x="203.2" y="116.84" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP59" gate="G$1" pin="3"/>
+<wire x1="208.28" y1="-20.32" x2="226.06" y2="-20.32" width="0.1524" layer="91"/>
+<label x="208.28" y="-20.32" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="7-14" class="0">
 <segment>
 <pinref part="JP7" gate="G$1" pin="14"/>
 <wire x1="203.2" y1="119.38" x2="220.98" y2="119.38" width="0.1524" layer="91"/>
 <label x="203.2" y="119.38" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP59" gate="G$1" pin="4"/>
+<wire x1="208.28" y1="-17.78" x2="226.06" y2="-17.78" width="0.1524" layer="91"/>
+<label x="208.28" y="-17.78" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="7-15" class="0">
@@ -2121,12 +2653,23 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="203.2" y1="121.92" x2="220.98" y2="121.92" width="0.1524" layer="91"/>
 <label x="203.2" y="121.92" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP59" gate="G$1" pin="5"/>
+<wire x1="208.28" y1="-15.24" x2="226.06" y2="-15.24" width="0.1524" layer="91"/>
+<label x="208.28" y="-15.24" size="1.778" layer="95"/>
+<label x="208.28" y="-15.24" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="8-1" class="0">
 <segment>
 <pinref part="JP8" gate="G$1" pin="1"/>
 <wire x1="233.68" y1="86.36" x2="254" y2="86.36" width="0.1524" layer="91"/>
 <label x="233.68" y="86.36" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP64" gate="G$1" pin="1"/>
+<wire x1="241.3" y1="-60.96" x2="259.08" y2="-60.96" width="0.1524" layer="91"/>
+<label x="241.3" y="-60.96" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="8-2" class="0">
@@ -2135,12 +2678,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="233.68" y1="88.9" x2="254" y2="88.9" width="0.1524" layer="91"/>
 <label x="233.68" y="88.9" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP64" gate="G$1" pin="2"/>
+<wire x1="241.3" y1="-58.42" x2="259.08" y2="-58.42" width="0.1524" layer="91"/>
+<label x="241.3" y="-58.42" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="8-3" class="0">
 <segment>
 <pinref part="JP8" gate="G$1" pin="3"/>
 <wire x1="233.68" y1="91.44" x2="254" y2="91.44" width="0.1524" layer="91"/>
 <label x="233.68" y="91.44" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP64" gate="G$1" pin="3"/>
+<wire x1="241.3" y1="-55.88" x2="259.08" y2="-55.88" width="0.1524" layer="91"/>
+<label x="241.3" y="-55.88" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="8-4" class="0">
@@ -2149,12 +2702,23 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="233.68" y1="93.98" x2="254" y2="93.98" width="0.1524" layer="91"/>
 <label x="233.68" y="93.98" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP64" gate="G$1" pin="4"/>
+<wire x1="241.3" y1="-53.34" x2="259.08" y2="-53.34" width="0.1524" layer="91"/>
+<label x="241.3" y="-53.34" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="8-5" class="0">
 <segment>
 <pinref part="JP8" gate="G$1" pin="5"/>
 <wire x1="233.68" y1="96.52" x2="251.46" y2="96.52" width="0.1524" layer="91"/>
 <label x="233.68" y="96.52" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP64" gate="G$1" pin="5"/>
+<wire x1="241.3" y1="-50.8" x2="259.08" y2="-50.8" width="0.1524" layer="91"/>
+<label x="241.3" y="-50.8" size="1.778" layer="95"/>
+<label x="241.3" y="-50.8" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="8-6" class="0">
@@ -2163,12 +2727,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="233.68" y1="99.06" x2="251.46" y2="99.06" width="0.1524" layer="91"/>
 <label x="233.68" y="99.06" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP63" gate="G$1" pin="1"/>
+<wire x1="241.3" y1="-43.18" x2="259.08" y2="-43.18" width="0.1524" layer="91"/>
+<label x="241.3" y="-43.18" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="8-7" class="0">
 <segment>
 <pinref part="JP8" gate="G$1" pin="7"/>
 <wire x1="233.68" y1="101.6" x2="251.46" y2="101.6" width="0.1524" layer="91"/>
 <label x="233.68" y="101.6" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP63" gate="G$1" pin="2"/>
+<wire x1="241.3" y1="-40.64" x2="259.08" y2="-40.64" width="0.1524" layer="91"/>
+<label x="241.3" y="-40.64" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="8-8" class="0">
@@ -2177,12 +2751,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="233.68" y1="104.14" x2="251.46" y2="104.14" width="0.1524" layer="91"/>
 <label x="233.68" y="104.14" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP63" gate="G$1" pin="3"/>
+<wire x1="241.3" y1="-38.1" x2="259.08" y2="-38.1" width="0.1524" layer="91"/>
+<label x="241.3" y="-38.1" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="8-9" class="0">
 <segment>
 <pinref part="JP8" gate="G$1" pin="9"/>
 <wire x1="233.68" y1="106.68" x2="251.46" y2="106.68" width="0.1524" layer="91"/>
 <label x="233.68" y="106.68" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP63" gate="G$1" pin="4"/>
+<wire x1="241.3" y1="-35.56" x2="259.08" y2="-35.56" width="0.1524" layer="91"/>
+<label x="241.3" y="-35.56" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="8-10" class="0">
@@ -2191,12 +2775,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="233.68" y1="109.22" x2="251.46" y2="109.22" width="0.1524" layer="91"/>
 <label x="233.68" y="109.22" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP63" gate="G$1" pin="5"/>
+<wire x1="241.3" y1="-33.02" x2="259.08" y2="-33.02" width="0.1524" layer="91"/>
+<label x="241.3" y="-33.02" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="8-11" class="0">
 <segment>
 <pinref part="JP8" gate="G$1" pin="11"/>
 <wire x1="233.68" y1="111.76" x2="251.46" y2="111.76" width="0.1524" layer="91"/>
 <label x="233.68" y="111.76" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP62" gate="G$1" pin="1"/>
+<wire x1="241.3" y1="-25.4" x2="259.08" y2="-25.4" width="0.1524" layer="91"/>
+<label x="241.3" y="-25.4" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="8-12" class="0">
@@ -2205,12 +2799,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="233.68" y1="114.3" x2="251.46" y2="114.3" width="0.1524" layer="91"/>
 <label x="233.68" y="114.3" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP62" gate="G$1" pin="2"/>
+<wire x1="241.3" y1="-22.86" x2="259.08" y2="-22.86" width="0.1524" layer="91"/>
+<label x="241.3" y="-22.86" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="8-13" class="0">
 <segment>
 <pinref part="JP8" gate="G$1" pin="13"/>
 <wire x1="233.68" y1="116.84" x2="251.46" y2="116.84" width="0.1524" layer="91"/>
 <label x="233.68" y="116.84" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP62" gate="G$1" pin="3"/>
+<wire x1="241.3" y1="-20.32" x2="259.08" y2="-20.32" width="0.1524" layer="91"/>
+<label x="241.3" y="-20.32" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="8-14" class="0">
@@ -2219,12 +2823,24 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="233.68" y1="119.38" x2="251.46" y2="119.38" width="0.1524" layer="91"/>
 <label x="233.68" y="119.38" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP62" gate="G$1" pin="4"/>
+<wire x1="241.3" y1="-17.78" x2="259.08" y2="-17.78" width="0.1524" layer="91"/>
+<label x="241.3" y="-17.78" size="1.778" layer="95"/>
+<label x="241.3" y="-17.78" size="1.778" layer="95"/>
+<label x="241.3" y="-17.78" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="8-15" class="0">
 <segment>
 <pinref part="JP8" gate="G$1" pin="15"/>
 <wire x1="233.68" y1="121.92" x2="251.46" y2="121.92" width="0.1524" layer="91"/>
 <label x="233.68" y="121.92" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP62" gate="G$1" pin="5"/>
+<wire x1="241.3" y1="-15.24" x2="259.08" y2="-15.24" width="0.1524" layer="91"/>
+<label x="241.3" y="-15.24" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="9-15" class="0">
@@ -2233,12 +2849,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="266.7" y1="121.92" x2="284.48" y2="121.92" width="0.1524" layer="91"/>
 <label x="266.7" y="121.92" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP65" gate="G$1" pin="5"/>
+<wire x1="274.32" y1="-15.24" x2="292.1" y2="-15.24" width="0.1524" layer="91"/>
+<label x="274.32" y="-15.24" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="9-14" class="0">
 <segment>
 <pinref part="JP9" gate="G$1" pin="14"/>
 <wire x1="266.7" y1="119.38" x2="284.48" y2="119.38" width="0.1524" layer="91"/>
 <label x="266.7" y="119.38" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP65" gate="G$1" pin="4"/>
+<wire x1="274.32" y1="-17.78" x2="292.1" y2="-17.78" width="0.1524" layer="91"/>
+<label x="274.32" y="-17.78" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="9-13" class="0">
@@ -2247,12 +2873,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="266.7" y1="116.84" x2="284.48" y2="116.84" width="0.1524" layer="91"/>
 <label x="266.7" y="116.84" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP65" gate="G$1" pin="3"/>
+<wire x1="274.32" y1="-20.32" x2="292.1" y2="-20.32" width="0.1524" layer="91"/>
+<label x="274.32" y="-20.32" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="9-12" class="0">
 <segment>
 <pinref part="JP9" gate="G$1" pin="12"/>
 <wire x1="266.7" y1="114.3" x2="284.48" y2="114.3" width="0.1524" layer="91"/>
 <label x="266.7" y="114.3" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP65" gate="G$1" pin="2"/>
+<wire x1="274.32" y1="-22.86" x2="292.1" y2="-22.86" width="0.1524" layer="91"/>
+<label x="274.32" y="-22.86" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="9-11" class="0">
@@ -2261,12 +2897,23 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="266.7" y1="111.76" x2="284.48" y2="111.76" width="0.1524" layer="91"/>
 <label x="266.7" y="111.76" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP65" gate="G$1" pin="1"/>
+<wire x1="274.32" y1="-25.4" x2="292.1" y2="-25.4" width="0.1524" layer="91"/>
+<label x="274.32" y="-25.4" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="9-10" class="0">
 <segment>
 <pinref part="JP9" gate="G$1" pin="10"/>
 <wire x1="266.7" y1="109.22" x2="284.48" y2="109.22" width="0.1524" layer="91"/>
 <label x="266.7" y="109.22" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP66" gate="G$1" pin="5"/>
+<wire x1="274.32" y1="-33.02" x2="292.1" y2="-33.02" width="0.1524" layer="91"/>
+<label x="274.32" y="-33.02" size="1.778" layer="95"/>
+<label x="274.32" y="-33.02" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="9-9" class="0">
@@ -2275,12 +2922,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="266.7" y1="106.68" x2="284.48" y2="106.68" width="0.1524" layer="91"/>
 <label x="266.7" y="106.68" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP66" gate="G$1" pin="4"/>
+<wire x1="274.32" y1="-35.56" x2="292.1" y2="-35.56" width="0.1524" layer="91"/>
+<label x="274.32" y="-35.56" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="9-8" class="0">
 <segment>
 <pinref part="JP9" gate="G$1" pin="8"/>
 <wire x1="266.7" y1="104.14" x2="281.94" y2="104.14" width="0.1524" layer="91"/>
 <label x="266.7" y="104.14" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP66" gate="G$1" pin="3"/>
+<wire x1="274.32" y1="-38.1" x2="292.1" y2="-38.1" width="0.1524" layer="91"/>
+<label x="274.32" y="-38.1" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="9-7" class="0">
@@ -2289,12 +2946,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="266.7" y1="101.6" x2="284.48" y2="101.6" width="0.1524" layer="91"/>
 <label x="266.7" y="101.6" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP66" gate="G$1" pin="2"/>
+<wire x1="274.32" y1="-40.64" x2="292.1" y2="-40.64" width="0.1524" layer="91"/>
+<label x="274.32" y="-40.64" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="9-6" class="0">
 <segment>
 <pinref part="JP9" gate="G$1" pin="6"/>
 <wire x1="266.7" y1="99.06" x2="284.48" y2="99.06" width="0.1524" layer="91"/>
 <label x="266.7" y="99.06" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP66" gate="G$1" pin="1"/>
+<wire x1="274.32" y1="-43.18" x2="292.1" y2="-43.18" width="0.1524" layer="91"/>
+<label x="274.32" y="-43.18" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="9-5" class="0">
@@ -2303,12 +2970,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="266.7" y1="96.52" x2="284.48" y2="96.52" width="0.1524" layer="91"/>
 <label x="266.7" y="96.52" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP67" gate="G$1" pin="5"/>
+<wire x1="274.32" y1="-50.8" x2="292.1" y2="-50.8" width="0.1524" layer="91"/>
+<label x="274.32" y="-50.8" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="9-4" class="0">
 <segment>
 <pinref part="JP9" gate="G$1" pin="4"/>
 <wire x1="266.7" y1="93.98" x2="284.48" y2="93.98" width="0.1524" layer="91"/>
 <label x="266.7" y="93.98" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP67" gate="G$1" pin="4"/>
+<wire x1="274.32" y1="-53.34" x2="292.1" y2="-53.34" width="0.1524" layer="91"/>
+<label x="274.32" y="-53.34" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="9-3" class="0">
@@ -2317,12 +2994,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="266.7" y1="91.44" x2="284.48" y2="91.44" width="0.1524" layer="91"/>
 <label x="266.7" y="91.44" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP67" gate="G$1" pin="3"/>
+<wire x1="274.32" y1="-55.88" x2="292.1" y2="-55.88" width="0.1524" layer="91"/>
+<label x="274.32" y="-55.88" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="9-2" class="0">
 <segment>
 <pinref part="JP9" gate="G$1" pin="2"/>
 <wire x1="266.7" y1="88.9" x2="284.48" y2="88.9" width="0.1524" layer="91"/>
 <label x="266.7" y="88.9" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP67" gate="G$1" pin="2"/>
+<wire x1="274.32" y1="-58.42" x2="292.1" y2="-58.42" width="0.1524" layer="91"/>
+<label x="274.32" y="-58.42" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="9-1" class="0">
@@ -2331,12 +3018,23 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="266.7" y1="86.36" x2="284.48" y2="86.36" width="0.1524" layer="91"/>
 <label x="266.7" y="86.36" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP67" gate="G$1" pin="1"/>
+<wire x1="274.32" y1="-60.96" x2="292.1" y2="-60.96" width="0.1524" layer="91"/>
+<label x="274.32" y="-60.96" size="1.778" layer="95"/>
+<label x="274.32" y="-60.96" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="10-15" class="0">
 <segment>
 <pinref part="JP10" gate="G$1" pin="15"/>
 <wire x1="302.26" y1="121.92" x2="320.04" y2="121.92" width="0.1524" layer="91"/>
 <label x="302.26" y="121.92" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP68" gate="G$1" pin="5"/>
+<wire x1="307.34" y1="-15.24" x2="325.12" y2="-15.24" width="0.1524" layer="91"/>
+<label x="307.34" y="-15.24" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="10-14" class="0">
@@ -2345,12 +3043,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="302.26" y1="119.38" x2="320.04" y2="119.38" width="0.1524" layer="91"/>
 <label x="302.26" y="119.38" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP68" gate="G$1" pin="4"/>
+<wire x1="307.34" y1="-17.78" x2="325.12" y2="-17.78" width="0.1524" layer="91"/>
+<label x="307.34" y="-17.78" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="10-13" class="0">
 <segment>
 <pinref part="JP10" gate="G$1" pin="13"/>
 <wire x1="302.26" y1="116.84" x2="320.04" y2="116.84" width="0.1524" layer="91"/>
 <label x="302.26" y="116.84" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP68" gate="G$1" pin="3"/>
+<wire x1="307.34" y1="-20.32" x2="325.12" y2="-20.32" width="0.1524" layer="91"/>
+<label x="307.34" y="-20.32" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="10-12" class="0">
@@ -2359,12 +3067,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="302.26" y1="114.3" x2="320.04" y2="114.3" width="0.1524" layer="91"/>
 <label x="302.26" y="114.3" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP68" gate="G$1" pin="2"/>
+<wire x1="307.34" y1="-22.86" x2="325.12" y2="-22.86" width="0.1524" layer="91"/>
+<label x="307.34" y="-22.86" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="10-11" class="0">
 <segment>
 <pinref part="JP10" gate="G$1" pin="11"/>
 <wire x1="302.26" y1="111.76" x2="320.04" y2="111.76" width="0.1524" layer="91"/>
 <label x="302.26" y="111.76" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP68" gate="G$1" pin="1"/>
+<wire x1="307.34" y1="-25.4" x2="325.12" y2="-25.4" width="0.1524" layer="91"/>
+<label x="307.34" y="-25.4" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="10-10" class="0">
@@ -2373,12 +3091,23 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="302.26" y1="109.22" x2="320.04" y2="109.22" width="0.1524" layer="91"/>
 <label x="302.26" y="109.22" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP69" gate="G$1" pin="5"/>
+<wire x1="307.34" y1="-33.02" x2="325.12" y2="-33.02" width="0.1524" layer="91"/>
+<label x="307.34" y="-33.02" size="1.778" layer="95"/>
+<label x="307.34" y="-33.02" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="10-9" class="0">
 <segment>
 <pinref part="JP10" gate="G$1" pin="9"/>
 <wire x1="302.26" y1="106.68" x2="320.04" y2="106.68" width="0.1524" layer="91"/>
 <label x="302.26" y="106.68" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP69" gate="G$1" pin="4"/>
+<wire x1="307.34" y1="-35.56" x2="325.12" y2="-35.56" width="0.1524" layer="91"/>
+<label x="307.34" y="-35.56" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="10-8" class="0">
@@ -2387,12 +3116,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="302.26" y1="104.14" x2="320.04" y2="104.14" width="0.1524" layer="91"/>
 <label x="302.26" y="104.14" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP69" gate="G$1" pin="3"/>
+<wire x1="307.34" y1="-38.1" x2="325.12" y2="-38.1" width="0.1524" layer="91"/>
+<label x="307.34" y="-38.1" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="10-7" class="0">
 <segment>
 <pinref part="JP10" gate="G$1" pin="7"/>
 <wire x1="302.26" y1="101.6" x2="320.04" y2="101.6" width="0.1524" layer="91"/>
 <label x="302.26" y="101.6" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP69" gate="G$1" pin="2"/>
+<wire x1="307.34" y1="-40.64" x2="325.12" y2="-40.64" width="0.1524" layer="91"/>
+<label x="307.34" y="-40.64" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="10-6" class="0">
@@ -2401,12 +3140,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="302.26" y1="99.06" x2="320.04" y2="99.06" width="0.1524" layer="91"/>
 <label x="302.26" y="99.06" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP69" gate="G$1" pin="1"/>
+<wire x1="307.34" y1="-43.18" x2="325.12" y2="-43.18" width="0.1524" layer="91"/>
+<label x="307.34" y="-43.18" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="10-5" class="0">
 <segment>
 <pinref part="JP10" gate="G$1" pin="5"/>
 <wire x1="302.26" y1="96.52" x2="320.04" y2="96.52" width="0.1524" layer="91"/>
 <label x="302.26" y="96.52" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP70" gate="G$1" pin="5"/>
+<wire x1="307.34" y1="-50.8" x2="325.12" y2="-50.8" width="0.1524" layer="91"/>
+<label x="307.34" y="-50.8" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="10-4" class="0">
@@ -2415,12 +3164,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="302.26" y1="93.98" x2="320.04" y2="93.98" width="0.1524" layer="91"/>
 <label x="302.26" y="93.98" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP70" gate="G$1" pin="4"/>
+<wire x1="307.34" y1="-53.34" x2="325.12" y2="-53.34" width="0.1524" layer="91"/>
+<label x="307.34" y="-53.34" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="10-3" class="0">
 <segment>
 <pinref part="JP10" gate="G$1" pin="3"/>
 <wire x1="302.26" y1="91.44" x2="320.04" y2="91.44" width="0.1524" layer="91"/>
 <label x="302.26" y="91.44" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP70" gate="G$1" pin="3"/>
+<wire x1="307.34" y1="-55.88" x2="325.12" y2="-55.88" width="0.1524" layer="91"/>
+<label x="307.34" y="-55.88" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="10-2" class="0">
@@ -2429,12 +3188,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="302.26" y1="88.9" x2="317.5" y2="88.9" width="0.1524" layer="91"/>
 <label x="302.26" y="88.9" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP70" gate="G$1" pin="2"/>
+<wire x1="307.34" y1="-58.42" x2="325.12" y2="-58.42" width="0.1524" layer="91"/>
+<label x="307.34" y="-58.42" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="10-1" class="0">
 <segment>
 <pinref part="JP10" gate="G$1" pin="1"/>
 <wire x1="302.26" y1="86.36" x2="320.04" y2="86.36" width="0.1524" layer="91"/>
 <label x="302.26" y="86.36" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP70" gate="G$1" pin="1"/>
+<wire x1="307.34" y1="-60.96" x2="325.12" y2="-60.96" width="0.1524" layer="91"/>
+<label x="307.34" y="-60.96" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="11-1" class="0">
@@ -2443,12 +3212,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="340.36" y1="86.36" x2="358.14" y2="86.36" width="0.1524" layer="91"/>
 <label x="340.36" y="86.36" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP73" gate="G$1" pin="1"/>
+<wire x1="340.36" y1="-60.96" x2="358.14" y2="-60.96" width="0.1524" layer="91"/>
+<label x="340.36" y="-60.96" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="11-2" class="0">
 <segment>
 <pinref part="JP11" gate="G$1" pin="2"/>
 <wire x1="340.36" y1="88.9" x2="358.14" y2="88.9" width="0.1524" layer="91"/>
 <label x="340.36" y="88.9" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP73" gate="G$1" pin="2"/>
+<wire x1="340.36" y1="-58.42" x2="358.14" y2="-58.42" width="0.1524" layer="91"/>
+<label x="340.36" y="-58.42" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="11-3" class="0">
@@ -2457,12 +3236,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="340.36" y1="91.44" x2="358.14" y2="91.44" width="0.1524" layer="91"/>
 <label x="340.36" y="91.44" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP73" gate="G$1" pin="3"/>
+<wire x1="340.36" y1="-55.88" x2="358.14" y2="-55.88" width="0.1524" layer="91"/>
+<label x="340.36" y="-55.88" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="11-4" class="0">
 <segment>
 <pinref part="JP11" gate="G$1" pin="4"/>
 <wire x1="340.36" y1="93.98" x2="358.14" y2="93.98" width="0.1524" layer="91"/>
 <label x="340.36" y="93.98" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP73" gate="G$1" pin="4"/>
+<wire x1="340.36" y1="-53.34" x2="358.14" y2="-53.34" width="0.1524" layer="91"/>
+<label x="340.36" y="-53.34" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="11-5" class="0">
@@ -2471,12 +3260,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="340.36" y1="96.52" x2="358.14" y2="96.52" width="0.1524" layer="91"/>
 <label x="340.36" y="96.52" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP73" gate="G$1" pin="5"/>
+<wire x1="340.36" y1="-50.8" x2="358.14" y2="-50.8" width="0.1524" layer="91"/>
+<label x="340.36" y="-50.8" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="11-6" class="0">
 <segment>
 <pinref part="JP11" gate="G$1" pin="6"/>
 <wire x1="340.36" y1="99.06" x2="358.14" y2="99.06" width="0.1524" layer="91"/>
 <label x="340.36" y="99.06" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP72" gate="G$1" pin="1"/>
+<wire x1="340.36" y1="-43.18" x2="358.14" y2="-43.18" width="0.1524" layer="91"/>
+<label x="340.36" y="-43.18" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="11-7" class="0">
@@ -2485,12 +3284,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="340.36" y1="101.6" x2="358.14" y2="101.6" width="0.1524" layer="91"/>
 <label x="340.36" y="101.6" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP72" gate="G$1" pin="2"/>
+<wire x1="340.36" y1="-40.64" x2="358.14" y2="-40.64" width="0.1524" layer="91"/>
+<label x="340.36" y="-40.64" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="11-8" class="0">
 <segment>
 <pinref part="JP11" gate="G$1" pin="8"/>
 <wire x1="340.36" y1="104.14" x2="358.14" y2="104.14" width="0.1524" layer="91"/>
 <label x="340.36" y="104.14" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP72" gate="G$1" pin="3"/>
+<wire x1="340.36" y1="-38.1" x2="358.14" y2="-38.1" width="0.1524" layer="91"/>
+<label x="340.36" y="-38.1" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="11-9" class="0">
@@ -2499,12 +3308,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="340.36" y1="106.68" x2="358.14" y2="106.68" width="0.1524" layer="91"/>
 <label x="340.36" y="106.68" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP72" gate="G$1" pin="4"/>
+<wire x1="340.36" y1="-35.56" x2="358.14" y2="-35.56" width="0.1524" layer="91"/>
+<label x="340.36" y="-35.56" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="11-10" class="0">
 <segment>
 <pinref part="JP11" gate="G$1" pin="10"/>
 <wire x1="340.36" y1="109.22" x2="358.14" y2="109.22" width="0.1524" layer="91"/>
 <label x="340.36" y="109.22" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP72" gate="G$1" pin="5"/>
+<wire x1="340.36" y1="-33.02" x2="358.14" y2="-33.02" width="0.1524" layer="91"/>
+<label x="340.36" y="-33.02" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="11-11" class="0">
@@ -2513,12 +3332,23 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="340.36" y1="111.76" x2="358.14" y2="111.76" width="0.1524" layer="91"/>
 <label x="340.36" y="111.76" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP71" gate="G$1" pin="1"/>
+<wire x1="340.36" y1="-25.4" x2="358.14" y2="-25.4" width="0.1524" layer="91"/>
+<label x="340.36" y="-25.4" size="1.778" layer="95"/>
+<label x="340.36" y="-25.4" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="11-12" class="0">
 <segment>
 <pinref part="JP11" gate="G$1" pin="12"/>
 <wire x1="340.36" y1="114.3" x2="358.14" y2="114.3" width="0.1524" layer="91"/>
 <label x="340.36" y="114.3" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP71" gate="G$1" pin="2"/>
+<wire x1="340.36" y1="-22.86" x2="358.14" y2="-22.86" width="0.1524" layer="91"/>
+<label x="340.36" y="-22.86" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="11-13" class="0">
@@ -2527,6 +3357,11 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="340.36" y1="116.84" x2="358.14" y2="116.84" width="0.1524" layer="91"/>
 <label x="340.36" y="116.84" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP71" gate="G$1" pin="3"/>
+<wire x1="340.36" y1="-20.32" x2="358.14" y2="-20.32" width="0.1524" layer="91"/>
+<label x="340.36" y="-20.32" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="11-14" class="0">
 <segment>
@@ -2534,12 +3369,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="340.36" y1="119.38" x2="358.14" y2="119.38" width="0.1524" layer="91"/>
 <label x="340.36" y="119.38" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP71" gate="G$1" pin="4"/>
+<wire x1="340.36" y1="-17.78" x2="358.14" y2="-17.78" width="0.1524" layer="91"/>
+<label x="340.36" y="-17.78" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="11-15" class="0">
 <segment>
 <pinref part="JP11" gate="G$1" pin="15"/>
 <wire x1="340.36" y1="121.92" x2="358.14" y2="121.92" width="0.1524" layer="91"/>
 <label x="340.36" y="121.92" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP71" gate="G$1" pin="5"/>
+<wire x1="340.36" y1="-15.24" x2="358.14" y2="-15.24" width="0.1524" layer="91"/>
+<label x="340.36" y="-15.24" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="12-1" class="0">
@@ -2646,6 +3491,11 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="373.38" y1="121.92" x2="391.16" y2="121.92" width="0.1524" layer="91"/>
 <label x="373.38" y="121.92" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP74" gate="G$1" pin="5"/>
+<wire x1="373.38" y1="-15.24" x2="391.16" y2="-15.24" width="0.1524" layer="91"/>
+<label x="373.38" y="-15.24" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="13-1" class="0">
 <segment>
@@ -2750,12 +3600,23 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="403.86" y1="121.92" x2="424.18" y2="121.92" width="0.1524" layer="91"/>
 <label x="406.4" y="121.92" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP77" gate="G$1" pin="5"/>
+<wire x1="403.86" y1="-15.24" x2="421.64" y2="-15.24" width="0.1524" layer="91"/>
+<label x="403.86" y="-15.24" size="1.778" layer="95"/>
+<label x="403.86" y="-15.24" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="14-15" class="0">
 <segment>
 <pinref part="JP14" gate="G$1" pin="15"/>
 <wire x1="439.42" y1="121.92" x2="457.2" y2="121.92" width="0.1524" layer="91"/>
 <label x="439.42" y="121.92" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP80" gate="G$1" pin="5"/>
+<wire x1="436.88" y1="-15.24" x2="454.66" y2="-15.24" width="0.1524" layer="91"/>
+<label x="436.88" y="-15.24" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="14-14" class="0">
@@ -2862,12 +3723,28 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="469.9" y1="121.92" x2="485.14" y2="121.92" width="0.1524" layer="91"/>
 <label x="469.9" y="121.92" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP83" gate="G$1" pin="5"/>
+<wire x1="469.9" y1="-15.24" x2="487.68" y2="-15.24" width="0.1524" layer="91"/>
+<label x="469.9" y="-15.24" size="1.778" layer="95"/>
+<label x="469.9" y="-15.24" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP113" gate="G$1" pin="5"/>
+<wire x1="142.24" y1="-73.66" x2="160.02" y2="-73.66" width="0.1524" layer="91"/>
+<label x="142.24" y="-73.66" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="15-14" class="0">
 <segment>
 <pinref part="JP15" gate="G$1" pin="14"/>
 <wire x1="469.9" y1="119.38" x2="485.14" y2="119.38" width="0.1524" layer="91"/>
 <label x="469.9" y="119.38" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP113" gate="G$1" pin="4"/>
+<wire x1="142.24" y1="-76.2" x2="160.02" y2="-76.2" width="0.1524" layer="91"/>
+<label x="142.24" y="-76.2" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="15-13" class="0">
@@ -2953,6 +3830,11 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="469.9" y1="88.9" x2="485.14" y2="88.9" width="0.1524" layer="91"/>
 <label x="469.9" y="88.9" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP85" gate="G$1" pin="2"/>
+<wire x1="469.9" y1="-58.42" x2="487.68" y2="-58.42" width="0.1524" layer="91"/>
+<label x="469.9" y="-58.42" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="15-1" class="0">
 <segment>
@@ -2967,12 +3849,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="500.38" y1="121.92" x2="515.62" y2="121.92" width="0.1524" layer="91"/>
 <label x="500.38" y="121.92" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP86" gate="G$1" pin="5"/>
+<wire x1="502.92" y1="-15.24" x2="520.7" y2="-15.24" width="0.1524" layer="91"/>
+<label x="502.92" y="-15.24" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="16-14" class="0">
 <segment>
 <pinref part="JP16" gate="G$1" pin="14"/>
 <wire x1="500.38" y1="119.38" x2="515.62" y2="119.38" width="0.1524" layer="91"/>
 <label x="500.38" y="119.38" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP86" gate="G$1" pin="4"/>
+<wire x1="502.92" y1="-17.78" x2="520.7" y2="-17.78" width="0.1524" layer="91"/>
+<label x="502.92" y="-17.78" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="16-13" class="0">
@@ -2981,12 +3873,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="500.38" y1="116.84" x2="515.62" y2="116.84" width="0.1524" layer="91"/>
 <label x="500.38" y="116.84" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP86" gate="G$1" pin="3"/>
+<wire x1="502.92" y1="-20.32" x2="520.7" y2="-20.32" width="0.1524" layer="91"/>
+<label x="502.92" y="-20.32" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="16-12" class="0">
 <segment>
 <pinref part="JP16" gate="G$1" pin="12"/>
 <wire x1="500.38" y1="114.3" x2="515.62" y2="114.3" width="0.1524" layer="91"/>
 <label x="500.38" y="114.3" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP86" gate="G$1" pin="2"/>
+<wire x1="502.92" y1="-22.86" x2="520.7" y2="-22.86" width="0.1524" layer="91"/>
+<label x="502.92" y="-22.86" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="16-11" class="0">
@@ -2995,12 +3897,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="500.38" y1="111.76" x2="515.62" y2="111.76" width="0.1524" layer="91"/>
 <label x="500.38" y="111.76" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP86" gate="G$1" pin="1"/>
+<wire x1="502.92" y1="-25.4" x2="520.7" y2="-25.4" width="0.1524" layer="91"/>
+<label x="502.92" y="-25.4" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="16-10" class="0">
 <segment>
 <pinref part="JP16" gate="G$1" pin="10"/>
 <wire x1="500.38" y1="109.22" x2="515.62" y2="109.22" width="0.1524" layer="91"/>
 <label x="500.38" y="109.22" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP87" gate="G$1" pin="5"/>
+<wire x1="502.92" y1="-33.02" x2="520.7" y2="-33.02" width="0.1524" layer="91"/>
+<label x="502.92" y="-33.02" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="16-9" class="0">
@@ -3009,12 +3921,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="500.38" y1="106.68" x2="515.62" y2="106.68" width="0.1524" layer="91"/>
 <label x="500.38" y="106.68" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP87" gate="G$1" pin="4"/>
+<wire x1="502.92" y1="-35.56" x2="520.7" y2="-35.56" width="0.1524" layer="91"/>
+<label x="502.92" y="-35.56" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="16-8" class="0">
 <segment>
 <pinref part="JP16" gate="G$1" pin="8"/>
 <wire x1="500.38" y1="104.14" x2="515.62" y2="104.14" width="0.1524" layer="91"/>
 <label x="500.38" y="104.14" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP87" gate="G$1" pin="3"/>
+<wire x1="502.92" y1="-38.1" x2="520.7" y2="-38.1" width="0.1524" layer="91"/>
+<label x="502.92" y="-38.1" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="16-7" class="0">
@@ -3023,12 +3945,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="500.38" y1="101.6" x2="515.62" y2="101.6" width="0.1524" layer="91"/>
 <label x="500.38" y="101.6" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP87" gate="G$1" pin="2"/>
+<wire x1="502.92" y1="-40.64" x2="520.7" y2="-40.64" width="0.1524" layer="91"/>
+<label x="502.92" y="-40.64" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="16-6" class="0">
 <segment>
 <pinref part="JP16" gate="G$1" pin="6"/>
 <wire x1="500.38" y1="99.06" x2="515.62" y2="99.06" width="0.1524" layer="91"/>
 <label x="500.38" y="99.06" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP87" gate="G$1" pin="1"/>
+<wire x1="502.92" y1="-43.18" x2="520.7" y2="-43.18" width="0.1524" layer="91"/>
+<label x="502.92" y="-43.18" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="16-5" class="0">
@@ -3037,12 +3969,23 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="500.38" y1="96.52" x2="515.62" y2="96.52" width="0.1524" layer="91"/>
 <label x="500.38" y="96.52" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP88" gate="G$1" pin="5"/>
+<wire x1="502.92" y1="-50.8" x2="520.7" y2="-50.8" width="0.1524" layer="91"/>
+<label x="502.92" y="-50.8" size="1.778" layer="95"/>
+<label x="502.92" y="-50.8" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="16-4" class="0">
 <segment>
 <pinref part="JP16" gate="G$1" pin="4"/>
 <wire x1="500.38" y1="93.98" x2="515.62" y2="93.98" width="0.1524" layer="91"/>
 <label x="500.38" y="93.98" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP88" gate="G$1" pin="4"/>
+<wire x1="502.92" y1="-53.34" x2="520.7" y2="-53.34" width="0.1524" layer="91"/>
+<label x="502.92" y="-53.34" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="16-3" class="0">
@@ -3051,12 +3994,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="500.38" y1="91.44" x2="515.62" y2="91.44" width="0.1524" layer="91"/>
 <label x="500.38" y="91.44" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP88" gate="G$1" pin="3"/>
+<wire x1="502.92" y1="-55.88" x2="520.7" y2="-55.88" width="0.1524" layer="91"/>
+<label x="502.92" y="-55.88" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="16-2" class="0">
 <segment>
 <pinref part="JP16" gate="G$1" pin="2"/>
 <wire x1="500.38" y1="88.9" x2="515.62" y2="88.9" width="0.1524" layer="91"/>
 <label x="500.38" y="88.9" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP88" gate="G$1" pin="2"/>
+<wire x1="502.92" y1="-58.42" x2="520.7" y2="-58.42" width="0.1524" layer="91"/>
+<label x="502.92" y="-58.42" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="16-1" class="0">
@@ -3065,12 +4018,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="500.38" y1="86.36" x2="515.62" y2="86.36" width="0.1524" layer="91"/>
 <label x="500.38" y="86.36" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP88" gate="G$1" pin="1"/>
+<wire x1="502.92" y1="-60.96" x2="520.7" y2="-60.96" width="0.1524" layer="91"/>
+<label x="502.92" y="-60.96" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="17-15" class="0">
 <segment>
 <pinref part="JP17" gate="G$1" pin="15"/>
 <wire x1="530.86" y1="121.92" x2="546.1" y2="121.92" width="0.1524" layer="91"/>
 <label x="530.86" y="121.92" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP89" gate="G$1" pin="5"/>
+<wire x1="533.4" y1="-15.24" x2="551.18" y2="-15.24" width="0.1524" layer="91"/>
+<label x="533.4" y="-15.24" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="17-14" class="0">
@@ -3079,12 +4042,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="530.86" y1="119.38" x2="546.1" y2="119.38" width="0.1524" layer="91"/>
 <label x="530.86" y="119.38" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP89" gate="G$1" pin="4"/>
+<wire x1="533.4" y1="-17.78" x2="551.18" y2="-17.78" width="0.1524" layer="91"/>
+<label x="533.4" y="-17.78" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="17-13" class="0">
 <segment>
 <pinref part="JP17" gate="G$1" pin="13"/>
 <wire x1="530.86" y1="116.84" x2="546.1" y2="116.84" width="0.1524" layer="91"/>
 <label x="530.86" y="116.84" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP89" gate="G$1" pin="3"/>
+<wire x1="533.4" y1="-20.32" x2="551.18" y2="-20.32" width="0.1524" layer="91"/>
+<label x="533.4" y="-20.32" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="17-12" class="0">
@@ -3093,12 +4066,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="530.86" y1="114.3" x2="546.1" y2="114.3" width="0.1524" layer="91"/>
 <label x="530.86" y="114.3" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP89" gate="G$1" pin="2"/>
+<wire x1="533.4" y1="-22.86" x2="551.18" y2="-22.86" width="0.1524" layer="91"/>
+<label x="533.4" y="-22.86" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="17-11" class="0">
 <segment>
 <pinref part="JP17" gate="G$1" pin="11"/>
 <wire x1="530.86" y1="111.76" x2="546.1" y2="111.76" width="0.1524" layer="91"/>
 <label x="530.86" y="111.76" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP89" gate="G$1" pin="1"/>
+<wire x1="533.4" y1="-25.4" x2="551.18" y2="-25.4" width="0.1524" layer="91"/>
+<label x="533.4" y="-25.4" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="17-10" class="0">
@@ -3107,12 +4090,23 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="530.86" y1="109.22" x2="546.1" y2="109.22" width="0.1524" layer="91"/>
 <label x="530.86" y="109.22" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP90" gate="G$1" pin="5"/>
+<wire x1="533.4" y1="-33.02" x2="551.18" y2="-33.02" width="0.1524" layer="91"/>
+<label x="533.4" y="-33.02" size="1.778" layer="95"/>
+<label x="533.4" y="-33.02" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="17-9" class="0">
 <segment>
 <pinref part="JP17" gate="G$1" pin="9"/>
 <wire x1="530.86" y1="106.68" x2="546.1" y2="106.68" width="0.1524" layer="91"/>
 <label x="530.86" y="106.68" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP90" gate="G$1" pin="4"/>
+<wire x1="533.4" y1="-35.56" x2="551.18" y2="-35.56" width="0.1524" layer="91"/>
+<label x="533.4" y="-35.56" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="17-8" class="0">
@@ -3121,12 +4115,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="530.86" y1="104.14" x2="546.1" y2="104.14" width="0.1524" layer="91"/>
 <label x="530.86" y="104.14" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP90" gate="G$1" pin="3"/>
+<wire x1="533.4" y1="-38.1" x2="551.18" y2="-38.1" width="0.1524" layer="91"/>
+<label x="533.4" y="-38.1" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="17-7" class="0">
 <segment>
 <pinref part="JP17" gate="G$1" pin="7"/>
 <wire x1="530.86" y1="101.6" x2="546.1" y2="101.6" width="0.1524" layer="91"/>
 <label x="530.86" y="101.6" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP90" gate="G$1" pin="2"/>
+<wire x1="533.4" y1="-40.64" x2="551.18" y2="-40.64" width="0.1524" layer="91"/>
+<label x="533.4" y="-40.64" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="17-6" class="0">
@@ -3135,12 +4139,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="530.86" y1="99.06" x2="546.1" y2="99.06" width="0.1524" layer="91"/>
 <label x="530.86" y="99.06" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP90" gate="G$1" pin="1"/>
+<wire x1="533.4" y1="-43.18" x2="551.18" y2="-43.18" width="0.1524" layer="91"/>
+<label x="533.4" y="-43.18" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="17-5" class="0">
 <segment>
 <pinref part="JP17" gate="G$1" pin="5"/>
 <wire x1="530.86" y1="96.52" x2="546.1" y2="96.52" width="0.1524" layer="91"/>
 <label x="530.86" y="96.52" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP91" gate="G$1" pin="5"/>
+<wire x1="533.4" y1="-50.8" x2="551.18" y2="-50.8" width="0.1524" layer="91"/>
+<label x="533.4" y="-50.8" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="17-4" class="0">
@@ -3149,12 +4163,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="530.86" y1="93.98" x2="546.1" y2="93.98" width="0.1524" layer="91"/>
 <label x="530.86" y="93.98" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP91" gate="G$1" pin="4"/>
+<wire x1="533.4" y1="-53.34" x2="551.18" y2="-53.34" width="0.1524" layer="91"/>
+<label x="533.4" y="-53.34" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="17-3" class="0">
 <segment>
 <pinref part="JP17" gate="G$1" pin="3"/>
 <wire x1="530.86" y1="91.44" x2="546.1" y2="91.44" width="0.1524" layer="91"/>
 <label x="530.86" y="91.44" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP91" gate="G$1" pin="3"/>
+<wire x1="533.4" y1="-55.88" x2="551.18" y2="-55.88" width="0.1524" layer="91"/>
+<label x="533.4" y="-55.88" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="17-2" class="0">
@@ -3163,12 +4187,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="530.86" y1="88.9" x2="546.1" y2="88.9" width="0.1524" layer="91"/>
 <label x="530.86" y="88.9" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP91" gate="G$1" pin="2"/>
+<wire x1="533.4" y1="-58.42" x2="551.18" y2="-58.42" width="0.1524" layer="91"/>
+<label x="533.4" y="-58.42" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="17-1" class="0">
 <segment>
 <pinref part="JP17" gate="G$1" pin="1"/>
 <wire x1="530.86" y1="86.36" x2="546.1" y2="86.36" width="0.1524" layer="91"/>
 <label x="530.86" y="86.36" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP91" gate="G$1" pin="1"/>
+<wire x1="533.4" y1="-60.96" x2="551.18" y2="-60.96" width="0.1524" layer="91"/>
+<label x="533.4" y="-60.96" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="18-15" class="0">
@@ -3177,12 +4211,23 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="561.34" y1="121.92" x2="579.12" y2="121.92" width="0.1524" layer="91"/>
 <label x="561.34" y="121.92" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP92" gate="G$1" pin="5"/>
+<wire x1="566.42" y1="-15.24" x2="584.2" y2="-15.24" width="0.1524" layer="91"/>
+<label x="566.42" y="-15.24" size="1.778" layer="95"/>
+<label x="566.42" y="-15.24" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="18-14" class="0">
 <segment>
 <pinref part="JP18" gate="G$1" pin="14"/>
 <wire x1="561.34" y1="119.38" x2="579.12" y2="119.38" width="0.1524" layer="91"/>
 <label x="561.34" y="119.38" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP92" gate="G$1" pin="4"/>
+<wire x1="566.42" y1="-17.78" x2="584.2" y2="-17.78" width="0.1524" layer="91"/>
+<label x="566.42" y="-17.78" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="18-13" class="0">
@@ -3191,12 +4236,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="561.34" y1="116.84" x2="579.12" y2="116.84" width="0.1524" layer="91"/>
 <label x="561.34" y="116.84" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP92" gate="G$1" pin="3"/>
+<wire x1="566.42" y1="-20.32" x2="584.2" y2="-20.32" width="0.1524" layer="91"/>
+<label x="566.42" y="-20.32" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="18-12" class="0">
 <segment>
 <pinref part="JP18" gate="G$1" pin="12"/>
 <wire x1="561.34" y1="114.3" x2="579.12" y2="114.3" width="0.1524" layer="91"/>
 <label x="561.34" y="114.3" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP92" gate="G$1" pin="2"/>
+<wire x1="566.42" y1="-22.86" x2="584.2" y2="-22.86" width="0.1524" layer="91"/>
+<label x="566.42" y="-22.86" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="18-11" class="0">
@@ -3205,12 +4260,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="561.34" y1="111.76" x2="579.12" y2="111.76" width="0.1524" layer="91"/>
 <label x="561.34" y="111.76" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP92" gate="G$1" pin="1"/>
+<wire x1="566.42" y1="-25.4" x2="584.2" y2="-25.4" width="0.1524" layer="91"/>
+<label x="566.42" y="-25.4" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="18-10" class="0">
 <segment>
 <pinref part="JP18" gate="G$1" pin="10"/>
 <wire x1="561.34" y1="109.22" x2="579.12" y2="109.22" width="0.1524" layer="91"/>
 <label x="561.34" y="109.22" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP93" gate="G$1" pin="5"/>
+<wire x1="566.42" y1="-33.02" x2="584.2" y2="-33.02" width="0.1524" layer="91"/>
+<label x="566.42" y="-33.02" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="18-9" class="0">
@@ -3219,12 +4284,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="561.34" y1="106.68" x2="579.12" y2="106.68" width="0.1524" layer="91"/>
 <label x="561.34" y="106.68" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP93" gate="G$1" pin="4"/>
+<wire x1="566.42" y1="-35.56" x2="584.2" y2="-35.56" width="0.1524" layer="91"/>
+<label x="566.42" y="-35.56" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="18-8" class="0">
 <segment>
 <pinref part="JP18" gate="G$1" pin="8"/>
 <wire x1="561.34" y1="104.14" x2="579.12" y2="104.14" width="0.1524" layer="91"/>
 <label x="561.34" y="104.14" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP93" gate="G$1" pin="3"/>
+<wire x1="566.42" y1="-38.1" x2="584.2" y2="-38.1" width="0.1524" layer="91"/>
+<label x="566.42" y="-38.1" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="18-7" class="0">
@@ -3233,12 +4308,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="561.34" y1="101.6" x2="579.12" y2="101.6" width="0.1524" layer="91"/>
 <label x="561.34" y="101.6" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP93" gate="G$1" pin="2"/>
+<wire x1="566.42" y1="-40.64" x2="584.2" y2="-40.64" width="0.1524" layer="91"/>
+<label x="566.42" y="-40.64" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="18-6" class="0">
 <segment>
 <pinref part="JP18" gate="G$1" pin="6"/>
 <wire x1="561.34" y1="99.06" x2="579.12" y2="99.06" width="0.1524" layer="91"/>
 <label x="561.34" y="99.06" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP93" gate="G$1" pin="1"/>
+<wire x1="566.42" y1="-43.18" x2="584.2" y2="-43.18" width="0.1524" layer="91"/>
+<label x="566.42" y="-43.18" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="18-5" class="0">
@@ -3247,12 +4332,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="561.34" y1="96.52" x2="579.12" y2="96.52" width="0.1524" layer="91"/>
 <label x="561.34" y="96.52" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP94" gate="G$1" pin="5"/>
+<wire x1="566.42" y1="-50.8" x2="584.2" y2="-50.8" width="0.1524" layer="91"/>
+<label x="566.42" y="-50.8" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="18-4" class="0">
 <segment>
 <pinref part="JP18" gate="G$1" pin="4"/>
 <wire x1="561.34" y1="93.98" x2="579.12" y2="93.98" width="0.1524" layer="91"/>
 <label x="561.34" y="93.98" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP94" gate="G$1" pin="4"/>
+<wire x1="566.42" y1="-53.34" x2="584.2" y2="-53.34" width="0.1524" layer="91"/>
+<label x="566.42" y="-53.34" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="18-3" class="0">
@@ -3261,12 +4356,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="561.34" y1="91.44" x2="579.12" y2="91.44" width="0.1524" layer="91"/>
 <label x="561.34" y="91.44" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP94" gate="G$1" pin="3"/>
+<wire x1="566.42" y1="-55.88" x2="584.2" y2="-55.88" width="0.1524" layer="91"/>
+<label x="566.42" y="-55.88" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="18-2" class="0">
 <segment>
 <pinref part="JP18" gate="G$1" pin="2"/>
 <wire x1="561.34" y1="88.9" x2="579.12" y2="88.9" width="0.1524" layer="91"/>
 <label x="561.34" y="88.9" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP94" gate="G$1" pin="2"/>
+<wire x1="566.42" y1="-58.42" x2="584.2" y2="-58.42" width="0.1524" layer="91"/>
+<label x="566.42" y="-58.42" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="18-1" class="0">
@@ -3275,12 +4380,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="561.34" y1="86.36" x2="579.12" y2="86.36" width="0.1524" layer="91"/>
 <label x="561.34" y="86.36" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP94" gate="G$1" pin="1"/>
+<wire x1="566.42" y1="-60.96" x2="584.2" y2="-60.96" width="0.1524" layer="91"/>
+<label x="566.42" y="-60.96" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="19-15" class="0">
 <segment>
 <pinref part="JP19" gate="G$1" pin="15"/>
 <wire x1="594.36" y1="121.92" x2="612.14" y2="121.92" width="0.1524" layer="91"/>
 <label x="594.36" y="121.92" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP95" gate="G$1" pin="5"/>
+<wire x1="599.44" y1="-15.24" x2="617.22" y2="-15.24" width="0.1524" layer="91"/>
+<label x="599.44" y="-15.24" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="19-14" class="0">
@@ -3289,12 +4404,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="594.36" y1="119.38" x2="612.14" y2="119.38" width="0.1524" layer="91"/>
 <label x="594.36" y="119.38" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP95" gate="G$1" pin="4"/>
+<wire x1="599.44" y1="-17.78" x2="617.22" y2="-17.78" width="0.1524" layer="91"/>
+<label x="599.44" y="-17.78" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="19-13" class="0">
 <segment>
 <pinref part="JP19" gate="G$1" pin="13"/>
 <wire x1="594.36" y1="116.84" x2="612.14" y2="116.84" width="0.1524" layer="91"/>
 <label x="594.36" y="116.84" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP95" gate="G$1" pin="3"/>
+<wire x1="599.44" y1="-20.32" x2="617.22" y2="-20.32" width="0.1524" layer="91"/>
+<label x="599.44" y="-20.32" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="19-12" class="0">
@@ -3303,12 +4428,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="594.36" y1="114.3" x2="612.14" y2="114.3" width="0.1524" layer="91"/>
 <label x="594.36" y="114.3" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP95" gate="G$1" pin="2"/>
+<wire x1="599.44" y1="-22.86" x2="617.22" y2="-22.86" width="0.1524" layer="91"/>
+<label x="599.44" y="-22.86" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="19-11" class="0">
 <segment>
 <pinref part="JP19" gate="G$1" pin="11"/>
 <wire x1="594.36" y1="111.76" x2="612.14" y2="111.76" width="0.1524" layer="91"/>
 <label x="594.36" y="111.76" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP95" gate="G$1" pin="1"/>
+<wire x1="599.44" y1="-25.4" x2="617.22" y2="-25.4" width="0.1524" layer="91"/>
+<label x="599.44" y="-25.4" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="19-10" class="0">
@@ -3317,12 +4452,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="594.36" y1="109.22" x2="612.14" y2="109.22" width="0.1524" layer="91"/>
 <label x="594.36" y="109.22" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP96" gate="G$1" pin="5"/>
+<wire x1="599.44" y1="-33.02" x2="617.22" y2="-33.02" width="0.1524" layer="91"/>
+<label x="599.44" y="-33.02" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="19-9" class="0">
 <segment>
 <pinref part="JP19" gate="G$1" pin="9"/>
 <wire x1="594.36" y1="106.68" x2="612.14" y2="106.68" width="0.1524" layer="91"/>
 <label x="594.36" y="106.68" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP96" gate="G$1" pin="4"/>
+<wire x1="599.44" y1="-35.56" x2="617.22" y2="-35.56" width="0.1524" layer="91"/>
+<label x="599.44" y="-35.56" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="19-8" class="0">
@@ -3331,12 +4476,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="594.36" y1="104.14" x2="612.14" y2="104.14" width="0.1524" layer="91"/>
 <label x="594.36" y="104.14" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP96" gate="G$1" pin="3"/>
+<wire x1="599.44" y1="-38.1" x2="617.22" y2="-38.1" width="0.1524" layer="91"/>
+<label x="599.44" y="-38.1" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="19-7" class="0">
 <segment>
 <pinref part="JP19" gate="G$1" pin="7"/>
 <wire x1="594.36" y1="101.6" x2="612.14" y2="101.6" width="0.1524" layer="91"/>
 <label x="594.36" y="101.6" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP96" gate="G$1" pin="2"/>
+<wire x1="599.44" y1="-40.64" x2="617.22" y2="-40.64" width="0.1524" layer="91"/>
+<label x="599.44" y="-40.64" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="19-6" class="0">
@@ -3345,12 +4500,23 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="594.36" y1="99.06" x2="612.14" y2="99.06" width="0.1524" layer="91"/>
 <label x="594.36" y="99.06" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP96" gate="G$1" pin="1"/>
+<wire x1="599.44" y1="-43.18" x2="617.22" y2="-43.18" width="0.1524" layer="91"/>
+<label x="599.44" y="-43.18" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="19-5" class="0">
 <segment>
 <pinref part="JP19" gate="G$1" pin="5"/>
 <wire x1="594.36" y1="96.52" x2="612.14" y2="96.52" width="0.1524" layer="91"/>
 <label x="594.36" y="96.52" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP97" gate="G$1" pin="5"/>
+<wire x1="599.44" y1="-50.8" x2="617.22" y2="-50.8" width="0.1524" layer="91"/>
+<label x="599.44" y="-50.8" size="1.778" layer="95"/>
+<label x="599.44" y="-50.8" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="19-4" class="0">
@@ -3359,12 +4525,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="594.36" y1="93.98" x2="612.14" y2="93.98" width="0.1524" layer="91"/>
 <label x="594.36" y="93.98" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP97" gate="G$1" pin="4"/>
+<wire x1="599.44" y1="-53.34" x2="617.22" y2="-53.34" width="0.1524" layer="91"/>
+<label x="599.44" y="-53.34" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="19-3" class="0">
 <segment>
 <pinref part="JP19" gate="G$1" pin="3"/>
 <wire x1="594.36" y1="91.44" x2="612.14" y2="91.44" width="0.1524" layer="91"/>
 <label x="594.36" y="91.44" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP97" gate="G$1" pin="3"/>
+<wire x1="599.44" y1="-55.88" x2="617.22" y2="-55.88" width="0.1524" layer="91"/>
+<label x="599.44" y="-55.88" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="19-2" class="0">
@@ -3373,12 +4549,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="594.36" y1="88.9" x2="612.14" y2="88.9" width="0.1524" layer="91"/>
 <label x="594.36" y="88.9" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP97" gate="G$1" pin="2"/>
+<wire x1="599.44" y1="-58.42" x2="617.22" y2="-58.42" width="0.1524" layer="91"/>
+<label x="599.44" y="-58.42" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="19-1" class="0">
 <segment>
 <pinref part="JP19" gate="G$1" pin="1"/>
 <wire x1="594.36" y1="86.36" x2="612.14" y2="86.36" width="0.1524" layer="91"/>
 <label x="594.36" y="86.36" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP97" gate="G$1" pin="1"/>
+<wire x1="599.44" y1="-60.96" x2="617.22" y2="-60.96" width="0.1524" layer="91"/>
+<label x="599.44" y="-60.96" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="20-15" class="0">
@@ -3387,12 +4573,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="629.92" y1="121.92" x2="645.16" y2="121.92" width="0.1524" layer="91"/>
 <label x="629.92" y="121.92" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP98" gate="G$1" pin="5"/>
+<wire x1="632.46" y1="-15.24" x2="650.24" y2="-15.24" width="0.1524" layer="91"/>
+<label x="632.46" y="-15.24" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="20-14" class="0">
 <segment>
 <pinref part="JP20" gate="G$1" pin="14"/>
 <wire x1="629.92" y1="119.38" x2="645.16" y2="119.38" width="0.1524" layer="91"/>
 <label x="629.92" y="119.38" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP98" gate="G$1" pin="4"/>
+<wire x1="632.46" y1="-17.78" x2="650.24" y2="-17.78" width="0.1524" layer="91"/>
+<label x="632.46" y="-17.78" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="20-13" class="0">
@@ -3401,12 +4597,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="629.92" y1="116.84" x2="645.16" y2="116.84" width="0.1524" layer="91"/>
 <label x="629.92" y="116.84" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP98" gate="G$1" pin="3"/>
+<wire x1="632.46" y1="-20.32" x2="650.24" y2="-20.32" width="0.1524" layer="91"/>
+<label x="632.46" y="-20.32" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="20-12" class="0">
 <segment>
 <pinref part="JP20" gate="G$1" pin="12"/>
 <wire x1="629.92" y1="114.3" x2="645.16" y2="114.3" width="0.1524" layer="91"/>
 <label x="629.92" y="114.3" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP98" gate="G$1" pin="2"/>
+<wire x1="632.46" y1="-22.86" x2="650.24" y2="-22.86" width="0.1524" layer="91"/>
+<label x="632.46" y="-22.86" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="20-11" class="0">
@@ -3415,12 +4621,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="629.92" y1="111.76" x2="645.16" y2="111.76" width="0.1524" layer="91"/>
 <label x="629.92" y="111.76" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP98" gate="G$1" pin="1"/>
+<wire x1="632.46" y1="-25.4" x2="650.24" y2="-25.4" width="0.1524" layer="91"/>
+<label x="632.46" y="-25.4" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="20-10" class="0">
 <segment>
 <pinref part="JP20" gate="G$1" pin="10"/>
 <wire x1="629.92" y1="109.22" x2="645.16" y2="109.22" width="0.1524" layer="91"/>
 <label x="629.92" y="109.22" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP99" gate="G$1" pin="5"/>
+<wire x1="632.46" y1="-33.02" x2="650.24" y2="-33.02" width="0.1524" layer="91"/>
+<label x="632.46" y="-33.02" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="20-9" class="0">
@@ -3429,12 +4645,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="629.92" y1="106.68" x2="645.16" y2="106.68" width="0.1524" layer="91"/>
 <label x="629.92" y="106.68" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP99" gate="G$1" pin="4"/>
+<wire x1="632.46" y1="-35.56" x2="650.24" y2="-35.56" width="0.1524" layer="91"/>
+<label x="632.46" y="-35.56" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="20-8" class="0">
 <segment>
 <pinref part="JP20" gate="G$1" pin="8"/>
 <wire x1="629.92" y1="104.14" x2="645.16" y2="104.14" width="0.1524" layer="91"/>
 <label x="629.92" y="104.14" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP99" gate="G$1" pin="3"/>
+<wire x1="632.46" y1="-38.1" x2="650.24" y2="-38.1" width="0.1524" layer="91"/>
+<label x="632.46" y="-38.1" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="20-7" class="0">
@@ -3443,12 +4669,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="629.92" y1="101.6" x2="645.16" y2="101.6" width="0.1524" layer="91"/>
 <label x="629.92" y="101.6" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP99" gate="G$1" pin="2"/>
+<wire x1="632.46" y1="-40.64" x2="650.24" y2="-40.64" width="0.1524" layer="91"/>
+<label x="632.46" y="-40.64" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="20-6" class="0">
 <segment>
 <pinref part="JP20" gate="G$1" pin="6"/>
 <wire x1="629.92" y1="99.06" x2="645.16" y2="99.06" width="0.1524" layer="91"/>
 <label x="629.92" y="99.06" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP99" gate="G$1" pin="1"/>
+<wire x1="632.46" y1="-43.18" x2="650.24" y2="-43.18" width="0.1524" layer="91"/>
+<label x="632.46" y="-43.18" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="20-5" class="0">
@@ -3457,12 +4693,23 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="629.92" y1="96.52" x2="645.16" y2="96.52" width="0.1524" layer="91"/>
 <label x="629.92" y="96.52" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP100" gate="G$1" pin="5"/>
+<wire x1="632.46" y1="-50.8" x2="650.24" y2="-50.8" width="0.1524" layer="91"/>
+<label x="632.46" y="-50.8" size="1.778" layer="95"/>
+<label x="632.46" y="-50.8" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="20-4" class="0">
 <segment>
 <pinref part="JP20" gate="G$1" pin="4"/>
 <wire x1="629.92" y1="93.98" x2="645.16" y2="93.98" width="0.1524" layer="91"/>
 <label x="629.92" y="93.98" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP100" gate="G$1" pin="4"/>
+<wire x1="632.46" y1="-53.34" x2="650.24" y2="-53.34" width="0.1524" layer="91"/>
+<label x="632.46" y="-53.34" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="20-3" class="0">
@@ -3471,12 +4718,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="629.92" y1="91.44" x2="645.16" y2="91.44" width="0.1524" layer="91"/>
 <label x="629.92" y="91.44" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP100" gate="G$1" pin="3"/>
+<wire x1="632.46" y1="-55.88" x2="650.24" y2="-55.88" width="0.1524" layer="91"/>
+<label x="632.46" y="-55.88" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="20-2" class="0">
 <segment>
 <pinref part="JP20" gate="G$1" pin="2"/>
 <wire x1="629.92" y1="88.9" x2="645.16" y2="88.9" width="0.1524" layer="91"/>
 <label x="629.92" y="88.9" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP100" gate="G$1" pin="2"/>
+<wire x1="632.46" y1="-58.42" x2="650.24" y2="-58.42" width="0.1524" layer="91"/>
+<label x="632.46" y="-58.42" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="20-1" class="0">
@@ -3485,12 +4742,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="629.92" y1="86.36" x2="645.16" y2="86.36" width="0.1524" layer="91"/>
 <label x="629.92" y="86.36" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP100" gate="G$1" pin="1"/>
+<wire x1="632.46" y1="-60.96" x2="650.24" y2="-60.96" width="0.1524" layer="91"/>
+<label x="632.46" y="-60.96" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="21-15" class="0">
 <segment>
 <pinref part="JP21" gate="G$1" pin="15"/>
 <wire x1="12.7" y1="55.88" x2="30.48" y2="55.88" width="0.1524" layer="91"/>
 <label x="12.7" y="55.88" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP101" gate="G$1" pin="5"/>
+<wire x1="12.7" y1="-73.66" x2="30.48" y2="-73.66" width="0.1524" layer="91"/>
+<label x="12.7" y="-73.66" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="21-14" class="0">
@@ -3499,12 +4766,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="12.7" y1="53.34" x2="30.48" y2="53.34" width="0.1524" layer="91"/>
 <label x="12.7" y="53.34" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP101" gate="G$1" pin="4"/>
+<wire x1="12.7" y1="-76.2" x2="30.48" y2="-76.2" width="0.1524" layer="91"/>
+<label x="12.7" y="-76.2" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="21-13" class="0">
 <segment>
 <pinref part="JP21" gate="G$1" pin="13"/>
 <wire x1="12.7" y1="50.8" x2="30.48" y2="50.8" width="0.1524" layer="91"/>
 <label x="12.7" y="50.8" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP101" gate="G$1" pin="3"/>
+<wire x1="12.7" y1="-78.74" x2="30.48" y2="-78.74" width="0.1524" layer="91"/>
+<label x="12.7" y="-78.74" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="21-12" class="0">
@@ -3513,12 +4790,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="12.7" y1="48.26" x2="30.48" y2="48.26" width="0.1524" layer="91"/>
 <label x="12.7" y="48.26" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP101" gate="G$1" pin="2"/>
+<wire x1="12.7" y1="-81.28" x2="30.48" y2="-81.28" width="0.1524" layer="91"/>
+<label x="12.7" y="-81.28" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="21-11" class="0">
 <segment>
 <pinref part="JP21" gate="G$1" pin="11"/>
 <wire x1="12.7" y1="45.72" x2="30.48" y2="45.72" width="0.1524" layer="91"/>
 <label x="12.7" y="45.72" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP101" gate="G$1" pin="1"/>
+<wire x1="12.7" y1="-83.82" x2="30.48" y2="-83.82" width="0.1524" layer="91"/>
+<label x="12.7" y="-83.82" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="21-10" class="0">
@@ -3527,12 +4814,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="12.7" y1="43.18" x2="30.48" y2="43.18" width="0.1524" layer="91"/>
 <label x="12.7" y="43.18" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP102" gate="G$1" pin="5"/>
+<wire x1="12.7" y1="-91.44" x2="30.48" y2="-91.44" width="0.1524" layer="91"/>
+<label x="12.7" y="-91.44" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="21-9" class="0">
 <segment>
 <pinref part="JP21" gate="G$1" pin="9"/>
 <wire x1="12.7" y1="40.64" x2="30.48" y2="40.64" width="0.1524" layer="91"/>
 <label x="12.7" y="40.64" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP102" gate="G$1" pin="4"/>
+<wire x1="12.7" y1="-93.98" x2="30.48" y2="-93.98" width="0.1524" layer="91"/>
+<label x="12.7" y="-93.98" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="21-8" class="0">
@@ -3541,12 +4838,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="12.7" y1="38.1" x2="30.48" y2="38.1" width="0.1524" layer="91"/>
 <label x="12.7" y="38.1" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP102" gate="G$1" pin="3"/>
+<wire x1="12.7" y1="-96.52" x2="30.48" y2="-96.52" width="0.1524" layer="91"/>
+<label x="12.7" y="-96.52" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="21-7" class="0">
 <segment>
 <pinref part="JP21" gate="G$1" pin="7"/>
 <wire x1="12.7" y1="35.56" x2="30.48" y2="35.56" width="0.1524" layer="91"/>
 <label x="12.7" y="35.56" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP102" gate="G$1" pin="2"/>
+<wire x1="12.7" y1="-99.06" x2="30.48" y2="-99.06" width="0.1524" layer="91"/>
+<label x="12.7" y="-99.06" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="21-6" class="0">
@@ -3555,12 +4862,23 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="12.7" y1="33.02" x2="30.48" y2="33.02" width="0.1524" layer="91"/>
 <label x="12.7" y="33.02" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP102" gate="G$1" pin="1"/>
+<wire x1="12.7" y1="-101.6" x2="30.48" y2="-101.6" width="0.1524" layer="91"/>
+<label x="12.7" y="-101.6" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="21-5" class="0">
 <segment>
 <pinref part="JP21" gate="G$1" pin="5"/>
 <wire x1="12.7" y1="30.48" x2="30.48" y2="30.48" width="0.1524" layer="91"/>
 <label x="12.7" y="30.48" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP103" gate="G$1" pin="5"/>
+<wire x1="12.7" y1="-109.22" x2="30.48" y2="-109.22" width="0.1524" layer="91"/>
+<label x="12.7" y="-109.22" size="1.778" layer="95"/>
+<label x="12.7" y="-109.22" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="21-4" class="0">
@@ -3569,12 +4887,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="12.7" y1="27.94" x2="30.48" y2="27.94" width="0.1524" layer="91"/>
 <label x="12.7" y="27.94" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP103" gate="G$1" pin="4"/>
+<wire x1="12.7" y1="-111.76" x2="30.48" y2="-111.76" width="0.1524" layer="91"/>
+<label x="12.7" y="-111.76" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="21-3" class="0">
 <segment>
 <pinref part="JP21" gate="G$1" pin="3"/>
 <wire x1="12.7" y1="25.4" x2="30.48" y2="25.4" width="0.1524" layer="91"/>
 <label x="12.7" y="25.4" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP103" gate="G$1" pin="3"/>
+<wire x1="12.7" y1="-114.3" x2="30.48" y2="-114.3" width="0.1524" layer="91"/>
+<label x="12.7" y="-114.3" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="21-2" class="0">
@@ -3583,12 +4911,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="12.7" y1="22.86" x2="30.48" y2="22.86" width="0.1524" layer="91"/>
 <label x="12.7" y="22.86" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP103" gate="G$1" pin="2"/>
+<wire x1="12.7" y1="-116.84" x2="30.48" y2="-116.84" width="0.1524" layer="91"/>
+<label x="12.7" y="-116.84" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="21-1" class="0">
 <segment>
 <pinref part="JP21" gate="G$1" pin="1"/>
 <wire x1="12.7" y1="20.32" x2="30.48" y2="20.32" width="0.1524" layer="91"/>
 <label x="12.7" y="20.32" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP103" gate="G$1" pin="1"/>
+<wire x1="12.7" y1="-119.38" x2="30.48" y2="-119.38" width="0.1524" layer="91"/>
+<label x="12.7" y="-119.38" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="22-15" class="0">
@@ -3597,12 +4935,23 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="45.72" y1="55.88" x2="63.5" y2="55.88" width="0.1524" layer="91"/>
 <label x="45.72" y="55.88" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP104" gate="G$1" pin="5"/>
+<wire x1="45.72" y1="-73.66" x2="63.5" y2="-73.66" width="0.1524" layer="91"/>
+<label x="45.72" y="-73.66" size="1.778" layer="95"/>
+<label x="45.72" y="-73.66" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="22-14" class="0">
 <segment>
 <pinref part="JP22" gate="G$1" pin="14"/>
 <wire x1="45.72" y1="53.34" x2="63.5" y2="53.34" width="0.1524" layer="91"/>
 <label x="45.72" y="53.34" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP104" gate="G$1" pin="4"/>
+<wire x1="45.72" y1="-76.2" x2="63.5" y2="-76.2" width="0.1524" layer="91"/>
+<label x="45.72" y="-76.2" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="22-13" class="0">
@@ -3611,12 +4960,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="45.72" y1="50.8" x2="63.5" y2="50.8" width="0.1524" layer="91"/>
 <label x="45.72" y="50.8" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP104" gate="G$1" pin="3"/>
+<wire x1="45.72" y1="-78.74" x2="63.5" y2="-78.74" width="0.1524" layer="91"/>
+<label x="45.72" y="-78.74" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="22-12" class="0">
 <segment>
 <pinref part="JP22" gate="G$1" pin="12"/>
 <wire x1="45.72" y1="48.26" x2="63.5" y2="48.26" width="0.1524" layer="91"/>
 <label x="45.72" y="48.26" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP104" gate="G$1" pin="2"/>
+<wire x1="45.72" y1="-81.28" x2="63.5" y2="-81.28" width="0.1524" layer="91"/>
+<label x="45.72" y="-81.28" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="22-11" class="0">
@@ -3625,12 +4984,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="45.72" y1="45.72" x2="63.5" y2="45.72" width="0.1524" layer="91"/>
 <label x="45.72" y="45.72" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP104" gate="G$1" pin="1"/>
+<wire x1="45.72" y1="-83.82" x2="63.5" y2="-83.82" width="0.1524" layer="91"/>
+<label x="45.72" y="-83.82" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="22-10" class="0">
 <segment>
 <pinref part="JP22" gate="G$1" pin="10"/>
 <wire x1="45.72" y1="43.18" x2="63.5" y2="43.18" width="0.1524" layer="91"/>
 <label x="45.72" y="43.18" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP105" gate="G$1" pin="5"/>
+<wire x1="45.72" y1="-91.44" x2="63.5" y2="-91.44" width="0.1524" layer="91"/>
+<label x="45.72" y="-91.44" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="22-9" class="0">
@@ -3639,12 +5008,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="45.72" y1="40.64" x2="63.5" y2="40.64" width="0.1524" layer="91"/>
 <label x="45.72" y="40.64" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP105" gate="G$1" pin="4"/>
+<wire x1="45.72" y1="-93.98" x2="63.5" y2="-93.98" width="0.1524" layer="91"/>
+<label x="45.72" y="-93.98" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="22-8" class="0">
 <segment>
 <pinref part="JP22" gate="G$1" pin="8"/>
 <wire x1="45.72" y1="38.1" x2="63.5" y2="38.1" width="0.1524" layer="91"/>
 <label x="45.72" y="38.1" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP105" gate="G$1" pin="3"/>
+<wire x1="45.72" y1="-96.52" x2="63.5" y2="-96.52" width="0.1524" layer="91"/>
+<label x="45.72" y="-96.52" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="22-7" class="0">
@@ -3653,12 +5032,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="45.72" y1="35.56" x2="63.5" y2="35.56" width="0.1524" layer="91"/>
 <label x="45.72" y="35.56" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP105" gate="G$1" pin="2"/>
+<wire x1="45.72" y1="-99.06" x2="63.5" y2="-99.06" width="0.1524" layer="91"/>
+<label x="45.72" y="-99.06" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="22-6" class="0">
 <segment>
 <pinref part="JP22" gate="G$1" pin="6"/>
 <wire x1="45.72" y1="33.02" x2="63.5" y2="33.02" width="0.1524" layer="91"/>
 <label x="45.72" y="33.02" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP105" gate="G$1" pin="1"/>
+<wire x1="45.72" y1="-101.6" x2="63.5" y2="-101.6" width="0.1524" layer="91"/>
+<label x="45.72" y="-101.6" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="22-5" class="0">
@@ -3667,12 +5056,23 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="45.72" y1="30.48" x2="63.5" y2="30.48" width="0.1524" layer="91"/>
 <label x="45.72" y="30.48" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP106" gate="G$1" pin="5"/>
+<wire x1="45.72" y1="-109.22" x2="63.5" y2="-109.22" width="0.1524" layer="91"/>
+<label x="45.72" y="-109.22" size="1.778" layer="95"/>
+<label x="45.72" y="-109.22" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="22-4" class="0">
 <segment>
 <pinref part="JP22" gate="G$1" pin="4"/>
 <wire x1="45.72" y1="27.94" x2="63.5" y2="27.94" width="0.1524" layer="91"/>
 <label x="45.72" y="27.94" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP106" gate="G$1" pin="4"/>
+<wire x1="45.72" y1="-111.76" x2="63.5" y2="-111.76" width="0.1524" layer="91"/>
+<label x="45.72" y="-111.76" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="22-3" class="0">
@@ -3681,12 +5081,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="45.72" y1="25.4" x2="63.5" y2="25.4" width="0.1524" layer="91"/>
 <label x="45.72" y="25.4" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP106" gate="G$1" pin="3"/>
+<wire x1="45.72" y1="-114.3" x2="63.5" y2="-114.3" width="0.1524" layer="91"/>
+<label x="45.72" y="-114.3" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="22-2" class="0">
 <segment>
 <pinref part="JP22" gate="G$1" pin="2"/>
 <wire x1="45.72" y1="22.86" x2="63.5" y2="22.86" width="0.1524" layer="91"/>
 <label x="45.72" y="22.86" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP106" gate="G$1" pin="2"/>
+<wire x1="45.72" y1="-116.84" x2="63.5" y2="-116.84" width="0.1524" layer="91"/>
+<label x="45.72" y="-116.84" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="22-1" class="0">
@@ -3695,12 +5105,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="45.72" y1="20.32" x2="63.5" y2="20.32" width="0.1524" layer="91"/>
 <label x="45.72" y="20.32" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP106" gate="G$1" pin="1"/>
+<wire x1="45.72" y1="-119.38" x2="63.5" y2="-119.38" width="0.1524" layer="91"/>
+<label x="45.72" y="-119.38" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="23-15" class="0">
 <segment>
 <pinref part="JP23" gate="G$1" pin="15"/>
 <wire x1="78.74" y1="55.88" x2="99.06" y2="55.88" width="0.1524" layer="91"/>
 <label x="78.74" y="55.88" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP107" gate="G$1" pin="5"/>
+<wire x1="78.74" y1="-73.66" x2="96.52" y2="-73.66" width="0.1524" layer="91"/>
+<label x="78.74" y="-73.66" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="23-14" class="0">
@@ -3709,12 +5129,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="78.74" y1="53.34" x2="99.06" y2="53.34" width="0.1524" layer="91"/>
 <label x="78.74" y="53.34" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP107" gate="G$1" pin="4"/>
+<wire x1="78.74" y1="-76.2" x2="96.52" y2="-76.2" width="0.1524" layer="91"/>
+<label x="78.74" y="-76.2" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="23-13" class="0">
 <segment>
 <pinref part="JP23" gate="G$1" pin="13"/>
 <wire x1="78.74" y1="50.8" x2="99.06" y2="50.8" width="0.1524" layer="91"/>
 <label x="78.74" y="50.8" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP107" gate="G$1" pin="3"/>
+<wire x1="78.74" y1="-78.74" x2="96.52" y2="-78.74" width="0.1524" layer="91"/>
+<label x="78.74" y="-78.74" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="23-12" class="0">
@@ -3723,12 +5153,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="78.74" y1="48.26" x2="99.06" y2="48.26" width="0.1524" layer="91"/>
 <label x="78.74" y="48.26" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP107" gate="G$1" pin="2"/>
+<wire x1="78.74" y1="-81.28" x2="96.52" y2="-81.28" width="0.1524" layer="91"/>
+<label x="78.74" y="-81.28" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="23-11" class="0">
 <segment>
 <pinref part="JP23" gate="G$1" pin="11"/>
 <wire x1="78.74" y1="45.72" x2="99.06" y2="45.72" width="0.1524" layer="91"/>
 <label x="78.74" y="45.72" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP107" gate="G$1" pin="1"/>
+<wire x1="78.74" y1="-83.82" x2="96.52" y2="-83.82" width="0.1524" layer="91"/>
+<label x="78.74" y="-83.82" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="23-10" class="0">
@@ -3737,12 +5177,23 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="78.74" y1="43.18" x2="99.06" y2="43.18" width="0.1524" layer="91"/>
 <label x="78.74" y="43.18" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP108" gate="G$1" pin="5"/>
+<wire x1="78.74" y1="-91.44" x2="96.52" y2="-91.44" width="0.1524" layer="91"/>
+<label x="78.74" y="-91.44" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="23-9" class="0">
 <segment>
 <pinref part="JP23" gate="G$1" pin="9"/>
 <wire x1="78.74" y1="40.64" x2="99.06" y2="40.64" width="0.1524" layer="91"/>
 <label x="78.74" y="40.64" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP108" gate="G$1" pin="4"/>
+<wire x1="78.74" y1="-93.98" x2="96.52" y2="-93.98" width="0.1524" layer="91"/>
+<label x="78.74" y="-93.98" size="1.778" layer="95"/>
+<label x="78.74" y="-93.98" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="23-8" class="0">
@@ -3751,12 +5202,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="78.74" y1="38.1" x2="99.06" y2="38.1" width="0.1524" layer="91"/>
 <label x="78.74" y="38.1" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP108" gate="G$1" pin="3"/>
+<wire x1="78.74" y1="-96.52" x2="96.52" y2="-96.52" width="0.1524" layer="91"/>
+<label x="78.74" y="-96.52" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="23-7" class="0">
 <segment>
 <pinref part="JP23" gate="G$1" pin="7"/>
 <wire x1="78.74" y1="35.56" x2="99.06" y2="35.56" width="0.1524" layer="91"/>
 <label x="78.74" y="35.56" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP108" gate="G$1" pin="2"/>
+<wire x1="78.74" y1="-99.06" x2="96.52" y2="-99.06" width="0.1524" layer="91"/>
+<label x="78.74" y="-99.06" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="23-6" class="0">
@@ -3765,12 +5226,23 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="78.74" y1="33.02" x2="99.06" y2="33.02" width="0.1524" layer="91"/>
 <label x="78.74" y="33.02" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP108" gate="G$1" pin="1"/>
+<wire x1="78.74" y1="-101.6" x2="96.52" y2="-101.6" width="0.1524" layer="91"/>
+<label x="78.74" y="-101.6" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="23-5" class="0">
 <segment>
 <pinref part="JP23" gate="G$1" pin="5"/>
 <wire x1="78.74" y1="30.48" x2="99.06" y2="30.48" width="0.1524" layer="91"/>
 <label x="78.74" y="30.48" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP109" gate="G$1" pin="5"/>
+<wire x1="78.74" y1="-109.22" x2="96.52" y2="-109.22" width="0.1524" layer="91"/>
+<label x="78.74" y="-109.22" size="1.778" layer="95"/>
+<label x="78.74" y="-109.22" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="23-4" class="0">
@@ -3779,12 +5251,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="78.74" y1="27.94" x2="99.06" y2="27.94" width="0.1524" layer="91"/>
 <label x="78.74" y="27.94" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP109" gate="G$1" pin="4"/>
+<wire x1="78.74" y1="-111.76" x2="96.52" y2="-111.76" width="0.1524" layer="91"/>
+<label x="78.74" y="-111.76" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="23-3" class="0">
 <segment>
 <pinref part="JP23" gate="G$1" pin="3"/>
 <wire x1="78.74" y1="25.4" x2="99.06" y2="25.4" width="0.1524" layer="91"/>
 <label x="78.74" y="25.4" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP109" gate="G$1" pin="3"/>
+<wire x1="78.74" y1="-114.3" x2="96.52" y2="-114.3" width="0.1524" layer="91"/>
+<label x="78.74" y="-114.3" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="23-2" class="0">
@@ -3793,12 +5275,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="78.74" y1="22.86" x2="99.06" y2="22.86" width="0.1524" layer="91"/>
 <label x="78.74" y="22.86" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP109" gate="G$1" pin="2"/>
+<wire x1="78.74" y1="-116.84" x2="96.52" y2="-116.84" width="0.1524" layer="91"/>
+<label x="78.74" y="-116.84" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="23-1" class="0">
 <segment>
 <pinref part="JP23" gate="G$1" pin="1"/>
 <wire x1="78.74" y1="20.32" x2="99.06" y2="20.32" width="0.1524" layer="91"/>
 <label x="78.74" y="20.32" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP109" gate="G$1" pin="1"/>
+<wire x1="78.74" y1="-119.38" x2="96.52" y2="-119.38" width="0.1524" layer="91"/>
+<label x="78.74" y="-119.38" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="24-15" class="0">
@@ -3807,12 +5299,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="111.76" y1="55.88" x2="127" y2="55.88" width="0.1524" layer="91"/>
 <label x="111.76" y="55.88" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP110" gate="G$1" pin="5"/>
+<wire x1="111.76" y1="-73.66" x2="129.54" y2="-73.66" width="0.1524" layer="91"/>
+<label x="111.76" y="-73.66" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="24-14" class="0">
 <segment>
 <pinref part="JP24" gate="G$1" pin="14"/>
 <wire x1="111.76" y1="53.34" x2="127" y2="53.34" width="0.1524" layer="91"/>
 <label x="111.76" y="53.34" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP110" gate="G$1" pin="4"/>
+<wire x1="111.76" y1="-76.2" x2="129.54" y2="-76.2" width="0.1524" layer="91"/>
+<label x="111.76" y="-76.2" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="24-13" class="0">
@@ -3821,12 +5323,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="111.76" y1="50.8" x2="127" y2="50.8" width="0.1524" layer="91"/>
 <label x="111.76" y="50.8" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP110" gate="G$1" pin="3"/>
+<wire x1="111.76" y1="-78.74" x2="129.54" y2="-78.74" width="0.1524" layer="91"/>
+<label x="111.76" y="-78.74" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="24-12" class="0">
 <segment>
 <pinref part="JP24" gate="G$1" pin="12"/>
 <wire x1="111.76" y1="48.26" x2="127" y2="48.26" width="0.1524" layer="91"/>
 <label x="111.76" y="48.26" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP110" gate="G$1" pin="2"/>
+<wire x1="111.76" y1="-81.28" x2="129.54" y2="-81.28" width="0.1524" layer="91"/>
+<label x="111.76" y="-81.28" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="24-11" class="0">
@@ -3835,12 +5347,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="111.76" y1="45.72" x2="127" y2="45.72" width="0.1524" layer="91"/>
 <label x="111.76" y="45.72" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP110" gate="G$1" pin="1"/>
+<wire x1="111.76" y1="-83.82" x2="129.54" y2="-83.82" width="0.1524" layer="91"/>
+<label x="111.76" y="-83.82" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="24-10" class="0">
 <segment>
 <pinref part="JP24" gate="G$1" pin="10"/>
 <wire x1="111.76" y1="43.18" x2="127" y2="43.18" width="0.1524" layer="91"/>
 <label x="111.76" y="43.18" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP111" gate="G$1" pin="5"/>
+<wire x1="111.76" y1="-91.44" x2="129.54" y2="-91.44" width="0.1524" layer="91"/>
+<label x="111.76" y="-91.44" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="24-9" class="0">
@@ -3849,12 +5371,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="111.76" y1="40.64" x2="127" y2="40.64" width="0.1524" layer="91"/>
 <label x="111.76" y="40.64" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP111" gate="G$1" pin="4"/>
+<wire x1="111.76" y1="-93.98" x2="129.54" y2="-93.98" width="0.1524" layer="91"/>
+<label x="111.76" y="-93.98" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="24-8" class="0">
 <segment>
 <pinref part="JP24" gate="G$1" pin="8"/>
 <wire x1="111.76" y1="38.1" x2="127" y2="38.1" width="0.1524" layer="91"/>
 <label x="111.76" y="38.1" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP111" gate="G$1" pin="3"/>
+<wire x1="111.76" y1="-96.52" x2="129.54" y2="-96.52" width="0.1524" layer="91"/>
+<label x="111.76" y="-96.52" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="24-7" class="0">
@@ -3864,12 +5396,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <label x="111.76" y="35.56" size="1.778" layer="95"/>
 <label x="111.76" y="35.56" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP111" gate="G$1" pin="2"/>
+<wire x1="111.76" y1="-99.06" x2="129.54" y2="-99.06" width="0.1524" layer="91"/>
+<label x="111.76" y="-99.06" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="24-6" class="0">
 <segment>
 <pinref part="JP24" gate="G$1" pin="6"/>
 <wire x1="111.76" y1="33.02" x2="127" y2="33.02" width="0.1524" layer="91"/>
 <label x="111.76" y="33.02" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP111" gate="G$1" pin="1"/>
+<wire x1="111.76" y1="-101.6" x2="129.54" y2="-101.6" width="0.1524" layer="91"/>
+<label x="111.76" y="-101.6" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="24-5" class="0">
@@ -3878,12 +5420,23 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="111.76" y1="30.48" x2="127" y2="30.48" width="0.1524" layer="91"/>
 <label x="111.76" y="30.48" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP112" gate="G$1" pin="5"/>
+<wire x1="111.76" y1="-109.22" x2="129.54" y2="-109.22" width="0.1524" layer="91"/>
+<label x="111.76" y="-109.22" size="1.778" layer="95"/>
+<label x="111.76" y="-109.22" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="24-4" class="0">
 <segment>
 <pinref part="JP24" gate="G$1" pin="4"/>
 <wire x1="111.76" y1="27.94" x2="127" y2="27.94" width="0.1524" layer="91"/>
 <label x="111.76" y="27.94" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP112" gate="G$1" pin="4"/>
+<wire x1="111.76" y1="-111.76" x2="129.54" y2="-111.76" width="0.1524" layer="91"/>
+<label x="111.76" y="-111.76" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="24-3" class="0">
@@ -3892,6 +5445,11 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="111.76" y1="25.4" x2="127" y2="25.4" width="0.1524" layer="91"/>
 <label x="111.76" y="25.4" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP112" gate="G$1" pin="3"/>
+<wire x1="111.76" y1="-114.3" x2="129.54" y2="-114.3" width="0.1524" layer="91"/>
+<label x="111.76" y="-114.3" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="24-2" class="0">
 <segment>
@@ -3899,12 +5457,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="111.76" y1="22.86" x2="127" y2="22.86" width="0.1524" layer="91"/>
 <label x="111.76" y="22.86" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP112" gate="G$1" pin="2"/>
+<wire x1="111.76" y1="-116.84" x2="129.54" y2="-116.84" width="0.1524" layer="91"/>
+<label x="111.76" y="-116.84" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="24-1" class="0">
 <segment>
 <pinref part="JP24" gate="G$1" pin="1"/>
 <wire x1="111.76" y1="20.32" x2="127" y2="20.32" width="0.1524" layer="91"/>
 <label x="111.76" y="20.32" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP112" gate="G$1" pin="1"/>
+<wire x1="111.76" y1="-119.38" x2="129.54" y2="-119.38" width="0.1524" layer="91"/>
+<label x="111.76" y="-119.38" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="25-15" class="0">
@@ -3927,12 +5495,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="142.24" y1="50.8" x2="157.48" y2="50.8" width="0.1524" layer="91"/>
 <label x="142.24" y="50.8" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP113" gate="G$1" pin="3"/>
+<wire x1="142.24" y1="-78.74" x2="160.02" y2="-78.74" width="0.1524" layer="91"/>
+<label x="142.24" y="-78.74" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="25-12" class="0">
 <segment>
 <pinref part="JP25" gate="G$1" pin="12"/>
 <wire x1="142.24" y1="48.26" x2="157.48" y2="48.26" width="0.1524" layer="91"/>
 <label x="142.24" y="48.26" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP113" gate="G$1" pin="2"/>
+<wire x1="142.24" y1="-81.28" x2="160.02" y2="-81.28" width="0.1524" layer="91"/>
+<label x="142.24" y="-81.28" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="25-11" class="0">
@@ -3941,12 +5519,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="142.24" y1="45.72" x2="157.48" y2="45.72" width="0.1524" layer="91"/>
 <label x="142.24" y="45.72" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP113" gate="G$1" pin="1"/>
+<wire x1="142.24" y1="-83.82" x2="160.02" y2="-83.82" width="0.1524" layer="91"/>
+<label x="142.24" y="-83.82" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="25-10" class="0">
 <segment>
 <pinref part="JP25" gate="G$1" pin="10"/>
 <wire x1="142.24" y1="43.18" x2="157.48" y2="43.18" width="0.1524" layer="91"/>
 <label x="142.24" y="43.18" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP114" gate="G$1" pin="5"/>
+<wire x1="142.24" y1="-91.44" x2="160.02" y2="-91.44" width="0.1524" layer="91"/>
+<label x="142.24" y="-91.44" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="25-9" class="0">
@@ -3955,12 +5543,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="142.24" y1="40.64" x2="157.48" y2="40.64" width="0.1524" layer="91"/>
 <label x="142.24" y="40.64" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP114" gate="G$1" pin="4"/>
+<wire x1="142.24" y1="-93.98" x2="160.02" y2="-93.98" width="0.1524" layer="91"/>
+<label x="142.24" y="-93.98" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="25-8" class="0">
 <segment>
 <pinref part="JP25" gate="G$1" pin="8"/>
 <wire x1="142.24" y1="38.1" x2="157.48" y2="38.1" width="0.1524" layer="91"/>
 <label x="142.24" y="38.1" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP114" gate="G$1" pin="3"/>
+<wire x1="142.24" y1="-96.52" x2="160.02" y2="-96.52" width="0.1524" layer="91"/>
+<label x="142.24" y="-96.52" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="25-7" class="0">
@@ -3969,12 +5567,23 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="142.24" y1="35.56" x2="157.48" y2="35.56" width="0.1524" layer="91"/>
 <label x="142.24" y="35.56" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP114" gate="G$1" pin="2"/>
+<wire x1="142.24" y1="-99.06" x2="160.02" y2="-99.06" width="0.1524" layer="91"/>
+<label x="142.24" y="-99.06" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="25-6" class="0">
 <segment>
 <pinref part="JP25" gate="G$1" pin="6"/>
 <wire x1="142.24" y1="33.02" x2="157.48" y2="33.02" width="0.1524" layer="91"/>
 <label x="142.24" y="33.02" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP114" gate="G$1" pin="1"/>
+<wire x1="142.24" y1="-101.6" x2="160.02" y2="-101.6" width="0.1524" layer="91"/>
+<label x="142.24" y="-101.6" size="1.778" layer="95"/>
+<label x="142.24" y="-101.6" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="25-5" class="0">
@@ -3983,12 +5592,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="142.24" y1="30.48" x2="157.48" y2="30.48" width="0.1524" layer="91"/>
 <label x="142.24" y="30.48" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP115" gate="G$1" pin="5"/>
+<wire x1="142.24" y1="-109.22" x2="160.02" y2="-109.22" width="0.1524" layer="91"/>
+<label x="142.24" y="-109.22" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="25-4" class="0">
 <segment>
 <pinref part="JP25" gate="G$1" pin="4"/>
 <wire x1="142.24" y1="27.94" x2="157.48" y2="27.94" width="0.1524" layer="91"/>
 <label x="142.24" y="27.94" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP115" gate="G$1" pin="4"/>
+<wire x1="142.24" y1="-111.76" x2="160.02" y2="-111.76" width="0.1524" layer="91"/>
+<label x="142.24" y="-111.76" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="25-3" class="0">
@@ -3997,12 +5616,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="142.24" y1="25.4" x2="157.48" y2="25.4" width="0.1524" layer="91"/>
 <label x="142.24" y="25.4" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP115" gate="G$1" pin="3"/>
+<wire x1="142.24" y1="-114.3" x2="160.02" y2="-114.3" width="0.1524" layer="91"/>
+<label x="142.24" y="-114.3" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="25-2" class="0">
 <segment>
 <pinref part="JP25" gate="G$1" pin="2"/>
 <wire x1="142.24" y1="22.86" x2="157.48" y2="22.86" width="0.1524" layer="91"/>
 <label x="142.24" y="22.86" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP115" gate="G$1" pin="2"/>
+<wire x1="142.24" y1="-116.84" x2="160.02" y2="-116.84" width="0.1524" layer="91"/>
+<label x="142.24" y="-116.84" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="25-1" class="0">
@@ -4011,12 +5640,23 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="142.24" y1="20.32" x2="157.48" y2="20.32" width="0.1524" layer="91"/>
 <label x="142.24" y="20.32" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP115" gate="G$1" pin="1"/>
+<wire x1="142.24" y1="-119.38" x2="160.02" y2="-119.38" width="0.1524" layer="91"/>
+<label x="142.24" y="-119.38" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="26-15" class="0">
 <segment>
 <pinref part="JP26" gate="G$1" pin="15"/>
 <wire x1="172.72" y1="55.88" x2="187.96" y2="55.88" width="0.1524" layer="91"/>
 <label x="172.72" y="55.88" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP116" gate="G$1" pin="5"/>
+<wire x1="175.26" y1="-73.66" x2="193.04" y2="-73.66" width="0.1524" layer="91"/>
+<label x="175.26" y="-73.66" size="1.778" layer="95"/>
+<label x="175.26" y="-73.66" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="26-14" class="0">
@@ -4025,12 +5665,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="172.72" y1="53.34" x2="187.96" y2="53.34" width="0.1524" layer="91"/>
 <label x="172.72" y="53.34" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP116" gate="G$1" pin="4"/>
+<wire x1="175.26" y1="-76.2" x2="193.04" y2="-76.2" width="0.1524" layer="91"/>
+<label x="175.26" y="-76.2" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="26-13" class="0">
 <segment>
 <pinref part="JP26" gate="G$1" pin="13"/>
 <wire x1="172.72" y1="50.8" x2="187.96" y2="50.8" width="0.1524" layer="91"/>
 <label x="172.72" y="50.8" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP116" gate="G$1" pin="3"/>
+<wire x1="175.26" y1="-78.74" x2="193.04" y2="-78.74" width="0.1524" layer="91"/>
+<label x="175.26" y="-78.74" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="26-12" class="0">
@@ -4039,12 +5689,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="172.72" y1="48.26" x2="187.96" y2="48.26" width="0.1524" layer="91"/>
 <label x="172.72" y="48.26" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP116" gate="G$1" pin="2"/>
+<wire x1="175.26" y1="-81.28" x2="193.04" y2="-81.28" width="0.1524" layer="91"/>
+<label x="175.26" y="-81.28" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="26-11" class="0">
 <segment>
 <pinref part="JP26" gate="G$1" pin="11"/>
 <wire x1="172.72" y1="45.72" x2="187.96" y2="45.72" width="0.1524" layer="91"/>
 <label x="172.72" y="45.72" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP116" gate="G$1" pin="1"/>
+<wire x1="175.26" y1="-83.82" x2="193.04" y2="-83.82" width="0.1524" layer="91"/>
+<label x="175.26" y="-83.82" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="26-10" class="0">
@@ -4053,12 +5713,24 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="172.72" y1="43.18" x2="187.96" y2="43.18" width="0.1524" layer="91"/>
 <label x="172.72" y="43.18" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP117" gate="G$1" pin="5"/>
+<wire x1="175.26" y1="-91.44" x2="193.04" y2="-91.44" width="0.1524" layer="91"/>
+<label x="175.26" y="-91.44" size="1.778" layer="95"/>
+<label x="175.26" y="-91.44" size="1.778" layer="95"/>
+<label x="175.26" y="-91.44" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="26-9" class="0">
 <segment>
 <pinref part="JP26" gate="G$1" pin="9"/>
 <wire x1="172.72" y1="40.64" x2="187.96" y2="40.64" width="0.1524" layer="91"/>
 <label x="172.72" y="40.64" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP117" gate="G$1" pin="4"/>
+<wire x1="175.26" y1="-93.98" x2="193.04" y2="-93.98" width="0.1524" layer="91"/>
+<label x="175.26" y="-93.98" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="26-8" class="0">
@@ -4067,12 +5739,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="172.72" y1="38.1" x2="187.96" y2="38.1" width="0.1524" layer="91"/>
 <label x="172.72" y="38.1" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP117" gate="G$1" pin="3"/>
+<wire x1="175.26" y1="-96.52" x2="193.04" y2="-96.52" width="0.1524" layer="91"/>
+<label x="175.26" y="-96.52" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="26-7" class="0">
 <segment>
 <pinref part="JP26" gate="G$1" pin="7"/>
 <wire x1="172.72" y1="35.56" x2="187.96" y2="35.56" width="0.1524" layer="91"/>
 <label x="172.72" y="35.56" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP117" gate="G$1" pin="2"/>
+<wire x1="175.26" y1="-99.06" x2="193.04" y2="-99.06" width="0.1524" layer="91"/>
+<label x="175.26" y="-99.06" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="26-6" class="0">
@@ -4081,12 +5763,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="172.72" y1="33.02" x2="187.96" y2="33.02" width="0.1524" layer="91"/>
 <label x="172.72" y="33.02" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP117" gate="G$1" pin="1"/>
+<wire x1="175.26" y1="-101.6" x2="193.04" y2="-101.6" width="0.1524" layer="91"/>
+<label x="175.26" y="-101.6" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="26-5" class="0">
 <segment>
 <pinref part="JP26" gate="G$1" pin="5"/>
 <wire x1="172.72" y1="30.48" x2="187.96" y2="30.48" width="0.1524" layer="91"/>
 <label x="172.72" y="30.48" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP118" gate="G$1" pin="5"/>
+<wire x1="175.26" y1="-109.22" x2="193.04" y2="-109.22" width="0.1524" layer="91"/>
+<label x="175.26" y="-109.22" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="26-4" class="0">
@@ -4095,12 +5787,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="172.72" y1="27.94" x2="187.96" y2="27.94" width="0.1524" layer="91"/>
 <label x="172.72" y="27.94" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP118" gate="G$1" pin="4"/>
+<wire x1="175.26" y1="-111.76" x2="193.04" y2="-111.76" width="0.1524" layer="91"/>
+<label x="175.26" y="-111.76" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="26-3" class="0">
 <segment>
 <pinref part="JP26" gate="G$1" pin="3"/>
 <wire x1="172.72" y1="25.4" x2="187.96" y2="25.4" width="0.1524" layer="91"/>
 <label x="172.72" y="25.4" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP118" gate="G$1" pin="3"/>
+<wire x1="175.26" y1="-114.3" x2="193.04" y2="-114.3" width="0.1524" layer="91"/>
+<label x="175.26" y="-114.3" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="26-2" class="0">
@@ -4109,12 +5811,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="172.72" y1="22.86" x2="187.96" y2="22.86" width="0.1524" layer="91"/>
 <label x="172.72" y="22.86" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP118" gate="G$1" pin="2"/>
+<wire x1="175.26" y1="-116.84" x2="193.04" y2="-116.84" width="0.1524" layer="91"/>
+<label x="175.26" y="-116.84" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="26-1" class="0">
 <segment>
 <pinref part="JP26" gate="G$1" pin="1"/>
 <wire x1="172.72" y1="20.32" x2="187.96" y2="20.32" width="0.1524" layer="91"/>
 <label x="172.72" y="20.32" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP118" gate="G$1" pin="1"/>
+<wire x1="175.26" y1="-119.38" x2="193.04" y2="-119.38" width="0.1524" layer="91"/>
+<label x="175.26" y="-119.38" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="27-1" class="0">
@@ -4123,12 +5835,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="203.2" y1="20.32" x2="218.44" y2="20.32" width="0.1524" layer="91"/>
 <label x="203.2" y="20.32" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP121" gate="G$1" pin="1"/>
+<wire x1="208.28" y1="-119.38" x2="226.06" y2="-119.38" width="0.1524" layer="91"/>
+<label x="208.28" y="-119.38" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="27-2" class="0">
 <segment>
 <pinref part="JP27" gate="G$1" pin="2"/>
 <wire x1="203.2" y1="22.86" x2="218.44" y2="22.86" width="0.1524" layer="91"/>
 <label x="203.2" y="22.86" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP121" gate="G$1" pin="2"/>
+<wire x1="208.28" y1="-116.84" x2="226.06" y2="-116.84" width="0.1524" layer="91"/>
+<label x="208.28" y="-116.84" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="27-3" class="0">
@@ -4137,12 +5859,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="203.2" y1="25.4" x2="218.44" y2="25.4" width="0.1524" layer="91"/>
 <label x="203.2" y="25.4" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP121" gate="G$1" pin="3"/>
+<wire x1="208.28" y1="-114.3" x2="226.06" y2="-114.3" width="0.1524" layer="91"/>
+<label x="208.28" y="-114.3" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="27-4" class="0">
 <segment>
 <pinref part="JP27" gate="G$1" pin="4"/>
 <wire x1="203.2" y1="27.94" x2="218.44" y2="27.94" width="0.1524" layer="91"/>
 <label x="203.2" y="27.94" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP121" gate="G$1" pin="4"/>
+<wire x1="208.28" y1="-111.76" x2="226.06" y2="-111.76" width="0.1524" layer="91"/>
+<label x="208.28" y="-111.76" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="27-5" class="0">
@@ -4151,12 +5883,23 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="203.2" y1="30.48" x2="218.44" y2="30.48" width="0.1524" layer="91"/>
 <label x="203.2" y="30.48" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP121" gate="G$1" pin="5"/>
+<wire x1="208.28" y1="-109.22" x2="226.06" y2="-109.22" width="0.1524" layer="91"/>
+<label x="208.28" y="-109.22" size="1.778" layer="95"/>
+<label x="208.28" y="-109.22" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="27-6" class="0">
 <segment>
 <pinref part="JP27" gate="G$1" pin="6"/>
 <wire x1="203.2" y1="33.02" x2="218.44" y2="33.02" width="0.1524" layer="91"/>
 <label x="203.2" y="33.02" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP120" gate="G$1" pin="1"/>
+<wire x1="208.28" y1="-101.6" x2="226.06" y2="-101.6" width="0.1524" layer="91"/>
+<label x="208.28" y="-101.6" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="27-7" class="0">
@@ -4165,12 +5908,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="203.2" y1="35.56" x2="218.44" y2="35.56" width="0.1524" layer="91"/>
 <label x="203.2" y="35.56" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP120" gate="G$1" pin="2"/>
+<wire x1="208.28" y1="-99.06" x2="226.06" y2="-99.06" width="0.1524" layer="91"/>
+<label x="208.28" y="-99.06" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="27-8" class="0">
 <segment>
 <pinref part="JP27" gate="G$1" pin="8"/>
 <wire x1="203.2" y1="38.1" x2="218.44" y2="38.1" width="0.1524" layer="91"/>
 <label x="203.2" y="38.1" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP120" gate="G$1" pin="3"/>
+<wire x1="208.28" y1="-96.52" x2="226.06" y2="-96.52" width="0.1524" layer="91"/>
+<label x="208.28" y="-96.52" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="27-9" class="0">
@@ -4179,12 +5932,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="203.2" y1="40.64" x2="218.44" y2="40.64" width="0.1524" layer="91"/>
 <label x="203.2" y="40.64" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP120" gate="G$1" pin="4"/>
+<wire x1="208.28" y1="-93.98" x2="226.06" y2="-93.98" width="0.1524" layer="91"/>
+<label x="208.28" y="-93.98" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="27-10" class="0">
 <segment>
 <pinref part="JP27" gate="G$1" pin="10"/>
 <wire x1="203.2" y1="43.18" x2="218.44" y2="43.18" width="0.1524" layer="91"/>
 <label x="203.2" y="43.18" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP120" gate="G$1" pin="5"/>
+<wire x1="208.28" y1="-91.44" x2="226.06" y2="-91.44" width="0.1524" layer="91"/>
+<label x="208.28" y="-91.44" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="27-11" class="0">
@@ -4193,12 +5956,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="203.2" y1="45.72" x2="218.44" y2="45.72" width="0.1524" layer="91"/>
 <label x="203.2" y="45.72" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP119" gate="G$1" pin="1"/>
+<wire x1="208.28" y1="-83.82" x2="226.06" y2="-83.82" width="0.1524" layer="91"/>
+<label x="208.28" y="-83.82" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="27-12" class="0">
 <segment>
 <pinref part="JP27" gate="G$1" pin="12"/>
 <wire x1="203.2" y1="48.26" x2="218.44" y2="48.26" width="0.1524" layer="91"/>
 <label x="203.2" y="48.26" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP119" gate="G$1" pin="2"/>
+<wire x1="208.28" y1="-81.28" x2="226.06" y2="-81.28" width="0.1524" layer="91"/>
+<label x="208.28" y="-81.28" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="27-13" class="0">
@@ -4207,12 +5980,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="203.2" y1="50.8" x2="218.44" y2="50.8" width="0.1524" layer="91"/>
 <label x="203.2" y="50.8" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP119" gate="G$1" pin="3"/>
+<wire x1="208.28" y1="-78.74" x2="226.06" y2="-78.74" width="0.1524" layer="91"/>
+<label x="208.28" y="-78.74" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="27-14" class="0">
 <segment>
 <pinref part="JP27" gate="G$1" pin="14"/>
 <wire x1="203.2" y1="53.34" x2="218.44" y2="53.34" width="0.1524" layer="91"/>
 <label x="203.2" y="53.34" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP119" gate="G$1" pin="4"/>
+<wire x1="208.28" y1="-76.2" x2="226.06" y2="-76.2" width="0.1524" layer="91"/>
+<label x="208.28" y="-76.2" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="27-15" class="0">
@@ -4221,12 +6004,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="203.2" y1="55.88" x2="218.44" y2="55.88" width="0.1524" layer="91"/>
 <label x="203.2" y="55.88" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP119" gate="G$1" pin="5"/>
+<wire x1="208.28" y1="-73.66" x2="226.06" y2="-73.66" width="0.1524" layer="91"/>
+<label x="208.28" y="-73.66" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="28-1" class="0">
 <segment>
 <pinref part="JP28" gate="G$1" pin="1"/>
 <wire x1="233.68" y1="20.32" x2="251.46" y2="20.32" width="0.1524" layer="91"/>
 <label x="233.68" y="20.32" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP124" gate="G$1" pin="1"/>
+<wire x1="241.3" y1="-119.38" x2="259.08" y2="-119.38" width="0.1524" layer="91"/>
+<label x="241.3" y="-119.38" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="28-2" class="0">
@@ -4235,12 +6028,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="233.68" y1="22.86" x2="251.46" y2="22.86" width="0.1524" layer="91"/>
 <label x="233.68" y="22.86" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP124" gate="G$1" pin="2"/>
+<wire x1="241.3" y1="-116.84" x2="259.08" y2="-116.84" width="0.1524" layer="91"/>
+<label x="241.3" y="-116.84" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="28-3" class="0">
 <segment>
 <pinref part="JP28" gate="G$1" pin="3"/>
 <wire x1="233.68" y1="25.4" x2="251.46" y2="25.4" width="0.1524" layer="91"/>
 <label x="233.68" y="25.4" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP124" gate="G$1" pin="3"/>
+<wire x1="241.3" y1="-114.3" x2="259.08" y2="-114.3" width="0.1524" layer="91"/>
+<label x="241.3" y="-114.3" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="28-4" class="0">
@@ -4249,12 +6052,23 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="233.68" y1="27.94" x2="251.46" y2="27.94" width="0.1524" layer="91"/>
 <label x="233.68" y="27.94" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP124" gate="G$1" pin="4"/>
+<wire x1="241.3" y1="-111.76" x2="259.08" y2="-111.76" width="0.1524" layer="91"/>
+<label x="241.3" y="-111.76" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="28-5" class="0">
 <segment>
 <pinref part="JP28" gate="G$1" pin="5"/>
 <wire x1="233.68" y1="30.48" x2="251.46" y2="30.48" width="0.1524" layer="91"/>
 <label x="233.68" y="30.48" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP124" gate="G$1" pin="5"/>
+<wire x1="241.3" y1="-109.22" x2="259.08" y2="-109.22" width="0.1524" layer="91"/>
+<label x="241.3" y="-109.22" size="1.778" layer="95"/>
+<label x="241.3" y="-109.22" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="28-6" class="0">
@@ -4263,12 +6077,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="233.68" y1="33.02" x2="251.46" y2="33.02" width="0.1524" layer="91"/>
 <label x="233.68" y="33.02" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP123" gate="G$1" pin="1"/>
+<wire x1="241.3" y1="-101.6" x2="259.08" y2="-101.6" width="0.1524" layer="91"/>
+<label x="241.3" y="-101.6" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="28-7" class="0">
 <segment>
 <pinref part="JP28" gate="G$1" pin="7"/>
 <wire x1="233.68" y1="35.56" x2="251.46" y2="35.56" width="0.1524" layer="91"/>
 <label x="233.68" y="35.56" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP123" gate="G$1" pin="2"/>
+<wire x1="241.3" y1="-99.06" x2="259.08" y2="-99.06" width="0.1524" layer="91"/>
+<label x="241.3" y="-99.06" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="28-8" class="0">
@@ -4277,12 +6101,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="233.68" y1="38.1" x2="251.46" y2="38.1" width="0.1524" layer="91"/>
 <label x="233.68" y="38.1" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP123" gate="G$1" pin="3"/>
+<wire x1="241.3" y1="-96.52" x2="259.08" y2="-96.52" width="0.1524" layer="91"/>
+<label x="241.3" y="-96.52" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="28-9" class="0">
 <segment>
 <pinref part="JP28" gate="G$1" pin="9"/>
 <wire x1="233.68" y1="40.64" x2="251.46" y2="40.64" width="0.1524" layer="91"/>
 <label x="233.68" y="40.64" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP123" gate="G$1" pin="4"/>
+<wire x1="241.3" y1="-93.98" x2="259.08" y2="-93.98" width="0.1524" layer="91"/>
+<label x="241.3" y="-93.98" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="28-10" class="0">
@@ -4291,12 +6125,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="233.68" y1="43.18" x2="251.46" y2="43.18" width="0.1524" layer="91"/>
 <label x="233.68" y="43.18" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP123" gate="G$1" pin="5"/>
+<wire x1="241.3" y1="-91.44" x2="259.08" y2="-91.44" width="0.1524" layer="91"/>
+<label x="241.3" y="-91.44" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="28-11" class="0">
 <segment>
 <pinref part="JP28" gate="G$1" pin="11"/>
 <wire x1="233.68" y1="45.72" x2="251.46" y2="45.72" width="0.1524" layer="91"/>
 <label x="233.68" y="45.72" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP122" gate="G$1" pin="1"/>
+<wire x1="241.3" y1="-83.82" x2="259.08" y2="-83.82" width="0.1524" layer="91"/>
+<label x="241.3" y="-83.82" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="28-12" class="0">
@@ -4305,12 +6149,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="233.68" y1="48.26" x2="251.46" y2="48.26" width="0.1524" layer="91"/>
 <label x="233.68" y="48.26" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP122" gate="G$1" pin="2"/>
+<wire x1="241.3" y1="-81.28" x2="259.08" y2="-81.28" width="0.1524" layer="91"/>
+<label x="241.3" y="-81.28" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="28-13" class="0">
 <segment>
 <pinref part="JP28" gate="G$1" pin="13"/>
 <wire x1="233.68" y1="50.8" x2="251.46" y2="50.8" width="0.1524" layer="91"/>
 <label x="233.68" y="50.8" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP122" gate="G$1" pin="3"/>
+<wire x1="241.3" y1="-78.74" x2="259.08" y2="-78.74" width="0.1524" layer="91"/>
+<label x="241.3" y="-78.74" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="28-14" class="0">
@@ -4319,12 +6173,23 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="233.68" y1="53.34" x2="251.46" y2="53.34" width="0.1524" layer="91"/>
 <label x="233.68" y="53.34" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP122" gate="G$1" pin="4"/>
+<wire x1="241.3" y1="-76.2" x2="259.08" y2="-76.2" width="0.1524" layer="91"/>
+<label x="241.3" y="-76.2" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="28-15" class="0">
 <segment>
 <pinref part="JP28" gate="G$1" pin="15"/>
 <wire x1="233.68" y1="55.88" x2="251.46" y2="55.88" width="0.1524" layer="91"/>
 <label x="233.68" y="55.88" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP122" gate="G$1" pin="5"/>
+<wire x1="241.3" y1="-73.66" x2="259.08" y2="-73.66" width="0.1524" layer="91"/>
+<label x="241.3" y="-73.66" size="1.778" layer="95"/>
+<label x="241.3" y="-73.66" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="29-1" class="0">
@@ -4333,12 +6198,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="266.7" y1="20.32" x2="287.02" y2="20.32" width="0.1524" layer="91"/>
 <label x="266.7" y="20.32" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP127" gate="G$1" pin="1"/>
+<wire x1="274.32" y1="-119.38" x2="292.1" y2="-119.38" width="0.1524" layer="91"/>
+<label x="274.32" y="-119.38" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="29-2" class="0">
 <segment>
 <pinref part="JP29" gate="G$1" pin="2"/>
 <wire x1="266.7" y1="22.86" x2="287.02" y2="22.86" width="0.1524" layer="91"/>
 <label x="266.7" y="22.86" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP127" gate="G$1" pin="2"/>
+<wire x1="274.32" y1="-116.84" x2="292.1" y2="-116.84" width="0.1524" layer="91"/>
+<label x="274.32" y="-116.84" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="29-3" class="0">
@@ -4347,12 +6222,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="266.7" y1="25.4" x2="287.02" y2="25.4" width="0.1524" layer="91"/>
 <label x="266.7" y="25.4" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP127" gate="G$1" pin="3"/>
+<wire x1="274.32" y1="-114.3" x2="292.1" y2="-114.3" width="0.1524" layer="91"/>
+<label x="274.32" y="-114.3" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="29-4" class="0">
 <segment>
 <pinref part="JP29" gate="G$1" pin="4"/>
 <wire x1="266.7" y1="27.94" x2="287.02" y2="27.94" width="0.1524" layer="91"/>
 <label x="266.7" y="27.94" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP127" gate="G$1" pin="4"/>
+<wire x1="274.32" y1="-111.76" x2="292.1" y2="-111.76" width="0.1524" layer="91"/>
+<label x="274.32" y="-111.76" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="29-5" class="0">
@@ -4361,12 +6246,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="266.7" y1="30.48" x2="287.02" y2="30.48" width="0.1524" layer="91"/>
 <label x="266.7" y="30.48" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP127" gate="G$1" pin="5"/>
+<wire x1="274.32" y1="-109.22" x2="292.1" y2="-109.22" width="0.1524" layer="91"/>
+<label x="274.32" y="-109.22" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="29-6" class="0">
 <segment>
 <pinref part="JP29" gate="G$1" pin="6"/>
 <wire x1="266.7" y1="33.02" x2="287.02" y2="33.02" width="0.1524" layer="91"/>
 <label x="266.7" y="33.02" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP126" gate="G$1" pin="1"/>
+<wire x1="274.32" y1="-101.6" x2="292.1" y2="-101.6" width="0.1524" layer="91"/>
+<label x="274.32" y="-101.6" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="29-7" class="0">
@@ -4375,12 +6270,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="266.7" y1="35.56" x2="287.02" y2="35.56" width="0.1524" layer="91"/>
 <label x="266.7" y="35.56" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP126" gate="G$1" pin="2"/>
+<wire x1="274.32" y1="-99.06" x2="292.1" y2="-99.06" width="0.1524" layer="91"/>
+<label x="274.32" y="-99.06" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="29-8" class="0">
 <segment>
 <pinref part="JP29" gate="G$1" pin="8"/>
 <wire x1="266.7" y1="38.1" x2="287.02" y2="38.1" width="0.1524" layer="91"/>
 <label x="266.7" y="38.1" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP126" gate="G$1" pin="3"/>
+<wire x1="274.32" y1="-96.52" x2="292.1" y2="-96.52" width="0.1524" layer="91"/>
+<label x="274.32" y="-96.52" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="29-9" class="0">
@@ -4389,12 +6294,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="266.7" y1="40.64" x2="287.02" y2="40.64" width="0.1524" layer="91"/>
 <label x="266.7" y="40.64" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP126" gate="G$1" pin="4"/>
+<wire x1="274.32" y1="-93.98" x2="292.1" y2="-93.98" width="0.1524" layer="91"/>
+<label x="274.32" y="-93.98" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="29-10" class="0">
 <segment>
 <pinref part="JP29" gate="G$1" pin="10"/>
 <wire x1="266.7" y1="43.18" x2="287.02" y2="43.18" width="0.1524" layer="91"/>
 <label x="266.7" y="43.18" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP126" gate="G$1" pin="5"/>
+<wire x1="274.32" y1="-91.44" x2="292.1" y2="-91.44" width="0.1524" layer="91"/>
+<label x="274.32" y="-91.44" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="29-11" class="0">
@@ -4403,12 +6318,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="266.7" y1="45.72" x2="287.02" y2="45.72" width="0.1524" layer="91"/>
 <label x="266.7" y="45.72" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP125" gate="G$1" pin="1"/>
+<wire x1="274.32" y1="-83.82" x2="292.1" y2="-83.82" width="0.1524" layer="91"/>
+<label x="274.32" y="-83.82" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="29-12" class="0">
 <segment>
 <pinref part="JP29" gate="G$1" pin="12"/>
 <wire x1="266.7" y1="48.26" x2="287.02" y2="48.26" width="0.1524" layer="91"/>
 <label x="266.7" y="48.26" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP125" gate="G$1" pin="2"/>
+<wire x1="274.32" y1="-81.28" x2="292.1" y2="-81.28" width="0.1524" layer="91"/>
+<label x="274.32" y="-81.28" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="29-13" class="0">
@@ -4417,12 +6342,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="266.7" y1="50.8" x2="287.02" y2="50.8" width="0.1524" layer="91"/>
 <label x="266.7" y="50.8" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP125" gate="G$1" pin="3"/>
+<wire x1="274.32" y1="-78.74" x2="292.1" y2="-78.74" width="0.1524" layer="91"/>
+<label x="274.32" y="-78.74" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="29-14" class="0">
 <segment>
 <pinref part="JP29" gate="G$1" pin="14"/>
 <wire x1="266.7" y1="53.34" x2="287.02" y2="53.34" width="0.1524" layer="91"/>
 <label x="266.7" y="53.34" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP125" gate="G$1" pin="4"/>
+<wire x1="274.32" y1="-76.2" x2="292.1" y2="-76.2" width="0.1524" layer="91"/>
+<label x="274.32" y="-76.2" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="29-15" class="0">
@@ -4431,12 +6366,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="266.7" y1="55.88" x2="287.02" y2="55.88" width="0.1524" layer="91"/>
 <label x="266.7" y="55.88" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP125" gate="G$1" pin="5"/>
+<wire x1="274.32" y1="-73.66" x2="292.1" y2="-73.66" width="0.1524" layer="91"/>
+<label x="274.32" y="-73.66" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="30-1" class="0">
 <segment>
 <pinref part="JP30" gate="G$1" pin="1"/>
 <wire x1="302.26" y1="20.32" x2="325.12" y2="20.32" width="0.1524" layer="91"/>
 <label x="302.26" y="20.32" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP130" gate="G$1" pin="1"/>
+<wire x1="307.34" y1="-119.38" x2="325.12" y2="-119.38" width="0.1524" layer="91"/>
+<label x="307.34" y="-119.38" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="30-2" class="0">
@@ -4445,12 +6390,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="302.26" y1="22.86" x2="325.12" y2="22.86" width="0.1524" layer="91"/>
 <label x="302.26" y="22.86" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP130" gate="G$1" pin="2"/>
+<wire x1="307.34" y1="-116.84" x2="325.12" y2="-116.84" width="0.1524" layer="91"/>
+<label x="307.34" y="-116.84" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="30-3" class="0">
 <segment>
 <pinref part="JP30" gate="G$1" pin="3"/>
 <wire x1="302.26" y1="25.4" x2="325.12" y2="25.4" width="0.1524" layer="91"/>
 <label x="302.26" y="25.4" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP130" gate="G$1" pin="3"/>
+<wire x1="307.34" y1="-114.3" x2="325.12" y2="-114.3" width="0.1524" layer="91"/>
+<label x="307.34" y="-114.3" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="30-4" class="0">
@@ -4459,12 +6414,23 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="302.26" y1="27.94" x2="325.12" y2="27.94" width="0.1524" layer="91"/>
 <label x="302.26" y="27.94" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP130" gate="G$1" pin="4"/>
+<wire x1="307.34" y1="-111.76" x2="325.12" y2="-111.76" width="0.1524" layer="91"/>
+<label x="307.34" y="-111.76" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="30-5" class="0">
 <segment>
 <pinref part="JP30" gate="G$1" pin="5"/>
 <wire x1="302.26" y1="30.48" x2="325.12" y2="30.48" width="0.1524" layer="91"/>
 <label x="302.26" y="30.48" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP130" gate="G$1" pin="5"/>
+<wire x1="307.34" y1="-109.22" x2="325.12" y2="-109.22" width="0.1524" layer="91"/>
+<label x="307.34" y="-109.22" size="1.778" layer="95"/>
+<label x="307.34" y="-109.22" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="30-6" class="0">
@@ -4473,12 +6439,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="302.26" y1="33.02" x2="325.12" y2="33.02" width="0.1524" layer="91"/>
 <label x="302.26" y="33.02" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP129" gate="G$1" pin="1"/>
+<wire x1="307.34" y1="-101.6" x2="325.12" y2="-101.6" width="0.1524" layer="91"/>
+<label x="307.34" y="-101.6" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="30-7" class="0">
 <segment>
 <pinref part="JP30" gate="G$1" pin="7"/>
 <wire x1="302.26" y1="35.56" x2="325.12" y2="35.56" width="0.1524" layer="91"/>
 <label x="302.26" y="35.56" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP129" gate="G$1" pin="2"/>
+<wire x1="307.34" y1="-99.06" x2="325.12" y2="-99.06" width="0.1524" layer="91"/>
+<label x="307.34" y="-99.06" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="30-8" class="0">
@@ -4487,12 +6463,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="302.26" y1="38.1" x2="325.12" y2="38.1" width="0.1524" layer="91"/>
 <label x="302.26" y="38.1" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP129" gate="G$1" pin="3"/>
+<wire x1="307.34" y1="-96.52" x2="325.12" y2="-96.52" width="0.1524" layer="91"/>
+<label x="307.34" y="-96.52" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="30-9" class="0">
 <segment>
 <pinref part="JP30" gate="G$1" pin="9"/>
 <wire x1="302.26" y1="40.64" x2="325.12" y2="40.64" width="0.1524" layer="91"/>
 <label x="302.26" y="40.64" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP129" gate="G$1" pin="4"/>
+<wire x1="307.34" y1="-93.98" x2="325.12" y2="-93.98" width="0.1524" layer="91"/>
+<label x="307.34" y="-93.98" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="30-10" class="0">
@@ -4501,12 +6487,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="302.26" y1="43.18" x2="325.12" y2="43.18" width="0.1524" layer="91"/>
 <label x="302.26" y="43.18" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP129" gate="G$1" pin="5"/>
+<wire x1="307.34" y1="-91.44" x2="325.12" y2="-91.44" width="0.1524" layer="91"/>
+<label x="307.34" y="-91.44" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="30-11" class="0">
 <segment>
 <pinref part="JP30" gate="G$1" pin="11"/>
 <wire x1="302.26" y1="45.72" x2="325.12" y2="45.72" width="0.1524" layer="91"/>
 <label x="302.26" y="45.72" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP128" gate="G$1" pin="1"/>
+<wire x1="307.34" y1="-83.82" x2="325.12" y2="-83.82" width="0.1524" layer="91"/>
+<label x="307.34" y="-83.82" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="30-12" class="0">
@@ -4515,12 +6511,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="302.26" y1="48.26" x2="325.12" y2="48.26" width="0.1524" layer="91"/>
 <label x="302.26" y="48.26" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP128" gate="G$1" pin="2"/>
+<wire x1="307.34" y1="-81.28" x2="325.12" y2="-81.28" width="0.1524" layer="91"/>
+<label x="307.34" y="-81.28" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="30-13" class="0">
 <segment>
 <pinref part="JP30" gate="G$1" pin="13"/>
 <wire x1="302.26" y1="50.8" x2="325.12" y2="50.8" width="0.1524" layer="91"/>
 <label x="302.26" y="50.8" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP128" gate="G$1" pin="3"/>
+<wire x1="307.34" y1="-78.74" x2="325.12" y2="-78.74" width="0.1524" layer="91"/>
+<label x="307.34" y="-78.74" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="30-14" class="0">
@@ -4529,12 +6535,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="302.26" y1="53.34" x2="325.12" y2="53.34" width="0.1524" layer="91"/>
 <label x="302.26" y="53.34" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP128" gate="G$1" pin="4"/>
+<wire x1="307.34" y1="-76.2" x2="325.12" y2="-76.2" width="0.1524" layer="91"/>
+<label x="307.34" y="-76.2" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="30-15" class="0">
 <segment>
 <pinref part="JP30" gate="G$1" pin="15"/>
 <wire x1="302.26" y1="55.88" x2="325.12" y2="55.88" width="0.1524" layer="91"/>
 <label x="302.26" y="55.88" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP128" gate="G$1" pin="5"/>
+<wire x1="307.34" y1="-73.66" x2="325.12" y2="-73.66" width="0.1524" layer="91"/>
+<label x="307.34" y="-73.66" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="31-1" class="0">
@@ -4543,12 +6559,23 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="340.36" y1="20.32" x2="358.14" y2="20.32" width="0.1524" layer="91"/>
 <label x="340.36" y="20.32" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP133" gate="G$1" pin="1"/>
+<wire x1="340.36" y1="-121.92" x2="358.14" y2="-121.92" width="0.1524" layer="91"/>
+<label x="340.36" y="-121.92" size="1.778" layer="95"/>
+<label x="340.36" y="-121.92" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="31-2" class="0">
 <segment>
 <pinref part="JP31" gate="G$1" pin="2"/>
 <wire x1="340.36" y1="22.86" x2="358.14" y2="22.86" width="0.1524" layer="91"/>
 <label x="340.36" y="22.86" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP133" gate="G$1" pin="2"/>
+<wire x1="340.36" y1="-119.38" x2="358.14" y2="-119.38" width="0.1524" layer="91"/>
+<label x="340.36" y="-119.38" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="31-3" class="0">
@@ -4557,12 +6584,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="340.36" y1="25.4" x2="358.14" y2="25.4" width="0.1524" layer="91"/>
 <label x="340.36" y="25.4" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP133" gate="G$1" pin="3"/>
+<wire x1="340.36" y1="-116.84" x2="358.14" y2="-116.84" width="0.1524" layer="91"/>
+<label x="340.36" y="-116.84" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="31-4" class="0">
 <segment>
 <pinref part="JP31" gate="G$1" pin="4"/>
 <wire x1="340.36" y1="27.94" x2="358.14" y2="27.94" width="0.1524" layer="91"/>
 <label x="340.36" y="27.94" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP133" gate="G$1" pin="4"/>
+<wire x1="340.36" y1="-114.3" x2="358.14" y2="-114.3" width="0.1524" layer="91"/>
+<label x="340.36" y="-114.3" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="31-5" class="0">
@@ -4571,12 +6608,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="340.36" y1="30.48" x2="358.14" y2="30.48" width="0.1524" layer="91"/>
 <label x="340.36" y="30.48" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP133" gate="G$1" pin="5"/>
+<wire x1="340.36" y1="-111.76" x2="358.14" y2="-111.76" width="0.1524" layer="91"/>
+<label x="340.36" y="-111.76" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="31-6" class="0">
 <segment>
 <pinref part="JP31" gate="G$1" pin="6"/>
 <wire x1="340.36" y1="33.02" x2="358.14" y2="33.02" width="0.1524" layer="91"/>
 <label x="340.36" y="33.02" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP132" gate="G$1" pin="1"/>
+<wire x1="340.36" y1="-104.14" x2="358.14" y2="-104.14" width="0.1524" layer="91"/>
+<label x="340.36" y="-104.14" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="31-7" class="0">
@@ -4585,12 +6632,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="340.36" y1="35.56" x2="358.14" y2="35.56" width="0.1524" layer="91"/>
 <label x="340.36" y="35.56" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP132" gate="G$1" pin="2"/>
+<wire x1="340.36" y1="-101.6" x2="358.14" y2="-101.6" width="0.1524" layer="91"/>
+<label x="340.36" y="-101.6" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="31-8" class="0">
 <segment>
 <pinref part="JP31" gate="G$1" pin="8"/>
 <wire x1="340.36" y1="38.1" x2="358.14" y2="38.1" width="0.1524" layer="91"/>
 <label x="340.36" y="38.1" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP132" gate="G$1" pin="3"/>
+<wire x1="340.36" y1="-99.06" x2="358.14" y2="-99.06" width="0.1524" layer="91"/>
+<label x="340.36" y="-99.06" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="31-9" class="0">
@@ -4599,6 +6656,11 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="340.36" y1="40.64" x2="358.14" y2="40.64" width="0.1524" layer="91"/>
 <label x="340.36" y="40.64" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP132" gate="G$1" pin="4"/>
+<wire x1="340.36" y1="-96.52" x2="358.14" y2="-96.52" width="0.1524" layer="91"/>
+<label x="340.36" y="-96.52" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="31-10" class="0">
 <segment>
@@ -4606,12 +6668,23 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="340.36" y1="43.18" x2="358.14" y2="43.18" width="0.1524" layer="91"/>
 <label x="340.36" y="43.18" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP132" gate="G$1" pin="5"/>
+<wire x1="340.36" y1="-93.98" x2="358.14" y2="-93.98" width="0.1524" layer="91"/>
+<label x="340.36" y="-93.98" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="31-11" class="0">
 <segment>
 <pinref part="JP31" gate="G$1" pin="11"/>
 <wire x1="340.36" y1="45.72" x2="358.14" y2="45.72" width="0.1524" layer="91"/>
 <label x="340.36" y="45.72" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP131" gate="G$1" pin="1"/>
+<wire x1="340.36" y1="-86.36" x2="358.14" y2="-86.36" width="0.1524" layer="91"/>
+<label x="340.36" y="-86.36" size="1.778" layer="95"/>
+<label x="340.36" y="-86.36" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="31-12" class="0">
@@ -4621,12 +6694,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <label x="340.36" y="48.26" size="1.778" layer="95"/>
 <label x="340.36" y="48.26" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP131" gate="G$1" pin="2"/>
+<wire x1="340.36" y1="-83.82" x2="358.14" y2="-83.82" width="0.1524" layer="91"/>
+<label x="340.36" y="-83.82" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="31-13" class="0">
 <segment>
 <pinref part="JP31" gate="G$1" pin="13"/>
 <wire x1="340.36" y1="50.8" x2="358.14" y2="50.8" width="0.1524" layer="91"/>
 <label x="340.36" y="50.8" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP131" gate="G$1" pin="3"/>
+<wire x1="340.36" y1="-81.28" x2="358.14" y2="-81.28" width="0.1524" layer="91"/>
+<label x="340.36" y="-81.28" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="31-14" class="0">
@@ -4635,12 +6718,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="340.36" y1="53.34" x2="358.14" y2="53.34" width="0.1524" layer="91"/>
 <label x="340.36" y="53.34" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP131" gate="G$1" pin="4"/>
+<wire x1="340.36" y1="-78.74" x2="358.14" y2="-78.74" width="0.1524" layer="91"/>
+<label x="340.36" y="-78.74" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="31-15" class="0">
 <segment>
 <pinref part="JP31" gate="G$1" pin="15"/>
 <wire x1="340.36" y1="55.88" x2="358.14" y2="55.88" width="0.1524" layer="91"/>
 <label x="340.36" y="55.88" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP131" gate="G$1" pin="5"/>
+<wire x1="340.36" y1="-76.2" x2="358.14" y2="-76.2" width="0.1524" layer="91"/>
+<label x="340.36" y="-76.2" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="32-1" class="0">
@@ -4649,12 +6742,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="373.38" y1="20.32" x2="391.16" y2="20.32" width="0.1524" layer="91"/>
 <label x="373.38" y="20.32" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP136" gate="G$1" pin="1"/>
+<wire x1="373.38" y1="-121.92" x2="391.16" y2="-121.92" width="0.1524" layer="91"/>
+<label x="373.38" y="-121.92" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="32-2" class="0">
 <segment>
 <pinref part="JP32" gate="G$1" pin="2"/>
 <wire x1="373.38" y1="22.86" x2="391.16" y2="22.86" width="0.1524" layer="91"/>
 <label x="373.38" y="22.86" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP136" gate="G$1" pin="2"/>
+<wire x1="373.38" y1="-119.38" x2="391.16" y2="-119.38" width="0.1524" layer="91"/>
+<label x="373.38" y="-119.38" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="32-3" class="0">
@@ -4663,12 +6766,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="373.38" y1="25.4" x2="391.16" y2="25.4" width="0.1524" layer="91"/>
 <label x="373.38" y="25.4" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP136" gate="G$1" pin="3"/>
+<wire x1="373.38" y1="-116.84" x2="391.16" y2="-116.84" width="0.1524" layer="91"/>
+<label x="373.38" y="-116.84" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="32-4" class="0">
 <segment>
 <pinref part="JP32" gate="G$1" pin="4"/>
 <wire x1="373.38" y1="27.94" x2="391.16" y2="27.94" width="0.1524" layer="91"/>
 <label x="373.38" y="27.94" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP136" gate="G$1" pin="4"/>
+<wire x1="373.38" y1="-114.3" x2="391.16" y2="-114.3" width="0.1524" layer="91"/>
+<label x="373.38" y="-114.3" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="32-5" class="0">
@@ -4677,12 +6790,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="373.38" y1="30.48" x2="391.16" y2="30.48" width="0.1524" layer="91"/>
 <label x="373.38" y="30.48" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP136" gate="G$1" pin="5"/>
+<wire x1="373.38" y1="-111.76" x2="391.16" y2="-111.76" width="0.1524" layer="91"/>
+<label x="373.38" y="-111.76" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="32-6" class="0">
 <segment>
 <pinref part="JP32" gate="G$1" pin="6"/>
 <wire x1="373.38" y1="33.02" x2="391.16" y2="33.02" width="0.1524" layer="91"/>
 <label x="373.38" y="33.02" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP135" gate="G$1" pin="1"/>
+<wire x1="373.38" y1="-104.14" x2="391.16" y2="-104.14" width="0.1524" layer="91"/>
+<label x="373.38" y="-104.14" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="32-7" class="0">
@@ -4691,12 +6814,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="373.38" y1="35.56" x2="391.16" y2="35.56" width="0.1524" layer="91"/>
 <label x="373.38" y="35.56" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP135" gate="G$1" pin="2"/>
+<wire x1="373.38" y1="-101.6" x2="391.16" y2="-101.6" width="0.1524" layer="91"/>
+<label x="373.38" y="-101.6" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="32-8" class="0">
 <segment>
 <pinref part="JP32" gate="G$1" pin="8"/>
 <wire x1="373.38" y1="38.1" x2="391.16" y2="38.1" width="0.1524" layer="91"/>
 <label x="373.38" y="38.1" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP135" gate="G$1" pin="3"/>
+<wire x1="373.38" y1="-99.06" x2="391.16" y2="-99.06" width="0.1524" layer="91"/>
+<label x="373.38" y="-99.06" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="32-9" class="0">
@@ -4705,12 +6838,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="373.38" y1="40.64" x2="391.16" y2="40.64" width="0.1524" layer="91"/>
 <label x="373.38" y="40.64" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP135" gate="G$1" pin="4"/>
+<wire x1="373.38" y1="-96.52" x2="391.16" y2="-96.52" width="0.1524" layer="91"/>
+<label x="373.38" y="-96.52" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="32-10" class="0">
 <segment>
 <pinref part="JP32" gate="G$1" pin="10"/>
 <wire x1="373.38" y1="43.18" x2="391.16" y2="43.18" width="0.1524" layer="91"/>
 <label x="373.38" y="43.18" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP135" gate="G$1" pin="5"/>
+<wire x1="373.38" y1="-93.98" x2="391.16" y2="-93.98" width="0.1524" layer="91"/>
+<label x="373.38" y="-93.98" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="32-11" class="0">
@@ -4719,12 +6862,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="373.38" y1="45.72" x2="391.16" y2="45.72" width="0.1524" layer="91"/>
 <label x="373.38" y="45.72" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP134" gate="G$1" pin="1"/>
+<wire x1="373.38" y1="-86.36" x2="391.16" y2="-86.36" width="0.1524" layer="91"/>
+<label x="373.38" y="-86.36" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="32-12" class="0">
 <segment>
 <pinref part="JP32" gate="G$1" pin="12"/>
 <wire x1="373.38" y1="48.26" x2="391.16" y2="48.26" width="0.1524" layer="91"/>
 <label x="373.38" y="48.26" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP134" gate="G$1" pin="2"/>
+<wire x1="373.38" y1="-83.82" x2="391.16" y2="-83.82" width="0.1524" layer="91"/>
+<label x="373.38" y="-83.82" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="32-13" class="0">
@@ -4733,12 +6886,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="373.38" y1="50.8" x2="391.16" y2="50.8" width="0.1524" layer="91"/>
 <label x="373.38" y="50.8" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP134" gate="G$1" pin="3"/>
+<wire x1="373.38" y1="-81.28" x2="391.16" y2="-81.28" width="0.1524" layer="91"/>
+<label x="373.38" y="-81.28" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="32-14" class="0">
 <segment>
 <pinref part="JP32" gate="G$1" pin="14"/>
 <wire x1="373.38" y1="53.34" x2="391.16" y2="53.34" width="0.1524" layer="91"/>
 <label x="373.38" y="53.34" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP134" gate="G$1" pin="4"/>
+<wire x1="373.38" y1="-78.74" x2="391.16" y2="-78.74" width="0.1524" layer="91"/>
+<label x="373.38" y="-78.74" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="32-15" class="0">
@@ -4748,12 +6911,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <label x="373.38" y="55.88" size="1.778" layer="95"/>
 <label x="373.38" y="55.88" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP134" gate="G$1" pin="5"/>
+<wire x1="373.38" y1="-76.2" x2="391.16" y2="-76.2" width="0.1524" layer="91"/>
+<label x="373.38" y="-76.2" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="33-1" class="0">
 <segment>
 <pinref part="JP33" gate="G$1" pin="1"/>
 <wire x1="406.4" y1="20.32" x2="424.18" y2="20.32" width="0.1524" layer="91"/>
 <label x="406.4" y="20.32" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP139" gate="G$1" pin="1"/>
+<wire x1="403.86" y1="-121.92" x2="421.64" y2="-121.92" width="0.1524" layer="91"/>
+<label x="403.86" y="-121.92" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="33-2" class="0">
@@ -4762,12 +6935,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="406.4" y1="22.86" x2="424.18" y2="22.86" width="0.1524" layer="91"/>
 <label x="406.4" y="22.86" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP139" gate="G$1" pin="2"/>
+<wire x1="403.86" y1="-119.38" x2="421.64" y2="-119.38" width="0.1524" layer="91"/>
+<label x="403.86" y="-119.38" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="33-3" class="0">
 <segment>
 <pinref part="JP33" gate="G$1" pin="3"/>
 <wire x1="406.4" y1="25.4" x2="424.18" y2="25.4" width="0.1524" layer="91"/>
 <label x="406.4" y="25.4" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP139" gate="G$1" pin="3"/>
+<wire x1="403.86" y1="-116.84" x2="421.64" y2="-116.84" width="0.1524" layer="91"/>
+<label x="403.86" y="-116.84" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="33-4" class="0">
@@ -4776,12 +6959,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="406.4" y1="27.94" x2="424.18" y2="27.94" width="0.1524" layer="91"/>
 <label x="406.4" y="27.94" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP139" gate="G$1" pin="4"/>
+<wire x1="403.86" y1="-114.3" x2="421.64" y2="-114.3" width="0.1524" layer="91"/>
+<label x="403.86" y="-114.3" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="33-5" class="0">
 <segment>
 <pinref part="JP33" gate="G$1" pin="5"/>
 <wire x1="406.4" y1="30.48" x2="424.18" y2="30.48" width="0.1524" layer="91"/>
 <label x="406.4" y="30.48" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP139" gate="G$1" pin="5"/>
+<wire x1="403.86" y1="-111.76" x2="421.64" y2="-111.76" width="0.1524" layer="91"/>
+<label x="403.86" y="-111.76" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="33-6" class="0">
@@ -4790,12 +6983,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="406.4" y1="33.02" x2="424.18" y2="33.02" width="0.1524" layer="91"/>
 <label x="406.4" y="33.02" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP138" gate="G$1" pin="1"/>
+<wire x1="403.86" y1="-104.14" x2="421.64" y2="-104.14" width="0.1524" layer="91"/>
+<label x="403.86" y="-104.14" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="33-7" class="0">
 <segment>
 <pinref part="JP33" gate="G$1" pin="7"/>
 <wire x1="406.4" y1="35.56" x2="424.18" y2="35.56" width="0.1524" layer="91"/>
 <label x="406.4" y="35.56" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP138" gate="G$1" pin="2"/>
+<wire x1="403.86" y1="-101.6" x2="421.64" y2="-101.6" width="0.1524" layer="91"/>
+<label x="403.86" y="-101.6" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="33-8" class="0">
@@ -4804,12 +7007,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="406.4" y1="38.1" x2="424.18" y2="38.1" width="0.1524" layer="91"/>
 <label x="406.4" y="38.1" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP138" gate="G$1" pin="3"/>
+<wire x1="403.86" y1="-99.06" x2="421.64" y2="-99.06" width="0.1524" layer="91"/>
+<label x="403.86" y="-99.06" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="33-9" class="0">
 <segment>
 <pinref part="JP33" gate="G$1" pin="9"/>
 <wire x1="406.4" y1="40.64" x2="424.18" y2="40.64" width="0.1524" layer="91"/>
 <label x="406.4" y="40.64" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP138" gate="G$1" pin="4"/>
+<wire x1="403.86" y1="-96.52" x2="421.64" y2="-96.52" width="0.1524" layer="91"/>
+<label x="403.86" y="-96.52" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="33-10" class="0">
@@ -4818,12 +7031,23 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="406.4" y1="43.18" x2="424.18" y2="43.18" width="0.1524" layer="91"/>
 <label x="406.4" y="43.18" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP138" gate="G$1" pin="5"/>
+<wire x1="403.86" y1="-93.98" x2="421.64" y2="-93.98" width="0.1524" layer="91"/>
+<label x="403.86" y="-93.98" size="1.778" layer="95"/>
+<label x="403.86" y="-93.98" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="33-11" class="0">
 <segment>
 <pinref part="JP33" gate="G$1" pin="11"/>
 <wire x1="406.4" y1="45.72" x2="424.18" y2="45.72" width="0.1524" layer="91"/>
 <label x="406.4" y="45.72" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP137" gate="G$1" pin="1"/>
+<wire x1="403.86" y1="-86.36" x2="421.64" y2="-86.36" width="0.1524" layer="91"/>
+<label x="403.86" y="-86.36" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="33-12" class="0">
@@ -4832,12 +7056,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="406.4" y1="48.26" x2="424.18" y2="48.26" width="0.1524" layer="91"/>
 <label x="406.4" y="48.26" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP137" gate="G$1" pin="2"/>
+<wire x1="403.86" y1="-83.82" x2="421.64" y2="-83.82" width="0.1524" layer="91"/>
+<label x="403.86" y="-83.82" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="33-13" class="0">
 <segment>
 <pinref part="JP33" gate="G$1" pin="13"/>
 <wire x1="406.4" y1="50.8" x2="424.18" y2="50.8" width="0.1524" layer="91"/>
 <label x="406.4" y="50.8" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP137" gate="G$1" pin="3"/>
+<wire x1="403.86" y1="-81.28" x2="421.64" y2="-81.28" width="0.1524" layer="91"/>
+<label x="403.86" y="-81.28" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="33-14" class="0">
@@ -4846,12 +7080,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="406.4" y1="53.34" x2="424.18" y2="53.34" width="0.1524" layer="91"/>
 <label x="406.4" y="53.34" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP137" gate="G$1" pin="4"/>
+<wire x1="403.86" y1="-78.74" x2="421.64" y2="-78.74" width="0.1524" layer="91"/>
+<label x="403.86" y="-78.74" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="33-15" class="0">
 <segment>
 <pinref part="JP33" gate="G$1" pin="15"/>
 <wire x1="406.4" y1="55.88" x2="424.18" y2="55.88" width="0.1524" layer="91"/>
 <label x="406.4" y="55.88" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP137" gate="G$1" pin="5"/>
+<wire x1="403.86" y1="-76.2" x2="421.64" y2="-76.2" width="0.1524" layer="91"/>
+<label x="403.86" y="-76.2" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="34-1" class="0">
@@ -4860,12 +7104,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="439.42" y1="20.32" x2="454.66" y2="20.32" width="0.1524" layer="91"/>
 <label x="439.42" y="20.32" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP142" gate="G$1" pin="1"/>
+<wire x1="436.88" y1="-121.92" x2="454.66" y2="-121.92" width="0.1524" layer="91"/>
+<label x="436.88" y="-121.92" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="34-2" class="0">
 <segment>
 <pinref part="JP34" gate="G$1" pin="2"/>
 <wire x1="439.42" y1="22.86" x2="454.66" y2="22.86" width="0.1524" layer="91"/>
 <label x="439.42" y="22.86" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP142" gate="G$1" pin="2"/>
+<wire x1="436.88" y1="-119.38" x2="454.66" y2="-119.38" width="0.1524" layer="91"/>
+<label x="436.88" y="-119.38" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="34-3" class="0">
@@ -4874,12 +7128,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="439.42" y1="25.4" x2="454.66" y2="25.4" width="0.1524" layer="91"/>
 <label x="439.42" y="25.4" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP142" gate="G$1" pin="3"/>
+<wire x1="436.88" y1="-116.84" x2="454.66" y2="-116.84" width="0.1524" layer="91"/>
+<label x="436.88" y="-116.84" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="34-4" class="0">
 <segment>
 <pinref part="JP34" gate="G$1" pin="4"/>
 <wire x1="439.42" y1="27.94" x2="454.66" y2="27.94" width="0.1524" layer="91"/>
 <label x="439.42" y="27.94" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP142" gate="G$1" pin="4"/>
+<wire x1="436.88" y1="-114.3" x2="454.66" y2="-114.3" width="0.1524" layer="91"/>
+<label x="436.88" y="-114.3" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="34-5" class="0">
@@ -4888,12 +7152,23 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="439.42" y1="30.48" x2="454.66" y2="30.48" width="0.1524" layer="91"/>
 <label x="439.42" y="30.48" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP142" gate="G$1" pin="5"/>
+<wire x1="436.88" y1="-111.76" x2="454.66" y2="-111.76" width="0.1524" layer="91"/>
+<label x="436.88" y="-111.76" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="34-6" class="0">
 <segment>
 <pinref part="JP34" gate="G$1" pin="6"/>
 <wire x1="439.42" y1="33.02" x2="454.66" y2="33.02" width="0.1524" layer="91"/>
 <label x="439.42" y="33.02" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP141" gate="G$1" pin="1"/>
+<wire x1="436.88" y1="-104.14" x2="454.66" y2="-104.14" width="0.1524" layer="91"/>
+<label x="436.88" y="-104.14" size="1.778" layer="95"/>
+<label x="436.88" y="-104.14" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="34-7" class="0">
@@ -4902,12 +7177,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="439.42" y1="35.56" x2="454.66" y2="35.56" width="0.1524" layer="91"/>
 <label x="439.42" y="35.56" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP141" gate="G$1" pin="2"/>
+<wire x1="436.88" y1="-101.6" x2="454.66" y2="-101.6" width="0.1524" layer="91"/>
+<label x="436.88" y="-101.6" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="34-8" class="0">
 <segment>
 <pinref part="JP34" gate="G$1" pin="8"/>
 <wire x1="439.42" y1="38.1" x2="454.66" y2="38.1" width="0.1524" layer="91"/>
 <label x="439.42" y="38.1" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP141" gate="G$1" pin="3"/>
+<wire x1="436.88" y1="-99.06" x2="454.66" y2="-99.06" width="0.1524" layer="91"/>
+<label x="436.88" y="-99.06" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="34-9" class="0">
@@ -4916,12 +7201,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="439.42" y1="40.64" x2="454.66" y2="40.64" width="0.1524" layer="91"/>
 <label x="439.42" y="40.64" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP141" gate="G$1" pin="4"/>
+<wire x1="436.88" y1="-96.52" x2="454.66" y2="-96.52" width="0.1524" layer="91"/>
+<label x="436.88" y="-96.52" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="34-10" class="0">
 <segment>
 <pinref part="JP34" gate="G$1" pin="10"/>
 <wire x1="439.42" y1="43.18" x2="454.66" y2="43.18" width="0.1524" layer="91"/>
 <label x="439.42" y="43.18" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP141" gate="G$1" pin="5"/>
+<wire x1="436.88" y1="-93.98" x2="454.66" y2="-93.98" width="0.1524" layer="91"/>
+<label x="436.88" y="-93.98" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="34-11" class="0">
@@ -4930,12 +7225,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="439.42" y1="45.72" x2="454.66" y2="45.72" width="0.1524" layer="91"/>
 <label x="439.42" y="45.72" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP140" gate="G$1" pin="1"/>
+<wire x1="436.88" y1="-86.36" x2="454.66" y2="-86.36" width="0.1524" layer="91"/>
+<label x="436.88" y="-86.36" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="34-12" class="0">
 <segment>
 <pinref part="JP34" gate="G$1" pin="12"/>
 <wire x1="439.42" y1="48.26" x2="454.66" y2="48.26" width="0.1524" layer="91"/>
 <label x="439.42" y="48.26" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP140" gate="G$1" pin="2"/>
+<wire x1="436.88" y1="-83.82" x2="454.66" y2="-83.82" width="0.1524" layer="91"/>
+<label x="436.88" y="-83.82" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="34-13" class="0">
@@ -4944,12 +7249,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="439.42" y1="50.8" x2="454.66" y2="50.8" width="0.1524" layer="91"/>
 <label x="439.42" y="50.8" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP140" gate="G$1" pin="3"/>
+<wire x1="436.88" y1="-81.28" x2="454.66" y2="-81.28" width="0.1524" layer="91"/>
+<label x="436.88" y="-81.28" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="34-14" class="0">
 <segment>
 <pinref part="JP34" gate="G$1" pin="14"/>
 <wire x1="439.42" y1="53.34" x2="454.66" y2="53.34" width="0.1524" layer="91"/>
 <label x="439.42" y="53.34" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP140" gate="G$1" pin="4"/>
+<wire x1="436.88" y1="-78.74" x2="454.66" y2="-78.74" width="0.1524" layer="91"/>
+<label x="436.88" y="-78.74" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="34-15" class="0">
@@ -4959,12 +7274,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <label x="439.42" y="55.88" size="1.778" layer="95"/>
 <label x="439.42" y="55.88" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP140" gate="G$1" pin="5"/>
+<wire x1="436.88" y1="-76.2" x2="454.66" y2="-76.2" width="0.1524" layer="91"/>
+<label x="436.88" y="-76.2" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="35-1" class="0">
 <segment>
 <pinref part="JP35" gate="G$1" pin="1"/>
 <wire x1="469.9" y1="20.32" x2="487.68" y2="20.32" width="0.1524" layer="91"/>
 <label x="469.9" y="20.32" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP145" gate="G$1" pin="1"/>
+<wire x1="469.9" y1="-121.92" x2="487.68" y2="-121.92" width="0.1524" layer="91"/>
+<label x="469.9" y="-121.92" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="35-2" class="0">
@@ -4973,12 +7298,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="469.9" y1="22.86" x2="487.68" y2="22.86" width="0.1524" layer="91"/>
 <label x="469.9" y="22.86" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP145" gate="G$1" pin="2"/>
+<wire x1="469.9" y1="-119.38" x2="487.68" y2="-119.38" width="0.1524" layer="91"/>
+<label x="469.9" y="-119.38" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="35-3" class="0">
 <segment>
 <pinref part="JP35" gate="G$1" pin="3"/>
 <wire x1="469.9" y1="25.4" x2="487.68" y2="25.4" width="0.1524" layer="91"/>
 <label x="469.9" y="25.4" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP145" gate="G$1" pin="3"/>
+<wire x1="469.9" y1="-116.84" x2="487.68" y2="-116.84" width="0.1524" layer="91"/>
+<label x="469.9" y="-116.84" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="35-4" class="0">
@@ -4987,12 +7322,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="469.9" y1="27.94" x2="487.68" y2="27.94" width="0.1524" layer="91"/>
 <label x="469.9" y="27.94" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP145" gate="G$1" pin="4"/>
+<wire x1="469.9" y1="-114.3" x2="487.68" y2="-114.3" width="0.1524" layer="91"/>
+<label x="469.9" y="-114.3" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="35-5" class="0">
 <segment>
 <pinref part="JP35" gate="G$1" pin="5"/>
 <wire x1="469.9" y1="30.48" x2="487.68" y2="30.48" width="0.1524" layer="91"/>
 <label x="469.9" y="30.48" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP145" gate="G$1" pin="5"/>
+<wire x1="469.9" y1="-111.76" x2="487.68" y2="-111.76" width="0.1524" layer="91"/>
+<label x="469.9" y="-111.76" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="35-6" class="0">
@@ -5001,12 +7346,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="469.9" y1="33.02" x2="487.68" y2="33.02" width="0.1524" layer="91"/>
 <label x="469.9" y="33.02" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP144" gate="G$1" pin="1"/>
+<wire x1="469.9" y1="-104.14" x2="487.68" y2="-104.14" width="0.1524" layer="91"/>
+<label x="469.9" y="-104.14" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="35-7" class="0">
 <segment>
 <pinref part="JP35" gate="G$1" pin="7"/>
 <wire x1="469.9" y1="35.56" x2="487.68" y2="35.56" width="0.1524" layer="91"/>
 <label x="469.9" y="35.56" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP144" gate="G$1" pin="2"/>
+<wire x1="469.9" y1="-101.6" x2="487.68" y2="-101.6" width="0.1524" layer="91"/>
+<label x="469.9" y="-101.6" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="35-8" class="0">
@@ -5015,12 +7370,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="469.9" y1="38.1" x2="487.68" y2="38.1" width="0.1524" layer="91"/>
 <label x="469.9" y="38.1" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP144" gate="G$1" pin="3"/>
+<wire x1="469.9" y1="-99.06" x2="487.68" y2="-99.06" width="0.1524" layer="91"/>
+<label x="469.9" y="-99.06" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="35-9" class="0">
 <segment>
 <pinref part="JP35" gate="G$1" pin="9"/>
 <wire x1="469.9" y1="40.64" x2="487.68" y2="40.64" width="0.1524" layer="91"/>
 <label x="469.9" y="40.64" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP144" gate="G$1" pin="4"/>
+<wire x1="469.9" y1="-96.52" x2="487.68" y2="-96.52" width="0.1524" layer="91"/>
+<label x="469.9" y="-96.52" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="35-10" class="0">
@@ -5029,12 +7394,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="469.9" y1="43.18" x2="487.68" y2="43.18" width="0.1524" layer="91"/>
 <label x="469.9" y="43.18" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP144" gate="G$1" pin="5"/>
+<wire x1="469.9" y1="-93.98" x2="487.68" y2="-93.98" width="0.1524" layer="91"/>
+<label x="469.9" y="-93.98" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="35-11" class="0">
 <segment>
 <pinref part="JP35" gate="G$1" pin="11"/>
 <wire x1="469.9" y1="45.72" x2="487.68" y2="45.72" width="0.1524" layer="91"/>
 <label x="469.9" y="45.72" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP143" gate="G$1" pin="1"/>
+<wire x1="469.9" y1="-86.36" x2="487.68" y2="-86.36" width="0.1524" layer="91"/>
+<label x="469.9" y="-86.36" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="35-12" class="0">
@@ -5043,6 +7418,11 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="469.9" y1="48.26" x2="487.68" y2="48.26" width="0.1524" layer="91"/>
 <label x="469.9" y="48.26" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP143" gate="G$1" pin="2"/>
+<wire x1="469.9" y1="-83.82" x2="487.68" y2="-83.82" width="0.1524" layer="91"/>
+<label x="469.9" y="-83.82" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="35-13" class="0">
 <segment>
@@ -5050,12 +7430,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="469.9" y1="50.8" x2="487.68" y2="50.8" width="0.1524" layer="91"/>
 <label x="469.9" y="50.8" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP143" gate="G$1" pin="3"/>
+<wire x1="469.9" y1="-81.28" x2="487.68" y2="-81.28" width="0.1524" layer="91"/>
+<label x="469.9" y="-81.28" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="35-14" class="0">
 <segment>
 <pinref part="JP35" gate="G$1" pin="14"/>
 <wire x1="469.9" y1="53.34" x2="487.68" y2="53.34" width="0.1524" layer="91"/>
 <label x="469.9" y="53.34" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP143" gate="G$1" pin="4"/>
+<wire x1="469.9" y1="-78.74" x2="487.68" y2="-78.74" width="0.1524" layer="91"/>
+<label x="469.9" y="-78.74" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="35-15" class="0">
@@ -5065,12 +7455,23 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <label x="469.9" y="55.88" size="1.778" layer="95"/>
 <label x="469.9" y="55.88" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP143" gate="G$1" pin="5"/>
+<wire x1="469.9" y1="-76.2" x2="487.68" y2="-76.2" width="0.1524" layer="91"/>
+<label x="469.9" y="-76.2" size="1.778" layer="95"/>
+<label x="469.9" y="-76.2" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="36-1" class="0">
 <segment>
 <pinref part="JP36" gate="G$1" pin="1"/>
 <wire x1="500.38" y1="20.32" x2="518.16" y2="20.32" width="0.1524" layer="91"/>
 <label x="500.38" y="20.32" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP148" gate="G$1" pin="1"/>
+<wire x1="502.92" y1="-121.92" x2="520.7" y2="-121.92" width="0.1524" layer="91"/>
+<label x="502.92" y="-121.92" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="36-2" class="0">
@@ -5079,12 +7480,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="500.38" y1="22.86" x2="518.16" y2="22.86" width="0.1524" layer="91"/>
 <label x="500.38" y="22.86" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP148" gate="G$1" pin="2"/>
+<wire x1="502.92" y1="-119.38" x2="520.7" y2="-119.38" width="0.1524" layer="91"/>
+<label x="502.92" y="-119.38" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="36-3" class="0">
 <segment>
 <pinref part="JP36" gate="G$1" pin="3"/>
 <wire x1="500.38" y1="25.4" x2="518.16" y2="25.4" width="0.1524" layer="91"/>
 <label x="500.38" y="25.4" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP148" gate="G$1" pin="3"/>
+<wire x1="502.92" y1="-116.84" x2="520.7" y2="-116.84" width="0.1524" layer="91"/>
+<label x="502.92" y="-116.84" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="36-4" class="0">
@@ -5093,12 +7504,28 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="500.38" y1="27.94" x2="518.16" y2="27.94" width="0.1524" layer="91"/>
 <label x="500.38" y="27.94" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP148" gate="G$1" pin="4"/>
+<wire x1="502.92" y1="-114.3" x2="520.7" y2="-114.3" width="0.1524" layer="91"/>
+<label x="502.92" y="-114.3" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="36-5" class="0">
 <segment>
 <pinref part="JP36" gate="G$1" pin="5"/>
 <wire x1="500.38" y1="30.48" x2="518.16" y2="30.48" width="0.1524" layer="91"/>
 <label x="500.38" y="30.48" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP147" gate="G$1" pin="1"/>
+<wire x1="502.92" y1="-104.14" x2="520.7" y2="-104.14" width="0.1524" layer="91"/>
+<label x="502.92" y="-104.14" size="1.778" layer="95"/>
+<label x="502.92" y="-104.14" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP148" gate="G$1" pin="5"/>
+<wire x1="502.92" y1="-111.76" x2="520.7" y2="-111.76" width="0.1524" layer="91"/>
+<label x="502.92" y="-111.76" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="36-6" class="0">
@@ -5115,12 +7542,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="500.38" y1="35.56" x2="518.16" y2="35.56" width="0.1524" layer="91"/>
 <label x="500.38" y="35.56" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP147" gate="G$1" pin="2"/>
+<wire x1="502.92" y1="-101.6" x2="520.7" y2="-101.6" width="0.1524" layer="91"/>
+<label x="502.92" y="-101.6" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="36-8" class="0">
 <segment>
 <pinref part="JP36" gate="G$1" pin="8"/>
 <wire x1="500.38" y1="38.1" x2="518.16" y2="38.1" width="0.1524" layer="91"/>
 <label x="500.38" y="38.1" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP147" gate="G$1" pin="3"/>
+<wire x1="502.92" y1="-99.06" x2="520.7" y2="-99.06" width="0.1524" layer="91"/>
+<label x="502.92" y="-99.06" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="36-9" class="0">
@@ -5129,12 +7566,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="500.38" y1="40.64" x2="518.16" y2="40.64" width="0.1524" layer="91"/>
 <label x="500.38" y="40.64" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP147" gate="G$1" pin="4"/>
+<wire x1="502.92" y1="-96.52" x2="520.7" y2="-96.52" width="0.1524" layer="91"/>
+<label x="502.92" y="-96.52" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="36-10" class="0">
 <segment>
 <pinref part="JP36" gate="G$1" pin="10"/>
 <wire x1="500.38" y1="43.18" x2="518.16" y2="43.18" width="0.1524" layer="91"/>
 <label x="500.38" y="43.18" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP147" gate="G$1" pin="5"/>
+<wire x1="502.92" y1="-93.98" x2="520.7" y2="-93.98" width="0.1524" layer="91"/>
+<label x="502.92" y="-93.98" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="36-11" class="0">
@@ -5143,6 +7590,11 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="500.38" y1="45.72" x2="518.16" y2="45.72" width="0.1524" layer="91"/>
 <label x="500.38" y="45.72" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP146" gate="G$1" pin="1"/>
+<wire x1="502.92" y1="-86.36" x2="520.7" y2="-86.36" width="0.1524" layer="91"/>
+<label x="502.92" y="-86.36" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="36-12" class="0">
 <segment>
@@ -5150,12 +7602,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="500.38" y1="48.26" x2="518.16" y2="48.26" width="0.1524" layer="91"/>
 <label x="500.38" y="48.26" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP146" gate="G$1" pin="2"/>
+<wire x1="502.92" y1="-83.82" x2="520.7" y2="-83.82" width="0.1524" layer="91"/>
+<label x="502.92" y="-83.82" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="36-13" class="0">
 <segment>
 <pinref part="JP36" gate="G$1" pin="13"/>
 <wire x1="500.38" y1="50.8" x2="518.16" y2="50.8" width="0.1524" layer="91"/>
 <label x="500.38" y="50.8" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP146" gate="G$1" pin="3"/>
+<wire x1="502.92" y1="-81.28" x2="520.7" y2="-81.28" width="0.1524" layer="91"/>
+<label x="502.92" y="-81.28" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="36-14" class="0">
@@ -5165,6 +7627,11 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <label x="500.38" y="53.34" size="1.778" layer="95"/>
 <label x="500.38" y="53.34" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP146" gate="G$1" pin="4"/>
+<wire x1="502.92" y1="-78.74" x2="520.7" y2="-78.74" width="0.1524" layer="91"/>
+<label x="502.92" y="-78.74" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="36-15" class="0">
 <segment>
@@ -5173,12 +7640,23 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <label x="500.38" y="55.88" size="1.778" layer="95"/>
 <label x="500.38" y="55.88" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP146" gate="G$1" pin="5"/>
+<wire x1="502.92" y1="-76.2" x2="520.7" y2="-76.2" width="0.1524" layer="91"/>
+<label x="502.92" y="-76.2" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="37-1" class="0">
 <segment>
 <pinref part="JP37" gate="G$1" pin="1"/>
 <wire x1="533.4" y1="20.32" x2="551.18" y2="20.32" width="0.1524" layer="91"/>
 <label x="533.4" y="20.32" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP151" gate="G$1" pin="1"/>
+<wire x1="533.4" y1="-121.92" x2="551.18" y2="-121.92" width="0.1524" layer="91"/>
+<label x="533.4" y="-121.92" size="1.778" layer="95"/>
+<label x="533.4" y="-121.92" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="37-2" class="0">
@@ -5187,12 +7665,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="533.4" y1="22.86" x2="551.18" y2="22.86" width="0.1524" layer="91"/>
 <label x="533.4" y="22.86" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP151" gate="G$1" pin="2"/>
+<wire x1="533.4" y1="-119.38" x2="551.18" y2="-119.38" width="0.1524" layer="91"/>
+<label x="533.4" y="-119.38" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="37-3" class="0">
 <segment>
 <pinref part="JP37" gate="G$1" pin="3"/>
 <wire x1="533.4" y1="25.4" x2="551.18" y2="25.4" width="0.1524" layer="91"/>
 <label x="533.4" y="25.4" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP151" gate="G$1" pin="3"/>
+<wire x1="533.4" y1="-116.84" x2="551.18" y2="-116.84" width="0.1524" layer="91"/>
+<label x="533.4" y="-116.84" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="37-4" class="0">
@@ -5201,12 +7689,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="533.4" y1="27.94" x2="551.18" y2="27.94" width="0.1524" layer="91"/>
 <label x="533.4" y="27.94" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP151" gate="G$1" pin="4"/>
+<wire x1="533.4" y1="-114.3" x2="551.18" y2="-114.3" width="0.1524" layer="91"/>
+<label x="533.4" y="-114.3" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="37-5" class="0">
 <segment>
 <pinref part="JP37" gate="G$1" pin="5"/>
 <wire x1="533.4" y1="30.48" x2="551.18" y2="30.48" width="0.1524" layer="91"/>
 <label x="533.4" y="30.48" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP151" gate="G$1" pin="5"/>
+<wire x1="533.4" y1="-111.76" x2="551.18" y2="-111.76" width="0.1524" layer="91"/>
+<label x="533.4" y="-111.76" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="37-6" class="0">
@@ -5215,12 +7713,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="533.4" y1="33.02" x2="551.18" y2="33.02" width="0.1524" layer="91"/>
 <label x="533.4" y="33.02" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP150" gate="G$1" pin="1"/>
+<wire x1="533.4" y1="-104.14" x2="551.18" y2="-104.14" width="0.1524" layer="91"/>
+<label x="533.4" y="-104.14" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="37-7" class="0">
 <segment>
 <pinref part="JP37" gate="G$1" pin="7"/>
 <wire x1="533.4" y1="35.56" x2="551.18" y2="35.56" width="0.1524" layer="91"/>
 <label x="533.4" y="35.56" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP150" gate="G$1" pin="2"/>
+<wire x1="533.4" y1="-101.6" x2="551.18" y2="-101.6" width="0.1524" layer="91"/>
+<label x="533.4" y="-101.6" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="37-8" class="0">
@@ -5229,12 +7737,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="533.4" y1="38.1" x2="551.18" y2="38.1" width="0.1524" layer="91"/>
 <label x="533.4" y="38.1" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP150" gate="G$1" pin="3"/>
+<wire x1="533.4" y1="-99.06" x2="551.18" y2="-99.06" width="0.1524" layer="91"/>
+<label x="533.4" y="-99.06" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="37-9" class="0">
 <segment>
 <pinref part="JP37" gate="G$1" pin="9"/>
 <wire x1="533.4" y1="40.64" x2="551.18" y2="40.64" width="0.1524" layer="91"/>
 <label x="533.4" y="40.64" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP150" gate="G$1" pin="4"/>
+<wire x1="533.4" y1="-96.52" x2="551.18" y2="-96.52" width="0.1524" layer="91"/>
+<label x="533.4" y="-96.52" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="37-10" class="0">
@@ -5243,12 +7761,24 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="533.4" y1="43.18" x2="551.18" y2="43.18" width="0.1524" layer="91"/>
 <label x="533.4" y="43.18" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP150" gate="G$1" pin="5"/>
+<wire x1="533.4" y1="-93.98" x2="551.18" y2="-93.98" width="0.1524" layer="91"/>
+<label x="533.4" y="-93.98" size="1.778" layer="95"/>
+<label x="533.4" y="-93.98" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="37-11" class="0">
 <segment>
 <pinref part="JP37" gate="G$1" pin="11"/>
 <wire x1="533.4" y1="45.72" x2="551.18" y2="45.72" width="0.1524" layer="91"/>
 <label x="533.4" y="45.72" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP149" gate="G$1" pin="1"/>
+<wire x1="533.4" y1="-86.36" x2="551.18" y2="-86.36" width="0.1524" layer="91"/>
+<label x="533.4" y="-86.36" size="1.778" layer="95"/>
+<label x="533.4" y="-86.36" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="37-12" class="0">
@@ -5257,6 +7787,11 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="533.4" y1="48.26" x2="551.18" y2="48.26" width="0.1524" layer="91"/>
 <label x="533.4" y="48.26" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP149" gate="G$1" pin="2"/>
+<wire x1="533.4" y1="-83.82" x2="551.18" y2="-83.82" width="0.1524" layer="91"/>
+<label x="533.4" y="-83.82" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="37-13" class="0">
 <segment>
@@ -5264,12 +7799,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="533.4" y1="50.8" x2="551.18" y2="50.8" width="0.1524" layer="91"/>
 <label x="533.4" y="50.8" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP149" gate="G$1" pin="3"/>
+<wire x1="533.4" y1="-81.28" x2="551.18" y2="-81.28" width="0.1524" layer="91"/>
+<label x="533.4" y="-81.28" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="37-14" class="0">
 <segment>
 <pinref part="JP37" gate="G$1" pin="14"/>
 <wire x1="533.4" y1="53.34" x2="551.18" y2="53.34" width="0.1524" layer="91"/>
 <label x="533.4" y="53.34" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP149" gate="G$1" pin="4"/>
+<wire x1="533.4" y1="-78.74" x2="551.18" y2="-78.74" width="0.1524" layer="91"/>
+<label x="533.4" y="-78.74" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="37-15" class="0">
@@ -5279,12 +7824,24 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <label x="533.4" y="55.88" size="1.778" layer="95"/>
 <label x="533.4" y="55.88" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP149" gate="G$1" pin="5"/>
+<wire x1="533.4" y1="-76.2" x2="551.18" y2="-76.2" width="0.1524" layer="91"/>
+<label x="533.4" y="-76.2" size="1.778" layer="95"/>
+<label x="533.4" y="-76.2" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="38-1" class="0">
 <segment>
 <pinref part="JP38" gate="G$1" pin="1"/>
 <wire x1="566.42" y1="20.32" x2="584.2" y2="20.32" width="0.1524" layer="91"/>
 <label x="566.42" y="20.32" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP154" gate="G$1" pin="1"/>
+<wire x1="566.42" y1="-121.92" x2="584.2" y2="-121.92" width="0.1524" layer="91"/>
+<label x="566.42" y="-121.92" size="1.778" layer="95"/>
+<label x="566.42" y="-121.92" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="38-2" class="0">
@@ -5293,12 +7850,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="566.42" y1="22.86" x2="584.2" y2="22.86" width="0.1524" layer="91"/>
 <label x="566.42" y="22.86" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP154" gate="G$1" pin="2"/>
+<wire x1="566.42" y1="-119.38" x2="584.2" y2="-119.38" width="0.1524" layer="91"/>
+<label x="566.42" y="-119.38" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="38-3" class="0">
 <segment>
 <pinref part="JP38" gate="G$1" pin="3"/>
 <wire x1="566.42" y1="25.4" x2="584.2" y2="25.4" width="0.1524" layer="91"/>
 <label x="566.42" y="25.4" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP154" gate="G$1" pin="3"/>
+<wire x1="566.42" y1="-116.84" x2="584.2" y2="-116.84" width="0.1524" layer="91"/>
+<label x="566.42" y="-116.84" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="38-4" class="0">
@@ -5307,12 +7874,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="566.42" y1="27.94" x2="584.2" y2="27.94" width="0.1524" layer="91"/>
 <label x="566.42" y="27.94" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP154" gate="G$1" pin="4"/>
+<wire x1="566.42" y1="-114.3" x2="584.2" y2="-114.3" width="0.1524" layer="91"/>
+<label x="566.42" y="-114.3" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="38-5" class="0">
 <segment>
 <pinref part="JP38" gate="G$1" pin="5"/>
 <wire x1="566.42" y1="30.48" x2="584.2" y2="30.48" width="0.1524" layer="91"/>
 <label x="566.42" y="30.48" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP154" gate="G$1" pin="5"/>
+<wire x1="566.42" y1="-111.76" x2="584.2" y2="-111.76" width="0.1524" layer="91"/>
+<label x="566.42" y="-111.76" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="38-6" class="0">
@@ -5321,12 +7898,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="566.42" y1="33.02" x2="584.2" y2="33.02" width="0.1524" layer="91"/>
 <label x="566.42" y="33.02" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP153" gate="G$1" pin="1"/>
+<wire x1="566.42" y1="-104.14" x2="584.2" y2="-104.14" width="0.1524" layer="91"/>
+<label x="566.42" y="-104.14" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="38-7" class="0">
 <segment>
 <pinref part="JP38" gate="G$1" pin="7"/>
 <wire x1="566.42" y1="35.56" x2="584.2" y2="35.56" width="0.1524" layer="91"/>
 <label x="566.42" y="35.56" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP153" gate="G$1" pin="2"/>
+<wire x1="566.42" y1="-101.6" x2="584.2" y2="-101.6" width="0.1524" layer="91"/>
+<label x="566.42" y="-101.6" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="38-8" class="0">
@@ -5335,12 +7922,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="566.42" y1="38.1" x2="584.2" y2="38.1" width="0.1524" layer="91"/>
 <label x="566.42" y="38.1" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP153" gate="G$1" pin="3"/>
+<wire x1="566.42" y1="-99.06" x2="584.2" y2="-99.06" width="0.1524" layer="91"/>
+<label x="566.42" y="-99.06" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="38-9" class="0">
 <segment>
 <pinref part="JP38" gate="G$1" pin="9"/>
 <wire x1="566.42" y1="40.64" x2="584.2" y2="40.64" width="0.1524" layer="91"/>
 <label x="566.42" y="40.64" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP153" gate="G$1" pin="4"/>
+<wire x1="566.42" y1="-96.52" x2="584.2" y2="-96.52" width="0.1524" layer="91"/>
+<label x="566.42" y="-96.52" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="38-10" class="0">
@@ -5349,12 +7946,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="566.42" y1="43.18" x2="584.2" y2="43.18" width="0.1524" layer="91"/>
 <label x="566.42" y="43.18" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP153" gate="G$1" pin="5"/>
+<wire x1="566.42" y1="-93.98" x2="584.2" y2="-93.98" width="0.1524" layer="91"/>
+<label x="566.42" y="-93.98" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="38-11" class="0">
 <segment>
 <pinref part="JP38" gate="G$1" pin="11"/>
 <wire x1="566.42" y1="45.72" x2="584.2" y2="45.72" width="0.1524" layer="91"/>
 <label x="566.42" y="45.72" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP152" gate="G$1" pin="1"/>
+<wire x1="566.42" y1="-86.36" x2="584.2" y2="-86.36" width="0.1524" layer="91"/>
+<label x="566.42" y="-86.36" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="38-12" class="0">
@@ -5363,12 +7970,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="566.42" y1="48.26" x2="584.2" y2="48.26" width="0.1524" layer="91"/>
 <label x="566.42" y="48.26" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP152" gate="G$1" pin="2"/>
+<wire x1="566.42" y1="-83.82" x2="584.2" y2="-83.82" width="0.1524" layer="91"/>
+<label x="566.42" y="-83.82" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="38-13" class="0">
 <segment>
 <pinref part="JP38" gate="G$1" pin="13"/>
 <wire x1="566.42" y1="50.8" x2="584.2" y2="50.8" width="0.1524" layer="91"/>
 <label x="566.42" y="50.8" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP152" gate="G$1" pin="3"/>
+<wire x1="566.42" y1="-81.28" x2="584.2" y2="-81.28" width="0.1524" layer="91"/>
+<label x="566.42" y="-81.28" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="38-14" class="0">
@@ -5377,12 +7994,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="566.42" y1="53.34" x2="584.2" y2="53.34" width="0.1524" layer="91"/>
 <label x="566.42" y="53.34" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP152" gate="G$1" pin="4"/>
+<wire x1="566.42" y1="-78.74" x2="584.2" y2="-78.74" width="0.1524" layer="91"/>
+<label x="566.42" y="-78.74" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="38-15" class="0">
 <segment>
 <pinref part="JP38" gate="G$1" pin="15"/>
 <wire x1="566.42" y1="55.88" x2="584.2" y2="55.88" width="0.1524" layer="91"/>
 <label x="566.42" y="55.88" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP152" gate="G$1" pin="5"/>
+<wire x1="566.42" y1="-76.2" x2="584.2" y2="-76.2" width="0.1524" layer="91"/>
+<label x="566.42" y="-76.2" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="39-1" class="0">
@@ -5391,12 +8018,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="599.44" y1="20.32" x2="614.68" y2="20.32" width="0.1524" layer="91"/>
 <label x="599.44" y="20.32" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP157" gate="G$1" pin="1"/>
+<wire x1="599.44" y1="-121.92" x2="617.22" y2="-121.92" width="0.1524" layer="91"/>
+<label x="599.44" y="-121.92" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="39-2" class="0">
 <segment>
 <pinref part="JP39" gate="G$1" pin="2"/>
 <wire x1="599.44" y1="22.86" x2="614.68" y2="22.86" width="0.1524" layer="91"/>
 <label x="599.44" y="22.86" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP157" gate="G$1" pin="2"/>
+<wire x1="599.44" y1="-119.38" x2="617.22" y2="-119.38" width="0.1524" layer="91"/>
+<label x="599.44" y="-119.38" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="39-3" class="0">
@@ -5405,12 +8042,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="599.44" y1="25.4" x2="614.68" y2="25.4" width="0.1524" layer="91"/>
 <label x="599.44" y="25.4" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP157" gate="G$1" pin="3"/>
+<wire x1="599.44" y1="-116.84" x2="617.22" y2="-116.84" width="0.1524" layer="91"/>
+<label x="599.44" y="-116.84" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="39-4" class="0">
 <segment>
 <pinref part="JP39" gate="G$1" pin="4"/>
 <wire x1="599.44" y1="27.94" x2="614.68" y2="27.94" width="0.1524" layer="91"/>
 <label x="599.44" y="27.94" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP157" gate="G$1" pin="4"/>
+<wire x1="599.44" y1="-114.3" x2="617.22" y2="-114.3" width="0.1524" layer="91"/>
+<label x="599.44" y="-114.3" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="39-5" class="0">
@@ -5419,12 +8066,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="599.44" y1="30.48" x2="614.68" y2="30.48" width="0.1524" layer="91"/>
 <label x="599.44" y="30.48" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP157" gate="G$1" pin="5"/>
+<wire x1="599.44" y1="-111.76" x2="617.22" y2="-111.76" width="0.1524" layer="91"/>
+<label x="599.44" y="-111.76" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="39-6" class="0">
 <segment>
 <pinref part="JP39" gate="G$1" pin="6"/>
 <wire x1="599.44" y1="33.02" x2="614.68" y2="33.02" width="0.1524" layer="91"/>
 <label x="599.44" y="33.02" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP156" gate="G$1" pin="1"/>
+<wire x1="599.44" y1="-104.14" x2="617.22" y2="-104.14" width="0.1524" layer="91"/>
+<label x="599.44" y="-104.14" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="39-7" class="0">
@@ -5433,12 +8090,23 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="599.44" y1="35.56" x2="614.68" y2="35.56" width="0.1524" layer="91"/>
 <label x="599.44" y="35.56" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP156" gate="G$1" pin="2"/>
+<wire x1="599.44" y1="-101.6" x2="617.22" y2="-101.6" width="0.1524" layer="91"/>
+<label x="599.44" y="-101.6" size="1.778" layer="95"/>
+<label x="599.44" y="-101.6" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="39-8" class="0">
 <segment>
 <pinref part="JP39" gate="G$1" pin="8"/>
 <wire x1="599.44" y1="38.1" x2="614.68" y2="38.1" width="0.1524" layer="91"/>
 <label x="599.44" y="38.1" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP156" gate="G$1" pin="3"/>
+<wire x1="599.44" y1="-99.06" x2="617.22" y2="-99.06" width="0.1524" layer="91"/>
+<label x="599.44" y="-99.06" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="39-9" class="0">
@@ -5447,12 +8115,23 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="599.44" y1="40.64" x2="614.68" y2="40.64" width="0.1524" layer="91"/>
 <label x="599.44" y="40.64" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP156" gate="G$1" pin="4"/>
+<wire x1="599.44" y1="-96.52" x2="617.22" y2="-96.52" width="0.1524" layer="91"/>
+<label x="599.44" y="-96.52" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="39-10" class="0">
 <segment>
 <pinref part="JP39" gate="G$1" pin="10"/>
 <wire x1="599.44" y1="43.18" x2="614.68" y2="43.18" width="0.1524" layer="91"/>
 <label x="599.44" y="43.18" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP156" gate="G$1" pin="5"/>
+<wire x1="599.44" y1="-93.98" x2="617.22" y2="-93.98" width="0.1524" layer="91"/>
+<label x="599.44" y="-93.98" size="1.778" layer="95"/>
+<label x="599.44" y="-93.98" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="39-11" class="0">
@@ -5461,12 +8140,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="599.44" y1="45.72" x2="614.68" y2="45.72" width="0.1524" layer="91"/>
 <label x="599.44" y="45.72" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP155" gate="G$1" pin="1"/>
+<wire x1="599.44" y1="-86.36" x2="617.22" y2="-86.36" width="0.1524" layer="91"/>
+<label x="599.44" y="-86.36" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="39-12" class="0">
 <segment>
 <pinref part="JP39" gate="G$1" pin="12"/>
 <wire x1="599.44" y1="48.26" x2="614.68" y2="48.26" width="0.1524" layer="91"/>
 <label x="599.44" y="48.26" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP155" gate="G$1" pin="2"/>
+<wire x1="599.44" y1="-83.82" x2="617.22" y2="-83.82" width="0.1524" layer="91"/>
+<label x="599.44" y="-83.82" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="39-13" class="0">
@@ -5475,12 +8164,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="599.44" y1="50.8" x2="614.68" y2="50.8" width="0.1524" layer="91"/>
 <label x="599.44" y="50.8" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP155" gate="G$1" pin="3"/>
+<wire x1="599.44" y1="-81.28" x2="617.22" y2="-81.28" width="0.1524" layer="91"/>
+<label x="599.44" y="-81.28" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="39-14" class="0">
 <segment>
 <pinref part="JP39" gate="G$1" pin="14"/>
 <wire x1="599.44" y1="53.34" x2="614.68" y2="53.34" width="0.1524" layer="91"/>
 <label x="599.44" y="53.34" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP155" gate="G$1" pin="4"/>
+<wire x1="599.44" y1="-78.74" x2="617.22" y2="-78.74" width="0.1524" layer="91"/>
+<label x="599.44" y="-78.74" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="39-15" class="0">
@@ -5489,6 +8188,12 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="599.44" y1="55.88" x2="614.68" y2="55.88" width="0.1524" layer="91"/>
 <label x="599.44" y="55.88" size="1.778" layer="95"/>
 <label x="599.44" y="55.88" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP155" gate="G$1" pin="5"/>
+<wire x1="599.44" y1="-76.2" x2="617.22" y2="-76.2" width="0.1524" layer="91"/>
+<label x="599.44" y="-76.2" size="1.778" layer="95"/>
+<label x="599.44" y="-76.2" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="40-1\" class="0">
@@ -5504,12 +8209,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="629.92" y1="22.86" x2="647.7" y2="22.86" width="0.1524" layer="91"/>
 <label x="629.92" y="22.86" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP160" gate="G$1" pin="2"/>
+<wire x1="632.46" y1="-119.38" x2="650.24" y2="-119.38" width="0.1524" layer="91"/>
+<label x="632.46" y="-119.38" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="40-3" class="0">
 <segment>
 <pinref part="JP40" gate="G$1" pin="3"/>
 <wire x1="629.92" y1="25.4" x2="647.7" y2="25.4" width="0.1524" layer="91"/>
 <label x="629.92" y="25.4" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP160" gate="G$1" pin="3"/>
+<wire x1="632.46" y1="-116.84" x2="650.24" y2="-116.84" width="0.1524" layer="91"/>
+<label x="632.46" y="-116.84" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="40-4" class="0">
@@ -5518,12 +8233,23 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="629.92" y1="27.94" x2="647.7" y2="27.94" width="0.1524" layer="91"/>
 <label x="629.92" y="27.94" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP160" gate="G$1" pin="4"/>
+<wire x1="632.46" y1="-114.3" x2="650.24" y2="-114.3" width="0.1524" layer="91"/>
+<label x="632.46" y="-114.3" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="40-5" class="0">
 <segment>
 <pinref part="JP40" gate="G$1" pin="5"/>
 <wire x1="629.92" y1="30.48" x2="647.7" y2="30.48" width="0.1524" layer="91"/>
 <label x="629.92" y="30.48" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP160" gate="G$1" pin="5"/>
+<wire x1="632.46" y1="-111.76" x2="650.24" y2="-111.76" width="0.1524" layer="91"/>
+<label x="632.46" y="-111.76" size="1.778" layer="95"/>
+<label x="632.46" y="-111.76" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="40-6" class="0">
@@ -5532,12 +8258,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="629.92" y1="33.02" x2="647.7" y2="33.02" width="0.1524" layer="91"/>
 <label x="629.92" y="33.02" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP159" gate="G$1" pin="1"/>
+<wire x1="632.46" y1="-104.14" x2="650.24" y2="-104.14" width="0.1524" layer="91"/>
+<label x="632.46" y="-104.14" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="40-7" class="0">
 <segment>
 <pinref part="JP40" gate="G$1" pin="7"/>
 <wire x1="629.92" y1="35.56" x2="647.7" y2="35.56" width="0.1524" layer="91"/>
 <label x="629.92" y="35.56" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP159" gate="G$1" pin="2"/>
+<wire x1="632.46" y1="-101.6" x2="650.24" y2="-101.6" width="0.1524" layer="91"/>
+<label x="632.46" y="-101.6" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="40-8" class="0">
@@ -5546,12 +8282,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="629.92" y1="38.1" x2="647.7" y2="38.1" width="0.1524" layer="91"/>
 <label x="629.92" y="38.1" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP159" gate="G$1" pin="3"/>
+<wire x1="632.46" y1="-99.06" x2="650.24" y2="-99.06" width="0.1524" layer="91"/>
+<label x="632.46" y="-99.06" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="40-9" class="0">
 <segment>
 <pinref part="JP40" gate="G$1" pin="9"/>
 <wire x1="629.92" y1="40.64" x2="647.7" y2="40.64" width="0.1524" layer="91"/>
 <label x="629.92" y="40.64" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP159" gate="G$1" pin="4"/>
+<wire x1="632.46" y1="-96.52" x2="650.24" y2="-96.52" width="0.1524" layer="91"/>
+<label x="632.46" y="-96.52" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="40-10" class="0">
@@ -5560,12 +8306,23 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="629.92" y1="43.18" x2="647.7" y2="43.18" width="0.1524" layer="91"/>
 <label x="629.92" y="43.18" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP159" gate="G$1" pin="5"/>
+<wire x1="632.46" y1="-93.98" x2="650.24" y2="-93.98" width="0.1524" layer="91"/>
+<label x="632.46" y="-93.98" size="1.778" layer="95"/>
+<label x="632.46" y="-93.98" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="40-11" class="0">
 <segment>
 <pinref part="JP40" gate="G$1" pin="11"/>
 <wire x1="629.92" y1="45.72" x2="647.7" y2="45.72" width="0.1524" layer="91"/>
 <label x="629.92" y="45.72" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP158" gate="G$1" pin="1"/>
+<wire x1="632.46" y1="-86.36" x2="650.24" y2="-86.36" width="0.1524" layer="91"/>
+<label x="632.46" y="-86.36" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="40-12" class="0">
@@ -5574,6 +8331,11 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="629.92" y1="48.26" x2="647.7" y2="48.26" width="0.1524" layer="91"/>
 <label x="629.92" y="48.26" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP158" gate="G$1" pin="2"/>
+<wire x1="632.46" y1="-83.82" x2="650.24" y2="-83.82" width="0.1524" layer="91"/>
+<label x="632.46" y="-83.82" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="40-13" class="0">
 <segment>
@@ -5581,12 +8343,22 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="629.92" y1="50.8" x2="647.7" y2="50.8" width="0.1524" layer="91"/>
 <label x="629.92" y="50.8" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP158" gate="G$1" pin="3"/>
+<wire x1="632.46" y1="-81.28" x2="650.24" y2="-81.28" width="0.1524" layer="91"/>
+<label x="632.46" y="-81.28" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="40-14" class="0">
 <segment>
 <pinref part="JP40" gate="G$1" pin="14"/>
 <wire x1="629.92" y1="53.34" x2="647.7" y2="53.34" width="0.1524" layer="91"/>
 <label x="629.92" y="53.34" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP158" gate="G$1" pin="4"/>
+<wire x1="632.46" y1="-78.74" x2="650.24" y2="-78.74" width="0.1524" layer="91"/>
+<label x="632.46" y="-78.74" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="40-15" class="0">
@@ -5596,1143 +8368,10 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <label x="629.92" y="55.88" size="1.778" layer="95"/>
 <label x="629.92" y="55.88" size="1.778" layer="95"/>
 </segment>
-</net>
-<net name="42-5" class="0">
 <segment>
-<pinref part="JP42" gate="G$1" pin="5"/>
-<wire x1="12.7" y1="-33.02" x2="30.48" y2="-33.02" width="0.1524" layer="91"/>
-<label x="12.7" y="-33.02" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="42-4" class="0">
-<segment>
-<pinref part="JP42" gate="G$1" pin="4"/>
-<wire x1="12.7" y1="-35.56" x2="30.48" y2="-35.56" width="0.1524" layer="91"/>
-<label x="12.7" y="-35.56" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="42-3" class="0">
-<segment>
-<pinref part="JP42" gate="G$1" pin="3"/>
-<wire x1="12.7" y1="-38.1" x2="30.48" y2="-38.1" width="0.1524" layer="91"/>
-<label x="12.7" y="-38.1" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="42-2" class="0">
-<segment>
-<pinref part="JP42" gate="G$1" pin="2"/>
-<wire x1="12.7" y1="-40.64" x2="30.48" y2="-40.64" width="0.1524" layer="91"/>
-<label x="12.7" y="-40.64" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="42-1" class="0">
-<segment>
-<pinref part="JP42" gate="G$1" pin="1"/>
-<wire x1="12.7" y1="-43.18" x2="30.48" y2="-43.18" width="0.1524" layer="91"/>
-<label x="12.7" y="-43.18" size="1.778" layer="95"/>
-<label x="12.7" y="-43.18" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="43-5" class="0">
-<segment>
-<pinref part="JP43" gate="G$1" pin="5"/>
-<wire x1="12.7" y1="-50.8" x2="30.48" y2="-50.8" width="0.1524" layer="91"/>
-<label x="12.7" y="-50.8" size="1.778" layer="95"/>
-<label x="12.7" y="-50.8" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="43-4" class="0">
-<segment>
-<pinref part="JP43" gate="G$1" pin="4"/>
-<wire x1="12.7" y1="-53.34" x2="30.48" y2="-53.34" width="0.1524" layer="91"/>
-<label x="12.7" y="-53.34" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="43-3" class="0">
-<segment>
-<pinref part="JP43" gate="G$1" pin="3"/>
-<wire x1="12.7" y1="-55.88" x2="30.48" y2="-55.88" width="0.1524" layer="91"/>
-<label x="12.7" y="-55.88" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="43-2" class="0">
-<segment>
-<pinref part="JP43" gate="G$1" pin="2"/>
-<wire x1="12.7" y1="-58.42" x2="30.48" y2="-58.42" width="0.1524" layer="91"/>
-<label x="12.7" y="-58.42" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="44-5" class="0">
-<segment>
-<pinref part="JP44" gate="G$1" pin="5"/>
-<wire x1="45.72" y1="-15.24" x2="63.5" y2="-15.24" width="0.1524" layer="91"/>
-<label x="45.72" y="-15.24" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="44-4" class="0">
-<segment>
-<pinref part="JP44" gate="G$1" pin="4"/>
-<wire x1="45.72" y1="-17.78" x2="63.5" y2="-17.78" width="0.1524" layer="91"/>
-<label x="45.72" y="-17.78" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="44-3" class="0">
-<segment>
-<pinref part="JP44" gate="G$1" pin="3"/>
-<wire x1="45.72" y1="-20.32" x2="63.5" y2="-20.32" width="0.1524" layer="91"/>
-<label x="45.72" y="-20.32" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="44-2" class="0">
-<segment>
-<pinref part="JP44" gate="G$1" pin="2"/>
-<wire x1="45.72" y1="-22.86" x2="63.5" y2="-22.86" width="0.1524" layer="91"/>
-<label x="45.72" y="-22.86" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="44-1" class="0">
-<segment>
-<pinref part="JP44" gate="G$1" pin="1"/>
-<wire x1="45.72" y1="-25.4" x2="63.5" y2="-25.4" width="0.1524" layer="91"/>
-<label x="45.72" y="-25.4" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="45-5" class="0">
-<segment>
-<pinref part="JP45" gate="G$1" pin="5"/>
-<wire x1="45.72" y1="-33.02" x2="63.5" y2="-33.02" width="0.1524" layer="91"/>
-<label x="45.72" y="-33.02" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="45-4" class="0">
-<segment>
-<pinref part="JP45" gate="G$1" pin="4"/>
-<wire x1="45.72" y1="-35.56" x2="63.5" y2="-35.56" width="0.1524" layer="91"/>
-<label x="45.72" y="-35.56" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="45-3" class="0">
-<segment>
-<pinref part="JP45" gate="G$1" pin="3"/>
-<wire x1="45.72" y1="-38.1" x2="63.5" y2="-38.1" width="0.1524" layer="91"/>
-<label x="45.72" y="-38.1" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="45-2" class="0">
-<segment>
-<pinref part="JP45" gate="G$1" pin="2"/>
-<wire x1="45.72" y1="-40.64" x2="63.5" y2="-40.64" width="0.1524" layer="91"/>
-<label x="45.72" y="-40.64" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="45-1" class="0">
-<segment>
-<pinref part="JP45" gate="G$1" pin="1"/>
-<wire x1="45.72" y1="-43.18" x2="63.5" y2="-43.18" width="0.1524" layer="91"/>
-<label x="45.72" y="-43.18" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="46-5" class="0">
-<segment>
-<pinref part="JP46" gate="G$1" pin="5"/>
-<wire x1="45.72" y1="-50.8" x2="63.5" y2="-50.8" width="0.1524" layer="91"/>
-<label x="45.72" y="-50.8" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="46-4" class="0">
-<segment>
-<pinref part="JP46" gate="G$1" pin="4"/>
-<wire x1="45.72" y1="-53.34" x2="63.5" y2="-53.34" width="0.1524" layer="91"/>
-<label x="45.72" y="-53.34" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="46-3" class="0">
-<segment>
-<pinref part="JP46" gate="G$1" pin="3"/>
-<wire x1="45.72" y1="-55.88" x2="63.5" y2="-55.88" width="0.1524" layer="91"/>
-<label x="45.72" y="-55.88" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="46-2" class="0">
-<segment>
-<pinref part="JP46" gate="G$1" pin="2"/>
-<wire x1="45.72" y1="-58.42" x2="63.5" y2="-58.42" width="0.1524" layer="91"/>
-<label x="45.72" y="-58.42" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="46-1" class="0">
-<segment>
-<pinref part="JP46" gate="G$1" pin="1"/>
-<wire x1="45.72" y1="-60.96" x2="63.5" y2="-60.96" width="0.1524" layer="91"/>
-<label x="45.72" y="-60.96" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="47-5" class="0">
-<segment>
-<pinref part="JP47" gate="G$1" pin="5"/>
-<wire x1="78.74" y1="-15.24" x2="96.52" y2="-15.24" width="0.1524" layer="91"/>
-<label x="78.74" y="-15.24" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="47-4" class="0">
-<segment>
-<pinref part="JP47" gate="G$1" pin="4"/>
-<wire x1="78.74" y1="-17.78" x2="96.52" y2="-17.78" width="0.1524" layer="91"/>
-<label x="78.74" y="-17.78" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="47-3" class="0">
-<segment>
-<pinref part="JP47" gate="G$1" pin="3"/>
-<wire x1="78.74" y1="-20.32" x2="96.52" y2="-20.32" width="0.1524" layer="91"/>
-<label x="78.74" y="-20.32" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="47-2" class="0">
-<segment>
-<pinref part="JP47" gate="G$1" pin="2"/>
-<wire x1="78.74" y1="-22.86" x2="96.52" y2="-22.86" width="0.1524" layer="91"/>
-<label x="78.74" y="-22.86" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="47-1" class="0">
-<segment>
-<pinref part="JP47" gate="G$1" pin="1"/>
-<wire x1="78.74" y1="-25.4" x2="96.52" y2="-25.4" width="0.1524" layer="91"/>
-<label x="78.74" y="-25.4" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="48-5" class="0">
-<segment>
-<pinref part="JP48" gate="G$1" pin="5"/>
-<wire x1="78.74" y1="-33.02" x2="96.52" y2="-33.02" width="0.1524" layer="91"/>
-<label x="78.74" y="-33.02" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="48-4" class="0">
-<segment>
-<pinref part="JP48" gate="G$1" pin="4"/>
-<wire x1="78.74" y1="-35.56" x2="96.52" y2="-35.56" width="0.1524" layer="91"/>
-<label x="78.74" y="-35.56" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="48-3" class="0">
-<segment>
-<pinref part="JP48" gate="G$1" pin="3"/>
-<wire x1="78.74" y1="-38.1" x2="96.52" y2="-38.1" width="0.1524" layer="91"/>
-<label x="78.74" y="-38.1" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="48-2" class="0">
-<segment>
-<pinref part="JP48" gate="G$1" pin="2"/>
-<wire x1="78.74" y1="-40.64" x2="96.52" y2="-40.64" width="0.1524" layer="91"/>
-<label x="78.74" y="-40.64" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="48-1" class="0">
-<segment>
-<pinref part="JP48" gate="G$1" pin="1"/>
-<wire x1="78.74" y1="-43.18" x2="96.52" y2="-43.18" width="0.1524" layer="91"/>
-<label x="78.74" y="-43.18" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="49-5" class="0">
-<segment>
-<pinref part="JP49" gate="G$1" pin="5"/>
-<wire x1="78.74" y1="-50.8" x2="96.52" y2="-50.8" width="0.1524" layer="91"/>
-<label x="78.74" y="-50.8" size="1.778" layer="95"/>
-<label x="78.74" y="-50.8" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="49-4" class="0">
-<segment>
-<pinref part="JP49" gate="G$1" pin="4"/>
-<wire x1="78.74" y1="-53.34" x2="96.52" y2="-53.34" width="0.1524" layer="91"/>
-<label x="78.74" y="-53.34" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="49-3" class="0">
-<segment>
-<pinref part="JP49" gate="G$1" pin="3"/>
-<wire x1="78.74" y1="-55.88" x2="96.52" y2="-55.88" width="0.1524" layer="91"/>
-<label x="78.74" y="-55.88" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="49-2" class="0">
-<segment>
-<pinref part="JP49" gate="G$1" pin="2"/>
-<wire x1="78.74" y1="-58.42" x2="96.52" y2="-58.42" width="0.1524" layer="91"/>
-<label x="78.74" y="-58.42" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="49-1" class="0">
-<segment>
-<pinref part="JP49" gate="G$1" pin="1"/>
-<wire x1="78.74" y1="-60.96" x2="96.52" y2="-60.96" width="0.1524" layer="91"/>
-<label x="78.74" y="-60.96" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="50-5" class="0">
-<segment>
-<pinref part="JP50" gate="G$1" pin="5"/>
-<wire x1="111.76" y1="-15.24" x2="129.54" y2="-15.24" width="0.1524" layer="91"/>
-<label x="111.76" y="-15.24" size="1.778" layer="95"/>
-<label x="111.76" y="-15.24" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="50-4" class="0">
-<segment>
-<pinref part="JP50" gate="G$1" pin="4"/>
-<wire x1="111.76" y1="-17.78" x2="129.54" y2="-17.78" width="0.1524" layer="91"/>
-<label x="111.76" y="-17.78" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="50-3" class="0">
-<segment>
-<pinref part="JP50" gate="G$1" pin="3"/>
-<wire x1="111.76" y1="-20.32" x2="129.54" y2="-20.32" width="0.1524" layer="91"/>
-<label x="111.76" y="-20.32" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="50-2" class="0">
-<segment>
-<pinref part="JP50" gate="G$1" pin="2"/>
-<wire x1="111.76" y1="-22.86" x2="129.54" y2="-22.86" width="0.1524" layer="91"/>
-<label x="111.76" y="-22.86" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="50-1" class="0">
-<segment>
-<pinref part="JP50" gate="G$1" pin="1"/>
-<wire x1="111.76" y1="-25.4" x2="129.54" y2="-25.4" width="0.1524" layer="91"/>
-<label x="111.76" y="-25.4" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="51-5" class="0">
-<segment>
-<pinref part="JP51" gate="G$1" pin="5"/>
-<wire x1="111.76" y1="-33.02" x2="129.54" y2="-33.02" width="0.1524" layer="91"/>
-<label x="111.76" y="-33.02" size="1.778" layer="95"/>
-<label x="111.76" y="-33.02" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="51-4" class="0">
-<segment>
-<pinref part="JP51" gate="G$1" pin="4"/>
-<wire x1="111.76" y1="-35.56" x2="129.54" y2="-35.56" width="0.1524" layer="91"/>
-<label x="111.76" y="-35.56" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="51-3" class="0">
-<segment>
-<pinref part="JP51" gate="G$1" pin="3"/>
-<wire x1="111.76" y1="-38.1" x2="129.54" y2="-38.1" width="0.1524" layer="91"/>
-<label x="111.76" y="-38.1" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="51-2" class="0">
-<segment>
-<pinref part="JP51" gate="G$1" pin="2"/>
-<wire x1="111.76" y1="-40.64" x2="129.54" y2="-40.64" width="0.1524" layer="91"/>
-<label x="111.76" y="-40.64" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="51-1" class="0">
-<segment>
-<pinref part="JP51" gate="G$1" pin="1"/>
-<wire x1="111.76" y1="-43.18" x2="129.54" y2="-43.18" width="0.1524" layer="91"/>
-<label x="111.76" y="-43.18" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="52-5" class="0">
-<segment>
-<pinref part="JP52" gate="G$1" pin="5"/>
-<wire x1="111.76" y1="-50.8" x2="129.54" y2="-50.8" width="0.1524" layer="91"/>
-<label x="111.76" y="-50.8" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="52-4" class="0">
-<segment>
-<pinref part="JP52" gate="G$1" pin="4"/>
-<wire x1="111.76" y1="-53.34" x2="129.54" y2="-53.34" width="0.1524" layer="91"/>
-<label x="111.76" y="-53.34" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="52-3" class="0">
-<segment>
-<pinref part="JP52" gate="G$1" pin="3"/>
-<wire x1="111.76" y1="-55.88" x2="129.54" y2="-55.88" width="0.1524" layer="91"/>
-<label x="111.76" y="-55.88" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="52-2" class="0">
-<segment>
-<pinref part="JP52" gate="G$1" pin="2"/>
-<wire x1="111.76" y1="-58.42" x2="129.54" y2="-58.42" width="0.1524" layer="91"/>
-<label x="111.76" y="-58.42" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="52-1" class="0">
-<segment>
-<pinref part="JP52" gate="G$1" pin="1"/>
-<wire x1="111.76" y1="-60.96" x2="129.54" y2="-60.96" width="0.1524" layer="91"/>
-<label x="111.76" y="-60.96" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="53-5" class="0">
-<segment>
-<pinref part="JP53" gate="G$1" pin="5"/>
-<wire x1="142.24" y1="-15.24" x2="160.02" y2="-15.24" width="0.1524" layer="91"/>
-<label x="142.24" y="-15.24" size="1.778" layer="95"/>
-<label x="142.24" y="-15.24" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="53-4" class="0">
-<segment>
-<pinref part="JP53" gate="G$1" pin="4"/>
-<wire x1="142.24" y1="-17.78" x2="160.02" y2="-17.78" width="0.1524" layer="91"/>
-<label x="142.24" y="-17.78" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="53-3" class="0">
-<segment>
-<pinref part="JP53" gate="G$1" pin="3"/>
-<wire x1="142.24" y1="-20.32" x2="160.02" y2="-20.32" width="0.1524" layer="91"/>
-<label x="142.24" y="-20.32" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="53-2" class="0">
-<segment>
-<pinref part="JP53" gate="G$1" pin="2"/>
-<wire x1="142.24" y1="-22.86" x2="160.02" y2="-22.86" width="0.1524" layer="91"/>
-<label x="142.24" y="-22.86" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="53-1" class="0">
-<segment>
-<pinref part="JP53" gate="G$1" pin="1"/>
-<wire x1="142.24" y1="-25.4" x2="160.02" y2="-25.4" width="0.1524" layer="91"/>
-<label x="142.24" y="-25.4" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="54-5" class="0">
-<segment>
-<pinref part="JP54" gate="G$1" pin="5"/>
-<wire x1="142.24" y1="-33.02" x2="160.02" y2="-33.02" width="0.1524" layer="91"/>
-<label x="142.24" y="-33.02" size="1.778" layer="95"/>
-<label x="142.24" y="-33.02" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="54-4" class="0">
-<segment>
-<pinref part="JP54" gate="G$1" pin="4"/>
-<wire x1="142.24" y1="-35.56" x2="160.02" y2="-35.56" width="0.1524" layer="91"/>
-<label x="142.24" y="-35.56" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="54-3" class="0">
-<segment>
-<pinref part="JP54" gate="G$1" pin="3"/>
-<wire x1="142.24" y1="-38.1" x2="160.02" y2="-38.1" width="0.1524" layer="91"/>
-<label x="142.24" y="-38.1" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="54-2" class="0">
-<segment>
-<pinref part="JP54" gate="G$1" pin="2"/>
-<wire x1="142.24" y1="-40.64" x2="160.02" y2="-40.64" width="0.1524" layer="91"/>
-<label x="142.24" y="-40.64" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="54-1" class="0">
-<segment>
-<pinref part="JP54" gate="G$1" pin="1"/>
-<wire x1="142.24" y1="-43.18" x2="160.02" y2="-43.18" width="0.1524" layer="91"/>
-<label x="142.24" y="-43.18" size="1.778" layer="95"/>
-<label x="142.24" y="-43.18" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="55-5" class="0">
-<segment>
-<pinref part="JP55" gate="G$1" pin="5"/>
-<wire x1="142.24" y1="-50.8" x2="160.02" y2="-50.8" width="0.1524" layer="91"/>
-<label x="142.24" y="-50.8" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="55-4" class="0">
-<segment>
-<pinref part="JP55" gate="G$1" pin="4"/>
-<wire x1="142.24" y1="-53.34" x2="160.02" y2="-53.34" width="0.1524" layer="91"/>
-<label x="142.24" y="-53.34" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="55-3" class="0">
-<segment>
-<pinref part="JP55" gate="G$1" pin="3"/>
-<wire x1="142.24" y1="-55.88" x2="160.02" y2="-55.88" width="0.1524" layer="91"/>
-<label x="142.24" y="-55.88" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="55-2" class="0">
-<segment>
-<pinref part="JP55" gate="G$1" pin="2"/>
-<wire x1="142.24" y1="-58.42" x2="160.02" y2="-58.42" width="0.1524" layer="91"/>
-<label x="142.24" y="-58.42" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="55-1" class="0">
-<segment>
-<pinref part="JP55" gate="G$1" pin="1"/>
-<wire x1="142.24" y1="-60.96" x2="160.02" y2="-60.96" width="0.1524" layer="91"/>
-<label x="142.24" y="-60.96" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="56-5" class="0">
-<segment>
-<pinref part="JP56" gate="G$1" pin="5"/>
-<wire x1="175.26" y1="-15.24" x2="193.04" y2="-15.24" width="0.1524" layer="91"/>
-<label x="175.26" y="-15.24" size="1.778" layer="95"/>
-<label x="175.26" y="-15.24" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="56-4" class="0">
-<segment>
-<pinref part="JP56" gate="G$1" pin="4"/>
-<wire x1="175.26" y1="-17.78" x2="193.04" y2="-17.78" width="0.1524" layer="91"/>
-<label x="175.26" y="-17.78" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="56-3" class="0">
-<segment>
-<pinref part="JP56" gate="G$1" pin="3"/>
-<wire x1="175.26" y1="-20.32" x2="193.04" y2="-20.32" width="0.1524" layer="91"/>
-<label x="175.26" y="-20.32" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="56-2" class="0">
-<segment>
-<pinref part="JP56" gate="G$1" pin="2"/>
-<wire x1="175.26" y1="-22.86" x2="193.04" y2="-22.86" width="0.1524" layer="91"/>
-<label x="175.26" y="-22.86" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="56-1" class="0">
-<segment>
-<pinref part="JP56" gate="G$1" pin="1"/>
-<wire x1="175.26" y1="-25.4" x2="193.04" y2="-25.4" width="0.1524" layer="91"/>
-<label x="175.26" y="-25.4" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="57-5" class="0">
-<segment>
-<pinref part="JP57" gate="G$1" pin="5"/>
-<wire x1="175.26" y1="-33.02" x2="193.04" y2="-33.02" width="0.1524" layer="91"/>
-<label x="175.26" y="-33.02" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="57-4" class="0">
-<segment>
-<pinref part="JP57" gate="G$1" pin="4"/>
-<wire x1="175.26" y1="-35.56" x2="193.04" y2="-35.56" width="0.1524" layer="91"/>
-<label x="175.26" y="-35.56" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="57-3" class="0">
-<segment>
-<pinref part="JP57" gate="G$1" pin="3"/>
-<wire x1="175.26" y1="-38.1" x2="193.04" y2="-38.1" width="0.1524" layer="91"/>
-<label x="175.26" y="-38.1" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="57-2" class="0">
-<segment>
-<pinref part="JP57" gate="G$1" pin="2"/>
-<wire x1="175.26" y1="-40.64" x2="193.04" y2="-40.64" width="0.1524" layer="91"/>
-<label x="175.26" y="-40.64" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="57-1" class="0">
-<segment>
-<pinref part="JP57" gate="G$1" pin="1"/>
-<wire x1="175.26" y1="-43.18" x2="193.04" y2="-43.18" width="0.1524" layer="91"/>
-<label x="175.26" y="-43.18" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="58-5" class="0">
-<segment>
-<pinref part="JP58" gate="G$1" pin="5"/>
-<wire x1="175.26" y1="-50.8" x2="193.04" y2="-50.8" width="0.1524" layer="91"/>
-<label x="175.26" y="-50.8" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="58-4" class="0">
-<segment>
-<pinref part="JP58" gate="G$1" pin="4"/>
-<wire x1="175.26" y1="-53.34" x2="193.04" y2="-53.34" width="0.1524" layer="91"/>
-<label x="175.26" y="-53.34" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="58-3" class="0">
-<segment>
-<pinref part="JP58" gate="G$1" pin="3"/>
-<wire x1="175.26" y1="-55.88" x2="193.04" y2="-55.88" width="0.1524" layer="91"/>
-<label x="175.26" y="-55.88" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="58-2" class="0">
-<segment>
-<pinref part="JP58" gate="G$1" pin="2"/>
-<wire x1="175.26" y1="-58.42" x2="193.04" y2="-58.42" width="0.1524" layer="91"/>
-<label x="175.26" y="-58.42" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="58-1" class="0">
-<segment>
-<pinref part="JP58" gate="G$1" pin="1"/>
-<wire x1="175.26" y1="-60.96" x2="193.04" y2="-60.96" width="0.1524" layer="91"/>
-<label x="175.26" y="-60.96" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="59-5" class="0">
-<segment>
-<pinref part="JP59" gate="G$1" pin="5"/>
-<wire x1="208.28" y1="-15.24" x2="226.06" y2="-15.24" width="0.1524" layer="91"/>
-<label x="208.28" y="-15.24" size="1.778" layer="95"/>
-<label x="208.28" y="-15.24" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="59-4" class="0">
-<segment>
-<pinref part="JP59" gate="G$1" pin="4"/>
-<wire x1="208.28" y1="-17.78" x2="226.06" y2="-17.78" width="0.1524" layer="91"/>
-<label x="208.28" y="-17.78" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="59-3" class="0">
-<segment>
-<pinref part="JP59" gate="G$1" pin="3"/>
-<wire x1="208.28" y1="-20.32" x2="226.06" y2="-20.32" width="0.1524" layer="91"/>
-<label x="208.28" y="-20.32" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="59-2" class="0">
-<segment>
-<pinref part="JP59" gate="G$1" pin="2"/>
-<wire x1="208.28" y1="-22.86" x2="226.06" y2="-22.86" width="0.1524" layer="91"/>
-<label x="208.28" y="-22.86" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="59-1" class="0">
-<segment>
-<pinref part="JP59" gate="G$1" pin="1"/>
-<wire x1="208.28" y1="-25.4" x2="226.06" y2="-25.4" width="0.1524" layer="91"/>
-<label x="208.28" y="-25.4" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="60-5" class="0">
-<segment>
-<pinref part="JP60" gate="G$1" pin="5"/>
-<wire x1="208.28" y1="-33.02" x2="226.06" y2="-33.02" width="0.1524" layer="91"/>
-<label x="208.28" y="-33.02" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="60-4" class="0">
-<segment>
-<pinref part="JP60" gate="G$1" pin="4"/>
-<wire x1="208.28" y1="-35.56" x2="226.06" y2="-35.56" width="0.1524" layer="91"/>
-<label x="208.28" y="-35.56" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="60-3" class="0">
-<segment>
-<pinref part="JP60" gate="G$1" pin="3"/>
-<wire x1="208.28" y1="-38.1" x2="226.06" y2="-38.1" width="0.1524" layer="91"/>
-<label x="208.28" y="-38.1" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="60-2" class="0">
-<segment>
-<pinref part="JP60" gate="G$1" pin="2"/>
-<wire x1="208.28" y1="-40.64" x2="226.06" y2="-40.64" width="0.1524" layer="91"/>
-<label x="208.28" y="-40.64" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="60-1" class="0">
-<segment>
-<pinref part="JP60" gate="G$1" pin="1"/>
-<wire x1="208.28" y1="-43.18" x2="226.06" y2="-43.18" width="0.1524" layer="91"/>
-<label x="208.28" y="-43.18" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="61-5" class="0">
-<segment>
-<pinref part="JP61" gate="G$1" pin="5"/>
-<wire x1="208.28" y1="-50.8" x2="226.06" y2="-50.8" width="0.1524" layer="91"/>
-<label x="208.28" y="-50.8" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="61-4" class="0">
-<segment>
-<pinref part="JP61" gate="G$1" pin="4"/>
-<wire x1="208.28" y1="-53.34" x2="226.06" y2="-53.34" width="0.1524" layer="91"/>
-<label x="208.28" y="-53.34" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="61-3" class="0">
-<segment>
-<pinref part="JP61" gate="G$1" pin="3"/>
-<wire x1="208.28" y1="-55.88" x2="226.06" y2="-55.88" width="0.1524" layer="91"/>
-<label x="208.28" y="-55.88" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="61-2" class="0">
-<segment>
-<pinref part="JP61" gate="G$1" pin="2"/>
-<wire x1="208.28" y1="-58.42" x2="226.06" y2="-58.42" width="0.1524" layer="91"/>
-<label x="208.28" y="-58.42" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="61-1" class="0">
-<segment>
-<pinref part="JP61" gate="G$1" pin="1"/>
-<wire x1="208.28" y1="-60.96" x2="226.06" y2="-60.96" width="0.1524" layer="91"/>
-<label x="208.28" y="-60.96" size="1.778" layer="95"/>
-<label x="208.28" y="-60.96" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="62-5" class="0">
-<segment>
-<pinref part="JP62" gate="G$1" pin="5"/>
-<wire x1="241.3" y1="-15.24" x2="259.08" y2="-15.24" width="0.1524" layer="91"/>
-<label x="241.3" y="-15.24" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="62-4" class="0">
-<segment>
-<pinref part="JP62" gate="G$1" pin="4"/>
-<wire x1="241.3" y1="-17.78" x2="259.08" y2="-17.78" width="0.1524" layer="91"/>
-<label x="241.3" y="-17.78" size="1.778" layer="95"/>
-<label x="241.3" y="-17.78" size="1.778" layer="95"/>
-<label x="241.3" y="-17.78" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="62-3" class="0">
-<segment>
-<pinref part="JP62" gate="G$1" pin="3"/>
-<wire x1="241.3" y1="-20.32" x2="259.08" y2="-20.32" width="0.1524" layer="91"/>
-<label x="241.3" y="-20.32" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="62-2" class="0">
-<segment>
-<pinref part="JP62" gate="G$1" pin="2"/>
-<wire x1="241.3" y1="-22.86" x2="259.08" y2="-22.86" width="0.1524" layer="91"/>
-<label x="241.3" y="-22.86" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="62-1" class="0">
-<segment>
-<pinref part="JP62" gate="G$1" pin="1"/>
-<wire x1="241.3" y1="-25.4" x2="259.08" y2="-25.4" width="0.1524" layer="91"/>
-<label x="241.3" y="-25.4" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="63-5" class="0">
-<segment>
-<pinref part="JP63" gate="G$1" pin="5"/>
-<wire x1="241.3" y1="-33.02" x2="259.08" y2="-33.02" width="0.1524" layer="91"/>
-<label x="241.3" y="-33.02" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="63-4" class="0">
-<segment>
-<pinref part="JP63" gate="G$1" pin="4"/>
-<wire x1="241.3" y1="-35.56" x2="259.08" y2="-35.56" width="0.1524" layer="91"/>
-<label x="241.3" y="-35.56" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="63-3" class="0">
-<segment>
-<pinref part="JP63" gate="G$1" pin="3"/>
-<wire x1="241.3" y1="-38.1" x2="259.08" y2="-38.1" width="0.1524" layer="91"/>
-<label x="241.3" y="-38.1" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="63-2" class="0">
-<segment>
-<pinref part="JP63" gate="G$1" pin="2"/>
-<wire x1="241.3" y1="-40.64" x2="259.08" y2="-40.64" width="0.1524" layer="91"/>
-<label x="241.3" y="-40.64" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="63-1" class="0">
-<segment>
-<pinref part="JP63" gate="G$1" pin="1"/>
-<wire x1="241.3" y1="-43.18" x2="259.08" y2="-43.18" width="0.1524" layer="91"/>
-<label x="241.3" y="-43.18" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="64-5" class="0">
-<segment>
-<pinref part="JP64" gate="G$1" pin="5"/>
-<wire x1="241.3" y1="-50.8" x2="259.08" y2="-50.8" width="0.1524" layer="91"/>
-<label x="241.3" y="-50.8" size="1.778" layer="95"/>
-<label x="241.3" y="-50.8" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="64-4" class="0">
-<segment>
-<pinref part="JP64" gate="G$1" pin="4"/>
-<wire x1="241.3" y1="-53.34" x2="259.08" y2="-53.34" width="0.1524" layer="91"/>
-<label x="241.3" y="-53.34" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="64-3" class="0">
-<segment>
-<pinref part="JP64" gate="G$1" pin="3"/>
-<wire x1="241.3" y1="-55.88" x2="259.08" y2="-55.88" width="0.1524" layer="91"/>
-<label x="241.3" y="-55.88" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="64-2" class="0">
-<segment>
-<pinref part="JP64" gate="G$1" pin="2"/>
-<wire x1="241.3" y1="-58.42" x2="259.08" y2="-58.42" width="0.1524" layer="91"/>
-<label x="241.3" y="-58.42" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="64-1" class="0">
-<segment>
-<pinref part="JP64" gate="G$1" pin="1"/>
-<wire x1="241.3" y1="-60.96" x2="259.08" y2="-60.96" width="0.1524" layer="91"/>
-<label x="241.3" y="-60.96" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="65-5" class="0">
-<segment>
-<pinref part="JP65" gate="G$1" pin="5"/>
-<wire x1="274.32" y1="-15.24" x2="292.1" y2="-15.24" width="0.1524" layer="91"/>
-<label x="274.32" y="-15.24" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="65-4" class="0">
-<segment>
-<pinref part="JP65" gate="G$1" pin="4"/>
-<wire x1="274.32" y1="-17.78" x2="292.1" y2="-17.78" width="0.1524" layer="91"/>
-<label x="274.32" y="-17.78" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="65-3" class="0">
-<segment>
-<pinref part="JP65" gate="G$1" pin="3"/>
-<wire x1="274.32" y1="-20.32" x2="292.1" y2="-20.32" width="0.1524" layer="91"/>
-<label x="274.32" y="-20.32" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="65-2" class="0">
-<segment>
-<pinref part="JP65" gate="G$1" pin="2"/>
-<wire x1="274.32" y1="-22.86" x2="292.1" y2="-22.86" width="0.1524" layer="91"/>
-<label x="274.32" y="-22.86" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="65-1" class="0">
-<segment>
-<pinref part="JP65" gate="G$1" pin="1"/>
-<wire x1="274.32" y1="-25.4" x2="292.1" y2="-25.4" width="0.1524" layer="91"/>
-<label x="274.32" y="-25.4" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="66-5" class="0">
-<segment>
-<pinref part="JP66" gate="G$1" pin="5"/>
-<wire x1="274.32" y1="-33.02" x2="292.1" y2="-33.02" width="0.1524" layer="91"/>
-<label x="274.32" y="-33.02" size="1.778" layer="95"/>
-<label x="274.32" y="-33.02" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="66-4" class="0">
-<segment>
-<pinref part="JP66" gate="G$1" pin="4"/>
-<wire x1="274.32" y1="-35.56" x2="292.1" y2="-35.56" width="0.1524" layer="91"/>
-<label x="274.32" y="-35.56" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="66-3" class="0">
-<segment>
-<pinref part="JP66" gate="G$1" pin="3"/>
-<wire x1="274.32" y1="-38.1" x2="292.1" y2="-38.1" width="0.1524" layer="91"/>
-<label x="274.32" y="-38.1" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="66-2" class="0">
-<segment>
-<pinref part="JP66" gate="G$1" pin="2"/>
-<wire x1="274.32" y1="-40.64" x2="292.1" y2="-40.64" width="0.1524" layer="91"/>
-<label x="274.32" y="-40.64" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="66-1" class="0">
-<segment>
-<pinref part="JP66" gate="G$1" pin="1"/>
-<wire x1="274.32" y1="-43.18" x2="292.1" y2="-43.18" width="0.1524" layer="91"/>
-<label x="274.32" y="-43.18" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="67-5" class="0">
-<segment>
-<pinref part="JP67" gate="G$1" pin="5"/>
-<wire x1="274.32" y1="-50.8" x2="292.1" y2="-50.8" width="0.1524" layer="91"/>
-<label x="274.32" y="-50.8" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="67-4" class="0">
-<segment>
-<pinref part="JP67" gate="G$1" pin="4"/>
-<wire x1="274.32" y1="-53.34" x2="292.1" y2="-53.34" width="0.1524" layer="91"/>
-<label x="274.32" y="-53.34" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="67-3" class="0">
-<segment>
-<pinref part="JP67" gate="G$1" pin="3"/>
-<wire x1="274.32" y1="-55.88" x2="292.1" y2="-55.88" width="0.1524" layer="91"/>
-<label x="274.32" y="-55.88" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="67-2" class="0">
-<segment>
-<pinref part="JP67" gate="G$1" pin="2"/>
-<wire x1="274.32" y1="-58.42" x2="292.1" y2="-58.42" width="0.1524" layer="91"/>
-<label x="274.32" y="-58.42" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="67-1" class="0">
-<segment>
-<pinref part="JP67" gate="G$1" pin="1"/>
-<wire x1="274.32" y1="-60.96" x2="292.1" y2="-60.96" width="0.1524" layer="91"/>
-<label x="274.32" y="-60.96" size="1.778" layer="95"/>
-<label x="274.32" y="-60.96" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="68-5" class="0">
-<segment>
-<pinref part="JP68" gate="G$1" pin="5"/>
-<wire x1="307.34" y1="-15.24" x2="325.12" y2="-15.24" width="0.1524" layer="91"/>
-<label x="307.34" y="-15.24" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="68-4" class="0">
-<segment>
-<pinref part="JP68" gate="G$1" pin="4"/>
-<wire x1="307.34" y1="-17.78" x2="325.12" y2="-17.78" width="0.1524" layer="91"/>
-<label x="307.34" y="-17.78" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="68-3" class="0">
-<segment>
-<pinref part="JP68" gate="G$1" pin="3"/>
-<wire x1="307.34" y1="-20.32" x2="325.12" y2="-20.32" width="0.1524" layer="91"/>
-<label x="307.34" y="-20.32" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="68-2" class="0">
-<segment>
-<pinref part="JP68" gate="G$1" pin="2"/>
-<wire x1="307.34" y1="-22.86" x2="325.12" y2="-22.86" width="0.1524" layer="91"/>
-<label x="307.34" y="-22.86" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="68-1" class="0">
-<segment>
-<pinref part="JP68" gate="G$1" pin="1"/>
-<wire x1="307.34" y1="-25.4" x2="325.12" y2="-25.4" width="0.1524" layer="91"/>
-<label x="307.34" y="-25.4" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="69-5" class="0">
-<segment>
-<pinref part="JP69" gate="G$1" pin="5"/>
-<wire x1="307.34" y1="-33.02" x2="325.12" y2="-33.02" width="0.1524" layer="91"/>
-<label x="307.34" y="-33.02" size="1.778" layer="95"/>
-<label x="307.34" y="-33.02" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="69-4" class="0">
-<segment>
-<pinref part="JP69" gate="G$1" pin="4"/>
-<wire x1="307.34" y1="-35.56" x2="325.12" y2="-35.56" width="0.1524" layer="91"/>
-<label x="307.34" y="-35.56" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="69-3" class="0">
-<segment>
-<pinref part="JP69" gate="G$1" pin="3"/>
-<wire x1="307.34" y1="-38.1" x2="325.12" y2="-38.1" width="0.1524" layer="91"/>
-<label x="307.34" y="-38.1" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="69-2" class="0">
-<segment>
-<pinref part="JP69" gate="G$1" pin="2"/>
-<wire x1="307.34" y1="-40.64" x2="325.12" y2="-40.64" width="0.1524" layer="91"/>
-<label x="307.34" y="-40.64" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="69-1" class="0">
-<segment>
-<pinref part="JP69" gate="G$1" pin="1"/>
-<wire x1="307.34" y1="-43.18" x2="325.12" y2="-43.18" width="0.1524" layer="91"/>
-<label x="307.34" y="-43.18" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="70-5" class="0">
-<segment>
-<pinref part="JP70" gate="G$1" pin="5"/>
-<wire x1="307.34" y1="-50.8" x2="325.12" y2="-50.8" width="0.1524" layer="91"/>
-<label x="307.34" y="-50.8" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="70-4" class="0">
-<segment>
-<pinref part="JP70" gate="G$1" pin="4"/>
-<wire x1="307.34" y1="-53.34" x2="325.12" y2="-53.34" width="0.1524" layer="91"/>
-<label x="307.34" y="-53.34" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="70-3" class="0">
-<segment>
-<pinref part="JP70" gate="G$1" pin="3"/>
-<wire x1="307.34" y1="-55.88" x2="325.12" y2="-55.88" width="0.1524" layer="91"/>
-<label x="307.34" y="-55.88" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="70-2" class="0">
-<segment>
-<pinref part="JP70" gate="G$1" pin="2"/>
-<wire x1="307.34" y1="-58.42" x2="325.12" y2="-58.42" width="0.1524" layer="91"/>
-<label x="307.34" y="-58.42" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="70-1" class="0">
-<segment>
-<pinref part="JP70" gate="G$1" pin="1"/>
-<wire x1="307.34" y1="-60.96" x2="325.12" y2="-60.96" width="0.1524" layer="91"/>
-<label x="307.34" y="-60.96" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="71-5" class="0">
-<segment>
-<pinref part="JP71" gate="G$1" pin="5"/>
-<wire x1="340.36" y1="-15.24" x2="358.14" y2="-15.24" width="0.1524" layer="91"/>
-<label x="340.36" y="-15.24" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="71-4" class="0">
-<segment>
-<pinref part="JP71" gate="G$1" pin="4"/>
-<wire x1="340.36" y1="-17.78" x2="358.14" y2="-17.78" width="0.1524" layer="91"/>
-<label x="340.36" y="-17.78" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="71-3" class="0">
-<segment>
-<pinref part="JP71" gate="G$1" pin="3"/>
-<wire x1="340.36" y1="-20.32" x2="358.14" y2="-20.32" width="0.1524" layer="91"/>
-<label x="340.36" y="-20.32" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="71-2" class="0">
-<segment>
-<pinref part="JP71" gate="G$1" pin="2"/>
-<wire x1="340.36" y1="-22.86" x2="358.14" y2="-22.86" width="0.1524" layer="91"/>
-<label x="340.36" y="-22.86" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="71-1" class="0">
-<segment>
-<pinref part="JP71" gate="G$1" pin="1"/>
-<wire x1="340.36" y1="-25.4" x2="358.14" y2="-25.4" width="0.1524" layer="91"/>
-<label x="340.36" y="-25.4" size="1.778" layer="95"/>
-<label x="340.36" y="-25.4" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="72-5" class="0">
-<segment>
-<pinref part="JP72" gate="G$1" pin="5"/>
-<wire x1="340.36" y1="-33.02" x2="358.14" y2="-33.02" width="0.1524" layer="91"/>
-<label x="340.36" y="-33.02" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="72-4" class="0">
-<segment>
-<pinref part="JP72" gate="G$1" pin="4"/>
-<wire x1="340.36" y1="-35.56" x2="358.14" y2="-35.56" width="0.1524" layer="91"/>
-<label x="340.36" y="-35.56" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="72-3" class="0">
-<segment>
-<pinref part="JP72" gate="G$1" pin="3"/>
-<wire x1="340.36" y1="-38.1" x2="358.14" y2="-38.1" width="0.1524" layer="91"/>
-<label x="340.36" y="-38.1" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="72-2" class="0">
-<segment>
-<pinref part="JP72" gate="G$1" pin="2"/>
-<wire x1="340.36" y1="-40.64" x2="358.14" y2="-40.64" width="0.1524" layer="91"/>
-<label x="340.36" y="-40.64" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="72-1" class="0">
-<segment>
-<pinref part="JP72" gate="G$1" pin="1"/>
-<wire x1="340.36" y1="-43.18" x2="358.14" y2="-43.18" width="0.1524" layer="91"/>
-<label x="340.36" y="-43.18" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="73-5" class="0">
-<segment>
-<pinref part="JP73" gate="G$1" pin="5"/>
-<wire x1="340.36" y1="-50.8" x2="358.14" y2="-50.8" width="0.1524" layer="91"/>
-<label x="340.36" y="-50.8" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="73-4" class="0">
-<segment>
-<pinref part="JP73" gate="G$1" pin="4"/>
-<wire x1="340.36" y1="-53.34" x2="358.14" y2="-53.34" width="0.1524" layer="91"/>
-<label x="340.36" y="-53.34" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="73-3" class="0">
-<segment>
-<pinref part="JP73" gate="G$1" pin="3"/>
-<wire x1="340.36" y1="-55.88" x2="358.14" y2="-55.88" width="0.1524" layer="91"/>
-<label x="340.36" y="-55.88" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="73-2" class="0">
-<segment>
-<pinref part="JP73" gate="G$1" pin="2"/>
-<wire x1="340.36" y1="-58.42" x2="358.14" y2="-58.42" width="0.1524" layer="91"/>
-<label x="340.36" y="-58.42" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="73-1" class="0">
-<segment>
-<pinref part="JP73" gate="G$1" pin="1"/>
-<wire x1="340.36" y1="-60.96" x2="358.14" y2="-60.96" width="0.1524" layer="91"/>
-<label x="340.36" y="-60.96" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="74-5" class="0">
-<segment>
-<pinref part="JP74" gate="G$1" pin="5"/>
-<wire x1="373.38" y1="-15.24" x2="391.16" y2="-15.24" width="0.1524" layer="91"/>
-<label x="373.38" y="-15.24" size="1.778" layer="95"/>
+<pinref part="JP158" gate="G$1" pin="5"/>
+<wire x1="632.46" y1="-76.2" x2="650.24" y2="-76.2" width="0.1524" layer="91"/>
+<label x="632.46" y="-76.2" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="74-4" class="0">
@@ -6835,14 +8474,6 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <label x="373.38" y="-60.96" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="77-5" class="0">
-<segment>
-<pinref part="JP77" gate="G$1" pin="5"/>
-<wire x1="403.86" y1="-15.24" x2="421.64" y2="-15.24" width="0.1524" layer="91"/>
-<label x="403.86" y="-15.24" size="1.778" layer="95"/>
-<label x="403.86" y="-15.24" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="77-4" class="0">
 <segment>
 <pinref part="JP77" gate="G$1" pin="4"/>
@@ -6941,13 +8572,6 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <pinref part="JP79" gate="G$1" pin="1"/>
 <wire x1="403.86" y1="-60.96" x2="421.64" y2="-60.96" width="0.1524" layer="91"/>
 <label x="403.86" y="-60.96" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="80-5" class="0">
-<segment>
-<pinref part="JP80" gate="G$1" pin="5"/>
-<wire x1="436.88" y1="-15.24" x2="454.66" y2="-15.24" width="0.1524" layer="91"/>
-<label x="436.88" y="-15.24" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="80-4" class="0">
@@ -7050,14 +8674,6 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <label x="436.88" y="-60.96" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="83-5" class="0">
-<segment>
-<pinref part="JP83" gate="G$1" pin="5"/>
-<wire x1="469.9" y1="-15.24" x2="487.68" y2="-15.24" width="0.1524" layer="91"/>
-<label x="469.9" y="-15.24" size="1.778" layer="95"/>
-<label x="469.9" y="-15.24" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="83-4" class="0">
 <segment>
 <pinref part="JP83" gate="G$1" pin="4"/>
@@ -7143,13 +8759,6 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <label x="469.9" y="-55.88" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="85-2" class="0">
-<segment>
-<pinref part="JP85" gate="G$1" pin="2"/>
-<wire x1="469.9" y1="-58.42" x2="487.68" y2="-58.42" width="0.1524" layer="91"/>
-<label x="469.9" y="-58.42" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="85-1" class="0">
 <segment>
 <pinref part="JP85" gate="G$1" pin="1"/>
@@ -7157,2700 +8766,11 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <label x="469.9" y="-60.96" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="86-5" class="0">
-<segment>
-<pinref part="JP86" gate="G$1" pin="5"/>
-<wire x1="502.92" y1="-15.24" x2="520.7" y2="-15.24" width="0.1524" layer="91"/>
-<label x="502.92" y="-15.24" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="86-4" class="0">
-<segment>
-<pinref part="JP86" gate="G$1" pin="4"/>
-<wire x1="502.92" y1="-17.78" x2="520.7" y2="-17.78" width="0.1524" layer="91"/>
-<label x="502.92" y="-17.78" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="86-3" class="0">
-<segment>
-<pinref part="JP86" gate="G$1" pin="3"/>
-<wire x1="502.92" y1="-20.32" x2="520.7" y2="-20.32" width="0.1524" layer="91"/>
-<label x="502.92" y="-20.32" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="86-2" class="0">
-<segment>
-<pinref part="JP86" gate="G$1" pin="2"/>
-<wire x1="502.92" y1="-22.86" x2="520.7" y2="-22.86" width="0.1524" layer="91"/>
-<label x="502.92" y="-22.86" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="86-1" class="0">
-<segment>
-<pinref part="JP86" gate="G$1" pin="1"/>
-<wire x1="502.92" y1="-25.4" x2="520.7" y2="-25.4" width="0.1524" layer="91"/>
-<label x="502.92" y="-25.4" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="87-5" class="0">
-<segment>
-<pinref part="JP87" gate="G$1" pin="5"/>
-<wire x1="502.92" y1="-33.02" x2="520.7" y2="-33.02" width="0.1524" layer="91"/>
-<label x="502.92" y="-33.02" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="87-4" class="0">
-<segment>
-<pinref part="JP87" gate="G$1" pin="4"/>
-<wire x1="502.92" y1="-35.56" x2="520.7" y2="-35.56" width="0.1524" layer="91"/>
-<label x="502.92" y="-35.56" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="87-3" class="0">
-<segment>
-<pinref part="JP87" gate="G$1" pin="3"/>
-<wire x1="502.92" y1="-38.1" x2="520.7" y2="-38.1" width="0.1524" layer="91"/>
-<label x="502.92" y="-38.1" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="87-2" class="0">
-<segment>
-<pinref part="JP87" gate="G$1" pin="2"/>
-<wire x1="502.92" y1="-40.64" x2="520.7" y2="-40.64" width="0.1524" layer="91"/>
-<label x="502.92" y="-40.64" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="87-1" class="0">
-<segment>
-<pinref part="JP87" gate="G$1" pin="1"/>
-<wire x1="502.92" y1="-43.18" x2="520.7" y2="-43.18" width="0.1524" layer="91"/>
-<label x="502.92" y="-43.18" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="88-5" class="0">
-<segment>
-<pinref part="JP88" gate="G$1" pin="5"/>
-<wire x1="502.92" y1="-50.8" x2="520.7" y2="-50.8" width="0.1524" layer="91"/>
-<label x="502.92" y="-50.8" size="1.778" layer="95"/>
-<label x="502.92" y="-50.8" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="88-4" class="0">
-<segment>
-<pinref part="JP88" gate="G$1" pin="4"/>
-<wire x1="502.92" y1="-53.34" x2="520.7" y2="-53.34" width="0.1524" layer="91"/>
-<label x="502.92" y="-53.34" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="88-3" class="0">
-<segment>
-<pinref part="JP88" gate="G$1" pin="3"/>
-<wire x1="502.92" y1="-55.88" x2="520.7" y2="-55.88" width="0.1524" layer="91"/>
-<label x="502.92" y="-55.88" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="88-2" class="0">
-<segment>
-<pinref part="JP88" gate="G$1" pin="2"/>
-<wire x1="502.92" y1="-58.42" x2="520.7" y2="-58.42" width="0.1524" layer="91"/>
-<label x="502.92" y="-58.42" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="88-1" class="0">
-<segment>
-<pinref part="JP88" gate="G$1" pin="1"/>
-<wire x1="502.92" y1="-60.96" x2="520.7" y2="-60.96" width="0.1524" layer="91"/>
-<label x="502.92" y="-60.96" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="89-5" class="0">
-<segment>
-<pinref part="JP89" gate="G$1" pin="5"/>
-<wire x1="533.4" y1="-15.24" x2="551.18" y2="-15.24" width="0.1524" layer="91"/>
-<label x="533.4" y="-15.24" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="89-4" class="0">
-<segment>
-<pinref part="JP89" gate="G$1" pin="4"/>
-<wire x1="533.4" y1="-17.78" x2="551.18" y2="-17.78" width="0.1524" layer="91"/>
-<label x="533.4" y="-17.78" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="89-3" class="0">
-<segment>
-<pinref part="JP89" gate="G$1" pin="3"/>
-<wire x1="533.4" y1="-20.32" x2="551.18" y2="-20.32" width="0.1524" layer="91"/>
-<label x="533.4" y="-20.32" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="89-2" class="0">
-<segment>
-<pinref part="JP89" gate="G$1" pin="2"/>
-<wire x1="533.4" y1="-22.86" x2="551.18" y2="-22.86" width="0.1524" layer="91"/>
-<label x="533.4" y="-22.86" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="89-1" class="0">
-<segment>
-<pinref part="JP89" gate="G$1" pin="1"/>
-<wire x1="533.4" y1="-25.4" x2="551.18" y2="-25.4" width="0.1524" layer="91"/>
-<label x="533.4" y="-25.4" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="90-5" class="0">
-<segment>
-<pinref part="JP90" gate="G$1" pin="5"/>
-<wire x1="533.4" y1="-33.02" x2="551.18" y2="-33.02" width="0.1524" layer="91"/>
-<label x="533.4" y="-33.02" size="1.778" layer="95"/>
-<label x="533.4" y="-33.02" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="90-4" class="0">
-<segment>
-<pinref part="JP90" gate="G$1" pin="4"/>
-<wire x1="533.4" y1="-35.56" x2="551.18" y2="-35.56" width="0.1524" layer="91"/>
-<label x="533.4" y="-35.56" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="90-3" class="0">
-<segment>
-<pinref part="JP90" gate="G$1" pin="3"/>
-<wire x1="533.4" y1="-38.1" x2="551.18" y2="-38.1" width="0.1524" layer="91"/>
-<label x="533.4" y="-38.1" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="90-2" class="0">
-<segment>
-<pinref part="JP90" gate="G$1" pin="2"/>
-<wire x1="533.4" y1="-40.64" x2="551.18" y2="-40.64" width="0.1524" layer="91"/>
-<label x="533.4" y="-40.64" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="90-1" class="0">
-<segment>
-<pinref part="JP90" gate="G$1" pin="1"/>
-<wire x1="533.4" y1="-43.18" x2="551.18" y2="-43.18" width="0.1524" layer="91"/>
-<label x="533.4" y="-43.18" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="91-5" class="0">
-<segment>
-<pinref part="JP91" gate="G$1" pin="5"/>
-<wire x1="533.4" y1="-50.8" x2="551.18" y2="-50.8" width="0.1524" layer="91"/>
-<label x="533.4" y="-50.8" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="91-4" class="0">
-<segment>
-<pinref part="JP91" gate="G$1" pin="4"/>
-<wire x1="533.4" y1="-53.34" x2="551.18" y2="-53.34" width="0.1524" layer="91"/>
-<label x="533.4" y="-53.34" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="91-3" class="0">
-<segment>
-<pinref part="JP91" gate="G$1" pin="3"/>
-<wire x1="533.4" y1="-55.88" x2="551.18" y2="-55.88" width="0.1524" layer="91"/>
-<label x="533.4" y="-55.88" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="91-2" class="0">
-<segment>
-<pinref part="JP91" gate="G$1" pin="2"/>
-<wire x1="533.4" y1="-58.42" x2="551.18" y2="-58.42" width="0.1524" layer="91"/>
-<label x="533.4" y="-58.42" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="91-1" class="0">
-<segment>
-<pinref part="JP91" gate="G$1" pin="1"/>
-<wire x1="533.4" y1="-60.96" x2="551.18" y2="-60.96" width="0.1524" layer="91"/>
-<label x="533.4" y="-60.96" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="92-5" class="0">
-<segment>
-<pinref part="JP92" gate="G$1" pin="5"/>
-<wire x1="566.42" y1="-15.24" x2="584.2" y2="-15.24" width="0.1524" layer="91"/>
-<label x="566.42" y="-15.24" size="1.778" layer="95"/>
-<label x="566.42" y="-15.24" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="92-4" class="0">
-<segment>
-<pinref part="JP92" gate="G$1" pin="4"/>
-<wire x1="566.42" y1="-17.78" x2="584.2" y2="-17.78" width="0.1524" layer="91"/>
-<label x="566.42" y="-17.78" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="92-3" class="0">
-<segment>
-<pinref part="JP92" gate="G$1" pin="3"/>
-<wire x1="566.42" y1="-20.32" x2="584.2" y2="-20.32" width="0.1524" layer="91"/>
-<label x="566.42" y="-20.32" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="92-2" class="0">
-<segment>
-<pinref part="JP92" gate="G$1" pin="2"/>
-<wire x1="566.42" y1="-22.86" x2="584.2" y2="-22.86" width="0.1524" layer="91"/>
-<label x="566.42" y="-22.86" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="92-1" class="0">
-<segment>
-<pinref part="JP92" gate="G$1" pin="1"/>
-<wire x1="566.42" y1="-25.4" x2="584.2" y2="-25.4" width="0.1524" layer="91"/>
-<label x="566.42" y="-25.4" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="93-5" class="0">
-<segment>
-<pinref part="JP93" gate="G$1" pin="5"/>
-<wire x1="566.42" y1="-33.02" x2="584.2" y2="-33.02" width="0.1524" layer="91"/>
-<label x="566.42" y="-33.02" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="93-4" class="0">
-<segment>
-<pinref part="JP93" gate="G$1" pin="4"/>
-<wire x1="566.42" y1="-35.56" x2="584.2" y2="-35.56" width="0.1524" layer="91"/>
-<label x="566.42" y="-35.56" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="93-3" class="0">
-<segment>
-<pinref part="JP93" gate="G$1" pin="3"/>
-<wire x1="566.42" y1="-38.1" x2="584.2" y2="-38.1" width="0.1524" layer="91"/>
-<label x="566.42" y="-38.1" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="93-2" class="0">
-<segment>
-<pinref part="JP93" gate="G$1" pin="2"/>
-<wire x1="566.42" y1="-40.64" x2="584.2" y2="-40.64" width="0.1524" layer="91"/>
-<label x="566.42" y="-40.64" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="93-1" class="0">
-<segment>
-<pinref part="JP93" gate="G$1" pin="1"/>
-<wire x1="566.42" y1="-43.18" x2="584.2" y2="-43.18" width="0.1524" layer="91"/>
-<label x="566.42" y="-43.18" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="94-5" class="0">
-<segment>
-<pinref part="JP94" gate="G$1" pin="5"/>
-<wire x1="566.42" y1="-50.8" x2="584.2" y2="-50.8" width="0.1524" layer="91"/>
-<label x="566.42" y="-50.8" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="94-4" class="0">
-<segment>
-<pinref part="JP94" gate="G$1" pin="4"/>
-<wire x1="566.42" y1="-53.34" x2="584.2" y2="-53.34" width="0.1524" layer="91"/>
-<label x="566.42" y="-53.34" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="94-3" class="0">
-<segment>
-<pinref part="JP94" gate="G$1" pin="3"/>
-<wire x1="566.42" y1="-55.88" x2="584.2" y2="-55.88" width="0.1524" layer="91"/>
-<label x="566.42" y="-55.88" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="94-2" class="0">
-<segment>
-<pinref part="JP94" gate="G$1" pin="2"/>
-<wire x1="566.42" y1="-58.42" x2="584.2" y2="-58.42" width="0.1524" layer="91"/>
-<label x="566.42" y="-58.42" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="94-1" class="0">
-<segment>
-<pinref part="JP94" gate="G$1" pin="1"/>
-<wire x1="566.42" y1="-60.96" x2="584.2" y2="-60.96" width="0.1524" layer="91"/>
-<label x="566.42" y="-60.96" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="95-5" class="0">
-<segment>
-<pinref part="JP95" gate="G$1" pin="5"/>
-<wire x1="599.44" y1="-15.24" x2="617.22" y2="-15.24" width="0.1524" layer="91"/>
-<label x="599.44" y="-15.24" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="95-4" class="0">
-<segment>
-<pinref part="JP95" gate="G$1" pin="4"/>
-<wire x1="599.44" y1="-17.78" x2="617.22" y2="-17.78" width="0.1524" layer="91"/>
-<label x="599.44" y="-17.78" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="95-3" class="0">
-<segment>
-<pinref part="JP95" gate="G$1" pin="3"/>
-<wire x1="599.44" y1="-20.32" x2="617.22" y2="-20.32" width="0.1524" layer="91"/>
-<label x="599.44" y="-20.32" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="95-2" class="0">
-<segment>
-<pinref part="JP95" gate="G$1" pin="2"/>
-<wire x1="599.44" y1="-22.86" x2="617.22" y2="-22.86" width="0.1524" layer="91"/>
-<label x="599.44" y="-22.86" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="95-1" class="0">
-<segment>
-<pinref part="JP95" gate="G$1" pin="1"/>
-<wire x1="599.44" y1="-25.4" x2="617.22" y2="-25.4" width="0.1524" layer="91"/>
-<label x="599.44" y="-25.4" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="96-5" class="0">
-<segment>
-<pinref part="JP96" gate="G$1" pin="5"/>
-<wire x1="599.44" y1="-33.02" x2="617.22" y2="-33.02" width="0.1524" layer="91"/>
-<label x="599.44" y="-33.02" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="96-4" class="0">
-<segment>
-<pinref part="JP96" gate="G$1" pin="4"/>
-<wire x1="599.44" y1="-35.56" x2="617.22" y2="-35.56" width="0.1524" layer="91"/>
-<label x="599.44" y="-35.56" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="96-3" class="0">
-<segment>
-<pinref part="JP96" gate="G$1" pin="3"/>
-<wire x1="599.44" y1="-38.1" x2="617.22" y2="-38.1" width="0.1524" layer="91"/>
-<label x="599.44" y="-38.1" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="96-2" class="0">
-<segment>
-<pinref part="JP96" gate="G$1" pin="2"/>
-<wire x1="599.44" y1="-40.64" x2="617.22" y2="-40.64" width="0.1524" layer="91"/>
-<label x="599.44" y="-40.64" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="96-1" class="0">
-<segment>
-<pinref part="JP96" gate="G$1" pin="1"/>
-<wire x1="599.44" y1="-43.18" x2="617.22" y2="-43.18" width="0.1524" layer="91"/>
-<label x="599.44" y="-43.18" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="97-5" class="0">
-<segment>
-<pinref part="JP97" gate="G$1" pin="5"/>
-<wire x1="599.44" y1="-50.8" x2="617.22" y2="-50.8" width="0.1524" layer="91"/>
-<label x="599.44" y="-50.8" size="1.778" layer="95"/>
-<label x="599.44" y="-50.8" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="97-4" class="0">
-<segment>
-<pinref part="JP97" gate="G$1" pin="4"/>
-<wire x1="599.44" y1="-53.34" x2="617.22" y2="-53.34" width="0.1524" layer="91"/>
-<label x="599.44" y="-53.34" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="97-3" class="0">
-<segment>
-<pinref part="JP97" gate="G$1" pin="3"/>
-<wire x1="599.44" y1="-55.88" x2="617.22" y2="-55.88" width="0.1524" layer="91"/>
-<label x="599.44" y="-55.88" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="97-2" class="0">
-<segment>
-<pinref part="JP97" gate="G$1" pin="2"/>
-<wire x1="599.44" y1="-58.42" x2="617.22" y2="-58.42" width="0.1524" layer="91"/>
-<label x="599.44" y="-58.42" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="97-1" class="0">
-<segment>
-<pinref part="JP97" gate="G$1" pin="1"/>
-<wire x1="599.44" y1="-60.96" x2="617.22" y2="-60.96" width="0.1524" layer="91"/>
-<label x="599.44" y="-60.96" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="98-5" class="0">
-<segment>
-<pinref part="JP98" gate="G$1" pin="5"/>
-<wire x1="632.46" y1="-15.24" x2="650.24" y2="-15.24" width="0.1524" layer="91"/>
-<label x="632.46" y="-15.24" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="98-4" class="0">
-<segment>
-<pinref part="JP98" gate="G$1" pin="4"/>
-<wire x1="632.46" y1="-17.78" x2="650.24" y2="-17.78" width="0.1524" layer="91"/>
-<label x="632.46" y="-17.78" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="98-3" class="0">
-<segment>
-<pinref part="JP98" gate="G$1" pin="3"/>
-<wire x1="632.46" y1="-20.32" x2="650.24" y2="-20.32" width="0.1524" layer="91"/>
-<label x="632.46" y="-20.32" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="98-2" class="0">
-<segment>
-<pinref part="JP98" gate="G$1" pin="2"/>
-<wire x1="632.46" y1="-22.86" x2="650.24" y2="-22.86" width="0.1524" layer="91"/>
-<label x="632.46" y="-22.86" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="98-1" class="0">
-<segment>
-<pinref part="JP98" gate="G$1" pin="1"/>
-<wire x1="632.46" y1="-25.4" x2="650.24" y2="-25.4" width="0.1524" layer="91"/>
-<label x="632.46" y="-25.4" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="99-5" class="0">
-<segment>
-<pinref part="JP99" gate="G$1" pin="5"/>
-<wire x1="632.46" y1="-33.02" x2="650.24" y2="-33.02" width="0.1524" layer="91"/>
-<label x="632.46" y="-33.02" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="99-4" class="0">
-<segment>
-<pinref part="JP99" gate="G$1" pin="4"/>
-<wire x1="632.46" y1="-35.56" x2="650.24" y2="-35.56" width="0.1524" layer="91"/>
-<label x="632.46" y="-35.56" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="99-3" class="0">
-<segment>
-<pinref part="JP99" gate="G$1" pin="3"/>
-<wire x1="632.46" y1="-38.1" x2="650.24" y2="-38.1" width="0.1524" layer="91"/>
-<label x="632.46" y="-38.1" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="99-2" class="0">
-<segment>
-<pinref part="JP99" gate="G$1" pin="2"/>
-<wire x1="632.46" y1="-40.64" x2="650.24" y2="-40.64" width="0.1524" layer="91"/>
-<label x="632.46" y="-40.64" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="99-1" class="0">
-<segment>
-<pinref part="JP99" gate="G$1" pin="1"/>
-<wire x1="632.46" y1="-43.18" x2="650.24" y2="-43.18" width="0.1524" layer="91"/>
-<label x="632.46" y="-43.18" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="100-5" class="0">
-<segment>
-<pinref part="JP100" gate="G$1" pin="5"/>
-<wire x1="632.46" y1="-50.8" x2="650.24" y2="-50.8" width="0.1524" layer="91"/>
-<label x="632.46" y="-50.8" size="1.778" layer="95"/>
-<label x="632.46" y="-50.8" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="100-4" class="0">
-<segment>
-<pinref part="JP100" gate="G$1" pin="4"/>
-<wire x1="632.46" y1="-53.34" x2="650.24" y2="-53.34" width="0.1524" layer="91"/>
-<label x="632.46" y="-53.34" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="100-3" class="0">
-<segment>
-<pinref part="JP100" gate="G$1" pin="3"/>
-<wire x1="632.46" y1="-55.88" x2="650.24" y2="-55.88" width="0.1524" layer="91"/>
-<label x="632.46" y="-55.88" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="100-2" class="0">
-<segment>
-<pinref part="JP100" gate="G$1" pin="2"/>
-<wire x1="632.46" y1="-58.42" x2="650.24" y2="-58.42" width="0.1524" layer="91"/>
-<label x="632.46" y="-58.42" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="100-1" class="0">
-<segment>
-<pinref part="JP100" gate="G$1" pin="1"/>
-<wire x1="632.46" y1="-60.96" x2="650.24" y2="-60.96" width="0.1524" layer="91"/>
-<label x="632.46" y="-60.96" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="101-5" class="0">
-<segment>
-<pinref part="JP101" gate="G$1" pin="5"/>
-<wire x1="12.7" y1="-73.66" x2="30.48" y2="-73.66" width="0.1524" layer="91"/>
-<label x="12.7" y="-73.66" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="101-4" class="0">
-<segment>
-<pinref part="JP101" gate="G$1" pin="4"/>
-<wire x1="12.7" y1="-76.2" x2="30.48" y2="-76.2" width="0.1524" layer="91"/>
-<label x="12.7" y="-76.2" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="101-3" class="0">
-<segment>
-<pinref part="JP101" gate="G$1" pin="3"/>
-<wire x1="12.7" y1="-78.74" x2="30.48" y2="-78.74" width="0.1524" layer="91"/>
-<label x="12.7" y="-78.74" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="101-2" class="0">
-<segment>
-<pinref part="JP101" gate="G$1" pin="2"/>
-<wire x1="12.7" y1="-81.28" x2="30.48" y2="-81.28" width="0.1524" layer="91"/>
-<label x="12.7" y="-81.28" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="101-1" class="0">
-<segment>
-<pinref part="JP101" gate="G$1" pin="1"/>
-<wire x1="12.7" y1="-83.82" x2="30.48" y2="-83.82" width="0.1524" layer="91"/>
-<label x="12.7" y="-83.82" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="102-5" class="0">
-<segment>
-<pinref part="JP102" gate="G$1" pin="5"/>
-<wire x1="12.7" y1="-91.44" x2="30.48" y2="-91.44" width="0.1524" layer="91"/>
-<label x="12.7" y="-91.44" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="102-4" class="0">
-<segment>
-<pinref part="JP102" gate="G$1" pin="4"/>
-<wire x1="12.7" y1="-93.98" x2="30.48" y2="-93.98" width="0.1524" layer="91"/>
-<label x="12.7" y="-93.98" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="102-3" class="0">
-<segment>
-<pinref part="JP102" gate="G$1" pin="3"/>
-<wire x1="12.7" y1="-96.52" x2="30.48" y2="-96.52" width="0.1524" layer="91"/>
-<label x="12.7" y="-96.52" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="102-2" class="0">
-<segment>
-<pinref part="JP102" gate="G$1" pin="2"/>
-<wire x1="12.7" y1="-99.06" x2="30.48" y2="-99.06" width="0.1524" layer="91"/>
-<label x="12.7" y="-99.06" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="102-1" class="0">
-<segment>
-<pinref part="JP102" gate="G$1" pin="1"/>
-<wire x1="12.7" y1="-101.6" x2="30.48" y2="-101.6" width="0.1524" layer="91"/>
-<label x="12.7" y="-101.6" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="103-5" class="0">
-<segment>
-<pinref part="JP103" gate="G$1" pin="5"/>
-<wire x1="12.7" y1="-109.22" x2="30.48" y2="-109.22" width="0.1524" layer="91"/>
-<label x="12.7" y="-109.22" size="1.778" layer="95"/>
-<label x="12.7" y="-109.22" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="103-4" class="0">
-<segment>
-<pinref part="JP103" gate="G$1" pin="4"/>
-<wire x1="12.7" y1="-111.76" x2="30.48" y2="-111.76" width="0.1524" layer="91"/>
-<label x="12.7" y="-111.76" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="103-3" class="0">
-<segment>
-<pinref part="JP103" gate="G$1" pin="3"/>
-<wire x1="12.7" y1="-114.3" x2="30.48" y2="-114.3" width="0.1524" layer="91"/>
-<label x="12.7" y="-114.3" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="103-2" class="0">
-<segment>
-<pinref part="JP103" gate="G$1" pin="2"/>
-<wire x1="12.7" y1="-116.84" x2="30.48" y2="-116.84" width="0.1524" layer="91"/>
-<label x="12.7" y="-116.84" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="103-1" class="0">
-<segment>
-<pinref part="JP103" gate="G$1" pin="1"/>
-<wire x1="12.7" y1="-119.38" x2="30.48" y2="-119.38" width="0.1524" layer="91"/>
-<label x="12.7" y="-119.38" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="104-5" class="0">
-<segment>
-<pinref part="JP104" gate="G$1" pin="5"/>
-<wire x1="45.72" y1="-73.66" x2="63.5" y2="-73.66" width="0.1524" layer="91"/>
-<label x="45.72" y="-73.66" size="1.778" layer="95"/>
-<label x="45.72" y="-73.66" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="104-4" class="0">
-<segment>
-<pinref part="JP104" gate="G$1" pin="4"/>
-<wire x1="45.72" y1="-76.2" x2="63.5" y2="-76.2" width="0.1524" layer="91"/>
-<label x="45.72" y="-76.2" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="104-3" class="0">
-<segment>
-<pinref part="JP104" gate="G$1" pin="3"/>
-<wire x1="45.72" y1="-78.74" x2="63.5" y2="-78.74" width="0.1524" layer="91"/>
-<label x="45.72" y="-78.74" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="104-2" class="0">
-<segment>
-<pinref part="JP104" gate="G$1" pin="2"/>
-<wire x1="45.72" y1="-81.28" x2="63.5" y2="-81.28" width="0.1524" layer="91"/>
-<label x="45.72" y="-81.28" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="104-1" class="0">
-<segment>
-<pinref part="JP104" gate="G$1" pin="1"/>
-<wire x1="45.72" y1="-83.82" x2="63.5" y2="-83.82" width="0.1524" layer="91"/>
-<label x="45.72" y="-83.82" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="105-5" class="0">
-<segment>
-<pinref part="JP105" gate="G$1" pin="5"/>
-<wire x1="45.72" y1="-91.44" x2="63.5" y2="-91.44" width="0.1524" layer="91"/>
-<label x="45.72" y="-91.44" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="105-4" class="0">
-<segment>
-<pinref part="JP105" gate="G$1" pin="4"/>
-<wire x1="45.72" y1="-93.98" x2="63.5" y2="-93.98" width="0.1524" layer="91"/>
-<label x="45.72" y="-93.98" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="105-3" class="0">
-<segment>
-<pinref part="JP105" gate="G$1" pin="3"/>
-<wire x1="45.72" y1="-96.52" x2="63.5" y2="-96.52" width="0.1524" layer="91"/>
-<label x="45.72" y="-96.52" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="105-2" class="0">
-<segment>
-<pinref part="JP105" gate="G$1" pin="2"/>
-<wire x1="45.72" y1="-99.06" x2="63.5" y2="-99.06" width="0.1524" layer="91"/>
-<label x="45.72" y="-99.06" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="105-1" class="0">
-<segment>
-<pinref part="JP105" gate="G$1" pin="1"/>
-<wire x1="45.72" y1="-101.6" x2="63.5" y2="-101.6" width="0.1524" layer="91"/>
-<label x="45.72" y="-101.6" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="106-5" class="0">
-<segment>
-<pinref part="JP106" gate="G$1" pin="5"/>
-<wire x1="45.72" y1="-109.22" x2="63.5" y2="-109.22" width="0.1524" layer="91"/>
-<label x="45.72" y="-109.22" size="1.778" layer="95"/>
-<label x="45.72" y="-109.22" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="106-4" class="0">
-<segment>
-<pinref part="JP106" gate="G$1" pin="4"/>
-<wire x1="45.72" y1="-111.76" x2="63.5" y2="-111.76" width="0.1524" layer="91"/>
-<label x="45.72" y="-111.76" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="106-3" class="0">
-<segment>
-<pinref part="JP106" gate="G$1" pin="3"/>
-<wire x1="45.72" y1="-114.3" x2="63.5" y2="-114.3" width="0.1524" layer="91"/>
-<label x="45.72" y="-114.3" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="106-2" class="0">
-<segment>
-<pinref part="JP106" gate="G$1" pin="2"/>
-<wire x1="45.72" y1="-116.84" x2="63.5" y2="-116.84" width="0.1524" layer="91"/>
-<label x="45.72" y="-116.84" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="106-1" class="0">
-<segment>
-<pinref part="JP106" gate="G$1" pin="1"/>
-<wire x1="45.72" y1="-119.38" x2="63.5" y2="-119.38" width="0.1524" layer="91"/>
-<label x="45.72" y="-119.38" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="107-5" class="0">
-<segment>
-<pinref part="JP107" gate="G$1" pin="5"/>
-<wire x1="78.74" y1="-73.66" x2="96.52" y2="-73.66" width="0.1524" layer="91"/>
-<label x="78.74" y="-73.66" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="107-4" class="0">
-<segment>
-<pinref part="JP107" gate="G$1" pin="4"/>
-<wire x1="78.74" y1="-76.2" x2="96.52" y2="-76.2" width="0.1524" layer="91"/>
-<label x="78.74" y="-76.2" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="107-3" class="0">
-<segment>
-<pinref part="JP107" gate="G$1" pin="3"/>
-<wire x1="78.74" y1="-78.74" x2="96.52" y2="-78.74" width="0.1524" layer="91"/>
-<label x="78.74" y="-78.74" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="107-2" class="0">
-<segment>
-<pinref part="JP107" gate="G$1" pin="2"/>
-<wire x1="78.74" y1="-81.28" x2="96.52" y2="-81.28" width="0.1524" layer="91"/>
-<label x="78.74" y="-81.28" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="107-1" class="0">
-<segment>
-<pinref part="JP107" gate="G$1" pin="1"/>
-<wire x1="78.74" y1="-83.82" x2="96.52" y2="-83.82" width="0.1524" layer="91"/>
-<label x="78.74" y="-83.82" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="108-5" class="0">
-<segment>
-<pinref part="JP108" gate="G$1" pin="5"/>
-<wire x1="78.74" y1="-91.44" x2="96.52" y2="-91.44" width="0.1524" layer="91"/>
-<label x="78.74" y="-91.44" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="108-4" class="0">
-<segment>
-<pinref part="JP108" gate="G$1" pin="4"/>
-<wire x1="78.74" y1="-93.98" x2="96.52" y2="-93.98" width="0.1524" layer="91"/>
-<label x="78.74" y="-93.98" size="1.778" layer="95"/>
-<label x="78.74" y="-93.98" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="108-3" class="0">
-<segment>
-<pinref part="JP108" gate="G$1" pin="3"/>
-<wire x1="78.74" y1="-96.52" x2="96.52" y2="-96.52" width="0.1524" layer="91"/>
-<label x="78.74" y="-96.52" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="108-2" class="0">
-<segment>
-<pinref part="JP108" gate="G$1" pin="2"/>
-<wire x1="78.74" y1="-99.06" x2="96.52" y2="-99.06" width="0.1524" layer="91"/>
-<label x="78.74" y="-99.06" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="108-1" class="0">
-<segment>
-<pinref part="JP108" gate="G$1" pin="1"/>
-<wire x1="78.74" y1="-101.6" x2="96.52" y2="-101.6" width="0.1524" layer="91"/>
-<label x="78.74" y="-101.6" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="109-5" class="0">
-<segment>
-<pinref part="JP109" gate="G$1" pin="5"/>
-<wire x1="78.74" y1="-109.22" x2="96.52" y2="-109.22" width="0.1524" layer="91"/>
-<label x="78.74" y="-109.22" size="1.778" layer="95"/>
-<label x="78.74" y="-109.22" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="109-4" class="0">
-<segment>
-<pinref part="JP109" gate="G$1" pin="4"/>
-<wire x1="78.74" y1="-111.76" x2="96.52" y2="-111.76" width="0.1524" layer="91"/>
-<label x="78.74" y="-111.76" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="109-3" class="0">
-<segment>
-<pinref part="JP109" gate="G$1" pin="3"/>
-<wire x1="78.74" y1="-114.3" x2="96.52" y2="-114.3" width="0.1524" layer="91"/>
-<label x="78.74" y="-114.3" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="109-2" class="0">
-<segment>
-<pinref part="JP109" gate="G$1" pin="2"/>
-<wire x1="78.74" y1="-116.84" x2="96.52" y2="-116.84" width="0.1524" layer="91"/>
-<label x="78.74" y="-116.84" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="109-1" class="0">
-<segment>
-<pinref part="JP109" gate="G$1" pin="1"/>
-<wire x1="78.74" y1="-119.38" x2="96.52" y2="-119.38" width="0.1524" layer="91"/>
-<label x="78.74" y="-119.38" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="110-5" class="0">
-<segment>
-<pinref part="JP110" gate="G$1" pin="5"/>
-<wire x1="111.76" y1="-73.66" x2="129.54" y2="-73.66" width="0.1524" layer="91"/>
-<label x="111.76" y="-73.66" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="110-4" class="0">
-<segment>
-<pinref part="JP110" gate="G$1" pin="4"/>
-<wire x1="111.76" y1="-76.2" x2="129.54" y2="-76.2" width="0.1524" layer="91"/>
-<label x="111.76" y="-76.2" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="110-3" class="0">
-<segment>
-<pinref part="JP110" gate="G$1" pin="3"/>
-<wire x1="111.76" y1="-78.74" x2="129.54" y2="-78.74" width="0.1524" layer="91"/>
-<label x="111.76" y="-78.74" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="110-2" class="0">
-<segment>
-<pinref part="JP110" gate="G$1" pin="2"/>
-<wire x1="111.76" y1="-81.28" x2="129.54" y2="-81.28" width="0.1524" layer="91"/>
-<label x="111.76" y="-81.28" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="110-1" class="0">
-<segment>
-<pinref part="JP110" gate="G$1" pin="1"/>
-<wire x1="111.76" y1="-83.82" x2="129.54" y2="-83.82" width="0.1524" layer="91"/>
-<label x="111.76" y="-83.82" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="111-5" class="0">
-<segment>
-<pinref part="JP111" gate="G$1" pin="5"/>
-<wire x1="111.76" y1="-91.44" x2="129.54" y2="-91.44" width="0.1524" layer="91"/>
-<label x="111.76" y="-91.44" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="111-4" class="0">
-<segment>
-<pinref part="JP111" gate="G$1" pin="4"/>
-<wire x1="111.76" y1="-93.98" x2="129.54" y2="-93.98" width="0.1524" layer="91"/>
-<label x="111.76" y="-93.98" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="111-3" class="0">
-<segment>
-<pinref part="JP111" gate="G$1" pin="3"/>
-<wire x1="111.76" y1="-96.52" x2="129.54" y2="-96.52" width="0.1524" layer="91"/>
-<label x="111.76" y="-96.52" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="111-2" class="0">
-<segment>
-<pinref part="JP111" gate="G$1" pin="2"/>
-<wire x1="111.76" y1="-99.06" x2="129.54" y2="-99.06" width="0.1524" layer="91"/>
-<label x="111.76" y="-99.06" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="111-1" class="0">
-<segment>
-<pinref part="JP111" gate="G$1" pin="1"/>
-<wire x1="111.76" y1="-101.6" x2="129.54" y2="-101.6" width="0.1524" layer="91"/>
-<label x="111.76" y="-101.6" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="112-5" class="0">
-<segment>
-<pinref part="JP112" gate="G$1" pin="5"/>
-<wire x1="111.76" y1="-109.22" x2="129.54" y2="-109.22" width="0.1524" layer="91"/>
-<label x="111.76" y="-109.22" size="1.778" layer="95"/>
-<label x="111.76" y="-109.22" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="112-4" class="0">
-<segment>
-<pinref part="JP112" gate="G$1" pin="4"/>
-<wire x1="111.76" y1="-111.76" x2="129.54" y2="-111.76" width="0.1524" layer="91"/>
-<label x="111.76" y="-111.76" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="112-3" class="0">
-<segment>
-<pinref part="JP112" gate="G$1" pin="3"/>
-<wire x1="111.76" y1="-114.3" x2="129.54" y2="-114.3" width="0.1524" layer="91"/>
-<label x="111.76" y="-114.3" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="112-2" class="0">
-<segment>
-<pinref part="JP112" gate="G$1" pin="2"/>
-<wire x1="111.76" y1="-116.84" x2="129.54" y2="-116.84" width="0.1524" layer="91"/>
-<label x="111.76" y="-116.84" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="112-1" class="0">
-<segment>
-<pinref part="JP112" gate="G$1" pin="1"/>
-<wire x1="111.76" y1="-119.38" x2="129.54" y2="-119.38" width="0.1524" layer="91"/>
-<label x="111.76" y="-119.38" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="113-5" class="0">
-<segment>
-<pinref part="JP113" gate="G$1" pin="5"/>
-<wire x1="142.24" y1="-73.66" x2="160.02" y2="-73.66" width="0.1524" layer="91"/>
-<label x="142.24" y="-73.66" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="113-4" class="0">
-<segment>
-<pinref part="JP113" gate="G$1" pin="4"/>
-<wire x1="142.24" y1="-76.2" x2="160.02" y2="-76.2" width="0.1524" layer="91"/>
-<label x="142.24" y="-76.2" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="113-3" class="0">
-<segment>
-<pinref part="JP113" gate="G$1" pin="3"/>
-<wire x1="142.24" y1="-78.74" x2="160.02" y2="-78.74" width="0.1524" layer="91"/>
-<label x="142.24" y="-78.74" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="113-2" class="0">
-<segment>
-<pinref part="JP113" gate="G$1" pin="2"/>
-<wire x1="142.24" y1="-81.28" x2="160.02" y2="-81.28" width="0.1524" layer="91"/>
-<label x="142.24" y="-81.28" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="113-1" class="0">
-<segment>
-<pinref part="JP113" gate="G$1" pin="1"/>
-<wire x1="142.24" y1="-83.82" x2="160.02" y2="-83.82" width="0.1524" layer="91"/>
-<label x="142.24" y="-83.82" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="114-5" class="0">
-<segment>
-<pinref part="JP114" gate="G$1" pin="5"/>
-<wire x1="142.24" y1="-91.44" x2="160.02" y2="-91.44" width="0.1524" layer="91"/>
-<label x="142.24" y="-91.44" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="114-4" class="0">
-<segment>
-<pinref part="JP114" gate="G$1" pin="4"/>
-<wire x1="142.24" y1="-93.98" x2="160.02" y2="-93.98" width="0.1524" layer="91"/>
-<label x="142.24" y="-93.98" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="114-3" class="0">
-<segment>
-<pinref part="JP114" gate="G$1" pin="3"/>
-<wire x1="142.24" y1="-96.52" x2="160.02" y2="-96.52" width="0.1524" layer="91"/>
-<label x="142.24" y="-96.52" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="114-2" class="0">
-<segment>
-<pinref part="JP114" gate="G$1" pin="2"/>
-<wire x1="142.24" y1="-99.06" x2="160.02" y2="-99.06" width="0.1524" layer="91"/>
-<label x="142.24" y="-99.06" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="114-1" class="0">
-<segment>
-<pinref part="JP114" gate="G$1" pin="1"/>
-<wire x1="142.24" y1="-101.6" x2="160.02" y2="-101.6" width="0.1524" layer="91"/>
-<label x="142.24" y="-101.6" size="1.778" layer="95"/>
-<label x="142.24" y="-101.6" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="115-5" class="0">
-<segment>
-<pinref part="JP115" gate="G$1" pin="5"/>
-<wire x1="142.24" y1="-109.22" x2="160.02" y2="-109.22" width="0.1524" layer="91"/>
-<label x="142.24" y="-109.22" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="115-4" class="0">
-<segment>
-<pinref part="JP115" gate="G$1" pin="4"/>
-<wire x1="142.24" y1="-111.76" x2="160.02" y2="-111.76" width="0.1524" layer="91"/>
-<label x="142.24" y="-111.76" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="115-3" class="0">
-<segment>
-<pinref part="JP115" gate="G$1" pin="3"/>
-<wire x1="142.24" y1="-114.3" x2="160.02" y2="-114.3" width="0.1524" layer="91"/>
-<label x="142.24" y="-114.3" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="115-2" class="0">
-<segment>
-<pinref part="JP115" gate="G$1" pin="2"/>
-<wire x1="142.24" y1="-116.84" x2="160.02" y2="-116.84" width="0.1524" layer="91"/>
-<label x="142.24" y="-116.84" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="115-1" class="0">
-<segment>
-<pinref part="JP115" gate="G$1" pin="1"/>
-<wire x1="142.24" y1="-119.38" x2="160.02" y2="-119.38" width="0.1524" layer="91"/>
-<label x="142.24" y="-119.38" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="116-5" class="0">
-<segment>
-<pinref part="JP116" gate="G$1" pin="5"/>
-<wire x1="175.26" y1="-73.66" x2="193.04" y2="-73.66" width="0.1524" layer="91"/>
-<label x="175.26" y="-73.66" size="1.778" layer="95"/>
-<label x="175.26" y="-73.66" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="116-4" class="0">
-<segment>
-<pinref part="JP116" gate="G$1" pin="4"/>
-<wire x1="175.26" y1="-76.2" x2="193.04" y2="-76.2" width="0.1524" layer="91"/>
-<label x="175.26" y="-76.2" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="116-3" class="0">
-<segment>
-<pinref part="JP116" gate="G$1" pin="3"/>
-<wire x1="175.26" y1="-78.74" x2="193.04" y2="-78.74" width="0.1524" layer="91"/>
-<label x="175.26" y="-78.74" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="116-2" class="0">
-<segment>
-<pinref part="JP116" gate="G$1" pin="2"/>
-<wire x1="175.26" y1="-81.28" x2="193.04" y2="-81.28" width="0.1524" layer="91"/>
-<label x="175.26" y="-81.28" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="116-1" class="0">
-<segment>
-<pinref part="JP116" gate="G$1" pin="1"/>
-<wire x1="175.26" y1="-83.82" x2="193.04" y2="-83.82" width="0.1524" layer="91"/>
-<label x="175.26" y="-83.82" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="117-5" class="0">
-<segment>
-<pinref part="JP117" gate="G$1" pin="5"/>
-<wire x1="175.26" y1="-91.44" x2="193.04" y2="-91.44" width="0.1524" layer="91"/>
-<label x="175.26" y="-91.44" size="1.778" layer="95"/>
-<label x="175.26" y="-91.44" size="1.778" layer="95"/>
-<label x="175.26" y="-91.44" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="117-4" class="0">
-<segment>
-<pinref part="JP117" gate="G$1" pin="4"/>
-<wire x1="175.26" y1="-93.98" x2="193.04" y2="-93.98" width="0.1524" layer="91"/>
-<label x="175.26" y="-93.98" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="117-3" class="0">
-<segment>
-<pinref part="JP117" gate="G$1" pin="3"/>
-<wire x1="175.26" y1="-96.52" x2="193.04" y2="-96.52" width="0.1524" layer="91"/>
-<label x="175.26" y="-96.52" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="117-2" class="0">
-<segment>
-<pinref part="JP117" gate="G$1" pin="2"/>
-<wire x1="175.26" y1="-99.06" x2="193.04" y2="-99.06" width="0.1524" layer="91"/>
-<label x="175.26" y="-99.06" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="117-1" class="0">
-<segment>
-<pinref part="JP117" gate="G$1" pin="1"/>
-<wire x1="175.26" y1="-101.6" x2="193.04" y2="-101.6" width="0.1524" layer="91"/>
-<label x="175.26" y="-101.6" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="118-5" class="0">
-<segment>
-<pinref part="JP118" gate="G$1" pin="5"/>
-<wire x1="175.26" y1="-109.22" x2="193.04" y2="-109.22" width="0.1524" layer="91"/>
-<label x="175.26" y="-109.22" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="118-4" class="0">
-<segment>
-<pinref part="JP118" gate="G$1" pin="4"/>
-<wire x1="175.26" y1="-111.76" x2="193.04" y2="-111.76" width="0.1524" layer="91"/>
-<label x="175.26" y="-111.76" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="118-3" class="0">
-<segment>
-<pinref part="JP118" gate="G$1" pin="3"/>
-<wire x1="175.26" y1="-114.3" x2="193.04" y2="-114.3" width="0.1524" layer="91"/>
-<label x="175.26" y="-114.3" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="118-2" class="0">
-<segment>
-<pinref part="JP118" gate="G$1" pin="2"/>
-<wire x1="175.26" y1="-116.84" x2="193.04" y2="-116.84" width="0.1524" layer="91"/>
-<label x="175.26" y="-116.84" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="118-1" class="0">
-<segment>
-<pinref part="JP118" gate="G$1" pin="1"/>
-<wire x1="175.26" y1="-119.38" x2="193.04" y2="-119.38" width="0.1524" layer="91"/>
-<label x="175.26" y="-119.38" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="119-5" class="0">
-<segment>
-<pinref part="JP119" gate="G$1" pin="5"/>
-<wire x1="208.28" y1="-73.66" x2="226.06" y2="-73.66" width="0.1524" layer="91"/>
-<label x="208.28" y="-73.66" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="119-4" class="0">
-<segment>
-<pinref part="JP119" gate="G$1" pin="4"/>
-<wire x1="208.28" y1="-76.2" x2="226.06" y2="-76.2" width="0.1524" layer="91"/>
-<label x="208.28" y="-76.2" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="119-3" class="0">
-<segment>
-<pinref part="JP119" gate="G$1" pin="3"/>
-<wire x1="208.28" y1="-78.74" x2="226.06" y2="-78.74" width="0.1524" layer="91"/>
-<label x="208.28" y="-78.74" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="119-2" class="0">
-<segment>
-<pinref part="JP119" gate="G$1" pin="2"/>
-<wire x1="208.28" y1="-81.28" x2="226.06" y2="-81.28" width="0.1524" layer="91"/>
-<label x="208.28" y="-81.28" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="119-1" class="0">
-<segment>
-<pinref part="JP119" gate="G$1" pin="1"/>
-<wire x1="208.28" y1="-83.82" x2="226.06" y2="-83.82" width="0.1524" layer="91"/>
-<label x="208.28" y="-83.82" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="120-5" class="0">
-<segment>
-<pinref part="JP120" gate="G$1" pin="5"/>
-<wire x1="208.28" y1="-91.44" x2="226.06" y2="-91.44" width="0.1524" layer="91"/>
-<label x="208.28" y="-91.44" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="120-4" class="0">
-<segment>
-<pinref part="JP120" gate="G$1" pin="4"/>
-<wire x1="208.28" y1="-93.98" x2="226.06" y2="-93.98" width="0.1524" layer="91"/>
-<label x="208.28" y="-93.98" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="120-3" class="0">
-<segment>
-<pinref part="JP120" gate="G$1" pin="3"/>
-<wire x1="208.28" y1="-96.52" x2="226.06" y2="-96.52" width="0.1524" layer="91"/>
-<label x="208.28" y="-96.52" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="120-2" class="0">
-<segment>
-<pinref part="JP120" gate="G$1" pin="2"/>
-<wire x1="208.28" y1="-99.06" x2="226.06" y2="-99.06" width="0.1524" layer="91"/>
-<label x="208.28" y="-99.06" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="120-1" class="0">
-<segment>
-<pinref part="JP120" gate="G$1" pin="1"/>
-<wire x1="208.28" y1="-101.6" x2="226.06" y2="-101.6" width="0.1524" layer="91"/>
-<label x="208.28" y="-101.6" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="121-5" class="0">
-<segment>
-<pinref part="JP121" gate="G$1" pin="5"/>
-<wire x1="208.28" y1="-109.22" x2="226.06" y2="-109.22" width="0.1524" layer="91"/>
-<label x="208.28" y="-109.22" size="1.778" layer="95"/>
-<label x="208.28" y="-109.22" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="121-4" class="0">
-<segment>
-<pinref part="JP121" gate="G$1" pin="4"/>
-<wire x1="208.28" y1="-111.76" x2="226.06" y2="-111.76" width="0.1524" layer="91"/>
-<label x="208.28" y="-111.76" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="121-3" class="0">
-<segment>
-<pinref part="JP121" gate="G$1" pin="3"/>
-<wire x1="208.28" y1="-114.3" x2="226.06" y2="-114.3" width="0.1524" layer="91"/>
-<label x="208.28" y="-114.3" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="121-2" class="0">
-<segment>
-<pinref part="JP121" gate="G$1" pin="2"/>
-<wire x1="208.28" y1="-116.84" x2="226.06" y2="-116.84" width="0.1524" layer="91"/>
-<label x="208.28" y="-116.84" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="121-1" class="0">
-<segment>
-<pinref part="JP121" gate="G$1" pin="1"/>
-<wire x1="208.28" y1="-119.38" x2="226.06" y2="-119.38" width="0.1524" layer="91"/>
-<label x="208.28" y="-119.38" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="122-5" class="0">
-<segment>
-<pinref part="JP122" gate="G$1" pin="5"/>
-<wire x1="241.3" y1="-73.66" x2="259.08" y2="-73.66" width="0.1524" layer="91"/>
-<label x="241.3" y="-73.66" size="1.778" layer="95"/>
-<label x="241.3" y="-73.66" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="122-4" class="0">
-<segment>
-<pinref part="JP122" gate="G$1" pin="4"/>
-<wire x1="241.3" y1="-76.2" x2="259.08" y2="-76.2" width="0.1524" layer="91"/>
-<label x="241.3" y="-76.2" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="122-3" class="0">
-<segment>
-<pinref part="JP122" gate="G$1" pin="3"/>
-<wire x1="241.3" y1="-78.74" x2="259.08" y2="-78.74" width="0.1524" layer="91"/>
-<label x="241.3" y="-78.74" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="122-2" class="0">
-<segment>
-<pinref part="JP122" gate="G$1" pin="2"/>
-<wire x1="241.3" y1="-81.28" x2="259.08" y2="-81.28" width="0.1524" layer="91"/>
-<label x="241.3" y="-81.28" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="122-1" class="0">
-<segment>
-<pinref part="JP122" gate="G$1" pin="1"/>
-<wire x1="241.3" y1="-83.82" x2="259.08" y2="-83.82" width="0.1524" layer="91"/>
-<label x="241.3" y="-83.82" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="123-5" class="0">
-<segment>
-<pinref part="JP123" gate="G$1" pin="5"/>
-<wire x1="241.3" y1="-91.44" x2="259.08" y2="-91.44" width="0.1524" layer="91"/>
-<label x="241.3" y="-91.44" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="123-4" class="0">
-<segment>
-<pinref part="JP123" gate="G$1" pin="4"/>
-<wire x1="241.3" y1="-93.98" x2="259.08" y2="-93.98" width="0.1524" layer="91"/>
-<label x="241.3" y="-93.98" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="123-3" class="0">
-<segment>
-<pinref part="JP123" gate="G$1" pin="3"/>
-<wire x1="241.3" y1="-96.52" x2="259.08" y2="-96.52" width="0.1524" layer="91"/>
-<label x="241.3" y="-96.52" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="123-2" class="0">
-<segment>
-<pinref part="JP123" gate="G$1" pin="2"/>
-<wire x1="241.3" y1="-99.06" x2="259.08" y2="-99.06" width="0.1524" layer="91"/>
-<label x="241.3" y="-99.06" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="123-1" class="0">
-<segment>
-<pinref part="JP123" gate="G$1" pin="1"/>
-<wire x1="241.3" y1="-101.6" x2="259.08" y2="-101.6" width="0.1524" layer="91"/>
-<label x="241.3" y="-101.6" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="124-5" class="0">
-<segment>
-<pinref part="JP124" gate="G$1" pin="5"/>
-<wire x1="241.3" y1="-109.22" x2="259.08" y2="-109.22" width="0.1524" layer="91"/>
-<label x="241.3" y="-109.22" size="1.778" layer="95"/>
-<label x="241.3" y="-109.22" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="124-4" class="0">
-<segment>
-<pinref part="JP124" gate="G$1" pin="4"/>
-<wire x1="241.3" y1="-111.76" x2="259.08" y2="-111.76" width="0.1524" layer="91"/>
-<label x="241.3" y="-111.76" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="124-3" class="0">
-<segment>
-<pinref part="JP124" gate="G$1" pin="3"/>
-<wire x1="241.3" y1="-114.3" x2="259.08" y2="-114.3" width="0.1524" layer="91"/>
-<label x="241.3" y="-114.3" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="124-2" class="0">
-<segment>
-<pinref part="JP124" gate="G$1" pin="2"/>
-<wire x1="241.3" y1="-116.84" x2="259.08" y2="-116.84" width="0.1524" layer="91"/>
-<label x="241.3" y="-116.84" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="124-1" class="0">
-<segment>
-<pinref part="JP124" gate="G$1" pin="1"/>
-<wire x1="241.3" y1="-119.38" x2="259.08" y2="-119.38" width="0.1524" layer="91"/>
-<label x="241.3" y="-119.38" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="125-5" class="0">
-<segment>
-<pinref part="JP125" gate="G$1" pin="5"/>
-<wire x1="274.32" y1="-73.66" x2="292.1" y2="-73.66" width="0.1524" layer="91"/>
-<label x="274.32" y="-73.66" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="125-4" class="0">
-<segment>
-<pinref part="JP125" gate="G$1" pin="4"/>
-<wire x1="274.32" y1="-76.2" x2="292.1" y2="-76.2" width="0.1524" layer="91"/>
-<label x="274.32" y="-76.2" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="125-3" class="0">
-<segment>
-<pinref part="JP125" gate="G$1" pin="3"/>
-<wire x1="274.32" y1="-78.74" x2="292.1" y2="-78.74" width="0.1524" layer="91"/>
-<label x="274.32" y="-78.74" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="125-2" class="0">
-<segment>
-<pinref part="JP125" gate="G$1" pin="2"/>
-<wire x1="274.32" y1="-81.28" x2="292.1" y2="-81.28" width="0.1524" layer="91"/>
-<label x="274.32" y="-81.28" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="125-1" class="0">
-<segment>
-<pinref part="JP125" gate="G$1" pin="1"/>
-<wire x1="274.32" y1="-83.82" x2="292.1" y2="-83.82" width="0.1524" layer="91"/>
-<label x="274.32" y="-83.82" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="126-5" class="0">
-<segment>
-<pinref part="JP126" gate="G$1" pin="5"/>
-<wire x1="274.32" y1="-91.44" x2="292.1" y2="-91.44" width="0.1524" layer="91"/>
-<label x="274.32" y="-91.44" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="126-4" class="0">
-<segment>
-<pinref part="JP126" gate="G$1" pin="4"/>
-<wire x1="274.32" y1="-93.98" x2="292.1" y2="-93.98" width="0.1524" layer="91"/>
-<label x="274.32" y="-93.98" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="126-3" class="0">
-<segment>
-<pinref part="JP126" gate="G$1" pin="3"/>
-<wire x1="274.32" y1="-96.52" x2="292.1" y2="-96.52" width="0.1524" layer="91"/>
-<label x="274.32" y="-96.52" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="126-2" class="0">
-<segment>
-<pinref part="JP126" gate="G$1" pin="2"/>
-<wire x1="274.32" y1="-99.06" x2="292.1" y2="-99.06" width="0.1524" layer="91"/>
-<label x="274.32" y="-99.06" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="126-1" class="0">
-<segment>
-<pinref part="JP126" gate="G$1" pin="1"/>
-<wire x1="274.32" y1="-101.6" x2="292.1" y2="-101.6" width="0.1524" layer="91"/>
-<label x="274.32" y="-101.6" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="127-5" class="0">
-<segment>
-<pinref part="JP127" gate="G$1" pin="5"/>
-<wire x1="274.32" y1="-109.22" x2="292.1" y2="-109.22" width="0.1524" layer="91"/>
-<label x="274.32" y="-109.22" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="127-4" class="0">
-<segment>
-<pinref part="JP127" gate="G$1" pin="4"/>
-<wire x1="274.32" y1="-111.76" x2="292.1" y2="-111.76" width="0.1524" layer="91"/>
-<label x="274.32" y="-111.76" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="127-3" class="0">
-<segment>
-<pinref part="JP127" gate="G$1" pin="3"/>
-<wire x1="274.32" y1="-114.3" x2="292.1" y2="-114.3" width="0.1524" layer="91"/>
-<label x="274.32" y="-114.3" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="127-2" class="0">
-<segment>
-<pinref part="JP127" gate="G$1" pin="2"/>
-<wire x1="274.32" y1="-116.84" x2="292.1" y2="-116.84" width="0.1524" layer="91"/>
-<label x="274.32" y="-116.84" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="127-1" class="0">
-<segment>
-<pinref part="JP127" gate="G$1" pin="1"/>
-<wire x1="274.32" y1="-119.38" x2="292.1" y2="-119.38" width="0.1524" layer="91"/>
-<label x="274.32" y="-119.38" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="128-5" class="0">
-<segment>
-<pinref part="JP128" gate="G$1" pin="5"/>
-<wire x1="307.34" y1="-73.66" x2="325.12" y2="-73.66" width="0.1524" layer="91"/>
-<label x="307.34" y="-73.66" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="128-4" class="0">
-<segment>
-<pinref part="JP128" gate="G$1" pin="4"/>
-<wire x1="307.34" y1="-76.2" x2="325.12" y2="-76.2" width="0.1524" layer="91"/>
-<label x="307.34" y="-76.2" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="128-3" class="0">
-<segment>
-<pinref part="JP128" gate="G$1" pin="3"/>
-<wire x1="307.34" y1="-78.74" x2="325.12" y2="-78.74" width="0.1524" layer="91"/>
-<label x="307.34" y="-78.74" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="128-2" class="0">
-<segment>
-<pinref part="JP128" gate="G$1" pin="2"/>
-<wire x1="307.34" y1="-81.28" x2="325.12" y2="-81.28" width="0.1524" layer="91"/>
-<label x="307.34" y="-81.28" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="128-1" class="0">
-<segment>
-<pinref part="JP128" gate="G$1" pin="1"/>
-<wire x1="307.34" y1="-83.82" x2="325.12" y2="-83.82" width="0.1524" layer="91"/>
-<label x="307.34" y="-83.82" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="129-5" class="0">
-<segment>
-<pinref part="JP129" gate="G$1" pin="5"/>
-<wire x1="307.34" y1="-91.44" x2="325.12" y2="-91.44" width="0.1524" layer="91"/>
-<label x="307.34" y="-91.44" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="129-4" class="0">
-<segment>
-<pinref part="JP129" gate="G$1" pin="4"/>
-<wire x1="307.34" y1="-93.98" x2="325.12" y2="-93.98" width="0.1524" layer="91"/>
-<label x="307.34" y="-93.98" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="129-3" class="0">
-<segment>
-<pinref part="JP129" gate="G$1" pin="3"/>
-<wire x1="307.34" y1="-96.52" x2="325.12" y2="-96.52" width="0.1524" layer="91"/>
-<label x="307.34" y="-96.52" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="129-2" class="0">
-<segment>
-<pinref part="JP129" gate="G$1" pin="2"/>
-<wire x1="307.34" y1="-99.06" x2="325.12" y2="-99.06" width="0.1524" layer="91"/>
-<label x="307.34" y="-99.06" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="129-1" class="0">
-<segment>
-<pinref part="JP129" gate="G$1" pin="1"/>
-<wire x1="307.34" y1="-101.6" x2="325.12" y2="-101.6" width="0.1524" layer="91"/>
-<label x="307.34" y="-101.6" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="130-5" class="0">
-<segment>
-<pinref part="JP130" gate="G$1" pin="5"/>
-<wire x1="307.34" y1="-109.22" x2="325.12" y2="-109.22" width="0.1524" layer="91"/>
-<label x="307.34" y="-109.22" size="1.778" layer="95"/>
-<label x="307.34" y="-109.22" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="130-4" class="0">
-<segment>
-<pinref part="JP130" gate="G$1" pin="4"/>
-<wire x1="307.34" y1="-111.76" x2="325.12" y2="-111.76" width="0.1524" layer="91"/>
-<label x="307.34" y="-111.76" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="130-3" class="0">
-<segment>
-<pinref part="JP130" gate="G$1" pin="3"/>
-<wire x1="307.34" y1="-114.3" x2="325.12" y2="-114.3" width="0.1524" layer="91"/>
-<label x="307.34" y="-114.3" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="130-2" class="0">
-<segment>
-<pinref part="JP130" gate="G$1" pin="2"/>
-<wire x1="307.34" y1="-116.84" x2="325.12" y2="-116.84" width="0.1524" layer="91"/>
-<label x="307.34" y="-116.84" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="130-1" class="0">
-<segment>
-<pinref part="JP130" gate="G$1" pin="1"/>
-<wire x1="307.34" y1="-119.38" x2="325.12" y2="-119.38" width="0.1524" layer="91"/>
-<label x="307.34" y="-119.38" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="131-5" class="0">
-<segment>
-<pinref part="JP131" gate="G$1" pin="5"/>
-<wire x1="340.36" y1="-76.2" x2="358.14" y2="-76.2" width="0.1524" layer="91"/>
-<label x="340.36" y="-76.2" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="131-4" class="0">
-<segment>
-<pinref part="JP131" gate="G$1" pin="4"/>
-<wire x1="340.36" y1="-78.74" x2="358.14" y2="-78.74" width="0.1524" layer="91"/>
-<label x="340.36" y="-78.74" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="131-3" class="0">
-<segment>
-<pinref part="JP131" gate="G$1" pin="3"/>
-<wire x1="340.36" y1="-81.28" x2="358.14" y2="-81.28" width="0.1524" layer="91"/>
-<label x="340.36" y="-81.28" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="131-2" class="0">
-<segment>
-<pinref part="JP131" gate="G$1" pin="2"/>
-<wire x1="340.36" y1="-83.82" x2="358.14" y2="-83.82" width="0.1524" layer="91"/>
-<label x="340.36" y="-83.82" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="131-1" class="0">
-<segment>
-<pinref part="JP131" gate="G$1" pin="1"/>
-<wire x1="340.36" y1="-86.36" x2="358.14" y2="-86.36" width="0.1524" layer="91"/>
-<label x="340.36" y="-86.36" size="1.778" layer="95"/>
-<label x="340.36" y="-86.36" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="132-5" class="0">
-<segment>
-<pinref part="JP132" gate="G$1" pin="5"/>
-<wire x1="340.36" y1="-93.98" x2="358.14" y2="-93.98" width="0.1524" layer="91"/>
-<label x="340.36" y="-93.98" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="132-4" class="0">
-<segment>
-<pinref part="JP132" gate="G$1" pin="4"/>
-<wire x1="340.36" y1="-96.52" x2="358.14" y2="-96.52" width="0.1524" layer="91"/>
-<label x="340.36" y="-96.52" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="132-3" class="0">
-<segment>
-<pinref part="JP132" gate="G$1" pin="3"/>
-<wire x1="340.36" y1="-99.06" x2="358.14" y2="-99.06" width="0.1524" layer="91"/>
-<label x="340.36" y="-99.06" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="132-2" class="0">
-<segment>
-<pinref part="JP132" gate="G$1" pin="2"/>
-<wire x1="340.36" y1="-101.6" x2="358.14" y2="-101.6" width="0.1524" layer="91"/>
-<label x="340.36" y="-101.6" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="132-1" class="0">
-<segment>
-<pinref part="JP132" gate="G$1" pin="1"/>
-<wire x1="340.36" y1="-104.14" x2="358.14" y2="-104.14" width="0.1524" layer="91"/>
-<label x="340.36" y="-104.14" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="133-5" class="0">
-<segment>
-<pinref part="JP133" gate="G$1" pin="5"/>
-<wire x1="340.36" y1="-111.76" x2="358.14" y2="-111.76" width="0.1524" layer="91"/>
-<label x="340.36" y="-111.76" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="133-4" class="0">
-<segment>
-<pinref part="JP133" gate="G$1" pin="4"/>
-<wire x1="340.36" y1="-114.3" x2="358.14" y2="-114.3" width="0.1524" layer="91"/>
-<label x="340.36" y="-114.3" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="133-3" class="0">
-<segment>
-<pinref part="JP133" gate="G$1" pin="3"/>
-<wire x1="340.36" y1="-116.84" x2="358.14" y2="-116.84" width="0.1524" layer="91"/>
-<label x="340.36" y="-116.84" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="133-2" class="0">
-<segment>
-<pinref part="JP133" gate="G$1" pin="2"/>
-<wire x1="340.36" y1="-119.38" x2="358.14" y2="-119.38" width="0.1524" layer="91"/>
-<label x="340.36" y="-119.38" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="133-1" class="0">
-<segment>
-<pinref part="JP133" gate="G$1" pin="1"/>
-<wire x1="340.36" y1="-121.92" x2="358.14" y2="-121.92" width="0.1524" layer="91"/>
-<label x="340.36" y="-121.92" size="1.778" layer="95"/>
-<label x="340.36" y="-121.92" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="134-5" class="0">
-<segment>
-<pinref part="JP134" gate="G$1" pin="5"/>
-<wire x1="373.38" y1="-76.2" x2="391.16" y2="-76.2" width="0.1524" layer="91"/>
-<label x="373.38" y="-76.2" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="134-4" class="0">
-<segment>
-<pinref part="JP134" gate="G$1" pin="4"/>
-<wire x1="373.38" y1="-78.74" x2="391.16" y2="-78.74" width="0.1524" layer="91"/>
-<label x="373.38" y="-78.74" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="134-3" class="0">
-<segment>
-<pinref part="JP134" gate="G$1" pin="3"/>
-<wire x1="373.38" y1="-81.28" x2="391.16" y2="-81.28" width="0.1524" layer="91"/>
-<label x="373.38" y="-81.28" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="134-2" class="0">
-<segment>
-<pinref part="JP134" gate="G$1" pin="2"/>
-<wire x1="373.38" y1="-83.82" x2="391.16" y2="-83.82" width="0.1524" layer="91"/>
-<label x="373.38" y="-83.82" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="134-1" class="0">
-<segment>
-<pinref part="JP134" gate="G$1" pin="1"/>
-<wire x1="373.38" y1="-86.36" x2="391.16" y2="-86.36" width="0.1524" layer="91"/>
-<label x="373.38" y="-86.36" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="135-5" class="0">
-<segment>
-<pinref part="JP135" gate="G$1" pin="5"/>
-<wire x1="373.38" y1="-93.98" x2="391.16" y2="-93.98" width="0.1524" layer="91"/>
-<label x="373.38" y="-93.98" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="135-4" class="0">
-<segment>
-<pinref part="JP135" gate="G$1" pin="4"/>
-<wire x1="373.38" y1="-96.52" x2="391.16" y2="-96.52" width="0.1524" layer="91"/>
-<label x="373.38" y="-96.52" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="135-3" class="0">
-<segment>
-<pinref part="JP135" gate="G$1" pin="3"/>
-<wire x1="373.38" y1="-99.06" x2="391.16" y2="-99.06" width="0.1524" layer="91"/>
-<label x="373.38" y="-99.06" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="135-2" class="0">
-<segment>
-<pinref part="JP135" gate="G$1" pin="2"/>
-<wire x1="373.38" y1="-101.6" x2="391.16" y2="-101.6" width="0.1524" layer="91"/>
-<label x="373.38" y="-101.6" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="135-1" class="0">
-<segment>
-<pinref part="JP135" gate="G$1" pin="1"/>
-<wire x1="373.38" y1="-104.14" x2="391.16" y2="-104.14" width="0.1524" layer="91"/>
-<label x="373.38" y="-104.14" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="136-5" class="0">
-<segment>
-<pinref part="JP136" gate="G$1" pin="5"/>
-<wire x1="373.38" y1="-111.76" x2="391.16" y2="-111.76" width="0.1524" layer="91"/>
-<label x="373.38" y="-111.76" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="136-4" class="0">
-<segment>
-<pinref part="JP136" gate="G$1" pin="4"/>
-<wire x1="373.38" y1="-114.3" x2="391.16" y2="-114.3" width="0.1524" layer="91"/>
-<label x="373.38" y="-114.3" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="136-3" class="0">
-<segment>
-<pinref part="JP136" gate="G$1" pin="3"/>
-<wire x1="373.38" y1="-116.84" x2="391.16" y2="-116.84" width="0.1524" layer="91"/>
-<label x="373.38" y="-116.84" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="136-2" class="0">
-<segment>
-<pinref part="JP136" gate="G$1" pin="2"/>
-<wire x1="373.38" y1="-119.38" x2="391.16" y2="-119.38" width="0.1524" layer="91"/>
-<label x="373.38" y="-119.38" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="136-1" class="0">
-<segment>
-<pinref part="JP136" gate="G$1" pin="1"/>
-<wire x1="373.38" y1="-121.92" x2="391.16" y2="-121.92" width="0.1524" layer="91"/>
-<label x="373.38" y="-121.92" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="137-5" class="0">
-<segment>
-<pinref part="JP137" gate="G$1" pin="5"/>
-<wire x1="403.86" y1="-76.2" x2="421.64" y2="-76.2" width="0.1524" layer="91"/>
-<label x="403.86" y="-76.2" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="137-4" class="0">
-<segment>
-<pinref part="JP137" gate="G$1" pin="4"/>
-<wire x1="403.86" y1="-78.74" x2="421.64" y2="-78.74" width="0.1524" layer="91"/>
-<label x="403.86" y="-78.74" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="137-3" class="0">
-<segment>
-<pinref part="JP137" gate="G$1" pin="3"/>
-<wire x1="403.86" y1="-81.28" x2="421.64" y2="-81.28" width="0.1524" layer="91"/>
-<label x="403.86" y="-81.28" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="137-2" class="0">
-<segment>
-<pinref part="JP137" gate="G$1" pin="2"/>
-<wire x1="403.86" y1="-83.82" x2="421.64" y2="-83.82" width="0.1524" layer="91"/>
-<label x="403.86" y="-83.82" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="137-1" class="0">
-<segment>
-<pinref part="JP137" gate="G$1" pin="1"/>
-<wire x1="403.86" y1="-86.36" x2="421.64" y2="-86.36" width="0.1524" layer="91"/>
-<label x="403.86" y="-86.36" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="138-5" class="0">
-<segment>
-<pinref part="JP138" gate="G$1" pin="5"/>
-<wire x1="403.86" y1="-93.98" x2="421.64" y2="-93.98" width="0.1524" layer="91"/>
-<label x="403.86" y="-93.98" size="1.778" layer="95"/>
-<label x="403.86" y="-93.98" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="138-4" class="0">
-<segment>
-<pinref part="JP138" gate="G$1" pin="4"/>
-<wire x1="403.86" y1="-96.52" x2="421.64" y2="-96.52" width="0.1524" layer="91"/>
-<label x="403.86" y="-96.52" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="138-3" class="0">
-<segment>
-<pinref part="JP138" gate="G$1" pin="3"/>
-<wire x1="403.86" y1="-99.06" x2="421.64" y2="-99.06" width="0.1524" layer="91"/>
-<label x="403.86" y="-99.06" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="138-2" class="0">
-<segment>
-<pinref part="JP138" gate="G$1" pin="2"/>
-<wire x1="403.86" y1="-101.6" x2="421.64" y2="-101.6" width="0.1524" layer="91"/>
-<label x="403.86" y="-101.6" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="138-1" class="0">
-<segment>
-<pinref part="JP138" gate="G$1" pin="1"/>
-<wire x1="403.86" y1="-104.14" x2="421.64" y2="-104.14" width="0.1524" layer="91"/>
-<label x="403.86" y="-104.14" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="139-5" class="0">
-<segment>
-<pinref part="JP139" gate="G$1" pin="5"/>
-<wire x1="403.86" y1="-111.76" x2="421.64" y2="-111.76" width="0.1524" layer="91"/>
-<label x="403.86" y="-111.76" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="139-4" class="0">
-<segment>
-<pinref part="JP139" gate="G$1" pin="4"/>
-<wire x1="403.86" y1="-114.3" x2="421.64" y2="-114.3" width="0.1524" layer="91"/>
-<label x="403.86" y="-114.3" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="139-3" class="0">
-<segment>
-<pinref part="JP139" gate="G$1" pin="3"/>
-<wire x1="403.86" y1="-116.84" x2="421.64" y2="-116.84" width="0.1524" layer="91"/>
-<label x="403.86" y="-116.84" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="139-2" class="0">
-<segment>
-<pinref part="JP139" gate="G$1" pin="2"/>
-<wire x1="403.86" y1="-119.38" x2="421.64" y2="-119.38" width="0.1524" layer="91"/>
-<label x="403.86" y="-119.38" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="139-1" class="0">
-<segment>
-<pinref part="JP139" gate="G$1" pin="1"/>
-<wire x1="403.86" y1="-121.92" x2="421.64" y2="-121.92" width="0.1524" layer="91"/>
-<label x="403.86" y="-121.92" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="140-5" class="0">
-<segment>
-<pinref part="JP140" gate="G$1" pin="5"/>
-<wire x1="436.88" y1="-76.2" x2="454.66" y2="-76.2" width="0.1524" layer="91"/>
-<label x="436.88" y="-76.2" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="140-4" class="0">
-<segment>
-<pinref part="JP140" gate="G$1" pin="4"/>
-<wire x1="436.88" y1="-78.74" x2="454.66" y2="-78.74" width="0.1524" layer="91"/>
-<label x="436.88" y="-78.74" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="140-3" class="0">
-<segment>
-<pinref part="JP140" gate="G$1" pin="3"/>
-<wire x1="436.88" y1="-81.28" x2="454.66" y2="-81.28" width="0.1524" layer="91"/>
-<label x="436.88" y="-81.28" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="140-2" class="0">
-<segment>
-<pinref part="JP140" gate="G$1" pin="2"/>
-<wire x1="436.88" y1="-83.82" x2="454.66" y2="-83.82" width="0.1524" layer="91"/>
-<label x="436.88" y="-83.82" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="140-1" class="0">
-<segment>
-<pinref part="JP140" gate="G$1" pin="1"/>
-<wire x1="436.88" y1="-86.36" x2="454.66" y2="-86.36" width="0.1524" layer="91"/>
-<label x="436.88" y="-86.36" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="141-5" class="0">
-<segment>
-<pinref part="JP141" gate="G$1" pin="5"/>
-<wire x1="436.88" y1="-93.98" x2="454.66" y2="-93.98" width="0.1524" layer="91"/>
-<label x="436.88" y="-93.98" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="141-4" class="0">
-<segment>
-<pinref part="JP141" gate="G$1" pin="4"/>
-<wire x1="436.88" y1="-96.52" x2="454.66" y2="-96.52" width="0.1524" layer="91"/>
-<label x="436.88" y="-96.52" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="141-3" class="0">
-<segment>
-<pinref part="JP141" gate="G$1" pin="3"/>
-<wire x1="436.88" y1="-99.06" x2="454.66" y2="-99.06" width="0.1524" layer="91"/>
-<label x="436.88" y="-99.06" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="141-2" class="0">
-<segment>
-<pinref part="JP141" gate="G$1" pin="2"/>
-<wire x1="436.88" y1="-101.6" x2="454.66" y2="-101.6" width="0.1524" layer="91"/>
-<label x="436.88" y="-101.6" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="141-1" class="0">
-<segment>
-<pinref part="JP141" gate="G$1" pin="1"/>
-<wire x1="436.88" y1="-104.14" x2="454.66" y2="-104.14" width="0.1524" layer="91"/>
-<label x="436.88" y="-104.14" size="1.778" layer="95"/>
-<label x="436.88" y="-104.14" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="142-5" class="0">
-<segment>
-<pinref part="JP142" gate="G$1" pin="5"/>
-<wire x1="436.88" y1="-111.76" x2="454.66" y2="-111.76" width="0.1524" layer="91"/>
-<label x="436.88" y="-111.76" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="142-4" class="0">
-<segment>
-<pinref part="JP142" gate="G$1" pin="4"/>
-<wire x1="436.88" y1="-114.3" x2="454.66" y2="-114.3" width="0.1524" layer="91"/>
-<label x="436.88" y="-114.3" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="142-3" class="0">
-<segment>
-<pinref part="JP142" gate="G$1" pin="3"/>
-<wire x1="436.88" y1="-116.84" x2="454.66" y2="-116.84" width="0.1524" layer="91"/>
-<label x="436.88" y="-116.84" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="142-2" class="0">
-<segment>
-<pinref part="JP142" gate="G$1" pin="2"/>
-<wire x1="436.88" y1="-119.38" x2="454.66" y2="-119.38" width="0.1524" layer="91"/>
-<label x="436.88" y="-119.38" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="142-1" class="0">
-<segment>
-<pinref part="JP142" gate="G$1" pin="1"/>
-<wire x1="436.88" y1="-121.92" x2="454.66" y2="-121.92" width="0.1524" layer="91"/>
-<label x="436.88" y="-121.92" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="143-5" class="0">
-<segment>
-<pinref part="JP143" gate="G$1" pin="5"/>
-<wire x1="469.9" y1="-76.2" x2="487.68" y2="-76.2" width="0.1524" layer="91"/>
-<label x="469.9" y="-76.2" size="1.778" layer="95"/>
-<label x="469.9" y="-76.2" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="143-4" class="0">
-<segment>
-<pinref part="JP143" gate="G$1" pin="4"/>
-<wire x1="469.9" y1="-78.74" x2="487.68" y2="-78.74" width="0.1524" layer="91"/>
-<label x="469.9" y="-78.74" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="143-3" class="0">
-<segment>
-<pinref part="JP143" gate="G$1" pin="3"/>
-<wire x1="469.9" y1="-81.28" x2="487.68" y2="-81.28" width="0.1524" layer="91"/>
-<label x="469.9" y="-81.28" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="143-2" class="0">
-<segment>
-<pinref part="JP143" gate="G$1" pin="2"/>
-<wire x1="469.9" y1="-83.82" x2="487.68" y2="-83.82" width="0.1524" layer="91"/>
-<label x="469.9" y="-83.82" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="143-1" class="0">
-<segment>
-<pinref part="JP143" gate="G$1" pin="1"/>
-<wire x1="469.9" y1="-86.36" x2="487.68" y2="-86.36" width="0.1524" layer="91"/>
-<label x="469.9" y="-86.36" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="144-5" class="0">
-<segment>
-<pinref part="JP144" gate="G$1" pin="5"/>
-<wire x1="469.9" y1="-93.98" x2="487.68" y2="-93.98" width="0.1524" layer="91"/>
-<label x="469.9" y="-93.98" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="144-4" class="0">
-<segment>
-<pinref part="JP144" gate="G$1" pin="4"/>
-<wire x1="469.9" y1="-96.52" x2="487.68" y2="-96.52" width="0.1524" layer="91"/>
-<label x="469.9" y="-96.52" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="144-3" class="0">
-<segment>
-<pinref part="JP144" gate="G$1" pin="3"/>
-<wire x1="469.9" y1="-99.06" x2="487.68" y2="-99.06" width="0.1524" layer="91"/>
-<label x="469.9" y="-99.06" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="144-2" class="0">
-<segment>
-<pinref part="JP144" gate="G$1" pin="2"/>
-<wire x1="469.9" y1="-101.6" x2="487.68" y2="-101.6" width="0.1524" layer="91"/>
-<label x="469.9" y="-101.6" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="144-1" class="0">
-<segment>
-<pinref part="JP144" gate="G$1" pin="1"/>
-<wire x1="469.9" y1="-104.14" x2="487.68" y2="-104.14" width="0.1524" layer="91"/>
-<label x="469.9" y="-104.14" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="145-5" class="0">
-<segment>
-<pinref part="JP145" gate="G$1" pin="5"/>
-<wire x1="469.9" y1="-111.76" x2="487.68" y2="-111.76" width="0.1524" layer="91"/>
-<label x="469.9" y="-111.76" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="145-4" class="0">
-<segment>
-<pinref part="JP145" gate="G$1" pin="4"/>
-<wire x1="469.9" y1="-114.3" x2="487.68" y2="-114.3" width="0.1524" layer="91"/>
-<label x="469.9" y="-114.3" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="145-3" class="0">
-<segment>
-<pinref part="JP145" gate="G$1" pin="3"/>
-<wire x1="469.9" y1="-116.84" x2="487.68" y2="-116.84" width="0.1524" layer="91"/>
-<label x="469.9" y="-116.84" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="145-2" class="0">
-<segment>
-<pinref part="JP145" gate="G$1" pin="2"/>
-<wire x1="469.9" y1="-119.38" x2="487.68" y2="-119.38" width="0.1524" layer="91"/>
-<label x="469.9" y="-119.38" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="145-1" class="0">
-<segment>
-<pinref part="JP145" gate="G$1" pin="1"/>
-<wire x1="469.9" y1="-121.92" x2="487.68" y2="-121.92" width="0.1524" layer="91"/>
-<label x="469.9" y="-121.92" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="146-5" class="0">
-<segment>
-<pinref part="JP146" gate="G$1" pin="5"/>
-<wire x1="502.92" y1="-76.2" x2="520.7" y2="-76.2" width="0.1524" layer="91"/>
-<label x="502.92" y="-76.2" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="146-4" class="0">
-<segment>
-<pinref part="JP146" gate="G$1" pin="4"/>
-<wire x1="502.92" y1="-78.74" x2="520.7" y2="-78.74" width="0.1524" layer="91"/>
-<label x="502.92" y="-78.74" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="146-3" class="0">
-<segment>
-<pinref part="JP146" gate="G$1" pin="3"/>
-<wire x1="502.92" y1="-81.28" x2="520.7" y2="-81.28" width="0.1524" layer="91"/>
-<label x="502.92" y="-81.28" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="146-2" class="0">
-<segment>
-<pinref part="JP146" gate="G$1" pin="2"/>
-<wire x1="502.92" y1="-83.82" x2="520.7" y2="-83.82" width="0.1524" layer="91"/>
-<label x="502.92" y="-83.82" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="146-1" class="0">
-<segment>
-<pinref part="JP146" gate="G$1" pin="1"/>
-<wire x1="502.92" y1="-86.36" x2="520.7" y2="-86.36" width="0.1524" layer="91"/>
-<label x="502.92" y="-86.36" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="147-5" class="0">
-<segment>
-<pinref part="JP147" gate="G$1" pin="5"/>
-<wire x1="502.92" y1="-93.98" x2="520.7" y2="-93.98" width="0.1524" layer="91"/>
-<label x="502.92" y="-93.98" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="147-4" class="0">
-<segment>
-<pinref part="JP147" gate="G$1" pin="4"/>
-<wire x1="502.92" y1="-96.52" x2="520.7" y2="-96.52" width="0.1524" layer="91"/>
-<label x="502.92" y="-96.52" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="147-3" class="0">
-<segment>
-<pinref part="JP147" gate="G$1" pin="3"/>
-<wire x1="502.92" y1="-99.06" x2="520.7" y2="-99.06" width="0.1524" layer="91"/>
-<label x="502.92" y="-99.06" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="147-2" class="0">
-<segment>
-<pinref part="JP147" gate="G$1" pin="2"/>
-<wire x1="502.92" y1="-101.6" x2="520.7" y2="-101.6" width="0.1524" layer="91"/>
-<label x="502.92" y="-101.6" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="147-1" class="0">
-<segment>
-<pinref part="JP147" gate="G$1" pin="1"/>
-<wire x1="502.92" y1="-104.14" x2="520.7" y2="-104.14" width="0.1524" layer="91"/>
-<label x="502.92" y="-104.14" size="1.778" layer="95"/>
-<label x="502.92" y="-104.14" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="148-5" class="0">
-<segment>
-<pinref part="JP148" gate="G$1" pin="5"/>
-<wire x1="502.92" y1="-111.76" x2="520.7" y2="-111.76" width="0.1524" layer="91"/>
-<label x="502.92" y="-111.76" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="148-4" class="0">
-<segment>
-<pinref part="JP148" gate="G$1" pin="4"/>
-<wire x1="502.92" y1="-114.3" x2="520.7" y2="-114.3" width="0.1524" layer="91"/>
-<label x="502.92" y="-114.3" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="148-3" class="0">
-<segment>
-<pinref part="JP148" gate="G$1" pin="3"/>
-<wire x1="502.92" y1="-116.84" x2="520.7" y2="-116.84" width="0.1524" layer="91"/>
-<label x="502.92" y="-116.84" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="148-2" class="0">
-<segment>
-<pinref part="JP148" gate="G$1" pin="2"/>
-<wire x1="502.92" y1="-119.38" x2="520.7" y2="-119.38" width="0.1524" layer="91"/>
-<label x="502.92" y="-119.38" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="148-1" class="0">
-<segment>
-<pinref part="JP148" gate="G$1" pin="1"/>
-<wire x1="502.92" y1="-121.92" x2="520.7" y2="-121.92" width="0.1524" layer="91"/>
-<label x="502.92" y="-121.92" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="149-5" class="0">
-<segment>
-<pinref part="JP149" gate="G$1" pin="5"/>
-<wire x1="533.4" y1="-76.2" x2="551.18" y2="-76.2" width="0.1524" layer="91"/>
-<label x="533.4" y="-76.2" size="1.778" layer="95"/>
-<label x="533.4" y="-76.2" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="149-4" class="0">
-<segment>
-<pinref part="JP149" gate="G$1" pin="4"/>
-<wire x1="533.4" y1="-78.74" x2="551.18" y2="-78.74" width="0.1524" layer="91"/>
-<label x="533.4" y="-78.74" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="149-3" class="0">
-<segment>
-<pinref part="JP149" gate="G$1" pin="3"/>
-<wire x1="533.4" y1="-81.28" x2="551.18" y2="-81.28" width="0.1524" layer="91"/>
-<label x="533.4" y="-81.28" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="149-2" class="0">
-<segment>
-<pinref part="JP149" gate="G$1" pin="2"/>
-<wire x1="533.4" y1="-83.82" x2="551.18" y2="-83.82" width="0.1524" layer="91"/>
-<label x="533.4" y="-83.82" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="149-1" class="0">
-<segment>
-<pinref part="JP149" gate="G$1" pin="1"/>
-<wire x1="533.4" y1="-86.36" x2="551.18" y2="-86.36" width="0.1524" layer="91"/>
-<label x="533.4" y="-86.36" size="1.778" layer="95"/>
-<label x="533.4" y="-86.36" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="150-5" class="0">
-<segment>
-<pinref part="JP150" gate="G$1" pin="5"/>
-<wire x1="533.4" y1="-93.98" x2="551.18" y2="-93.98" width="0.1524" layer="91"/>
-<label x="533.4" y="-93.98" size="1.778" layer="95"/>
-<label x="533.4" y="-93.98" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="150-4" class="0">
-<segment>
-<pinref part="JP150" gate="G$1" pin="4"/>
-<wire x1="533.4" y1="-96.52" x2="551.18" y2="-96.52" width="0.1524" layer="91"/>
-<label x="533.4" y="-96.52" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="150-3" class="0">
-<segment>
-<pinref part="JP150" gate="G$1" pin="3"/>
-<wire x1="533.4" y1="-99.06" x2="551.18" y2="-99.06" width="0.1524" layer="91"/>
-<label x="533.4" y="-99.06" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="150-2" class="0">
-<segment>
-<pinref part="JP150" gate="G$1" pin="2"/>
-<wire x1="533.4" y1="-101.6" x2="551.18" y2="-101.6" width="0.1524" layer="91"/>
-<label x="533.4" y="-101.6" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="150-1" class="0">
-<segment>
-<pinref part="JP150" gate="G$1" pin="1"/>
-<wire x1="533.4" y1="-104.14" x2="551.18" y2="-104.14" width="0.1524" layer="91"/>
-<label x="533.4" y="-104.14" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="151-5" class="0">
-<segment>
-<pinref part="JP151" gate="G$1" pin="5"/>
-<wire x1="533.4" y1="-111.76" x2="551.18" y2="-111.76" width="0.1524" layer="91"/>
-<label x="533.4" y="-111.76" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="151-4" class="0">
-<segment>
-<pinref part="JP151" gate="G$1" pin="4"/>
-<wire x1="533.4" y1="-114.3" x2="551.18" y2="-114.3" width="0.1524" layer="91"/>
-<label x="533.4" y="-114.3" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="151-3" class="0">
-<segment>
-<pinref part="JP151" gate="G$1" pin="3"/>
-<wire x1="533.4" y1="-116.84" x2="551.18" y2="-116.84" width="0.1524" layer="91"/>
-<label x="533.4" y="-116.84" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="151-2" class="0">
-<segment>
-<pinref part="JP151" gate="G$1" pin="2"/>
-<wire x1="533.4" y1="-119.38" x2="551.18" y2="-119.38" width="0.1524" layer="91"/>
-<label x="533.4" y="-119.38" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="151-1" class="0">
-<segment>
-<pinref part="JP151" gate="G$1" pin="1"/>
-<wire x1="533.4" y1="-121.92" x2="551.18" y2="-121.92" width="0.1524" layer="91"/>
-<label x="533.4" y="-121.92" size="1.778" layer="95"/>
-<label x="533.4" y="-121.92" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="152-5" class="0">
-<segment>
-<pinref part="JP152" gate="G$1" pin="5"/>
-<wire x1="566.42" y1="-76.2" x2="584.2" y2="-76.2" width="0.1524" layer="91"/>
-<label x="566.42" y="-76.2" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="152-4" class="0">
-<segment>
-<pinref part="JP152" gate="G$1" pin="4"/>
-<wire x1="566.42" y1="-78.74" x2="584.2" y2="-78.74" width="0.1524" layer="91"/>
-<label x="566.42" y="-78.74" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="152-3" class="0">
-<segment>
-<pinref part="JP152" gate="G$1" pin="3"/>
-<wire x1="566.42" y1="-81.28" x2="584.2" y2="-81.28" width="0.1524" layer="91"/>
-<label x="566.42" y="-81.28" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="152-2" class="0">
-<segment>
-<pinref part="JP152" gate="G$1" pin="2"/>
-<wire x1="566.42" y1="-83.82" x2="584.2" y2="-83.82" width="0.1524" layer="91"/>
-<label x="566.42" y="-83.82" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="152-1" class="0">
-<segment>
-<pinref part="JP152" gate="G$1" pin="1"/>
-<wire x1="566.42" y1="-86.36" x2="584.2" y2="-86.36" width="0.1524" layer="91"/>
-<label x="566.42" y="-86.36" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="153-5" class="0">
-<segment>
-<pinref part="JP153" gate="G$1" pin="5"/>
-<wire x1="566.42" y1="-93.98" x2="584.2" y2="-93.98" width="0.1524" layer="91"/>
-<label x="566.42" y="-93.98" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="153-4" class="0">
-<segment>
-<pinref part="JP153" gate="G$1" pin="4"/>
-<wire x1="566.42" y1="-96.52" x2="584.2" y2="-96.52" width="0.1524" layer="91"/>
-<label x="566.42" y="-96.52" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="153-3" class="0">
-<segment>
-<pinref part="JP153" gate="G$1" pin="3"/>
-<wire x1="566.42" y1="-99.06" x2="584.2" y2="-99.06" width="0.1524" layer="91"/>
-<label x="566.42" y="-99.06" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="153-2" class="0">
-<segment>
-<pinref part="JP153" gate="G$1" pin="2"/>
-<wire x1="566.42" y1="-101.6" x2="584.2" y2="-101.6" width="0.1524" layer="91"/>
-<label x="566.42" y="-101.6" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="153-1" class="0">
-<segment>
-<pinref part="JP153" gate="G$1" pin="1"/>
-<wire x1="566.42" y1="-104.14" x2="584.2" y2="-104.14" width="0.1524" layer="91"/>
-<label x="566.42" y="-104.14" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="154-5" class="0">
-<segment>
-<pinref part="JP154" gate="G$1" pin="5"/>
-<wire x1="566.42" y1="-111.76" x2="584.2" y2="-111.76" width="0.1524" layer="91"/>
-<label x="566.42" y="-111.76" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="154-4" class="0">
-<segment>
-<pinref part="JP154" gate="G$1" pin="4"/>
-<wire x1="566.42" y1="-114.3" x2="584.2" y2="-114.3" width="0.1524" layer="91"/>
-<label x="566.42" y="-114.3" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="154-3" class="0">
-<segment>
-<pinref part="JP154" gate="G$1" pin="3"/>
-<wire x1="566.42" y1="-116.84" x2="584.2" y2="-116.84" width="0.1524" layer="91"/>
-<label x="566.42" y="-116.84" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="154-2" class="0">
-<segment>
-<pinref part="JP154" gate="G$1" pin="2"/>
-<wire x1="566.42" y1="-119.38" x2="584.2" y2="-119.38" width="0.1524" layer="91"/>
-<label x="566.42" y="-119.38" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="154-1" class="0">
-<segment>
-<pinref part="JP154" gate="G$1" pin="1"/>
-<wire x1="566.42" y1="-121.92" x2="584.2" y2="-121.92" width="0.1524" layer="91"/>
-<label x="566.42" y="-121.92" size="1.778" layer="95"/>
-<label x="566.42" y="-121.92" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="155-5" class="0">
-<segment>
-<pinref part="JP155" gate="G$1" pin="5"/>
-<wire x1="599.44" y1="-76.2" x2="617.22" y2="-76.2" width="0.1524" layer="91"/>
-<label x="599.44" y="-76.2" size="1.778" layer="95"/>
-<label x="599.44" y="-76.2" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="155-4" class="0">
-<segment>
-<pinref part="JP155" gate="G$1" pin="4"/>
-<wire x1="599.44" y1="-78.74" x2="617.22" y2="-78.74" width="0.1524" layer="91"/>
-<label x="599.44" y="-78.74" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="155-3" class="0">
-<segment>
-<pinref part="JP155" gate="G$1" pin="3"/>
-<wire x1="599.44" y1="-81.28" x2="617.22" y2="-81.28" width="0.1524" layer="91"/>
-<label x="599.44" y="-81.28" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="155-2" class="0">
-<segment>
-<pinref part="JP155" gate="G$1" pin="2"/>
-<wire x1="599.44" y1="-83.82" x2="617.22" y2="-83.82" width="0.1524" layer="91"/>
-<label x="599.44" y="-83.82" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="155-1" class="0">
-<segment>
-<pinref part="JP155" gate="G$1" pin="1"/>
-<wire x1="599.44" y1="-86.36" x2="617.22" y2="-86.36" width="0.1524" layer="91"/>
-<label x="599.44" y="-86.36" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="156-5" class="0">
-<segment>
-<pinref part="JP156" gate="G$1" pin="5"/>
-<wire x1="599.44" y1="-93.98" x2="617.22" y2="-93.98" width="0.1524" layer="91"/>
-<label x="599.44" y="-93.98" size="1.778" layer="95"/>
-<label x="599.44" y="-93.98" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="156-4" class="0">
-<segment>
-<pinref part="JP156" gate="G$1" pin="4"/>
-<wire x1="599.44" y1="-96.52" x2="617.22" y2="-96.52" width="0.1524" layer="91"/>
-<label x="599.44" y="-96.52" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="156-3" class="0">
-<segment>
-<pinref part="JP156" gate="G$1" pin="3"/>
-<wire x1="599.44" y1="-99.06" x2="617.22" y2="-99.06" width="0.1524" layer="91"/>
-<label x="599.44" y="-99.06" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="156-2" class="0">
-<segment>
-<pinref part="JP156" gate="G$1" pin="2"/>
-<wire x1="599.44" y1="-101.6" x2="617.22" y2="-101.6" width="0.1524" layer="91"/>
-<label x="599.44" y="-101.6" size="1.778" layer="95"/>
-<label x="599.44" y="-101.6" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="156-1" class="0">
-<segment>
-<pinref part="JP156" gate="G$1" pin="1"/>
-<wire x1="599.44" y1="-104.14" x2="617.22" y2="-104.14" width="0.1524" layer="91"/>
-<label x="599.44" y="-104.14" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="157-5" class="0">
-<segment>
-<pinref part="JP157" gate="G$1" pin="5"/>
-<wire x1="599.44" y1="-111.76" x2="617.22" y2="-111.76" width="0.1524" layer="91"/>
-<label x="599.44" y="-111.76" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="157-4" class="0">
-<segment>
-<pinref part="JP157" gate="G$1" pin="4"/>
-<wire x1="599.44" y1="-114.3" x2="617.22" y2="-114.3" width="0.1524" layer="91"/>
-<label x="599.44" y="-114.3" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="157-3" class="0">
-<segment>
-<pinref part="JP157" gate="G$1" pin="3"/>
-<wire x1="599.44" y1="-116.84" x2="617.22" y2="-116.84" width="0.1524" layer="91"/>
-<label x="599.44" y="-116.84" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="157-2" class="0">
-<segment>
-<pinref part="JP157" gate="G$1" pin="2"/>
-<wire x1="599.44" y1="-119.38" x2="617.22" y2="-119.38" width="0.1524" layer="91"/>
-<label x="599.44" y="-119.38" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="157-1" class="0">
-<segment>
-<pinref part="JP157" gate="G$1" pin="1"/>
-<wire x1="599.44" y1="-121.92" x2="617.22" y2="-121.92" width="0.1524" layer="91"/>
-<label x="599.44" y="-121.92" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="158-5" class="0">
-<segment>
-<pinref part="JP158" gate="G$1" pin="5"/>
-<wire x1="632.46" y1="-76.2" x2="650.24" y2="-76.2" width="0.1524" layer="91"/>
-<label x="632.46" y="-76.2" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="158-4" class="0">
-<segment>
-<pinref part="JP158" gate="G$1" pin="4"/>
-<wire x1="632.46" y1="-78.74" x2="650.24" y2="-78.74" width="0.1524" layer="91"/>
-<label x="632.46" y="-78.74" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="158-3" class="0">
-<segment>
-<pinref part="JP158" gate="G$1" pin="3"/>
-<wire x1="632.46" y1="-81.28" x2="650.24" y2="-81.28" width="0.1524" layer="91"/>
-<label x="632.46" y="-81.28" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="158-2" class="0">
-<segment>
-<pinref part="JP158" gate="G$1" pin="2"/>
-<wire x1="632.46" y1="-83.82" x2="650.24" y2="-83.82" width="0.1524" layer="91"/>
-<label x="632.46" y="-83.82" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="158-1" class="0">
-<segment>
-<pinref part="JP158" gate="G$1" pin="1"/>
-<wire x1="632.46" y1="-86.36" x2="650.24" y2="-86.36" width="0.1524" layer="91"/>
-<label x="632.46" y="-86.36" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="159-5" class="0">
-<segment>
-<pinref part="JP159" gate="G$1" pin="5"/>
-<wire x1="632.46" y1="-93.98" x2="650.24" y2="-93.98" width="0.1524" layer="91"/>
-<label x="632.46" y="-93.98" size="1.778" layer="95"/>
-<label x="632.46" y="-93.98" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="159-4" class="0">
-<segment>
-<pinref part="JP159" gate="G$1" pin="4"/>
-<wire x1="632.46" y1="-96.52" x2="650.24" y2="-96.52" width="0.1524" layer="91"/>
-<label x="632.46" y="-96.52" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="159-3" class="0">
-<segment>
-<pinref part="JP159" gate="G$1" pin="3"/>
-<wire x1="632.46" y1="-99.06" x2="650.24" y2="-99.06" width="0.1524" layer="91"/>
-<label x="632.46" y="-99.06" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="159-2" class="0">
-<segment>
-<pinref part="JP159" gate="G$1" pin="2"/>
-<wire x1="632.46" y1="-101.6" x2="650.24" y2="-101.6" width="0.1524" layer="91"/>
-<label x="632.46" y="-101.6" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="159-1" class="0">
-<segment>
-<pinref part="JP159" gate="G$1" pin="1"/>
-<wire x1="632.46" y1="-104.14" x2="650.24" y2="-104.14" width="0.1524" layer="91"/>
-<label x="632.46" y="-104.14" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="160-5" class="0">
-<segment>
-<pinref part="JP160" gate="G$1" pin="5"/>
-<wire x1="632.46" y1="-111.76" x2="650.24" y2="-111.76" width="0.1524" layer="91"/>
-<label x="632.46" y="-111.76" size="1.778" layer="95"/>
-<label x="632.46" y="-111.76" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="160-4" class="0">
-<segment>
-<pinref part="JP160" gate="G$1" pin="4"/>
-<wire x1="632.46" y1="-114.3" x2="650.24" y2="-114.3" width="0.1524" layer="91"/>
-<label x="632.46" y="-114.3" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="160-3" class="0">
-<segment>
-<pinref part="JP160" gate="G$1" pin="3"/>
-<wire x1="632.46" y1="-116.84" x2="650.24" y2="-116.84" width="0.1524" layer="91"/>
-<label x="632.46" y="-116.84" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="160-2" class="0">
-<segment>
-<pinref part="JP160" gate="G$1" pin="2"/>
-<wire x1="632.46" y1="-119.38" x2="650.24" y2="-119.38" width="0.1524" layer="91"/>
-<label x="632.46" y="-119.38" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="160-1" class="0">
+<net name="40-1" class="0">
 <segment>
 <pinref part="JP160" gate="G$1" pin="1"/>
 <wire x1="632.46" y1="-121.92" x2="650.24" y2="-121.92" width="0.1524" layer="91"/>
 <label x="632.46" y="-121.92" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="41-5" class="0">
-<segment>
-<pinref part="JP161" gate="G$1" pin="5"/>
-<wire x1="12.7" y1="-15.24" x2="30.48" y2="-15.24" width="0.1524" layer="91"/>
-<label x="12.7" y="-15.24" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="41-4" class="0">
-<segment>
-<pinref part="JP161" gate="G$1" pin="4"/>
-<wire x1="12.7" y1="-17.78" x2="30.48" y2="-17.78" width="0.1524" layer="91"/>
-<label x="12.7" y="-17.78" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="41-3" class="0">
-<segment>
-<pinref part="JP161" gate="G$1" pin="3"/>
-<wire x1="12.7" y1="-20.32" x2="30.48" y2="-20.32" width="0.1524" layer="91"/>
-<label x="12.7" y="-20.32" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="41-2" class="0">
-<segment>
-<pinref part="JP161" gate="G$1" pin="2"/>
-<wire x1="12.7" y1="-22.86" x2="30.48" y2="-22.86" width="0.1524" layer="91"/>
-<label x="12.7" y="-22.86" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="41-1" class="0">
-<segment>
-<pinref part="JP161" gate="G$1" pin="1"/>
-<wire x1="12.7" y1="-25.4" x2="30.48" y2="-25.4" width="0.1524" layer="91"/>
-<label x="12.7" y="-25.4" size="1.778" layer="95"/>
-<label x="12.7" y="-25.4" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MAD1" class="0">
@@ -9861,14 +8781,6 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <net name="N$1" class="0">
 <segment>
 <wire x1="266.7" y1="71.12" x2="279.4" y2="71.12" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="43-1" class="0">
-<segment>
-<pinref part="JP43" gate="G$1" pin="1"/>
-<wire x1="12.7" y1="-60.96" x2="30.48" y2="-60.96" width="0.1524" layer="91"/>
-<label x="12.7" y="-60.96" size="1.778" layer="95"/>
-<label x="12.7" y="-60.96" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
