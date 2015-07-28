@@ -1,0 +1,8 @@
+output("Elements on board B.txt"){
+   board(B){
+      // printf("%s\n", B.name);
+      B.elements(E){
+         printf("%-8s %-8s\n", E.name, E.value);
+      }
+   }  
+}

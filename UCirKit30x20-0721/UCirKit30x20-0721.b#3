@@ -1258,6 +1258,63 @@ design rules under a new name.</description>
 <signal name="N$194">
 <contactref element="JP13" pad="14"/>
 </signal>
+<signal name="N$196">
+<contactref element="JP14" pad="15"/>
+</signal>
+<signal name="N$197">
+<contactref element="JP14" pad="14"/>
+</signal>
+<signal name="N$198">
+<contactref element="JP14" pad="13"/>
+</signal>
+<signal name="N$199">
+<contactref element="JP14" pad="12"/>
+</signal>
+<signal name="N$200">
+<contactref element="JP14" pad="11"/>
+</signal>
+<signal name="N$201">
+<contactref element="JP14" pad="10"/>
+</signal>
+<signal name="N$202">
+<contactref element="JP14" pad="9"/>
+</signal>
+<signal name="N$203">
+<contactref element="JP14" pad="8"/>
+</signal>
+<signal name="N$204">
+<contactref element="JP14" pad="7"/>
+</signal>
+<signal name="N$205">
+<contactref element="JP14" pad="6"/>
+</signal>
+<signal name="N$206">
+<contactref element="JP14" pad="5"/>
+</signal>
+<signal name="N$207">
+<contactref element="JP14" pad="4"/>
+</signal>
+<signal name="N$208">
+<contactref element="JP14" pad="3"/>
+</signal>
+<signal name="N$209">
+<contactref element="JP14" pad="2"/>
+</signal>
+<signal name="N$210">
+<contactref element="JP14" pad="1"/>
+</signal>
+<signal name="N$211">
+<contactref element="JP15" pad="15"/>
+</signal>
+<signal name="N$212">
+<contactref element="JP15" pad="14"/>
+</signal>
+<signal name="N$213">
+<contactref element="JP15" pad="13"/>
+</signal>
+<signal name="N$214">
+<contactref element="JP15" pad="12"/>
+</signal>
 </signals>
 </board>
 </drawing>

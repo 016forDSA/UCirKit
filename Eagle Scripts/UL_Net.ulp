@@ -1,0 +1,22 @@
+output("UL_Net1.txt"){
+   schematic(S){
+      S.nets(N){
+         printf("Net: %s\n", N.name);
+      }
+   }
+
+   printf("--------------");
+
+   schematic(S){
+      S.sheets(SH){
+         SH.nets(N){
+            printf("Net : %s\n", N.name);
+            N.segments(SEG){
+               SEG.wires(W){
+                  printf("\t Wire: (%d %d) (%d %d)\n", W.x1, W.y1, W.x2, W.y2);
+               }
+            }
+         }
+      }
+   }
+}

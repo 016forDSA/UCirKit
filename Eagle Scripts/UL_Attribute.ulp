@@ -1,0 +1,17 @@
+output("UL_Atrribute.txt"){
+   schematic(SCH){
+      SCH.parts(P){
+         P.attributes(A){
+            printf("test");
+            printf("%s = %s\n", A.name, A.value);
+         }
+         printf("%s = %s\n", P.name, P.value);
+      }
+   }
+
+   // schematic(SCH){
+   //    SCH.attributes(A){
+   //       printf("%s = %s\n", A.name, A.value);
+   //    }
+   // }
+}

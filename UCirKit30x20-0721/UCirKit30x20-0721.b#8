@@ -594,46 +594,46 @@ design rules under a new name.</description>
 <element name="JP78" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="53.975" y="8.89"/>
 <element name="JP79" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="60.325" y="8.89"/>
 <element name="JP80" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="66.675" y="8.89"/>
-<element name="JP81" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="77.47" y="87.63" rot="R270"/>
-<element name="JP82" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="77.47" y="81.28" rot="R270"/>
-<element name="JP83" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="77.47" y="74.93" rot="R270"/>
-<element name="JP84" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="77.47" y="68.58" rot="R270"/>
-<element name="JP85" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="77.47" y="62.23" rot="R270"/>
-<element name="JP86" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="77.47" y="55.88" rot="R270"/>
-<element name="JP87" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="77.47" y="49.53" rot="R270"/>
-<element name="JP88" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="77.47" y="43.18" rot="R270"/>
-<element name="JP89" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="77.47" y="36.83" rot="R270"/>
-<element name="JP90" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="77.47" y="30.48" rot="R270"/>
-<element name="JP91" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="77.47" y="24.13" rot="R270"/>
-<element name="JP92" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="77.47" y="17.78" rot="R270"/>
-<element name="JP93" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="80.01" y="87.63" rot="R270"/>
-<element name="JP94" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="80.01" y="81.28" rot="R270"/>
-<element name="JP95" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="80.01" y="74.93" rot="R270"/>
-<element name="JP96" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="80.01" y="68.58" rot="R270"/>
-<element name="JP97" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="80.01" y="62.23" rot="R270"/>
-<element name="JP98" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="80.01" y="55.88" rot="R270"/>
-<element name="JP99" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="80.01" y="49.53" rot="R270"/>
-<element name="JP100" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="80.01" y="43.18" rot="R270"/>
-<element name="JP101" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="80.01" y="36.83" rot="R270"/>
-<element name="JP102" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="80.01" y="30.48" rot="R270"/>
-<element name="JP103" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="80.01" y="24.13" rot="R270"/>
-<element name="JP104" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="80.01" y="17.78" rot="R270"/>
-<element name="JP105" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="22.225" y="92.075"/>
-<element name="JP106" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="28.575" y="92.075"/>
-<element name="JP107" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="34.925" y="92.075"/>
-<element name="JP108" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="41.275" y="92.075"/>
-<element name="JP109" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="47.625" y="92.075"/>
-<element name="JP110" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="53.975" y="92.075"/>
-<element name="JP111" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="60.325" y="92.075"/>
-<element name="JP112" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="66.675" y="92.075"/>
-<element name="JP114" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="22.225" y="94.615"/>
-<element name="JP115" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="28.575" y="94.615"/>
-<element name="JP116" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="34.925" y="94.615"/>
-<element name="JP117" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="41.275" y="94.615"/>
-<element name="JP118" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="47.625" y="94.615"/>
-<element name="JP119" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="53.975" y="94.615"/>
-<element name="JP120" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="60.325" y="94.615"/>
-<element name="JP121" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="66.675" y="94.615"/>
+<element name="JP81" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="73.66" y="88.265" rot="R270"/>
+<element name="JP82" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="73.66" y="81.915" rot="R270"/>
+<element name="JP83" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="73.66" y="75.565" rot="R270"/>
+<element name="JP84" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="73.66" y="69.215" rot="R270"/>
+<element name="JP85" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="73.66" y="62.865" rot="R270"/>
+<element name="JP86" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="73.66" y="56.515" rot="R270"/>
+<element name="JP87" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="73.66" y="50.165" rot="R270"/>
+<element name="JP88" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="73.66" y="43.815" rot="R270"/>
+<element name="JP89" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="73.66" y="37.465" rot="R270"/>
+<element name="JP90" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="73.66" y="31.115" rot="R270"/>
+<element name="JP91" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="73.66" y="24.765" rot="R270"/>
+<element name="JP92" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="73.66" y="18.415" rot="R270"/>
+<element name="JP93" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="76.2" y="88.265" rot="R270"/>
+<element name="JP94" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="76.2" y="81.915" rot="R270"/>
+<element name="JP95" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="76.2" y="75.565" rot="R270"/>
+<element name="JP96" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="76.2" y="69.215" rot="R270"/>
+<element name="JP97" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="76.2" y="62.865" rot="R270"/>
+<element name="JP98" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="76.2" y="56.515" rot="R270"/>
+<element name="JP99" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="76.2" y="50.165" rot="R270"/>
+<element name="JP100" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="76.2" y="43.815" rot="R270"/>
+<element name="JP101" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="76.2" y="37.465" rot="R270"/>
+<element name="JP102" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="76.2" y="31.115" rot="R270"/>
+<element name="JP103" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="76.2" y="24.765" rot="R270"/>
+<element name="JP104" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="76.2" y="18.415" rot="R270"/>
+<element name="JP105" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="22.225" y="90.17"/>
+<element name="JP106" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="28.575" y="90.17"/>
+<element name="JP107" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="34.925" y="90.17"/>
+<element name="JP108" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="41.275" y="90.17"/>
+<element name="JP109" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="47.625" y="90.17"/>
+<element name="JP110" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="53.975" y="90.17"/>
+<element name="JP111" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="60.325" y="90.17"/>
+<element name="JP112" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="66.675" y="90.17"/>
+<element name="JP114" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="22.225" y="92.71"/>
+<element name="JP115" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="28.575" y="92.71"/>
+<element name="JP116" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="34.925" y="92.71"/>
+<element name="JP117" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="41.275" y="92.71"/>
+<element name="JP118" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="47.625" y="92.71"/>
+<element name="JP119" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="53.975" y="92.71"/>
+<element name="JP120" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="60.325" y="92.71"/>
+<element name="JP121" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="66.675" y="92.71"/>
 <element name="JP122" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="15.24" y="88.265" rot="R270"/>
 <element name="JP123" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="15.24" y="81.915" rot="R270"/>
 <element name="JP124" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="15.24" y="75.565" rot="R270"/>
@@ -654,20 +654,20 @@ design rules under a new name.</description>
 <element name="JP139" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="53.975" y="6.35"/>
 <element name="JP140" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="60.325" y="6.35"/>
 <element name="JP141" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="66.675" y="6.35"/>
-<element name="JP142" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="82.55" y="87.63" rot="R270"/>
-<element name="JP143" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="82.55" y="81.28" rot="R270"/>
-<element name="JP144" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="82.55" y="74.93" rot="R270"/>
-<element name="JP145" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="82.55" y="68.58" rot="R270"/>
-<element name="JP146" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="82.55" y="62.23" rot="R270"/>
-<element name="JP147" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="82.55" y="55.88" rot="R270"/>
-<element name="JP148" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="82.55" y="49.53" rot="R270"/>
-<element name="JP149" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="82.55" y="43.18" rot="R270"/>
-<element name="JP150" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="82.55" y="36.83" rot="R270"/>
-<element name="JP151" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="82.55" y="30.48" rot="R270"/>
-<element name="JP152" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="82.55" y="24.13" rot="R270"/>
-<element name="JP153" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="82.55" y="17.78" rot="R270"/>
-<element name="JP154" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="22.225" y="97.155"/>
-<element name="JP155" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="66.675" y="97.155"/>
+<element name="JP142" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="78.74" y="88.265" rot="R270"/>
+<element name="JP143" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="78.74" y="81.915" rot="R270"/>
+<element name="JP144" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="78.74" y="75.565" rot="R270"/>
+<element name="JP145" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="78.74" y="69.215" rot="R270"/>
+<element name="JP146" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="78.74" y="62.865" rot="R270"/>
+<element name="JP147" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="78.74" y="56.515" rot="R270"/>
+<element name="JP148" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="78.74" y="50.165" rot="R270"/>
+<element name="JP149" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="78.74" y="43.815" rot="R270"/>
+<element name="JP150" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="78.74" y="37.465" rot="R270"/>
+<element name="JP151" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="78.74" y="31.115" rot="R270"/>
+<element name="JP152" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="78.74" y="24.765" rot="R270"/>
+<element name="JP153" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="78.74" y="18.415" rot="R270"/>
+<element name="JP154" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="22.225" y="95.25"/>
+<element name="JP155" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="66.675" y="95.25"/>
 <element name="JP156" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="2.54" y="-45.72"/>
 <element name="JP157" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="10.16" y="-45.72"/>
 <element name="JP158" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="17.78" y="-45.72"/>
