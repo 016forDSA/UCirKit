@@ -1,20 +1,12 @@
 output("UL_PinTest.txt"){
-   // schematic(SCH){
-   //    SCH.parts(PART){
-   //       PART.instances(INSTANCE){
-   //          INSTANCE.gate.symbol.pins(PIN){
-   //             printf("pin: %s, (%f %f)\n", PIN.name, u2mil(PIN.contact.pad.x), u2mil(PIN.contact.pad.y));
-   //          }
-   //       }
-   //    }
-   // }
-
    schematic(SCH){
-      project.board(BOARD){
-         BOARD.signals(S){
-            printf("Signal '%s'\n", S.name);
-            S.contactrefs(C){
-               printf("%s,\t %s\t x = %f \t y = %f\n", C.element.name, C.contact.name, u2mil(C.contact.x), u2mil(C.contact.y));
+      SCH.parts(PART){
+         PART.instances(INSTANCE){
+            INSTANCE.gate.symbol.pins(PIN){
+               printf("%s\t %s, (%f %f)\n",PART.name, PIN.name, u2inch(PIN.x), u2inch(PIN.y));
+               PIN.wires(WIRE){
+                  printf("\t wire: (%f %f) (%f %f)\n", u2inch(WIRE.x1), u2inch(WIRE.y1), u2inch(WIRE.x2), u2inch(WIRE.y2));
+               }
             }
          }
       }

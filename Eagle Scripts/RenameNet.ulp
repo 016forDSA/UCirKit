@@ -1,0 +1,20 @@
+string add_text = "KP";
+string cmd = "";
+
+output("RenameNetResults.txt"){
+   schematic(S) {
+      S.sheets(SH) {
+         SH.nets(N) {
+            N.segments(SEG) {
+               SEG.wires(W) {
+                  sprintf(cmd, "%s NAME %s%s (%f %f); ",cmd, N.name, add_text, u2inch(W.x1), u2inch(W.y1));
+                  printf("%s NAME %s%s (%f %f); ",cmd, N.name, add_text, u2inch(W.x1), u2inch(W.y1));
+               }
+            }
+         }
+      }
+   }
+}
+dlgMessageBox(cmd);
+
+exit(cmd);
