@@ -1,0 +1,22 @@
+string cmd = "";
+
+output("RenameWireByPinAndContactRef.txt"){
+   schematic(SCH){
+      SCH.parts(PART){
+         PART.instances(INSTANCE){
+            INSTANCE.gate.symbol.pins(PIN){
+               if ((PART.name == "JP1" && PIN.name == "1") ||
+                   (PART.name == "JP4" && PIN.name == "1")){
+               // printf("%s\t %s, (%f %f)\n",PART.name, PIN.name, u2inch(PIN.x), u2inch(PIN.y));
+                  PIN.wires(WIRE){
+                     printf("\t wire: (%f %f) (%f %f)\n", u2inch(WIRE.x1), u2inch(WIRE.y1), u2inch(WIRE.x2), u2inch(WIRE.y2));
+                     sprintf(cmd, "%s NAME %s (%f %f);", cmd, "123", u2inch(WIRE.x1), u2inch(WIRE.y1));
+                  }
+               }
+            }
+         }
+      }
+   }
+}
+
+exit(cmd);
