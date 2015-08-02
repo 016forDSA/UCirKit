@@ -1,0 +1,28 @@
+#include "UCirKitGlobalVar.ulp"
+
+real wireLength = 0.5;
+// string 
+
+void addNetOnAllPins(){
+   int i = 0;
+
+   schematic(SCH){
+      SCH.parts(PART){
+         PART.instances(INSTANCE){
+            INSTANCE.gate.symbol.pins(PIN){
+               sprintf(commands, "%sWIRE (%f %f) (%f %f);",
+                       commands,
+                       u2inch(PIN.x),
+                       u2inch(PIN.y),
+                       u2inch(PIN.x) + wireLength,
+                       u2inch(PIN.y));
+            }
+         }
+      }
+   }
+}
+
+//---- Execution
+// if (argv[0] == "UCirKitAddFemaleHeaderArray"){
+//    exit(argv[1]);
+// }
