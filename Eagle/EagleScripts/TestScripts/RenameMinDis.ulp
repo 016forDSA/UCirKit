@@ -202,3 +202,4 @@ output("RenameNetResults.txt"){
       }
 }
 
+exit(cmd);

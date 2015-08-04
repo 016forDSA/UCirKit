@@ -667,13 +667,13 @@ design rules under a new name.</description>
 <element name="JP152" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="78.74" y="24.765" rot="R270"/>
 <element name="JP153" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="78.74" y="18.415" rot="R270"/>
 <element name="JP154" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="22.225" y="95.25"/>
-<element name="JP155" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="66.675" y="95.25"/>
-<element name="JP156" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="2.54" y="-45.72"/>
-<element name="JP157" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="10.16" y="-45.72"/>
-<element name="JP158" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="17.78" y="-45.72"/>
-<element name="JP159" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="25.4" y="-45.72"/>
-<element name="JP160" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="33.02" y="-45.72"/>
-<element name="JP113" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="-6.35" y="-49.53"/>
+<element name="JP155" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="28.575" y="95.25"/>
+<element name="JP156" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="34.925" y="95.25"/>
+<element name="JP157" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="41.275" y="95.25"/>
+<element name="JP158" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="47.625" y="95.25"/>
+<element name="JP159" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="53.975" y="95.25"/>
+<element name="JP160" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="60.325" y="95.25"/>
+<element name="JP113" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="66.675" y="95.25"/>
 </elements>
 <signals>
 </signals>

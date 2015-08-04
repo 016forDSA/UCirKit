@@ -1169,7 +1169,6 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="JP110" library="SparkFun-Connectors" deviceset="M05" device="1.27MM"/>
 <part name="JP111" library="SparkFun-Connectors" deviceset="M05" device="1.27MM"/>
 <part name="JP112" library="SparkFun-Connectors" deviceset="M05" device="1.27MM"/>
-<part name="JP113" library="SparkFun-Connectors" deviceset="M05" device="1.27MM"/>
 <part name="JP114" library="SparkFun-Connectors" deviceset="M05" device="1.27MM"/>
 <part name="JP115" library="SparkFun-Connectors" deviceset="M05" device="1.27MM"/>
 <part name="JP116" library="SparkFun-Connectors" deviceset="M05" device="1.27MM"/>
@@ -1335,7 +1334,6 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <instance part="JP110" gate="G$1" x="104.14" y="-91.44"/>
 <instance part="JP111" gate="G$1" x="104.14" y="-109.22"/>
 <instance part="JP112" gate="G$1" x="104.14" y="-127"/>
-<instance part="JP113" gate="G$1" x="134.62" y="-91.44"/>
 <instance part="JP114" gate="G$1" x="134.62" y="-109.22"/>
 <instance part="JP115" gate="G$1" x="134.62" y="-127"/>
 <instance part="JP116" gate="G$1" x="165.1" y="-91.44"/>
