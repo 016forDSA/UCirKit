@@ -1,0 +1,40 @@
+string cmd = "";
+real miniPlaceX = 1.27;
+real miniPlaceY = 195;
+real normalPlaceX = 19.05;
+real normalPlaceY = 60.96;
+real normalPlaceX2 = 71.12;
+real normalPlaceY2= 60.96;
+real addValue = 0;
+int idValue =0;
+
+output("Elements on board B.txt"){
+   board(B){
+      // printf("%s\n", B.name);
+      B.elements(E){
+         idValue = strtol(strsub(E.name,2,strlen(E.name)));
+         // printf("%s\n", strsub(E.name,2,strlen(E.name)));
+         if(idValue>840){
+            sprintf(cmd,"%s;move %s (%f %f)",cmd,E.name,miniPlaceX+100+1.27*((idValue-841)%60)+3*int((idValue-841)/30)-6*int((idValue-841)/60),miniPlaceY-5*int((idValue-841)/60));
+            
+         }
+         else if(idValue>600){
+            sprintf(cmd,"%s;move %s (%f %f)",cmd,E.name,miniPlaceX+1.27*((idValue-601)%30)+2*int((idValue-601)/15)-4*int((idValue-601)/30),miniPlaceY-5*int((idValue-601)/30));
+            
+            // addValue += 1.27;
+            // printf("%-8s %-8s\n", E.name, E.value);
+         }
+         else if(idValue>300){
+
+            sprintf(cmd,"%s;move %s (%f %f)",cmd,E.name,normalPlaceX2+2.54*((idValue-301)%15),normalPlaceY2-2.54*int((idValue-301)/15));
+            
+         }
+         else{
+            sprintf(cmd,"%s;move %s (%f %f)",cmd,E.name,normalPlaceX+2.54*((idValue-1)%15),normalPlaceY-2.54*int((idValue-1)/15));
+            
+
+         }
+      }
+   }  
+}
+exit(cmd);
