@@ -1,0 +1,31 @@
+output("inGroupTestResults.txt"){
+   // board(B){
+   //    B.elements(E){
+   //       if (ingroup(E)){
+   //          printf("Element %s is in the group", E.name);
+   //       }
+   //    }
+   // }
+
+   board(B){
+      B.signals(S){
+         S.contactrefs(C){
+            if (ingroup(C.element)){
+               printf("Element %s is in the group \n", C.element.name);
+               printf("\tcontact name : %s\n", C.contact.name);
+            }
+         }
+      }
+   }
+
+   // schematic(S){
+   //    project.board(B){
+   //       B.elements(E){
+   //          if (ingroup(E)){
+   //             printf("Element %s is in the group", E.name);
+   //          }
+
+   //       }
+   //    }
+   // }
+}

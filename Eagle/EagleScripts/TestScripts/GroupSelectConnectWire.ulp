@@ -1,0 +1,181 @@
+//-------------------------------
+UL_CONTACTREF lFContactRefs[];
+UL_SIGNAL lFSignals[];
+int lFContactFlag[];
+int lFContactCount = 0;
+
+UL_CONTACTREF sFContactRefs[];
+UL_SIGNAL sFSignals[];
+int sFContactFlag[];
+int sFContactCount = 0;
+
+//--------------------------------
+UL_PIN lFPinsToConnect[];
+UL_PIN sFPinsToConnect[];
+
+int lFContactIdxConnectList[];
+int connectListCount = 0;
+
+//--------------------------------
+int wireNameInt = 0;
+string command = "";
+
+int maxNumOfLargeFemale;
+
+// **************************************************************************
+// **************************************************************************
+// **************************************************************************
+void classifyLargeAndSmallFemaleHeaders(){
+   project.board(B){
+      B.signals(S){
+         S.contactrefs(C){
+            if(ingroup(C.element)){
+               string splitStr[];
+               int numOfStr = strsplit(splitStr, C.element.name, 'P');
+               int femaleNum = strtol(splitStr[1]);
+
+               if (femaleNum <= maxNumOfLargeFemale){
+                  lFContactRefs[lFContactCount] = C;
+                  lFSignals[lFContactCount] = S;
+                  lFContactFlag[lFContactCount++] = 0;
+               } else {
+                  sFContactRefs[sFContactCount] = C;
+                  sFSignals[sFContactCount] = S;
+                  sFContactFlag[sFContactCount++] = 0;
+               }
+            }
+         }
+      }
+   }
+}
+
+// **************************************************************************
+// **************************************************************************
+// **************************************************************************
+int getSFGroupedIdx(UL_PART PART, UL_PIN PIN){
+   for (int i = 0; i < sFContactCount; ++i){
+      if (PART.name == sFContactRefs[i].element.name &&
+          PIN.name == sFContactRefs[i].contact.name &&
+          strchr(sFSignals[i].name, '_') == -1){
+         return i;
+      }
+   }
+   return -1;
+}
+
+real distance(int x1, int y1, int x2, int y2){
+   return (sqrt((x1 - x2) * (x1 - x2) + (y1 - y2) * (y1 - y2)));
+}
+
+int getMinDisLFContactIdx(int sFIdx){
+   real minDistance = 10000000000;
+   int minDisIdx;
+
+   for (int i = 0; i < lFContactCount; ++i){
+      if (lFContactFlag[i] != 0 || strchr(lFSignals[i].name, '_') != -1)
+         continue;
+
+      real dis = distance(u2mil(sFContactRefs[sFIdx].contact.x),
+                          u2mil(sFContactRefs[sFIdx].contact.y),
+                          u2mil(lFContactRefs[i].contact.x),
+                          u2mil(lFContactRefs[i].contact.y));
+      if (dis < minDistance){
+         minDistance = dis;
+         minDisIdx = i;
+      }
+   }
+   
+   if (minDistance == 10000000000)
+      return -1;
+
+   return minDisIdx;
+}
+
+void connectToMinDisLargeFemalePins(int sFIdx, UL_PIN PIN){
+   int minDisIdx = getMinDisLFContactIdx(sFIdx);
+   if (minDisIdx < 0)
+      return;
+
+   sFPinsToConnect[connectListCount] = PIN;
+   lFContactIdxConnectList[connectListCount++] = minDisIdx;
+
+   sFContactFlag[sFIdx] = 1;
+   lFContactFlag[minDisIdx] = 1;
+}
+
+void scanThruSmallFemalesAndConnectWithLargeFemales(){
+   schematic(S){
+      S.parts(PART){
+         PART.instances(INSTANCE){
+            INSTANCE.gate.symbol.pins(PIN){
+               int idx = getSFGroupedIdx(PART, PIN);
+               if (idx < 0)   continue;
+
+               connectToMinDisLargeFemalePins(idx, PIN);
+            }
+         }
+      }
+   }
+}
+
+// **************************************************************************
+// **************************************************************************
+// **************************************************************************
+int getLFConnectionListIdx(UL_PART PART, UL_PIN PIN){
+   for (int i = 0; i < connectListCount; ++i){
+      if (PART.name == lFContactRefs[lFContactIdxConnectList[i]].element.name &&
+          PIN.name == lFContactRefs[lFContactIdxConnectList[i]].contact.name){
+         return i;
+      }
+   }
+   return -1;
+}
+
+void collectLFConnectionPins(){
+   schematic(S){
+      S.parts(PART){
+         PART.instances(INSTANCE){
+            INSTANCE.gate.symbol.pins(PIN){
+               int idx = getLFConnectionListIdx(PART, PIN);
+               if (idx < 0)   continue;
+
+               lFPinsToConnect[idx] = PIN;
+            }
+         }
+      }
+   }
+}
+
+void createCommand(){
+   for (int i = 0; i < connectListCount; ++i){
+      sFPinsToConnect[i].wires(WIRE){
+         sprintf(command, "%s NAME %d_ (%f %f);", command, wireNameInt, u2inch(WIRE.x1), u2inch(WIRE.y1));
+      }
+
+      lFPinsToConnect[i].wires(WIRE){
+         sprintf(command, "%s NAME %d_ (%f %f);", command, wireNameInt++, u2inch(WIRE.x1), u2inch(WIRE.y1));
+      }
+   }
+}
+
+// **************************************************************************
+// **************************************************************************
+// **************************************************************************
+output("GroupSelectConnectWire.txt"){
+   if (argc != 2){
+      dlgMessageBox("Incorrect number of arguments", "Ok");
+      exit(1);
+   }
+
+   maxNumOfLargeFemale = strtol(argv[1]);
+
+   classifyLargeAndSmallFemaleHeaders();
+
+   scanThruSmallFemalesAndConnectWithLargeFemales();
+
+   collectLFConnectionPins();
+
+   createCommand();
+}
+
+exit(command);
