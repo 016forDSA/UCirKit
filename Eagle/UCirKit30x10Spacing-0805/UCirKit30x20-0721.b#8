@@ -549,131 +549,71 @@ design rules under a new name.</description>
 <element name="JP33" library="SparkFun-Connectors" package="1X15" value="" x="43.18" y="48.26" rot="R270"/>
 <element name="JP34" library="SparkFun-Connectors" package="1X15" value="" x="45.72" y="48.26" rot="R270"/>
 <element name="JP35" library="SparkFun-Connectors" package="1X15" value="" x="48.26" y="48.26" rot="R270"/>
+<element name="JP41" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="10.16" y="86.995" rot="R270"/>
+<element name="JP42" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="10.16" y="80.645" rot="R270"/>
+<element name="JP43" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="10.16" y="74.295" rot="R270"/>
 <element name="JP36" library="SparkFun-Connectors" package="1X15" value="" x="50.8" y="48.26" rot="R270"/>
 <element name="JP37" library="SparkFun-Connectors" package="1X15" value="" x="53.34" y="48.26" rot="R270"/>
 <element name="JP38" library="SparkFun-Connectors" package="1X15" value="" x="55.88" y="48.26" rot="R270"/>
 <element name="JP39" library="SparkFun-Connectors" package="1X15" value="" x="58.42" y="48.26" rot="R270"/>
 <element name="JP40" library="SparkFun-Connectors" package="1X15" value="" x="60.96" y="48.26" rot="R270"/>
-<element name="JP41" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="10.16" y="86.995" rot="R270"/>
-<element name="JP42" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="10.16" y="80.645" rot="R270"/>
-<element name="JP43" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="10.16" y="74.295" rot="R270"/>
-<element name="JP44" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="10.16" y="67.945" rot="R270"/>
-<element name="JP45" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="10.16" y="61.595" rot="R270"/>
-<element name="JP46" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="10.16" y="55.245" rot="R270"/>
-<element name="JP47" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="10.16" y="48.895" rot="R270"/>
-<element name="JP48" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="10.16" y="42.545" rot="R270"/>
-<element name="JP49" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="10.16" y="36.195" rot="R270"/>
-<element name="JP50" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="10.16" y="29.845" rot="R270"/>
-<element name="JP51" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="10.16" y="23.495" rot="R270"/>
-<element name="JP52" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="10.16" y="17.145" rot="R270"/>
-<element name="JP53" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="7.62" y="86.995" rot="R270"/>
-<element name="JP54" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="7.62" y="80.645" rot="R270"/>
-<element name="JP55" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="7.62" y="74.295" rot="R270"/>
-<element name="JP56" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="7.62" y="67.945" rot="R270"/>
-<element name="JP57" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="7.62" y="61.595" rot="R270"/>
-<element name="JP58" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="7.62" y="55.245" rot="R270"/>
-<element name="JP59" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="7.62" y="48.895" rot="R270"/>
-<element name="JP60" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="7.62" y="42.545" rot="R270"/>
-<element name="JP61" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="7.62" y="36.195" rot="R270"/>
-<element name="JP62" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="7.62" y="29.845" rot="R270"/>
-<element name="JP63" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="7.62" y="23.495" rot="R270"/>
-<element name="JP64" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="7.62" y="17.145" rot="R270"/>
-<element name="JP65" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="12.065" y="10.16"/>
-<element name="JP66" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="18.415" y="10.16"/>
-<element name="JP67" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="24.765" y="10.16"/>
-<element name="JP68" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="31.115" y="10.16"/>
-<element name="JP69" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="37.465" y="10.16"/>
-<element name="JP70" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="43.815" y="10.16"/>
-<element name="JP71" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="50.165" y="10.16"/>
-<element name="JP72" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="56.515" y="10.16"/>
-<element name="JP73" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="12.065" y="7.62"/>
-<element name="JP74" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="18.415" y="7.62"/>
-<element name="JP75" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="24.765" y="7.62"/>
-<element name="JP76" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="31.115" y="7.62"/>
-<element name="JP77" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="37.465" y="7.62"/>
-<element name="JP78" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="43.815" y="7.62"/>
-<element name="JP79" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="50.165" y="7.62"/>
-<element name="JP80" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="56.515" y="7.62"/>
-<element name="JP81" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="63.5" y="86.995" rot="R270"/>
-<element name="JP82" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="63.5" y="80.645" rot="R270"/>
-<element name="JP83" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="63.5" y="74.295" rot="R270"/>
-<element name="JP84" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="63.5" y="67.945" rot="R270"/>
-<element name="JP85" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="63.5" y="61.595" rot="R270"/>
-<element name="JP86" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="63.5" y="55.245" rot="R270"/>
-<element name="JP87" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="63.5" y="48.895" rot="R270"/>
-<element name="JP88" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="63.5" y="42.545" rot="R270"/>
-<element name="JP89" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="63.5" y="36.195" rot="R270"/>
-<element name="JP90" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="63.5" y="29.845" rot="R270"/>
-<element name="JP91" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="63.5" y="23.495" rot="R270"/>
-<element name="JP92" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="63.5" y="17.145" rot="R270"/>
-<element name="JP93" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="66.04" y="86.995" rot="R270"/>
-<element name="JP94" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="66.04" y="80.645" rot="R270"/>
-<element name="JP95" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="66.04" y="74.295" rot="R270"/>
-<element name="JP96" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="66.04" y="67.945" rot="R270"/>
-<element name="JP97" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="66.04" y="61.595" rot="R270"/>
-<element name="JP98" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="66.04" y="55.245" rot="R270"/>
-<element name="JP99" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="66.04" y="48.895" rot="R270"/>
-<element name="JP100" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="66.04" y="42.545" rot="R270"/>
-<element name="JP101" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="66.04" y="36.195" rot="R270"/>
-<element name="JP102" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="66.04" y="29.845" rot="R270"/>
-<element name="JP103" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="66.04" y="23.495" rot="R270"/>
-<element name="JP104" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="66.04" y="17.145" rot="R270"/>
-<element name="JP105" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="12.065" y="88.9"/>
-<element name="JP106" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="18.415" y="88.9"/>
-<element name="JP107" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="24.765" y="88.9"/>
-<element name="JP108" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="31.115" y="88.9"/>
-<element name="JP109" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="37.465" y="88.9"/>
-<element name="JP110" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="43.815" y="88.9"/>
-<element name="JP111" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="50.165" y="88.9"/>
-<element name="JP112" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="56.515" y="88.9"/>
-<element name="JP114" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="12.065" y="91.44"/>
-<element name="JP115" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="18.415" y="91.44"/>
-<element name="JP116" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="24.765" y="91.44"/>
-<element name="JP117" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="31.115" y="91.44"/>
-<element name="JP118" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="37.465" y="91.44"/>
-<element name="JP119" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="43.815" y="91.44"/>
-<element name="JP120" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="50.165" y="91.44"/>
-<element name="JP121" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="56.515" y="91.44"/>
-<element name="JP122" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="5.08" y="86.995" rot="R270"/>
-<element name="JP123" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="5.08" y="80.645" rot="R270"/>
-<element name="JP124" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="5.08" y="74.295" rot="R270"/>
-<element name="JP125" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="5.08" y="67.945" rot="R270"/>
-<element name="JP126" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="5.08" y="61.595" rot="R270"/>
-<element name="JP127" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="5.08" y="55.245" rot="R270"/>
-<element name="JP128" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="5.08" y="48.895" rot="R270"/>
-<element name="JP129" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="5.08" y="42.545" rot="R270"/>
-<element name="JP130" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="5.08" y="36.195" rot="R270"/>
-<element name="JP131" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="5.08" y="29.845" rot="R270"/>
-<element name="JP132" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="5.08" y="23.495" rot="R270"/>
-<element name="JP133" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="5.08" y="17.145" rot="R270"/>
-<element name="JP134" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="12.065" y="5.08"/>
-<element name="JP135" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="18.415" y="5.08"/>
-<element name="JP136" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="24.765" y="5.08"/>
-<element name="JP137" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="31.115" y="5.08"/>
-<element name="JP138" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="37.465" y="5.08"/>
-<element name="JP139" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="43.815" y="5.08"/>
-<element name="JP140" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="50.165" y="5.08"/>
-<element name="JP141" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="56.515" y="5.08"/>
-<element name="JP142" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="68.58" y="86.995" rot="R270"/>
-<element name="JP143" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="68.58" y="80.645" rot="R270"/>
-<element name="JP144" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="68.58" y="74.295" rot="R270"/>
-<element name="JP145" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="68.58" y="67.945" rot="R270"/>
-<element name="JP146" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="68.58" y="61.595" rot="R270"/>
-<element name="JP147" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="68.58" y="55.245" rot="R270"/>
-<element name="JP148" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="68.58" y="48.895" rot="R270"/>
-<element name="JP149" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="68.58" y="42.545" rot="R270"/>
-<element name="JP150" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="68.58" y="36.195" rot="R270"/>
-<element name="JP151" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="68.58" y="29.845" rot="R270"/>
-<element name="JP152" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="68.58" y="23.495" rot="R270"/>
-<element name="JP153" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="68.58" y="17.145" rot="R270"/>
-<element name="JP154" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="12.065" y="93.98"/>
-<element name="JP155" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="18.415" y="93.98"/>
-<element name="JP156" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="24.765" y="93.98"/>
-<element name="JP157" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="31.115" y="93.98"/>
-<element name="JP158" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="37.465" y="93.98"/>
-<element name="JP159" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="43.815" y="93.98"/>
-<element name="JP160" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="50.165" y="93.98"/>
-<element name="JP113" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="56.515" y="93.98"/>
+<element name="JP44" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="1.27" y="-26.67"/>
+<element name="JP45" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="1.27" y="-30.48"/>
+<element name="JP46" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="1.27" y="-34.29"/>
+<element name="JP47" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="1.27" y="-38.1"/>
+<element name="JP48" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="1.27" y="-41.91"/>
+<element name="JP49" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="1.27" y="-45.72"/>
+<element name="JP50" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="1.27" y="-49.53"/>
+<element name="JP51" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="1.27" y="-53.34"/>
+<element name="JP52" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="1.27" y="-57.15"/>
+<element name="JP53" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="1.27" y="-60.96"/>
+<element name="JP54" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="8.89" y="-60.96"/>
+<element name="JP55" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="1.27" y="-64.77"/>
+<element name="JP56" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="8.89" y="-64.77"/>
+<element name="JP57" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="1.27" y="-68.58"/>
+<element name="JP58" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="8.89" y="-68.58"/>
+<element name="JP59" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="1.27" y="-72.39"/>
+<element name="JP60" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="8.89" y="-72.39"/>
+<element name="JP61" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="1.27" y="-76.2"/>
+<element name="JP62" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="8.89" y="-76.2"/>
+<element name="JP63" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="1.27" y="-80.01"/>
+<element name="JP64" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="8.89" y="-80.01"/>
+<element name="JP65" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="1.27" y="-83.82"/>
+<element name="JP66" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="8.89" y="-83.82"/>
+<element name="JP67" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="16.51" y="-83.82"/>
+<element name="JP68" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="1.27" y="-87.63"/>
+<element name="JP69" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="8.89" y="-87.63"/>
+<element name="JP70" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="16.51" y="-87.63"/>
+<element name="JP71" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="1.27" y="-91.44"/>
+<element name="JP72" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="8.89" y="-91.44"/>
+<element name="JP73" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="16.51" y="-91.44"/>
+<element name="JP74" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="1.27" y="-95.25"/>
+<element name="JP75" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="8.89" y="-95.25"/>
+<element name="JP76" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="16.51" y="-95.25"/>
+<element name="JP77" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="1.27" y="-99.06"/>
+<element name="JP78" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="8.89" y="-99.06"/>
+<element name="JP79" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="16.51" y="-99.06"/>
+<element name="JP80" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="1.27" y="-102.87"/>
+<element name="JP81" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="8.89" y="-102.87"/>
+<element name="JP82" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="16.51" y="-102.87"/>
+<element name="JP83" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="1.27" y="-106.68"/>
+<element name="JP84" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="8.89" y="-106.68"/>
+<element name="JP85" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="16.51" y="-106.68"/>
+<element name="JP86" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="1.27" y="-110.49"/>
+<element name="JP87" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="8.89" y="-110.49"/>
+<element name="JP88" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="16.51" y="-110.49"/>
+<element name="JP89" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="1.27" y="-114.3"/>
+<element name="JP90" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="8.89" y="-114.3"/>
+<element name="JP91" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="1.27" y="-118.11"/>
+<element name="JP92" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="8.89" y="-118.11"/>
+<element name="JP93" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="1.27" y="-121.92"/>
+<element name="JP94" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="8.89" y="-121.92"/>
+<element name="JP95" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="1.27" y="-125.73"/>
+<element name="JP96" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="8.89" y="-125.73"/>
+<element name="JP97" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="1.27" y="-129.54"/>
+<element name="JP98" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="8.89" y="-129.54"/>
+<element name="JP99" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="1.27" y="-133.35"/>
+<element name="JP100" library="SparkFun-Connectors" package="1X05-1.27MM" value="" x="8.89" y="-133.35"/>
 </elements>
 <signals>
 <signal name="N$1">
@@ -1314,6 +1254,2064 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$214">
 <contactref element="JP15" pad="12"/>
+</signal>
+<signal name="N$215">
+<contactref element="JP15" pad="11"/>
+</signal>
+<signal name="N$216">
+<contactref element="JP15" pad="10"/>
+</signal>
+<signal name="N$217">
+<contactref element="JP15" pad="9"/>
+</signal>
+<signal name="N$218">
+<contactref element="JP15" pad="8"/>
+</signal>
+<signal name="N$219">
+<contactref element="JP15" pad="7"/>
+</signal>
+<signal name="N$220">
+<contactref element="JP15" pad="6"/>
+</signal>
+<signal name="N$221">
+<contactref element="JP15" pad="5"/>
+</signal>
+<signal name="N$222">
+<contactref element="JP15" pad="4"/>
+</signal>
+<signal name="N$223">
+<contactref element="JP15" pad="3"/>
+</signal>
+<signal name="N$224">
+<contactref element="JP15" pad="2"/>
+</signal>
+<signal name="N$225">
+<contactref element="JP15" pad="1"/>
+</signal>
+<signal name="N$226">
+<contactref element="JP16" pad="15"/>
+</signal>
+<signal name="N$227">
+<contactref element="JP16" pad="14"/>
+</signal>
+<signal name="N$228">
+<contactref element="JP16" pad="13"/>
+</signal>
+<signal name="N$229">
+<contactref element="JP16" pad="12"/>
+</signal>
+<signal name="N$230">
+<contactref element="JP16" pad="11"/>
+</signal>
+<signal name="N$231">
+<contactref element="JP16" pad="10"/>
+</signal>
+<signal name="N$232">
+<contactref element="JP16" pad="9"/>
+</signal>
+<signal name="N$233">
+<contactref element="JP16" pad="8"/>
+</signal>
+<signal name="N$234">
+<contactref element="JP16" pad="7"/>
+</signal>
+<signal name="N$235">
+<contactref element="JP16" pad="6"/>
+</signal>
+<signal name="N$236">
+<contactref element="JP16" pad="5"/>
+</signal>
+<signal name="N$237">
+<contactref element="JP16" pad="4"/>
+</signal>
+<signal name="N$238">
+<contactref element="JP16" pad="3"/>
+</signal>
+<signal name="N$239">
+<contactref element="JP16" pad="2"/>
+</signal>
+<signal name="N$240">
+<contactref element="JP16" pad="1"/>
+</signal>
+<signal name="N$241">
+<contactref element="JP17" pad="15"/>
+</signal>
+<signal name="N$242">
+<contactref element="JP17" pad="14"/>
+</signal>
+<signal name="N$243">
+<contactref element="JP17" pad="13"/>
+</signal>
+<signal name="N$244">
+<contactref element="JP17" pad="12"/>
+</signal>
+<signal name="N$245">
+<contactref element="JP17" pad="11"/>
+</signal>
+<signal name="N$246">
+<contactref element="JP17" pad="10"/>
+</signal>
+<signal name="N$247">
+<contactref element="JP17" pad="9"/>
+</signal>
+<signal name="N$248">
+<contactref element="JP17" pad="8"/>
+</signal>
+<signal name="N$249">
+<contactref element="JP17" pad="7"/>
+</signal>
+<signal name="N$250">
+<contactref element="JP17" pad="6"/>
+</signal>
+<signal name="N$251">
+<contactref element="JP17" pad="5"/>
+</signal>
+<signal name="N$252">
+<contactref element="JP17" pad="4"/>
+</signal>
+<signal name="N$253">
+<contactref element="JP17" pad="3"/>
+</signal>
+<signal name="N$254">
+<contactref element="JP17" pad="2"/>
+</signal>
+<signal name="N$255">
+<contactref element="JP17" pad="1"/>
+</signal>
+<signal name="N$256">
+<contactref element="JP18" pad="15"/>
+</signal>
+<signal name="N$257">
+<contactref element="JP18" pad="14"/>
+</signal>
+<signal name="N$258">
+<contactref element="JP18" pad="13"/>
+</signal>
+<signal name="N$259">
+<contactref element="JP18" pad="12"/>
+</signal>
+<signal name="N$260">
+<contactref element="JP18" pad="11"/>
+</signal>
+<signal name="N$261">
+<contactref element="JP18" pad="10"/>
+</signal>
+<signal name="N$262">
+<contactref element="JP18" pad="9"/>
+</signal>
+<signal name="N$263">
+<contactref element="JP18" pad="8"/>
+</signal>
+<signal name="N$264">
+<contactref element="JP18" pad="7"/>
+</signal>
+<signal name="N$265">
+<contactref element="JP18" pad="6"/>
+</signal>
+<signal name="N$266">
+<contactref element="JP18" pad="5"/>
+</signal>
+<signal name="N$267">
+<contactref element="JP18" pad="4"/>
+</signal>
+<signal name="N$268">
+<contactref element="JP18" pad="3"/>
+</signal>
+<signal name="N$269">
+<contactref element="JP18" pad="2"/>
+</signal>
+<signal name="N$270">
+<contactref element="JP18" pad="1"/>
+</signal>
+<signal name="N$271">
+<contactref element="JP19" pad="15"/>
+</signal>
+<signal name="N$272">
+<contactref element="JP19" pad="14"/>
+</signal>
+<signal name="N$273">
+<contactref element="JP19" pad="13"/>
+</signal>
+<signal name="N$274">
+<contactref element="JP19" pad="12"/>
+</signal>
+<signal name="N$275">
+<contactref element="JP19" pad="11"/>
+</signal>
+<signal name="N$276">
+<contactref element="JP19" pad="10"/>
+</signal>
+<signal name="N$277">
+<contactref element="JP19" pad="9"/>
+</signal>
+<signal name="N$278">
+<contactref element="JP19" pad="8"/>
+</signal>
+<signal name="N$279">
+<contactref element="JP19" pad="7"/>
+</signal>
+<signal name="N$280">
+<contactref element="JP19" pad="6"/>
+</signal>
+<signal name="N$281">
+<contactref element="JP19" pad="5"/>
+</signal>
+<signal name="N$282">
+<contactref element="JP19" pad="4"/>
+</signal>
+<signal name="N$283">
+<contactref element="JP19" pad="3"/>
+</signal>
+<signal name="N$284">
+<contactref element="JP19" pad="2"/>
+</signal>
+<signal name="N$285">
+<contactref element="JP19" pad="1"/>
+</signal>
+<signal name="N$286">
+<contactref element="JP20" pad="15"/>
+</signal>
+<signal name="N$287">
+<contactref element="JP20" pad="14"/>
+</signal>
+<signal name="N$288">
+<contactref element="JP20" pad="13"/>
+</signal>
+<signal name="N$289">
+<contactref element="JP20" pad="12"/>
+</signal>
+<signal name="N$290">
+<contactref element="JP20" pad="11"/>
+</signal>
+<signal name="N$291">
+<contactref element="JP20" pad="10"/>
+</signal>
+<signal name="N$292">
+<contactref element="JP20" pad="9"/>
+</signal>
+<signal name="N$293">
+<contactref element="JP20" pad="8"/>
+</signal>
+<signal name="N$294">
+<contactref element="JP20" pad="7"/>
+</signal>
+<signal name="N$295">
+<contactref element="JP20" pad="6"/>
+</signal>
+<signal name="N$296">
+<contactref element="JP20" pad="5"/>
+</signal>
+<signal name="N$297">
+<contactref element="JP20" pad="4"/>
+</signal>
+<signal name="N$298">
+<contactref element="JP20" pad="3"/>
+</signal>
+<signal name="N$299">
+<contactref element="JP20" pad="2"/>
+</signal>
+<signal name="N$300">
+<contactref element="JP20" pad="1"/>
+</signal>
+<signal name="N$301">
+<contactref element="JP21" pad="15"/>
+</signal>
+<signal name="N$302">
+<contactref element="JP21" pad="14"/>
+</signal>
+<signal name="N$303">
+<contactref element="JP21" pad="13"/>
+</signal>
+<signal name="N$304">
+<contactref element="JP21" pad="12"/>
+</signal>
+<signal name="N$305">
+<contactref element="JP21" pad="11"/>
+</signal>
+<signal name="N$306">
+<contactref element="JP21" pad="10"/>
+</signal>
+<signal name="N$307">
+<contactref element="JP21" pad="9"/>
+</signal>
+<signal name="N$308">
+<contactref element="JP21" pad="8"/>
+</signal>
+<signal name="N$309">
+<contactref element="JP21" pad="7"/>
+</signal>
+<signal name="N$310">
+<contactref element="JP21" pad="6"/>
+</signal>
+<signal name="N$311">
+<contactref element="JP21" pad="5"/>
+</signal>
+<signal name="N$312">
+<contactref element="JP21" pad="4"/>
+</signal>
+<signal name="N$313">
+<contactref element="JP21" pad="3"/>
+</signal>
+<signal name="N$314">
+<contactref element="JP21" pad="2"/>
+</signal>
+<signal name="N$315">
+<contactref element="JP21" pad="1"/>
+</signal>
+<signal name="N$316">
+<contactref element="JP22" pad="15"/>
+</signal>
+<signal name="N$317">
+<contactref element="JP22" pad="14"/>
+</signal>
+<signal name="N$318">
+<contactref element="JP22" pad="13"/>
+</signal>
+<signal name="N$319">
+<contactref element="JP22" pad="12"/>
+</signal>
+<signal name="N$320">
+<contactref element="JP22" pad="11"/>
+</signal>
+<signal name="N$321">
+<contactref element="JP22" pad="10"/>
+</signal>
+<signal name="N$322">
+<contactref element="JP22" pad="9"/>
+</signal>
+<signal name="N$323">
+<contactref element="JP22" pad="8"/>
+</signal>
+<signal name="N$324">
+<contactref element="JP22" pad="7"/>
+</signal>
+<signal name="N$325">
+<contactref element="JP22" pad="6"/>
+</signal>
+<signal name="N$326">
+<contactref element="JP22" pad="5"/>
+</signal>
+<signal name="N$327">
+<contactref element="JP22" pad="4"/>
+</signal>
+<signal name="N$328">
+<contactref element="JP22" pad="3"/>
+</signal>
+<signal name="N$329">
+<contactref element="JP22" pad="2"/>
+</signal>
+<signal name="N$330">
+<contactref element="JP22" pad="1"/>
+</signal>
+<signal name="N$331">
+<contactref element="JP23" pad="15"/>
+</signal>
+<signal name="N$332">
+<contactref element="JP23" pad="14"/>
+</signal>
+<signal name="N$333">
+<contactref element="JP23" pad="13"/>
+</signal>
+<signal name="N$334">
+<contactref element="JP23" pad="12"/>
+</signal>
+<signal name="N$335">
+<contactref element="JP23" pad="11"/>
+</signal>
+<signal name="N$336">
+<contactref element="JP23" pad="10"/>
+</signal>
+<signal name="N$337">
+<contactref element="JP23" pad="9"/>
+</signal>
+<signal name="N$338">
+<contactref element="JP23" pad="8"/>
+</signal>
+<signal name="N$339">
+<contactref element="JP23" pad="7"/>
+</signal>
+<signal name="N$340">
+<contactref element="JP23" pad="6"/>
+</signal>
+<signal name="N$341">
+<contactref element="JP23" pad="5"/>
+</signal>
+<signal name="N$342">
+<contactref element="JP23" pad="4"/>
+</signal>
+<signal name="N$343">
+<contactref element="JP23" pad="3"/>
+</signal>
+<signal name="N$344">
+<contactref element="JP23" pad="2"/>
+</signal>
+<signal name="N$345">
+<contactref element="JP23" pad="1"/>
+</signal>
+<signal name="N$346">
+<contactref element="JP24" pad="15"/>
+</signal>
+<signal name="N$347">
+<contactref element="JP24" pad="14"/>
+</signal>
+<signal name="N$348">
+<contactref element="JP24" pad="13"/>
+</signal>
+<signal name="N$349">
+<contactref element="JP24" pad="12"/>
+</signal>
+<signal name="N$350">
+<contactref element="JP24" pad="11"/>
+</signal>
+<signal name="N$351">
+<contactref element="JP24" pad="10"/>
+</signal>
+<signal name="N$352">
+<contactref element="JP24" pad="9"/>
+</signal>
+<signal name="N$353">
+<contactref element="JP24" pad="8"/>
+</signal>
+<signal name="N$354">
+<contactref element="JP24" pad="7"/>
+</signal>
+<signal name="N$355">
+<contactref element="JP24" pad="6"/>
+</signal>
+<signal name="N$356">
+<contactref element="JP24" pad="5"/>
+</signal>
+<signal name="N$357">
+<contactref element="JP24" pad="4"/>
+</signal>
+<signal name="N$358">
+<contactref element="JP24" pad="3"/>
+</signal>
+<signal name="N$359">
+<contactref element="JP24" pad="2"/>
+</signal>
+<signal name="N$360">
+<contactref element="JP24" pad="1"/>
+</signal>
+<signal name="N$361">
+<contactref element="JP25" pad="15"/>
+</signal>
+<signal name="N$362">
+<contactref element="JP25" pad="14"/>
+</signal>
+<signal name="N$363">
+<contactref element="JP25" pad="13"/>
+</signal>
+<signal name="N$364">
+<contactref element="JP25" pad="12"/>
+</signal>
+<signal name="N$365">
+<contactref element="JP25" pad="11"/>
+</signal>
+<signal name="N$366">
+<contactref element="JP25" pad="10"/>
+</signal>
+<signal name="N$367">
+<contactref element="JP25" pad="9"/>
+</signal>
+<signal name="N$368">
+<contactref element="JP25" pad="8"/>
+</signal>
+<signal name="N$369">
+<contactref element="JP25" pad="7"/>
+</signal>
+<signal name="N$370">
+<contactref element="JP25" pad="6"/>
+</signal>
+<signal name="N$371">
+<contactref element="JP25" pad="5"/>
+</signal>
+<signal name="N$372">
+<contactref element="JP25" pad="4"/>
+</signal>
+<signal name="N$373">
+<contactref element="JP25" pad="3"/>
+</signal>
+<signal name="N$374">
+<contactref element="JP25" pad="2"/>
+</signal>
+<signal name="N$375">
+<contactref element="JP25" pad="1"/>
+</signal>
+<signal name="N$376">
+<contactref element="JP26" pad="15"/>
+</signal>
+<signal name="N$377">
+<contactref element="JP26" pad="14"/>
+</signal>
+<signal name="N$378">
+<contactref element="JP26" pad="13"/>
+</signal>
+<signal name="N$379">
+<contactref element="JP26" pad="12"/>
+</signal>
+<signal name="N$380">
+<contactref element="JP26" pad="11"/>
+</signal>
+<signal name="N$381">
+<contactref element="JP26" pad="10"/>
+</signal>
+<signal name="N$382">
+<contactref element="JP26" pad="9"/>
+</signal>
+<signal name="N$383">
+<contactref element="JP26" pad="8"/>
+</signal>
+<signal name="N$384">
+<contactref element="JP26" pad="7"/>
+</signal>
+<signal name="N$385">
+<contactref element="JP26" pad="6"/>
+</signal>
+<signal name="N$386">
+<contactref element="JP26" pad="5"/>
+</signal>
+<signal name="N$387">
+<contactref element="JP26" pad="4"/>
+</signal>
+<signal name="N$388">
+<contactref element="JP26" pad="3"/>
+</signal>
+<signal name="N$389">
+<contactref element="JP26" pad="2"/>
+</signal>
+<signal name="N$390">
+<contactref element="JP26" pad="1"/>
+</signal>
+<signal name="N$391">
+<contactref element="JP27" pad="1"/>
+</signal>
+<signal name="N$392">
+<contactref element="JP27" pad="2"/>
+</signal>
+<signal name="N$393">
+<contactref element="JP27" pad="3"/>
+</signal>
+<signal name="N$394">
+<contactref element="JP27" pad="4"/>
+</signal>
+<signal name="N$395">
+<contactref element="JP27" pad="5"/>
+</signal>
+<signal name="N$396">
+<contactref element="JP27" pad="6"/>
+</signal>
+<signal name="N$397">
+<contactref element="JP27" pad="7"/>
+</signal>
+<signal name="N$398">
+<contactref element="JP27" pad="8"/>
+</signal>
+<signal name="N$399">
+<contactref element="JP27" pad="9"/>
+</signal>
+<signal name="N$400">
+<contactref element="JP27" pad="10"/>
+</signal>
+<signal name="N$401">
+<contactref element="JP27" pad="11"/>
+</signal>
+<signal name="N$402">
+<contactref element="JP27" pad="12"/>
+</signal>
+<signal name="N$403">
+<contactref element="JP27" pad="13"/>
+</signal>
+<signal name="N$404">
+<contactref element="JP27" pad="14"/>
+</signal>
+<signal name="N$405">
+<contactref element="JP27" pad="15"/>
+</signal>
+<signal name="N$406">
+<contactref element="JP28" pad="1"/>
+</signal>
+<signal name="N$407">
+<contactref element="JP28" pad="2"/>
+</signal>
+<signal name="N$408">
+<contactref element="JP28" pad="3"/>
+</signal>
+<signal name="N$409">
+<contactref element="JP28" pad="4"/>
+</signal>
+<signal name="N$410">
+<contactref element="JP28" pad="5"/>
+</signal>
+<signal name="N$411">
+<contactref element="JP28" pad="6"/>
+</signal>
+<signal name="N$412">
+<contactref element="JP28" pad="7"/>
+</signal>
+<signal name="N$413">
+<contactref element="JP28" pad="8"/>
+</signal>
+<signal name="N$414">
+<contactref element="JP28" pad="9"/>
+</signal>
+<signal name="N$415">
+<contactref element="JP28" pad="10"/>
+</signal>
+<signal name="N$416">
+<contactref element="JP28" pad="11"/>
+</signal>
+<signal name="N$417">
+<contactref element="JP28" pad="12"/>
+</signal>
+<signal name="N$418">
+<contactref element="JP28" pad="13"/>
+</signal>
+<signal name="N$419">
+<contactref element="JP28" pad="14"/>
+</signal>
+<signal name="N$420">
+<contactref element="JP28" pad="15"/>
+</signal>
+<signal name="N$421">
+<contactref element="JP29" pad="1"/>
+</signal>
+<signal name="N$422">
+<contactref element="JP29" pad="2"/>
+</signal>
+<signal name="N$423">
+<contactref element="JP29" pad="3"/>
+</signal>
+<signal name="N$424">
+<contactref element="JP29" pad="4"/>
+</signal>
+<signal name="N$425">
+<contactref element="JP29" pad="5"/>
+</signal>
+<signal name="N$426">
+<contactref element="JP29" pad="6"/>
+</signal>
+<signal name="N$427">
+<contactref element="JP29" pad="7"/>
+</signal>
+<signal name="N$428">
+<contactref element="JP29" pad="8"/>
+</signal>
+<signal name="N$429">
+<contactref element="JP29" pad="9"/>
+</signal>
+<signal name="N$430">
+<contactref element="JP29" pad="10"/>
+</signal>
+<signal name="N$431">
+<contactref element="JP29" pad="11"/>
+</signal>
+<signal name="N$432">
+<contactref element="JP29" pad="12"/>
+</signal>
+<signal name="N$433">
+<contactref element="JP29" pad="13"/>
+</signal>
+<signal name="N$434">
+<contactref element="JP29" pad="14"/>
+</signal>
+<signal name="N$435">
+<contactref element="JP29" pad="15"/>
+</signal>
+<signal name="N$436">
+<contactref element="JP30" pad="1"/>
+</signal>
+<signal name="N$437">
+<contactref element="JP30" pad="2"/>
+</signal>
+<signal name="N$438">
+<contactref element="JP30" pad="3"/>
+</signal>
+<signal name="N$439">
+<contactref element="JP30" pad="4"/>
+</signal>
+<signal name="N$440">
+<contactref element="JP30" pad="5"/>
+</signal>
+<signal name="N$441">
+<contactref element="JP30" pad="6"/>
+</signal>
+<signal name="N$442">
+<contactref element="JP30" pad="7"/>
+</signal>
+<signal name="N$443">
+<contactref element="JP30" pad="8"/>
+</signal>
+<signal name="N$444">
+<contactref element="JP30" pad="9"/>
+</signal>
+<signal name="N$445">
+<contactref element="JP30" pad="10"/>
+</signal>
+<signal name="N$446">
+<contactref element="JP30" pad="11"/>
+</signal>
+<signal name="N$447">
+<contactref element="JP30" pad="12"/>
+</signal>
+<signal name="N$448">
+<contactref element="JP30" pad="13"/>
+</signal>
+<signal name="N$449">
+<contactref element="JP30" pad="14"/>
+</signal>
+<signal name="N$450">
+<contactref element="JP30" pad="15"/>
+</signal>
+<signal name="N$451">
+<contactref element="JP31" pad="1"/>
+</signal>
+<signal name="N$452">
+<contactref element="JP31" pad="2"/>
+</signal>
+<signal name="N$453">
+<contactref element="JP31" pad="3"/>
+</signal>
+<signal name="N$454">
+<contactref element="JP31" pad="4"/>
+</signal>
+<signal name="N$455">
+<contactref element="JP31" pad="5"/>
+</signal>
+<signal name="N$456">
+<contactref element="JP31" pad="6"/>
+</signal>
+<signal name="N$457">
+<contactref element="JP31" pad="7"/>
+</signal>
+<signal name="N$458">
+<contactref element="JP31" pad="8"/>
+</signal>
+<signal name="N$459">
+<contactref element="JP31" pad="9"/>
+</signal>
+<signal name="N$460">
+<contactref element="JP31" pad="10"/>
+</signal>
+<signal name="N$461">
+<contactref element="JP31" pad="11"/>
+</signal>
+<signal name="N$462">
+<contactref element="JP31" pad="12"/>
+</signal>
+<signal name="N$463">
+<contactref element="JP31" pad="13"/>
+</signal>
+<signal name="N$464">
+<contactref element="JP31" pad="14"/>
+</signal>
+<signal name="N$465">
+<contactref element="JP31" pad="15"/>
+</signal>
+<signal name="N$466">
+<contactref element="JP32" pad="1"/>
+</signal>
+<signal name="N$467">
+<contactref element="JP32" pad="2"/>
+</signal>
+<signal name="N$468">
+<contactref element="JP32" pad="3"/>
+</signal>
+<signal name="N$469">
+<contactref element="JP32" pad="4"/>
+</signal>
+<signal name="N$470">
+<contactref element="JP32" pad="5"/>
+</signal>
+<signal name="N$471">
+<contactref element="JP32" pad="6"/>
+</signal>
+<signal name="N$472">
+<contactref element="JP32" pad="7"/>
+</signal>
+<signal name="N$473">
+<contactref element="JP32" pad="8"/>
+</signal>
+<signal name="N$474">
+<contactref element="JP32" pad="9"/>
+</signal>
+<signal name="N$475">
+<contactref element="JP32" pad="10"/>
+</signal>
+<signal name="N$476">
+<contactref element="JP32" pad="11"/>
+</signal>
+<signal name="N$477">
+<contactref element="JP32" pad="12"/>
+</signal>
+<signal name="N$478">
+<contactref element="JP32" pad="13"/>
+</signal>
+<signal name="N$479">
+<contactref element="JP32" pad="14"/>
+</signal>
+<signal name="N$480">
+<contactref element="JP32" pad="15"/>
+</signal>
+<signal name="N$481">
+<contactref element="JP33" pad="1"/>
+</signal>
+<signal name="N$482">
+<contactref element="JP33" pad="2"/>
+</signal>
+<signal name="N$483">
+<contactref element="JP33" pad="3"/>
+</signal>
+<signal name="N$484">
+<contactref element="JP33" pad="4"/>
+</signal>
+<signal name="N$485">
+<contactref element="JP33" pad="5"/>
+</signal>
+<signal name="N$486">
+<contactref element="JP33" pad="6"/>
+</signal>
+<signal name="N$487">
+<contactref element="JP33" pad="7"/>
+</signal>
+<signal name="N$488">
+<contactref element="JP33" pad="8"/>
+</signal>
+<signal name="N$489">
+<contactref element="JP33" pad="9"/>
+</signal>
+<signal name="N$490">
+<contactref element="JP33" pad="10"/>
+</signal>
+<signal name="N$491">
+<contactref element="JP33" pad="11"/>
+</signal>
+<signal name="N$492">
+<contactref element="JP33" pad="12"/>
+</signal>
+<signal name="N$493">
+<contactref element="JP33" pad="13"/>
+</signal>
+<signal name="N$494">
+<contactref element="JP33" pad="14"/>
+</signal>
+<signal name="N$495">
+<contactref element="JP33" pad="15"/>
+</signal>
+<signal name="N$496">
+<contactref element="JP34" pad="1"/>
+</signal>
+<signal name="N$497">
+<contactref element="JP34" pad="2"/>
+</signal>
+<signal name="N$498">
+<contactref element="JP34" pad="3"/>
+</signal>
+<signal name="N$499">
+<contactref element="JP34" pad="4"/>
+</signal>
+<signal name="N$500">
+<contactref element="JP34" pad="5"/>
+</signal>
+<signal name="N$501">
+<contactref element="JP34" pad="6"/>
+</signal>
+<signal name="N$502">
+<contactref element="JP34" pad="7"/>
+</signal>
+<signal name="N$503">
+<contactref element="JP34" pad="8"/>
+</signal>
+<signal name="N$504">
+<contactref element="JP34" pad="9"/>
+</signal>
+<signal name="N$505">
+<contactref element="JP34" pad="10"/>
+</signal>
+<signal name="N$506">
+<contactref element="JP34" pad="11"/>
+</signal>
+<signal name="N$507">
+<contactref element="JP34" pad="12"/>
+</signal>
+<signal name="N$508">
+<contactref element="JP34" pad="13"/>
+</signal>
+<signal name="N$509">
+<contactref element="JP34" pad="14"/>
+</signal>
+<signal name="N$510">
+<contactref element="JP34" pad="15"/>
+</signal>
+<signal name="N$511">
+<contactref element="JP35" pad="1"/>
+</signal>
+<signal name="N$512">
+<contactref element="JP35" pad="2"/>
+</signal>
+<signal name="N$513">
+<contactref element="JP35" pad="3"/>
+</signal>
+<signal name="N$514">
+<contactref element="JP35" pad="4"/>
+</signal>
+<signal name="N$515">
+<contactref element="JP35" pad="5"/>
+</signal>
+<signal name="N$516">
+<contactref element="JP35" pad="6"/>
+</signal>
+<signal name="N$517">
+<contactref element="JP35" pad="7"/>
+</signal>
+<signal name="N$518">
+<contactref element="JP35" pad="8"/>
+</signal>
+<signal name="N$519">
+<contactref element="JP35" pad="9"/>
+</signal>
+<signal name="N$520">
+<contactref element="JP35" pad="10"/>
+</signal>
+<signal name="N$521">
+<contactref element="JP35" pad="11"/>
+</signal>
+<signal name="N$522">
+<contactref element="JP35" pad="12"/>
+</signal>
+<signal name="N$523">
+<contactref element="JP35" pad="13"/>
+</signal>
+<signal name="N$524">
+<contactref element="JP35" pad="14"/>
+</signal>
+<signal name="N$525">
+<contactref element="JP35" pad="15"/>
+</signal>
+<signal name="N$526">
+<contactref element="JP36" pad="1"/>
+</signal>
+<signal name="N$527">
+<contactref element="JP36" pad="2"/>
+</signal>
+<signal name="N$528">
+<contactref element="JP36" pad="3"/>
+</signal>
+<signal name="N$529">
+<contactref element="JP36" pad="4"/>
+</signal>
+<signal name="N$530">
+<contactref element="JP36" pad="5"/>
+</signal>
+<signal name="N$531">
+<contactref element="JP36" pad="6"/>
+</signal>
+<signal name="N$532">
+<contactref element="JP36" pad="7"/>
+</signal>
+<signal name="N$533">
+<contactref element="JP36" pad="8"/>
+</signal>
+<signal name="N$534">
+<contactref element="JP36" pad="9"/>
+</signal>
+<signal name="N$535">
+<contactref element="JP36" pad="10"/>
+</signal>
+<signal name="N$536">
+<contactref element="JP36" pad="11"/>
+</signal>
+<signal name="N$537">
+<contactref element="JP36" pad="12"/>
+</signal>
+<signal name="N$538">
+<contactref element="JP36" pad="13"/>
+</signal>
+<signal name="N$539">
+<contactref element="JP36" pad="14"/>
+</signal>
+<signal name="N$540">
+<contactref element="JP36" pad="15"/>
+</signal>
+<signal name="N$541">
+<contactref element="JP37" pad="1"/>
+</signal>
+<signal name="N$542">
+<contactref element="JP37" pad="2"/>
+</signal>
+<signal name="N$543">
+<contactref element="JP37" pad="3"/>
+</signal>
+<signal name="N$544">
+<contactref element="JP37" pad="4"/>
+</signal>
+<signal name="N$545">
+<contactref element="JP37" pad="5"/>
+</signal>
+<signal name="N$546">
+<contactref element="JP37" pad="6"/>
+</signal>
+<signal name="N$547">
+<contactref element="JP37" pad="7"/>
+</signal>
+<signal name="N$548">
+<contactref element="JP37" pad="8"/>
+</signal>
+<signal name="N$549">
+<contactref element="JP37" pad="9"/>
+</signal>
+<signal name="N$550">
+<contactref element="JP37" pad="10"/>
+</signal>
+<signal name="N$551">
+<contactref element="JP37" pad="11"/>
+</signal>
+<signal name="N$552">
+<contactref element="JP37" pad="12"/>
+</signal>
+<signal name="N$553">
+<contactref element="JP37" pad="13"/>
+</signal>
+<signal name="N$554">
+<contactref element="JP37" pad="14"/>
+</signal>
+<signal name="N$555">
+<contactref element="JP37" pad="15"/>
+</signal>
+<signal name="N$556">
+<contactref element="JP38" pad="1"/>
+</signal>
+<signal name="N$557">
+<contactref element="JP38" pad="2"/>
+</signal>
+<signal name="N$558">
+<contactref element="JP38" pad="3"/>
+</signal>
+<signal name="N$559">
+<contactref element="JP38" pad="4"/>
+</signal>
+<signal name="N$560">
+<contactref element="JP38" pad="5"/>
+</signal>
+<signal name="N$561">
+<contactref element="JP38" pad="6"/>
+</signal>
+<signal name="N$562">
+<contactref element="JP38" pad="7"/>
+</signal>
+<signal name="N$563">
+<contactref element="JP38" pad="8"/>
+</signal>
+<signal name="N$564">
+<contactref element="JP38" pad="9"/>
+</signal>
+<signal name="N$565">
+<contactref element="JP38" pad="10"/>
+</signal>
+<signal name="N$566">
+<contactref element="JP38" pad="11"/>
+</signal>
+<signal name="N$567">
+<contactref element="JP38" pad="12"/>
+</signal>
+<signal name="N$568">
+<contactref element="JP38" pad="13"/>
+</signal>
+<signal name="N$569">
+<contactref element="JP38" pad="14"/>
+</signal>
+<signal name="N$570">
+<contactref element="JP38" pad="15"/>
+</signal>
+<signal name="N$571">
+<contactref element="JP39" pad="1"/>
+</signal>
+<signal name="N$572">
+<contactref element="JP39" pad="2"/>
+</signal>
+<signal name="N$573">
+<contactref element="JP39" pad="3"/>
+</signal>
+<signal name="N$574">
+<contactref element="JP39" pad="4"/>
+</signal>
+<signal name="N$575">
+<contactref element="JP39" pad="5"/>
+</signal>
+<signal name="N$576">
+<contactref element="JP39" pad="6"/>
+</signal>
+<signal name="N$577">
+<contactref element="JP39" pad="7"/>
+</signal>
+<signal name="N$578">
+<contactref element="JP39" pad="8"/>
+</signal>
+<signal name="N$579">
+<contactref element="JP39" pad="9"/>
+</signal>
+<signal name="N$580">
+<contactref element="JP39" pad="10"/>
+</signal>
+<signal name="N$581">
+<contactref element="JP39" pad="11"/>
+</signal>
+<signal name="N$582">
+<contactref element="JP39" pad="12"/>
+</signal>
+<signal name="N$583">
+<contactref element="JP39" pad="13"/>
+</signal>
+<signal name="N$584">
+<contactref element="JP39" pad="14"/>
+</signal>
+<signal name="N$585">
+<contactref element="JP39" pad="15"/>
+</signal>
+<signal name="N$586">
+<contactref element="JP40" pad="1"/>
+</signal>
+<signal name="N$587">
+<contactref element="JP40" pad="2"/>
+</signal>
+<signal name="N$588">
+<contactref element="JP40" pad="3"/>
+</signal>
+<signal name="N$589">
+<contactref element="JP40" pad="4"/>
+</signal>
+<signal name="N$590">
+<contactref element="JP40" pad="5"/>
+</signal>
+<signal name="N$591">
+<contactref element="JP40" pad="6"/>
+</signal>
+<signal name="N$592">
+<contactref element="JP40" pad="7"/>
+</signal>
+<signal name="N$593">
+<contactref element="JP40" pad="8"/>
+</signal>
+<signal name="N$594">
+<contactref element="JP40" pad="9"/>
+</signal>
+<signal name="N$595">
+<contactref element="JP40" pad="10"/>
+</signal>
+<signal name="N$596">
+<contactref element="JP40" pad="11"/>
+</signal>
+<signal name="N$597">
+<contactref element="JP40" pad="12"/>
+</signal>
+<signal name="N$598">
+<contactref element="JP40" pad="13"/>
+</signal>
+<signal name="N$599">
+<contactref element="JP40" pad="14"/>
+</signal>
+<signal name="N$600">
+<contactref element="JP40" pad="15"/>
+</signal>
+<signal name="N$601">
+<contactref element="JP41" pad="5"/>
+</signal>
+<signal name="N$602">
+<contactref element="JP41" pad="4"/>
+</signal>
+<signal name="N$603">
+<contactref element="JP41" pad="3"/>
+</signal>
+<signal name="N$604">
+<contactref element="JP41" pad="2"/>
+</signal>
+<signal name="N$605">
+<contactref element="JP41" pad="1"/>
+</signal>
+<signal name="N$606">
+<contactref element="JP42" pad="5"/>
+</signal>
+<signal name="N$607">
+<contactref element="JP42" pad="4"/>
+</signal>
+<signal name="N$608">
+<contactref element="JP42" pad="3"/>
+</signal>
+<signal name="N$609">
+<contactref element="JP42" pad="2"/>
+</signal>
+<signal name="N$610">
+<contactref element="JP42" pad="1"/>
+</signal>
+<signal name="N$611">
+<contactref element="JP43" pad="5"/>
+</signal>
+<signal name="N$612">
+<contactref element="JP43" pad="4"/>
+</signal>
+<signal name="N$613">
+<contactref element="JP43" pad="3"/>
+</signal>
+<signal name="N$614">
+<contactref element="JP43" pad="2"/>
+</signal>
+<signal name="N$615">
+<contactref element="JP43" pad="1"/>
+</signal>
+<signal name="N$616">
+<contactref element="JP44" pad="5"/>
+</signal>
+<signal name="N$617">
+<contactref element="JP44" pad="4"/>
+</signal>
+<signal name="N$618">
+<contactref element="JP44" pad="3"/>
+</signal>
+<signal name="N$619">
+<contactref element="JP44" pad="2"/>
+</signal>
+<signal name="N$620">
+<contactref element="JP44" pad="1"/>
+</signal>
+<signal name="N$621">
+<contactref element="JP45" pad="5"/>
+</signal>
+<signal name="N$622">
+<contactref element="JP45" pad="4"/>
+</signal>
+<signal name="N$623">
+<contactref element="JP45" pad="3"/>
+</signal>
+<signal name="N$624">
+<contactref element="JP45" pad="2"/>
+</signal>
+<signal name="N$625">
+<contactref element="JP45" pad="1"/>
+</signal>
+<signal name="N$626">
+<contactref element="JP46" pad="5"/>
+</signal>
+<signal name="N$627">
+<contactref element="JP46" pad="4"/>
+</signal>
+<signal name="N$628">
+<contactref element="JP46" pad="3"/>
+</signal>
+<signal name="N$629">
+<contactref element="JP46" pad="2"/>
+</signal>
+<signal name="N$630">
+<contactref element="JP46" pad="1"/>
+</signal>
+<signal name="N$631">
+<contactref element="JP47" pad="5"/>
+</signal>
+<signal name="N$632">
+<contactref element="JP47" pad="4"/>
+</signal>
+<signal name="N$633">
+<contactref element="JP47" pad="3"/>
+</signal>
+<signal name="N$634">
+<contactref element="JP47" pad="2"/>
+</signal>
+<signal name="N$635">
+<contactref element="JP47" pad="1"/>
+</signal>
+<signal name="N$636">
+<contactref element="JP48" pad="5"/>
+</signal>
+<signal name="N$637">
+<contactref element="JP48" pad="4"/>
+</signal>
+<signal name="N$638">
+<contactref element="JP48" pad="3"/>
+</signal>
+<signal name="N$639">
+<contactref element="JP48" pad="2"/>
+</signal>
+<signal name="N$640">
+<contactref element="JP48" pad="1"/>
+</signal>
+<signal name="N$641">
+<contactref element="JP49" pad="5"/>
+</signal>
+<signal name="N$642">
+<contactref element="JP49" pad="4"/>
+</signal>
+<signal name="N$643">
+<contactref element="JP49" pad="3"/>
+</signal>
+<signal name="N$644">
+<contactref element="JP49" pad="2"/>
+</signal>
+<signal name="N$645">
+<contactref element="JP49" pad="1"/>
+</signal>
+<signal name="N$646">
+<contactref element="JP50" pad="5"/>
+</signal>
+<signal name="N$647">
+<contactref element="JP50" pad="4"/>
+</signal>
+<signal name="N$648">
+<contactref element="JP50" pad="3"/>
+</signal>
+<signal name="N$649">
+<contactref element="JP50" pad="2"/>
+</signal>
+<signal name="N$650">
+<contactref element="JP50" pad="1"/>
+</signal>
+<signal name="N$651">
+<contactref element="JP51" pad="5"/>
+</signal>
+<signal name="N$652">
+<contactref element="JP51" pad="4"/>
+</signal>
+<signal name="N$653">
+<contactref element="JP51" pad="3"/>
+</signal>
+<signal name="N$654">
+<contactref element="JP51" pad="2"/>
+</signal>
+<signal name="N$655">
+<contactref element="JP51" pad="1"/>
+</signal>
+<signal name="N$656">
+<contactref element="JP52" pad="5"/>
+</signal>
+<signal name="N$657">
+<contactref element="JP52" pad="4"/>
+</signal>
+<signal name="N$658">
+<contactref element="JP52" pad="3"/>
+</signal>
+<signal name="N$659">
+<contactref element="JP52" pad="2"/>
+</signal>
+<signal name="N$660">
+<contactref element="JP52" pad="1"/>
+</signal>
+<signal name="N$661">
+<contactref element="JP53" pad="5"/>
+</signal>
+<signal name="N$662">
+<contactref element="JP53" pad="4"/>
+</signal>
+<signal name="N$663">
+<contactref element="JP53" pad="3"/>
+</signal>
+<signal name="N$664">
+<contactref element="JP53" pad="2"/>
+</signal>
+<signal name="N$665">
+<contactref element="JP53" pad="1"/>
+</signal>
+<signal name="N$666">
+<contactref element="JP54" pad="5"/>
+</signal>
+<signal name="N$667">
+<contactref element="JP54" pad="4"/>
+</signal>
+<signal name="N$668">
+<contactref element="JP54" pad="3"/>
+</signal>
+<signal name="N$669">
+<contactref element="JP54" pad="2"/>
+</signal>
+<signal name="N$670">
+<contactref element="JP54" pad="1"/>
+</signal>
+<signal name="N$671">
+<contactref element="JP55" pad="5"/>
+</signal>
+<signal name="N$672">
+<contactref element="JP55" pad="4"/>
+</signal>
+<signal name="N$673">
+<contactref element="JP55" pad="3"/>
+</signal>
+<signal name="N$674">
+<contactref element="JP55" pad="2"/>
+</signal>
+<signal name="N$675">
+<contactref element="JP55" pad="1"/>
+</signal>
+<signal name="N$676">
+<contactref element="JP56" pad="5"/>
+</signal>
+<signal name="N$677">
+<contactref element="JP56" pad="4"/>
+</signal>
+<signal name="N$678">
+<contactref element="JP56" pad="3"/>
+</signal>
+<signal name="N$679">
+<contactref element="JP56" pad="2"/>
+</signal>
+<signal name="N$680">
+<contactref element="JP56" pad="1"/>
+</signal>
+<signal name="N$681">
+<contactref element="JP57" pad="5"/>
+</signal>
+<signal name="N$682">
+<contactref element="JP57" pad="4"/>
+</signal>
+<signal name="N$683">
+<contactref element="JP57" pad="3"/>
+</signal>
+<signal name="N$684">
+<contactref element="JP57" pad="2"/>
+</signal>
+<signal name="N$685">
+<contactref element="JP57" pad="1"/>
+</signal>
+<signal name="N$686">
+<contactref element="JP58" pad="5"/>
+</signal>
+<signal name="N$687">
+<contactref element="JP58" pad="4"/>
+</signal>
+<signal name="N$688">
+<contactref element="JP58" pad="3"/>
+</signal>
+<signal name="N$689">
+<contactref element="JP58" pad="2"/>
+</signal>
+<signal name="N$690">
+<contactref element="JP58" pad="1"/>
+</signal>
+<signal name="N$691">
+<contactref element="JP59" pad="5"/>
+</signal>
+<signal name="N$692">
+<contactref element="JP59" pad="4"/>
+</signal>
+<signal name="N$693">
+<contactref element="JP59" pad="3"/>
+</signal>
+<signal name="N$694">
+<contactref element="JP59" pad="2"/>
+</signal>
+<signal name="N$695">
+<contactref element="JP59" pad="1"/>
+</signal>
+<signal name="N$696">
+<contactref element="JP60" pad="5"/>
+</signal>
+<signal name="N$697">
+<contactref element="JP60" pad="4"/>
+</signal>
+<signal name="N$698">
+<contactref element="JP60" pad="3"/>
+</signal>
+<signal name="N$699">
+<contactref element="JP60" pad="2"/>
+</signal>
+<signal name="N$700">
+<contactref element="JP60" pad="1"/>
+</signal>
+<signal name="N$701">
+<contactref element="JP61" pad="5"/>
+</signal>
+<signal name="N$702">
+<contactref element="JP61" pad="4"/>
+</signal>
+<signal name="N$703">
+<contactref element="JP61" pad="3"/>
+</signal>
+<signal name="N$704">
+<contactref element="JP61" pad="2"/>
+</signal>
+<signal name="N$705">
+<contactref element="JP61" pad="1"/>
+</signal>
+<signal name="N$706">
+<contactref element="JP62" pad="5"/>
+</signal>
+<signal name="N$707">
+<contactref element="JP62" pad="4"/>
+</signal>
+<signal name="N$708">
+<contactref element="JP62" pad="3"/>
+</signal>
+<signal name="N$709">
+<contactref element="JP62" pad="2"/>
+</signal>
+<signal name="N$710">
+<contactref element="JP62" pad="1"/>
+</signal>
+<signal name="N$711">
+<contactref element="JP63" pad="5"/>
+</signal>
+<signal name="N$712">
+<contactref element="JP63" pad="4"/>
+</signal>
+<signal name="N$713">
+<contactref element="JP63" pad="3"/>
+</signal>
+<signal name="N$714">
+<contactref element="JP63" pad="2"/>
+</signal>
+<signal name="N$715">
+<contactref element="JP63" pad="1"/>
+</signal>
+<signal name="N$716">
+<contactref element="JP64" pad="5"/>
+</signal>
+<signal name="N$717">
+<contactref element="JP64" pad="4"/>
+</signal>
+<signal name="N$718">
+<contactref element="JP64" pad="3"/>
+</signal>
+<signal name="N$719">
+<contactref element="JP64" pad="2"/>
+</signal>
+<signal name="N$720">
+<contactref element="JP64" pad="1"/>
+</signal>
+<signal name="N$721">
+<contactref element="JP65" pad="5"/>
+</signal>
+<signal name="N$722">
+<contactref element="JP65" pad="4"/>
+</signal>
+<signal name="N$723">
+<contactref element="JP65" pad="3"/>
+</signal>
+<signal name="N$724">
+<contactref element="JP65" pad="2"/>
+</signal>
+<signal name="N$725">
+<contactref element="JP65" pad="1"/>
+</signal>
+<signal name="N$726">
+<contactref element="JP66" pad="5"/>
+</signal>
+<signal name="N$727">
+<contactref element="JP66" pad="4"/>
+</signal>
+<signal name="N$728">
+<contactref element="JP66" pad="3"/>
+</signal>
+<signal name="N$729">
+<contactref element="JP66" pad="2"/>
+</signal>
+<signal name="N$730">
+<contactref element="JP66" pad="1"/>
+</signal>
+<signal name="N$731">
+<contactref element="JP67" pad="5"/>
+</signal>
+<signal name="N$732">
+<contactref element="JP67" pad="4"/>
+</signal>
+<signal name="N$733">
+<contactref element="JP67" pad="3"/>
+</signal>
+<signal name="N$734">
+<contactref element="JP67" pad="2"/>
+</signal>
+<signal name="N$735">
+<contactref element="JP67" pad="1"/>
+</signal>
+<signal name="N$736">
+<contactref element="JP68" pad="5"/>
+</signal>
+<signal name="N$737">
+<contactref element="JP68" pad="4"/>
+</signal>
+<signal name="N$738">
+<contactref element="JP68" pad="3"/>
+</signal>
+<signal name="N$739">
+<contactref element="JP68" pad="2"/>
+</signal>
+<signal name="N$740">
+<contactref element="JP68" pad="1"/>
+</signal>
+<signal name="N$741">
+<contactref element="JP69" pad="5"/>
+</signal>
+<signal name="N$742">
+<contactref element="JP69" pad="4"/>
+</signal>
+<signal name="N$743">
+<contactref element="JP69" pad="3"/>
+</signal>
+<signal name="N$744">
+<contactref element="JP69" pad="2"/>
+</signal>
+<signal name="N$745">
+<contactref element="JP69" pad="1"/>
+</signal>
+<signal name="N$746">
+<contactref element="JP70" pad="5"/>
+</signal>
+<signal name="N$747">
+<contactref element="JP70" pad="4"/>
+</signal>
+<signal name="N$748">
+<contactref element="JP70" pad="3"/>
+</signal>
+<signal name="N$749">
+<contactref element="JP70" pad="2"/>
+</signal>
+<signal name="N$750">
+<contactref element="JP70" pad="1"/>
+</signal>
+<signal name="N$751">
+<contactref element="JP71" pad="5"/>
+</signal>
+<signal name="N$752">
+<contactref element="JP71" pad="4"/>
+</signal>
+<signal name="N$753">
+<contactref element="JP71" pad="3"/>
+</signal>
+<signal name="N$754">
+<contactref element="JP71" pad="2"/>
+</signal>
+<signal name="N$755">
+<contactref element="JP71" pad="1"/>
+</signal>
+<signal name="N$756">
+<contactref element="JP72" pad="5"/>
+</signal>
+<signal name="N$757">
+<contactref element="JP72" pad="4"/>
+</signal>
+<signal name="N$758">
+<contactref element="JP72" pad="3"/>
+</signal>
+<signal name="N$759">
+<contactref element="JP72" pad="2"/>
+</signal>
+<signal name="N$760">
+<contactref element="JP72" pad="1"/>
+</signal>
+<signal name="N$761">
+<contactref element="JP73" pad="5"/>
+</signal>
+<signal name="N$762">
+<contactref element="JP73" pad="4"/>
+</signal>
+<signal name="N$763">
+<contactref element="JP73" pad="3"/>
+</signal>
+<signal name="N$764">
+<contactref element="JP73" pad="2"/>
+</signal>
+<signal name="N$765">
+<contactref element="JP73" pad="1"/>
+</signal>
+<signal name="N$766">
+<contactref element="JP74" pad="5"/>
+</signal>
+<signal name="N$767">
+<contactref element="JP74" pad="4"/>
+</signal>
+<signal name="N$768">
+<contactref element="JP74" pad="3"/>
+</signal>
+<signal name="N$769">
+<contactref element="JP74" pad="2"/>
+</signal>
+<signal name="N$770">
+<contactref element="JP74" pad="1"/>
+</signal>
+<signal name="N$771">
+<contactref element="JP75" pad="5"/>
+</signal>
+<signal name="N$772">
+<contactref element="JP75" pad="4"/>
+</signal>
+<signal name="N$773">
+<contactref element="JP75" pad="3"/>
+</signal>
+<signal name="N$774">
+<contactref element="JP75" pad="2"/>
+</signal>
+<signal name="N$775">
+<contactref element="JP75" pad="1"/>
+</signal>
+<signal name="N$776">
+<contactref element="JP76" pad="5"/>
+</signal>
+<signal name="N$777">
+<contactref element="JP76" pad="4"/>
+</signal>
+<signal name="N$778">
+<contactref element="JP76" pad="3"/>
+</signal>
+<signal name="N$779">
+<contactref element="JP76" pad="2"/>
+</signal>
+<signal name="N$780">
+<contactref element="JP76" pad="1"/>
+</signal>
+<signal name="N$781">
+<contactref element="JP77" pad="5"/>
+</signal>
+<signal name="N$782">
+<contactref element="JP77" pad="4"/>
+</signal>
+<signal name="N$783">
+<contactref element="JP77" pad="3"/>
+</signal>
+<signal name="N$784">
+<contactref element="JP77" pad="2"/>
+</signal>
+<signal name="N$785">
+<contactref element="JP77" pad="1"/>
+</signal>
+<signal name="N$786">
+<contactref element="JP78" pad="5"/>
+</signal>
+<signal name="N$787">
+<contactref element="JP78" pad="4"/>
+</signal>
+<signal name="N$788">
+<contactref element="JP78" pad="3"/>
+</signal>
+<signal name="N$789">
+<contactref element="JP78" pad="2"/>
+</signal>
+<signal name="N$790">
+<contactref element="JP78" pad="1"/>
+</signal>
+<signal name="N$791">
+<contactref element="JP79" pad="5"/>
+</signal>
+<signal name="N$792">
+<contactref element="JP79" pad="4"/>
+</signal>
+<signal name="N$793">
+<contactref element="JP79" pad="3"/>
+</signal>
+<signal name="N$794">
+<contactref element="JP79" pad="2"/>
+</signal>
+<signal name="N$795">
+<contactref element="JP79" pad="1"/>
+</signal>
+<signal name="N$796">
+<contactref element="JP80" pad="5"/>
+</signal>
+<signal name="N$797">
+<contactref element="JP80" pad="4"/>
+</signal>
+<signal name="N$798">
+<contactref element="JP80" pad="3"/>
+</signal>
+<signal name="N$799">
+<contactref element="JP80" pad="2"/>
+</signal>
+<signal name="N$800">
+<contactref element="JP80" pad="1"/>
+</signal>
+<signal name="N$801">
+<contactref element="JP81" pad="5"/>
+</signal>
+<signal name="N$802">
+<contactref element="JP81" pad="4"/>
+</signal>
+<signal name="N$803">
+<contactref element="JP81" pad="3"/>
+</signal>
+<signal name="N$804">
+<contactref element="JP81" pad="2"/>
+</signal>
+<signal name="N$805">
+<contactref element="JP81" pad="1"/>
+</signal>
+<signal name="N$806">
+<contactref element="JP82" pad="5"/>
+</signal>
+<signal name="N$807">
+<contactref element="JP82" pad="4"/>
+</signal>
+<signal name="N$808">
+<contactref element="JP82" pad="3"/>
+</signal>
+<signal name="N$809">
+<contactref element="JP82" pad="2"/>
+</signal>
+<signal name="N$810">
+<contactref element="JP82" pad="1"/>
+</signal>
+<signal name="N$811">
+<contactref element="JP83" pad="5"/>
+</signal>
+<signal name="N$812">
+<contactref element="JP83" pad="4"/>
+</signal>
+<signal name="N$813">
+<contactref element="JP83" pad="3"/>
+</signal>
+<signal name="N$814">
+<contactref element="JP83" pad="2"/>
+</signal>
+<signal name="N$815">
+<contactref element="JP83" pad="1"/>
+</signal>
+<signal name="N$816">
+<contactref element="JP84" pad="5"/>
+</signal>
+<signal name="N$817">
+<contactref element="JP84" pad="4"/>
+</signal>
+<signal name="N$818">
+<contactref element="JP84" pad="3"/>
+</signal>
+<signal name="N$819">
+<contactref element="JP84" pad="2"/>
+</signal>
+<signal name="N$820">
+<contactref element="JP84" pad="1"/>
+</signal>
+<signal name="N$821">
+<contactref element="JP85" pad="5"/>
+</signal>
+<signal name="N$822">
+<contactref element="JP85" pad="4"/>
+</signal>
+<signal name="N$823">
+<contactref element="JP85" pad="3"/>
+</signal>
+<signal name="N$824">
+<contactref element="JP85" pad="2"/>
+</signal>
+<signal name="N$825">
+<contactref element="JP85" pad="1"/>
+</signal>
+<signal name="N$826">
+<contactref element="JP86" pad="5"/>
+</signal>
+<signal name="N$827">
+<contactref element="JP86" pad="4"/>
+</signal>
+<signal name="N$828">
+<contactref element="JP86" pad="3"/>
+</signal>
+<signal name="N$829">
+<contactref element="JP86" pad="2"/>
+</signal>
+<signal name="N$830">
+<contactref element="JP86" pad="1"/>
+</signal>
+<signal name="N$831">
+<contactref element="JP87" pad="5"/>
+</signal>
+<signal name="N$832">
+<contactref element="JP87" pad="4"/>
+</signal>
+<signal name="N$833">
+<contactref element="JP87" pad="3"/>
+</signal>
+<signal name="N$834">
+<contactref element="JP87" pad="2"/>
+</signal>
+<signal name="N$835">
+<contactref element="JP87" pad="1"/>
+</signal>
+<signal name="N$836">
+<contactref element="JP88" pad="5"/>
+</signal>
+<signal name="N$837">
+<contactref element="JP88" pad="4"/>
+</signal>
+<signal name="N$838">
+<contactref element="JP88" pad="3"/>
+</signal>
+<signal name="N$839">
+<contactref element="JP88" pad="2"/>
+</signal>
+<signal name="N$840">
+<contactref element="JP88" pad="1"/>
+</signal>
+<signal name="N$841">
+<contactref element="JP89" pad="5"/>
+</signal>
+<signal name="N$842">
+<contactref element="JP89" pad="4"/>
+</signal>
+<signal name="N$843">
+<contactref element="JP89" pad="3"/>
+</signal>
+<signal name="N$844">
+<contactref element="JP89" pad="2"/>
+</signal>
+<signal name="N$845">
+<contactref element="JP89" pad="1"/>
+</signal>
+<signal name="N$846">
+<contactref element="JP90" pad="5"/>
+</signal>
+<signal name="N$847">
+<contactref element="JP90" pad="4"/>
+</signal>
+<signal name="N$848">
+<contactref element="JP90" pad="3"/>
+</signal>
+<signal name="N$849">
+<contactref element="JP90" pad="2"/>
+</signal>
+<signal name="N$850">
+<contactref element="JP90" pad="1"/>
+</signal>
+<signal name="N$851">
+<contactref element="JP91" pad="5"/>
+</signal>
+<signal name="N$852">
+<contactref element="JP91" pad="4"/>
+</signal>
+<signal name="N$853">
+<contactref element="JP91" pad="3"/>
+</signal>
+<signal name="N$854">
+<contactref element="JP91" pad="2"/>
+</signal>
+<signal name="N$855">
+<contactref element="JP91" pad="1"/>
+</signal>
+<signal name="N$856">
+<contactref element="JP92" pad="5"/>
+</signal>
+<signal name="N$857">
+<contactref element="JP92" pad="4"/>
+</signal>
+<signal name="N$858">
+<contactref element="JP92" pad="3"/>
+</signal>
+<signal name="N$859">
+<contactref element="JP92" pad="2"/>
+</signal>
+<signal name="N$860">
+<contactref element="JP92" pad="1"/>
+</signal>
+<signal name="N$861">
+<contactref element="JP93" pad="5"/>
+</signal>
+<signal name="N$862">
+<contactref element="JP93" pad="4"/>
+</signal>
+<signal name="N$863">
+<contactref element="JP93" pad="3"/>
+</signal>
+<signal name="N$864">
+<contactref element="JP93" pad="2"/>
+</signal>
+<signal name="N$865">
+<contactref element="JP93" pad="1"/>
+</signal>
+<signal name="N$866">
+<contactref element="JP94" pad="5"/>
+</signal>
+<signal name="N$867">
+<contactref element="JP94" pad="4"/>
+</signal>
+<signal name="N$868">
+<contactref element="JP94" pad="3"/>
+</signal>
+<signal name="N$869">
+<contactref element="JP94" pad="2"/>
+</signal>
+<signal name="N$870">
+<contactref element="JP94" pad="1"/>
+</signal>
+<signal name="N$871">
+<contactref element="JP95" pad="5"/>
+</signal>
+<signal name="N$872">
+<contactref element="JP95" pad="4"/>
+</signal>
+<signal name="N$873">
+<contactref element="JP95" pad="3"/>
+</signal>
+<signal name="N$874">
+<contactref element="JP95" pad="2"/>
+</signal>
+<signal name="N$875">
+<contactref element="JP95" pad="1"/>
+</signal>
+<signal name="N$876">
+<contactref element="JP96" pad="5"/>
+</signal>
+<signal name="N$877">
+<contactref element="JP96" pad="4"/>
+</signal>
+<signal name="N$878">
+<contactref element="JP96" pad="3"/>
+</signal>
+<signal name="N$879">
+<contactref element="JP96" pad="2"/>
+</signal>
+<signal name="N$880">
+<contactref element="JP96" pad="1"/>
+</signal>
+<signal name="N$881">
+<contactref element="JP97" pad="5"/>
+</signal>
+<signal name="N$882">
+<contactref element="JP97" pad="4"/>
+</signal>
+<signal name="N$883">
+<contactref element="JP97" pad="3"/>
+</signal>
+<signal name="N$884">
+<contactref element="JP97" pad="2"/>
+</signal>
+<signal name="N$885">
+<contactref element="JP97" pad="1"/>
+</signal>
+<signal name="N$886">
+<contactref element="JP98" pad="5"/>
+</signal>
+<signal name="N$887">
+<contactref element="JP98" pad="4"/>
+</signal>
+<signal name="N$888">
+<contactref element="JP98" pad="3"/>
+</signal>
+<signal name="N$889">
+<contactref element="JP98" pad="2"/>
+</signal>
+<signal name="N$890">
+<contactref element="JP98" pad="1"/>
+</signal>
+<signal name="N$891">
+<contactref element="JP99" pad="5"/>
+</signal>
+<signal name="N$892">
+<contactref element="JP99" pad="4"/>
+</signal>
+<signal name="N$893">
+<contactref element="JP99" pad="3"/>
+</signal>
+<signal name="N$894">
+<contactref element="JP99" pad="2"/>
+</signal>
+<signal name="N$895">
+<contactref element="JP99" pad="1"/>
+</signal>
+<signal name="N$896">
+<contactref element="JP100" pad="5"/>
+</signal>
+<signal name="N$897">
+<contactref element="JP100" pad="4"/>
+</signal>
+<signal name="N$898">
+<contactref element="JP100" pad="3"/>
+</signal>
+<signal name="N$899">
+<contactref element="JP100" pad="2"/>
+</signal>
+<signal name="N$900">
+<contactref element="JP100" pad="1"/>
 </signal>
 </signals>
 </board>

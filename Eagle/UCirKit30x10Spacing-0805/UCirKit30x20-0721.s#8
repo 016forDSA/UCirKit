@@ -1216,6 +1216,7 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="JP158" library="SparkFun-Connectors" deviceset="M05" device="1.27MM"/>
 <part name="JP159" library="SparkFun-Connectors" deviceset="M05" device="1.27MM"/>
 <part name="JP160" library="SparkFun-Connectors" deviceset="M05" device="1.27MM"/>
+<part name="JP113" library="SparkFun-Connectors" deviceset="M05" device="1.27MM"/>
 </parts>
 <sheets>
 <sheet>
@@ -1381,6 +1382,7 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <instance part="JP158" gate="G$1" x="622.3" y="-91.44"/>
 <instance part="JP159" gate="G$1" x="622.3" y="-109.22"/>
 <instance part="JP160" gate="G$1" x="622.3" y="-127"/>
+<instance part="JP113" gate="G$1" x="134.62" y="-91.44"/>
 </instances>
 <busses>
 </busses>

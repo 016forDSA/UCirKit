@@ -1,0 +1,19 @@
+string command = "";
+
+output("RenameAllNetToClean.txt"){
+   int cleanNum = 0;
+
+   schematic(S){
+      S.parts(PART){
+         PART.instances(INSTANCE){
+            INSTANCE.gate.symbol.pins(PIN){
+               PIN.wires(WIRE){
+                  sprintf(command, "%s NAME CLEAN%d (%f %f);", command, cleanNum++, u2inch(WIRE.x1), u2inch(WIRE.y1));
+               }
+            }
+         }
+      }
+   }
+}
+
+exit(command);

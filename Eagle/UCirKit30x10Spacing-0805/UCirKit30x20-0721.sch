@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.3.0">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -1227,358 +1227,293 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <busses>
 </busses>
 <nets>
-<net name="NEW_2" class="0">
-<segment>
-<pinref part="JP1" gate="G$1" pin="6"/>
-<wire x1="12.7" y1="99.06" x2="25.4" y2="99.06" width="0.1524" layer="91"/>
-<label x="12.7" y="99.06" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN302" class="0">
 <segment>
 <pinref part="JP42" gate="G$1" pin="3"/>
 <wire x1="12.7" y1="-38.1" x2="30.48" y2="-38.1" width="0.1524" layer="91"/>
 <label x="12.7" y="-38.1" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_4" class="0">
-<segment>
-<pinref part="JP1" gate="G$1" pin="7"/>
-<wire x1="12.7" y1="101.6" x2="25.4" y2="101.6" width="0.1524" layer="91"/>
-<label x="12.7" y="101.6" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN304" class="0">
 <segment>
 <pinref part="JP42" gate="G$1" pin="5"/>
 <wire x1="12.7" y1="-33.02" x2="30.48" y2="-33.02" width="0.1524" layer="91"/>
 <label x="12.7" y="-33.02" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_53" class="0">
+<net name="CLEAN7" class="0">
 <segment>
 <pinref part="JP1" gate="G$1" pin="8"/>
 <wire x1="12.7" y1="104.14" x2="25.4" y2="104.14" width="0.1524" layer="91"/>
 <label x="12.7" y="104.14" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_54" class="0">
+<net name="CLEAN8" class="0">
 <segment>
 <pinref part="JP1" gate="G$1" pin="9"/>
 <wire x1="12.7" y1="106.68" x2="25.4" y2="106.68" width="0.1524" layer="91"/>
 <label x="12.7" y="106.68" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_205" class="0">
-<segment>
-<pinref part="JP3" gate="G$1" pin="3"/>
-<wire x1="78.74" y1="91.44" x2="93.98" y2="91.44" width="0.1524" layer="91"/>
-<label x="78.74" y="91.44" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN310" class="0">
 <segment>
 <pinref part="JP47" gate="G$1" pin="1"/>
 <wire x1="78.74" y1="-25.4" x2="96.52" y2="-25.4" width="0.1524" layer="91"/>
 <label x="78.74" y="-25.4" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_207" class="0">
-<segment>
-<pinref part="JP3" gate="G$1" pin="4"/>
-<wire x1="78.74" y1="93.98" x2="93.98" y2="93.98" width="0.1524" layer="91"/>
-<label x="78.74" y="93.98" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN312" class="0">
 <segment>
 <pinref part="JP47" gate="G$1" pin="3"/>
 <wire x1="78.74" y1="-20.32" x2="96.52" y2="-20.32" width="0.1524" layer="91"/>
 <label x="78.74" y="-20.32" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_206" class="0">
-<segment>
-<pinref part="JP3" gate="G$1" pin="5"/>
-<wire x1="78.74" y1="96.52" x2="93.98" y2="96.52" width="0.1524" layer="91"/>
-<label x="78.74" y="96.52" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN311" class="0">
 <segment>
 <pinref part="JP47" gate="G$1" pin="2"/>
 <wire x1="78.74" y1="-22.86" x2="96.52" y2="-22.86" width="0.1524" layer="91"/>
 <label x="78.74" y="-22.86" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_208" class="0">
-<segment>
-<pinref part="JP3" gate="G$1" pin="6"/>
-<wire x1="78.74" y1="99.06" x2="93.98" y2="99.06" width="0.1524" layer="91"/>
-<label x="78.74" y="99.06" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN313" class="0">
 <segment>
 <pinref part="JP47" gate="G$1" pin="4"/>
 <wire x1="78.74" y1="-17.78" x2="96.52" y2="-17.78" width="0.1524" layer="91"/>
 <label x="78.74" y="-17.78" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_209" class="0">
-<segment>
-<pinref part="JP3" gate="G$1" pin="7"/>
-<wire x1="78.74" y1="101.6" x2="93.98" y2="101.6" width="0.1524" layer="91"/>
-<label x="78.74" y="101.6" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN314" class="0">
 <segment>
 <pinref part="JP47" gate="G$1" pin="5"/>
 <wire x1="78.74" y1="-15.24" x2="96.52" y2="-15.24" width="0.1524" layer="91"/>
 <label x="78.74" y="-15.24" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_251" class="0">
+<net name="CLEAN30" class="0">
 <segment>
 <pinref part="JP5" gate="G$1" pin="1"/>
 <wire x1="142.24" y1="86.36" x2="154.94" y2="86.36" width="0.1524" layer="91"/>
 <label x="142.24" y="86.36" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_252" class="0">
+<net name="CLEAN31" class="0">
 <segment>
 <pinref part="JP5" gate="G$1" pin="2"/>
 <wire x1="142.24" y1="88.9" x2="154.94" y2="88.9" width="0.1524" layer="91"/>
 <label x="142.24" y="88.9" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_261" class="0">
+<net name="CLEAN32" class="0">
 <segment>
 <pinref part="JP5" gate="G$1" pin="3"/>
 <wire x1="142.24" y1="91.44" x2="154.94" y2="91.44" width="0.1524" layer="91"/>
 <label x="142.24" y="91.44" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_266" class="0">
+<net name="CLEAN33" class="0">
 <segment>
 <pinref part="JP5" gate="G$1" pin="4"/>
 <wire x1="142.24" y1="93.98" x2="154.94" y2="93.98" width="0.1524" layer="91"/>
 <label x="142.24" y="93.98" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_265" class="0">
+<net name="CLEAN34" class="0">
 <segment>
 <pinref part="JP5" gate="G$1" pin="5"/>
 <wire x1="142.24" y1="96.52" x2="154.94" y2="96.52" width="0.1524" layer="91"/>
 <label x="142.24" y="96.52" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_323" class="0">
+<net name="CLEAN378" class="0">
 <segment>
 <pinref part="JP72" gate="G$1" pin="4"/>
 <wire x1="340.36" y1="-35.56" x2="358.14" y2="-35.56" width="0.1524" layer="91"/>
 <label x="340.36" y="-35.56" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_319" class="0">
+<net name="CLEAN384" class="0">
 <segment>
 <pinref part="JP73" gate="G$1" pin="5"/>
 <wire x1="340.36" y1="-50.8" x2="358.14" y2="-50.8" width="0.1524" layer="91"/>
 <label x="340.36" y="-50.8" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_324" class="0">
-<segment>
-<pinref part="JP13" gate="G$1" pin="1"/>
-<wire x1="406.4" y1="86.36" x2="424.18" y2="86.36" width="0.1524" layer="91"/>
-<label x="406.4" y="86.36" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN379" class="0">
 <segment>
 <pinref part="JP72" gate="G$1" pin="5"/>
 <wire x1="340.36" y1="-33.02" x2="358.14" y2="-33.02" width="0.1524" layer="91"/>
 <label x="340.36" y="-33.02" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_333" class="0">
+<net name="CLEAN91" class="0">
 <segment>
 <pinref part="JP13" gate="G$1" pin="2"/>
 <wire x1="406.4" y1="88.9" x2="424.18" y2="88.9" width="0.1524" layer="91"/>
 <label x="406.4" y="88.9" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_282" class="0">
+<net name="CLEAN92" class="0">
 <segment>
 <pinref part="JP13" gate="G$1" pin="3"/>
 <wire x1="406.4" y1="91.44" x2="424.18" y2="91.44" width="0.1524" layer="91"/>
 <label x="406.4" y="91.44" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_283" class="0">
+<net name="CLEAN93" class="0">
 <segment>
 <pinref part="JP13" gate="G$1" pin="4"/>
 <wire x1="406.4" y1="93.98" x2="424.18" y2="93.98" width="0.1524" layer="91"/>
 <label x="406.4" y="93.98" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_284" class="0">
+<net name="CLEAN94" class="0">
 <segment>
 <pinref part="JP13" gate="G$1" pin="5"/>
 <wire x1="406.4" y1="96.52" x2="424.18" y2="96.52" width="0.1524" layer="91"/>
 <label x="406.4" y="96.52" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_330" class="0">
+<net name="CLEAN95" class="0">
 <segment>
 <pinref part="JP13" gate="G$1" pin="6"/>
 <wire x1="406.4" y1="99.06" x2="424.18" y2="99.06" width="0.1524" layer="91"/>
 <label x="406.4" y="99.06" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_337" class="0">
+<net name="CLEAN96" class="0">
 <segment>
 <pinref part="JP13" gate="G$1" pin="7"/>
 <wire x1="406.4" y1="101.6" x2="424.18" y2="101.6" width="0.1524" layer="91"/>
 <label x="406.4" y="101.6" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_110" class="0">
+<net name="CLEAN97" class="0">
 <segment>
 <pinref part="JP13" gate="G$1" pin="8"/>
 <wire x1="406.4" y1="104.14" x2="424.18" y2="104.14" width="0.1524" layer="91"/>
 <label x="406.4" y="104.14" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_105" class="0">
+<net name="CLEAN98" class="0">
 <segment>
 <pinref part="JP13" gate="G$1" pin="9"/>
 <wire x1="406.4" y1="106.68" x2="424.18" y2="106.68" width="0.1524" layer="91"/>
 <label x="406.4" y="106.68" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_83" class="0">
+<net name="CLEAN99" class="0">
 <segment>
 <pinref part="JP13" gate="G$1" pin="10"/>
 <wire x1="406.4" y1="109.22" x2="424.18" y2="109.22" width="0.1524" layer="91"/>
 <label x="406.4" y="109.22" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_84" class="0">
+<net name="CLEAN100" class="0">
 <segment>
 <pinref part="JP13" gate="G$1" pin="11"/>
 <wire x1="406.4" y1="111.76" x2="424.18" y2="111.76" width="0.1524" layer="91"/>
 <label x="406.4" y="111.76" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_111" class="0">
+<net name="CLEAN101" class="0">
 <segment>
 <pinref part="JP13" gate="G$1" pin="12"/>
 <wire x1="406.4" y1="114.3" x2="424.18" y2="114.3" width="0.1524" layer="91"/>
 <label x="406.4" y="114.3" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_43" class="0">
+<net name="CLEAN102" class="0">
 <segment>
 <pinref part="JP13" gate="G$1" pin="13"/>
 <wire x1="406.4" y1="116.84" x2="424.18" y2="116.84" width="0.1524" layer="91"/>
 <label x="406.4" y="116.84" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_44" class="0">
+<net name="CLEAN103" class="0">
 <segment>
 <pinref part="JP13" gate="G$1" pin="14"/>
 <wire x1="406.4" y1="119.38" x2="424.18" y2="119.38" width="0.1524" layer="91"/>
 <label x="406.4" y="119.38" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="13-15" class="0">
+<net name="CLEAN104" class="0">
 <segment>
 <wire x1="403.86" y1="121.92" x2="424.18" y2="121.92" width="0.1524" layer="91"/>
 <label x="406.4" y="121.92" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_57" class="0">
+<net name="CLEAN442" class="0">
 <segment>
 <pinref part="JP97" gate="G$1" pin="3"/>
 <wire x1="599.44" y1="-55.88" x2="617.22" y2="-55.88" width="0.1524" layer="91"/>
 <label x="599.44" y="-55.88" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_58" class="0">
+<net name="CLEAN443" class="0">
 <segment>
 <pinref part="JP97" gate="G$1" pin="4"/>
 <wire x1="599.44" y1="-53.34" x2="617.22" y2="-53.34" width="0.1524" layer="91"/>
 <label x="599.44" y="-53.34" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_56" class="0">
+<net name="CLEAN441" class="0">
 <segment>
 <pinref part="JP97" gate="G$1" pin="2"/>
 <wire x1="599.44" y1="-58.42" x2="617.22" y2="-58.42" width="0.1524" layer="91"/>
 <label x="599.44" y="-58.42" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_55" class="0">
+<net name="CLEAN440" class="0">
 <segment>
 <pinref part="JP97" gate="G$1" pin="1"/>
 <wire x1="599.44" y1="-60.96" x2="617.22" y2="-60.96" width="0.1524" layer="91"/>
 <label x="599.44" y="-60.96" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_117" class="0">
+<net name="CLEAN472" class="0">
 <segment>
 <pinref part="JP109" gate="G$1" pin="3"/>
 <wire x1="78.74" y1="-114.3" x2="96.52" y2="-114.3" width="0.1524" layer="91"/>
 <label x="78.74" y="-114.3" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_116" class="0">
+<net name="CLEAN471" class="0">
 <segment>
 <pinref part="JP109" gate="G$1" pin="2"/>
 <wire x1="78.74" y1="-116.84" x2="96.52" y2="-116.84" width="0.1524" layer="91"/>
 <label x="78.74" y="-116.84" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_63" class="0">
-<segment>
-<pinref part="JP15" gate="G$1" pin="15"/>
-<wire x1="469.9" y1="121.92" x2="485.14" y2="121.92" width="0.1524" layer="91"/>
-<label x="469.9" y="121.92" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN438" class="0">
 <segment>
 <pinref part="JP96" gate="G$1" pin="4"/>
 <wire x1="599.44" y1="-35.56" x2="617.22" y2="-35.56" width="0.1524" layer="91"/>
 <label x="599.44" y="-35.56" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_61" class="0">
-<segment>
-<pinref part="JP15" gate="G$1" pin="14"/>
-<wire x1="469.9" y1="119.38" x2="485.14" y2="119.38" width="0.1524" layer="91"/>
-<label x="469.9" y="119.38" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN436" class="0">
 <segment>
 <pinref part="JP96" gate="G$1" pin="2"/>
 <wire x1="599.44" y1="-40.64" x2="617.22" y2="-40.64" width="0.1524" layer="91"/>
 <label x="599.44" y="-40.64" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_60" class="0">
-<segment>
-<pinref part="JP15" gate="G$1" pin="13"/>
-<wire x1="469.9" y1="116.84" x2="485.14" y2="116.84" width="0.1524" layer="91"/>
-<label x="469.9" y="116.84" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN435" class="0">
 <segment>
 <pinref part="JP96" gate="G$1" pin="1"/>
 <wire x1="599.44" y1="-43.18" x2="617.22" y2="-43.18" width="0.1524" layer="91"/>
 <label x="599.44" y="-43.18" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_62" class="0">
-<segment>
-<pinref part="JP15" gate="G$1" pin="12"/>
-<wire x1="469.9" y1="114.3" x2="485.14" y2="114.3" width="0.1524" layer="91"/>
-<label x="469.9" y="114.3" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN437" class="0">
 <segment>
 <pinref part="JP96" gate="G$1" pin="3"/>
 <wire x1="599.44" y1="-38.1" x2="617.22" y2="-38.1" width="0.1524" layer="91"/>
 <label x="599.44" y="-38.1" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_59" class="0">
-<segment>
-<pinref part="JP15" gate="G$1" pin="11"/>
-<wire x1="469.9" y1="111.76" x2="485.14" y2="111.76" width="0.1524" layer="91"/>
-<label x="469.9" y="111.76" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN444" class="0">
 <segment>
 <pinref part="JP97" gate="G$1" pin="5"/>
 <wire x1="599.44" y1="-50.8" x2="617.22" y2="-50.8" width="0.1524" layer="91"/>
@@ -1586,45 +1521,35 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <label x="599.44" y="-50.8" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_141" class="0">
+<net name="CLEAN114" class="0">
 <segment>
 <pinref part="JP15" gate="G$1" pin="10"/>
 <wire x1="469.9" y1="109.22" x2="485.14" y2="109.22" width="0.1524" layer="91"/>
 <label x="469.9" y="109.22" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_140" class="0">
+<net name="CLEAN113" class="0">
 <segment>
 <pinref part="JP15" gate="G$1" pin="9"/>
 <wire x1="469.9" y1="106.68" x2="485.14" y2="106.68" width="0.1524" layer="91"/>
 <label x="469.9" y="106.68" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_118" class="0">
-<segment>
-<pinref part="JP15" gate="G$1" pin="8"/>
-<wire x1="469.9" y1="104.14" x2="485.14" y2="104.14" width="0.1524" layer="91"/>
-<label x="469.9" y="104.14" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN473" class="0">
 <segment>
 <pinref part="JP109" gate="G$1" pin="4"/>
 <wire x1="78.74" y1="-111.76" x2="96.52" y2="-111.76" width="0.1524" layer="91"/>
 <label x="78.74" y="-111.76" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_135" class="0">
+<net name="CLEAN111" class="0">
 <segment>
 <pinref part="JP15" gate="G$1" pin="7"/>
 <wire x1="469.9" y1="101.6" x2="485.14" y2="101.6" width="0.1524" layer="91"/>
 <label x="469.9" y="101.6" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_119" class="0">
-<segment>
-<pinref part="JP15" gate="G$1" pin="6"/>
-<wire x1="469.9" y1="99.06" x2="485.14" y2="99.06" width="0.1524" layer="91"/>
-<label x="469.9" y="99.06" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN474" class="0">
 <segment>
 <pinref part="JP109" gate="G$1" pin="5"/>
 <wire x1="78.74" y1="-109.22" x2="96.52" y2="-109.22" width="0.1524" layer="91"/>
@@ -1632,12 +1557,7 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <label x="78.74" y="-109.22" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_360" class="0">
-<segment>
-<pinref part="JP15" gate="G$1" pin="5"/>
-<wire x1="469.9" y1="96.52" x2="485.14" y2="96.52" width="0.1524" layer="91"/>
-<label x="469.9" y="96.52" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN305" class="0">
 <segment>
 <pinref part="JP43" gate="G$1" pin="1"/>
 <wire x1="12.7" y1="-60.96" x2="30.48" y2="-60.96" width="0.1524" layer="91"/>
@@ -1645,77 +1565,77 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <label x="12.7" y="-60.96" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_344" class="0">
+<net name="CLEAN108" class="0">
 <segment>
 <pinref part="JP15" gate="G$1" pin="4"/>
 <wire x1="469.9" y1="93.98" x2="485.14" y2="93.98" width="0.1524" layer="91"/>
 <label x="469.9" y="93.98" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_343" class="0">
+<net name="CLEAN107" class="0">
 <segment>
 <pinref part="JP15" gate="G$1" pin="3"/>
 <wire x1="469.9" y1="91.44" x2="485.14" y2="91.44" width="0.1524" layer="91"/>
 <label x="469.9" y="91.44" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_342" class="0">
+<net name="CLEAN106" class="0">
 <segment>
 <pinref part="JP15" gate="G$1" pin="2"/>
 <wire x1="469.9" y1="88.9" x2="485.14" y2="88.9" width="0.1524" layer="91"/>
 <label x="469.9" y="88.9" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_341" class="0">
+<net name="CLEAN105" class="0">
 <segment>
 <pinref part="JP15" gate="G$1" pin="1"/>
 <wire x1="469.9" y1="86.36" x2="485.14" y2="86.36" width="0.1524" layer="91"/>
 <label x="469.9" y="86.36" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_69" class="0">
+<net name="CLEAN434" class="0">
 <segment>
 <pinref part="JP95" gate="G$1" pin="5"/>
 <wire x1="599.44" y1="-15.24" x2="617.22" y2="-15.24" width="0.1524" layer="91"/>
 <label x="599.44" y="-15.24" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_68" class="0">
+<net name="CLEAN433" class="0">
 <segment>
 <pinref part="JP95" gate="G$1" pin="4"/>
 <wire x1="599.44" y1="-17.78" x2="617.22" y2="-17.78" width="0.1524" layer="91"/>
 <label x="599.44" y="-17.78" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_67" class="0">
+<net name="CLEAN432" class="0">
 <segment>
 <pinref part="JP95" gate="G$1" pin="3"/>
 <wire x1="599.44" y1="-20.32" x2="617.22" y2="-20.32" width="0.1524" layer="91"/>
 <label x="599.44" y="-20.32" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_66" class="0">
+<net name="CLEAN431" class="0">
 <segment>
 <pinref part="JP95" gate="G$1" pin="2"/>
 <wire x1="599.44" y1="-22.86" x2="617.22" y2="-22.86" width="0.1524" layer="91"/>
 <label x="599.44" y="-22.86" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_65" class="0">
+<net name="CLEAN430" class="0">
 <segment>
 <pinref part="JP95" gate="G$1" pin="1"/>
 <wire x1="599.44" y1="-25.4" x2="617.22" y2="-25.4" width="0.1524" layer="91"/>
 <label x="599.44" y="-25.4" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_64" class="0">
+<net name="CLEAN439" class="0">
 <segment>
 <pinref part="JP96" gate="G$1" pin="5"/>
 <wire x1="599.44" y1="-33.02" x2="617.22" y2="-33.02" width="0.1524" layer="91"/>
 <label x="599.44" y="-33.02" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_364" class="0">
+<net name="CLEAN309" class="0">
 <segment>
 <pinref part="JP43" gate="G$1" pin="5"/>
 <wire x1="12.7" y1="-50.8" x2="30.48" y2="-50.8" width="0.1524" layer="91"/>
@@ -1723,245 +1643,210 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <label x="12.7" y="-50.8" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_363" class="0">
+<net name="CLEAN308" class="0">
 <segment>
 <pinref part="JP43" gate="G$1" pin="4"/>
 <wire x1="12.7" y1="-53.34" x2="30.48" y2="-53.34" width="0.1524" layer="91"/>
 <label x="12.7" y="-53.34" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_362" class="0">
+<net name="CLEAN307" class="0">
 <segment>
 <pinref part="JP43" gate="G$1" pin="3"/>
 <wire x1="12.7" y1="-55.88" x2="30.48" y2="-55.88" width="0.1524" layer="91"/>
 <label x="12.7" y="-55.88" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_361" class="0">
+<net name="CLEAN306" class="0">
 <segment>
 <pinref part="JP43" gate="G$1" pin="2"/>
 <wire x1="12.7" y1="-58.42" x2="30.48" y2="-58.42" width="0.1524" layer="91"/>
 <label x="12.7" y="-58.42" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_103" class="0">
+<net name="CLEAN134" class="0">
 <segment>
 <pinref part="JP17" gate="G$1" pin="15"/>
 <wire x1="530.86" y1="121.92" x2="546.1" y2="121.92" width="0.1524" layer="91"/>
 <label x="530.86" y="121.92" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_102" class="0">
+<net name="CLEAN133" class="0">
 <segment>
 <pinref part="JP17" gate="G$1" pin="14"/>
 <wire x1="530.86" y1="119.38" x2="546.1" y2="119.38" width="0.1524" layer="91"/>
 <label x="530.86" y="119.38" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_100" class="0">
+<net name="CLEAN132" class="0">
 <segment>
 <pinref part="JP17" gate="G$1" pin="13"/>
 <wire x1="530.86" y1="116.84" x2="546.1" y2="116.84" width="0.1524" layer="91"/>
 <label x="530.86" y="116.84" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_101" class="0">
+<net name="CLEAN131" class="0">
 <segment>
 <pinref part="JP17" gate="G$1" pin="12"/>
 <wire x1="530.86" y1="114.3" x2="546.1" y2="114.3" width="0.1524" layer="91"/>
 <label x="530.86" y="114.3" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_82" class="0">
+<net name="CLEAN130" class="0">
 <segment>
 <pinref part="JP17" gate="G$1" pin="11"/>
 <wire x1="530.86" y1="111.76" x2="546.1" y2="111.76" width="0.1524" layer="91"/>
 <label x="530.86" y="111.76" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_81" class="0">
+<net name="CLEAN129" class="0">
 <segment>
 <pinref part="JP17" gate="G$1" pin="10"/>
 <wire x1="530.86" y1="109.22" x2="546.1" y2="109.22" width="0.1524" layer="91"/>
 <label x="530.86" y="109.22" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_80" class="0">
+<net name="CLEAN128" class="0">
 <segment>
 <pinref part="JP17" gate="G$1" pin="9"/>
 <wire x1="530.86" y1="106.68" x2="546.1" y2="106.68" width="0.1524" layer="91"/>
 <label x="530.86" y="106.68" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_159" class="0">
+<net name="CLEAN127" class="0">
 <segment>
 <pinref part="JP17" gate="G$1" pin="8"/>
 <wire x1="530.86" y1="104.14" x2="546.1" y2="104.14" width="0.1524" layer="91"/>
 <label x="530.86" y="104.14" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_158" class="0">
+<net name="CLEAN126" class="0">
 <segment>
 <pinref part="JP17" gate="G$1" pin="7"/>
 <wire x1="530.86" y1="101.6" x2="546.1" y2="101.6" width="0.1524" layer="91"/>
 <label x="530.86" y="101.6" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_157" class="0">
+<net name="CLEAN125" class="0">
 <segment>
 <pinref part="JP17" gate="G$1" pin="6"/>
 <wire x1="530.86" y1="99.06" x2="546.1" y2="99.06" width="0.1524" layer="91"/>
 <label x="530.86" y="99.06" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_156" class="0">
+<net name="CLEAN124" class="0">
 <segment>
 <pinref part="JP17" gate="G$1" pin="5"/>
 <wire x1="530.86" y1="96.52" x2="546.1" y2="96.52" width="0.1524" layer="91"/>
 <label x="530.86" y="96.52" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_155" class="0">
+<net name="CLEAN123" class="0">
 <segment>
 <pinref part="JP17" gate="G$1" pin="4"/>
 <wire x1="530.86" y1="93.98" x2="546.1" y2="93.98" width="0.1524" layer="91"/>
 <label x="530.86" y="93.98" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_387" class="0">
+<net name="CLEAN122" class="0">
 <segment>
 <pinref part="JP17" gate="G$1" pin="3"/>
 <wire x1="530.86" y1="91.44" x2="546.1" y2="91.44" width="0.1524" layer="91"/>
 <label x="530.86" y="91.44" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_386" class="0">
+<net name="CLEAN121" class="0">
 <segment>
 <pinref part="JP17" gate="G$1" pin="2"/>
 <wire x1="530.86" y1="88.9" x2="546.1" y2="88.9" width="0.1524" layer="91"/>
 <label x="530.86" y="88.9" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_385" class="0">
+<net name="CLEAN120" class="0">
 <segment>
 <pinref part="JP17" gate="G$1" pin="1"/>
 <wire x1="530.86" y1="86.36" x2="546.1" y2="86.36" width="0.1524" layer="91"/>
 <label x="530.86" y="86.36" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_115" class="0">
+<net name="CLEAN470" class="0">
 <segment>
 <pinref part="JP109" gate="G$1" pin="1"/>
 <wire x1="78.74" y1="-119.38" x2="96.52" y2="-119.38" width="0.1524" layer="91"/>
 <label x="78.74" y="-119.38" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_121" class="0">
+<net name="CLEAN466" class="0">
 <segment>
 <pinref part="JP108" gate="G$1" pin="2"/>
 <wire x1="78.74" y1="-99.06" x2="96.52" y2="-99.06" width="0.1524" layer="91"/>
 <label x="78.74" y="-99.06" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_120" class="0">
+<net name="CLEAN465" class="0">
 <segment>
 <pinref part="JP108" gate="G$1" pin="1"/>
 <wire x1="78.74" y1="-101.6" x2="96.52" y2="-101.6" width="0.1524" layer="91"/>
 <label x="78.74" y="-101.6" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_179" class="0">
+<net name="CLEAN414" class="0">
 <segment>
 <pinref part="JP85" gate="G$1" pin="5"/>
 <wire x1="469.9" y1="-50.8" x2="487.68" y2="-50.8" width="0.1524" layer="91"/>
 <label x="469.9" y="-50.8" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_161" class="0">
+<net name="CLEAN149" class="0">
 <segment>
 <pinref part="JP19" gate="G$1" pin="15"/>
 <wire x1="594.36" y1="121.92" x2="612.14" y2="121.92" width="0.1524" layer="91"/>
 <label x="594.36" y="121.92" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_129" class="0">
-<segment>
-<pinref part="JP19" gate="G$1" pin="14"/>
-<wire x1="594.36" y1="119.38" x2="612.14" y2="119.38" width="0.1524" layer="91"/>
-<label x="594.36" y="119.38" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN464" class="0">
 <segment>
 <pinref part="JP107" gate="G$1" pin="5"/>
 <wire x1="78.74" y1="-73.66" x2="96.52" y2="-73.66" width="0.1524" layer="91"/>
 <label x="78.74" y="-73.66" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_128" class="0">
-<segment>
-<pinref part="JP19" gate="G$1" pin="13"/>
-<wire x1="594.36" y1="116.84" x2="612.14" y2="116.84" width="0.1524" layer="91"/>
-<label x="594.36" y="116.84" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN463" class="0">
 <segment>
 <pinref part="JP107" gate="G$1" pin="4"/>
 <wire x1="78.74" y1="-76.2" x2="96.52" y2="-76.2" width="0.1524" layer="91"/>
 <label x="78.74" y="-76.2" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_127" class="0">
-<segment>
-<pinref part="JP19" gate="G$1" pin="12"/>
-<wire x1="594.36" y1="114.3" x2="612.14" y2="114.3" width="0.1524" layer="91"/>
-<label x="594.36" y="114.3" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN462" class="0">
 <segment>
 <pinref part="JP107" gate="G$1" pin="3"/>
 <wire x1="78.74" y1="-78.74" x2="96.52" y2="-78.74" width="0.1524" layer="91"/>
 <label x="78.74" y="-78.74" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_126" class="0">
-<segment>
-<pinref part="JP19" gate="G$1" pin="11"/>
-<wire x1="594.36" y1="111.76" x2="612.14" y2="111.76" width="0.1524" layer="91"/>
-<label x="594.36" y="111.76" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN461" class="0">
 <segment>
 <pinref part="JP107" gate="G$1" pin="2"/>
 <wire x1="78.74" y1="-81.28" x2="96.52" y2="-81.28" width="0.1524" layer="91"/>
 <label x="78.74" y="-81.28" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_125" class="0">
-<segment>
-<pinref part="JP19" gate="G$1" pin="10"/>
-<wire x1="594.36" y1="109.22" x2="612.14" y2="109.22" width="0.1524" layer="91"/>
-<label x="594.36" y="109.22" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN460" class="0">
 <segment>
 <pinref part="JP107" gate="G$1" pin="1"/>
 <wire x1="78.74" y1="-83.82" x2="96.52" y2="-83.82" width="0.1524" layer="91"/>
 <label x="78.74" y="-83.82" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_124" class="0">
-<segment>
-<pinref part="JP19" gate="G$1" pin="9"/>
-<wire x1="594.36" y1="106.68" x2="612.14" y2="106.68" width="0.1524" layer="91"/>
-<label x="594.36" y="106.68" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN469" class="0">
 <segment>
 <pinref part="JP108" gate="G$1" pin="5"/>
 <wire x1="78.74" y1="-91.44" x2="96.52" y2="-91.44" width="0.1524" layer="91"/>
 <label x="78.74" y="-91.44" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_123" class="0">
-<segment>
-<pinref part="JP19" gate="G$1" pin="8"/>
-<wire x1="594.36" y1="104.14" x2="612.14" y2="104.14" width="0.1524" layer="91"/>
-<label x="594.36" y="104.14" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN468" class="0">
 <segment>
 <pinref part="JP108" gate="G$1" pin="4"/>
 <wire x1="78.74" y1="-93.98" x2="96.52" y2="-93.98" width="0.1524" layer="91"/>
@@ -1969,60 +1854,35 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <label x="78.74" y="-93.98" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_122" class="0">
-<segment>
-<pinref part="JP19" gate="G$1" pin="7"/>
-<wire x1="594.36" y1="101.6" x2="612.14" y2="101.6" width="0.1524" layer="91"/>
-<label x="594.36" y="101.6" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN467" class="0">
 <segment>
 <pinref part="JP108" gate="G$1" pin="3"/>
 <wire x1="78.74" y1="-96.52" x2="96.52" y2="-96.52" width="0.1524" layer="91"/>
 <label x="78.74" y="-96.52" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_237" class="0">
-<segment>
-<pinref part="JP19" gate="G$1" pin="6"/>
-<wire x1="594.36" y1="99.06" x2="612.14" y2="99.06" width="0.1524" layer="91"/>
-<label x="594.36" y="99.06" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN327" class="0">
 <segment>
 <pinref part="JP53" gate="G$1" pin="3"/>
 <wire x1="142.24" y1="-20.32" x2="160.02" y2="-20.32" width="0.1524" layer="91"/>
 <label x="142.24" y="-20.32" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_236" class="0">
-<segment>
-<pinref part="JP19" gate="G$1" pin="5"/>
-<wire x1="594.36" y1="96.52" x2="612.14" y2="96.52" width="0.1524" layer="91"/>
-<label x="594.36" y="96.52" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN326" class="0">
 <segment>
 <pinref part="JP53" gate="G$1" pin="2"/>
 <wire x1="142.24" y1="-22.86" x2="160.02" y2="-22.86" width="0.1524" layer="91"/>
 <label x="142.24" y="-22.86" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_235" class="0">
-<segment>
-<pinref part="JP19" gate="G$1" pin="4"/>
-<wire x1="594.36" y1="93.98" x2="612.14" y2="93.98" width="0.1524" layer="91"/>
-<label x="594.36" y="93.98" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN325" class="0">
 <segment>
 <pinref part="JP53" gate="G$1" pin="1"/>
 <wire x1="142.24" y1="-25.4" x2="160.02" y2="-25.4" width="0.1524" layer="91"/>
 <label x="142.24" y="-25.4" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_230" class="0">
-<segment>
-<pinref part="JP19" gate="G$1" pin="3"/>
-<wire x1="594.36" y1="91.44" x2="612.14" y2="91.44" width="0.1524" layer="91"/>
-<label x="594.36" y="91.44" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN330" class="0">
 <segment>
 <pinref part="JP54" gate="G$1" pin="1"/>
 <wire x1="142.24" y1="-43.18" x2="160.02" y2="-43.18" width="0.1524" layer="91"/>
@@ -2030,49 +1890,49 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <label x="142.24" y="-43.18" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_214" class="0">
+<net name="CLEAN136" class="0">
 <segment>
 <pinref part="JP19" gate="G$1" pin="2"/>
 <wire x1="594.36" y1="88.9" x2="612.14" y2="88.9" width="0.1524" layer="91"/>
 <label x="594.36" y="88.9" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_393" class="0">
+<net name="CLEAN135" class="0">
 <segment>
 <pinref part="JP19" gate="G$1" pin="1"/>
 <wire x1="594.36" y1="86.36" x2="612.14" y2="86.36" width="0.1524" layer="91"/>
 <label x="594.36" y="86.36" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_173" class="0">
+<net name="CLEAN407" class="0">
 <segment>
 <pinref part="JP84" gate="G$1" pin="3"/>
 <wire x1="469.9" y1="-38.1" x2="487.68" y2="-38.1" width="0.1524" layer="91"/>
 <label x="469.9" y="-38.1" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_170" class="0">
+<net name="CLEAN403" class="0">
 <segment>
 <pinref part="JP83" gate="G$1" pin="4"/>
 <wire x1="469.9" y1="-17.78" x2="487.68" y2="-17.78" width="0.1524" layer="91"/>
 <label x="469.9" y="-17.78" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_169" class="0">
+<net name="CLEAN402" class="0">
 <segment>
 <pinref part="JP83" gate="G$1" pin="3"/>
 <wire x1="469.9" y1="-20.32" x2="487.68" y2="-20.32" width="0.1524" layer="91"/>
 <label x="469.9" y="-20.32" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_168" class="0">
+<net name="CLEAN401" class="0">
 <segment>
 <pinref part="JP83" gate="G$1" pin="2"/>
 <wire x1="469.9" y1="-22.86" x2="487.68" y2="-22.86" width="0.1524" layer="91"/>
 <label x="469.9" y="-22.86" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_167" class="0">
+<net name="CLEAN400" class="0">
 <segment>
 <pinref part="JP83" gate="G$1" pin="1"/>
 <wire x1="469.9" y1="-25.4" x2="487.68" y2="-25.4" width="0.1524" layer="91"/>
@@ -2080,14 +1940,14 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <label x="469.9" y="-25.4" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_290" class="0">
+<net name="CLEAN360" class="0">
 <segment>
 <pinref part="JP66" gate="G$1" pin="1"/>
 <wire x1="274.32" y1="-43.18" x2="292.1" y2="-43.18" width="0.1524" layer="91"/>
 <label x="274.32" y="-43.18" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_239" class="0">
+<net name="CLEAN329" class="0">
 <segment>
 <pinref part="JP53" gate="G$1" pin="5"/>
 <wire x1="142.24" y1="-15.24" x2="160.02" y2="-15.24" width="0.1524" layer="91"/>
@@ -2095,225 +1955,175 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <label x="142.24" y="-15.24" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_238" class="0">
+<net name="CLEAN328" class="0">
 <segment>
 <pinref part="JP53" gate="G$1" pin="4"/>
 <wire x1="142.24" y1="-17.78" x2="160.02" y2="-17.78" width="0.1524" layer="91"/>
 <label x="142.24" y="-17.78" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_225" class="0">
-<segment>
-<pinref part="JP21" gate="G$1" pin="15"/>
-<wire x1="12.7" y1="55.88" x2="30.48" y2="55.88" width="0.1524" layer="91"/>
-<label x="12.7" y="55.88" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN335" class="0">
 <segment>
 <pinref part="JP55" gate="G$1" pin="1"/>
 <wire x1="142.24" y1="-60.96" x2="160.02" y2="-60.96" width="0.1524" layer="91"/>
 <label x="142.24" y="-60.96" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_175" class="0">
-<segment>
-<pinref part="JP21" gate="G$1" pin="14"/>
-<wire x1="12.7" y1="53.34" x2="30.48" y2="53.34" width="0.1524" layer="91"/>
-<label x="12.7" y="53.34" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN409" class="0">
 <segment>
 <pinref part="JP84" gate="G$1" pin="5"/>
 <wire x1="469.9" y1="-33.02" x2="487.68" y2="-33.02" width="0.1524" layer="91"/>
 <label x="469.9" y="-33.02" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_176" class="0">
-<segment>
-<pinref part="JP21" gate="G$1" pin="13"/>
-<wire x1="12.7" y1="50.8" x2="30.48" y2="50.8" width="0.1524" layer="91"/>
-<label x="12.7" y="50.8" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN410" class="0">
 <segment>
 <pinref part="JP85" gate="G$1" pin="1"/>
 <wire x1="469.9" y1="-60.96" x2="487.68" y2="-60.96" width="0.1524" layer="91"/>
 <label x="469.9" y="-60.96" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_171" class="0">
-<segment>
-<pinref part="JP21" gate="G$1" pin="12"/>
-<wire x1="12.7" y1="48.26" x2="30.48" y2="48.26" width="0.1524" layer="91"/>
-<label x="12.7" y="48.26" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN405" class="0">
 <segment>
 <pinref part="JP84" gate="G$1" pin="1"/>
 <wire x1="469.9" y1="-43.18" x2="487.68" y2="-43.18" width="0.1524" layer="91"/>
 <label x="469.9" y="-43.18" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_174" class="0">
-<segment>
-<pinref part="JP21" gate="G$1" pin="11"/>
-<wire x1="12.7" y1="45.72" x2="30.48" y2="45.72" width="0.1524" layer="91"/>
-<label x="12.7" y="45.72" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN408" class="0">
 <segment>
 <pinref part="JP84" gate="G$1" pin="4"/>
 <wire x1="469.9" y1="-35.56" x2="487.68" y2="-35.56" width="0.1524" layer="91"/>
 <label x="469.9" y="-35.56" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_172" class="0">
-<segment>
-<pinref part="JP21" gate="G$1" pin="10"/>
-<wire x1="12.7" y1="43.18" x2="30.48" y2="43.18" width="0.1524" layer="91"/>
-<label x="12.7" y="43.18" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN406" class="0">
 <segment>
 <pinref part="JP84" gate="G$1" pin="2"/>
 <wire x1="469.9" y1="-40.64" x2="487.68" y2="-40.64" width="0.1524" layer="91"/>
 <label x="469.9" y="-40.64" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_296" class="0">
-<segment>
-<pinref part="JP21" gate="G$1" pin="9"/>
-<wire x1="12.7" y1="40.64" x2="30.48" y2="40.64" width="0.1524" layer="91"/>
-<label x="12.7" y="40.64" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN356" class="0">
 <segment>
 <pinref part="JP65" gate="G$1" pin="2"/>
 <wire x1="274.32" y1="-22.86" x2="292.1" y2="-22.86" width="0.1524" layer="91"/>
 <label x="274.32" y="-22.86" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_297" class="0">
-<segment>
-<pinref part="JP21" gate="G$1" pin="8"/>
-<wire x1="12.7" y1="38.1" x2="30.48" y2="38.1" width="0.1524" layer="91"/>
-<label x="12.7" y="38.1" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN357" class="0">
 <segment>
 <pinref part="JP65" gate="G$1" pin="3"/>
 <wire x1="274.32" y1="-20.32" x2="292.1" y2="-20.32" width="0.1524" layer="91"/>
 <label x="274.32" y="-20.32" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_291" class="0">
-<segment>
-<pinref part="JP21" gate="G$1" pin="7"/>
-<wire x1="12.7" y1="35.56" x2="30.48" y2="35.56" width="0.1524" layer="91"/>
-<label x="12.7" y="35.56" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN361" class="0">
 <segment>
 <pinref part="JP66" gate="G$1" pin="2"/>
 <wire x1="274.32" y1="-40.64" x2="292.1" y2="-40.64" width="0.1524" layer="91"/>
 <label x="274.32" y="-40.64" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_295" class="0">
-<segment>
-<pinref part="JP21" gate="G$1" pin="6"/>
-<wire x1="12.7" y1="33.02" x2="30.48" y2="33.02" width="0.1524" layer="91"/>
-<label x="12.7" y="33.02" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN355" class="0">
 <segment>
 <pinref part="JP65" gate="G$1" pin="1"/>
 <wire x1="274.32" y1="-25.4" x2="292.1" y2="-25.4" width="0.1524" layer="91"/>
 <label x="274.32" y="-25.4" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_274" class="0">
+<net name="CLEAN154" class="0">
 <segment>
 <pinref part="JP21" gate="G$1" pin="5"/>
 <wire x1="12.7" y1="30.48" x2="30.48" y2="30.48" width="0.1524" layer="91"/>
 <label x="12.7" y="30.48" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_410" class="0">
+<net name="CLEAN153" class="0">
 <segment>
 <pinref part="JP21" gate="G$1" pin="4"/>
 <wire x1="12.7" y1="27.94" x2="30.48" y2="27.94" width="0.1524" layer="91"/>
 <label x="12.7" y="27.94" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_391" class="0">
+<net name="CLEAN152" class="0">
 <segment>
 <pinref part="JP21" gate="G$1" pin="3"/>
 <wire x1="12.7" y1="25.4" x2="30.48" y2="25.4" width="0.1524" layer="91"/>
 <label x="12.7" y="25.4" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_399" class="0">
+<net name="CLEAN151" class="0">
 <segment>
 <pinref part="JP21" gate="G$1" pin="2"/>
 <wire x1="12.7" y1="22.86" x2="30.48" y2="22.86" width="0.1524" layer="91"/>
 <label x="12.7" y="22.86" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_398" class="0">
+<net name="CLEAN150" class="0">
 <segment>
 <pinref part="JP21" gate="G$1" pin="1"/>
 <wire x1="12.7" y1="20.32" x2="30.48" y2="20.32" width="0.1524" layer="91"/>
 <label x="12.7" y="20.32" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_233" class="0">
+<net name="CLEAN333" class="0">
 <segment>
 <pinref part="JP54" gate="G$1" pin="4"/>
 <wire x1="142.24" y1="-35.56" x2="160.02" y2="-35.56" width="0.1524" layer="91"/>
 <label x="142.24" y="-35.56" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_229" class="0">
+<net name="CLEAN339" class="0">
 <segment>
 <pinref part="JP55" gate="G$1" pin="5"/>
 <wire x1="142.24" y1="-50.8" x2="160.02" y2="-50.8" width="0.1524" layer="91"/>
 <label x="142.24" y="-50.8" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_228" class="0">
+<net name="CLEAN338" class="0">
 <segment>
 <pinref part="JP55" gate="G$1" pin="4"/>
 <wire x1="142.24" y1="-53.34" x2="160.02" y2="-53.34" width="0.1524" layer="91"/>
 <label x="142.24" y="-53.34" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_226" class="0">
+<net name="CLEAN336" class="0">
 <segment>
 <pinref part="JP55" gate="G$1" pin="2"/>
 <wire x1="142.24" y1="-58.42" x2="160.02" y2="-58.42" width="0.1524" layer="91"/>
 <label x="142.24" y="-58.42" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_227" class="0">
+<net name="CLEAN337" class="0">
 <segment>
 <pinref part="JP55" gate="G$1" pin="3"/>
 <wire x1="142.24" y1="-55.88" x2="160.02" y2="-55.88" width="0.1524" layer="91"/>
 <label x="142.24" y="-55.88" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_178" class="0">
+<net name="CLEAN413" class="0">
 <segment>
 <pinref part="JP85" gate="G$1" pin="4"/>
 <wire x1="469.9" y1="-53.34" x2="487.68" y2="-53.34" width="0.1524" layer="91"/>
 <label x="469.9" y="-53.34" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_177" class="0">
+<net name="CLEAN412" class="0">
 <segment>
 <pinref part="JP85" gate="G$1" pin="3"/>
 <wire x1="469.9" y1="-55.88" x2="487.68" y2="-55.88" width="0.1524" layer="91"/>
 <label x="469.9" y="-55.88" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_347" class="0">
+<net name="CLEAN386" class="0">
 <segment>
 <pinref part="JP77" gate="G$1" pin="2"/>
 <wire x1="403.86" y1="-22.86" x2="421.64" y2="-22.86" width="0.1524" layer="91"/>
 <label x="403.86" y="-22.86" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_331" class="0">
+<net name="CLEAN389" class="0">
 <segment>
 <pinref part="JP77" gate="G$1" pin="5"/>
 <wire x1="403.86" y1="-15.24" x2="421.64" y2="-15.24" width="0.1524" layer="91"/>
@@ -2321,62 +2131,42 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <label x="403.86" y="-15.24" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_299" class="0">
+<net name="CLEAN359" class="0">
 <segment>
 <pinref part="JP65" gate="G$1" pin="5"/>
 <wire x1="274.32" y1="-15.24" x2="292.1" y2="-15.24" width="0.1524" layer="91"/>
 <label x="274.32" y="-15.24" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_298" class="0">
+<net name="CLEAN358" class="0">
 <segment>
 <pinref part="JP65" gate="G$1" pin="4"/>
 <wire x1="274.32" y1="-17.78" x2="292.1" y2="-17.78" width="0.1524" layer="91"/>
 <label x="274.32" y="-17.78" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_289" class="0">
-<segment>
-<pinref part="JP23" gate="G$1" pin="15"/>
-<wire x1="78.74" y1="55.88" x2="99.06" y2="55.88" width="0.1524" layer="91"/>
-<label x="78.74" y="55.88" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN369" class="0">
 <segment>
 <pinref part="JP67" gate="G$1" pin="5"/>
 <wire x1="274.32" y1="-50.8" x2="292.1" y2="-50.8" width="0.1524" layer="91"/>
 <label x="274.32" y="-50.8" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_288" class="0">
-<segment>
-<pinref part="JP23" gate="G$1" pin="14"/>
-<wire x1="78.74" y1="53.34" x2="99.06" y2="53.34" width="0.1524" layer="91"/>
-<label x="78.74" y="53.34" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN368" class="0">
 <segment>
 <pinref part="JP67" gate="G$1" pin="4"/>
 <wire x1="274.32" y1="-53.34" x2="292.1" y2="-53.34" width="0.1524" layer="91"/>
 <label x="274.32" y="-53.34" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_286" class="0">
-<segment>
-<pinref part="JP23" gate="G$1" pin="13"/>
-<wire x1="78.74" y1="50.8" x2="99.06" y2="50.8" width="0.1524" layer="91"/>
-<label x="78.74" y="50.8" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN366" class="0">
 <segment>
 <pinref part="JP67" gate="G$1" pin="2"/>
 <wire x1="274.32" y1="-58.42" x2="292.1" y2="-58.42" width="0.1524" layer="91"/>
 <label x="274.32" y="-58.42" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_285" class="0">
-<segment>
-<pinref part="JP23" gate="G$1" pin="12"/>
-<wire x1="78.74" y1="48.26" x2="99.06" y2="48.26" width="0.1524" layer="91"/>
-<label x="78.74" y="48.26" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN365" class="0">
 <segment>
 <pinref part="JP67" gate="G$1" pin="1"/>
 <wire x1="274.32" y1="-60.96" x2="292.1" y2="-60.96" width="0.1524" layer="91"/>
@@ -2384,24 +2174,14 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <label x="274.32" y="-60.96" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_287" class="0">
-<segment>
-<pinref part="JP23" gate="G$1" pin="11"/>
-<wire x1="78.74" y1="45.72" x2="99.06" y2="45.72" width="0.1524" layer="91"/>
-<label x="78.74" y="45.72" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN367" class="0">
 <segment>
 <pinref part="JP67" gate="G$1" pin="3"/>
 <wire x1="274.32" y1="-55.88" x2="292.1" y2="-55.88" width="0.1524" layer="91"/>
 <label x="274.32" y="-55.88" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_234" class="0">
-<segment>
-<pinref part="JP23" gate="G$1" pin="10"/>
-<wire x1="78.74" y1="43.18" x2="99.06" y2="43.18" width="0.1524" layer="91"/>
-<label x="78.74" y="43.18" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN334" class="0">
 <segment>
 <pinref part="JP54" gate="G$1" pin="5"/>
 <wire x1="142.24" y1="-33.02" x2="160.02" y2="-33.02" width="0.1524" layer="91"/>
@@ -2409,126 +2189,91 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <label x="142.24" y="-33.02" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_232" class="0">
-<segment>
-<pinref part="JP23" gate="G$1" pin="9"/>
-<wire x1="78.74" y1="40.64" x2="99.06" y2="40.64" width="0.1524" layer="91"/>
-<label x="78.74" y="40.64" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN332" class="0">
 <segment>
 <pinref part="JP54" gate="G$1" pin="3"/>
 <wire x1="142.24" y1="-38.1" x2="160.02" y2="-38.1" width="0.1524" layer="91"/>
 <label x="142.24" y="-38.1" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_231" class="0">
-<segment>
-<pinref part="JP23" gate="G$1" pin="8"/>
-<wire x1="78.74" y1="38.1" x2="99.06" y2="38.1" width="0.1524" layer="91"/>
-<label x="78.74" y="38.1" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN331" class="0">
 <segment>
 <pinref part="JP54" gate="G$1" pin="2"/>
 <wire x1="142.24" y1="-40.64" x2="160.02" y2="-40.64" width="0.1524" layer="91"/>
 <label x="142.24" y="-40.64" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_351" class="0">
-<segment>
-<pinref part="JP23" gate="G$1" pin="7"/>
-<wire x1="78.74" y1="35.56" x2="99.06" y2="35.56" width="0.1524" layer="91"/>
-<label x="78.74" y="35.56" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN391" class="0">
 <segment>
 <pinref part="JP78" gate="G$1" pin="2"/>
 <wire x1="403.86" y1="-40.64" x2="421.64" y2="-40.64" width="0.1524" layer="91"/>
 <label x="403.86" y="-40.64" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_350" class="0">
-<segment>
-<pinref part="JP23" gate="G$1" pin="6"/>
-<wire x1="78.74" y1="33.02" x2="99.06" y2="33.02" width="0.1524" layer="91"/>
-<label x="78.74" y="33.02" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN390" class="0">
 <segment>
 <pinref part="JP78" gate="G$1" pin="1"/>
 <wire x1="403.86" y1="-43.18" x2="421.64" y2="-43.18" width="0.1524" layer="91"/>
 <label x="403.86" y="-43.18" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_349" class="0">
-<segment>
-<pinref part="JP23" gate="G$1" pin="5"/>
-<wire x1="78.74" y1="30.48" x2="99.06" y2="30.48" width="0.1524" layer="91"/>
-<label x="78.74" y="30.48" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN388" class="0">
 <segment>
 <pinref part="JP77" gate="G$1" pin="4"/>
 <wire x1="403.86" y1="-17.78" x2="421.64" y2="-17.78" width="0.1524" layer="91"/>
 <label x="403.86" y="-17.78" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_348" class="0">
-<segment>
-<pinref part="JP23" gate="G$1" pin="4"/>
-<wire x1="78.74" y1="27.94" x2="99.06" y2="27.94" width="0.1524" layer="91"/>
-<label x="78.74" y="27.94" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN387" class="0">
 <segment>
 <pinref part="JP77" gate="G$1" pin="3"/>
 <wire x1="403.86" y1="-20.32" x2="421.64" y2="-20.32" width="0.1524" layer="91"/>
 <label x="403.86" y="-20.32" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_346" class="0">
-<segment>
-<pinref part="JP23" gate="G$1" pin="3"/>
-<wire x1="78.74" y1="25.4" x2="99.06" y2="25.4" width="0.1524" layer="91"/>
-<label x="78.74" y="25.4" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN385" class="0">
 <segment>
 <pinref part="JP77" gate="G$1" pin="1"/>
 <wire x1="403.86" y1="-25.4" x2="421.64" y2="-25.4" width="0.1524" layer="91"/>
 <label x="403.86" y="-25.4" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_414" class="0">
+<net name="CLEAN166" class="0">
 <segment>
 <pinref part="JP23" gate="G$1" pin="2"/>
 <wire x1="78.74" y1="22.86" x2="99.06" y2="22.86" width="0.1524" layer="91"/>
 <label x="78.74" y="22.86" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_413" class="0">
+<net name="CLEAN165" class="0">
 <segment>
 <pinref part="JP23" gate="G$1" pin="1"/>
 <wire x1="78.74" y1="20.32" x2="99.06" y2="20.32" width="0.1524" layer="91"/>
 <label x="78.74" y="20.32" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_485" class="0">
+<net name="CLEAN540" class="0">
 <segment>
 <pinref part="JP138" gate="G$1" pin="1"/>
 <wire x1="403.86" y1="-104.14" x2="421.64" y2="-104.14" width="0.1524" layer="91"/>
 <label x="403.86" y="-104.14" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_355" class="0">
+<net name="CLEAN395" class="0">
 <segment>
 <pinref part="JP79" gate="G$1" pin="1"/>
 <wire x1="403.86" y1="-60.96" x2="421.64" y2="-60.96" width="0.1524" layer="91"/>
 <label x="403.86" y="-60.96" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_358" class="0">
+<net name="CLEAN398" class="0">
 <segment>
 <pinref part="JP79" gate="G$1" pin="4"/>
 <wire x1="403.86" y1="-53.34" x2="421.64" y2="-53.34" width="0.1524" layer="91"/>
 <label x="403.86" y="-53.34" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_357" class="0">
+<net name="CLEAN397" class="0">
 <segment>
 <pinref part="JP79" gate="G$1" pin="3"/>
 <wire x1="403.86" y1="-55.88" x2="421.64" y2="-55.88" width="0.1524" layer="91"/>
@@ -2536,21 +2281,21 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <label x="403.86" y="-55.88" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_356" class="0">
+<net name="CLEAN396" class="0">
 <segment>
 <pinref part="JP79" gate="G$1" pin="2"/>
 <wire x1="403.86" y1="-58.42" x2="421.64" y2="-58.42" width="0.1524" layer="91"/>
 <label x="403.86" y="-58.42" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_354" class="0">
+<net name="CLEAN394" class="0">
 <segment>
 <pinref part="JP78" gate="G$1" pin="5"/>
 <wire x1="403.86" y1="-33.02" x2="421.64" y2="-33.02" width="0.1524" layer="91"/>
 <label x="403.86" y="-33.02" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_294" class="0">
+<net name="CLEAN364" class="0">
 <segment>
 <pinref part="JP66" gate="G$1" pin="5"/>
 <wire x1="274.32" y1="-33.02" x2="292.1" y2="-33.02" width="0.1524" layer="91"/>
@@ -2558,28 +2303,28 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <label x="274.32" y="-33.02" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_293" class="0">
+<net name="CLEAN363" class="0">
 <segment>
 <pinref part="JP66" gate="G$1" pin="4"/>
 <wire x1="274.32" y1="-35.56" x2="292.1" y2="-35.56" width="0.1524" layer="91"/>
 <label x="274.32" y="-35.56" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_292" class="0">
+<net name="CLEAN362" class="0">
 <segment>
 <pinref part="JP66" gate="G$1" pin="3"/>
 <wire x1="274.32" y1="-38.1" x2="292.1" y2="-38.1" width="0.1524" layer="91"/>
 <label x="274.32" y="-38.1" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_490" class="0">
+<net name="CLEAN535" class="0">
 <segment>
 <pinref part="JP137" gate="G$1" pin="1"/>
 <wire x1="403.86" y1="-86.36" x2="421.64" y2="-86.36" width="0.1524" layer="91"/>
 <label x="403.86" y="-86.36" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_489" class="0">
+<net name="CLEAN544" class="0">
 <segment>
 <pinref part="JP138" gate="G$1" pin="5"/>
 <wire x1="403.86" y1="-93.98" x2="421.64" y2="-93.98" width="0.1524" layer="91"/>
@@ -2587,106 +2332,91 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <label x="403.86" y="-93.98" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_352" class="0">
+<net name="CLEAN392" class="0">
 <segment>
 <pinref part="JP78" gate="G$1" pin="3"/>
 <wire x1="403.86" y1="-38.1" x2="421.64" y2="-38.1" width="0.1524" layer="91"/>
 <label x="403.86" y="-38.1" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_353" class="0">
+<net name="CLEAN393" class="0">
 <segment>
 <pinref part="JP78" gate="G$1" pin="4"/>
 <wire x1="403.86" y1="-35.56" x2="421.64" y2="-35.56" width="0.1524" layer="91"/>
 <label x="403.86" y="-35.56" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_487" class="0">
+<net name="CLEAN542" class="0">
 <segment>
 <pinref part="JP138" gate="G$1" pin="3"/>
 <wire x1="403.86" y1="-99.06" x2="421.64" y2="-99.06" width="0.1524" layer="91"/>
 <label x="403.86" y="-99.06" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_502" class="0">
+<net name="CLEAN194" class="0">
 <segment>
 <pinref part="JP25" gate="G$1" pin="15"/>
 <wire x1="142.24" y1="55.88" x2="157.48" y2="55.88" width="0.1524" layer="91"/>
 <label x="142.24" y="55.88" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_501" class="0">
+<net name="CLEAN193" class="0">
 <segment>
 <pinref part="JP25" gate="G$1" pin="14"/>
 <wire x1="142.24" y1="53.34" x2="157.48" y2="53.34" width="0.1524" layer="91"/>
 <label x="142.24" y="53.34" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_525" class="0">
+<net name="CLEAN192" class="0">
 <segment>
 <pinref part="JP25" gate="G$1" pin="13"/>
 <wire x1="142.24" y1="50.8" x2="157.48" y2="50.8" width="0.1524" layer="91"/>
 <label x="142.24" y="50.8" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_529" class="0">
+<net name="CLEAN191" class="0">
 <segment>
 <pinref part="JP25" gate="G$1" pin="12"/>
 <wire x1="142.24" y1="48.26" x2="157.48" y2="48.26" width="0.1524" layer="91"/>
 <label x="142.24" y="48.26" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_505" class="0">
+<net name="CLEAN190" class="0">
 <segment>
 <pinref part="JP25" gate="G$1" pin="11"/>
 <wire x1="142.24" y1="45.72" x2="157.48" y2="45.72" width="0.1524" layer="91"/>
 <label x="142.24" y="45.72" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_506" class="0">
+<net name="CLEAN189" class="0">
 <segment>
 <pinref part="JP25" gate="G$1" pin="10"/>
 <wire x1="142.24" y1="43.18" x2="157.48" y2="43.18" width="0.1524" layer="91"/>
 <label x="142.24" y="43.18" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_508" class="0">
+<net name="CLEAN188" class="0">
 <segment>
 <pinref part="JP25" gate="G$1" pin="9"/>
 <wire x1="142.24" y1="40.64" x2="157.48" y2="40.64" width="0.1524" layer="91"/>
 <label x="142.24" y="40.64" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_494" class="0">
-<segment>
-<pinref part="JP25" gate="G$1" pin="8"/>
-<wire x1="142.24" y1="38.1" x2="157.48" y2="38.1" width="0.1524" layer="91"/>
-<label x="142.24" y="38.1" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN539" class="0">
 <segment>
 <pinref part="JP137" gate="G$1" pin="5"/>
 <wire x1="403.86" y1="-76.2" x2="421.64" y2="-76.2" width="0.1524" layer="91"/>
 <label x="403.86" y="-76.2" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_493" class="0">
-<segment>
-<pinref part="JP25" gate="G$1" pin="7"/>
-<wire x1="142.24" y1="35.56" x2="157.48" y2="35.56" width="0.1524" layer="91"/>
-<label x="142.24" y="35.56" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN538" class="0">
 <segment>
 <pinref part="JP137" gate="G$1" pin="4"/>
 <wire x1="403.86" y1="-78.74" x2="421.64" y2="-78.74" width="0.1524" layer="91"/>
 <label x="403.86" y="-78.74" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_359" class="0">
-<segment>
-<pinref part="JP25" gate="G$1" pin="6"/>
-<wire x1="142.24" y1="33.02" x2="157.48" y2="33.02" width="0.1524" layer="91"/>
-<label x="142.24" y="33.02" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN399" class="0">
 <segment>
 <pinref part="JP79" gate="G$1" pin="5"/>
 <wire x1="403.86" y1="-50.8" x2="421.64" y2="-50.8" width="0.1524" layer="91"/>
@@ -2694,86 +2424,56 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <label x="403.86" y="-50.8" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_491" class="0">
-<segment>
-<pinref part="JP25" gate="G$1" pin="5"/>
-<wire x1="142.24" y1="30.48" x2="157.48" y2="30.48" width="0.1524" layer="91"/>
-<label x="142.24" y="30.48" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN536" class="0">
 <segment>
 <pinref part="JP137" gate="G$1" pin="2"/>
 <wire x1="403.86" y1="-83.82" x2="421.64" y2="-83.82" width="0.1524" layer="91"/>
 <label x="403.86" y="-83.82" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_492" class="0">
-<segment>
-<pinref part="JP25" gate="G$1" pin="4"/>
-<wire x1="142.24" y1="27.94" x2="157.48" y2="27.94" width="0.1524" layer="91"/>
-<label x="142.24" y="27.94" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN537" class="0">
 <segment>
 <pinref part="JP137" gate="G$1" pin="3"/>
 <wire x1="403.86" y1="-81.28" x2="421.64" y2="-81.28" width="0.1524" layer="91"/>
 <label x="403.86" y="-81.28" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_486" class="0">
-<segment>
-<pinref part="JP25" gate="G$1" pin="3"/>
-<wire x1="142.24" y1="25.4" x2="157.48" y2="25.4" width="0.1524" layer="91"/>
-<label x="142.24" y="25.4" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN541" class="0">
 <segment>
 <pinref part="JP138" gate="G$1" pin="2"/>
 <wire x1="403.86" y1="-101.6" x2="421.64" y2="-101.6" width="0.1524" layer="91"/>
 <label x="403.86" y="-101.6" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_500" class="0">
+<net name="CLEAN181" class="0">
 <segment>
 <pinref part="JP25" gate="G$1" pin="2"/>
 <wire x1="142.24" y1="22.86" x2="157.48" y2="22.86" width="0.1524" layer="91"/>
 <label x="142.24" y="22.86" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_488" class="0">
-<segment>
-<pinref part="JP25" gate="G$1" pin="1"/>
-<wire x1="142.24" y1="20.32" x2="157.48" y2="20.32" width="0.1524" layer="91"/>
-<label x="142.24" y="20.32" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN543" class="0">
 <segment>
 <pinref part="JP138" gate="G$1" pin="4"/>
 <wire x1="403.86" y1="-96.52" x2="421.64" y2="-96.52" width="0.1524" layer="91"/>
 <label x="403.86" y="-96.52" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_511" class="0">
-<segment>
-<pinref part="JP27" gate="G$1" pin="1"/>
-<wire x1="203.2" y1="20.32" x2="218.44" y2="20.32" width="0.1524" layer="91"/>
-<label x="203.2" y="20.32" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN561" class="0">
 <segment>
 <pinref part="JP145" gate="G$1" pin="2"/>
 <wire x1="469.9" y1="-119.38" x2="487.68" y2="-119.38" width="0.1524" layer="91"/>
 <label x="469.9" y="-119.38" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_530" class="0">
+<net name="CLEAN196" class="0">
 <segment>
 <pinref part="JP27" gate="G$1" pin="2"/>
 <wire x1="203.2" y1="22.86" x2="218.44" y2="22.86" width="0.1524" layer="91"/>
 <label x="203.2" y="22.86" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_550" class="0">
-<segment>
-<pinref part="JP27" gate="G$1" pin="3"/>
-<wire x1="203.2" y1="25.4" x2="218.44" y2="25.4" width="0.1524" layer="91"/>
-<label x="203.2" y="25.4" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN565" class="0">
 <segment>
 <pinref part="JP149" gate="G$1" pin="1"/>
 <wire x1="533.4" y1="-86.36" x2="551.18" y2="-86.36" width="0.1524" layer="91"/>
@@ -2781,83 +2481,63 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <label x="533.4" y="-86.36" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_551" class="0">
-<segment>
-<pinref part="JP27" gate="G$1" pin="4"/>
-<wire x1="203.2" y1="27.94" x2="218.44" y2="27.94" width="0.1524" layer="91"/>
-<label x="203.2" y="27.94" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN566" class="0">
 <segment>
 <pinref part="JP149" gate="G$1" pin="2"/>
 <wire x1="533.4" y1="-83.82" x2="551.18" y2="-83.82" width="0.1524" layer="91"/>
 <label x="533.4" y="-83.82" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_555" class="0">
+<net name="CLEAN199" class="0">
 <segment>
 <pinref part="JP27" gate="G$1" pin="5"/>
 <wire x1="203.2" y1="30.48" x2="218.44" y2="30.48" width="0.1524" layer="91"/>
 <label x="203.2" y="30.48" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_556" class="0">
+<net name="CLEAN200" class="0">
 <segment>
 <pinref part="JP27" gate="G$1" pin="6"/>
 <wire x1="203.2" y1="33.02" x2="218.44" y2="33.02" width="0.1524" layer="91"/>
 <label x="203.2" y="33.02" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_557" class="0">
+<net name="CLEAN201" class="0">
 <segment>
 <pinref part="JP27" gate="G$1" pin="7"/>
 <wire x1="203.2" y1="35.56" x2="218.44" y2="35.56" width="0.1524" layer="91"/>
 <label x="203.2" y="35.56" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_558" class="0">
+<net name="CLEAN202" class="0">
 <segment>
 <pinref part="JP27" gate="G$1" pin="8"/>
 <wire x1="203.2" y1="38.1" x2="218.44" y2="38.1" width="0.1524" layer="91"/>
 <label x="203.2" y="38.1" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_559" class="0">
+<net name="CLEAN203" class="0">
 <segment>
 <pinref part="JP27" gate="G$1" pin="9"/>
 <wire x1="203.2" y1="40.64" x2="218.44" y2="40.64" width="0.1524" layer="91"/>
 <label x="203.2" y="40.64" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_573" class="0">
-<segment>
-<pinref part="JP27" gate="G$1" pin="10"/>
-<wire x1="203.2" y1="43.18" x2="218.44" y2="43.18" width="0.1524" layer="91"/>
-<label x="203.2" y="43.18" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN593" class="0">
 <segment>
 <pinref part="JP157" gate="G$1" pin="4"/>
 <wire x1="599.44" y1="-114.3" x2="617.22" y2="-114.3" width="0.1524" layer="91"/>
 <label x="599.44" y="-114.3" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_575" class="0">
-<segment>
-<pinref part="JP27" gate="G$1" pin="11"/>
-<wire x1="203.2" y1="45.72" x2="218.44" y2="45.72" width="0.1524" layer="91"/>
-<label x="203.2" y="45.72" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN585" class="0">
 <segment>
 <pinref part="JP156" gate="G$1" pin="1"/>
 <wire x1="599.44" y1="-104.14" x2="617.22" y2="-104.14" width="0.1524" layer="91"/>
 <label x="599.44" y="-104.14" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_576" class="0">
-<segment>
-<pinref part="JP27" gate="G$1" pin="12"/>
-<wire x1="203.2" y1="48.26" x2="218.44" y2="48.26" width="0.1524" layer="91"/>
-<label x="203.2" y="48.26" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN586" class="0">
 <segment>
 <pinref part="JP156" gate="G$1" pin="2"/>
 <wire x1="599.44" y1="-101.6" x2="617.22" y2="-101.6" width="0.1524" layer="91"/>
@@ -2865,12 +2545,7 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <label x="599.44" y="-101.6" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_579" class="0">
-<segment>
-<pinref part="JP27" gate="G$1" pin="13"/>
-<wire x1="203.2" y1="50.8" x2="218.44" y2="50.8" width="0.1524" layer="91"/>
-<label x="203.2" y="50.8" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN589" class="0">
 <segment>
 <pinref part="JP156" gate="G$1" pin="5"/>
 <wire x1="599.44" y1="-93.98" x2="617.22" y2="-93.98" width="0.1524" layer="91"/>
@@ -2878,47 +2553,42 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <label x="599.44" y="-93.98" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_552" class="0">
-<segment>
-<pinref part="JP27" gate="G$1" pin="14"/>
-<wire x1="203.2" y1="53.34" x2="218.44" y2="53.34" width="0.1524" layer="91"/>
-<label x="203.2" y="53.34" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN567" class="0">
 <segment>
 <pinref part="JP149" gate="G$1" pin="3"/>
 <wire x1="533.4" y1="-81.28" x2="551.18" y2="-81.28" width="0.1524" layer="91"/>
 <label x="533.4" y="-81.28" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_565" class="0">
+<net name="CLEAN209" class="0">
 <segment>
 <pinref part="JP27" gate="G$1" pin="15"/>
 <wire x1="203.2" y1="55.88" x2="218.44" y2="55.88" width="0.1524" layer="91"/>
 <label x="203.2" y="55.88" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_544" class="0">
+<net name="CLEAN579" class="0">
 <segment>
 <pinref part="JP151" gate="G$1" pin="5"/>
 <wire x1="533.4" y1="-111.76" x2="551.18" y2="-111.76" width="0.1524" layer="91"/>
 <label x="533.4" y="-111.76" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_570" class="0">
+<net name="CLEAN590" class="0">
 <segment>
 <pinref part="JP157" gate="G$1" pin="1"/>
 <wire x1="599.44" y1="-121.92" x2="617.22" y2="-121.92" width="0.1524" layer="91"/>
 <label x="599.44" y="-121.92" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_580" class="0">
+<net name="CLEAN580" class="0">
 <segment>
 <pinref part="JP155" gate="G$1" pin="1"/>
 <wire x1="599.44" y1="-86.36" x2="617.22" y2="-86.36" width="0.1524" layer="91"/>
 <label x="599.44" y="-86.36" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_549" class="0">
+<net name="CLEAN574" class="0">
 <segment>
 <pinref part="JP150" gate="G$1" pin="5"/>
 <wire x1="533.4" y1="-93.98" x2="551.18" y2="-93.98" width="0.1524" layer="91"/>
@@ -2926,87 +2596,77 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <label x="533.4" y="-93.98" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_574" class="0">
+<net name="CLEAN594" class="0">
 <segment>
 <pinref part="JP157" gate="G$1" pin="5"/>
 <wire x1="599.44" y1="-111.76" x2="617.22" y2="-111.76" width="0.1524" layer="91"/>
 <label x="599.44" y="-111.76" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_572" class="0">
+<net name="CLEAN592" class="0">
 <segment>
 <pinref part="JP157" gate="G$1" pin="3"/>
 <wire x1="599.44" y1="-116.84" x2="617.22" y2="-116.84" width="0.1524" layer="91"/>
 <label x="599.44" y="-116.84" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_553" class="0">
+<net name="CLEAN568" class="0">
 <segment>
 <pinref part="JP149" gate="G$1" pin="4"/>
 <wire x1="533.4" y1="-78.74" x2="551.18" y2="-78.74" width="0.1524" layer="91"/>
 <label x="533.4" y="-78.74" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_571" class="0">
+<net name="CLEAN591" class="0">
 <segment>
 <pinref part="JP157" gate="G$1" pin="2"/>
 <wire x1="599.44" y1="-119.38" x2="617.22" y2="-119.38" width="0.1524" layer="91"/>
 <label x="599.44" y="-119.38" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_547" class="0">
+<net name="CLEAN572" class="0">
 <segment>
 <pinref part="JP150" gate="G$1" pin="3"/>
 <wire x1="533.4" y1="-99.06" x2="551.18" y2="-99.06" width="0.1524" layer="91"/>
 <label x="533.4" y="-99.06" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_548" class="0">
+<net name="CLEAN573" class="0">
 <segment>
 <pinref part="JP150" gate="G$1" pin="4"/>
 <wire x1="533.4" y1="-96.52" x2="551.18" y2="-96.52" width="0.1524" layer="91"/>
 <label x="533.4" y="-96.52" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_543" class="0">
+<net name="CLEAN578" class="0">
 <segment>
 <pinref part="JP151" gate="G$1" pin="4"/>
 <wire x1="533.4" y1="-114.3" x2="551.18" y2="-114.3" width="0.1524" layer="91"/>
 <label x="533.4" y="-114.3" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_516" class="0">
-<segment>
-<pinref part="JP29" gate="G$1" pin="1"/>
-<wire x1="266.7" y1="20.32" x2="287.02" y2="20.32" width="0.1524" layer="91"/>
-<label x="266.7" y="20.32" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN556" class="0">
 <segment>
 <pinref part="JP144" gate="G$1" pin="2"/>
 <wire x1="469.9" y1="-101.6" x2="487.68" y2="-101.6" width="0.1524" layer="91"/>
 <label x="469.9" y="-101.6" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_593" class="0">
+<net name="CLEAN211" class="0">
 <segment>
 <pinref part="JP29" gate="G$1" pin="2"/>
 <wire x1="266.7" y1="22.86" x2="287.02" y2="22.86" width="0.1524" layer="91"/>
 <label x="266.7" y="22.86" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_597" class="0">
+<net name="CLEAN212" class="0">
 <segment>
 <pinref part="JP29" gate="G$1" pin="3"/>
 <wire x1="266.7" y1="25.4" x2="287.02" y2="25.4" width="0.1524" layer="91"/>
 <label x="266.7" y="25.4" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_540" class="0">
-<segment>
-<pinref part="JP29" gate="G$1" pin="4"/>
-<wire x1="266.7" y1="27.94" x2="287.02" y2="27.94" width="0.1524" layer="91"/>
-<label x="266.7" y="27.94" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN575" class="0">
 <segment>
 <pinref part="JP151" gate="G$1" pin="1"/>
 <wire x1="533.4" y1="-121.92" x2="551.18" y2="-121.92" width="0.1524" layer="91"/>
@@ -3014,116 +2674,91 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <label x="533.4" y="-121.92" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_546" class="0">
-<segment>
-<pinref part="JP29" gate="G$1" pin="5"/>
-<wire x1="266.7" y1="30.48" x2="287.02" y2="30.48" width="0.1524" layer="91"/>
-<label x="266.7" y="30.48" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN571" class="0">
 <segment>
 <pinref part="JP150" gate="G$1" pin="2"/>
 <wire x1="533.4" y1="-101.6" x2="551.18" y2="-101.6" width="0.1524" layer="91"/>
 <label x="533.4" y="-101.6" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_564" class="0">
+<net name="CLEAN215" class="0">
 <segment>
 <pinref part="JP29" gate="G$1" pin="6"/>
 <wire x1="266.7" y1="33.02" x2="287.02" y2="33.02" width="0.1524" layer="91"/>
 <label x="266.7" y="33.02" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_504" class="0">
+<net name="CLEAN216" class="0">
 <segment>
 <pinref part="JP29" gate="G$1" pin="7"/>
 <wire x1="266.7" y1="35.56" x2="287.02" y2="35.56" width="0.1524" layer="91"/>
 <label x="266.7" y="35.56" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_563" class="0">
+<net name="CLEAN217" class="0">
 <segment>
 <pinref part="JP29" gate="G$1" pin="8"/>
 <wire x1="266.7" y1="38.1" x2="287.02" y2="38.1" width="0.1524" layer="91"/>
 <label x="266.7" y="38.1" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_499" class="0">
+<net name="CLEAN218" class="0">
 <segment>
 <pinref part="JP29" gate="G$1" pin="9"/>
 <wire x1="266.7" y1="40.64" x2="287.02" y2="40.64" width="0.1524" layer="91"/>
 <label x="266.7" y="40.64" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_521" class="0">
-<segment>
-<pinref part="JP29" gate="G$1" pin="10"/>
-<wire x1="266.7" y1="43.18" x2="287.02" y2="43.18" width="0.1524" layer="91"/>
-<label x="266.7" y="43.18" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN551" class="0">
 <segment>
 <pinref part="JP143" gate="G$1" pin="2"/>
 <wire x1="469.9" y1="-83.82" x2="487.68" y2="-83.82" width="0.1524" layer="91"/>
 <label x="469.9" y="-83.82" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_596" class="0">
+<net name="CLEAN220" class="0">
 <segment>
 <pinref part="JP29" gate="G$1" pin="11"/>
 <wire x1="266.7" y1="45.72" x2="287.02" y2="45.72" width="0.1524" layer="91"/>
 <label x="266.7" y="45.72" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_591" class="0">
+<net name="CLEAN221" class="0">
 <segment>
 <pinref part="JP29" gate="G$1" pin="12"/>
 <wire x1="266.7" y1="48.26" x2="287.02" y2="48.26" width="0.1524" layer="91"/>
 <label x="266.7" y="48.26" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_515" class="0">
-<segment>
-<pinref part="JP29" gate="G$1" pin="13"/>
-<wire x1="266.7" y1="50.8" x2="287.02" y2="50.8" width="0.1524" layer="91"/>
-<label x="266.7" y="50.8" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN555" class="0">
 <segment>
 <pinref part="JP144" gate="G$1" pin="1"/>
 <wire x1="469.9" y1="-104.14" x2="487.68" y2="-104.14" width="0.1524" layer="91"/>
 <label x="469.9" y="-104.14" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_519" class="0">
-<segment>
-<pinref part="JP29" gate="G$1" pin="14"/>
-<wire x1="266.7" y1="53.34" x2="287.02" y2="53.34" width="0.1524" layer="91"/>
-<label x="266.7" y="53.34" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN559" class="0">
 <segment>
 <pinref part="JP144" gate="G$1" pin="5"/>
 <wire x1="469.9" y1="-93.98" x2="487.68" y2="-93.98" width="0.1524" layer="91"/>
 <label x="469.9" y="-93.98" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_510" class="0">
-<segment>
-<pinref part="JP29" gate="G$1" pin="15"/>
-<wire x1="266.7" y1="55.88" x2="287.02" y2="55.88" width="0.1524" layer="91"/>
-<label x="266.7" y="55.88" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN560" class="0">
 <segment>
 <pinref part="JP145" gate="G$1" pin="1"/>
 <wire x1="469.9" y1="-121.92" x2="487.68" y2="-121.92" width="0.1524" layer="91"/>
 <label x="469.9" y="-121.92" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_520" class="0">
+<net name="CLEAN550" class="0">
 <segment>
 <pinref part="JP143" gate="G$1" pin="1"/>
 <wire x1="469.9" y1="-86.36" x2="487.68" y2="-86.36" width="0.1524" layer="91"/>
 <label x="469.9" y="-86.36" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_554" class="0">
+<net name="CLEAN569" class="0">
 <segment>
 <pinref part="JP149" gate="G$1" pin="5"/>
 <wire x1="533.4" y1="-76.2" x2="551.18" y2="-76.2" width="0.1524" layer="91"/>
@@ -3131,171 +2766,140 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <label x="533.4" y="-76.2" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_482" class="0">
+<net name="CLEAN597" class="0">
 <segment>
 <pinref part="JP161" gate="G$1" pin="3"/>
 <wire x1="12.7" y1="-20.32" x2="30.48" y2="-20.32" width="0.1524" layer="91"/>
 <label x="12.7" y="-20.32" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_545" class="0">
+<net name="CLEAN570" class="0">
 <segment>
 <pinref part="JP150" gate="G$1" pin="1"/>
 <wire x1="533.4" y1="-104.14" x2="551.18" y2="-104.14" width="0.1524" layer="91"/>
 <label x="533.4" y="-104.14" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_447" class="0">
+<net name="CLEAN532" class="0">
 <segment>
 <pinref part="JP133" gate="G$1" pin="3"/>
 <wire x1="340.36" y1="-116.84" x2="358.14" y2="-116.84" width="0.1524" layer="91"/>
 <label x="340.36" y="-116.84" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_452" class="0">
+<net name="CLEAN527" class="0">
 <segment>
 <pinref part="JP132" gate="G$1" pin="3"/>
 <wire x1="340.36" y1="-99.06" x2="358.14" y2="-99.06" width="0.1524" layer="91"/>
 <label x="340.36" y="-99.06" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_518" class="0">
+<net name="CLEAN558" class="0">
 <segment>
 <pinref part="JP144" gate="G$1" pin="4"/>
 <wire x1="469.9" y1="-96.52" x2="487.68" y2="-96.52" width="0.1524" layer="91"/>
 <label x="469.9" y="-96.52" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_457" class="0">
+<net name="CLEAN522" class="0">
 <segment>
 <pinref part="JP131" gate="G$1" pin="3"/>
 <wire x1="340.36" y1="-81.28" x2="358.14" y2="-81.28" width="0.1524" layer="91"/>
 <label x="340.36" y="-81.28" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_577" class="0">
+<net name="CLEAN587" class="0">
 <segment>
 <pinref part="JP156" gate="G$1" pin="3"/>
 <wire x1="599.44" y1="-99.06" x2="617.22" y2="-99.06" width="0.1524" layer="91"/>
 <label x="599.44" y="-99.06" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_589" class="0">
+<net name="CLEAN225" class="0">
 <segment>
 <pinref part="JP31" gate="G$1" pin="1"/>
 <wire x1="340.36" y1="20.32" x2="358.14" y2="20.32" width="0.1524" layer="91"/>
 <label x="340.36" y="20.32" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_449" class="0">
-<segment>
-<pinref part="JP31" gate="G$1" pin="3"/>
-<wire x1="340.36" y1="25.4" x2="358.14" y2="25.4" width="0.1524" layer="91"/>
-<label x="340.36" y="25.4" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN534" class="0">
 <segment>
 <pinref part="JP133" gate="G$1" pin="5"/>
 <wire x1="340.36" y1="-111.76" x2="358.14" y2="-111.76" width="0.1524" layer="91"/>
 <label x="340.36" y="-111.76" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_484" class="0">
-<segment>
-<pinref part="JP31" gate="G$1" pin="4"/>
-<wire x1="340.36" y1="27.94" x2="358.14" y2="27.94" width="0.1524" layer="91"/>
-<label x="340.36" y="27.94" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN599" class="0">
 <segment>
 <pinref part="JP161" gate="G$1" pin="5"/>
 <wire x1="12.7" y1="-15.24" x2="30.48" y2="-15.24" width="0.1524" layer="91"/>
 <label x="12.7" y="-15.24" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_472" class="0">
+<net name="CLEAN229" class="0">
 <segment>
 <pinref part="JP31" gate="G$1" pin="5"/>
 <wire x1="340.36" y1="30.48" x2="358.14" y2="30.48" width="0.1524" layer="91"/>
 <label x="340.36" y="30.48" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_483" class="0">
-<segment>
-<pinref part="JP31" gate="G$1" pin="6"/>
-<wire x1="340.36" y1="33.02" x2="358.14" y2="33.02" width="0.1524" layer="91"/>
-<label x="340.36" y="33.02" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN598" class="0">
 <segment>
 <pinref part="JP161" gate="G$1" pin="4"/>
 <wire x1="12.7" y1="-17.78" x2="30.48" y2="-17.78" width="0.1524" layer="91"/>
 <label x="12.7" y="-17.78" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_587" class="0">
+<net name="CLEAN233" class="0">
 <segment>
 <pinref part="JP31" gate="G$1" pin="9"/>
 <wire x1="340.36" y1="40.64" x2="358.14" y2="40.64" width="0.1524" layer="91"/>
 <label x="340.36" y="40.64" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_586" class="0">
+<net name="CLEAN234" class="0">
 <segment>
 <pinref part="JP31" gate="G$1" pin="10"/>
 <wire x1="340.36" y1="43.18" x2="358.14" y2="43.18" width="0.1524" layer="91"/>
 <label x="340.36" y="43.18" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_517" class="0">
-<segment>
-<pinref part="JP31" gate="G$1" pin="12"/>
-<wire x1="340.36" y1="48.26" x2="358.14" y2="48.26" width="0.1524" layer="91"/>
-<label x="340.36" y="48.26" size="1.778" layer="95"/>
-<label x="340.36" y="48.26" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN557" class="0">
 <segment>
 <pinref part="JP144" gate="G$1" pin="3"/>
 <wire x1="469.9" y1="-99.06" x2="487.68" y2="-99.06" width="0.1524" layer="91"/>
 <label x="469.9" y="-99.06" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_569" class="0">
+<net name="CLEAN238" class="0">
 <segment>
 <pinref part="JP31" gate="G$1" pin="14"/>
 <wire x1="340.36" y1="53.34" x2="358.14" y2="53.34" width="0.1524" layer="91"/>
 <label x="340.36" y="53.34" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_578" class="0">
-<segment>
-<pinref part="JP31" gate="G$1" pin="15"/>
-<wire x1="340.36" y1="55.88" x2="358.14" y2="55.88" width="0.1524" layer="91"/>
-<label x="340.36" y="55.88" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN588" class="0">
 <segment>
 <pinref part="JP156" gate="G$1" pin="4"/>
 <wire x1="599.44" y1="-96.52" x2="617.22" y2="-96.52" width="0.1524" layer="91"/>
 <label x="599.44" y="-96.52" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_583" class="0">
+<net name="CLEAN583" class="0">
 <segment>
 <pinref part="JP155" gate="G$1" pin="4"/>
 <wire x1="599.44" y1="-78.74" x2="617.22" y2="-78.74" width="0.1524" layer="91"/>
 <label x="599.44" y="-78.74" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_581" class="0">
+<net name="CLEAN581" class="0">
 <segment>
 <pinref part="JP155" gate="G$1" pin="2"/>
 <wire x1="599.44" y1="-83.82" x2="617.22" y2="-83.82" width="0.1524" layer="91"/>
 <label x="599.44" y="-83.82" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_584" class="0">
-<segment>
-<pinref part="JP33" gate="G$1" pin="7"/>
-<wire x1="406.4" y1="35.56" x2="424.18" y2="35.56" width="0.1524" layer="91"/>
-<label x="406.4" y="35.56" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN584" class="0">
 <segment>
 <pinref part="JP155" gate="G$1" pin="5"/>
 <wire x1="599.44" y1="-76.2" x2="617.22" y2="-76.2" width="0.1524" layer="91"/>
@@ -3303,45 +2907,35 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <label x="599.44" y="-76.2" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_542" class="0">
-<segment>
-<pinref part="JP33" gate="G$1" pin="8"/>
-<wire x1="406.4" y1="38.1" x2="424.18" y2="38.1" width="0.1524" layer="91"/>
-<label x="406.4" y="38.1" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN577" class="0">
 <segment>
 <pinref part="JP151" gate="G$1" pin="3"/>
 <wire x1="533.4" y1="-116.84" x2="551.18" y2="-116.84" width="0.1524" layer="91"/>
 <label x="533.4" y="-116.84" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_561" class="0">
+<net name="CLEAN251" class="0">
 <segment>
 <pinref part="JP33" gate="G$1" pin="12"/>
 <wire x1="406.4" y1="48.26" x2="424.18" y2="48.26" width="0.1524" layer="91"/>
 <label x="406.4" y="48.26" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_582" class="0">
-<segment>
-<pinref part="JP33" gate="G$1" pin="13"/>
-<wire x1="406.4" y1="50.8" x2="424.18" y2="50.8" width="0.1524" layer="91"/>
-<label x="406.4" y="50.8" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN582" class="0">
 <segment>
 <pinref part="JP155" gate="G$1" pin="3"/>
 <wire x1="599.44" y1="-81.28" x2="617.22" y2="-81.28" width="0.1524" layer="91"/>
 <label x="599.44" y="-81.28" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_541" class="0">
+<net name="CLEAN576" class="0">
 <segment>
 <pinref part="JP151" gate="G$1" pin="2"/>
 <wire x1="533.4" y1="-119.38" x2="551.18" y2="-119.38" width="0.1524" layer="91"/>
 <label x="533.4" y="-119.38" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_524" class="0">
+<net name="CLEAN554" class="0">
 <segment>
 <pinref part="JP143" gate="G$1" pin="5"/>
 <wire x1="469.9" y1="-76.2" x2="487.68" y2="-76.2" width="0.1524" layer="91"/>
@@ -3349,38 +2943,28 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <label x="469.9" y="-76.2" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_513" class="0">
+<net name="CLEAN563" class="0">
 <segment>
 <pinref part="JP145" gate="G$1" pin="4"/>
 <wire x1="469.9" y1="-114.3" x2="487.68" y2="-114.3" width="0.1524" layer="91"/>
 <label x="469.9" y="-114.3" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_522" class="0">
-<segment>
-<pinref part="JP35" gate="G$1" pin="5"/>
-<wire x1="469.9" y1="30.48" x2="487.68" y2="30.48" width="0.1524" layer="91"/>
-<label x="469.9" y="30.48" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN552" class="0">
 <segment>
 <pinref part="JP143" gate="G$1" pin="3"/>
 <wire x1="469.9" y1="-81.28" x2="487.68" y2="-81.28" width="0.1524" layer="91"/>
 <label x="469.9" y="-81.28" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_523" class="0">
-<segment>
-<pinref part="JP35" gate="G$1" pin="6"/>
-<wire x1="469.9" y1="33.02" x2="487.68" y2="33.02" width="0.1524" layer="91"/>
-<label x="469.9" y="33.02" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN553" class="0">
 <segment>
 <pinref part="JP143" gate="G$1" pin="4"/>
 <wire x1="469.9" y1="-78.74" x2="487.68" y2="-78.74" width="0.1524" layer="91"/>
 <label x="469.9" y="-78.74" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_560" class="0">
+<net name="CLEAN265" class="0">
 <segment>
 <pinref part="JP35" gate="G$1" pin="11"/>
 <wire x1="469.9" y1="45.72" x2="487.68" y2="45.72" width="0.1524" layer="91"/>
@@ -3392,12 +2976,7 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="266.7" y1="71.12" x2="279.4" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="NEW_0" class="0">
-<segment>
-<pinref part="JP1" gate="G$1" pin="10"/>
-<wire x1="12.7" y1="109.22" x2="25.4" y2="109.22" width="0.1524" layer="91"/>
-<label x="12.7" y="109.22" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN300" class="0">
 <segment>
 <pinref part="JP42" gate="G$1" pin="1"/>
 <wire x1="12.7" y1="-43.18" x2="30.48" y2="-43.18" width="0.1524" layer="91"/>
@@ -3405,55 +2984,35 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <label x="12.7" y="-43.18" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_1" class="0">
-<segment>
-<pinref part="JP1" gate="G$1" pin="11"/>
-<wire x1="12.7" y1="111.76" x2="25.4" y2="111.76" width="0.1524" layer="91"/>
-<label x="12.7" y="111.76" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN301" class="0">
 <segment>
 <pinref part="JP42" gate="G$1" pin="2"/>
 <wire x1="12.7" y1="-40.64" x2="30.48" y2="-40.64" width="0.1524" layer="91"/>
 <label x="12.7" y="-40.64" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_3" class="0">
-<segment>
-<pinref part="JP1" gate="G$1" pin="5"/>
-<wire x1="12.7" y1="96.52" x2="25.4" y2="96.52" width="0.1524" layer="91"/>
-<label x="12.7" y="96.52" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN303" class="0">
 <segment>
 <pinref part="JP42" gate="G$1" pin="4"/>
 <wire x1="12.7" y1="-35.56" x2="30.48" y2="-35.56" width="0.1524" layer="91"/>
 <label x="12.7" y="-35.56" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_6" class="0">
-<segment>
-<pinref part="JP11" gate="G$1" pin="15"/>
-<wire x1="340.36" y1="121.92" x2="358.14" y2="121.92" width="0.1524" layer="91"/>
-<label x="340.36" y="121.92" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN411" class="0">
 <segment>
 <pinref part="JP85" gate="G$1" pin="2"/>
 <wire x1="469.9" y1="-58.42" x2="487.68" y2="-58.42" width="0.1524" layer="91"/>
 <label x="469.9" y="-58.42" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_7" class="0">
-<segment>
-<pinref part="JP1" gate="G$1" pin="12"/>
-<wire x1="12.7" y1="114.3" x2="25.4" y2="114.3" width="0.1524" layer="91"/>
-<label x="12.7" y="114.3" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN478" class="0">
 <segment>
 <pinref part="JP113" gate="G$1" pin="4"/>
 <wire x1="142.24" y1="-76.2" x2="160.02" y2="-76.2" width="0.1524" layer="91"/>
 <label x="142.24" y="-76.2" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_8" class="0">
+<net name="CLEAN404" class="0">
 <segment>
 <pinref part="JP83" gate="G$1" pin="5"/>
 <wire x1="469.9" y1="-15.24" x2="487.68" y2="-15.24" width="0.1524" layer="91"/>
@@ -3461,170 +3020,140 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <label x="469.9" y="-15.24" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_9" class="0">
-<segment>
-<pinref part="JP1" gate="G$1" pin="13"/>
-<wire x1="12.7" y1="116.84" x2="25.4" y2="116.84" width="0.1524" layer="91"/>
-<label x="12.7" y="116.84" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN479" class="0">
 <segment>
 <pinref part="JP113" gate="G$1" pin="5"/>
 <wire x1="142.24" y1="-73.66" x2="160.02" y2="-73.66" width="0.1524" layer="91"/>
 <label x="142.24" y="-73.66" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_11" class="0">
+<net name="CLEAN28" class="0">
 <segment>
 <pinref part="JP3" gate="G$1" pin="14"/>
 <wire x1="78.74" y1="119.38" x2="93.98" y2="119.38" width="0.1524" layer="91"/>
 <label x="78.74" y="119.38" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_12" class="0">
+<net name="CLEAN14" class="0">
 <segment>
 <pinref part="JP1" gate="G$1" pin="15"/>
 <wire x1="12.7" y1="121.92" x2="25.4" y2="121.92" width="0.1524" layer="91"/>
 <label x="12.7" y="121.92" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_14" class="0">
+<net name="CLEAN27" class="0">
 <segment>
 <pinref part="JP3" gate="G$1" pin="13"/>
 <wire x1="78.74" y1="116.84" x2="93.98" y2="116.84" width="0.1524" layer="91"/>
 <label x="78.74" y="116.84" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_15" class="0">
+<net name="CLEAN58" class="0">
 <segment>
 <pinref part="JP7" gate="G$1" pin="14"/>
 <wire x1="203.2" y1="119.38" x2="220.98" y2="119.38" width="0.1524" layer="91"/>
 <label x="203.2" y="119.38" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_16" class="0">
+<net name="CLEAN59" class="0">
 <segment>
 <pinref part="JP7" gate="G$1" pin="15"/>
 <wire x1="203.2" y1="121.92" x2="220.98" y2="121.92" width="0.1524" layer="91"/>
 <label x="203.2" y="121.92" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_19" class="0">
+<net name="CLEAN29" class="0">
 <segment>
 <pinref part="JP3" gate="G$1" pin="15"/>
 <wire x1="78.74" y1="121.92" x2="93.98" y2="121.92" width="0.1524" layer="91"/>
 <label x="78.74" y="121.92" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_21" class="0">
+<net name="CLEAN73" class="0">
 <segment>
 <pinref part="JP9" gate="G$1" pin="14"/>
 <wire x1="266.7" y1="119.38" x2="284.48" y2="119.38" width="0.1524" layer="91"/>
 <label x="266.7" y="119.38" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_22" class="0">
+<net name="CLEAN71" class="0">
 <segment>
 <pinref part="JP9" gate="G$1" pin="12"/>
 <wire x1="266.7" y1="114.3" x2="284.48" y2="114.3" width="0.1524" layer="91"/>
 <label x="266.7" y="114.3" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_23" class="0">
+<net name="CLEAN72" class="0">
 <segment>
 <pinref part="JP9" gate="G$1" pin="13"/>
 <wire x1="266.7" y1="116.84" x2="284.48" y2="116.84" width="0.1524" layer="91"/>
 <label x="266.7" y="116.84" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_25" class="0">
-<segment>
-<pinref part="JP1" gate="G$1" pin="14"/>
-<wire x1="12.7" y1="119.38" x2="25.4" y2="119.38" width="0.1524" layer="91"/>
-<label x="12.7" y="119.38" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN425" class="0">
 <segment>
 <pinref part="JP91" gate="G$1" pin="1"/>
 <wire x1="533.4" y1="-60.96" x2="551.18" y2="-60.96" width="0.1524" layer="91"/>
 <label x="533.4" y="-60.96" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_26" class="0">
+<net name="CLEAN426" class="0">
 <segment>
 <pinref part="JP91" gate="G$1" pin="2"/>
 <wire x1="533.4" y1="-58.42" x2="551.18" y2="-58.42" width="0.1524" layer="91"/>
 <label x="533.4" y="-58.42" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_27" class="0">
+<net name="CLEAN427" class="0">
 <segment>
 <pinref part="JP91" gate="G$1" pin="3"/>
 <wire x1="533.4" y1="-55.88" x2="551.18" y2="-55.88" width="0.1524" layer="91"/>
 <label x="533.4" y="-55.88" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_28" class="0">
+<net name="CLEAN428" class="0">
 <segment>
 <pinref part="JP91" gate="G$1" pin="4"/>
 <wire x1="533.4" y1="-53.34" x2="551.18" y2="-53.34" width="0.1524" layer="91"/>
 <label x="533.4" y="-53.34" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_29" class="0">
+<net name="CLEAN429" class="0">
 <segment>
 <pinref part="JP91" gate="G$1" pin="5"/>
 <wire x1="533.4" y1="-50.8" x2="551.18" y2="-50.8" width="0.1524" layer="91"/>
 <label x="533.4" y="-50.8" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_30" class="0">
+<net name="CLEAN420" class="0">
 <segment>
 <pinref part="JP90" gate="G$1" pin="1"/>
 <wire x1="533.4" y1="-43.18" x2="551.18" y2="-43.18" width="0.1524" layer="91"/>
 <label x="533.4" y="-43.18" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_31" class="0">
-<segment>
-<pinref part="JP3" gate="G$1" pin="8"/>
-<wire x1="78.74" y1="104.14" x2="93.98" y2="104.14" width="0.1524" layer="91"/>
-<label x="78.74" y="104.14" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN421" class="0">
 <segment>
 <pinref part="JP90" gate="G$1" pin="2"/>
 <wire x1="533.4" y1="-40.64" x2="551.18" y2="-40.64" width="0.1524" layer="91"/>
 <label x="533.4" y="-40.64" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_32" class="0">
-<segment>
-<pinref part="JP3" gate="G$1" pin="10"/>
-<wire x1="78.74" y1="109.22" x2="93.98" y2="109.22" width="0.1524" layer="91"/>
-<label x="78.74" y="109.22" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN422" class="0">
 <segment>
 <pinref part="JP90" gate="G$1" pin="3"/>
 <wire x1="533.4" y1="-38.1" x2="551.18" y2="-38.1" width="0.1524" layer="91"/>
 <label x="533.4" y="-38.1" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_33" class="0">
-<segment>
-<pinref part="JP3" gate="G$1" pin="11"/>
-<wire x1="78.74" y1="111.76" x2="93.98" y2="111.76" width="0.1524" layer="91"/>
-<label x="78.74" y="111.76" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN423" class="0">
 <segment>
 <pinref part="JP90" gate="G$1" pin="4"/>
 <wire x1="533.4" y1="-35.56" x2="551.18" y2="-35.56" width="0.1524" layer="91"/>
 <label x="533.4" y="-35.56" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_34" class="0">
-<segment>
-<pinref part="JP3" gate="G$1" pin="9"/>
-<wire x1="78.74" y1="106.68" x2="93.98" y2="106.68" width="0.1524" layer="91"/>
-<label x="78.74" y="106.68" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN424" class="0">
 <segment>
 <pinref part="JP90" gate="G$1" pin="5"/>
 <wire x1="533.4" y1="-33.02" x2="551.18" y2="-33.02" width="0.1524" layer="91"/>
@@ -3632,148 +3161,133 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <label x="533.4" y="-33.02" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_35" class="0">
+<net name="CLEAN415" class="0">
 <segment>
 <pinref part="JP89" gate="G$1" pin="1"/>
 <wire x1="533.4" y1="-25.4" x2="551.18" y2="-25.4" width="0.1524" layer="91"/>
 <label x="533.4" y="-25.4" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_36" class="0">
+<net name="CLEAN416" class="0">
 <segment>
 <pinref part="JP89" gate="G$1" pin="2"/>
 <wire x1="533.4" y1="-22.86" x2="551.18" y2="-22.86" width="0.1524" layer="91"/>
 <label x="533.4" y="-22.86" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_37" class="0">
+<net name="CLEAN417" class="0">
 <segment>
 <pinref part="JP89" gate="G$1" pin="3"/>
 <wire x1="533.4" y1="-20.32" x2="551.18" y2="-20.32" width="0.1524" layer="91"/>
 <label x="533.4" y="-20.32" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_38" class="0">
+<net name="CLEAN418" class="0">
 <segment>
 <pinref part="JP89" gate="G$1" pin="4"/>
 <wire x1="533.4" y1="-17.78" x2="551.18" y2="-17.78" width="0.1524" layer="91"/>
 <label x="533.4" y="-17.78" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_39" class="0">
-<segment>
-<pinref part="JP5" gate="G$1" pin="11"/>
-<wire x1="142.24" y1="111.76" x2="154.94" y2="111.76" width="0.1524" layer="91"/>
-<label x="142.24" y="111.76" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN419" class="0">
 <segment>
 <pinref part="JP89" gate="G$1" pin="5"/>
 <wire x1="533.4" y1="-15.24" x2="551.18" y2="-15.24" width="0.1524" layer="91"/>
 <label x="533.4" y="-15.24" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_40" class="0">
+<net name="CLEAN74" class="0">
 <segment>
 <pinref part="JP9" gate="G$1" pin="15"/>
 <wire x1="266.7" y1="121.92" x2="284.48" y2="121.92" width="0.1524" layer="91"/>
 <label x="266.7" y="121.92" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_48" class="0">
+<net name="CLEAN84" class="0">
 <segment>
 <pinref part="JP11" gate="G$1" pin="10"/>
 <wire x1="340.36" y1="109.22" x2="358.14" y2="109.22" width="0.1524" layer="91"/>
 <label x="340.36" y="109.22" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_49" class="0">
+<net name="CLEAN85" class="0">
 <segment>
 <pinref part="JP11" gate="G$1" pin="11"/>
 <wire x1="340.36" y1="111.76" x2="358.14" y2="111.76" width="0.1524" layer="91"/>
 <label x="340.36" y="111.76" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_50" class="0">
+<net name="CLEAN26" class="0">
 <segment>
 <pinref part="JP3" gate="G$1" pin="12"/>
 <wire x1="78.74" y1="114.3" x2="93.98" y2="114.3" width="0.1524" layer="91"/>
 <label x="78.74" y="114.3" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_70" class="0">
+<net name="CLEAN86" class="0">
 <segment>
 <pinref part="JP11" gate="G$1" pin="12"/>
 <wire x1="340.36" y1="114.3" x2="358.14" y2="114.3" width="0.1524" layer="91"/>
 <label x="340.36" y="114.3" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_71" class="0">
+<net name="CLEAN87" class="0">
 <segment>
 <pinref part="JP11" gate="G$1" pin="13"/>
 <wire x1="340.36" y1="116.84" x2="358.14" y2="116.84" width="0.1524" layer="91"/>
 <label x="340.36" y="116.84" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_73" class="0">
+<net name="CLEAN41" class="0">
 <segment>
 <pinref part="JP5" gate="G$1" pin="12"/>
 <wire x1="142.24" y1="114.3" x2="154.94" y2="114.3" width="0.1524" layer="91"/>
 <label x="142.24" y="114.3" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_74" class="0">
+<net name="CLEAN42" class="0">
 <segment>
 <pinref part="JP5" gate="G$1" pin="13"/>
 <wire x1="142.24" y1="116.84" x2="154.94" y2="116.84" width="0.1524" layer="91"/>
 <label x="142.24" y="116.84" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_75" class="0">
+<net name="CLEAN88" class="0">
 <segment>
 <pinref part="JP11" gate="G$1" pin="14"/>
 <wire x1="340.36" y1="119.38" x2="358.14" y2="119.38" width="0.1524" layer="91"/>
 <label x="340.36" y="119.38" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_85" class="0">
+<net name="CLEAN455" class="0">
 <segment>
 <pinref part="JP103" gate="G$1" pin="1"/>
 <wire x1="12.7" y1="-119.38" x2="30.48" y2="-119.38" width="0.1524" layer="91"/>
 <label x="12.7" y="-119.38" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_86" class="0">
+<net name="CLEAN456" class="0">
 <segment>
 <pinref part="JP103" gate="G$1" pin="2"/>
 <wire x1="12.7" y1="-116.84" x2="30.48" y2="-116.84" width="0.1524" layer="91"/>
 <label x="12.7" y="-116.84" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_87" class="0">
+<net name="CLEAN457" class="0">
 <segment>
 <pinref part="JP103" gate="G$1" pin="3"/>
 <wire x1="12.7" y1="-114.3" x2="30.48" y2="-114.3" width="0.1524" layer="91"/>
 <label x="12.7" y="-114.3" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_88" class="0">
-<segment>
-<pinref part="JP5" gate="G$1" pin="6"/>
-<wire x1="142.24" y1="99.06" x2="154.94" y2="99.06" width="0.1524" layer="91"/>
-<label x="142.24" y="99.06" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN458" class="0">
 <segment>
 <pinref part="JP103" gate="G$1" pin="4"/>
 <wire x1="12.7" y1="-111.76" x2="30.48" y2="-111.76" width="0.1524" layer="91"/>
 <label x="12.7" y="-111.76" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_89" class="0">
-<segment>
-<pinref part="JP5" gate="G$1" pin="7"/>
-<wire x1="142.24" y1="101.6" x2="154.94" y2="101.6" width="0.1524" layer="91"/>
-<label x="142.24" y="101.6" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN459" class="0">
 <segment>
 <pinref part="JP103" gate="G$1" pin="5"/>
 <wire x1="12.7" y1="-109.22" x2="30.48" y2="-109.22" width="0.1524" layer="91"/>
@@ -3781,135 +3295,105 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <label x="12.7" y="-109.22" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_90" class="0">
-<segment>
-<pinref part="JP5" gate="G$1" pin="15"/>
-<wire x1="142.24" y1="121.92" x2="154.94" y2="121.92" width="0.1524" layer="91"/>
-<label x="142.24" y="121.92" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN450" class="0">
 <segment>
 <pinref part="JP102" gate="G$1" pin="1"/>
 <wire x1="12.7" y1="-101.6" x2="30.48" y2="-101.6" width="0.1524" layer="91"/>
 <label x="12.7" y="-101.6" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_91" class="0">
-<segment>
-<pinref part="JP5" gate="G$1" pin="14"/>
-<wire x1="142.24" y1="119.38" x2="154.94" y2="119.38" width="0.1524" layer="91"/>
-<label x="142.24" y="119.38" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN451" class="0">
 <segment>
 <pinref part="JP102" gate="G$1" pin="2"/>
 <wire x1="12.7" y1="-99.06" x2="30.48" y2="-99.06" width="0.1524" layer="91"/>
 <label x="12.7" y="-99.06" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_92" class="0">
+<net name="CLEAN452" class="0">
 <segment>
 <pinref part="JP102" gate="G$1" pin="3"/>
 <wire x1="12.7" y1="-96.52" x2="30.48" y2="-96.52" width="0.1524" layer="91"/>
 <label x="12.7" y="-96.52" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_93" class="0">
-<segment>
-<pinref part="JP5" gate="G$1" pin="8"/>
-<wire x1="142.24" y1="104.14" x2="154.94" y2="104.14" width="0.1524" layer="91"/>
-<label x="142.24" y="104.14" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN453" class="0">
 <segment>
 <pinref part="JP102" gate="G$1" pin="4"/>
 <wire x1="12.7" y1="-93.98" x2="30.48" y2="-93.98" width="0.1524" layer="91"/>
 <label x="12.7" y="-93.98" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_94" class="0">
-<segment>
-<pinref part="JP5" gate="G$1" pin="9"/>
-<wire x1="142.24" y1="106.68" x2="154.94" y2="106.68" width="0.1524" layer="91"/>
-<label x="142.24" y="106.68" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN454" class="0">
 <segment>
 <pinref part="JP102" gate="G$1" pin="5"/>
 <wire x1="12.7" y1="-91.44" x2="30.48" y2="-91.44" width="0.1524" layer="91"/>
 <label x="12.7" y="-91.44" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_95" class="0">
+<net name="CLEAN445" class="0">
 <segment>
 <pinref part="JP101" gate="G$1" pin="1"/>
 <wire x1="12.7" y1="-83.82" x2="30.48" y2="-83.82" width="0.1524" layer="91"/>
 <label x="12.7" y="-83.82" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_96" class="0">
+<net name="CLEAN446" class="0">
 <segment>
 <pinref part="JP101" gate="G$1" pin="2"/>
 <wire x1="12.7" y1="-81.28" x2="30.48" y2="-81.28" width="0.1524" layer="91"/>
 <label x="12.7" y="-81.28" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_97" class="0">
+<net name="CLEAN447" class="0">
 <segment>
 <pinref part="JP101" gate="G$1" pin="3"/>
 <wire x1="12.7" y1="-78.74" x2="30.48" y2="-78.74" width="0.1524" layer="91"/>
 <label x="12.7" y="-78.74" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_98" class="0">
+<net name="CLEAN448" class="0">
 <segment>
 <pinref part="JP101" gate="G$1" pin="4"/>
 <wire x1="12.7" y1="-76.2" x2="30.48" y2="-76.2" width="0.1524" layer="91"/>
 <label x="12.7" y="-76.2" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_99" class="0">
-<segment>
-<pinref part="JP7" gate="G$1" pin="9"/>
-<wire x1="203.2" y1="106.68" x2="220.98" y2="106.68" width="0.1524" layer="91"/>
-<label x="203.2" y="106.68" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN449" class="0">
 <segment>
 <pinref part="JP101" gate="G$1" pin="5"/>
 <wire x1="12.7" y1="-73.66" x2="30.48" y2="-73.66" width="0.1524" layer="91"/>
 <label x="12.7" y="-73.66" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_130" class="0">
+<net name="CLEAN56" class="0">
 <segment>
 <pinref part="JP7" gate="G$1" pin="12"/>
 <wire x1="203.2" y1="114.3" x2="220.98" y2="114.3" width="0.1524" layer="91"/>
 <label x="203.2" y="114.3" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_131" class="0">
+<net name="CLEAN54" class="0">
 <segment>
 <pinref part="JP7" gate="G$1" pin="10"/>
 <wire x1="203.2" y1="109.22" x2="220.98" y2="109.22" width="0.1524" layer="91"/>
 <label x="203.2" y="109.22" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_132" class="0">
+<net name="CLEAN55" class="0">
 <segment>
 <pinref part="JP7" gate="G$1" pin="11"/>
 <wire x1="203.2" y1="111.76" x2="220.98" y2="111.76" width="0.1524" layer="91"/>
 <label x="203.2" y="111.76" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_133" class="0">
+<net name="CLEAN57" class="0">
 <segment>
 <pinref part="JP7" gate="G$1" pin="13"/>
 <wire x1="203.2" y1="116.84" x2="220.98" y2="116.84" width="0.1524" layer="91"/>
 <label x="203.2" y="116.84" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_145" class="0">
-<segment>
-<pinref part="JP5" gate="G$1" pin="10"/>
-<wire x1="142.24" y1="109.22" x2="154.94" y2="109.22" width="0.1524" layer="91"/>
-<label x="142.24" y="109.22" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN480" class="0">
 <segment>
 <pinref part="JP114" gate="G$1" pin="1"/>
 <wire x1="142.24" y1="-101.6" x2="160.02" y2="-101.6" width="0.1524" layer="91"/>
@@ -3917,154 +3401,119 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <label x="142.24" y="-101.6" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_146" class="0">
+<net name="CLEAN481" class="0">
 <segment>
 <pinref part="JP114" gate="G$1" pin="2"/>
 <wire x1="142.24" y1="-99.06" x2="160.02" y2="-99.06" width="0.1524" layer="91"/>
 <label x="142.24" y="-99.06" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_147" class="0">
+<net name="CLEAN482" class="0">
 <segment>
 <pinref part="JP114" gate="G$1" pin="3"/>
 <wire x1="142.24" y1="-96.52" x2="160.02" y2="-96.52" width="0.1524" layer="91"/>
 <label x="142.24" y="-96.52" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_148" class="0">
+<net name="CLEAN483" class="0">
 <segment>
 <pinref part="JP114" gate="G$1" pin="4"/>
 <wire x1="142.24" y1="-93.98" x2="160.02" y2="-93.98" width="0.1524" layer="91"/>
 <label x="142.24" y="-93.98" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_149" class="0">
+<net name="CLEAN484" class="0">
 <segment>
 <pinref part="JP114" gate="G$1" pin="5"/>
 <wire x1="142.24" y1="-91.44" x2="160.02" y2="-91.44" width="0.1524" layer="91"/>
 <label x="142.24" y="-91.44" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_150" class="0">
-<segment>
-<pinref part="JP9" gate="G$1" pin="7"/>
-<wire x1="266.7" y1="101.6" x2="284.48" y2="101.6" width="0.1524" layer="91"/>
-<label x="266.7" y="101.6" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN475" class="0">
 <segment>
 <pinref part="JP113" gate="G$1" pin="1"/>
 <wire x1="142.24" y1="-83.82" x2="160.02" y2="-83.82" width="0.1524" layer="91"/>
 <label x="142.24" y="-83.82" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_151" class="0">
-<segment>
-<pinref part="JP9" gate="G$1" pin="8"/>
-<wire x1="266.7" y1="104.14" x2="281.94" y2="104.14" width="0.1524" layer="91"/>
-<label x="266.7" y="104.14" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN476" class="0">
 <segment>
 <pinref part="JP113" gate="G$1" pin="2"/>
 <wire x1="142.24" y1="-81.28" x2="160.02" y2="-81.28" width="0.1524" layer="91"/>
 <label x="142.24" y="-81.28" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_152" class="0">
+<net name="CLEAN477" class="0">
 <segment>
 <pinref part="JP113" gate="G$1" pin="3"/>
 <wire x1="142.24" y1="-78.74" x2="160.02" y2="-78.74" width="0.1524" layer="91"/>
 <label x="142.24" y="-78.74" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_186" class="0">
+<net name="CLEAN1" class="0">
 <segment>
 <pinref part="JP1" gate="G$1" pin="2"/>
 <wire x1="12.7" y1="88.9" x2="25.4" y2="88.9" width="0.1524" layer="91"/>
 <label x="12.7" y="88.9" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_187" class="0">
+<net name="CLEAN2" class="0">
 <segment>
 <pinref part="JP1" gate="G$1" pin="3"/>
 <wire x1="12.7" y1="91.44" x2="25.4" y2="91.44" width="0.1524" layer="91"/>
 <label x="12.7" y="91.44" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_188" class="0">
+<net name="CLEAN3" class="0">
 <segment>
 <pinref part="JP1" gate="G$1" pin="4"/>
 <wire x1="12.7" y1="93.98" x2="25.4" y2="93.98" width="0.1524" layer="91"/>
 <label x="12.7" y="93.98" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_191" class="0">
+<net name="CLEAN15" class="0">
 <segment>
 <pinref part="JP3" gate="G$1" pin="1"/>
 <wire x1="78.74" y1="86.36" x2="93.98" y2="86.36" width="0.1524" layer="91"/>
 <label x="78.74" y="86.36" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_193" class="0">
+<net name="CLEAN16" class="0">
 <segment>
 <pinref part="JP3" gate="G$1" pin="2"/>
 <wire x1="78.74" y1="88.9" x2="93.98" y2="88.9" width="0.1524" layer="91"/>
 <label x="78.74" y="88.9" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_195" class="0">
-<segment>
-<pinref part="JP7" gate="G$1" pin="4"/>
-<wire x1="203.2" y1="93.98" x2="220.98" y2="93.98" width="0.1524" layer="91"/>
-<label x="203.2" y="93.98" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN320" class="0">
 <segment>
 <pinref part="JP49" gate="G$1" pin="1"/>
 <wire x1="78.74" y1="-60.96" x2="96.52" y2="-60.96" width="0.1524" layer="91"/>
 <label x="78.74" y="-60.96" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_196" class="0">
-<segment>
-<pinref part="JP7" gate="G$1" pin="7"/>
-<wire x1="203.2" y1="101.6" x2="220.98" y2="101.6" width="0.1524" layer="91"/>
-<label x="203.2" y="101.6" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN321" class="0">
 <segment>
 <pinref part="JP49" gate="G$1" pin="2"/>
 <wire x1="78.74" y1="-58.42" x2="96.52" y2="-58.42" width="0.1524" layer="91"/>
 <label x="78.74" y="-58.42" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_197" class="0">
-<segment>
-<pinref part="JP7" gate="G$1" pin="6"/>
-<wire x1="203.2" y1="99.06" x2="220.98" y2="99.06" width="0.1524" layer="91"/>
-<label x="203.2" y="99.06" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN322" class="0">
 <segment>
 <pinref part="JP49" gate="G$1" pin="3"/>
 <wire x1="78.74" y1="-55.88" x2="96.52" y2="-55.88" width="0.1524" layer="91"/>
 <label x="78.74" y="-55.88" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_198" class="0">
-<segment>
-<pinref part="JP7" gate="G$1" pin="5"/>
-<wire x1="203.2" y1="96.52" x2="220.98" y2="96.52" width="0.1524" layer="91"/>
-<label x="203.2" y="96.52" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN323" class="0">
 <segment>
 <pinref part="JP49" gate="G$1" pin="4"/>
 <wire x1="78.74" y1="-53.34" x2="96.52" y2="-53.34" width="0.1524" layer="91"/>
 <label x="78.74" y="-53.34" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_199" class="0">
-<segment>
-<pinref part="JP7" gate="G$1" pin="8"/>
-<wire x1="203.2" y1="104.14" x2="220.98" y2="104.14" width="0.1524" layer="91"/>
-<label x="203.2" y="104.14" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN324" class="0">
 <segment>
 <pinref part="JP49" gate="G$1" pin="5"/>
 <wire x1="78.74" y1="-50.8" x2="96.52" y2="-50.8" width="0.1524" layer="91"/>
@@ -4072,282 +3521,252 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <label x="78.74" y="-50.8" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_200" class="0">
+<net name="CLEAN315" class="0">
 <segment>
 <pinref part="JP48" gate="G$1" pin="1"/>
 <wire x1="78.74" y1="-43.18" x2="96.52" y2="-43.18" width="0.1524" layer="91"/>
 <label x="78.74" y="-43.18" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_201" class="0">
+<net name="CLEAN316" class="0">
 <segment>
 <pinref part="JP48" gate="G$1" pin="2"/>
 <wire x1="78.74" y1="-40.64" x2="96.52" y2="-40.64" width="0.1524" layer="91"/>
 <label x="78.74" y="-40.64" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_202" class="0">
+<net name="CLEAN317" class="0">
 <segment>
 <pinref part="JP48" gate="G$1" pin="3"/>
 <wire x1="78.74" y1="-38.1" x2="96.52" y2="-38.1" width="0.1524" layer="91"/>
 <label x="78.74" y="-38.1" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_203" class="0">
+<net name="CLEAN318" class="0">
 <segment>
 <pinref part="JP48" gate="G$1" pin="4"/>
 <wire x1="78.74" y1="-35.56" x2="96.52" y2="-35.56" width="0.1524" layer="91"/>
 <label x="78.74" y="-35.56" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_204" class="0">
+<net name="CLEAN319" class="0">
 <segment>
 <pinref part="JP48" gate="G$1" pin="5"/>
 <wire x1="78.74" y1="-33.02" x2="96.52" y2="-33.02" width="0.1524" layer="91"/>
 <label x="78.74" y="-33.02" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_210" class="0">
+<net name="CLEAN68" class="0">
 <segment>
 <pinref part="JP9" gate="G$1" pin="9"/>
 <wire x1="266.7" y1="106.68" x2="284.48" y2="106.68" width="0.1524" layer="91"/>
 <label x="266.7" y="106.68" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_215" class="0">
+<net name="CLEAN69" class="0">
 <segment>
 <pinref part="JP9" gate="G$1" pin="10"/>
 <wire x1="266.7" y1="109.22" x2="284.48" y2="109.22" width="0.1524" layer="91"/>
 <label x="266.7" y="109.22" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_216" class="0">
+<net name="CLEAN70" class="0">
 <segment>
 <pinref part="JP9" gate="G$1" pin="11"/>
 <wire x1="266.7" y1="111.76" x2="284.48" y2="111.76" width="0.1524" layer="91"/>
 <label x="266.7" y="111.76" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_222" class="0">
+<net name="CLEAN79" class="0">
 <segment>
 <pinref part="JP11" gate="G$1" pin="5"/>
 <wire x1="340.36" y1="96.52" x2="358.14" y2="96.52" width="0.1524" layer="91"/>
 <label x="340.36" y="96.52" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_223" class="0">
+<net name="CLEAN80" class="0">
 <segment>
 <pinref part="JP11" gate="G$1" pin="6"/>
 <wire x1="340.36" y1="99.06" x2="358.14" y2="99.06" width="0.1524" layer="91"/>
 <label x="340.36" y="99.06" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_224" class="0">
+<net name="CLEAN81" class="0">
 <segment>
 <pinref part="JP11" gate="G$1" pin="7"/>
 <wire x1="340.36" y1="101.6" x2="358.14" y2="101.6" width="0.1524" layer="91"/>
 <label x="340.36" y="101.6" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_240" class="0">
+<net name="CLEAN60" class="0">
 <segment>
 <pinref part="JP9" gate="G$1" pin="1"/>
 <wire x1="266.7" y1="86.36" x2="284.48" y2="86.36" width="0.1524" layer="91"/>
 <label x="266.7" y="86.36" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_246" class="0">
+<net name="CLEAN45" class="0">
 <segment>
 <pinref part="JP7" gate="G$1" pin="1"/>
 <wire x1="203.2" y1="86.36" x2="220.98" y2="86.36" width="0.1524" layer="91"/>
 <label x="203.2" y="86.36" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_248" class="0">
+<net name="CLEAN46" class="0">
 <segment>
 <pinref part="JP7" gate="G$1" pin="2"/>
 <wire x1="203.2" y1="88.9" x2="220.98" y2="88.9" width="0.1524" layer="91"/>
 <label x="203.2" y="88.9" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_250" class="0">
+<net name="CLEAN47" class="0">
 <segment>
 <pinref part="JP7" gate="G$1" pin="3"/>
 <wire x1="203.2" y1="91.44" x2="220.98" y2="91.44" width="0.1524" layer="91"/>
 <label x="203.2" y="91.44" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_255" class="0">
+<net name="CLEAN61" class="0">
 <segment>
 <pinref part="JP9" gate="G$1" pin="2"/>
 <wire x1="266.7" y1="88.9" x2="284.48" y2="88.9" width="0.1524" layer="91"/>
 <label x="266.7" y="88.9" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_256" class="0">
+<net name="CLEAN62" class="0">
 <segment>
 <pinref part="JP9" gate="G$1" pin="3"/>
 <wire x1="266.7" y1="91.44" x2="284.48" y2="91.44" width="0.1524" layer="91"/>
 <label x="266.7" y="91.44" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_257" class="0">
+<net name="CLEAN64" class="0">
 <segment>
 <pinref part="JP9" gate="G$1" pin="5"/>
 <wire x1="266.7" y1="96.52" x2="284.48" y2="96.52" width="0.1524" layer="91"/>
 <label x="266.7" y="96.52" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_258" class="0">
+<net name="CLEAN65" class="0">
 <segment>
 <pinref part="JP9" gate="G$1" pin="6"/>
 <wire x1="266.7" y1="99.06" x2="284.48" y2="99.06" width="0.1524" layer="91"/>
 <label x="266.7" y="99.06" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_259" class="0">
+<net name="CLEAN63" class="0">
 <segment>
 <pinref part="JP9" gate="G$1" pin="4"/>
 <wire x1="266.7" y1="93.98" x2="284.48" y2="93.98" width="0.1524" layer="91"/>
 <label x="266.7" y="93.98" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_268" class="0">
+<net name="CLEAN270" class="0">
 <segment>
 <pinref part="JP37" gate="G$1" pin="1"/>
 <wire x1="533.4" y1="20.32" x2="551.18" y2="20.32" width="0.1524" layer="91"/>
 <label x="533.4" y="20.32" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_270" class="0">
+<net name="CLEAN82" class="0">
 <segment>
 <pinref part="JP11" gate="G$1" pin="8"/>
 <wire x1="340.36" y1="104.14" x2="358.14" y2="104.14" width="0.1524" layer="91"/>
 <label x="340.36" y="104.14" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_271" class="0">
+<net name="CLEAN83" class="0">
 <segment>
 <pinref part="JP11" gate="G$1" pin="9"/>
 <wire x1="340.36" y1="106.68" x2="358.14" y2="106.68" width="0.1524" layer="91"/>
 <label x="340.36" y="106.68" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_301" class="0">
+<net name="CLEAN287" class="0">
 <segment>
 <pinref part="JP39" gate="G$1" pin="3"/>
 <wire x1="599.44" y1="25.4" x2="614.68" y2="25.4" width="0.1524" layer="91"/>
 <label x="599.44" y="25.4" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_304" class="0">
+<net name="CLEAN285" class="0">
 <segment>
 <pinref part="JP39" gate="G$1" pin="1"/>
 <wire x1="599.44" y1="20.32" x2="614.68" y2="20.32" width="0.1524" layer="91"/>
 <label x="599.44" y="20.32" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_306" class="0">
+<net name="CLEAN289" class="0">
 <segment>
 <pinref part="JP39" gate="G$1" pin="5"/>
 <wire x1="599.44" y1="30.48" x2="614.68" y2="30.48" width="0.1524" layer="91"/>
 <label x="599.44" y="30.48" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_309" class="0">
+<net name="CLEAN288" class="0">
 <segment>
 <pinref part="JP39" gate="G$1" pin="4"/>
 <wire x1="599.44" y1="27.94" x2="614.68" y2="27.94" width="0.1524" layer="91"/>
 <label x="599.44" y="27.94" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_311" class="0">
+<net name="CLEAN292" class="0">
 <segment>
 <pinref part="JP39" gate="G$1" pin="8"/>
 <wire x1="599.44" y1="38.1" x2="614.68" y2="38.1" width="0.1524" layer="91"/>
 <label x="599.44" y="38.1" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_315" class="0">
-<segment>
-<pinref part="JP11" gate="G$1" pin="1"/>
-<wire x1="340.36" y1="86.36" x2="358.14" y2="86.36" width="0.1524" layer="91"/>
-<label x="340.36" y="86.36" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN380" class="0">
 <segment>
 <pinref part="JP73" gate="G$1" pin="1"/>
 <wire x1="340.36" y1="-60.96" x2="358.14" y2="-60.96" width="0.1524" layer="91"/>
 <label x="340.36" y="-60.96" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_316" class="0">
-<segment>
-<pinref part="JP11" gate="G$1" pin="2"/>
-<wire x1="340.36" y1="88.9" x2="358.14" y2="88.9" width="0.1524" layer="91"/>
-<label x="340.36" y="88.9" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN381" class="0">
 <segment>
 <pinref part="JP73" gate="G$1" pin="2"/>
 <wire x1="340.36" y1="-58.42" x2="358.14" y2="-58.42" width="0.1524" layer="91"/>
 <label x="340.36" y="-58.42" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_317" class="0">
-<segment>
-<pinref part="JP11" gate="G$1" pin="3"/>
-<wire x1="340.36" y1="91.44" x2="358.14" y2="91.44" width="0.1524" layer="91"/>
-<label x="340.36" y="91.44" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN382" class="0">
 <segment>
 <pinref part="JP73" gate="G$1" pin="3"/>
 <wire x1="340.36" y1="-55.88" x2="358.14" y2="-55.88" width="0.1524" layer="91"/>
 <label x="340.36" y="-55.88" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_318" class="0">
-<segment>
-<pinref part="JP11" gate="G$1" pin="4"/>
-<wire x1="340.36" y1="93.98" x2="358.14" y2="93.98" width="0.1524" layer="91"/>
-<label x="340.36" y="93.98" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN383" class="0">
 <segment>
 <pinref part="JP73" gate="G$1" pin="4"/>
 <wire x1="340.36" y1="-53.34" x2="358.14" y2="-53.34" width="0.1524" layer="91"/>
 <label x="340.36" y="-53.34" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_320" class="0">
-<segment>
-<pinref part="JP35" gate="G$1" pin="2"/>
-<wire x1="469.9" y1="22.86" x2="487.68" y2="22.86" width="0.1524" layer="91"/>
-<label x="469.9" y="22.86" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN375" class="0">
 <segment>
 <pinref part="JP72" gate="G$1" pin="1"/>
 <wire x1="340.36" y1="-43.18" x2="358.14" y2="-43.18" width="0.1524" layer="91"/>
 <label x="340.36" y="-43.18" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_321" class="0">
+<net name="CLEAN376" class="0">
 <segment>
 <pinref part="JP72" gate="G$1" pin="2"/>
 <wire x1="340.36" y1="-40.64" x2="358.14" y2="-40.64" width="0.1524" layer="91"/>
 <label x="340.36" y="-40.64" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_322" class="0">
-<segment>
-<pinref part="JP35" gate="G$1" pin="1"/>
-<wire x1="469.9" y1="20.32" x2="487.68" y2="20.32" width="0.1524" layer="91"/>
-<label x="469.9" y="20.32" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN377" class="0">
 <segment>
 <pinref part="JP72" gate="G$1" pin="3"/>
 <wire x1="340.36" y1="-38.1" x2="358.14" y2="-38.1" width="0.1524" layer="91"/>
 <label x="340.36" y="-38.1" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_325" class="0">
+<net name="CLEAN370" class="0">
 <segment>
 <pinref part="JP71" gate="G$1" pin="1"/>
 <wire x1="340.36" y1="-25.4" x2="358.14" y2="-25.4" width="0.1524" layer="91"/>
@@ -4355,160 +3774,140 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <label x="340.36" y="-25.4" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_326" class="0">
-<segment>
-<pinref part="JP37" gate="G$1" pin="2"/>
-<wire x1="533.4" y1="22.86" x2="551.18" y2="22.86" width="0.1524" layer="91"/>
-<label x="533.4" y="22.86" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN371" class="0">
 <segment>
 <pinref part="JP71" gate="G$1" pin="2"/>
 <wire x1="340.36" y1="-22.86" x2="358.14" y2="-22.86" width="0.1524" layer="91"/>
 <label x="340.36" y="-22.86" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_327" class="0">
+<net name="CLEAN372" class="0">
 <segment>
 <pinref part="JP71" gate="G$1" pin="3"/>
 <wire x1="340.36" y1="-20.32" x2="358.14" y2="-20.32" width="0.1524" layer="91"/>
 <label x="340.36" y="-20.32" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_328" class="0">
+<net name="CLEAN373" class="0">
 <segment>
 <pinref part="JP71" gate="G$1" pin="4"/>
 <wire x1="340.36" y1="-17.78" x2="358.14" y2="-17.78" width="0.1524" layer="91"/>
 <label x="340.36" y="-17.78" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_329" class="0">
-<segment>
-<pinref part="JP35" gate="G$1" pin="3"/>
-<wire x1="469.9" y1="25.4" x2="487.68" y2="25.4" width="0.1524" layer="91"/>
-<label x="469.9" y="25.4" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN374" class="0">
 <segment>
 <pinref part="JP71" gate="G$1" pin="5"/>
 <wire x1="340.36" y1="-15.24" x2="358.14" y2="-15.24" width="0.1524" layer="91"/>
 <label x="340.36" y="-15.24" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_365" class="0">
+<net name="CLEAN485" class="0">
 <segment>
 <pinref part="JP115" gate="G$1" pin="1"/>
 <wire x1="142.24" y1="-119.38" x2="160.02" y2="-119.38" width="0.1524" layer="91"/>
 <label x="142.24" y="-119.38" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_366" class="0">
-<segment>
-<pinref part="JP33" gate="G$1" pin="5"/>
-<wire x1="406.4" y1="30.48" x2="424.18" y2="30.48" width="0.1524" layer="91"/>
-<label x="406.4" y="30.48" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN486" class="0">
 <segment>
 <pinref part="JP115" gate="G$1" pin="2"/>
 <wire x1="142.24" y1="-116.84" x2="160.02" y2="-116.84" width="0.1524" layer="91"/>
 <label x="142.24" y="-116.84" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_367" class="0">
+<net name="CLEAN487" class="0">
 <segment>
 <pinref part="JP115" gate="G$1" pin="3"/>
 <wire x1="142.24" y1="-114.3" x2="160.02" y2="-114.3" width="0.1524" layer="91"/>
 <label x="142.24" y="-114.3" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_368" class="0">
-<segment>
-<pinref part="JP33" gate="G$1" pin="4"/>
-<wire x1="406.4" y1="27.94" x2="424.18" y2="27.94" width="0.1524" layer="91"/>
-<label x="406.4" y="27.94" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN488" class="0">
 <segment>
 <pinref part="JP115" gate="G$1" pin="4"/>
 <wire x1="142.24" y1="-111.76" x2="160.02" y2="-111.76" width="0.1524" layer="91"/>
 <label x="142.24" y="-111.76" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_369" class="0">
+<net name="CLEAN489" class="0">
 <segment>
 <pinref part="JP115" gate="G$1" pin="5"/>
 <wire x1="142.24" y1="-109.22" x2="160.02" y2="-109.22" width="0.1524" layer="91"/>
 <label x="142.24" y="-109.22" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_370" class="0">
+<net name="CLEAN286" class="0">
 <segment>
 <pinref part="JP39" gate="G$1" pin="2"/>
 <wire x1="599.44" y1="22.86" x2="614.68" y2="22.86" width="0.1524" layer="91"/>
 <label x="599.44" y="22.86" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_372" class="0">
+<net name="CLEAN258" class="0">
 <segment>
 <pinref part="JP35" gate="G$1" pin="4"/>
 <wire x1="469.9" y1="27.94" x2="487.68" y2="27.94" width="0.1524" layer="91"/>
 <label x="469.9" y="27.94" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_374" class="0">
+<net name="CLEAN245" class="0">
 <segment>
 <pinref part="JP33" gate="G$1" pin="6"/>
 <wire x1="406.4" y1="33.02" x2="424.18" y2="33.02" width="0.1524" layer="91"/>
 <label x="406.4" y="33.02" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_376" class="0">
+<net name="CLEAN275" class="0">
 <segment>
 <pinref part="JP37" gate="G$1" pin="6"/>
 <wire x1="533.4" y1="33.02" x2="551.18" y2="33.02" width="0.1524" layer="91"/>
 <label x="533.4" y="33.02" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_377" class="0">
+<net name="CLEAN274" class="0">
 <segment>
 <pinref part="JP37" gate="G$1" pin="5"/>
 <wire x1="533.4" y1="30.48" x2="551.18" y2="30.48" width="0.1524" layer="91"/>
 <label x="533.4" y="30.48" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_379" class="0">
+<net name="CLEAN261" class="0">
 <segment>
 <pinref part="JP35" gate="G$1" pin="7"/>
 <wire x1="469.9" y1="35.56" x2="487.68" y2="35.56" width="0.1524" layer="91"/>
 <label x="469.9" y="35.56" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_380" class="0">
+<net name="CLEAN291" class="0">
 <segment>
 <pinref part="JP39" gate="G$1" pin="7"/>
 <wire x1="599.44" y1="35.56" x2="614.68" y2="35.56" width="0.1524" layer="91"/>
 <label x="599.44" y="35.56" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_381" class="0">
+<net name="CLEAN290" class="0">
 <segment>
 <pinref part="JP39" gate="G$1" pin="6"/>
 <wire x1="599.44" y1="33.02" x2="614.68" y2="33.02" width="0.1524" layer="91"/>
 <label x="599.44" y="33.02" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_382" class="0">
+<net name="CLEAN276" class="0">
 <segment>
 <pinref part="JP37" gate="G$1" pin="7"/>
 <wire x1="533.4" y1="35.56" x2="551.18" y2="35.56" width="0.1524" layer="91"/>
 <label x="533.4" y="35.56" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_384" class="0">
+<net name="CLEAN263" class="0">
 <segment>
 <pinref part="JP35" gate="G$1" pin="9"/>
 <wire x1="469.9" y1="40.64" x2="487.68" y2="40.64" width="0.1524" layer="91"/>
 <label x="469.9" y="40.64" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_390" class="0">
+<net name="CLEAN284" class="0">
 <segment>
 <pinref part="JP37" gate="G$1" pin="15"/>
 <wire x1="533.4" y1="55.88" x2="551.18" y2="55.88" width="0.1524" layer="91"/>
@@ -4516,237 +3915,196 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <label x="533.4" y="55.88" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_397" class="0">
+<net name="CLEAN297" class="0">
 <segment>
 <pinref part="JP39" gate="G$1" pin="13"/>
 <wire x1="599.44" y1="50.8" x2="614.68" y2="50.8" width="0.1524" layer="91"/>
 <label x="599.44" y="50.8" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_402" class="0">
+<net name="CLEAN262" class="0">
 <segment>
 <pinref part="JP35" gate="G$1" pin="8"/>
 <wire x1="469.9" y1="38.1" x2="487.68" y2="38.1" width="0.1524" layer="91"/>
 <label x="469.9" y="38.1" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_405" class="0">
+<net name="CLEAN279" class="0">
 <segment>
 <pinref part="JP37" gate="G$1" pin="10"/>
 <wire x1="533.4" y1="43.18" x2="551.18" y2="43.18" width="0.1524" layer="91"/>
 <label x="533.4" y="43.18" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_408" class="0">
+<net name="CLEAN277" class="0">
 <segment>
 <pinref part="JP37" gate="G$1" pin="8"/>
 <wire x1="533.4" y1="38.1" x2="551.18" y2="38.1" width="0.1524" layer="91"/>
 <label x="533.4" y="38.1" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_409" class="0">
+<net name="CLEAN250" class="0">
 <segment>
 <pinref part="JP33" gate="G$1" pin="11"/>
 <wire x1="406.4" y1="45.72" x2="424.18" y2="45.72" width="0.1524" layer="91"/>
 <label x="406.4" y="45.72" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_415" class="0">
-<segment>
-<pinref part="JP33" gate="G$1" pin="3"/>
-<wire x1="406.4" y1="25.4" x2="424.18" y2="25.4" width="0.1524" layer="91"/>
-<label x="406.4" y="25.4" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN515" class="0">
 <segment>
 <pinref part="JP127" gate="G$1" pin="1"/>
 <wire x1="274.32" y1="-119.38" x2="292.1" y2="-119.38" width="0.1524" layer="91"/>
 <label x="274.32" y="-119.38" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_416" class="0">
+<net name="CLEAN516" class="0">
 <segment>
 <pinref part="JP127" gate="G$1" pin="2"/>
 <wire x1="274.32" y1="-116.84" x2="292.1" y2="-116.84" width="0.1524" layer="91"/>
 <label x="274.32" y="-116.84" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_417" class="0">
-<segment>
-<pinref part="JP37" gate="G$1" pin="14"/>
-<wire x1="533.4" y1="53.34" x2="551.18" y2="53.34" width="0.1524" layer="91"/>
-<label x="533.4" y="53.34" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN517" class="0">
 <segment>
 <pinref part="JP127" gate="G$1" pin="3"/>
 <wire x1="274.32" y1="-114.3" x2="292.1" y2="-114.3" width="0.1524" layer="91"/>
 <label x="274.32" y="-114.3" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_418" class="0">
+<net name="CLEAN518" class="0">
 <segment>
 <pinref part="JP127" gate="G$1" pin="4"/>
 <wire x1="274.32" y1="-111.76" x2="292.1" y2="-111.76" width="0.1524" layer="91"/>
 <label x="274.32" y="-111.76" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_419" class="0">
-<segment>
-<pinref part="JP35" gate="G$1" pin="15"/>
-<wire x1="469.9" y1="55.88" x2="487.68" y2="55.88" width="0.1524" layer="91"/>
-<label x="469.9" y="55.88" size="1.778" layer="95"/>
-<label x="469.9" y="55.88" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN519" class="0">
 <segment>
 <pinref part="JP127" gate="G$1" pin="5"/>
 <wire x1="274.32" y1="-109.22" x2="292.1" y2="-109.22" width="0.1524" layer="91"/>
 <label x="274.32" y="-109.22" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_420" class="0">
+<net name="CLEAN510" class="0">
 <segment>
 <pinref part="JP126" gate="G$1" pin="1"/>
 <wire x1="274.32" y1="-101.6" x2="292.1" y2="-101.6" width="0.1524" layer="91"/>
 <label x="274.32" y="-101.6" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_421" class="0">
-<segment>
-<pinref part="JP33" gate="G$1" pin="1"/>
-<wire x1="406.4" y1="20.32" x2="424.18" y2="20.32" width="0.1524" layer="91"/>
-<label x="406.4" y="20.32" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN511" class="0">
 <segment>
 <pinref part="JP126" gate="G$1" pin="2"/>
 <wire x1="274.32" y1="-99.06" x2="292.1" y2="-99.06" width="0.1524" layer="91"/>
 <label x="274.32" y="-99.06" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_422" class="0">
+<net name="CLEAN512" class="0">
 <segment>
 <pinref part="JP126" gate="G$1" pin="3"/>
 <wire x1="274.32" y1="-96.52" x2="292.1" y2="-96.52" width="0.1524" layer="91"/>
 <label x="274.32" y="-96.52" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_423" class="0">
+<net name="CLEAN513" class="0">
 <segment>
 <pinref part="JP126" gate="G$1" pin="4"/>
 <wire x1="274.32" y1="-93.98" x2="292.1" y2="-93.98" width="0.1524" layer="91"/>
 <label x="274.32" y="-93.98" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_424" class="0">
-<segment>
-<pinref part="JP33" gate="G$1" pin="2"/>
-<wire x1="406.4" y1="22.86" x2="424.18" y2="22.86" width="0.1524" layer="91"/>
-<label x="406.4" y="22.86" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN514" class="0">
 <segment>
 <pinref part="JP126" gate="G$1" pin="5"/>
 <wire x1="274.32" y1="-91.44" x2="292.1" y2="-91.44" width="0.1524" layer="91"/>
 <label x="274.32" y="-91.44" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_425" class="0">
-<segment>
-<pinref part="JP33" gate="G$1" pin="9"/>
-<wire x1="406.4" y1="40.64" x2="424.18" y2="40.64" width="0.1524" layer="91"/>
-<label x="406.4" y="40.64" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN505" class="0">
 <segment>
 <pinref part="JP125" gate="G$1" pin="1"/>
 <wire x1="274.32" y1="-83.82" x2="292.1" y2="-83.82" width="0.1524" layer="91"/>
 <label x="274.32" y="-83.82" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_426" class="0">
+<net name="CLEAN506" class="0">
 <segment>
 <pinref part="JP125" gate="G$1" pin="2"/>
 <wire x1="274.32" y1="-81.28" x2="292.1" y2="-81.28" width="0.1524" layer="91"/>
 <label x="274.32" y="-81.28" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_427" class="0">
-<segment>
-<pinref part="JP37" gate="G$1" pin="4"/>
-<wire x1="533.4" y1="27.94" x2="551.18" y2="27.94" width="0.1524" layer="91"/>
-<label x="533.4" y="27.94" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN507" class="0">
 <segment>
 <pinref part="JP125" gate="G$1" pin="3"/>
 <wire x1="274.32" y1="-78.74" x2="292.1" y2="-78.74" width="0.1524" layer="91"/>
 <label x="274.32" y="-78.74" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_428" class="0">
-<segment>
-<pinref part="JP37" gate="G$1" pin="3"/>
-<wire x1="533.4" y1="25.4" x2="551.18" y2="25.4" width="0.1524" layer="91"/>
-<label x="533.4" y="25.4" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN508" class="0">
 <segment>
 <pinref part="JP125" gate="G$1" pin="4"/>
 <wire x1="274.32" y1="-76.2" x2="292.1" y2="-76.2" width="0.1524" layer="91"/>
 <label x="274.32" y="-76.2" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_429" class="0">
+<net name="CLEAN509" class="0">
 <segment>
 <pinref part="JP125" gate="G$1" pin="5"/>
 <wire x1="274.32" y1="-73.66" x2="292.1" y2="-73.66" width="0.1524" layer="91"/>
 <label x="274.32" y="-73.66" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_431" class="0">
+<net name="CLEAN266" class="0">
 <segment>
 <pinref part="JP35" gate="G$1" pin="12"/>
 <wire x1="469.9" y1="48.26" x2="487.68" y2="48.26" width="0.1524" layer="91"/>
 <label x="469.9" y="48.26" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_433" class="0">
+<net name="CLEAN278" class="0">
 <segment>
 <pinref part="JP37" gate="G$1" pin="9"/>
 <wire x1="533.4" y1="40.64" x2="551.18" y2="40.64" width="0.1524" layer="91"/>
 <label x="533.4" y="40.64" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_437" class="0">
+<net name="CLEAN253" class="0">
 <segment>
 <pinref part="JP33" gate="G$1" pin="14"/>
 <wire x1="406.4" y1="53.34" x2="424.18" y2="53.34" width="0.1524" layer="91"/>
 <label x="406.4" y="53.34" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_438" class="0">
+<net name="CLEAN254" class="0">
 <segment>
 <pinref part="JP33" gate="G$1" pin="15"/>
 <wire x1="406.4" y1="55.88" x2="424.18" y2="55.88" width="0.1524" layer="91"/>
 <label x="406.4" y="55.88" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_441" class="0">
+<net name="CLEAN268" class="0">
 <segment>
 <pinref part="JP35" gate="G$1" pin="14"/>
 <wire x1="469.9" y1="53.34" x2="487.68" y2="53.34" width="0.1524" layer="91"/>
 <label x="469.9" y="53.34" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_442" class="0">
+<net name="CLEAN298" class="0">
 <segment>
 <pinref part="JP39" gate="G$1" pin="14"/>
 <wire x1="599.44" y1="53.34" x2="614.68" y2="53.34" width="0.1524" layer="91"/>
 <label x="599.44" y="53.34" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_443" class="0">
+<net name="CLEAN267" class="0">
 <segment>
 <pinref part="JP35" gate="G$1" pin="13"/>
 <wire x1="469.9" y1="50.8" x2="487.68" y2="50.8" width="0.1524" layer="91"/>
 <label x="469.9" y="50.8" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_444" class="0">
+<net name="CLEAN299" class="0">
 <segment>
 <pinref part="JP39" gate="G$1" pin="15"/>
 <wire x1="599.44" y1="55.88" x2="614.68" y2="55.88" width="0.1524" layer="91"/>
@@ -4754,12 +4112,7 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <label x="599.44" y="55.88" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_445" class="0">
-<segment>
-<pinref part="JP31" gate="G$1" pin="8"/>
-<wire x1="340.36" y1="38.1" x2="358.14" y2="38.1" width="0.1524" layer="91"/>
-<label x="340.36" y="38.1" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN530" class="0">
 <segment>
 <pinref part="JP133" gate="G$1" pin="1"/>
 <wire x1="340.36" y1="-121.92" x2="358.14" y2="-121.92" width="0.1524" layer="91"/>
@@ -4767,64 +4120,49 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <label x="340.36" y="-121.92" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_446" class="0">
-<segment>
-<pinref part="JP31" gate="G$1" pin="2"/>
-<wire x1="340.36" y1="22.86" x2="358.14" y2="22.86" width="0.1524" layer="91"/>
-<label x="340.36" y="22.86" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN531" class="0">
 <segment>
 <pinref part="JP133" gate="G$1" pin="2"/>
 <wire x1="340.36" y1="-119.38" x2="358.14" y2="-119.38" width="0.1524" layer="91"/>
 <label x="340.36" y="-119.38" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_448" class="0">
-<segment>
-<pinref part="JP31" gate="G$1" pin="7"/>
-<wire x1="340.36" y1="35.56" x2="358.14" y2="35.56" width="0.1524" layer="91"/>
-<label x="340.36" y="35.56" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN533" class="0">
 <segment>
 <pinref part="JP133" gate="G$1" pin="4"/>
 <wire x1="340.36" y1="-114.3" x2="358.14" y2="-114.3" width="0.1524" layer="91"/>
 <label x="340.36" y="-114.3" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_450" class="0">
+<net name="CLEAN525" class="0">
 <segment>
 <pinref part="JP132" gate="G$1" pin="1"/>
 <wire x1="340.36" y1="-104.14" x2="358.14" y2="-104.14" width="0.1524" layer="91"/>
 <label x="340.36" y="-104.14" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_451" class="0">
-<segment>
-<pinref part="JP31" gate="G$1" pin="11"/>
-<wire x1="340.36" y1="45.72" x2="358.14" y2="45.72" width="0.1524" layer="91"/>
-<label x="340.36" y="45.72" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN526" class="0">
 <segment>
 <pinref part="JP132" gate="G$1" pin="2"/>
 <wire x1="340.36" y1="-101.6" x2="358.14" y2="-101.6" width="0.1524" layer="91"/>
 <label x="340.36" y="-101.6" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_453" class="0">
+<net name="CLEAN528" class="0">
 <segment>
 <pinref part="JP132" gate="G$1" pin="4"/>
 <wire x1="340.36" y1="-96.52" x2="358.14" y2="-96.52" width="0.1524" layer="91"/>
 <label x="340.36" y="-96.52" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_454" class="0">
+<net name="CLEAN529" class="0">
 <segment>
 <pinref part="JP132" gate="G$1" pin="5"/>
 <wire x1="340.36" y1="-93.98" x2="358.14" y2="-93.98" width="0.1524" layer="91"/>
 <label x="340.36" y="-93.98" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_455" class="0">
+<net name="CLEAN520" class="0">
 <segment>
 <pinref part="JP131" gate="G$1" pin="1"/>
 <wire x1="340.36" y1="-86.36" x2="358.14" y2="-86.36" width="0.1524" layer="91"/>
@@ -4832,109 +4170,84 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <label x="340.36" y="-86.36" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_456" class="0">
-<segment>
-<pinref part="JP31" gate="G$1" pin="13"/>
-<wire x1="340.36" y1="50.8" x2="358.14" y2="50.8" width="0.1524" layer="91"/>
-<label x="340.36" y="50.8" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN521" class="0">
 <segment>
 <pinref part="JP131" gate="G$1" pin="2"/>
 <wire x1="340.36" y1="-83.82" x2="358.14" y2="-83.82" width="0.1524" layer="91"/>
 <label x="340.36" y="-83.82" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_458" class="0">
-<segment>
-<pinref part="JP33" gate="G$1" pin="10"/>
-<wire x1="406.4" y1="43.18" x2="424.18" y2="43.18" width="0.1524" layer="91"/>
-<label x="406.4" y="43.18" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN523" class="0">
 <segment>
 <pinref part="JP131" gate="G$1" pin="4"/>
 <wire x1="340.36" y1="-78.74" x2="358.14" y2="-78.74" width="0.1524" layer="91"/>
 <label x="340.36" y="-78.74" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_459" class="0">
+<net name="CLEAN524" class="0">
 <segment>
 <pinref part="JP131" gate="G$1" pin="5"/>
 <wire x1="340.36" y1="-76.2" x2="358.14" y2="-76.2" width="0.1524" layer="91"/>
 <label x="340.36" y="-76.2" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_466" class="0">
+<net name="CLEAN281" class="0">
 <segment>
 <pinref part="JP37" gate="G$1" pin="12"/>
 <wire x1="533.4" y1="48.26" x2="551.18" y2="48.26" width="0.1524" layer="91"/>
 <label x="533.4" y="48.26" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_469" class="0">
+<net name="CLEAN280" class="0">
 <segment>
 <pinref part="JP37" gate="G$1" pin="11"/>
 <wire x1="533.4" y1="45.72" x2="551.18" y2="45.72" width="0.1524" layer="91"/>
 <label x="533.4" y="45.72" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_473" class="0">
+<net name="CLEAN296" class="0">
 <segment>
 <pinref part="JP39" gate="G$1" pin="12"/>
 <wire x1="599.44" y1="48.26" x2="614.68" y2="48.26" width="0.1524" layer="91"/>
 <label x="599.44" y="48.26" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_475" class="0">
-<segment>
-<pinref part="JP37" gate="G$1" pin="13"/>
-<wire x1="533.4" y1="50.8" x2="551.18" y2="50.8" width="0.1524" layer="91"/>
-<label x="533.4" y="50.8" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN545" class="0">
 <segment>
 <pinref part="JP139" gate="G$1" pin="1"/>
 <wire x1="403.86" y1="-121.92" x2="421.64" y2="-121.92" width="0.1524" layer="91"/>
 <label x="403.86" y="-121.92" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_476" class="0">
+<net name="CLEAN546" class="0">
 <segment>
 <pinref part="JP139" gate="G$1" pin="2"/>
 <wire x1="403.86" y1="-119.38" x2="421.64" y2="-119.38" width="0.1524" layer="91"/>
 <label x="403.86" y="-119.38" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_477" class="0">
+<net name="CLEAN547" class="0">
 <segment>
 <pinref part="JP139" gate="G$1" pin="3"/>
 <wire x1="403.86" y1="-116.84" x2="421.64" y2="-116.84" width="0.1524" layer="91"/>
 <label x="403.86" y="-116.84" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_478" class="0">
-<segment>
-<pinref part="JP39" gate="G$1" pin="9"/>
-<wire x1="599.44" y1="40.64" x2="614.68" y2="40.64" width="0.1524" layer="91"/>
-<label x="599.44" y="40.64" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN548" class="0">
 <segment>
 <pinref part="JP139" gate="G$1" pin="4"/>
 <wire x1="403.86" y1="-114.3" x2="421.64" y2="-114.3" width="0.1524" layer="91"/>
 <label x="403.86" y="-114.3" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_479" class="0">
-<segment>
-<pinref part="JP39" gate="G$1" pin="10"/>
-<wire x1="599.44" y1="43.18" x2="614.68" y2="43.18" width="0.1524" layer="91"/>
-<label x="599.44" y="43.18" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN549" class="0">
 <segment>
 <pinref part="JP139" gate="G$1" pin="5"/>
 <wire x1="403.86" y1="-111.76" x2="421.64" y2="-111.76" width="0.1524" layer="91"/>
 <label x="403.86" y="-111.76" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_480" class="0">
+<net name="CLEAN595" class="0">
 <segment>
 <pinref part="JP161" gate="G$1" pin="1"/>
 <wire x1="12.7" y1="-25.4" x2="30.48" y2="-25.4" width="0.1524" layer="91"/>
@@ -4942,224 +4255,1187 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <label x="12.7" y="-25.4" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_481" class="0">
+<net name="CLEAN596" class="0">
 <segment>
 <pinref part="JP161" gate="G$1" pin="2"/>
 <wire x1="12.7" y1="-22.86" x2="30.48" y2="-22.86" width="0.1524" layer="91"/>
 <label x="12.7" y="-22.86" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_495" class="0">
+<net name="CLEAN295" class="0">
 <segment>
 <pinref part="JP39" gate="G$1" pin="11"/>
 <wire x1="599.44" y1="45.72" x2="614.68" y2="45.72" width="0.1524" layer="91"/>
 <label x="599.44" y="45.72" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_512" class="0">
-<segment>
-<pinref part="JP35" gate="G$1" pin="10"/>
-<wire x1="469.9" y1="43.18" x2="487.68" y2="43.18" width="0.1524" layer="91"/>
-<label x="469.9" y="43.18" size="1.778" layer="95"/>
-</segment>
+<net name="CLEAN562" class="0">
 <segment>
 <pinref part="JP145" gate="G$1" pin="3"/>
 <wire x1="469.9" y1="-116.84" x2="487.68" y2="-116.84" width="0.1524" layer="91"/>
 <label x="469.9" y="-116.84" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_514" class="0">
+<net name="CLEAN564" class="0">
 <segment>
 <pinref part="JP145" gate="G$1" pin="5"/>
 <wire x1="469.9" y1="-111.76" x2="487.68" y2="-111.76" width="0.1524" layer="91"/>
 <label x="469.9" y="-111.76" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NEW_599" class="0">
+<net name="CLEAN0" class="0">
 <segment>
 <pinref part="JP1" gate="G$1" pin="1"/>
 <wire x1="12.7" y1="86.36" x2="25.4" y2="86.36" width="0.1524" layer="91"/>
 <label x="12.7" y="86.36" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$2" class="0">
+<net name="CLEAN344" class="0">
 <segment>
 <pinref part="JP59" gate="G$1" pin="5"/>
 <wire x1="208.28" y1="-15.24" x2="231.14" y2="-15.24" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$3" class="0">
+<net name="CLEAN343" class="0">
 <segment>
 <pinref part="JP59" gate="G$1" pin="4"/>
 <wire x1="208.28" y1="-17.78" x2="231.14" y2="-17.78" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$4" class="0">
+<net name="CLEAN342" class="0">
 <segment>
 <pinref part="JP59" gate="G$1" pin="3"/>
 <wire x1="208.28" y1="-20.32" x2="231.14" y2="-20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$5" class="0">
+<net name="CLEAN341" class="0">
 <segment>
 <pinref part="JP59" gate="G$1" pin="2"/>
 <wire x1="208.28" y1="-22.86" x2="231.14" y2="-22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$6" class="0">
+<net name="CLEAN340" class="0">
 <segment>
 <pinref part="JP59" gate="G$1" pin="1"/>
 <wire x1="208.28" y1="-25.4" x2="231.14" y2="-25.4" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$7" class="0">
+<net name="CLEAN349" class="0">
 <segment>
 <pinref part="JP60" gate="G$1" pin="5"/>
 <wire x1="208.28" y1="-33.02" x2="231.14" y2="-33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$8" class="0">
+<net name="CLEAN348" class="0">
 <segment>
 <pinref part="JP60" gate="G$1" pin="4"/>
 <wire x1="208.28" y1="-35.56" x2="231.14" y2="-35.56" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$9" class="0">
+<net name="CLEAN347" class="0">
 <segment>
 <pinref part="JP60" gate="G$1" pin="3"/>
 <wire x1="208.28" y1="-38.1" x2="231.14" y2="-38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$10" class="0">
+<net name="CLEAN346" class="0">
 <segment>
 <pinref part="JP60" gate="G$1" pin="2"/>
 <wire x1="208.28" y1="-40.64" x2="231.14" y2="-40.64" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$11" class="0">
+<net name="CLEAN345" class="0">
 <segment>
 <pinref part="JP60" gate="G$1" pin="1"/>
 <wire x1="208.28" y1="-43.18" x2="231.14" y2="-43.18" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$12" class="0">
+<net name="CLEAN354" class="0">
 <segment>
 <pinref part="JP61" gate="G$1" pin="5"/>
 <wire x1="208.28" y1="-50.8" x2="231.14" y2="-50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$13" class="0">
+<net name="CLEAN353" class="0">
 <segment>
 <pinref part="JP61" gate="G$1" pin="4"/>
 <wire x1="208.28" y1="-53.34" x2="231.14" y2="-53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$14" class="0">
+<net name="CLEAN352" class="0">
 <segment>
 <pinref part="JP61" gate="G$1" pin="3"/>
 <wire x1="208.28" y1="-55.88" x2="231.14" y2="-55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$15" class="0">
+<net name="CLEAN351" class="0">
 <segment>
 <pinref part="JP61" gate="G$1" pin="2"/>
 <wire x1="208.28" y1="-58.42" x2="233.68" y2="-58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$16" class="0">
+<net name="CLEAN350" class="0">
 <segment>
 <pinref part="JP61" gate="G$1" pin="1"/>
 <wire x1="208.28" y1="-60.96" x2="231.14" y2="-60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$17" class="0">
+<net name="CLEAN494" class="0">
 <segment>
 <pinref part="JP119" gate="G$1" pin="5"/>
 <wire x1="208.28" y1="-73.66" x2="231.14" y2="-73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$18" class="0">
+<net name="CLEAN493" class="0">
 <segment>
 <pinref part="JP119" gate="G$1" pin="4"/>
 <wire x1="208.28" y1="-76.2" x2="231.14" y2="-76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$19" class="0">
+<net name="CLEAN492" class="0">
 <segment>
 <pinref part="JP119" gate="G$1" pin="3"/>
 <wire x1="208.28" y1="-78.74" x2="231.14" y2="-78.74" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$20" class="0">
+<net name="CLEAN491" class="0">
 <segment>
 <pinref part="JP119" gate="G$1" pin="2"/>
 <wire x1="208.28" y1="-81.28" x2="231.14" y2="-81.28" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$21" class="0">
+<net name="CLEAN490" class="0">
 <segment>
 <pinref part="JP119" gate="G$1" pin="1"/>
 <wire x1="208.28" y1="-83.82" x2="231.14" y2="-83.82" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$22" class="0">
+<net name="CLEAN499" class="0">
 <segment>
 <pinref part="JP120" gate="G$1" pin="5"/>
 <wire x1="208.28" y1="-91.44" x2="228.6" y2="-91.44" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$23" class="0">
+<net name="CLEAN498" class="0">
 <segment>
 <pinref part="JP120" gate="G$1" pin="4"/>
 <wire x1="208.28" y1="-93.98" x2="228.6" y2="-93.98" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$24" class="0">
+<net name="CLEAN497" class="0">
 <segment>
 <pinref part="JP120" gate="G$1" pin="3"/>
 <wire x1="208.28" y1="-96.52" x2="228.6" y2="-96.52" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$25" class="0">
+<net name="CLEAN496" class="0">
 <segment>
 <pinref part="JP120" gate="G$1" pin="2"/>
 <wire x1="208.28" y1="-99.06" x2="228.6" y2="-99.06" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$26" class="0">
+<net name="CLEAN495" class="0">
 <segment>
 <pinref part="JP120" gate="G$1" pin="1"/>
 <wire x1="208.28" y1="-101.6" x2="228.6" y2="-101.6" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$27" class="0">
+<net name="CLEAN504" class="0">
 <segment>
 <pinref part="JP121" gate="G$1" pin="5"/>
 <wire x1="208.28" y1="-109.22" x2="228.6" y2="-109.22" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$28" class="0">
+<net name="CLEAN503" class="0">
 <segment>
 <pinref part="JP121" gate="G$1" pin="4"/>
 <wire x1="208.28" y1="-111.76" x2="228.6" y2="-111.76" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$29" class="0">
+<net name="CLEAN502" class="0">
 <segment>
 <pinref part="JP121" gate="G$1" pin="3"/>
 <wire x1="208.28" y1="-114.3" x2="228.6" y2="-114.3" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$30" class="0">
+<net name="CLEAN501" class="0">
 <segment>
 <pinref part="JP121" gate="G$1" pin="2"/>
 <wire x1="208.28" y1="-116.84" x2="228.6" y2="-116.84" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$31" class="0">
+<net name="CLEAN500" class="0">
 <segment>
 <pinref part="JP121" gate="G$1" pin="1"/>
 <wire x1="208.28" y1="-119.38" x2="228.6" y2="-119.38" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="CLEAN4" class="0">
+<segment>
+<pinref part="JP1" gate="G$1" pin="5"/>
+<wire x1="12.7" y1="96.52" x2="25.4" y2="96.52" width="0.1524" layer="91"/>
+<label x="12.7" y="96.52" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN5" class="0">
+<segment>
+<pinref part="JP1" gate="G$1" pin="6"/>
+<wire x1="12.7" y1="99.06" x2="25.4" y2="99.06" width="0.1524" layer="91"/>
+<label x="12.7" y="99.06" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN6" class="0">
+<segment>
+<pinref part="JP1" gate="G$1" pin="7"/>
+<wire x1="12.7" y1="101.6" x2="25.4" y2="101.6" width="0.1524" layer="91"/>
+<label x="12.7" y="101.6" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN9" class="0">
+<segment>
+<pinref part="JP1" gate="G$1" pin="10"/>
+<wire x1="12.7" y1="109.22" x2="25.4" y2="109.22" width="0.1524" layer="91"/>
+<label x="12.7" y="109.22" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN10" class="0">
+<segment>
+<pinref part="JP1" gate="G$1" pin="11"/>
+<wire x1="12.7" y1="111.76" x2="25.4" y2="111.76" width="0.1524" layer="91"/>
+<label x="12.7" y="111.76" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN11" class="0">
+<segment>
+<pinref part="JP1" gate="G$1" pin="12"/>
+<wire x1="12.7" y1="114.3" x2="25.4" y2="114.3" width="0.1524" layer="91"/>
+<label x="12.7" y="114.3" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN12" class="0">
+<segment>
+<pinref part="JP1" gate="G$1" pin="13"/>
+<wire x1="12.7" y1="116.84" x2="25.4" y2="116.84" width="0.1524" layer="91"/>
+<label x="12.7" y="116.84" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN13" class="0">
+<segment>
+<pinref part="JP1" gate="G$1" pin="14"/>
+<wire x1="12.7" y1="119.38" x2="25.4" y2="119.38" width="0.1524" layer="91"/>
+<label x="12.7" y="119.38" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN17" class="0">
+<segment>
+<pinref part="JP3" gate="G$1" pin="3"/>
+<wire x1="78.74" y1="91.44" x2="93.98" y2="91.44" width="0.1524" layer="91"/>
+<label x="78.74" y="91.44" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN18" class="0">
+<segment>
+<pinref part="JP3" gate="G$1" pin="4"/>
+<wire x1="78.74" y1="93.98" x2="93.98" y2="93.98" width="0.1524" layer="91"/>
+<label x="78.74" y="93.98" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN19" class="0">
+<segment>
+<pinref part="JP3" gate="G$1" pin="5"/>
+<wire x1="78.74" y1="96.52" x2="93.98" y2="96.52" width="0.1524" layer="91"/>
+<label x="78.74" y="96.52" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN20" class="0">
+<segment>
+<pinref part="JP3" gate="G$1" pin="6"/>
+<wire x1="78.74" y1="99.06" x2="93.98" y2="99.06" width="0.1524" layer="91"/>
+<label x="78.74" y="99.06" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN21" class="0">
+<segment>
+<pinref part="JP3" gate="G$1" pin="7"/>
+<wire x1="78.74" y1="101.6" x2="93.98" y2="101.6" width="0.1524" layer="91"/>
+<label x="78.74" y="101.6" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN22" class="0">
+<segment>
+<pinref part="JP3" gate="G$1" pin="8"/>
+<wire x1="78.74" y1="104.14" x2="93.98" y2="104.14" width="0.1524" layer="91"/>
+<label x="78.74" y="104.14" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN23" class="0">
+<segment>
+<pinref part="JP3" gate="G$1" pin="9"/>
+<wire x1="78.74" y1="106.68" x2="93.98" y2="106.68" width="0.1524" layer="91"/>
+<label x="78.74" y="106.68" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN24" class="0">
+<segment>
+<pinref part="JP3" gate="G$1" pin="10"/>
+<wire x1="78.74" y1="109.22" x2="93.98" y2="109.22" width="0.1524" layer="91"/>
+<label x="78.74" y="109.22" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN25" class="0">
+<segment>
+<pinref part="JP3" gate="G$1" pin="11"/>
+<wire x1="78.74" y1="111.76" x2="93.98" y2="111.76" width="0.1524" layer="91"/>
+<label x="78.74" y="111.76" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN35" class="0">
+<segment>
+<pinref part="JP5" gate="G$1" pin="6"/>
+<wire x1="142.24" y1="99.06" x2="154.94" y2="99.06" width="0.1524" layer="91"/>
+<label x="142.24" y="99.06" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN36" class="0">
+<segment>
+<pinref part="JP5" gate="G$1" pin="7"/>
+<wire x1="142.24" y1="101.6" x2="154.94" y2="101.6" width="0.1524" layer="91"/>
+<label x="142.24" y="101.6" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN37" class="0">
+<segment>
+<pinref part="JP5" gate="G$1" pin="8"/>
+<wire x1="142.24" y1="104.14" x2="154.94" y2="104.14" width="0.1524" layer="91"/>
+<label x="142.24" y="104.14" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN38" class="0">
+<segment>
+<pinref part="JP5" gate="G$1" pin="9"/>
+<wire x1="142.24" y1="106.68" x2="154.94" y2="106.68" width="0.1524" layer="91"/>
+<label x="142.24" y="106.68" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN39" class="0">
+<segment>
+<pinref part="JP5" gate="G$1" pin="10"/>
+<wire x1="142.24" y1="109.22" x2="154.94" y2="109.22" width="0.1524" layer="91"/>
+<label x="142.24" y="109.22" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN40" class="0">
+<segment>
+<pinref part="JP5" gate="G$1" pin="11"/>
+<wire x1="142.24" y1="111.76" x2="154.94" y2="111.76" width="0.1524" layer="91"/>
+<label x="142.24" y="111.76" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN43" class="0">
+<segment>
+<pinref part="JP5" gate="G$1" pin="14"/>
+<wire x1="142.24" y1="119.38" x2="154.94" y2="119.38" width="0.1524" layer="91"/>
+<label x="142.24" y="119.38" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN44" class="0">
+<segment>
+<pinref part="JP5" gate="G$1" pin="15"/>
+<wire x1="142.24" y1="121.92" x2="154.94" y2="121.92" width="0.1524" layer="91"/>
+<label x="142.24" y="121.92" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN48" class="0">
+<segment>
+<pinref part="JP7" gate="G$1" pin="4"/>
+<wire x1="203.2" y1="93.98" x2="220.98" y2="93.98" width="0.1524" layer="91"/>
+<label x="203.2" y="93.98" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN49" class="0">
+<segment>
+<pinref part="JP7" gate="G$1" pin="5"/>
+<wire x1="203.2" y1="96.52" x2="220.98" y2="96.52" width="0.1524" layer="91"/>
+<label x="203.2" y="96.52" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN50" class="0">
+<segment>
+<pinref part="JP7" gate="G$1" pin="6"/>
+<wire x1="203.2" y1="99.06" x2="220.98" y2="99.06" width="0.1524" layer="91"/>
+<label x="203.2" y="99.06" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN51" class="0">
+<segment>
+<pinref part="JP7" gate="G$1" pin="7"/>
+<wire x1="203.2" y1="101.6" x2="220.98" y2="101.6" width="0.1524" layer="91"/>
+<label x="203.2" y="101.6" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN52" class="0">
+<segment>
+<pinref part="JP7" gate="G$1" pin="8"/>
+<wire x1="203.2" y1="104.14" x2="220.98" y2="104.14" width="0.1524" layer="91"/>
+<label x="203.2" y="104.14" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN53" class="0">
+<segment>
+<pinref part="JP7" gate="G$1" pin="9"/>
+<wire x1="203.2" y1="106.68" x2="220.98" y2="106.68" width="0.1524" layer="91"/>
+<label x="203.2" y="106.68" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN66" class="0">
+<segment>
+<pinref part="JP9" gate="G$1" pin="7"/>
+<wire x1="266.7" y1="101.6" x2="284.48" y2="101.6" width="0.1524" layer="91"/>
+<label x="266.7" y="101.6" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN67" class="0">
+<segment>
+<pinref part="JP9" gate="G$1" pin="8"/>
+<wire x1="266.7" y1="104.14" x2="281.94" y2="104.14" width="0.1524" layer="91"/>
+<label x="266.7" y="104.14" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN75" class="0">
+<segment>
+<pinref part="JP11" gate="G$1" pin="1"/>
+<wire x1="340.36" y1="86.36" x2="358.14" y2="86.36" width="0.1524" layer="91"/>
+<label x="340.36" y="86.36" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN76" class="0">
+<segment>
+<pinref part="JP11" gate="G$1" pin="2"/>
+<wire x1="340.36" y1="88.9" x2="358.14" y2="88.9" width="0.1524" layer="91"/>
+<label x="340.36" y="88.9" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN77" class="0">
+<segment>
+<pinref part="JP11" gate="G$1" pin="3"/>
+<wire x1="340.36" y1="91.44" x2="358.14" y2="91.44" width="0.1524" layer="91"/>
+<label x="340.36" y="91.44" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN78" class="0">
+<segment>
+<pinref part="JP11" gate="G$1" pin="4"/>
+<wire x1="340.36" y1="93.98" x2="358.14" y2="93.98" width="0.1524" layer="91"/>
+<label x="340.36" y="93.98" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN89" class="0">
+<segment>
+<pinref part="JP11" gate="G$1" pin="15"/>
+<wire x1="340.36" y1="121.92" x2="358.14" y2="121.92" width="0.1524" layer="91"/>
+<label x="340.36" y="121.92" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN90" class="0">
+<segment>
+<pinref part="JP13" gate="G$1" pin="1"/>
+<wire x1="406.4" y1="86.36" x2="424.18" y2="86.36" width="0.1524" layer="91"/>
+<label x="406.4" y="86.36" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN109" class="0">
+<segment>
+<pinref part="JP15" gate="G$1" pin="5"/>
+<wire x1="469.9" y1="96.52" x2="485.14" y2="96.52" width="0.1524" layer="91"/>
+<label x="469.9" y="96.52" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN110" class="0">
+<segment>
+<pinref part="JP15" gate="G$1" pin="6"/>
+<wire x1="469.9" y1="99.06" x2="485.14" y2="99.06" width="0.1524" layer="91"/>
+<label x="469.9" y="99.06" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN112" class="0">
+<segment>
+<pinref part="JP15" gate="G$1" pin="8"/>
+<wire x1="469.9" y1="104.14" x2="485.14" y2="104.14" width="0.1524" layer="91"/>
+<label x="469.9" y="104.14" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN115" class="0">
+<segment>
+<pinref part="JP15" gate="G$1" pin="11"/>
+<wire x1="469.9" y1="111.76" x2="485.14" y2="111.76" width="0.1524" layer="91"/>
+<label x="469.9" y="111.76" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN116" class="0">
+<segment>
+<pinref part="JP15" gate="G$1" pin="12"/>
+<wire x1="469.9" y1="114.3" x2="485.14" y2="114.3" width="0.1524" layer="91"/>
+<label x="469.9" y="114.3" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN117" class="0">
+<segment>
+<pinref part="JP15" gate="G$1" pin="13"/>
+<wire x1="469.9" y1="116.84" x2="485.14" y2="116.84" width="0.1524" layer="91"/>
+<label x="469.9" y="116.84" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN118" class="0">
+<segment>
+<pinref part="JP15" gate="G$1" pin="14"/>
+<wire x1="469.9" y1="119.38" x2="485.14" y2="119.38" width="0.1524" layer="91"/>
+<label x="469.9" y="119.38" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN119" class="0">
+<segment>
+<pinref part="JP15" gate="G$1" pin="15"/>
+<wire x1="469.9" y1="121.92" x2="485.14" y2="121.92" width="0.1524" layer="91"/>
+<label x="469.9" y="121.92" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN137" class="0">
+<segment>
+<pinref part="JP19" gate="G$1" pin="3"/>
+<wire x1="594.36" y1="91.44" x2="612.14" y2="91.44" width="0.1524" layer="91"/>
+<label x="594.36" y="91.44" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN138" class="0">
+<segment>
+<pinref part="JP19" gate="G$1" pin="4"/>
+<wire x1="594.36" y1="93.98" x2="612.14" y2="93.98" width="0.1524" layer="91"/>
+<label x="594.36" y="93.98" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN139" class="0">
+<segment>
+<pinref part="JP19" gate="G$1" pin="5"/>
+<wire x1="594.36" y1="96.52" x2="612.14" y2="96.52" width="0.1524" layer="91"/>
+<label x="594.36" y="96.52" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN140" class="0">
+<segment>
+<pinref part="JP19" gate="G$1" pin="6"/>
+<wire x1="594.36" y1="99.06" x2="612.14" y2="99.06" width="0.1524" layer="91"/>
+<label x="594.36" y="99.06" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN141" class="0">
+<segment>
+<pinref part="JP19" gate="G$1" pin="7"/>
+<wire x1="594.36" y1="101.6" x2="612.14" y2="101.6" width="0.1524" layer="91"/>
+<label x="594.36" y="101.6" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN142" class="0">
+<segment>
+<pinref part="JP19" gate="G$1" pin="8"/>
+<wire x1="594.36" y1="104.14" x2="612.14" y2="104.14" width="0.1524" layer="91"/>
+<label x="594.36" y="104.14" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN143" class="0">
+<segment>
+<pinref part="JP19" gate="G$1" pin="9"/>
+<wire x1="594.36" y1="106.68" x2="612.14" y2="106.68" width="0.1524" layer="91"/>
+<label x="594.36" y="106.68" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN144" class="0">
+<segment>
+<pinref part="JP19" gate="G$1" pin="10"/>
+<wire x1="594.36" y1="109.22" x2="612.14" y2="109.22" width="0.1524" layer="91"/>
+<label x="594.36" y="109.22" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN145" class="0">
+<segment>
+<pinref part="JP19" gate="G$1" pin="11"/>
+<wire x1="594.36" y1="111.76" x2="612.14" y2="111.76" width="0.1524" layer="91"/>
+<label x="594.36" y="111.76" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN146" class="0">
+<segment>
+<pinref part="JP19" gate="G$1" pin="12"/>
+<wire x1="594.36" y1="114.3" x2="612.14" y2="114.3" width="0.1524" layer="91"/>
+<label x="594.36" y="114.3" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN147" class="0">
+<segment>
+<pinref part="JP19" gate="G$1" pin="13"/>
+<wire x1="594.36" y1="116.84" x2="612.14" y2="116.84" width="0.1524" layer="91"/>
+<label x="594.36" y="116.84" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN148" class="0">
+<segment>
+<pinref part="JP19" gate="G$1" pin="14"/>
+<wire x1="594.36" y1="119.38" x2="612.14" y2="119.38" width="0.1524" layer="91"/>
+<label x="594.36" y="119.38" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN155" class="0">
+<segment>
+<pinref part="JP21" gate="G$1" pin="6"/>
+<wire x1="12.7" y1="33.02" x2="30.48" y2="33.02" width="0.1524" layer="91"/>
+<label x="12.7" y="33.02" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN156" class="0">
+<segment>
+<pinref part="JP21" gate="G$1" pin="7"/>
+<wire x1="12.7" y1="35.56" x2="30.48" y2="35.56" width="0.1524" layer="91"/>
+<label x="12.7" y="35.56" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN157" class="0">
+<segment>
+<pinref part="JP21" gate="G$1" pin="8"/>
+<wire x1="12.7" y1="38.1" x2="30.48" y2="38.1" width="0.1524" layer="91"/>
+<label x="12.7" y="38.1" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN158" class="0">
+<segment>
+<pinref part="JP21" gate="G$1" pin="9"/>
+<wire x1="12.7" y1="40.64" x2="30.48" y2="40.64" width="0.1524" layer="91"/>
+<label x="12.7" y="40.64" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN159" class="0">
+<segment>
+<pinref part="JP21" gate="G$1" pin="10"/>
+<wire x1="12.7" y1="43.18" x2="30.48" y2="43.18" width="0.1524" layer="91"/>
+<label x="12.7" y="43.18" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN160" class="0">
+<segment>
+<pinref part="JP21" gate="G$1" pin="11"/>
+<wire x1="12.7" y1="45.72" x2="30.48" y2="45.72" width="0.1524" layer="91"/>
+<label x="12.7" y="45.72" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN161" class="0">
+<segment>
+<pinref part="JP21" gate="G$1" pin="12"/>
+<wire x1="12.7" y1="48.26" x2="30.48" y2="48.26" width="0.1524" layer="91"/>
+<label x="12.7" y="48.26" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN162" class="0">
+<segment>
+<pinref part="JP21" gate="G$1" pin="13"/>
+<wire x1="12.7" y1="50.8" x2="30.48" y2="50.8" width="0.1524" layer="91"/>
+<label x="12.7" y="50.8" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN163" class="0">
+<segment>
+<pinref part="JP21" gate="G$1" pin="14"/>
+<wire x1="12.7" y1="53.34" x2="30.48" y2="53.34" width="0.1524" layer="91"/>
+<label x="12.7" y="53.34" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN164" class="0">
+<segment>
+<pinref part="JP21" gate="G$1" pin="15"/>
+<wire x1="12.7" y1="55.88" x2="30.48" y2="55.88" width="0.1524" layer="91"/>
+<label x="12.7" y="55.88" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN167" class="0">
+<segment>
+<pinref part="JP23" gate="G$1" pin="3"/>
+<wire x1="78.74" y1="25.4" x2="99.06" y2="25.4" width="0.1524" layer="91"/>
+<label x="78.74" y="25.4" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN168" class="0">
+<segment>
+<pinref part="JP23" gate="G$1" pin="4"/>
+<wire x1="78.74" y1="27.94" x2="99.06" y2="27.94" width="0.1524" layer="91"/>
+<label x="78.74" y="27.94" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN169" class="0">
+<segment>
+<pinref part="JP23" gate="G$1" pin="5"/>
+<wire x1="78.74" y1="30.48" x2="99.06" y2="30.48" width="0.1524" layer="91"/>
+<label x="78.74" y="30.48" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN170" class="0">
+<segment>
+<pinref part="JP23" gate="G$1" pin="6"/>
+<wire x1="78.74" y1="33.02" x2="99.06" y2="33.02" width="0.1524" layer="91"/>
+<label x="78.74" y="33.02" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN171" class="0">
+<segment>
+<pinref part="JP23" gate="G$1" pin="7"/>
+<wire x1="78.74" y1="35.56" x2="99.06" y2="35.56" width="0.1524" layer="91"/>
+<label x="78.74" y="35.56" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN172" class="0">
+<segment>
+<pinref part="JP23" gate="G$1" pin="8"/>
+<wire x1="78.74" y1="38.1" x2="99.06" y2="38.1" width="0.1524" layer="91"/>
+<label x="78.74" y="38.1" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN173" class="0">
+<segment>
+<pinref part="JP23" gate="G$1" pin="9"/>
+<wire x1="78.74" y1="40.64" x2="99.06" y2="40.64" width="0.1524" layer="91"/>
+<label x="78.74" y="40.64" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN174" class="0">
+<segment>
+<pinref part="JP23" gate="G$1" pin="10"/>
+<wire x1="78.74" y1="43.18" x2="99.06" y2="43.18" width="0.1524" layer="91"/>
+<label x="78.74" y="43.18" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN175" class="0">
+<segment>
+<pinref part="JP23" gate="G$1" pin="11"/>
+<wire x1="78.74" y1="45.72" x2="99.06" y2="45.72" width="0.1524" layer="91"/>
+<label x="78.74" y="45.72" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN176" class="0">
+<segment>
+<pinref part="JP23" gate="G$1" pin="12"/>
+<wire x1="78.74" y1="48.26" x2="99.06" y2="48.26" width="0.1524" layer="91"/>
+<label x="78.74" y="48.26" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN177" class="0">
+<segment>
+<pinref part="JP23" gate="G$1" pin="13"/>
+<wire x1="78.74" y1="50.8" x2="99.06" y2="50.8" width="0.1524" layer="91"/>
+<label x="78.74" y="50.8" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN178" class="0">
+<segment>
+<pinref part="JP23" gate="G$1" pin="14"/>
+<wire x1="78.74" y1="53.34" x2="99.06" y2="53.34" width="0.1524" layer="91"/>
+<label x="78.74" y="53.34" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN179" class="0">
+<segment>
+<pinref part="JP23" gate="G$1" pin="15"/>
+<wire x1="78.74" y1="55.88" x2="99.06" y2="55.88" width="0.1524" layer="91"/>
+<label x="78.74" y="55.88" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN180" class="0">
+<segment>
+<pinref part="JP25" gate="G$1" pin="1"/>
+<wire x1="142.24" y1="20.32" x2="157.48" y2="20.32" width="0.1524" layer="91"/>
+<label x="142.24" y="20.32" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN182" class="0">
+<segment>
+<pinref part="JP25" gate="G$1" pin="3"/>
+<wire x1="142.24" y1="25.4" x2="157.48" y2="25.4" width="0.1524" layer="91"/>
+<label x="142.24" y="25.4" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN183" class="0">
+<segment>
+<pinref part="JP25" gate="G$1" pin="4"/>
+<wire x1="142.24" y1="27.94" x2="157.48" y2="27.94" width="0.1524" layer="91"/>
+<label x="142.24" y="27.94" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN184" class="0">
+<segment>
+<pinref part="JP25" gate="G$1" pin="5"/>
+<wire x1="142.24" y1="30.48" x2="157.48" y2="30.48" width="0.1524" layer="91"/>
+<label x="142.24" y="30.48" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN185" class="0">
+<segment>
+<pinref part="JP25" gate="G$1" pin="6"/>
+<wire x1="142.24" y1="33.02" x2="157.48" y2="33.02" width="0.1524" layer="91"/>
+<label x="142.24" y="33.02" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN186" class="0">
+<segment>
+<pinref part="JP25" gate="G$1" pin="7"/>
+<wire x1="142.24" y1="35.56" x2="157.48" y2="35.56" width="0.1524" layer="91"/>
+<label x="142.24" y="35.56" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN187" class="0">
+<segment>
+<pinref part="JP25" gate="G$1" pin="8"/>
+<wire x1="142.24" y1="38.1" x2="157.48" y2="38.1" width="0.1524" layer="91"/>
+<label x="142.24" y="38.1" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN195" class="0">
+<segment>
+<pinref part="JP27" gate="G$1" pin="1"/>
+<wire x1="203.2" y1="20.32" x2="218.44" y2="20.32" width="0.1524" layer="91"/>
+<label x="203.2" y="20.32" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN197" class="0">
+<segment>
+<pinref part="JP27" gate="G$1" pin="3"/>
+<wire x1="203.2" y1="25.4" x2="218.44" y2="25.4" width="0.1524" layer="91"/>
+<label x="203.2" y="25.4" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN198" class="0">
+<segment>
+<pinref part="JP27" gate="G$1" pin="4"/>
+<wire x1="203.2" y1="27.94" x2="218.44" y2="27.94" width="0.1524" layer="91"/>
+<label x="203.2" y="27.94" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN204" class="0">
+<segment>
+<pinref part="JP27" gate="G$1" pin="10"/>
+<wire x1="203.2" y1="43.18" x2="218.44" y2="43.18" width="0.1524" layer="91"/>
+<label x="203.2" y="43.18" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN205" class="0">
+<segment>
+<pinref part="JP27" gate="G$1" pin="11"/>
+<wire x1="203.2" y1="45.72" x2="218.44" y2="45.72" width="0.1524" layer="91"/>
+<label x="203.2" y="45.72" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN206" class="0">
+<segment>
+<pinref part="JP27" gate="G$1" pin="12"/>
+<wire x1="203.2" y1="48.26" x2="218.44" y2="48.26" width="0.1524" layer="91"/>
+<label x="203.2" y="48.26" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN207" class="0">
+<segment>
+<pinref part="JP27" gate="G$1" pin="13"/>
+<wire x1="203.2" y1="50.8" x2="218.44" y2="50.8" width="0.1524" layer="91"/>
+<label x="203.2" y="50.8" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN208" class="0">
+<segment>
+<pinref part="JP27" gate="G$1" pin="14"/>
+<wire x1="203.2" y1="53.34" x2="218.44" y2="53.34" width="0.1524" layer="91"/>
+<label x="203.2" y="53.34" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN210" class="0">
+<segment>
+<pinref part="JP29" gate="G$1" pin="1"/>
+<wire x1="266.7" y1="20.32" x2="287.02" y2="20.32" width="0.1524" layer="91"/>
+<label x="266.7" y="20.32" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN213" class="0">
+<segment>
+<pinref part="JP29" gate="G$1" pin="4"/>
+<wire x1="266.7" y1="27.94" x2="287.02" y2="27.94" width="0.1524" layer="91"/>
+<label x="266.7" y="27.94" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN214" class="0">
+<segment>
+<pinref part="JP29" gate="G$1" pin="5"/>
+<wire x1="266.7" y1="30.48" x2="287.02" y2="30.48" width="0.1524" layer="91"/>
+<label x="266.7" y="30.48" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN219" class="0">
+<segment>
+<pinref part="JP29" gate="G$1" pin="10"/>
+<wire x1="266.7" y1="43.18" x2="287.02" y2="43.18" width="0.1524" layer="91"/>
+<label x="266.7" y="43.18" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN222" class="0">
+<segment>
+<pinref part="JP29" gate="G$1" pin="13"/>
+<wire x1="266.7" y1="50.8" x2="287.02" y2="50.8" width="0.1524" layer="91"/>
+<label x="266.7" y="50.8" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN223" class="0">
+<segment>
+<pinref part="JP29" gate="G$1" pin="14"/>
+<wire x1="266.7" y1="53.34" x2="287.02" y2="53.34" width="0.1524" layer="91"/>
+<label x="266.7" y="53.34" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN224" class="0">
+<segment>
+<pinref part="JP29" gate="G$1" pin="15"/>
+<wire x1="266.7" y1="55.88" x2="287.02" y2="55.88" width="0.1524" layer="91"/>
+<label x="266.7" y="55.88" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN226" class="0">
+<segment>
+<pinref part="JP31" gate="G$1" pin="2"/>
+<wire x1="340.36" y1="22.86" x2="358.14" y2="22.86" width="0.1524" layer="91"/>
+<label x="340.36" y="22.86" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN227" class="0">
+<segment>
+<pinref part="JP31" gate="G$1" pin="3"/>
+<wire x1="340.36" y1="25.4" x2="358.14" y2="25.4" width="0.1524" layer="91"/>
+<label x="340.36" y="25.4" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN228" class="0">
+<segment>
+<pinref part="JP31" gate="G$1" pin="4"/>
+<wire x1="340.36" y1="27.94" x2="358.14" y2="27.94" width="0.1524" layer="91"/>
+<label x="340.36" y="27.94" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN230" class="0">
+<segment>
+<pinref part="JP31" gate="G$1" pin="6"/>
+<wire x1="340.36" y1="33.02" x2="358.14" y2="33.02" width="0.1524" layer="91"/>
+<label x="340.36" y="33.02" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN231" class="0">
+<segment>
+<pinref part="JP31" gate="G$1" pin="7"/>
+<wire x1="340.36" y1="35.56" x2="358.14" y2="35.56" width="0.1524" layer="91"/>
+<label x="340.36" y="35.56" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN232" class="0">
+<segment>
+<pinref part="JP31" gate="G$1" pin="8"/>
+<wire x1="340.36" y1="38.1" x2="358.14" y2="38.1" width="0.1524" layer="91"/>
+<label x="340.36" y="38.1" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN235" class="0">
+<segment>
+<pinref part="JP31" gate="G$1" pin="11"/>
+<wire x1="340.36" y1="45.72" x2="358.14" y2="45.72" width="0.1524" layer="91"/>
+<label x="340.36" y="45.72" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN236" class="0">
+<segment>
+<pinref part="JP31" gate="G$1" pin="12"/>
+<wire x1="340.36" y1="48.26" x2="358.14" y2="48.26" width="0.1524" layer="91"/>
+<label x="340.36" y="48.26" size="1.778" layer="95"/>
+<label x="340.36" y="48.26" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN237" class="0">
+<segment>
+<pinref part="JP31" gate="G$1" pin="13"/>
+<wire x1="340.36" y1="50.8" x2="358.14" y2="50.8" width="0.1524" layer="91"/>
+<label x="340.36" y="50.8" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN239" class="0">
+<segment>
+<pinref part="JP31" gate="G$1" pin="15"/>
+<wire x1="340.36" y1="55.88" x2="358.14" y2="55.88" width="0.1524" layer="91"/>
+<label x="340.36" y="55.88" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN240" class="0">
+<segment>
+<pinref part="JP33" gate="G$1" pin="1"/>
+<wire x1="406.4" y1="20.32" x2="424.18" y2="20.32" width="0.1524" layer="91"/>
+<label x="406.4" y="20.32" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN241" class="0">
+<segment>
+<pinref part="JP33" gate="G$1" pin="2"/>
+<wire x1="406.4" y1="22.86" x2="424.18" y2="22.86" width="0.1524" layer="91"/>
+<label x="406.4" y="22.86" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN242" class="0">
+<segment>
+<pinref part="JP33" gate="G$1" pin="3"/>
+<wire x1="406.4" y1="25.4" x2="424.18" y2="25.4" width="0.1524" layer="91"/>
+<label x="406.4" y="25.4" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN243" class="0">
+<segment>
+<pinref part="JP33" gate="G$1" pin="4"/>
+<wire x1="406.4" y1="27.94" x2="424.18" y2="27.94" width="0.1524" layer="91"/>
+<label x="406.4" y="27.94" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN244" class="0">
+<segment>
+<pinref part="JP33" gate="G$1" pin="5"/>
+<wire x1="406.4" y1="30.48" x2="424.18" y2="30.48" width="0.1524" layer="91"/>
+<label x="406.4" y="30.48" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN246" class="0">
+<segment>
+<pinref part="JP33" gate="G$1" pin="7"/>
+<wire x1="406.4" y1="35.56" x2="424.18" y2="35.56" width="0.1524" layer="91"/>
+<label x="406.4" y="35.56" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN247" class="0">
+<segment>
+<pinref part="JP33" gate="G$1" pin="8"/>
+<wire x1="406.4" y1="38.1" x2="424.18" y2="38.1" width="0.1524" layer="91"/>
+<label x="406.4" y="38.1" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN248" class="0">
+<segment>
+<pinref part="JP33" gate="G$1" pin="9"/>
+<wire x1="406.4" y1="40.64" x2="424.18" y2="40.64" width="0.1524" layer="91"/>
+<label x="406.4" y="40.64" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN249" class="0">
+<segment>
+<pinref part="JP33" gate="G$1" pin="10"/>
+<wire x1="406.4" y1="43.18" x2="424.18" y2="43.18" width="0.1524" layer="91"/>
+<label x="406.4" y="43.18" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN252" class="0">
+<segment>
+<pinref part="JP33" gate="G$1" pin="13"/>
+<wire x1="406.4" y1="50.8" x2="424.18" y2="50.8" width="0.1524" layer="91"/>
+<label x="406.4" y="50.8" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN255" class="0">
+<segment>
+<pinref part="JP35" gate="G$1" pin="1"/>
+<wire x1="469.9" y1="20.32" x2="487.68" y2="20.32" width="0.1524" layer="91"/>
+<label x="469.9" y="20.32" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN256" class="0">
+<segment>
+<pinref part="JP35" gate="G$1" pin="2"/>
+<wire x1="469.9" y1="22.86" x2="487.68" y2="22.86" width="0.1524" layer="91"/>
+<label x="469.9" y="22.86" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN257" class="0">
+<segment>
+<pinref part="JP35" gate="G$1" pin="3"/>
+<wire x1="469.9" y1="25.4" x2="487.68" y2="25.4" width="0.1524" layer="91"/>
+<label x="469.9" y="25.4" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN259" class="0">
+<segment>
+<pinref part="JP35" gate="G$1" pin="5"/>
+<wire x1="469.9" y1="30.48" x2="487.68" y2="30.48" width="0.1524" layer="91"/>
+<label x="469.9" y="30.48" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN260" class="0">
+<segment>
+<pinref part="JP35" gate="G$1" pin="6"/>
+<wire x1="469.9" y1="33.02" x2="487.68" y2="33.02" width="0.1524" layer="91"/>
+<label x="469.9" y="33.02" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN264" class="0">
+<segment>
+<pinref part="JP35" gate="G$1" pin="10"/>
+<wire x1="469.9" y1="43.18" x2="487.68" y2="43.18" width="0.1524" layer="91"/>
+<label x="469.9" y="43.18" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN269" class="0">
+<segment>
+<pinref part="JP35" gate="G$1" pin="15"/>
+<wire x1="469.9" y1="55.88" x2="487.68" y2="55.88" width="0.1524" layer="91"/>
+<label x="469.9" y="55.88" size="1.778" layer="95"/>
+<label x="469.9" y="55.88" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN271" class="0">
+<segment>
+<pinref part="JP37" gate="G$1" pin="2"/>
+<wire x1="533.4" y1="22.86" x2="551.18" y2="22.86" width="0.1524" layer="91"/>
+<label x="533.4" y="22.86" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN272" class="0">
+<segment>
+<pinref part="JP37" gate="G$1" pin="3"/>
+<wire x1="533.4" y1="25.4" x2="551.18" y2="25.4" width="0.1524" layer="91"/>
+<label x="533.4" y="25.4" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN273" class="0">
+<segment>
+<pinref part="JP37" gate="G$1" pin="4"/>
+<wire x1="533.4" y1="27.94" x2="551.18" y2="27.94" width="0.1524" layer="91"/>
+<label x="533.4" y="27.94" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN282" class="0">
+<segment>
+<pinref part="JP37" gate="G$1" pin="13"/>
+<wire x1="533.4" y1="50.8" x2="551.18" y2="50.8" width="0.1524" layer="91"/>
+<label x="533.4" y="50.8" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN283" class="0">
+<segment>
+<pinref part="JP37" gate="G$1" pin="14"/>
+<wire x1="533.4" y1="53.34" x2="551.18" y2="53.34" width="0.1524" layer="91"/>
+<label x="533.4" y="53.34" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN293" class="0">
+<segment>
+<pinref part="JP39" gate="G$1" pin="9"/>
+<wire x1="599.44" y1="40.64" x2="614.68" y2="40.64" width="0.1524" layer="91"/>
+<label x="599.44" y="40.64" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLEAN294" class="0">
+<segment>
+<pinref part="JP39" gate="G$1" pin="10"/>
+<wire x1="599.44" y1="43.18" x2="614.68" y2="43.18" width="0.1524" layer="91"/>
+<label x="599.44" y="43.18" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>

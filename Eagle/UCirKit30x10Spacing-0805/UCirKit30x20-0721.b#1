@@ -421,7 +421,7 @@ design rules under a new name.
 <param name="Efforts" value="0"/>
 <param name="TopRouterVariant" value="1"/>
 <param name="tpViaShape" value="round"/>
-<param name="PrefDir.1" value="|"/>
+<param name="PrefDir.1" value="a"/>
 <param name="PrefDir.2" value="0"/>
 <param name="PrefDir.3" value="0"/>
 <param name="PrefDir.4" value="0"/>
@@ -436,7 +436,7 @@ design rules under a new name.
 <param name="PrefDir.13" value="0"/>
 <param name="PrefDir.14" value="0"/>
 <param name="PrefDir.15" value="0"/>
-<param name="PrefDir.16" value="-"/>
+<param name="PrefDir.16" value="a"/>
 <param name="cfVia" value="8"/>
 <param name="cfNonPref" value="5"/>
 <param name="cfChangeDir" value="2"/>
@@ -596,12 +596,12 @@ design rules under a new name.
 <signal name="NEW_2">
 <contactref element="JP1" pad="6"/>
 <contactref element="JP42" pad="3"/>
-<wire x1="10.795" y1="57.785" x2="16.51" y2="38.1" width="0" layer="19" extent="1-1"/>
+<wire x1="16.51" y1="38.1" x2="10.795" y2="57.785" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="NEW_4">
 <contactref element="JP1" pad="7"/>
 <contactref element="JP42" pad="5"/>
-<wire x1="13.335" y1="57.785" x2="16.51" y2="35.56" width="0" layer="19" extent="1-1"/>
+<wire x1="16.51" y1="35.56" x2="13.335" y2="57.785" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="NEW_53">
 <contactref element="JP1" pad="8"/>
@@ -658,7 +658,7 @@ design rules under a new name.
 <signal name="NEW_324">
 <contactref element="JP13" pad="1"/>
 <contactref element="JP72" pad="5"/>
-<wire x1="121.285" y1="39.37" x2="46.99" y2="50.8" width="0" layer="19" extent="1-1"/>
+<wire x1="46.99" y1="50.8" x2="121.285" y2="39.37" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="NEW_333">
 <contactref element="JP13" pad="2"/>
@@ -751,7 +751,7 @@ design rules under a new name.
 <signal name="NEW_118">
 <contactref element="JP15" pad="8"/>
 <contactref element="JP109" pad="4"/>
-<wire x1="88.265" y1="57.785" x2="52.07" y2="33.02" width="0" layer="19" extent="1-1"/>
+<wire x1="52.07" y1="33.02" x2="88.265" y2="57.785" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="NEW_135">
 <contactref element="JP15" pad="7"/>
@@ -759,12 +759,12 @@ design rules under a new name.
 <signal name="NEW_119">
 <contactref element="JP15" pad="6"/>
 <contactref element="JP109" pad="5"/>
-<wire x1="89.535" y1="57.785" x2="52.07" y2="38.1" width="0" layer="19" extent="1-1"/>
+<wire x1="52.07" y1="38.1" x2="89.535" y2="57.785" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="NEW_360">
 <contactref element="JP15" pad="5"/>
 <contactref element="JP43" pad="1"/>
-<wire x1="52.07" y1="40.64" x2="10.16" y2="19.685" width="0" layer="19" extent="1-1"/>
+<wire x1="10.16" y1="19.685" x2="52.07" y2="40.64" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="NEW_344">
 <contactref element="JP15" pad="4"/>
@@ -896,17 +896,17 @@ design rules under a new name.
 <signal name="NEW_124">
 <contactref element="JP19" pad="9"/>
 <contactref element="JP108" pad="5"/>
-<wire x1="83.185" y1="57.785" x2="62.23" y2="30.48" width="0" layer="19" extent="1-1"/>
+<wire x1="62.23" y1="30.48" x2="83.185" y2="57.785" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="NEW_123">
 <contactref element="JP19" pad="8"/>
 <contactref element="JP108" pad="4"/>
-<wire x1="81.915" y1="57.785" x2="62.23" y2="33.02" width="0" layer="19" extent="1-1"/>
+<wire x1="62.23" y1="33.02" x2="81.915" y2="57.785" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="NEW_122">
 <contactref element="JP19" pad="7"/>
 <contactref element="JP108" pad="3"/>
-<wire x1="80.645" y1="57.785" x2="62.23" y2="35.56" width="0" layer="19" extent="1-1"/>
+<wire x1="62.23" y1="35.56" x2="80.645" y2="57.785" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="NEW_237">
 <contactref element="JP19" pad="6"/>
@@ -961,7 +961,7 @@ design rules under a new name.
 <signal name="NEW_225">
 <contactref element="JP21" pad="15"/>
 <contactref element="JP55" pad="1"/>
-<wire x1="103.505" y1="6.985" x2="67.31" y2="15.24" width="0" layer="19" extent="1-1"/>
+<wire x1="67.31" y1="15.24" x2="103.505" y2="6.985" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="NEW_175">
 <contactref element="JP21" pad="14"/>
@@ -1059,27 +1059,27 @@ design rules under a new name.
 <signal name="NEW_289">
 <contactref element="JP23" pad="15"/>
 <contactref element="JP67" pad="5"/>
-<wire x1="102.235" y1="6.985" x2="72.39" y2="15.24" width="0" layer="19" extent="1-1"/>
+<wire x1="72.39" y1="15.24" x2="102.235" y2="6.985" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="NEW_288">
 <contactref element="JP23" pad="14"/>
 <contactref element="JP67" pad="4"/>
-<wire x1="100.965" y1="6.985" x2="72.39" y2="17.78" width="0" layer="19" extent="1-1"/>
+<wire x1="72.39" y1="17.78" x2="100.965" y2="6.985" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="NEW_286">
 <contactref element="JP23" pad="13"/>
 <contactref element="JP67" pad="2"/>
-<wire x1="98.425" y1="6.985" x2="72.39" y2="20.32" width="0" layer="19" extent="1-1"/>
+<wire x1="72.39" y1="20.32" x2="98.425" y2="6.985" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="NEW_285">
 <contactref element="JP23" pad="12"/>
 <contactref element="JP67" pad="1"/>
-<wire x1="97.155" y1="6.985" x2="72.39" y2="22.86" width="0" layer="19" extent="1-1"/>
+<wire x1="72.39" y1="22.86" x2="97.155" y2="6.985" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="NEW_287">
 <contactref element="JP23" pad="11"/>
 <contactref element="JP67" pad="3"/>
-<wire x1="99.695" y1="6.985" x2="72.39" y2="25.4" width="0" layer="19" extent="1-1"/>
+<wire x1="72.39" y1="25.4" x2="99.695" y2="6.985" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="NEW_234">
 <contactref element="JP23" pad="10"/>
@@ -1099,27 +1099,27 @@ design rules under a new name.
 <signal name="NEW_351">
 <contactref element="JP23" pad="7"/>
 <contactref element="JP78" pad="2"/>
-<wire x1="121.285" y1="24.13" x2="72.39" y2="35.56" width="0" layer="19" extent="1-1"/>
+<wire x1="72.39" y1="35.56" x2="121.285" y2="24.13" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="NEW_350">
 <contactref element="JP23" pad="6"/>
 <contactref element="JP78" pad="1"/>
-<wire x1="121.285" y1="25.4" x2="72.39" y2="38.1" width="0" layer="19" extent="1-1"/>
+<wire x1="72.39" y1="38.1" x2="121.285" y2="25.4" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="NEW_349">
 <contactref element="JP23" pad="5"/>
 <contactref element="JP77" pad="4"/>
-<wire x1="121.285" y1="27.94" x2="72.39" y2="40.64" width="0" layer="19" extent="1-1"/>
+<wire x1="72.39" y1="40.64" x2="121.285" y2="27.94" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="NEW_348">
 <contactref element="JP23" pad="4"/>
 <contactref element="JP77" pad="3"/>
-<wire x1="121.285" y1="29.21" x2="72.39" y2="43.18" width="0" layer="19" extent="1-1"/>
+<wire x1="72.39" y1="43.18" x2="121.285" y2="29.21" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="NEW_346">
 <contactref element="JP23" pad="3"/>
 <contactref element="JP77" pad="1"/>
-<wire x1="121.285" y1="31.75" x2="72.39" y2="45.72" width="0" layer="19" extent="1-1"/>
+<wire x1="72.39" y1="45.72" x2="121.285" y2="31.75" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="NEW_414">
 <contactref element="JP23" pad="2"/>
@@ -1369,17 +1369,17 @@ design rules under a new name.
 <signal name="NEW_515">
 <contactref element="JP29" pad="13"/>
 <contactref element="JP144" pad="1"/>
-<wire x1="87.63" y1="20.32" x2="71.755" y2="6.985" width="0" layer="19" extent="1-1"/>
+<wire x1="71.755" y1="6.985" x2="87.63" y2="20.32" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="NEW_519">
 <contactref element="JP29" pad="14"/>
 <contactref element="JP144" pad="5"/>
-<wire x1="87.63" y1="17.78" x2="76.835" y2="6.985" width="0" layer="19" extent="1-1"/>
+<wire x1="76.835" y1="6.985" x2="87.63" y2="17.78" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="NEW_510">
 <contactref element="JP29" pad="15"/>
 <contactref element="JP145" pad="1"/>
-<wire x1="87.63" y1="15.24" x2="78.105" y2="6.985" width="0" layer="19" extent="1-1"/>
+<wire x1="78.105" y1="6.985" x2="87.63" y2="15.24" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="NEW_520">
 <contactref element="JP143" pad="1"/>
@@ -1414,7 +1414,7 @@ design rules under a new name.
 <signal name="NEW_449">
 <contactref element="JP31" pad="3"/>
 <contactref element="JP133" pad="5"/>
-<wire x1="92.71" y1="45.72" x2="76.835" y2="57.785" width="0" layer="19" extent="1-1"/>
+<wire x1="76.835" y1="57.785" x2="92.71" y2="45.72" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="NEW_484">
 <contactref element="JP31" pad="4"/>
@@ -1438,7 +1438,7 @@ design rules under a new name.
 <signal name="NEW_517">
 <contactref element="JP31" pad="12"/>
 <contactref element="JP144" pad="3"/>
-<wire x1="92.71" y1="22.86" x2="74.295" y2="6.985" width="0" layer="19" extent="1-1"/>
+<wire x1="74.295" y1="6.985" x2="92.71" y2="22.86" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="NEW_569">
 <contactref element="JP31" pad="14"/>
@@ -1507,7 +1507,7 @@ design rules under a new name.
 <signal name="NEW_3">
 <contactref element="JP1" pad="5"/>
 <contactref element="JP42" pad="4"/>
-<wire x1="12.065" y1="57.785" x2="16.51" y2="40.64" width="0" layer="19" extent="1-1"/>
+<wire x1="16.51" y1="40.64" x2="12.065" y2="57.785" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="NEW_6">
 <contactref element="JP11" pad="15"/>
@@ -1517,7 +1517,7 @@ design rules under a new name.
 <signal name="NEW_7">
 <contactref element="JP1" pad="12"/>
 <contactref element="JP113" pad="4"/>
-<wire x1="16.51" y1="22.86" x2="12.065" y2="6.985" width="0" layer="19" extent="1-1"/>
+<wire x1="12.065" y1="6.985" x2="16.51" y2="22.86" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="NEW_8">
 <contactref element="JP83" pad="5"/>
@@ -1525,7 +1525,7 @@ design rules under a new name.
 <signal name="NEW_9">
 <contactref element="JP1" pad="13"/>
 <contactref element="JP113" pad="5"/>
-<wire x1="16.51" y1="20.32" x2="13.335" y2="6.985" width="0" layer="19" extent="1-1"/>
+<wire x1="13.335" y1="6.985" x2="16.51" y2="20.32" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="NEW_11">
 <contactref element="JP3" pad="14"/>
@@ -1577,7 +1577,7 @@ design rules under a new name.
 <signal name="NEW_31">
 <contactref element="JP3" pad="8"/>
 <contactref element="JP90" pad="2"/>
-<wire x1="104.775" y1="57.785" x2="21.59" y2="33.02" width="0" layer="19" extent="1-1"/>
+<wire x1="21.59" y1="33.02" x2="104.775" y2="57.785" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="NEW_32">
 <contactref element="JP3" pad="10"/>
@@ -1592,7 +1592,7 @@ design rules under a new name.
 <signal name="NEW_34">
 <contactref element="JP3" pad="9"/>
 <contactref element="JP90" pad="5"/>
-<wire x1="108.585" y1="57.785" x2="21.59" y2="30.48" width="0" layer="19" extent="1-1"/>
+<wire x1="21.59" y1="30.48" x2="108.585" y2="57.785" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="NEW_35">
 <contactref element="JP89" pad="1"/>
@@ -1650,12 +1650,12 @@ design rules under a new name.
 <signal name="NEW_88">
 <contactref element="JP5" pad="6"/>
 <contactref element="JP103" pad="4"/>
-<wire x1="120.015" y1="6.985" x2="26.67" y2="38.1" width="0" layer="19" extent="1-1"/>
+<wire x1="26.67" y1="38.1" x2="120.015" y2="6.985" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="NEW_89">
 <contactref element="JP5" pad="7"/>
 <contactref element="JP103" pad="5"/>
-<wire x1="121.285" y1="6.985" x2="26.67" y2="35.56" width="0" layer="19" extent="1-1"/>
+<wire x1="26.67" y1="35.56" x2="121.285" y2="6.985" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="NEW_90">
 <contactref element="JP5" pad="15"/>
@@ -1673,12 +1673,12 @@ design rules under a new name.
 <signal name="NEW_93">
 <contactref element="JP5" pad="8"/>
 <contactref element="JP102" pad="4"/>
-<wire x1="113.665" y1="6.985" x2="26.67" y2="33.02" width="0" layer="19" extent="1-1"/>
+<wire x1="26.67" y1="33.02" x2="113.665" y2="6.985" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="NEW_94">
 <contactref element="JP5" pad="9"/>
 <contactref element="JP102" pad="5"/>
-<wire x1="114.935" y1="6.985" x2="26.67" y2="30.48" width="0" layer="19" extent="1-1"/>
+<wire x1="26.67" y1="30.48" x2="114.935" y2="6.985" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="NEW_95">
 <contactref element="JP101" pad="1"/>
@@ -1695,7 +1695,7 @@ design rules under a new name.
 <signal name="NEW_99">
 <contactref element="JP7" pad="9"/>
 <contactref element="JP101" pad="5"/>
-<wire x1="95.885" y1="57.785" x2="31.75" y2="30.48" width="0" layer="19" extent="1-1"/>
+<wire x1="31.75" y1="30.48" x2="95.885" y2="57.785" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="NEW_130">
 <contactref element="JP7" pad="12"/>
@@ -1866,27 +1866,27 @@ design rules under a new name.
 <signal name="NEW_315">
 <contactref element="JP11" pad="1"/>
 <contactref element="JP73" pad="1"/>
-<wire x1="121.285" y1="38.1" x2="41.91" y2="50.8" width="0" layer="19" extent="1-1"/>
+<wire x1="41.91" y1="50.8" x2="121.285" y2="38.1" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="NEW_316">
 <contactref element="JP11" pad="2"/>
 <contactref element="JP73" pad="2"/>
-<wire x1="121.285" y1="36.83" x2="41.91" y2="48.26" width="0" layer="19" extent="1-1"/>
+<wire x1="41.91" y1="48.26" x2="121.285" y2="36.83" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="NEW_317">
 <contactref element="JP11" pad="3"/>
 <contactref element="JP73" pad="3"/>
-<wire x1="121.285" y1="35.56" x2="41.91" y2="45.72" width="0" layer="19" extent="1-1"/>
+<wire x1="41.91" y1="45.72" x2="121.285" y2="35.56" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="NEW_318">
 <contactref element="JP11" pad="4"/>
 <contactref element="JP73" pad="4"/>
-<wire x1="121.285" y1="34.29" x2="41.91" y2="43.18" width="0" layer="19" extent="1-1"/>
+<wire x1="41.91" y1="43.18" x2="121.285" y2="34.29" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="NEW_320">
 <contactref element="JP35" pad="2"/>
 <contactref element="JP72" pad="1"/>
-<wire x1="121.285" y1="44.45" x2="102.87" y2="48.26" width="0" layer="19" extent="1-1"/>
+<wire x1="102.87" y1="48.26" x2="121.285" y2="44.45" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="NEW_321">
 <contactref element="JP72" pad="2"/>
@@ -1894,7 +1894,7 @@ design rules under a new name.
 <signal name="NEW_322">
 <contactref element="JP35" pad="1"/>
 <contactref element="JP72" pad="3"/>
-<wire x1="121.285" y1="41.91" x2="102.87" y2="50.8" width="0" layer="19" extent="1-1"/>
+<wire x1="102.87" y1="50.8" x2="121.285" y2="41.91" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="NEW_325">
 <contactref element="JP71" pad="1"/>
@@ -1902,7 +1902,7 @@ design rules under a new name.
 <signal name="NEW_326">
 <contactref element="JP37" pad="2"/>
 <contactref element="JP71" pad="2"/>
-<wire x1="121.285" y1="49.53" x2="107.95" y2="48.26" width="0" layer="19" extent="1-1"/>
+<wire x1="107.95" y1="48.26" x2="121.285" y2="49.53" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="NEW_327">
 <contactref element="JP71" pad="3"/>
@@ -1913,7 +1913,7 @@ design rules under a new name.
 <signal name="NEW_329">
 <contactref element="JP35" pad="3"/>
 <contactref element="JP71" pad="5"/>
-<wire x1="121.285" y1="45.72" x2="102.87" y2="45.72" width="0" layer="19" extent="1-1"/>
+<wire x1="102.87" y1="45.72" x2="121.285" y2="45.72" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="NEW_365">
 <contactref element="JP115" pad="1"/>
@@ -1921,7 +1921,7 @@ design rules under a new name.
 <signal name="NEW_366">
 <contactref element="JP33" pad="5"/>
 <contactref element="JP115" pad="2"/>
-<wire x1="97.79" y1="40.64" x2="34.925" y2="57.785" width="0" layer="19" extent="1-1"/>
+<wire x1="34.925" y1="57.785" x2="97.79" y2="40.64" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="NEW_367">
 <contactref element="JP115" pad="3"/>
@@ -1929,7 +1929,7 @@ design rules under a new name.
 <signal name="NEW_368">
 <contactref element="JP33" pad="4"/>
 <contactref element="JP115" pad="4"/>
-<wire x1="97.79" y1="43.18" x2="37.465" y2="57.785" width="0" layer="19" extent="1-1"/>
+<wire x1="37.465" y1="57.785" x2="97.79" y2="43.18" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="NEW_369">
 <contactref element="JP115" pad="5"/>
@@ -1985,7 +1985,7 @@ design rules under a new name.
 <signal name="NEW_415">
 <contactref element="JP33" pad="3"/>
 <contactref element="JP127" pad="1"/>
-<wire x1="97.79" y1="45.72" x2="27.305" y2="57.785" width="0" layer="19" extent="1-1"/>
+<wire x1="27.305" y1="57.785" x2="97.79" y2="45.72" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="NEW_416">
 <contactref element="JP127" pad="2"/>
@@ -1993,7 +1993,7 @@ design rules under a new name.
 <signal name="NEW_417">
 <contactref element="JP37" pad="14"/>
 <contactref element="JP127" pad="3"/>
-<wire x1="107.95" y1="17.78" x2="29.845" y2="57.785" width="0" layer="19" extent="1-1"/>
+<wire x1="29.845" y1="57.785" x2="107.95" y2="17.78" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="NEW_418">
 <contactref element="JP127" pad="4"/>
@@ -2001,7 +2001,7 @@ design rules under a new name.
 <signal name="NEW_419">
 <contactref element="JP35" pad="15"/>
 <contactref element="JP127" pad="5"/>
-<wire x1="102.87" y1="15.24" x2="32.385" y2="57.785" width="0" layer="19" extent="1-1"/>
+<wire x1="32.385" y1="57.785" x2="102.87" y2="15.24" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="NEW_420">
 <contactref element="JP126" pad="1"/>
@@ -2009,7 +2009,7 @@ design rules under a new name.
 <signal name="NEW_421">
 <contactref element="JP33" pad="1"/>
 <contactref element="JP126" pad="2"/>
-<wire x1="97.79" y1="50.8" x2="22.225" y2="57.785" width="0" layer="19" extent="1-1"/>
+<wire x1="22.225" y1="57.785" x2="97.79" y2="50.8" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="NEW_422">
 <contactref element="JP126" pad="3"/>
@@ -2020,12 +2020,12 @@ design rules under a new name.
 <signal name="NEW_424">
 <contactref element="JP33" pad="2"/>
 <contactref element="JP126" pad="5"/>
-<wire x1="97.79" y1="48.26" x2="26.035" y2="57.785" width="0" layer="19" extent="1-1"/>
+<wire x1="26.035" y1="57.785" x2="97.79" y2="48.26" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="NEW_425">
 <contactref element="JP33" pad="9"/>
 <contactref element="JP125" pad="1"/>
-<wire x1="97.79" y1="30.48" x2="14.605" y2="57.785" width="0" layer="19" extent="1-1"/>
+<wire x1="14.605" y1="57.785" x2="97.79" y2="30.48" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="NEW_426">
 <contactref element="JP125" pad="2"/>
@@ -2033,12 +2033,12 @@ design rules under a new name.
 <signal name="NEW_427">
 <contactref element="JP37" pad="4"/>
 <contactref element="JP125" pad="3"/>
-<wire x1="107.95" y1="43.18" x2="17.145" y2="57.785" width="0" layer="19" extent="1-1"/>
+<wire x1="17.145" y1="57.785" x2="107.95" y2="43.18" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="NEW_428">
 <contactref element="JP37" pad="3"/>
 <contactref element="JP125" pad="4"/>
-<wire x1="107.95" y1="45.72" x2="18.415" y2="57.785" width="0" layer="19" extent="1-1"/>
+<wire x1="18.415" y1="57.785" x2="107.95" y2="45.72" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="NEW_429">
 <contactref element="JP125" pad="5"/>
@@ -2075,7 +2075,7 @@ design rules under a new name.
 <signal name="NEW_446">
 <contactref element="JP31" pad="2"/>
 <contactref element="JP133" pad="2"/>
-<wire x1="92.71" y1="48.26" x2="73.025" y2="57.785" width="0" layer="19" extent="1-1"/>
+<wire x1="73.025" y1="57.785" x2="92.71" y2="48.26" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="NEW_448">
 <contactref element="JP31" pad="7"/>
@@ -2107,7 +2107,7 @@ design rules under a new name.
 <signal name="NEW_458">
 <contactref element="JP33" pad="10"/>
 <contactref element="JP131" pad="4"/>
-<wire x1="97.79" y1="27.94" x2="62.865" y2="57.785" width="0" layer="19" extent="1-1"/>
+<wire x1="62.865" y1="57.785" x2="97.79" y2="27.94" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="NEW_459">
 <contactref element="JP131" pad="5"/>
@@ -2124,7 +2124,7 @@ design rules under a new name.
 <signal name="NEW_475">
 <contactref element="JP37" pad="13"/>
 <contactref element="JP139" pad="1"/>
-<wire x1="107.95" y1="20.32" x2="8.255" y2="19.685" width="0" layer="19" extent="1-1"/>
+<wire x1="8.255" y1="19.685" x2="107.95" y2="20.32" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="NEW_476">
 <contactref element="JP139" pad="2"/>
@@ -2135,12 +2135,12 @@ design rules under a new name.
 <signal name="NEW_478">
 <contactref element="JP39" pad="9"/>
 <contactref element="JP139" pad="4"/>
-<wire x1="113.03" y1="30.48" x2="8.255" y2="15.875" width="0" layer="19" extent="1-1"/>
+<wire x1="8.255" y1="15.875" x2="113.03" y2="30.48" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="NEW_479">
 <contactref element="JP39" pad="10"/>
 <contactref element="JP139" pad="5"/>
-<wire x1="113.03" y1="27.94" x2="8.255" y2="14.605" width="0" layer="19" extent="1-1"/>
+<wire x1="8.255" y1="14.605" x2="113.03" y2="27.94" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="NEW_480">
 <contactref element="JP161" pad="1"/>
