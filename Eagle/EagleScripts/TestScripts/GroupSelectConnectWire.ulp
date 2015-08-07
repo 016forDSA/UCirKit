@@ -68,7 +68,7 @@ real distance(int x1, int y1, int x2, int y2){
 }
 
 int getMinDisLFContactIdx(int sFIdx){
-   real minDistance = 10000000000;
+   real minDistance = 100000000;
    int minDisIdx;
 
    for (int i = 0; i < lFContactCount; ++i){
@@ -85,7 +85,7 @@ int getMinDisLFContactIdx(int sFIdx){
       }
    }
    
-   if (minDistance == 10000000000)
+   if (minDistance == 100000000)
       return -1;
 
    return minDisIdx;
@@ -147,13 +147,14 @@ void collectLFConnectionPins(){
 }
 
 void createCommand(){
+   int timeForNaming = time();
    for (int i = 0; i < connectListCount; ++i){
       sFPinsToConnect[i].wires(WIRE){
-         sprintf(command, "%s NAME %d_ (%f %f);", command, wireNameInt, u2inch(WIRE.x1), u2inch(WIRE.y1));
+         sprintf(command, "%s NAME %d_%d (%f %f);", command, wireNameInt, timeForNaming, u2inch(WIRE.x1), u2inch(WIRE.y1));
       }
 
       lFPinsToConnect[i].wires(WIRE){
-         sprintf(command, "%s NAME %d_ (%f %f);", command, wireNameInt++, u2inch(WIRE.x1), u2inch(WIRE.y1));
+         sprintf(command, "%s NAME %d_%d (%f %f);", command, wireNameInt++, timeForNaming, u2inch(WIRE.x1), u2inch(WIRE.y1));
       }
    }
 }
