@@ -47,6 +47,12 @@ void classifyLargeAndSmallFemaleHeaders(){
          }
       }
    }
+   // for (int i = 0; i < lFContactCount; ++i){
+   //    printf("lFContactRefs[%d].element.name = %s, contact.name = %s\n", i, lFContactRefs[i].element.name, lFContactRefs[i].contact.name);
+   // }
+   // for (i = 0; i < sFContactCount; ++i){
+   //    printf("sFContactRefs[%d].element.name = %s, contact.name = %s\n", i, sFContactRefs[i].element.name, sFContactRefs[i].contact.name);
+   // }
 }
 
 // **************************************************************************
@@ -109,6 +115,7 @@ void scanThruSmallFemalesAndConnectWithLargeFemales(){
          PART.instances(INSTANCE){
             INSTANCE.gate.symbol.pins(PIN){
                int idx = getSFGroupedIdx(PART, PIN);
+               // printf("PART.name = %s, PIN.name = %s\n", PART.name, PIN.name);
                if (idx < 0)   continue;
 
                connectToMinDisLargeFemalePins(idx, PIN);
