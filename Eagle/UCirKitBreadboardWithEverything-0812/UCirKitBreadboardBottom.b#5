@@ -188,7 +188,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <class number="0" name="default" width="0" drill="0">
 </class>
 </classes>
-<designrules name="SeeedStudio_2layer_DRU_no_angle_20140221">
+<designrules name="default">
 <description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
 &lt;p&gt;
 Die Standard-Design-Rules sind so gewählt, dass sie für 
@@ -203,28 +203,26 @@ a wide range of applications. Your particular design
 may have different requirements, so please make the
 necessary adjustments and save your customized
 design rules under a new name.</description>
-<description language="zh">&lt;b&gt;Seeed Studio EAGLE Design Rules&lt;/b&gt;
-</description>
 <param name="layerSetup" value="(1*16)"/>
-<param name="mtCopper" value="0.035mm 0.0175mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.0175mm 0.035mm"/>
-<param name="mtIsolate" value="1.5mm 1.1mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm"/>
-<param name="mdWireWire" value="6mil"/>
-<param name="mdWirePad" value="6mil"/>
-<param name="mdWireVia" value="6mil"/>
-<param name="mdPadPad" value="6mil"/>
-<param name="mdPadVia" value="6mil"/>
-<param name="mdViaVia" value="6mil"/>
-<param name="mdSmdPad" value="0mil"/>
-<param name="mdSmdVia" value="0mil"/>
-<param name="mdSmdSmd" value="0mil"/>
+<param name="mtCopper" value="0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm"/>
+<param name="mtIsolate" value="1.5mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm"/>
+<param name="mdWireWire" value="8mil"/>
+<param name="mdWirePad" value="8mil"/>
+<param name="mdWireVia" value="8mil"/>
+<param name="mdPadPad" value="8mil"/>
+<param name="mdPadVia" value="8mil"/>
+<param name="mdViaVia" value="8mil"/>
+<param name="mdSmdPad" value="8mil"/>
+<param name="mdSmdVia" value="8mil"/>
+<param name="mdSmdSmd" value="8mil"/>
 <param name="mdViaViaSameLayer" value="8mil"/>
 <param name="mnLayersViaInSmd" value="2"/>
-<param name="mdCopperDimension" value="10mil"/>
-<param name="mdDrill" value="10mil"/>
+<param name="mdCopperDimension" value="40mil"/>
+<param name="mdDrill" value="8mil"/>
 <param name="mdSmdStop" value="0mil"/>
-<param name="msWidth" value="6mil"/>
-<param name="msDrill" value="12mil"/>
-<param name="msMicroVia" value="12mil"/>
+<param name="msWidth" value="10mil"/>
+<param name="msDrill" value="24mil"/>
+<param name="msMicroVia" value="9.99mm"/>
 <param name="msBlindViaRatio" value="0.5"/>
 <param name="rvPadTop" value="0.25"/>
 <param name="rvPadInner" value="0.25"/>
@@ -239,9 +237,9 @@ design rules under a new name.</description>
 <param name="rlMaxPadInner" value="20mil"/>
 <param name="rlMinPadBottom" value="10mil"/>
 <param name="rlMaxPadBottom" value="20mil"/>
-<param name="rlMinViaOuter" value="6mil"/>
+<param name="rlMinViaOuter" value="8mil"/>
 <param name="rlMaxViaOuter" value="20mil"/>
-<param name="rlMinViaInner" value="6mil"/>
+<param name="rlMinViaInner" value="8mil"/>
 <param name="rlMaxViaInner" value="20mil"/>
 <param name="rlMinMicroViaOuter" value="4mil"/>
 <param name="rlMaxMicroViaOuter" value="20mil"/>
@@ -249,16 +247,16 @@ design rules under a new name.</description>
 <param name="rlMaxMicroViaInner" value="20mil"/>
 <param name="psTop" value="-1"/>
 <param name="psBottom" value="-1"/>
-<param name="psFirst" value="0"/>
+<param name="psFirst" value="-1"/>
 <param name="psElongationLong" value="100"/>
 <param name="psElongationOffset" value="100"/>
 <param name="mvStopFrame" value="1"/>
 <param name="mvCreamFrame" value="0"/>
-<param name="mlMinStopFrame" value="2mil"/>
-<param name="mlMaxStopFrame" value="2mil"/>
+<param name="mlMinStopFrame" value="4mil"/>
+<param name="mlMaxStopFrame" value="4mil"/>
 <param name="mlMinCreamFrame" value="0mil"/>
 <param name="mlMaxCreamFrame" value="0mil"/>
-<param name="mlViaStopLimit" value="100mil"/>
+<param name="mlViaStopLimit" value="0mil"/>
 <param name="srRoundness" value="0"/>
 <param name="srMinRoundness" value="0mil"/>
 <param name="srMaxRoundness" value="0mil"/>
@@ -269,7 +267,7 @@ design rules under a new name.</description>
 <param name="checkGrid" value="0"/>
 <param name="checkAngle" value="0"/>
 <param name="checkFont" value="1"/>
-<param name="checkRestrict" value="0"/>
+<param name="checkRestrict" value="1"/>
 <param name="useDiameter" value="13"/>
 <param name="maxErrors" value="50"/>
 </designrules>
@@ -1274,6 +1272,9 @@ design rules under a new name.</description>
 <contactref element="JP1006" pad="P$2"/>
 <wire x1="8.509" y1="28.702" x2="19.685" y2="29.21" width="0" layer="19" extent="1-16"/>
 </signal>
+<signal name="0_1439394245">
+<contactref element="JP601" pad="P$2"/>
+</signal>
 <signal name="0_1439394861">
 <contactref element="JP602" pad="P$2"/>
 <contactref element="JP363" pad="P$2"/>
@@ -1568,6 +1569,9 @@ design rules under a new name.</description>
 <contactref element="JP660" pad="P$2"/>
 <contactref element="JP415" pad="P$2"/>
 <wire x1="6.731" y1="38.862" x2="27.305" y2="57.15" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="0_1439393321">
+<contactref element="JP661" pad="P$2"/>
 </signal>
 <signal name="0_1439393751">
 <contactref element="JP662" pad="P$2"/>
@@ -2433,32 +2437,32 @@ design rules under a new name.</description>
 <signal name="54_1439394997">
 <contactref element="JP835" pad="P$2"/>
 <contactref element="JP476" pad="P$2"/>
-<wire x1="37.465" y1="41.91" x2="57.785" y2="28.702" width="0" layer="19" extent="1-1"/>
+<wire x1="57.785" y1="28.702" x2="37.465" y2="41.91" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="55_1439394997">
 <contactref element="JP836" pad="P$2"/>
 <contactref element="JP466" pad="P$2"/>
-<wire x1="37.465" y1="44.45" x2="57.785" y2="29.972" width="0" layer="19" extent="1-1"/>
+<wire x1="57.785" y1="29.972" x2="37.465" y2="44.45" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="56_1439394997">
 <contactref element="JP837" pad="P$2"/>
 <contactref element="JP456" pad="P$2"/>
-<wire x1="37.465" y1="46.99" x2="57.785" y2="31.242" width="0" layer="19" extent="1-1"/>
+<wire x1="57.785" y1="31.242" x2="37.465" y2="46.99" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="57_1439394997">
 <contactref element="JP838" pad="P$2"/>
 <contactref element="JP446" pad="P$2"/>
-<wire x1="37.465" y1="49.53" x2="57.785" y2="32.512" width="0" layer="19" extent="1-1"/>
+<wire x1="57.785" y1="32.512" x2="37.465" y2="49.53" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="58_1439394997">
 <contactref element="JP839" pad="P$2"/>
 <contactref element="JP436" pad="P$2"/>
-<wire x1="37.465" y1="52.07" x2="57.785" y2="33.782" width="0" layer="19" extent="1-1"/>
+<wire x1="57.785" y1="33.782" x2="37.465" y2="52.07" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="59_1439394997">
 <contactref element="JP840" pad="P$2"/>
 <contactref element="JP426" pad="P$2"/>
-<wire x1="37.465" y1="54.61" x2="57.785" y2="35.052" width="0" layer="19" extent="1-1"/>
+<wire x1="57.785" y1="35.052" x2="37.465" y2="54.61" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="0_1439394322">
 <contactref element="JP841" pad="P$2"/>
@@ -2761,9 +2765,9 @@ design rules under a new name.</description>
 <wire x1="48.133" y1="4.318" x2="37.465" y2="16.51" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="60_029414">
+<contactref element="JP901" pad="P$2"/>
 <contactref element="JP405" pad="P$2"/>
-<contactref element="JP601" pad="P$2"/>
-<wire x1="27.305" y1="59.69" x2="6.731" y2="85.852" width="0" layer="19" extent="1-1"/>
+<wire x1="27.305" y1="59.69" x2="6.731" y2="85.852" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$902">
 <contactref element="JP902" pad="P$2"/>
@@ -2943,9 +2947,9 @@ design rules under a new name.</description>
 <contactref element="JP960" pad="P$2"/>
 </signal>
 <signal name="60_19999">
+<contactref element="JP961" pad="P$2"/>
 <contactref element="JP302" pad="P$2"/>
-<contactref element="JP661" pad="P$2"/>
-<wire x1="8.509" y1="85.852" x2="19.685" y2="85.09" width="0" layer="19" extent="1-1"/>
+<wire x1="8.509" y1="85.852" x2="19.685" y2="85.09" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$962">
 <contactref element="JP962" pad="P$2"/>
@@ -3662,12 +3666,6 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$1200">
 <contactref element="JP1200" pad="P$2"/>
-</signal>
-<signal name="901">
-<contactref element="JP901" pad="P$2"/>
-</signal>
-<signal name="961">
-<contactref element="JP961" pad="P$2"/>
 </signal>
 </signals>
 </board>
