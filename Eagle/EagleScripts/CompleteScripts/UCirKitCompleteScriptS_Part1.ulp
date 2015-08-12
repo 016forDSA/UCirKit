@@ -1,0 +1,24 @@
+#include "UCirKitGlobalVarS.ulp"
+#include "UCirKitAddFemaleHeaderArray.ulp"
+
+//---- Execution
+output("UCirKitCompleteScriptS_Part1.txt"){
+   addFemaleHeaderArray(numOfRows,
+                        numOfCols,
+                        largeFemaleHeaderPartNum,
+                        largeFemaleHeaderPartStr,
+                        xSpacingForLargeFemaleHeader,
+                        ySpacingForLargeFemaleHeader);
+
+   addFemaleHeaderArray(numOfRows,
+                        numOfCols,
+                        smallFemaleHeaderPartNum,
+                        smallFemaleHeaderPartStr,
+                        xSpacingForSmallFemaleHeader,
+                        ySpacingForSmallFemaleHeader);
+
+   // addNetOnAllPins();
+   // printf(commands);
+}
+
+exit(commands);

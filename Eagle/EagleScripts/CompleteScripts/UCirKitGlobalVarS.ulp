@@ -1,0 +1,24 @@
+//---- Breadboard-like general information
+int numOfRows = 30;
+int numOfCols = 20;
+
+//---- Schematic information
+real xCursor = 0;
+real yCursor = 0;
+
+int largeFemaleHeaderPartNum = 1;
+string largeFemaleHeaderPartStr = "M01PTH";
+real xSpacingForLargeFemaleHeader = 1.0;
+real ySpacingForLargeFemaleHeader = 0.48;
+
+int smallFemaleHeaderPartNum = 1;
+string smallFemaleHeaderPartStr = "M01PTH_1.27MM";
+real xSpacingForSmallFemaleHeader = 1.0;
+real ySpacingForSmallFemaleHeader = 0.48;
+
+
+//---- Board information
+
+
+//---- Eagle Commands
+string commands = "";

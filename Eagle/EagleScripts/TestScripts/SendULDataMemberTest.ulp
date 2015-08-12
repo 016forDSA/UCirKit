@@ -1,0 +1,22 @@
+void catchArgumentFunction(UL_SIGNAL sig){
+   printf("catchArgumentFunction : %s \n", sig.name);
+}
+
+void scanThruContactRefs(){
+   project.board(B){
+      B.signals(S){
+         catchArgumentFunction(S);
+      }
+   }
+}
+
+output("SendULDataMemberTest.txt"){
+   scanThruContactRefs();
+   printf("MOVE %s"); 
+   sprintf(command, "MOVE %s (%f %f);", "JP1", real1, real2);
+   sprintf(command, "%s MOVE %s (%f %f", command )
+}
+
+string command;
+
+exit(command)
