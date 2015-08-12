@@ -52,7 +52,7 @@
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
@@ -156,6 +156,10 @@
 <wire x1="64.75" y1="0" x2="64.75" y2="100" width="0" layer="20"/>
 <wire x1="64.75" y1="100" x2="0" y2="100" width="0" layer="20"/>
 <wire x1="0" y1="100" x2="0" y2="0" width="0" layer="20"/>
+<hole x="12.065" y="89.535" drill="3"/>
+<hole x="48.895" y="89.535" drill="3"/>
+<hole x="12.065" y="9.525" drill="3"/>
+<hole x="48.895" y="9.525" drill="3"/>
 </plain>
 <libraries>
 <library name="SparkFun-Connectors">
@@ -973,606 +977,606 @@ design rules under a new name.</description>
 <element name="JP598" library="SparkFun-Connectors" package="1X01_SMD_2.18X1.0668MM_NO_SILK" value="" x="40.64" y="12.7"/>
 <element name="JP599" library="SparkFun-Connectors" package="1X01_SMD_2.18X1.0668MM_NO_SILK" value="" x="43.18" y="12.7"/>
 <element name="JP600" library="SparkFun-Connectors" package="1X01_SMD_2.18X1.0668MM_NO_SILK" value="" x="45.72" y="12.7"/>
-<element name="JP601" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="7.366" y="87.122"/>
-<element name="JP602" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="7.366" y="85.852"/>
-<element name="JP603" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="7.366" y="84.582"/>
-<element name="JP604" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="7.366" y="83.312"/>
-<element name="JP605" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="7.366" y="82.042"/>
-<element name="JP606" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="7.366" y="80.772"/>
-<element name="JP607" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="7.366" y="79.502"/>
-<element name="JP608" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="7.366" y="78.232"/>
-<element name="JP609" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="7.366" y="76.962"/>
-<element name="JP610" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="7.366" y="75.692"/>
-<element name="JP611" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="7.366" y="74.422"/>
-<element name="JP612" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="7.366" y="73.152"/>
-<element name="JP613" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="7.366" y="71.882"/>
-<element name="JP614" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="7.366" y="70.612"/>
-<element name="JP615" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="7.366" y="69.342"/>
-<element name="JP616" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="7.366" y="68.072"/>
-<element name="JP617" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="7.366" y="66.802"/>
-<element name="JP618" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="7.366" y="65.532"/>
-<element name="JP619" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="7.366" y="64.262"/>
-<element name="JP620" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="7.366" y="62.992"/>
-<element name="JP621" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="7.366" y="61.722"/>
-<element name="JP622" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="7.366" y="60.452"/>
-<element name="JP623" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="7.366" y="59.182"/>
-<element name="JP624" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="7.366" y="57.912"/>
-<element name="JP625" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="7.366" y="56.642"/>
-<element name="JP626" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="7.366" y="55.372"/>
-<element name="JP627" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="7.366" y="54.102"/>
-<element name="JP628" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="7.366" y="52.832"/>
-<element name="JP629" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="7.366" y="51.562"/>
-<element name="JP630" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="7.366" y="50.292"/>
-<element name="JP631" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="7.366" y="49.022"/>
-<element name="JP632" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="7.366" y="47.752"/>
-<element name="JP633" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="7.366" y="46.482"/>
-<element name="JP634" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="7.366" y="45.212"/>
-<element name="JP635" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="7.366" y="43.942"/>
-<element name="JP636" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="7.366" y="42.672"/>
-<element name="JP637" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="7.366" y="41.402"/>
-<element name="JP638" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="7.366" y="40.132"/>
-<element name="JP639" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="7.366" y="38.862"/>
-<element name="JP640" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="7.366" y="37.592"/>
-<element name="JP641" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="7.366" y="36.322"/>
-<element name="JP642" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="7.366" y="35.052"/>
-<element name="JP643" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="7.366" y="33.782"/>
-<element name="JP644" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="7.366" y="32.512"/>
-<element name="JP645" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="7.366" y="31.242"/>
-<element name="JP646" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="7.366" y="29.972"/>
-<element name="JP647" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="7.366" y="28.702"/>
-<element name="JP648" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="7.366" y="27.432"/>
-<element name="JP649" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="7.366" y="26.162"/>
-<element name="JP650" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="7.366" y="24.892"/>
-<element name="JP651" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="7.366" y="23.622"/>
-<element name="JP652" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="7.366" y="22.352"/>
-<element name="JP653" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="7.366" y="21.082"/>
-<element name="JP654" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="7.366" y="19.812"/>
-<element name="JP655" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="7.366" y="18.542"/>
-<element name="JP656" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="7.366" y="17.272"/>
-<element name="JP657" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="7.366" y="16.002"/>
-<element name="JP658" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="7.366" y="14.732"/>
-<element name="JP659" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="7.366" y="13.462"/>
-<element name="JP660" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="7.366" y="12.192"/>
-<element name="JP661" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="9.144" y="87.122"/>
-<element name="JP662" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="9.144" y="85.852"/>
-<element name="JP663" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="9.144" y="84.582"/>
-<element name="JP664" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="9.144" y="83.312"/>
-<element name="JP665" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="9.144" y="82.042"/>
-<element name="JP666" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="9.144" y="80.772"/>
-<element name="JP667" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="9.144" y="79.502"/>
-<element name="JP668" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="9.144" y="78.232"/>
-<element name="JP669" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="9.144" y="76.962"/>
-<element name="JP670" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="9.144" y="75.692"/>
-<element name="JP671" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="9.144" y="74.422"/>
-<element name="JP672" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="9.144" y="73.152"/>
-<element name="JP673" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="9.144" y="71.882"/>
-<element name="JP674" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="9.144" y="70.612"/>
-<element name="JP675" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="9.144" y="69.342"/>
-<element name="JP676" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="9.144" y="68.072"/>
-<element name="JP677" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="9.144" y="66.802"/>
-<element name="JP678" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="9.144" y="65.532"/>
-<element name="JP679" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="9.144" y="64.262"/>
-<element name="JP680" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="9.144" y="62.992"/>
-<element name="JP681" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="9.144" y="61.722"/>
-<element name="JP682" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="9.144" y="60.452"/>
-<element name="JP683" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="9.144" y="59.182"/>
-<element name="JP684" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="9.144" y="57.912"/>
-<element name="JP685" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="9.144" y="56.642"/>
-<element name="JP686" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="9.144" y="55.372"/>
-<element name="JP687" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="9.144" y="54.102"/>
-<element name="JP688" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="9.144" y="52.832"/>
-<element name="JP689" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="9.144" y="51.562"/>
-<element name="JP690" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="9.144" y="50.292"/>
-<element name="JP691" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="9.144" y="49.022"/>
-<element name="JP692" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="9.144" y="47.752"/>
-<element name="JP693" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="9.144" y="46.482"/>
-<element name="JP694" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="9.144" y="45.212"/>
-<element name="JP695" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="9.144" y="43.942"/>
-<element name="JP696" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="9.144" y="42.672"/>
-<element name="JP697" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="9.144" y="41.402"/>
-<element name="JP698" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="9.144" y="40.132"/>
-<element name="JP699" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="9.144" y="38.862"/>
-<element name="JP700" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="9.144" y="37.592"/>
-<element name="JP701" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="9.144" y="36.322"/>
-<element name="JP702" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="9.144" y="35.052"/>
-<element name="JP703" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="9.144" y="33.782"/>
-<element name="JP704" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="9.144" y="32.512"/>
-<element name="JP705" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="9.144" y="31.242"/>
-<element name="JP706" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="9.144" y="29.972"/>
-<element name="JP707" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="9.144" y="28.702"/>
-<element name="JP708" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="9.144" y="27.432"/>
-<element name="JP709" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="9.144" y="26.162"/>
-<element name="JP710" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="9.144" y="24.892"/>
-<element name="JP711" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="9.144" y="23.622"/>
-<element name="JP712" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="9.144" y="22.352"/>
-<element name="JP713" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="9.144" y="21.082"/>
-<element name="JP714" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="9.144" y="19.812"/>
-<element name="JP715" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="9.144" y="18.542"/>
-<element name="JP716" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="9.144" y="17.272"/>
-<element name="JP717" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="9.144" y="16.002"/>
-<element name="JP718" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="9.144" y="14.732"/>
-<element name="JP719" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="9.144" y="13.462"/>
-<element name="JP720" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="9.144" y="12.192"/>
-<element name="JP721" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="51.562" y="87.122"/>
-<element name="JP722" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="51.562" y="85.852"/>
-<element name="JP723" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="51.562" y="84.582"/>
-<element name="JP724" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="51.562" y="83.312"/>
-<element name="JP725" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="51.562" y="82.042"/>
-<element name="JP726" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="51.562" y="80.772"/>
-<element name="JP727" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="51.562" y="79.502"/>
-<element name="JP728" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="51.562" y="78.232"/>
-<element name="JP729" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="51.562" y="76.962"/>
-<element name="JP730" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="51.562" y="75.692"/>
-<element name="JP731" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="51.562" y="74.422"/>
-<element name="JP732" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="51.562" y="73.152"/>
-<element name="JP733" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="51.562" y="71.882"/>
-<element name="JP734" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="51.562" y="70.612"/>
-<element name="JP735" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="51.562" y="69.342"/>
-<element name="JP736" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="51.562" y="68.072"/>
-<element name="JP737" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="51.562" y="66.802"/>
-<element name="JP738" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="51.562" y="65.532"/>
-<element name="JP739" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="51.562" y="64.262"/>
-<element name="JP740" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="51.562" y="62.992"/>
-<element name="JP741" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="51.562" y="61.722"/>
-<element name="JP742" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="51.562" y="60.452"/>
-<element name="JP743" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="51.562" y="59.182"/>
-<element name="JP744" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="51.562" y="57.912"/>
-<element name="JP745" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="51.562" y="56.642"/>
-<element name="JP746" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="51.562" y="55.372"/>
-<element name="JP747" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="51.562" y="54.102"/>
-<element name="JP748" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="51.562" y="52.832"/>
-<element name="JP749" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="51.562" y="51.562"/>
-<element name="JP750" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="51.562" y="50.292"/>
-<element name="JP751" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="51.562" y="49.022"/>
-<element name="JP752" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="51.562" y="47.752"/>
-<element name="JP753" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="51.562" y="46.482"/>
-<element name="JP754" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="51.562" y="45.212"/>
-<element name="JP755" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="51.562" y="43.942"/>
-<element name="JP756" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="51.562" y="42.672"/>
-<element name="JP757" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="51.562" y="41.402"/>
-<element name="JP758" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="51.562" y="40.132"/>
-<element name="JP759" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="51.562" y="38.862"/>
-<element name="JP760" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="51.562" y="37.592"/>
-<element name="JP761" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="51.562" y="36.322"/>
-<element name="JP762" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="51.562" y="35.052"/>
-<element name="JP763" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="51.562" y="33.782"/>
-<element name="JP764" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="51.562" y="32.512"/>
-<element name="JP765" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="51.562" y="31.242"/>
-<element name="JP766" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="51.562" y="29.972"/>
-<element name="JP767" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="51.562" y="28.702"/>
-<element name="JP768" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="51.562" y="27.432"/>
-<element name="JP769" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="51.562" y="26.162"/>
-<element name="JP770" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="51.562" y="24.892"/>
-<element name="JP771" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="51.562" y="23.622"/>
-<element name="JP772" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="51.562" y="22.352"/>
-<element name="JP773" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="51.562" y="21.082"/>
-<element name="JP774" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="51.562" y="19.812"/>
-<element name="JP775" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="51.562" y="18.542"/>
-<element name="JP776" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="51.562" y="17.272"/>
-<element name="JP777" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="51.562" y="16.002"/>
-<element name="JP778" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="51.562" y="14.732"/>
-<element name="JP779" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="51.562" y="13.462"/>
-<element name="JP780" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="51.562" y="12.192"/>
-<element name="JP781" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="53.34" y="87.122"/>
-<element name="JP782" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="53.34" y="85.852"/>
-<element name="JP783" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="53.34" y="84.582"/>
-<element name="JP784" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="53.34" y="83.312"/>
-<element name="JP785" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="53.34" y="82.042"/>
-<element name="JP786" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="53.34" y="80.772"/>
-<element name="JP787" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="53.34" y="79.502"/>
-<element name="JP788" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="53.34" y="78.232"/>
-<element name="JP789" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="53.34" y="76.962"/>
-<element name="JP790" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="53.34" y="75.692"/>
-<element name="JP791" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="53.34" y="74.422"/>
-<element name="JP792" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="53.34" y="73.152"/>
-<element name="JP793" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="53.34" y="71.882"/>
-<element name="JP794" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="53.34" y="70.612"/>
-<element name="JP795" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="53.34" y="69.342"/>
-<element name="JP796" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="53.34" y="68.072"/>
-<element name="JP797" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="53.34" y="66.802"/>
-<element name="JP798" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="53.34" y="65.532"/>
-<element name="JP799" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="53.34" y="64.262"/>
-<element name="JP800" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="53.34" y="62.992"/>
-<element name="JP801" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="53.34" y="61.722"/>
-<element name="JP802" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="53.34" y="60.452"/>
-<element name="JP803" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="53.34" y="59.182"/>
-<element name="JP804" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="53.34" y="57.912"/>
-<element name="JP805" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="53.34" y="56.642"/>
-<element name="JP806" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="53.34" y="55.372"/>
-<element name="JP807" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="53.34" y="54.102"/>
-<element name="JP808" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="53.34" y="52.832"/>
-<element name="JP809" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="53.34" y="51.562"/>
-<element name="JP810" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="53.34" y="50.292"/>
-<element name="JP811" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="53.34" y="49.022"/>
-<element name="JP812" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="53.34" y="47.752"/>
-<element name="JP813" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="53.34" y="46.482"/>
-<element name="JP814" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="53.34" y="45.212"/>
-<element name="JP815" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="53.34" y="43.942"/>
-<element name="JP816" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="53.34" y="42.672"/>
-<element name="JP817" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="53.34" y="41.402"/>
-<element name="JP818" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="53.34" y="40.132"/>
-<element name="JP819" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="53.34" y="38.862"/>
-<element name="JP820" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="53.34" y="37.592"/>
-<element name="JP821" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="53.34" y="36.322"/>
-<element name="JP822" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="53.34" y="35.052"/>
-<element name="JP823" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="53.34" y="33.782"/>
-<element name="JP824" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="53.34" y="32.512"/>
-<element name="JP825" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="53.34" y="31.242"/>
-<element name="JP826" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="53.34" y="29.972"/>
-<element name="JP827" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="53.34" y="28.702"/>
-<element name="JP828" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="53.34" y="27.432"/>
-<element name="JP829" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="53.34" y="26.162"/>
-<element name="JP830" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="53.34" y="24.892"/>
-<element name="JP831" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="53.34" y="23.622"/>
-<element name="JP832" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="53.34" y="22.352"/>
-<element name="JP833" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="53.34" y="21.082"/>
-<element name="JP834" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="53.34" y="19.812"/>
-<element name="JP835" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="53.34" y="18.542"/>
-<element name="JP836" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="53.34" y="17.272"/>
-<element name="JP837" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="53.34" y="16.002"/>
-<element name="JP838" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="53.34" y="14.732"/>
-<element name="JP839" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="53.34" y="13.462"/>
-<element name="JP840" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="53.34" y="12.192"/>
-<element name="JP841" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="14.478" y="93.218" rot="R90"/>
-<element name="JP842" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="15.748" y="93.218" rot="R90"/>
-<element name="JP843" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="17.018" y="93.218" rot="R90"/>
-<element name="JP844" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="18.288" y="93.218" rot="R90"/>
-<element name="JP845" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="19.558" y="93.218" rot="R90"/>
-<element name="JP846" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="20.828" y="93.218" rot="R90"/>
-<element name="JP847" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="22.098" y="93.218" rot="R90"/>
-<element name="JP848" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="23.368" y="93.218" rot="R90"/>
-<element name="JP849" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="24.638" y="93.218" rot="R90"/>
-<element name="JP850" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="25.908" y="93.218" rot="R90"/>
-<element name="JP851" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="14.478" y="91.313" rot="R90"/>
-<element name="JP852" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="15.748" y="91.313" rot="R90"/>
-<element name="JP853" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="17.018" y="91.313" rot="R90"/>
-<element name="JP854" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="18.288" y="91.313" rot="R90"/>
-<element name="JP855" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="19.558" y="91.313" rot="R90"/>
-<element name="JP856" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="20.828" y="91.313" rot="R90"/>
-<element name="JP857" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="22.098" y="91.313" rot="R90"/>
-<element name="JP858" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="23.368" y="91.313" rot="R90"/>
-<element name="JP859" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="24.638" y="91.313" rot="R90"/>
-<element name="JP860" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="25.908" y="91.313" rot="R90"/>
-<element name="JP861" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="34.798" y="93.218" rot="R90"/>
-<element name="JP862" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="36.068" y="93.218" rot="R90"/>
-<element name="JP863" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="37.338" y="93.218" rot="R90"/>
-<element name="JP864" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="38.608" y="93.218" rot="R90"/>
-<element name="JP865" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="39.878" y="93.218" rot="R90"/>
-<element name="JP866" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="41.148" y="93.218" rot="R90"/>
-<element name="JP867" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="42.418" y="93.218" rot="R90"/>
-<element name="JP868" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="43.688" y="93.218" rot="R90"/>
-<element name="JP869" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="44.958" y="93.218" rot="R90"/>
-<element name="JP870" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="46.228" y="93.218" rot="R90"/>
-<element name="JP871" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="34.798" y="91.313" rot="R90"/>
-<element name="JP872" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="36.068" y="91.313" rot="R90"/>
-<element name="JP873" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="37.338" y="91.313" rot="R90"/>
-<element name="JP874" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="38.608" y="91.313" rot="R90"/>
-<element name="JP875" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="39.878" y="91.313" rot="R90"/>
-<element name="JP876" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="41.148" y="91.313" rot="R90"/>
-<element name="JP877" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="42.418" y="91.313" rot="R90"/>
-<element name="JP878" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="43.688" y="91.313" rot="R90"/>
-<element name="JP879" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="44.958" y="91.313" rot="R90"/>
-<element name="JP880" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="46.228" y="91.313" rot="R90"/>
-<element name="JP881" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="14.478" y="8.128" rot="R90"/>
-<element name="JP882" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="15.748" y="8.128" rot="R90"/>
-<element name="JP883" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="17.018" y="8.128" rot="R90"/>
-<element name="JP884" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="18.288" y="8.128" rot="R90"/>
-<element name="JP885" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="19.558" y="8.128" rot="R90"/>
-<element name="JP886" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="20.828" y="8.128" rot="R90"/>
-<element name="JP887" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="22.098" y="8.128" rot="R90"/>
-<element name="JP888" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="23.368" y="8.128" rot="R90"/>
-<element name="JP889" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="24.638" y="8.128" rot="R90"/>
-<element name="JP890" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="25.908" y="8.128" rot="R90"/>
-<element name="JP891" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="34.798" y="8.128" rot="R90"/>
-<element name="JP892" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="36.068" y="8.128" rot="R90"/>
-<element name="JP893" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="37.338" y="8.128" rot="R90"/>
-<element name="JP894" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="38.608" y="8.128" rot="R90"/>
-<element name="JP895" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="39.878" y="8.128" rot="R90"/>
-<element name="JP896" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="41.148" y="8.128" rot="R90"/>
-<element name="JP897" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="42.418" y="8.128" rot="R90"/>
-<element name="JP898" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="43.688" y="8.128" rot="R90"/>
-<element name="JP899" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="44.958" y="8.128" rot="R90"/>
-<element name="JP900" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="46.228" y="8.128" rot="R90"/>
-<element name="JP901" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="7.366" y="87.122" rot="MR0"/>
-<element name="JP902" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="7.366" y="85.852" rot="MR0"/>
-<element name="JP903" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="7.366" y="84.582" rot="MR0"/>
-<element name="JP904" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="7.366" y="83.312" rot="MR0"/>
-<element name="JP905" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="7.366" y="82.042" rot="MR0"/>
-<element name="JP906" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="7.366" y="80.772" rot="MR0"/>
-<element name="JP907" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="7.366" y="79.502" rot="MR0"/>
-<element name="JP908" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="7.366" y="78.232" rot="MR0"/>
-<element name="JP909" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="7.366" y="76.962" rot="MR0"/>
-<element name="JP910" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="7.366" y="75.692" rot="MR0"/>
-<element name="JP911" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="7.366" y="74.422" rot="MR0"/>
-<element name="JP912" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="7.366" y="73.152" rot="MR0"/>
-<element name="JP913" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="7.366" y="71.882" rot="MR0"/>
-<element name="JP914" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="7.366" y="70.612" rot="MR0"/>
-<element name="JP915" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="7.366" y="69.342" rot="MR0"/>
-<element name="JP916" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="7.366" y="68.072" rot="MR0"/>
-<element name="JP917" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="7.366" y="66.802" rot="MR0"/>
-<element name="JP918" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="7.366" y="65.532" rot="MR0"/>
-<element name="JP919" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="7.366" y="64.262" rot="MR0"/>
-<element name="JP920" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="7.366" y="62.992" rot="MR0"/>
-<element name="JP921" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="7.366" y="61.722" rot="MR0"/>
-<element name="JP922" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="7.366" y="60.452" rot="MR0"/>
-<element name="JP923" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="7.366" y="59.182" rot="MR0"/>
-<element name="JP924" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="7.366" y="57.912" rot="MR0"/>
-<element name="JP925" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="7.366" y="56.642" rot="MR0"/>
-<element name="JP926" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="7.366" y="55.372" rot="MR0"/>
-<element name="JP927" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="7.366" y="54.102" rot="MR0"/>
-<element name="JP928" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="7.366" y="52.832" rot="MR0"/>
-<element name="JP929" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="7.366" y="51.562" rot="MR0"/>
-<element name="JP930" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="7.366" y="50.292" rot="MR0"/>
-<element name="JP931" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="7.366" y="49.022" rot="MR0"/>
-<element name="JP932" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="7.366" y="47.752" rot="MR0"/>
-<element name="JP933" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="7.366" y="46.482" rot="MR0"/>
-<element name="JP934" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="7.366" y="45.212" rot="MR0"/>
-<element name="JP935" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="7.366" y="43.942" rot="MR0"/>
-<element name="JP936" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="7.366" y="42.672" rot="MR0"/>
-<element name="JP937" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="7.366" y="41.402" rot="MR0"/>
-<element name="JP938" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="7.366" y="40.132" rot="MR0"/>
-<element name="JP939" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="7.366" y="38.862" rot="MR0"/>
-<element name="JP940" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="7.366" y="37.592" rot="MR0"/>
-<element name="JP941" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="7.366" y="36.322" rot="MR0"/>
-<element name="JP942" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="7.366" y="35.052" rot="MR0"/>
-<element name="JP943" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="7.366" y="33.782" rot="MR0"/>
-<element name="JP944" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="7.366" y="32.512" rot="MR0"/>
-<element name="JP945" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="7.366" y="31.242" rot="MR0"/>
-<element name="JP946" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="7.366" y="29.972" rot="MR0"/>
-<element name="JP947" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="7.366" y="28.702" rot="MR0"/>
-<element name="JP948" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="7.366" y="27.432" rot="MR0"/>
-<element name="JP949" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="7.366" y="26.162" rot="MR0"/>
-<element name="JP950" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="7.366" y="24.892" rot="MR0"/>
-<element name="JP951" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="7.366" y="23.622" rot="MR0"/>
-<element name="JP952" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="7.366" y="22.352" rot="MR0"/>
-<element name="JP953" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="7.366" y="21.082" rot="MR0"/>
-<element name="JP954" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="7.366" y="19.812" rot="MR0"/>
-<element name="JP955" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="7.366" y="18.542" rot="MR0"/>
-<element name="JP956" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="7.366" y="17.272" rot="MR0"/>
-<element name="JP957" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="7.366" y="16.002" rot="MR0"/>
-<element name="JP958" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="7.366" y="14.732" rot="MR0"/>
-<element name="JP959" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="7.366" y="13.462" rot="MR0"/>
-<element name="JP960" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="7.366" y="12.192" rot="MR0"/>
-<element name="JP961" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="9.144" y="87.122" rot="MR0"/>
-<element name="JP962" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="9.144" y="85.852" rot="MR0"/>
-<element name="JP963" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="9.144" y="84.582" rot="MR0"/>
-<element name="JP964" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="9.144" y="83.312" rot="MR0"/>
-<element name="JP965" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="9.144" y="82.042" rot="MR0"/>
-<element name="JP966" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="9.144" y="80.772" rot="MR0"/>
-<element name="JP967" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="9.144" y="79.502" rot="MR0"/>
-<element name="JP968" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="9.144" y="78.232" rot="MR0"/>
-<element name="JP969" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="9.144" y="76.962" rot="MR0"/>
-<element name="JP970" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="9.144" y="75.692" rot="MR0"/>
-<element name="JP971" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="9.144" y="74.422" rot="MR0"/>
-<element name="JP972" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="9.144" y="73.152" rot="MR0"/>
-<element name="JP973" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="9.144" y="71.882" rot="MR0"/>
-<element name="JP974" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="9.144" y="70.612" rot="MR0"/>
-<element name="JP975" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="9.144" y="69.342" rot="MR0"/>
-<element name="JP976" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="9.144" y="68.072" rot="MR0"/>
-<element name="JP977" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="9.144" y="66.802" rot="MR0"/>
-<element name="JP978" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="9.144" y="65.532" rot="MR0"/>
-<element name="JP979" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="9.144" y="64.262" rot="MR0"/>
-<element name="JP980" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="9.144" y="62.992" rot="MR0"/>
-<element name="JP981" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="9.144" y="61.722" rot="MR0"/>
-<element name="JP982" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="9.144" y="60.452" rot="MR0"/>
-<element name="JP983" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="9.144" y="59.182" rot="MR0"/>
-<element name="JP984" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="9.144" y="57.912" rot="MR0"/>
-<element name="JP985" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="9.144" y="56.642" rot="MR0"/>
-<element name="JP986" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="9.144" y="55.372" rot="MR0"/>
-<element name="JP987" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="9.144" y="54.102" rot="MR0"/>
-<element name="JP988" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="9.144" y="52.832" rot="MR0"/>
-<element name="JP989" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="9.144" y="51.562" rot="MR0"/>
-<element name="JP990" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="9.144" y="50.292" rot="MR0"/>
-<element name="JP991" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="9.144" y="49.022" rot="MR0"/>
-<element name="JP992" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="9.144" y="47.752" rot="MR0"/>
-<element name="JP993" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="9.144" y="46.482" rot="MR0"/>
-<element name="JP994" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="9.144" y="45.212" rot="MR0"/>
-<element name="JP995" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="9.144" y="43.942" rot="MR0"/>
-<element name="JP996" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="9.144" y="42.672" rot="MR0"/>
-<element name="JP997" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="9.144" y="41.402" rot="MR0"/>
-<element name="JP998" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="9.144" y="40.132" rot="MR0"/>
-<element name="JP999" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="9.144" y="38.862" rot="MR0"/>
-<element name="JP1000" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="9.144" y="37.592" rot="MR0"/>
-<element name="JP1001" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="9.144" y="36.322" rot="MR0"/>
-<element name="JP1002" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="9.144" y="35.052" rot="MR0"/>
-<element name="JP1003" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="9.144" y="33.782" rot="MR0"/>
-<element name="JP1004" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="9.144" y="32.512" rot="MR0"/>
-<element name="JP1005" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="9.144" y="31.242" rot="MR0"/>
-<element name="JP1006" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="9.144" y="29.972" rot="MR0"/>
-<element name="JP1007" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="9.144" y="28.702" rot="MR0"/>
-<element name="JP1008" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="9.144" y="27.432" rot="MR0"/>
-<element name="JP1009" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="9.144" y="26.162" rot="MR0"/>
-<element name="JP1010" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="9.144" y="24.892" rot="MR0"/>
-<element name="JP1011" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="9.144" y="23.622" rot="MR0"/>
-<element name="JP1012" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="9.144" y="22.352" rot="MR0"/>
-<element name="JP1013" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="9.144" y="21.082" rot="MR0"/>
-<element name="JP1014" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="9.144" y="19.812" rot="MR0"/>
-<element name="JP1015" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="9.144" y="18.542" rot="MR0"/>
-<element name="JP1016" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="9.144" y="17.272" rot="MR0"/>
-<element name="JP1017" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="9.144" y="16.002" rot="MR0"/>
-<element name="JP1018" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="9.144" y="14.732" rot="MR0"/>
-<element name="JP1019" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="9.144" y="13.462" rot="MR0"/>
-<element name="JP1020" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="9.144" y="12.192" rot="MR0"/>
-<element name="JP1021" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="51.562" y="87.122" rot="MR0"/>
-<element name="JP1022" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="51.562" y="85.852" rot="MR0"/>
-<element name="JP1023" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="51.562" y="84.582" rot="MR0"/>
-<element name="JP1024" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="51.562" y="83.312" rot="MR0"/>
-<element name="JP1025" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="51.562" y="82.042" rot="MR0"/>
-<element name="JP1026" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="51.562" y="80.772" rot="MR0"/>
-<element name="JP1027" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="51.562" y="79.502" rot="MR0"/>
-<element name="JP1028" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="51.562" y="78.232" rot="MR0"/>
-<element name="JP1029" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="51.562" y="76.962" rot="MR0"/>
-<element name="JP1030" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="51.562" y="75.692" rot="MR0"/>
-<element name="JP1031" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="51.562" y="74.422" rot="MR0"/>
-<element name="JP1032" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="51.562" y="73.152" rot="MR0"/>
-<element name="JP1033" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="51.562" y="71.882" rot="MR0"/>
-<element name="JP1034" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="51.562" y="70.612" rot="MR0"/>
-<element name="JP1035" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="51.562" y="69.342" rot="MR0"/>
-<element name="JP1036" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="51.562" y="68.072" rot="MR0"/>
-<element name="JP1037" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="51.562" y="66.802" rot="MR0"/>
-<element name="JP1038" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="51.562" y="65.532" rot="MR0"/>
-<element name="JP1039" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="51.562" y="64.262" rot="MR0"/>
-<element name="JP1040" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="51.562" y="62.992" rot="MR0"/>
-<element name="JP1041" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="51.562" y="61.722" rot="MR0"/>
-<element name="JP1042" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="51.562" y="60.452" rot="MR0"/>
-<element name="JP1043" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="51.562" y="59.182" rot="MR0"/>
-<element name="JP1044" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="51.562" y="57.912" rot="MR0"/>
-<element name="JP1045" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="51.562" y="56.642" rot="MR0"/>
-<element name="JP1046" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="51.562" y="55.372" rot="MR0"/>
-<element name="JP1047" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="51.562" y="54.102" rot="MR0"/>
-<element name="JP1048" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="51.562" y="52.832" rot="MR0"/>
-<element name="JP1049" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="51.562" y="51.562" rot="MR0"/>
-<element name="JP1050" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="51.562" y="50.292" rot="MR0"/>
-<element name="JP1051" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="51.562" y="49.022" rot="MR0"/>
-<element name="JP1052" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="51.562" y="47.752" rot="MR0"/>
-<element name="JP1053" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="51.562" y="46.482" rot="MR0"/>
-<element name="JP1054" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="51.562" y="45.212" rot="MR0"/>
-<element name="JP1055" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="51.562" y="43.942" rot="MR0"/>
-<element name="JP1056" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="51.562" y="42.672" rot="MR0"/>
-<element name="JP1057" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="51.562" y="41.402" rot="MR0"/>
-<element name="JP1058" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="51.562" y="40.132" rot="MR0"/>
-<element name="JP1059" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="51.562" y="38.862" rot="MR0"/>
-<element name="JP1060" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="51.562" y="37.592" rot="MR0"/>
-<element name="JP1061" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="51.562" y="36.322" rot="MR0"/>
-<element name="JP1062" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="51.562" y="35.052" rot="MR0"/>
-<element name="JP1063" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="51.562" y="33.782" rot="MR0"/>
-<element name="JP1064" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="51.562" y="32.512" rot="MR0"/>
-<element name="JP1065" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="51.562" y="31.242" rot="MR0"/>
-<element name="JP1066" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="51.562" y="29.972" rot="MR0"/>
-<element name="JP1067" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="51.562" y="28.702" rot="MR0"/>
-<element name="JP1068" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="51.562" y="27.432" rot="MR0"/>
-<element name="JP1069" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="51.562" y="26.162" rot="MR0"/>
-<element name="JP1070" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="51.562" y="24.892" rot="MR0"/>
-<element name="JP1071" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="51.562" y="23.622" rot="MR0"/>
-<element name="JP1072" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="51.562" y="22.352" rot="MR0"/>
-<element name="JP1073" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="51.562" y="21.082" rot="MR0"/>
-<element name="JP1074" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="51.562" y="19.812" rot="MR0"/>
-<element name="JP1075" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="51.562" y="18.542" rot="MR0"/>
-<element name="JP1076" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="51.562" y="17.272" rot="MR0"/>
-<element name="JP1077" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="51.562" y="16.002" rot="MR0"/>
-<element name="JP1078" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="51.562" y="14.732" rot="MR0"/>
-<element name="JP1079" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="51.562" y="13.462" rot="MR0"/>
-<element name="JP1080" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="51.562" y="12.192" rot="MR0"/>
-<element name="JP1081" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="53.34" y="87.122" rot="MR0"/>
-<element name="JP1082" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="53.34" y="85.852" rot="MR0"/>
-<element name="JP1083" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="53.34" y="84.582" rot="MR0"/>
-<element name="JP1084" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="53.34" y="83.312" rot="MR0"/>
-<element name="JP1085" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="53.34" y="82.042" rot="MR0"/>
-<element name="JP1086" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="53.34" y="80.772" rot="MR0"/>
-<element name="JP1087" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="53.34" y="79.502" rot="MR0"/>
-<element name="JP1088" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="53.34" y="78.232" rot="MR0"/>
-<element name="JP1089" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="53.34" y="76.962" rot="MR0"/>
-<element name="JP1090" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="53.34" y="75.692" rot="MR0"/>
-<element name="JP1091" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="53.34" y="74.422" rot="MR0"/>
-<element name="JP1092" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="53.34" y="73.152" rot="MR0"/>
-<element name="JP1093" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="53.34" y="71.882" rot="MR0"/>
-<element name="JP1094" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="53.34" y="70.612" rot="MR0"/>
-<element name="JP1095" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="53.34" y="69.342" rot="MR0"/>
-<element name="JP1096" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="53.34" y="68.072" rot="MR0"/>
-<element name="JP1097" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="53.34" y="66.802" rot="MR0"/>
-<element name="JP1098" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="53.34" y="65.532" rot="MR0"/>
-<element name="JP1099" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="53.34" y="64.262" rot="MR0"/>
-<element name="JP1100" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="53.34" y="62.992" rot="MR0"/>
-<element name="JP1101" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="53.34" y="61.722" rot="MR0"/>
-<element name="JP1102" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="53.34" y="60.452" rot="MR0"/>
-<element name="JP1103" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="53.34" y="59.182" rot="MR0"/>
-<element name="JP1104" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="53.34" y="57.912" rot="MR0"/>
-<element name="JP1105" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="53.34" y="56.642" rot="MR0"/>
-<element name="JP1106" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="53.34" y="55.372" rot="MR0"/>
-<element name="JP1107" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="53.34" y="54.102" rot="MR0"/>
-<element name="JP1108" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="53.34" y="52.832" rot="MR0"/>
-<element name="JP1109" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="53.34" y="51.562" rot="MR0"/>
-<element name="JP1110" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="53.34" y="50.292" rot="MR0"/>
-<element name="JP1111" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="53.34" y="49.022" rot="MR0"/>
-<element name="JP1112" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="53.34" y="47.752" rot="MR0"/>
-<element name="JP1113" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="53.34" y="46.482" rot="MR0"/>
-<element name="JP1114" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="53.34" y="45.212" rot="MR0"/>
-<element name="JP1115" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="53.34" y="43.942" rot="MR0"/>
-<element name="JP1116" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="53.34" y="42.672" rot="MR0"/>
-<element name="JP1117" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="53.34" y="41.402" rot="MR0"/>
-<element name="JP1118" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="53.34" y="40.132" rot="MR0"/>
-<element name="JP1119" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="53.34" y="38.862" rot="MR0"/>
-<element name="JP1120" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="53.34" y="37.592" rot="MR0"/>
-<element name="JP1121" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="53.34" y="36.322" rot="MR0"/>
-<element name="JP1122" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="53.34" y="35.052" rot="MR0"/>
-<element name="JP1123" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="53.34" y="33.782" rot="MR0"/>
-<element name="JP1124" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="53.34" y="32.512" rot="MR0"/>
-<element name="JP1125" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="53.34" y="31.242" rot="MR0"/>
-<element name="JP1126" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="53.34" y="29.972" rot="MR0"/>
-<element name="JP1127" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="53.34" y="28.702" rot="MR0"/>
-<element name="JP1128" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="53.34" y="27.432" rot="MR0"/>
-<element name="JP1129" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="53.34" y="26.162" rot="MR0"/>
-<element name="JP1130" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="53.34" y="24.892" rot="MR0"/>
-<element name="JP1131" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="53.34" y="23.622" rot="MR0"/>
-<element name="JP1132" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="53.34" y="22.352" rot="MR0"/>
-<element name="JP1133" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="53.34" y="21.082" rot="MR0"/>
-<element name="JP1134" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="53.34" y="19.812" rot="MR0"/>
-<element name="JP1135" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="53.34" y="18.542" rot="MR0"/>
-<element name="JP1136" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="53.34" y="17.272" rot="MR0"/>
-<element name="JP1137" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="53.34" y="16.002" rot="MR0"/>
-<element name="JP1138" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="53.34" y="14.732" rot="MR0"/>
-<element name="JP1139" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="53.34" y="13.462" rot="MR0"/>
-<element name="JP1140" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="53.34" y="12.192" rot="MR0"/>
-<element name="JP1141" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="14.478" y="93.218" rot="MR270"/>
-<element name="JP1142" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="15.748" y="93.218" rot="MR270"/>
-<element name="JP1143" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="17.018" y="93.218" rot="MR270"/>
-<element name="JP1144" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="18.288" y="93.218" rot="MR270"/>
-<element name="JP1145" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="19.558" y="93.218" rot="MR270"/>
-<element name="JP1146" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="20.828" y="93.218" rot="MR270"/>
-<element name="JP1147" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="22.098" y="93.218" rot="MR270"/>
-<element name="JP1148" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="23.368" y="93.218" rot="MR270"/>
-<element name="JP1149" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="24.638" y="93.218" rot="MR270"/>
-<element name="JP1150" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="25.908" y="93.218" rot="MR270"/>
-<element name="JP1151" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="14.478" y="91.313" rot="MR270"/>
-<element name="JP1152" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="15.748" y="91.313" rot="MR270"/>
-<element name="JP1153" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="17.018" y="91.313" rot="MR270"/>
-<element name="JP1154" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="18.288" y="91.313" rot="MR270"/>
-<element name="JP1155" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="19.558" y="91.313" rot="MR270"/>
-<element name="JP1156" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="20.828" y="91.313" rot="MR270"/>
-<element name="JP1157" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="22.098" y="91.313" rot="MR270"/>
-<element name="JP1158" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="23.368" y="91.313" rot="MR270"/>
-<element name="JP1159" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="24.638" y="91.313" rot="MR270"/>
-<element name="JP1160" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="25.908" y="91.313" rot="MR270"/>
-<element name="JP1161" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="34.798" y="93.218" rot="MR270"/>
-<element name="JP1162" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="36.068" y="93.218" rot="MR270"/>
-<element name="JP1163" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="37.338" y="93.218" rot="MR270"/>
-<element name="JP1164" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="38.608" y="93.218" rot="MR270"/>
-<element name="JP1165" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="39.878" y="93.218" rot="MR270"/>
-<element name="JP1166" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="41.148" y="93.218" rot="MR270"/>
-<element name="JP1167" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="42.418" y="93.218" rot="MR270"/>
-<element name="JP1168" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="43.688" y="93.218" rot="MR270"/>
-<element name="JP1169" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="44.958" y="93.218" rot="MR270"/>
-<element name="JP1170" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="46.228" y="93.218" rot="MR270"/>
-<element name="JP1171" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="34.798" y="91.313" rot="MR270"/>
-<element name="JP1172" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="36.068" y="91.313" rot="MR270"/>
-<element name="JP1173" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="37.338" y="91.313" rot="MR270"/>
-<element name="JP1174" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="38.608" y="91.313" rot="MR270"/>
-<element name="JP1175" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="39.878" y="91.313" rot="MR270"/>
-<element name="JP1176" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="41.148" y="91.313" rot="MR270"/>
-<element name="JP1177" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="42.418" y="91.313" rot="MR270"/>
-<element name="JP1178" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="43.688" y="91.313" rot="MR270"/>
-<element name="JP1179" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="44.958" y="91.313" rot="MR270"/>
-<element name="JP1180" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="46.228" y="91.313" rot="MR270"/>
-<element name="JP1181" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="14.478" y="8.128" rot="MR270"/>
-<element name="JP1182" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="15.748" y="8.128" rot="MR270"/>
-<element name="JP1183" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="17.018" y="8.128" rot="MR270"/>
-<element name="JP1184" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="18.288" y="8.128" rot="MR270"/>
-<element name="JP1185" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="19.558" y="8.128" rot="MR270"/>
-<element name="JP1186" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="20.828" y="8.128" rot="MR270"/>
-<element name="JP1187" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="22.098" y="8.128" rot="MR270"/>
-<element name="JP1188" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="23.368" y="8.128" rot="MR270"/>
-<element name="JP1189" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="24.638" y="8.128" rot="MR270"/>
-<element name="JP1190" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="25.908" y="8.128" rot="MR270"/>
-<element name="JP1191" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="34.798" y="8.128" rot="MR270"/>
-<element name="JP1192" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="36.068" y="8.128" rot="MR270"/>
-<element name="JP1193" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="37.338" y="8.128" rot="MR270"/>
-<element name="JP1194" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="38.608" y="8.128" rot="MR270"/>
-<element name="JP1195" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="39.878" y="8.128" rot="MR270"/>
-<element name="JP1196" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="41.148" y="8.128" rot="MR270"/>
-<element name="JP1197" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="42.418" y="8.128" rot="MR270"/>
-<element name="JP1198" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="43.688" y="8.128" rot="MR270"/>
-<element name="JP1199" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="44.958" y="8.128" rot="MR270"/>
-<element name="JP1200" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="46.228" y="8.128" rot="MR270"/>
+<element name="JP601" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="4.826" y="87.122"/>
+<element name="JP602" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="4.826" y="85.852"/>
+<element name="JP603" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="4.826" y="84.582"/>
+<element name="JP604" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="4.826" y="83.312"/>
+<element name="JP605" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="4.826" y="82.042"/>
+<element name="JP606" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="4.826" y="80.772"/>
+<element name="JP607" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="4.826" y="79.502"/>
+<element name="JP608" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="4.826" y="78.232"/>
+<element name="JP609" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="4.826" y="76.962"/>
+<element name="JP610" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="4.826" y="75.692"/>
+<element name="JP611" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="4.826" y="74.422"/>
+<element name="JP612" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="4.826" y="73.152"/>
+<element name="JP613" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="4.826" y="71.882"/>
+<element name="JP614" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="4.826" y="70.612"/>
+<element name="JP615" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="4.826" y="69.342"/>
+<element name="JP616" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="4.826" y="68.072"/>
+<element name="JP617" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="4.826" y="66.802"/>
+<element name="JP618" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="4.826" y="65.532"/>
+<element name="JP619" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="4.826" y="64.262"/>
+<element name="JP620" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="4.826" y="62.992"/>
+<element name="JP621" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="4.826" y="61.722"/>
+<element name="JP622" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="4.826" y="60.452"/>
+<element name="JP623" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="4.826" y="59.182"/>
+<element name="JP624" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="4.826" y="57.912"/>
+<element name="JP625" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="4.826" y="56.642"/>
+<element name="JP626" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="4.826" y="55.372"/>
+<element name="JP627" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="4.826" y="54.102"/>
+<element name="JP628" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="4.826" y="52.832"/>
+<element name="JP629" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="4.826" y="51.562"/>
+<element name="JP630" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="4.826" y="50.292"/>
+<element name="JP631" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="4.826" y="49.022"/>
+<element name="JP632" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="4.826" y="47.752"/>
+<element name="JP633" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="4.826" y="46.482"/>
+<element name="JP634" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="4.826" y="45.212"/>
+<element name="JP635" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="4.826" y="43.942"/>
+<element name="JP636" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="4.826" y="42.672"/>
+<element name="JP637" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="4.826" y="41.402"/>
+<element name="JP638" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="4.826" y="40.132"/>
+<element name="JP639" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="4.826" y="38.862"/>
+<element name="JP640" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="4.826" y="37.592"/>
+<element name="JP641" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="4.826" y="36.322"/>
+<element name="JP642" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="4.826" y="35.052"/>
+<element name="JP643" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="4.826" y="33.782"/>
+<element name="JP644" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="4.826" y="32.512"/>
+<element name="JP645" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="4.826" y="31.242"/>
+<element name="JP646" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="4.826" y="29.972"/>
+<element name="JP647" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="4.826" y="28.702"/>
+<element name="JP648" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="4.826" y="27.432"/>
+<element name="JP649" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="4.826" y="26.162"/>
+<element name="JP650" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="4.826" y="24.892"/>
+<element name="JP651" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="4.826" y="23.622"/>
+<element name="JP652" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="4.826" y="22.352"/>
+<element name="JP653" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="4.826" y="21.082"/>
+<element name="JP654" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="4.826" y="19.812"/>
+<element name="JP655" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="4.826" y="18.542"/>
+<element name="JP656" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="4.826" y="17.272"/>
+<element name="JP657" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="4.826" y="16.002"/>
+<element name="JP658" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="4.826" y="14.732"/>
+<element name="JP659" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="4.826" y="13.462"/>
+<element name="JP660" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="4.826" y="12.192"/>
+<element name="JP661" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.604" y="87.122"/>
+<element name="JP662" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.604" y="85.852"/>
+<element name="JP663" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.604" y="84.582"/>
+<element name="JP664" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.604" y="83.312"/>
+<element name="JP665" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.604" y="82.042"/>
+<element name="JP666" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.604" y="80.772"/>
+<element name="JP667" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.604" y="79.502"/>
+<element name="JP668" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.604" y="78.232"/>
+<element name="JP669" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.604" y="76.962"/>
+<element name="JP670" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.604" y="75.692"/>
+<element name="JP671" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.604" y="74.422"/>
+<element name="JP672" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.604" y="73.152"/>
+<element name="JP673" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.604" y="71.882"/>
+<element name="JP674" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.604" y="70.612"/>
+<element name="JP675" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.604" y="69.342"/>
+<element name="JP676" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.604" y="68.072"/>
+<element name="JP677" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.604" y="66.802"/>
+<element name="JP678" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.604" y="65.532"/>
+<element name="JP679" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.604" y="64.262"/>
+<element name="JP680" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.604" y="62.992"/>
+<element name="JP681" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.604" y="61.722"/>
+<element name="JP682" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.604" y="60.452"/>
+<element name="JP683" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.604" y="59.182"/>
+<element name="JP684" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.604" y="57.912"/>
+<element name="JP685" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.604" y="56.642"/>
+<element name="JP686" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.604" y="55.372"/>
+<element name="JP687" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.604" y="54.102"/>
+<element name="JP688" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.604" y="52.832"/>
+<element name="JP689" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.604" y="51.562"/>
+<element name="JP690" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.604" y="50.292"/>
+<element name="JP691" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.604" y="49.022"/>
+<element name="JP692" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.604" y="47.752"/>
+<element name="JP693" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.604" y="46.482"/>
+<element name="JP694" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.604" y="45.212"/>
+<element name="JP695" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.604" y="43.942"/>
+<element name="JP696" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.604" y="42.672"/>
+<element name="JP697" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.604" y="41.402"/>
+<element name="JP698" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.604" y="40.132"/>
+<element name="JP699" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.604" y="38.862"/>
+<element name="JP700" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.604" y="37.592"/>
+<element name="JP701" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.604" y="36.322"/>
+<element name="JP702" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.604" y="35.052"/>
+<element name="JP703" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.604" y="33.782"/>
+<element name="JP704" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.604" y="32.512"/>
+<element name="JP705" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.604" y="31.242"/>
+<element name="JP706" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.604" y="29.972"/>
+<element name="JP707" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.604" y="28.702"/>
+<element name="JP708" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.604" y="27.432"/>
+<element name="JP709" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.604" y="26.162"/>
+<element name="JP710" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.604" y="24.892"/>
+<element name="JP711" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.604" y="23.622"/>
+<element name="JP712" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.604" y="22.352"/>
+<element name="JP713" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.604" y="21.082"/>
+<element name="JP714" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.604" y="19.812"/>
+<element name="JP715" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.604" y="18.542"/>
+<element name="JP716" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.604" y="17.272"/>
+<element name="JP717" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.604" y="16.002"/>
+<element name="JP718" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.604" y="14.732"/>
+<element name="JP719" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.604" y="13.462"/>
+<element name="JP720" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.604" y="12.192"/>
+<element name="JP721" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="54.102" y="87.122"/>
+<element name="JP722" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="54.102" y="85.852"/>
+<element name="JP723" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="54.102" y="84.582"/>
+<element name="JP724" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="54.102" y="83.312"/>
+<element name="JP725" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="54.102" y="82.042"/>
+<element name="JP726" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="54.102" y="80.772"/>
+<element name="JP727" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="54.102" y="79.502"/>
+<element name="JP728" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="54.102" y="78.232"/>
+<element name="JP729" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="54.102" y="76.962"/>
+<element name="JP730" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="54.102" y="75.692"/>
+<element name="JP731" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="54.102" y="74.422"/>
+<element name="JP732" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="54.102" y="73.152"/>
+<element name="JP733" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="54.102" y="71.882"/>
+<element name="JP734" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="54.102" y="70.612"/>
+<element name="JP735" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="54.102" y="69.342"/>
+<element name="JP736" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="54.102" y="68.072"/>
+<element name="JP737" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="54.102" y="66.802"/>
+<element name="JP738" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="54.102" y="65.532"/>
+<element name="JP739" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="54.102" y="64.262"/>
+<element name="JP740" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="54.102" y="62.992"/>
+<element name="JP741" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="54.102" y="61.722"/>
+<element name="JP742" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="54.102" y="60.452"/>
+<element name="JP743" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="54.102" y="59.182"/>
+<element name="JP744" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="54.102" y="57.912"/>
+<element name="JP745" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="54.102" y="56.642"/>
+<element name="JP746" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="54.102" y="55.372"/>
+<element name="JP747" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="54.102" y="54.102"/>
+<element name="JP748" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="54.102" y="52.832"/>
+<element name="JP749" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="54.102" y="51.562"/>
+<element name="JP750" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="54.102" y="50.292"/>
+<element name="JP751" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="54.102" y="49.022"/>
+<element name="JP752" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="54.102" y="47.752"/>
+<element name="JP753" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="54.102" y="46.482"/>
+<element name="JP754" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="54.102" y="45.212"/>
+<element name="JP755" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="54.102" y="43.942"/>
+<element name="JP756" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="54.102" y="42.672"/>
+<element name="JP757" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="54.102" y="41.402"/>
+<element name="JP758" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="54.102" y="40.132"/>
+<element name="JP759" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="54.102" y="38.862"/>
+<element name="JP760" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="54.102" y="37.592"/>
+<element name="JP761" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="54.102" y="36.322"/>
+<element name="JP762" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="54.102" y="35.052"/>
+<element name="JP763" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="54.102" y="33.782"/>
+<element name="JP764" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="54.102" y="32.512"/>
+<element name="JP765" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="54.102" y="31.242"/>
+<element name="JP766" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="54.102" y="29.972"/>
+<element name="JP767" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="54.102" y="28.702"/>
+<element name="JP768" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="54.102" y="27.432"/>
+<element name="JP769" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="54.102" y="26.162"/>
+<element name="JP770" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="54.102" y="24.892"/>
+<element name="JP771" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="54.102" y="23.622"/>
+<element name="JP772" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="54.102" y="22.352"/>
+<element name="JP773" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="54.102" y="21.082"/>
+<element name="JP774" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="54.102" y="19.812"/>
+<element name="JP775" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="54.102" y="18.542"/>
+<element name="JP776" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="54.102" y="17.272"/>
+<element name="JP777" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="54.102" y="16.002"/>
+<element name="JP778" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="54.102" y="14.732"/>
+<element name="JP779" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="54.102" y="13.462"/>
+<element name="JP780" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="54.102" y="12.192"/>
+<element name="JP781" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="55.88" y="87.122"/>
+<element name="JP782" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="55.88" y="85.852"/>
+<element name="JP783" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="55.88" y="84.582"/>
+<element name="JP784" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="55.88" y="83.312"/>
+<element name="JP785" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="55.88" y="82.042"/>
+<element name="JP786" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="55.88" y="80.772"/>
+<element name="JP787" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="55.88" y="79.502"/>
+<element name="JP788" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="55.88" y="78.232"/>
+<element name="JP789" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="55.88" y="76.962"/>
+<element name="JP790" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="55.88" y="75.692"/>
+<element name="JP791" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="55.88" y="74.422"/>
+<element name="JP792" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="55.88" y="73.152"/>
+<element name="JP793" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="55.88" y="71.882"/>
+<element name="JP794" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="55.88" y="70.612"/>
+<element name="JP795" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="55.88" y="69.342"/>
+<element name="JP796" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="55.88" y="68.072"/>
+<element name="JP797" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="55.88" y="66.802"/>
+<element name="JP798" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="55.88" y="65.532"/>
+<element name="JP799" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="55.88" y="64.262"/>
+<element name="JP800" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="55.88" y="62.992"/>
+<element name="JP801" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="55.88" y="61.722"/>
+<element name="JP802" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="55.88" y="60.452"/>
+<element name="JP803" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="55.88" y="59.182"/>
+<element name="JP804" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="55.88" y="57.912"/>
+<element name="JP805" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="55.88" y="56.642"/>
+<element name="JP806" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="55.88" y="55.372"/>
+<element name="JP807" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="55.88" y="54.102"/>
+<element name="JP808" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="55.88" y="52.832"/>
+<element name="JP809" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="55.88" y="51.562"/>
+<element name="JP810" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="55.88" y="50.292"/>
+<element name="JP811" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="55.88" y="49.022"/>
+<element name="JP812" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="55.88" y="47.752"/>
+<element name="JP813" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="55.88" y="46.482"/>
+<element name="JP814" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="55.88" y="45.212"/>
+<element name="JP815" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="55.88" y="43.942"/>
+<element name="JP816" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="55.88" y="42.672"/>
+<element name="JP817" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="55.88" y="41.402"/>
+<element name="JP818" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="55.88" y="40.132"/>
+<element name="JP819" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="55.88" y="38.862"/>
+<element name="JP820" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="55.88" y="37.592"/>
+<element name="JP821" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="55.88" y="36.322"/>
+<element name="JP822" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="55.88" y="35.052"/>
+<element name="JP823" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="55.88" y="33.782"/>
+<element name="JP824" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="55.88" y="32.512"/>
+<element name="JP825" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="55.88" y="31.242"/>
+<element name="JP826" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="55.88" y="29.972"/>
+<element name="JP827" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="55.88" y="28.702"/>
+<element name="JP828" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="55.88" y="27.432"/>
+<element name="JP829" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="55.88" y="26.162"/>
+<element name="JP830" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="55.88" y="24.892"/>
+<element name="JP831" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="55.88" y="23.622"/>
+<element name="JP832" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="55.88" y="22.352"/>
+<element name="JP833" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="55.88" y="21.082"/>
+<element name="JP834" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="55.88" y="19.812"/>
+<element name="JP835" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="55.88" y="18.542"/>
+<element name="JP836" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="55.88" y="17.272"/>
+<element name="JP837" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="55.88" y="16.002"/>
+<element name="JP838" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="55.88" y="14.732"/>
+<element name="JP839" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="55.88" y="13.462"/>
+<element name="JP840" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="55.88" y="12.192"/>
+<element name="JP841" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="14.478" y="95.758" rot="R90"/>
+<element name="JP842" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="15.748" y="95.758" rot="R90"/>
+<element name="JP843" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="17.018" y="95.758" rot="R90"/>
+<element name="JP844" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="18.288" y="95.758" rot="R90"/>
+<element name="JP845" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="19.558" y="95.758" rot="R90"/>
+<element name="JP846" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="20.828" y="95.758" rot="R90"/>
+<element name="JP847" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="22.098" y="95.758" rot="R90"/>
+<element name="JP848" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="23.368" y="95.758" rot="R90"/>
+<element name="JP849" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="24.638" y="95.758" rot="R90"/>
+<element name="JP850" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="25.908" y="95.758" rot="R90"/>
+<element name="JP851" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="14.478" y="93.853" rot="R90"/>
+<element name="JP852" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="15.748" y="93.853" rot="R90"/>
+<element name="JP853" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="17.018" y="93.853" rot="R90"/>
+<element name="JP854" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="18.288" y="93.853" rot="R90"/>
+<element name="JP855" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="19.558" y="93.853" rot="R90"/>
+<element name="JP856" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="20.828" y="93.853" rot="R90"/>
+<element name="JP857" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="22.098" y="93.853" rot="R90"/>
+<element name="JP858" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="23.368" y="93.853" rot="R90"/>
+<element name="JP859" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="24.638" y="93.853" rot="R90"/>
+<element name="JP860" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="25.908" y="93.853" rot="R90"/>
+<element name="JP861" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="34.798" y="95.758" rot="R90"/>
+<element name="JP862" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="36.068" y="95.758" rot="R90"/>
+<element name="JP863" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="37.338" y="95.758" rot="R90"/>
+<element name="JP864" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="38.608" y="95.758" rot="R90"/>
+<element name="JP865" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="39.878" y="95.758" rot="R90"/>
+<element name="JP866" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="41.148" y="95.758" rot="R90"/>
+<element name="JP867" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="42.418" y="95.758" rot="R90"/>
+<element name="JP868" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="43.688" y="95.758" rot="R90"/>
+<element name="JP869" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="44.958" y="95.758" rot="R90"/>
+<element name="JP870" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="46.228" y="95.758" rot="R90"/>
+<element name="JP871" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="34.798" y="93.853" rot="R90"/>
+<element name="JP872" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="36.068" y="93.853" rot="R90"/>
+<element name="JP873" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="37.338" y="93.853" rot="R90"/>
+<element name="JP874" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="38.608" y="93.853" rot="R90"/>
+<element name="JP875" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="39.878" y="93.853" rot="R90"/>
+<element name="JP876" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="41.148" y="93.853" rot="R90"/>
+<element name="JP877" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="42.418" y="93.853" rot="R90"/>
+<element name="JP878" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="43.688" y="93.853" rot="R90"/>
+<element name="JP879" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="44.958" y="93.853" rot="R90"/>
+<element name="JP880" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="46.228" y="93.853" rot="R90"/>
+<element name="JP881" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="14.478" y="5.588" rot="R90"/>
+<element name="JP882" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="15.748" y="5.588" rot="R90"/>
+<element name="JP883" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="17.018" y="5.588" rot="R90"/>
+<element name="JP884" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="18.288" y="5.588" rot="R90"/>
+<element name="JP885" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="19.558" y="5.588" rot="R90"/>
+<element name="JP886" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="20.828" y="5.588" rot="R90"/>
+<element name="JP887" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="22.098" y="5.588" rot="R90"/>
+<element name="JP888" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="23.368" y="5.588" rot="R90"/>
+<element name="JP889" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="24.638" y="5.588" rot="R90"/>
+<element name="JP890" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="25.908" y="5.588" rot="R90"/>
+<element name="JP891" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="34.798" y="5.588" rot="R90"/>
+<element name="JP892" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="36.068" y="5.588" rot="R90"/>
+<element name="JP893" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="37.338" y="5.588" rot="R90"/>
+<element name="JP894" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="38.608" y="5.588" rot="R90"/>
+<element name="JP895" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="39.878" y="5.588" rot="R90"/>
+<element name="JP896" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="41.148" y="5.588" rot="R90"/>
+<element name="JP897" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="42.418" y="5.588" rot="R90"/>
+<element name="JP898" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="43.688" y="5.588" rot="R90"/>
+<element name="JP899" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="44.958" y="5.588" rot="R90"/>
+<element name="JP900" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="46.228" y="5.588" rot="R90"/>
+<element name="JP901" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="4.826" y="87.122" rot="MR0"/>
+<element name="JP902" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="4.826" y="85.852" rot="MR0"/>
+<element name="JP903" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="4.826" y="84.582" rot="MR0"/>
+<element name="JP904" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="4.826" y="83.312" rot="MR0"/>
+<element name="JP905" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="4.826" y="82.042" rot="MR0"/>
+<element name="JP906" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="4.826" y="80.772" rot="MR0"/>
+<element name="JP907" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="4.826" y="79.502" rot="MR0"/>
+<element name="JP908" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="4.826" y="78.232" rot="MR0"/>
+<element name="JP909" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="4.826" y="76.962" rot="MR0"/>
+<element name="JP910" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="4.826" y="75.692" rot="MR0"/>
+<element name="JP911" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="4.826" y="74.422" rot="MR0"/>
+<element name="JP912" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="4.826" y="73.152" rot="MR0"/>
+<element name="JP913" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="4.826" y="71.882" rot="MR0"/>
+<element name="JP914" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="4.826" y="70.612" rot="MR0"/>
+<element name="JP915" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="4.826" y="69.342" rot="MR0"/>
+<element name="JP916" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="4.826" y="68.072" rot="MR0"/>
+<element name="JP917" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="4.826" y="66.802" rot="MR0"/>
+<element name="JP918" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="4.826" y="65.532" rot="MR0"/>
+<element name="JP919" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="4.826" y="64.262" rot="MR0"/>
+<element name="JP920" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="4.826" y="62.992" rot="MR0"/>
+<element name="JP921" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="4.826" y="61.722" rot="MR0"/>
+<element name="JP922" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="4.826" y="60.452" rot="MR0"/>
+<element name="JP923" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="4.826" y="59.182" rot="MR0"/>
+<element name="JP924" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="4.826" y="57.912" rot="MR0"/>
+<element name="JP925" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="4.826" y="56.642" rot="MR0"/>
+<element name="JP926" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="4.826" y="55.372" rot="MR0"/>
+<element name="JP927" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="4.826" y="54.102" rot="MR0"/>
+<element name="JP928" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="4.826" y="52.832" rot="MR0"/>
+<element name="JP929" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="4.826" y="51.562" rot="MR0"/>
+<element name="JP930" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="4.826" y="50.292" rot="MR0"/>
+<element name="JP931" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="4.826" y="49.022" rot="MR0"/>
+<element name="JP932" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="4.826" y="47.752" rot="MR0"/>
+<element name="JP933" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="4.826" y="46.482" rot="MR0"/>
+<element name="JP934" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="4.826" y="45.212" rot="MR0"/>
+<element name="JP935" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="4.826" y="43.942" rot="MR0"/>
+<element name="JP936" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="4.826" y="42.672" rot="MR0"/>
+<element name="JP937" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="4.826" y="41.402" rot="MR0"/>
+<element name="JP938" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="4.826" y="40.132" rot="MR0"/>
+<element name="JP939" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="4.826" y="38.862" rot="MR0"/>
+<element name="JP940" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="4.826" y="37.592" rot="MR0"/>
+<element name="JP941" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="4.826" y="36.322" rot="MR0"/>
+<element name="JP942" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="4.826" y="35.052" rot="MR0"/>
+<element name="JP943" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="4.826" y="33.782" rot="MR0"/>
+<element name="JP944" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="4.826" y="32.512" rot="MR0"/>
+<element name="JP945" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="4.826" y="31.242" rot="MR0"/>
+<element name="JP946" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="4.826" y="29.972" rot="MR0"/>
+<element name="JP947" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="4.826" y="28.702" rot="MR0"/>
+<element name="JP948" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="4.826" y="27.432" rot="MR0"/>
+<element name="JP949" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="4.826" y="26.162" rot="MR0"/>
+<element name="JP950" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="4.826" y="24.892" rot="MR0"/>
+<element name="JP951" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="4.826" y="23.622" rot="MR0"/>
+<element name="JP952" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="4.826" y="22.352" rot="MR0"/>
+<element name="JP953" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="4.826" y="21.082" rot="MR0"/>
+<element name="JP954" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="4.826" y="19.812" rot="MR0"/>
+<element name="JP955" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="4.826" y="18.542" rot="MR0"/>
+<element name="JP956" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="4.826" y="17.272" rot="MR0"/>
+<element name="JP957" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="4.826" y="16.002" rot="MR0"/>
+<element name="JP958" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="4.826" y="14.732" rot="MR0"/>
+<element name="JP959" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="4.826" y="13.462" rot="MR0"/>
+<element name="JP960" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="4.826" y="12.192" rot="MR0"/>
+<element name="JP961" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.604" y="87.122" rot="MR0"/>
+<element name="JP962" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.604" y="85.852" rot="MR0"/>
+<element name="JP963" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.604" y="84.582" rot="MR0"/>
+<element name="JP964" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.604" y="83.312" rot="MR0"/>
+<element name="JP965" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.604" y="82.042" rot="MR0"/>
+<element name="JP966" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.604" y="80.772" rot="MR0"/>
+<element name="JP967" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.604" y="79.502" rot="MR0"/>
+<element name="JP968" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.604" y="78.232" rot="MR0"/>
+<element name="JP969" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.604" y="76.962" rot="MR0"/>
+<element name="JP970" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.604" y="75.692" rot="MR0"/>
+<element name="JP971" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.604" y="74.422" rot="MR0"/>
+<element name="JP972" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.604" y="73.152" rot="MR0"/>
+<element name="JP973" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.604" y="71.882" rot="MR0"/>
+<element name="JP974" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.604" y="70.612" rot="MR0"/>
+<element name="JP975" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.604" y="69.342" rot="MR0"/>
+<element name="JP976" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.604" y="68.072" rot="MR0"/>
+<element name="JP977" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.604" y="66.802" rot="MR0"/>
+<element name="JP978" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.604" y="65.532" rot="MR0"/>
+<element name="JP979" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.604" y="64.262" rot="MR0"/>
+<element name="JP980" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.604" y="62.992" rot="MR0"/>
+<element name="JP981" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.604" y="61.722" rot="MR0"/>
+<element name="JP982" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.604" y="60.452" rot="MR0"/>
+<element name="JP983" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.604" y="59.182" rot="MR0"/>
+<element name="JP984" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.604" y="57.912" rot="MR0"/>
+<element name="JP985" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.604" y="56.642" rot="MR0"/>
+<element name="JP986" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.604" y="55.372" rot="MR0"/>
+<element name="JP987" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.604" y="54.102" rot="MR0"/>
+<element name="JP988" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.604" y="52.832" rot="MR0"/>
+<element name="JP989" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.604" y="51.562" rot="MR0"/>
+<element name="JP990" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.604" y="50.292" rot="MR0"/>
+<element name="JP991" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.604" y="49.022" rot="MR0"/>
+<element name="JP992" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.604" y="47.752" rot="MR0"/>
+<element name="JP993" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.604" y="46.482" rot="MR0"/>
+<element name="JP994" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.604" y="45.212" rot="MR0"/>
+<element name="JP995" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.604" y="43.942" rot="MR0"/>
+<element name="JP996" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.604" y="42.672" rot="MR0"/>
+<element name="JP997" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.604" y="41.402" rot="MR0"/>
+<element name="JP998" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.604" y="40.132" rot="MR0"/>
+<element name="JP999" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.604" y="38.862" rot="MR0"/>
+<element name="JP1000" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.604" y="37.592" rot="MR0"/>
+<element name="JP1001" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.604" y="36.322" rot="MR0"/>
+<element name="JP1002" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.604" y="35.052" rot="MR0"/>
+<element name="JP1003" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.604" y="33.782" rot="MR0"/>
+<element name="JP1004" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.604" y="32.512" rot="MR0"/>
+<element name="JP1005" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.604" y="31.242" rot="MR0"/>
+<element name="JP1006" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.604" y="29.972" rot="MR0"/>
+<element name="JP1007" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.604" y="28.702" rot="MR0"/>
+<element name="JP1008" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.604" y="27.432" rot="MR0"/>
+<element name="JP1009" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.604" y="26.162" rot="MR0"/>
+<element name="JP1010" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.604" y="24.892" rot="MR0"/>
+<element name="JP1011" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.604" y="23.622" rot="MR0"/>
+<element name="JP1012" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.604" y="22.352" rot="MR0"/>
+<element name="JP1013" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.604" y="21.082" rot="MR0"/>
+<element name="JP1014" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.604" y="19.812" rot="MR0"/>
+<element name="JP1015" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.604" y="18.542" rot="MR0"/>
+<element name="JP1016" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.604" y="17.272" rot="MR0"/>
+<element name="JP1017" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.604" y="16.002" rot="MR0"/>
+<element name="JP1018" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.604" y="14.732" rot="MR0"/>
+<element name="JP1019" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.604" y="13.462" rot="MR0"/>
+<element name="JP1020" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.604" y="12.192" rot="MR0"/>
+<element name="JP1021" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="54.102" y="87.122" rot="MR0"/>
+<element name="JP1022" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="54.102" y="85.852" rot="MR0"/>
+<element name="JP1023" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="54.102" y="84.582" rot="MR0"/>
+<element name="JP1024" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="54.102" y="83.312" rot="MR0"/>
+<element name="JP1025" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="54.102" y="82.042" rot="MR0"/>
+<element name="JP1026" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="54.102" y="80.772" rot="MR0"/>
+<element name="JP1027" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="54.102" y="79.502" rot="MR0"/>
+<element name="JP1028" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="54.102" y="78.232" rot="MR0"/>
+<element name="JP1029" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="54.102" y="76.962" rot="MR0"/>
+<element name="JP1030" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="54.102" y="75.692" rot="MR0"/>
+<element name="JP1031" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="54.102" y="74.422" rot="MR0"/>
+<element name="JP1032" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="54.102" y="73.152" rot="MR0"/>
+<element name="JP1033" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="54.102" y="71.882" rot="MR0"/>
+<element name="JP1034" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="54.102" y="70.612" rot="MR0"/>
+<element name="JP1035" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="54.102" y="69.342" rot="MR0"/>
+<element name="JP1036" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="54.102" y="68.072" rot="MR0"/>
+<element name="JP1037" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="54.102" y="66.802" rot="MR0"/>
+<element name="JP1038" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="54.102" y="65.532" rot="MR0"/>
+<element name="JP1039" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="54.102" y="64.262" rot="MR0"/>
+<element name="JP1040" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="54.102" y="62.992" rot="MR0"/>
+<element name="JP1041" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="54.102" y="61.722" rot="MR0"/>
+<element name="JP1042" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="54.102" y="60.452" rot="MR0"/>
+<element name="JP1043" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="54.102" y="59.182" rot="MR0"/>
+<element name="JP1044" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="54.102" y="57.912" rot="MR0"/>
+<element name="JP1045" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="54.102" y="56.642" rot="MR0"/>
+<element name="JP1046" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="54.102" y="55.372" rot="MR0"/>
+<element name="JP1047" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="54.102" y="54.102" rot="MR0"/>
+<element name="JP1048" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="54.102" y="52.832" rot="MR0"/>
+<element name="JP1049" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="54.102" y="51.562" rot="MR0"/>
+<element name="JP1050" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="54.102" y="50.292" rot="MR0"/>
+<element name="JP1051" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="54.102" y="49.022" rot="MR0"/>
+<element name="JP1052" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="54.102" y="47.752" rot="MR0"/>
+<element name="JP1053" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="54.102" y="46.482" rot="MR0"/>
+<element name="JP1054" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="54.102" y="45.212" rot="MR0"/>
+<element name="JP1055" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="54.102" y="43.942" rot="MR0"/>
+<element name="JP1056" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="54.102" y="42.672" rot="MR0"/>
+<element name="JP1057" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="54.102" y="41.402" rot="MR0"/>
+<element name="JP1058" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="54.102" y="40.132" rot="MR0"/>
+<element name="JP1059" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="54.102" y="38.862" rot="MR0"/>
+<element name="JP1060" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="54.102" y="37.592" rot="MR0"/>
+<element name="JP1061" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="54.102" y="36.322" rot="MR0"/>
+<element name="JP1062" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="54.102" y="35.052" rot="MR0"/>
+<element name="JP1063" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="54.102" y="33.782" rot="MR0"/>
+<element name="JP1064" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="54.102" y="32.512" rot="MR0"/>
+<element name="JP1065" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="54.102" y="31.242" rot="MR0"/>
+<element name="JP1066" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="54.102" y="29.972" rot="MR0"/>
+<element name="JP1067" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="54.102" y="28.702" rot="MR0"/>
+<element name="JP1068" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="54.102" y="27.432" rot="MR0"/>
+<element name="JP1069" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="54.102" y="26.162" rot="MR0"/>
+<element name="JP1070" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="54.102" y="24.892" rot="MR0"/>
+<element name="JP1071" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="54.102" y="23.622" rot="MR0"/>
+<element name="JP1072" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="54.102" y="22.352" rot="MR0"/>
+<element name="JP1073" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="54.102" y="21.082" rot="MR0"/>
+<element name="JP1074" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="54.102" y="19.812" rot="MR0"/>
+<element name="JP1075" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="54.102" y="18.542" rot="MR0"/>
+<element name="JP1076" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="54.102" y="17.272" rot="MR0"/>
+<element name="JP1077" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="54.102" y="16.002" rot="MR0"/>
+<element name="JP1078" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="54.102" y="14.732" rot="MR0"/>
+<element name="JP1079" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="54.102" y="13.462" rot="MR0"/>
+<element name="JP1080" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="54.102" y="12.192" rot="MR0"/>
+<element name="JP1081" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="55.88" y="87.122" rot="MR0"/>
+<element name="JP1082" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="55.88" y="85.852" rot="MR0"/>
+<element name="JP1083" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="55.88" y="84.582" rot="MR0"/>
+<element name="JP1084" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="55.88" y="83.312" rot="MR0"/>
+<element name="JP1085" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="55.88" y="82.042" rot="MR0"/>
+<element name="JP1086" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="55.88" y="80.772" rot="MR0"/>
+<element name="JP1087" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="55.88" y="79.502" rot="MR0"/>
+<element name="JP1088" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="55.88" y="78.232" rot="MR0"/>
+<element name="JP1089" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="55.88" y="76.962" rot="MR0"/>
+<element name="JP1090" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="55.88" y="75.692" rot="MR0"/>
+<element name="JP1091" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="55.88" y="74.422" rot="MR0"/>
+<element name="JP1092" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="55.88" y="73.152" rot="MR0"/>
+<element name="JP1093" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="55.88" y="71.882" rot="MR0"/>
+<element name="JP1094" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="55.88" y="70.612" rot="MR0"/>
+<element name="JP1095" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="55.88" y="69.342" rot="MR0"/>
+<element name="JP1096" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="55.88" y="68.072" rot="MR0"/>
+<element name="JP1097" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="55.88" y="66.802" rot="MR0"/>
+<element name="JP1098" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="55.88" y="65.532" rot="MR0"/>
+<element name="JP1099" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="55.88" y="64.262" rot="MR0"/>
+<element name="JP1100" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="55.88" y="62.992" rot="MR0"/>
+<element name="JP1101" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="55.88" y="61.722" rot="MR0"/>
+<element name="JP1102" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="55.88" y="60.452" rot="MR0"/>
+<element name="JP1103" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="55.88" y="59.182" rot="MR0"/>
+<element name="JP1104" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="55.88" y="57.912" rot="MR0"/>
+<element name="JP1105" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="55.88" y="56.642" rot="MR0"/>
+<element name="JP1106" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="55.88" y="55.372" rot="MR0"/>
+<element name="JP1107" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="55.88" y="54.102" rot="MR0"/>
+<element name="JP1108" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="55.88" y="52.832" rot="MR0"/>
+<element name="JP1109" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="55.88" y="51.562" rot="MR0"/>
+<element name="JP1110" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="55.88" y="50.292" rot="MR0"/>
+<element name="JP1111" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="55.88" y="49.022" rot="MR0"/>
+<element name="JP1112" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="55.88" y="47.752" rot="MR0"/>
+<element name="JP1113" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="55.88" y="46.482" rot="MR0"/>
+<element name="JP1114" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="55.88" y="45.212" rot="MR0"/>
+<element name="JP1115" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="55.88" y="43.942" rot="MR0"/>
+<element name="JP1116" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="55.88" y="42.672" rot="MR0"/>
+<element name="JP1117" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="55.88" y="41.402" rot="MR0"/>
+<element name="JP1118" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="55.88" y="40.132" rot="MR0"/>
+<element name="JP1119" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="55.88" y="38.862" rot="MR0"/>
+<element name="JP1120" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="55.88" y="37.592" rot="MR0"/>
+<element name="JP1121" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="55.88" y="36.322" rot="MR0"/>
+<element name="JP1122" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="55.88" y="35.052" rot="MR0"/>
+<element name="JP1123" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="55.88" y="33.782" rot="MR0"/>
+<element name="JP1124" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="55.88" y="32.512" rot="MR0"/>
+<element name="JP1125" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="55.88" y="31.242" rot="MR0"/>
+<element name="JP1126" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="55.88" y="29.972" rot="MR0"/>
+<element name="JP1127" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="55.88" y="28.702" rot="MR0"/>
+<element name="JP1128" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="55.88" y="27.432" rot="MR0"/>
+<element name="JP1129" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="55.88" y="26.162" rot="MR0"/>
+<element name="JP1130" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="55.88" y="24.892" rot="MR0"/>
+<element name="JP1131" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="55.88" y="23.622" rot="MR0"/>
+<element name="JP1132" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="55.88" y="22.352" rot="MR0"/>
+<element name="JP1133" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="55.88" y="21.082" rot="MR0"/>
+<element name="JP1134" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="55.88" y="19.812" rot="MR0"/>
+<element name="JP1135" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="55.88" y="18.542" rot="MR0"/>
+<element name="JP1136" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="55.88" y="17.272" rot="MR0"/>
+<element name="JP1137" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="55.88" y="16.002" rot="MR0"/>
+<element name="JP1138" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="55.88" y="14.732" rot="MR0"/>
+<element name="JP1139" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="55.88" y="13.462" rot="MR0"/>
+<element name="JP1140" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="55.88" y="12.192" rot="MR0"/>
+<element name="JP1141" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="14.478" y="95.758" rot="MR270"/>
+<element name="JP1142" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="15.748" y="95.758" rot="MR270"/>
+<element name="JP1143" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="17.018" y="95.758" rot="MR270"/>
+<element name="JP1144" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="18.288" y="95.758" rot="MR270"/>
+<element name="JP1145" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="19.558" y="95.758" rot="MR270"/>
+<element name="JP1146" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="20.828" y="95.758" rot="MR270"/>
+<element name="JP1147" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="22.098" y="95.758" rot="MR270"/>
+<element name="JP1148" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="23.368" y="95.758" rot="MR270"/>
+<element name="JP1149" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="24.638" y="95.758" rot="MR270"/>
+<element name="JP1150" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="25.908" y="95.758" rot="MR270"/>
+<element name="JP1151" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="14.478" y="93.853" rot="MR270"/>
+<element name="JP1152" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="15.748" y="93.853" rot="MR270"/>
+<element name="JP1153" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="17.018" y="93.853" rot="MR270"/>
+<element name="JP1154" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="18.288" y="93.853" rot="MR270"/>
+<element name="JP1155" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="19.558" y="93.853" rot="MR270"/>
+<element name="JP1156" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="20.828" y="93.853" rot="MR270"/>
+<element name="JP1157" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="22.098" y="93.853" rot="MR270"/>
+<element name="JP1158" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="23.368" y="93.853" rot="MR270"/>
+<element name="JP1159" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="24.638" y="93.853" rot="MR270"/>
+<element name="JP1160" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="25.908" y="93.853" rot="MR270"/>
+<element name="JP1161" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="34.798" y="95.758" rot="MR270"/>
+<element name="JP1162" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="36.068" y="95.758" rot="MR270"/>
+<element name="JP1163" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="37.338" y="95.758" rot="MR270"/>
+<element name="JP1164" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="38.608" y="95.758" rot="MR270"/>
+<element name="JP1165" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="39.878" y="95.758" rot="MR270"/>
+<element name="JP1166" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="41.148" y="95.758" rot="MR270"/>
+<element name="JP1167" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="42.418" y="95.758" rot="MR270"/>
+<element name="JP1168" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="43.688" y="95.758" rot="MR270"/>
+<element name="JP1169" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="44.958" y="95.758" rot="MR270"/>
+<element name="JP1170" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="46.228" y="95.758" rot="MR270"/>
+<element name="JP1171" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="34.798" y="93.853" rot="MR270"/>
+<element name="JP1172" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="36.068" y="93.853" rot="MR270"/>
+<element name="JP1173" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="37.338" y="93.853" rot="MR270"/>
+<element name="JP1174" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="38.608" y="93.853" rot="MR270"/>
+<element name="JP1175" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="39.878" y="93.853" rot="MR270"/>
+<element name="JP1176" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="41.148" y="93.853" rot="MR270"/>
+<element name="JP1177" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="42.418" y="93.853" rot="MR270"/>
+<element name="JP1178" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="43.688" y="93.853" rot="MR270"/>
+<element name="JP1179" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="44.958" y="93.853" rot="MR270"/>
+<element name="JP1180" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="46.228" y="93.853" rot="MR270"/>
+<element name="JP1181" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="14.478" y="5.588" rot="MR270"/>
+<element name="JP1182" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="15.748" y="5.588" rot="MR270"/>
+<element name="JP1183" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="17.018" y="5.588" rot="MR270"/>
+<element name="JP1184" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="18.288" y="5.588" rot="MR270"/>
+<element name="JP1185" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="19.558" y="5.588" rot="MR270"/>
+<element name="JP1186" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="20.828" y="5.588" rot="MR270"/>
+<element name="JP1187" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="22.098" y="5.588" rot="MR270"/>
+<element name="JP1188" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="23.368" y="5.588" rot="MR270"/>
+<element name="JP1189" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="24.638" y="5.588" rot="MR270"/>
+<element name="JP1190" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="25.908" y="5.588" rot="MR270"/>
+<element name="JP1191" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="34.798" y="5.588" rot="MR270"/>
+<element name="JP1192" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="36.068" y="5.588" rot="MR270"/>
+<element name="JP1193" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="37.338" y="5.588" rot="MR270"/>
+<element name="JP1194" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="38.608" y="5.588" rot="MR270"/>
+<element name="JP1195" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="39.878" y="5.588" rot="MR270"/>
+<element name="JP1196" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="41.148" y="5.588" rot="MR270"/>
+<element name="JP1197" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="42.418" y="5.588" rot="MR270"/>
+<element name="JP1198" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="43.688" y="5.588" rot="MR270"/>
+<element name="JP1199" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="44.958" y="5.588" rot="MR270"/>
+<element name="JP1200" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="46.228" y="5.588" rot="MR270"/>
 </elements>
 <signals>
 <signal name="N$1">
