@@ -1,0 +1,14 @@
+output("IntNotTest.txt"){
+   int a = 0;
+
+   printf("before a = %d\n", a);
+
+   a = !a;
+
+   if (a){
+      printf("\"NOT\" successful : a = %d\n", a);   
+   } else {
+      printf("\"NOT\" unsuccessful : a = %d\n", a);
+   }
+   
+}

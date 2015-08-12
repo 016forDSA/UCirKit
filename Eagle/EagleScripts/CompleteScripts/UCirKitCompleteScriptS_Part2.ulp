@@ -4,6 +4,7 @@
 //---- Execution
 output("UCirKitCompleteScriptS_Part2.txt"){
    addNetOnAllPins();
+
    // printf(commands);
 }
 

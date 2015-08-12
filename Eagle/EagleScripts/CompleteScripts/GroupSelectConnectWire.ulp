@@ -21,6 +21,10 @@ int wireNameInt = 0;
 string command = "";
 
 int maxNumOfLargeFemale;
+int canSelectLargeUnmirroredElement;
+int canSelectLargeMirroredElement;
+int canSelectSmallUnmirroredElement;
+int canSelectSmallMirroredElement;
 
 // **************************************************************************
 // **************************************************************************
@@ -34,11 +38,15 @@ void classifyLargeAndSmallFemaleHeaders(){
                int numOfStr = strsplit(splitStr, C.element.name, 'P');
                int femaleNum = strtol(splitStr[1]);
 
-               if (femaleNum <= maxNumOfLargeFemale){
+               if (femaleNum <= maxNumOfLargeFemale &&
+                   (C.element.mirror == canSelectLargeMirroredElement ||
+                    !C.element.mirror == canSelectLargeUnmirroredElement)) {
                   lFContactRefs[lFContactCount] = C;
                   lFSignals[lFContactCount] = S;
                   lFContactFlag[lFContactCount++] = 0;
-               } else {
+               } else if (femaleNum > maxNumOfLargeFemale &&
+                          (C.element.mirror == canSelectSmallMirroredElement ||
+                           !C.element.mirror == canSelectSmallUnmirroredElement)) {
                   sFContactRefs[sFContactCount] = C;
                   sFSignals[sFContactCount] = S;
                   sFContactFlag[sFContactCount++] = 0;
@@ -49,9 +57,11 @@ void classifyLargeAndSmallFemaleHeaders(){
    }
    // for (int i = 0; i < lFContactCount; ++i){
    //    printf("lFContactRefs[%d].element.name = %s, contact.name = %s\n", i, lFContactRefs[i].element.name, lFContactRefs[i].contact.name);
+   //    printf("lFSignals[%d].name = %s\n", i, lFSignals[i].name);
    // }
    // for (i = 0; i < sFContactCount; ++i){
    //    printf("sFContactRefs[%d].element.name = %s, contact.name = %s\n", i, sFContactRefs[i].element.name, sFContactRefs[i].contact.name);
+   //    printf("sFSignals[%d].name = %s\n", i, sFSignals[i].name);
    // }
 }
 
@@ -61,7 +71,7 @@ void classifyLargeAndSmallFemaleHeaders(){
 int getSFGroupedIdx(UL_PART PART, UL_PIN PIN){
    for (int i = 0; i < sFContactCount; ++i){
       if (PART.name == sFContactRefs[i].element.name &&
-          PIN.name == sFContactRefs[i].contact.name &&
+          // PIN.name == sFContactRefs[i].contact.name &&
           strchr(sFSignals[i].name, '_') == -1){
          return i;
       }
@@ -130,8 +140,8 @@ void scanThruSmallFemalesAndConnectWithLargeFemales(){
 // **************************************************************************
 int getLFConnectionListIdx(UL_PART PART, UL_PIN PIN){
    for (int i = 0; i < connectListCount; ++i){
-      if (PART.name == lFContactRefs[lFContactIdxConnectList[i]].element.name &&
-          PIN.name == lFContactRefs[lFContactIdxConnectList[i]].contact.name){
+      if (PART.name == lFContactRefs[lFContactIdxConnectList[i]].element.name /*&&
+          PIN.name == lFContactRefs[lFContactIdxConnectList[i]].contact.name*/){
          return i;
       }
    }
@@ -154,7 +164,13 @@ void collectLFConnectionPins(){
 }
 
 void createCommand(){
+   // printf("connectListCount = %d\n", connectListCount);
    int timeForNaming = time();
+
+   // for (int i = 0; i < connectListCount; ++i){
+   //    printf("sFPinsToConnect[%d].name = %s\n", i, sFPinsToConnect[i].name);
+   // }
+
    for (int i = 0; i < connectListCount; ++i){
       sFPinsToConnect[i].wires(WIRE){
          sprintf(command, "%s NAME %d_%d (%f %f);", command, wireNameInt, timeForNaming, u2inch(WIRE.x1), u2inch(WIRE.y1));
@@ -170,12 +186,22 @@ void createCommand(){
 // **************************************************************************
 // **************************************************************************
 output("GroupSelectConnectWire.txt"){
-   if (argc != 2){
-      dlgMessageBox("Incorrect number of arguments", "Ok");
+   if (argc != 6){
+      dlgMessageBox("Incorrect number of arguments\n \
+                     usage : run GroupSelectConnectWire <Max JP Number> \n \
+                                                        <0 for unable to select large unmirrorred elements \n \
+                                                        <0 for unable to select large mirrorred elements> \n \
+                                                        <0 for unable to select small unmirrorred elements> \n \
+                                                        <0 for unable to select small mirrorred elements> \n \
+                                                        ", "Ok");
       exit(1);
    }
 
    maxNumOfLargeFemale = strtol(argv[1]);
+   canSelectLargeUnmirroredElement = strtol(argv[2]);
+   canSelectLargeMirroredElement = strtol(argv[3]);
+   canSelectSmallUnmirroredElement = strtol(argv[4]);
+   canSelectSmallMirroredElement = strtol(argv[5]);
 
    classifyLargeAndSmallFemaleHeaders();
 

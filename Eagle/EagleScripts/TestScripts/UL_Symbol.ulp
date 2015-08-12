@@ -1,0 +1,7 @@
+output("UL_Symbol.txt"){
+   library(L) {
+      L.symbols(S){
+         printf("Sym: %s\n", S.name);
+      }
+   }
+}

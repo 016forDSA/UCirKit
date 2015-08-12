@@ -7,8 +7,11 @@ output("RenameNetResults.txt"){
          SH.nets(N) {
             N.segments(SEG) {
                SEG.wires(W) {
-                  sprintf(cmd, "%s NAME %s%s (%f %f); ",cmd, N.name, add_text, u2inch(W.x1), u2inch(W.y1));
-                  printf("%s NAME %s%s (%f %f); ",cmd, N.name, add_text, u2inch(W.x1), u2inch(W.y1));
+                  // sprintf(cmd, "%s NAME %s%s (%f %f); ",cmd, N.name, add_text, u2inch(W.x1), u2inch(W.y1));
+                  // printf("%s NAME %s%s (%f %f); ",cmd, N.name, add_text, u2inch(W.x1), u2inch(W.y1));
+
+                  sprintf(cmd, "%s NAME 1-1 (%f %f); ",cmd, u2inch(W.x1), u2inch(W.y1));
+                  printf("%s NAME 1-1 (%f %f); ",cmd, u2inch(W.x1), u2inch(W.y1));
                }
             }
          }

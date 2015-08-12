@@ -1,6 +1,6 @@
 //---- Breadboard-like general information
 int numOfRows = 30;
-int numOfCols = 20;
+int numOfCols = 10;  //20;
 
 //---- Schematic information
 real xCursor = 0;
@@ -16,9 +16,31 @@ string smallFemaleHeaderPartStr = "M051.27MM";
 real xSpacingForSmallFemaleHeader = 1.0;
 real ySpacingForSmallFemaleHeader = 0.14;
 
+// int largeFemaleHeaderPartNum = 1;
+// string largeFemaleHeaderPartStr = "M01PTH";
+// real xSpacingForLargeFemaleHeader = 1.0;
+// real ySpacingForLargeFemaleHeader = 0.12;
+
+// int smallFemaleHeaderPartNum = 5;
+// string smallFemaleHeaderPartStr = "M051.27MM";
+// real xSpacingForSmallFemaleHeader = 1.0;
+// real ySpacingForSmallFemaleHeader = 0.14;
 
 //---- Board information
+real uCirKitStartX = 0.5;  //inches
+real uCirKitStartY = 3.4;  //inches
 
+int numOfDivisionsX = 2;
+int numOfDivisionsY = 1;
+
+real xSpacingBetweenDivisions = 0.3; //inches
+real ySpacingBetweenDivisions = 0.3; //inches
+
+real xMarginToSmallFemaleHeader = 0.2; //inches
+real yMarginToSmallFemaleHeader = 0.2; //inches
+
+real xSpacingBetweenSmallFemaleHeaders = 0.075; //inches
+real ySpacingBetweenSmallFemaleHeaders = 0.075; //inches
 
 //---- Eagle Commands
 string commands = "";

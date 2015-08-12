@@ -1,0 +1,28 @@
+#include "UCirKitGlobalVarS.ulp"
+#include "UCirKitArrangeBoard.ulp"
+
+output("UCirKitCompleteScriptS_Part3.txt"){
+   arrangeBoard(1,
+                numOfRows * numOfCols,
+                large,
+                !mirror);
+
+   arrangeBoard(numOfRows * numOfCols + 1,
+                2 * numOfRows * numOfCols,
+                large,
+                !mirror);
+
+   arrangeBoard(2 * numOfRows * numOfCols + 1,
+                3 * numOfRows * numOfCols,
+                !large,
+                !mirror);
+
+   arrangeBoard(3 * numOfRows * numOfCols + 1,
+                4 * numOfRows * numOfCols,
+                !large,
+                mirror);
+
+   // printf(commands);
+}
+
+exit(commands);

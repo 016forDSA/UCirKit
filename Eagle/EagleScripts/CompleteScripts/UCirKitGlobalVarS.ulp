@@ -1,24 +1,57 @@
 //---- Breadboard-like general information
 int numOfRows = 30;
-int numOfCols = 20;
+int numOfCols = 10;
 
 //---- Schematic information
 real xCursor = 0;
 real yCursor = 0;
 
 int largeFemaleHeaderPartNum = 1;
-string largeFemaleHeaderPartStr = "M01PTH";
+string largeFemaleHeaderPartStr = "M01PTH_WITHOUT_TEXT";
 real xSpacingForLargeFemaleHeader = 1.0;
 real ySpacingForLargeFemaleHeader = 0.48;
 
+int largePadPartNum = 1;
+string largePadPartStr = "M01PTH_SMD_2.18X1.0668MM_NO_SILK";
+real xSpacingForLargePadPart = 1.0;
+real ySpacingForLargePadPart = 0.48;
+
+int numOfLargeFemaleContacts = numOfRows * numOfCols;
+
 int smallFemaleHeaderPartNum = 1;
-string smallFemaleHeaderPartStr = "M01PTH_1.27MM";
+string smallFemaleHeaderPartStr = "M01PTH_SMD_1.27X0.635MM_NO_SILK";
 real xSpacingForSmallFemaleHeader = 1.0;
 real ySpacingForSmallFemaleHeader = 0.48;
 
 
 //---- Board information
+real largeFemaleStartX = 15.24;  //mm
+real largeFemaleStartY = 86.36;  //mm
+real largeCursorX = 15.24;       //mm
+real largeCursorY = 86.36;       //mm
 
+real smallFemaleStartX = 59.436;   //mm
+real smallFemaleStartY = 85.852;   //mm
+real smallCursorX = 50.546;       //mm
+real smallCursorY = 87.122;       //mm
+
+// int numOfDivisionsX = 2;
+// int numOfDivisionsY = 1;
+
+// real xSpacingBetweenDivisions = 0.3; //mm
+// real ySpacingBetweenDivisions = 0.3; //mm
+
+// real xMarginToSmallFemaleHeader = 0.2; //mm
+// real yMarginToSmallFemaleHeader = 0.2; //mm
+
+real xSpacingBetweenLargeFemaleHeaders = 2.54; //mm
+real ySpacingBetweenLargeFemaleHeaders = 2.54; //mm
+
+real xSpacingBetweenSmallFemaleHeaders = 1.778; //mm
+real ySpacingBetweenSmallFemaleHeaders = 1.27; //mm
+
+int large = 1;
+int mirror = 1;
 
 //---- Eagle Commands
 string commands = "";

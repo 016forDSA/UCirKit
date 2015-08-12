@@ -1,30 +1,19 @@
 string add_text = "KP";
 string cmd = "";
 string new_name = "";
-int GroupAx[], GroupBx[], GroupCx[], GroupDx[], GroupEAx[], GroupEBx[], GroupECx[], GroupEDx[];
-int GroupAy[], GroupBy[], GroupCy[], GroupDy[], GroupEAy[], GroupEBy[], GroupECy[], GroupEDy[];
-int GroupAf[], GroupBf[], GroupCf[], GroupDf[], GroupEAf[], GroupEBf[], GroupECf[], GroupEDf[];
-string GroupAe[], GroupBe[], GroupCe[], GroupDe[], GroupEAe[], GroupEBe[], GroupECe[], GroupEDe[];
-string GroupAc[], GroupBc[], GroupCc[], GroupDc[], GroupEAc[], GroupEBc[], GroupECc[], GroupEDc[];
+int GroupAx[], GroupBx[], GroupCx[], GroupDx[], GroupEx[];
+int GroupAy[], GroupBy[], GroupCy[], GroupDy[], GroupEy[];
+int GroupAf[], GroupBf[], GroupCf[], GroupDf[], GroupEf[];
+string GroupAe[], GroupBe[], GroupCe[], GroupDe[], GroupEe[];
+string GroupAc[], GroupBc[], GroupCc[], GroupDc[], GroupEc[];
 string Renameliste[], Renamelistc[];
-int Acount, Bcount, Ccount, Dcount, EAcount, EBcount, ECcount, EDcount, count, i, j, Rcount, found;
+int Acount, Bcount, Ccount, Dcount, Ecount, count, i, j, Rcount, found;
 int MinDistance, TempIndex;
 
 
 int TempCx, TempCy, TempDistance;
 real distance(int a, int b, int c, int d){
-   printf("a : %d b : %d c :%d d : %d Dis : ", a, b, c, d);
-   printf("%d\n", ((a - b) * (a - b) + (c - d) * (c - d)) ^ (1/2)); 
    return (abs(a - b) ^ 2 + abs(c - d) ^ 2) ^ (1/2);
-}
-
-int ruleout(string s){
-   for (int i = 0; s[i]; ++i);
-   printf("%c :", s[i -1 ]);
-   if(s[i-1] == '0' || s[i-1] == '2' || s[i-1] == '4' || s[i-1] == '6' || s[i-1] == '8')
-     return 0;  
-   else 
-     return 1;
 }
 output("RenameNetResults.txt"){
    schematic(S) {
@@ -35,86 +24,66 @@ output("RenameNetResults.txt"){
               count++;
                TempCx = u2mil(C.contact.x);
                TempCy = u2mil(C.contact.y);
-               if((TempCx >= 2500 && TempCy > 1950) || (TempCx > 1450 && TempCy >= 3500)){ // right side
+               if(TempCx >= 2500){ // right side
                   GroupAx[Acount] = TempCx;
                   GroupAy[Acount] = TempCy;
                   GroupAf[Acount] = 1;
                   GroupAe[Acount] = C.element.name;
                   GroupAc[Acount++] = C.contact.name;
-               } else if((TempCx <= 400 && TempCy > 1950) ||(TempCx < 1450 && TempCy >= 3500)){ // left side
+               } else if(TempCx <= 400){ // left side
                   GroupBx[Bcount] = TempCx;
                   GroupBy[Bcount] = TempCy;
                   GroupBf[Bcount] = 1;
                   GroupBe[Bcount] = C.element.name;
                   GroupBc[Bcount++] = C.contact.name;
-               } else if((TempCx <= 400 && TempCy < 1950) || (TempCx < 1450 && TempCy <= 400)){ // top side
+               } else if(TempCy >= 3500){ // top side
                   GroupCx[Ccount] = TempCx;
                   GroupCy[Ccount] = TempCy;
                   GroupCf[Ccount] = 1;
                   GroupCe[Ccount] = C.element.name;
                   GroupCc[Ccount++] = C.contact.name;
-               } else if((TempCx >= 2500 && TempCy < 1950) || (TempCx > 1450 && TempCy <= 400)){ // bottom side
+               } else if(TempCy <= 400){ // bottom side
                   GroupDx[Dcount] = TempCx;
                   GroupDy[Dcount] = TempCy;
                   GroupDf[Dcount] = 1;
                   GroupDe[Dcount] = C.element.name;
                   GroupDc[Dcount++] = C.contact.name;
                } else { // inner section
-                  if(TempCx > 1450 && TempCy > 1950){
-                  GroupEAx[EAcount] = TempCx;
-                  GroupEAy[EAcount] = TempCy;
-                  GroupEAf[EAcount] = 1;
-                  GroupEAe[EAcount] = C.element.name;
-                  GroupEAc[EAcount++] = C.contact.name;
-                } else if(TempCx < 1450 && TempCy > 1950){
-                  GroupEBx[EBcount] = TempCx;
-                  GroupEBy[EBcount] = TempCy;
-                  GroupEBf[EBcount] = 1;
-                  GroupEBe[EBcount] = C.element.name;
-                  GroupEBc[EBcount++] = C.contact.name;
-                } else if(TempCx < 1450 && TempCy < 1950){
-                  GroupECx[ECcount] = TempCx;
-                  GroupECy[ECcount] = TempCy;
-                  GroupECf[ECcount] = 1;
-                  GroupECe[ECcount] = C.element.name;
-                  GroupECc[ECcount++] = C.contact.name;
-                } else if(TempCx > 1450 && TempCy < 1950){
-                  GroupEDx[EDcount] = TempCx;
-                  GroupEDy[EDcount] = TempCy;
-                  GroupEDf[EDcount] = 1;
-                  GroupEDe[EDcount] = C.element.name;
-                  GroupEDc[EDcount++] = C.contact.name;
-                }
+                  GroupEx[Ecount] = TempCx;
+                  GroupEy[Ecount] = TempCy;
+                  GroupEf[Ecount] = 1;
+                  GroupEe[Ecount] = C.element.name;
+                  GroupEc[Ecount++] = C.contact.name;
                }
                // printf("%s,\t %s\t x = %f \t y = %f\n", C.element.name, C.contact.name, u2mil(C.contact.x), u2mil(C.contact.y));
             }
 
          }
       }
-      printf("%d %d %d %d %d %d %d %d %d", count, Acount, Bcount, Ccount, Dcount, EAcount, EBcount, ECcount, EDcount);
+      printf("%d %d %d %d %d %d", count, Acount, Bcount, Ccount, Dcount, Ecount);
       for(i = 0; i < Acount; i++){
         MinDistance = 100000000;
         TempIndex = 0;
         found = 1;
-        for(j = 0; j < EAcount && found; j++){
-            TempDistance = distance(GroupAx[i], GroupAy[i], GroupEAx[j], GroupEAy[j]);
-            if(MinDistance >= TempDistance && GroupEAf[j]){
+        for(j = 0; j < Ecount && found; j++){
+            TempDistance = distance(GroupAx[i], GroupAy[i], GroupEx[j], GroupEy[j]);
+            if(MinDistance >= TempDistance && GroupEf[j]){
                MinDistance = TempDistance;
                TempIndex = j;
             }
-            if(TempDistance <= 90000 && GroupEAf[j]){
-               GroupEAf[j] = 0;
-               sprintf(Renameliste[Rcount], "%s", GroupEAe[j]);
-               sprintf(Renamelistc[Rcount++], "%s", GroupEAc[j]);
+            if(TempDistance <= 400 && GroupEf[j]){
+               GroupEf[j] = 0;
+               sprintf(Renameliste[Rcount], "%s", GroupEe[j]);
+               sprintf(Renamelistc[Rcount++], "%s", GroupEc[j]);
                sprintf(Renameliste[Rcount], "%s", GroupAe[i]);
                sprintf(Renamelistc[Rcount++], "%s", GroupAc[i]);
                found = 0;
             }
          }
          if(found){
-            GroupEAf[TempIndex] = 0;
-            sprintf(Renameliste[Rcount], "%s", GroupEAe[TempIndex]);
-            sprintf(Renamelistc[Rcount++], "%s", GroupEAc[TempIndex]);
+            GroupEf[TempIndex] = 0;
+            sprintf(Renameliste[Rcount], "%s", GroupEe[TempIndex]);
+            sprintf(Renamelistc[Rcount++], "%s", GroupEc[TempIndex]);
             sprintf(Renameliste[Rcount], "%s", GroupAe[i]);
             sprintf(Renamelistc[Rcount++], "%s", GroupAc[i]);
             found = 0;
@@ -124,25 +93,25 @@ output("RenameNetResults.txt"){
          MinDistance = 100000000;
          TempIndex = 0;
          found = 1;
-         for(j = 0; j < EBcount && found; j++){
-            TempDistance = distance(GroupBx[i], GroupBy[i], GroupEBx[j], GroupEBy[j]);
-            if(MinDistance >= TempDistance && GroupEBf[j]){
+         for(j = 0; j < Ecount && found; j++){
+            TempDistance = distance(GroupBx[i], GroupBy[i], GroupEx[j], GroupEy[j]);
+            if(MinDistance >= TempDistance && GroupEf[j]){
                MinDistance = TempDistance;
                TempIndex = j;
             }
-            if(TempDistance <= 90000 && GroupEBf[j]){
-                GroupEBf[j] = 0;
-                sprintf(Renameliste[Rcount], "%s", GroupEBe[j]);
-                sprintf(Renamelistc[Rcount++], "%s", GroupEBc[j]);
+            if(TempDistance <= 400 && GroupEf[j]){
+                GroupEf[j] = 0;
+                sprintf(Renameliste[Rcount], "%s", GroupEe[j]);
+                sprintf(Renamelistc[Rcount++], "%s", GroupEc[j]);
                 sprintf(Renameliste[Rcount], "%s", GroupBe[i]);
                 sprintf(Renamelistc[Rcount++], "%s", GroupBc[i]);
                 found = 0;
             }
          }
          if(found){
-            GroupEBf[TempIndex] = 0;
-            sprintf(Renameliste[Rcount], "%s", GroupEBe[TempIndex]);
-            sprintf(Renamelistc[Rcount++], "%s", GroupEBc[TempIndex]);
+            GroupEf[TempIndex] = 0;
+            sprintf(Renameliste[Rcount], "%s", GroupEe[TempIndex]);
+            sprintf(Renamelistc[Rcount++], "%s", GroupEc[TempIndex]);
             sprintf(Renameliste[Rcount], "%s", GroupBe[i]);
             sprintf(Renamelistc[Rcount++], "%s", GroupBc[i]);
             found = 0;
@@ -153,25 +122,25 @@ output("RenameNetResults.txt"){
          MinDistance = 100000000;
          TempIndex = 0;
          found = 1;
-         for(j = 0; j < ECcount && found; j++){
-            TempDistance = distance(GroupCx[i], GroupCy[i], GroupECx[j], GroupECy[j]);
-            if(MinDistance >= TempDistance && GroupECf[j]){
+         for(j = 0; j < Ecount && found; j++){
+            TempDistance = distance(GroupCx[i], GroupCy[i], GroupEx[j], GroupEy[j]);
+            if(MinDistance >= TempDistance && GroupEf[j]){
                MinDistance = TempDistance;
                TempIndex = j;
             }
-            if(TempDistance <= 90000 && GroupECf[j]){
-                GroupECf[j] = 0;
-                sprintf(Renameliste[Rcount], "%s", GroupECe[j]);
-                sprintf(Renamelistc[Rcount++], "%s", GroupECc[j]);
+            if(TempDistance <= 600 && GroupEf[j]){
+                GroupEf[j] = 0;
+                sprintf(Renameliste[Rcount], "%s", GroupEe[j]);
+                sprintf(Renamelistc[Rcount++], "%s", GroupEc[j]);
                 sprintf(Renameliste[Rcount], "%s", GroupCe[i]);
                 sprintf(Renamelistc[Rcount++], "%s", GroupCc[i]);
                 found = 0;
             }
           }
           if(found){
-            GroupECf[TempIndex] = 0;
-            sprintf(Renameliste[Rcount], "%s", GroupECe[TempIndex]);
-            sprintf(Renamelistc[Rcount++], "%s", GroupECc[TempIndex]);
+            GroupEf[TempIndex] = 0;
+            sprintf(Renameliste[Rcount], "%s", GroupEe[TempIndex]);
+            sprintf(Renamelistc[Rcount++], "%s", GroupEc[TempIndex]);
             sprintf(Renameliste[Rcount], "%s", GroupCe[i]);
             sprintf(Renamelistc[Rcount++], "%s", GroupCc[i]);
             found = 0;
@@ -181,63 +150,56 @@ output("RenameNetResults.txt"){
          MinDistance = 100000000;
          TempIndex = 0;
          found = 1;
-         for(j = 0; j < EDcount && found; j++){
-            TempDistance = distance(GroupDx[i], GroupDy[i], GroupEDx[j], GroupEDy[j]);
-            if(MinDistance >= TempDistance && GroupEDf[j]){
+         for(j = 0; j < Ecount && found; j++){
+            TempDistance = distance(GroupDx[i], GroupDy[i], GroupEx[j], GroupEy[j]);
+            if(MinDistance >= TempDistance && GroupEf[j]){
                MinDistance = TempDistance;
                TempIndex = j;
             }
-            if(TempDistance <= 90000 && GroupEDf[j]){
-                GroupEDf[j] = 0;
-                sprintf(Renameliste[Rcount], "%s", GroupEDe[j]);
-                sprintf(Renamelistc[Rcount++], "%s", GroupEDc[j]);
+            if(TempDistance <= 600 && GroupEf[j]){
+                GroupEf[j] = 0;
+                sprintf(Renameliste[Rcount], "%s", GroupEe[j]);
+                sprintf(Renamelistc[Rcount++], "%s", GroupEc[j]);
                 sprintf(Renameliste[Rcount], "%s", GroupDe[i]);
                 sprintf(Renamelistc[Rcount++], "%s", GroupDc[i]);
                 found = 0;
             }
          }
          if(found){
-            GroupEDf[TempIndex] = 0;
-            sprintf(Renameliste[Rcount], "%s", GroupEDe[TempIndex]);
-            sprintf(Renamelistc[Rcount++], "%s", GroupEDc[TempIndex]);
+            GroupEf[TempIndex] = 0;
+            sprintf(Renameliste[Rcount], "%s", GroupEe[TempIndex]);
+            sprintf(Renamelistc[Rcount++], "%s", GroupEc[TempIndex]);
             sprintf(Renameliste[Rcount], "%s", GroupDe[i]);
             sprintf(Renamelistc[Rcount++], "%s", GroupDc[i]);
             found = 0;
           }
       }
       printf("Rcount : %d\n", Rcount);
-
       //for(i = 0; i < Rcount; i++, count++)
       //  printf("A : %s B : %s i %d, count %d\n", Renameliste[i], Renamelistc[i], i, count);
       count = 0;
-      j = 0;
-      for(i = 0; i < Rcount; i+=2, count++){ 
+      for(i = 0; i < Rcount; i+=2, count++){
       // printf("A : %s B : %s i %d, count %d\n", Renameliste[i], Renamelistc[i], i, count);  
       // printf("A : %s B : %s i %d, count %d\n", Renameliste[i+1], Renamelistc[i+1], i, count);
-      
-        S.parts(PART){
-          PART.instances(INSTANCE){
+      S.parts(PART){
+         PART.instances(INSTANCE){
             INSTANCE.gate.symbol.pins(PIN){
-              if ((PART.name == Renameliste[i] && PIN.name == Renamelistc[i]) ||
-              (PART.name == Renameliste[i + 1] && PIN.name == Renamelistc[i + 1])){
-                  PIN.wires(WIRE){  
-                      // printf("\t wire: (%f %f) (%f %f)\n", u2inch(WIRE.x1), u2inch(WIRE.y1), u2inch(WIRE.x2), u2inch(WIRE.y2));
-                      sprintf(new_name, "CLEAN_%d", j++);
-                      sprintf(cmd, "%s NAME %s (%f %f);", cmd, new_name, u2inch(WIRE.x1), u2inch(WIRE.y1));
-                      printf("NAME %s (%f %f)", new_name, u2inch(WIRE.x1), u2inch(WIRE.y1));
-                      if(!ruleout(Renameliste[i])){
+                  if ((PART.name == Renameliste[i] && PIN.name == Renamelistc[i]) ||
+                   (PART.name == Renameliste[i + 1] && PIN.name == Renamelistc[i + 1])){
+                     PIN.wires(WIRE){  
+                        // printf("\t wire: (%f %f) (%f %f)\n", u2inch(WIRE.x1), u2inch(WIRE.y1), u2inch(WIRE.x2), u2inch(WIRE.y2));
                         sprintf(new_name, "NEW_%d", count);
                         sprintf(cmd, "%s NAME %s (%f %f);", cmd, new_name, u2inch(WIRE.x1), u2inch(WIRE.y1));
                         printf("NAME %s (%f %f);\n", new_name, u2inch(WIRE.x1), u2inch(WIRE.y1));
-                      }
-                  }
-                  //printf("JP : %s NUM %s f : %d\n", Renameliste[i], Renamelistc[i], found);
-                  //found--;
-              }
+                     }
+                     //printf("JP : %s NUM %s f : %d\n", Renameliste[i], Renamelistc[i], found);
+                     //found--;
+                   }
+                }
             }
           }
         }
       }
-    }
 }
+
 exit(cmd);

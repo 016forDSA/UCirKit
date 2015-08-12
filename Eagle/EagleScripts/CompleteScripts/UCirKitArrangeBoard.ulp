@@ -1,0 +1,61 @@
+#include "UCirKitGlobalVarS.ulp"
+
+int minJpNum;
+int maxJpNum;
+
+void generateMoveCommand(string name, real x, real y){
+   sprintf(commands, "%s MOVE %s (%f %f);", commands, name, x, y);
+}
+
+void computeLargeCursorXY(int jpNum){
+   if (jpNum % numOfCols == 0){
+      largeCursorX = largeFemaleStartX + (numOfCols - 1) * xSpacingBetweenLargeFemaleHeaders;
+      largeCursorY = largeFemaleStartY - (jpNum / numOfCols - 1) * ySpacingBetweenLargeFemaleHeaders;
+   } else {
+      largeCursorX = largeFemaleStartX + ((jpNum % numOfCols) - 1) * xSpacingBetweenLargeFemaleHeaders;
+      largeCursorY = largeFemaleStartY - (jpNum / numOfCols) * ySpacingBetweenLargeFemaleHeaders;
+   }
+
+   if (jpNum % numOfCols > int(numOfCols/2) || jpNum % numOfCols == 0){
+      largeCursorX += (xSpacingBetweenLargeFemaleHeaders*3);
+   }
+}
+
+void computeSmallCursorXY(int jpNum){
+   jpNum -= numOfLargeFemaleContacts;
+
+   if (jpNum % (2*numOfRows) == 0){
+      smallCursorX = smallFemaleStartX + (jpNum / (2*numOfRows) - 1) * xSpacingBetweenSmallFemaleHeaders;
+      smallCursorY = smallFemaleStartY - ((2*numOfRows) - 1) * ySpacingBetweenSmallFemaleHeaders;
+   } else {
+      smallCursorX = smallFemaleStartX + (jpNum / (2*numOfRows)) * xSpacingBetweenSmallFemaleHeaders;
+      smallCursorY = smallFemaleStartY - ((jpNum % (2*numOfRows)) - 1) * ySpacingBetweenSmallFemaleHeaders;
+   }
+}
+
+void arrangeBoard(int minJp, int maxJp, int large, int mirror){
+   minJpNum = minJp;
+   maxJpNum = maxJp;
+
+   board(B){
+      B.elements(E){
+         int jpNum = strtol(strsub(E.name, 2, strlen(E.name)));
+
+         if (jpNum < minJpNum || jpNum > maxJpNum)
+            continue;
+
+         if (large){
+            computeLargeCursorXY(jpNum);
+            generateMoveCommand(E.name, largeCursorX, largeCursorY);
+         } else {
+            computeSmallCursorXY(jpNum);
+            generateMoveCommand(E.name, smallCursorX, smallCursorY);
+         }
+
+         if (mirror){
+            sprintf(commands, "%s MIRROR %s;", commands, E.name);
+         }
+      }
+   }
+}
+

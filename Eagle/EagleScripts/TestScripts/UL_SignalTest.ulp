@@ -1,0 +1,22 @@
+output("UL_SignalTest.txt"){
+   UL_SIGNAL sigs[];
+   int sigCount = 1;
+
+   board(B){
+      B.signals(S){
+         // printf("S.name = %s\n", S.name);
+         sigs[sigCount++] = S;
+         S.contactrefs(C){
+
+         }
+      }
+   }
+
+   // sigs[0] = 0;
+
+   for (int i = 0; i <= sigCount; ++i){
+      if (sigs[i]){
+         printf("sigs[%d] : %s\n", i, sigs[i].name);
+      }
+   }
+}

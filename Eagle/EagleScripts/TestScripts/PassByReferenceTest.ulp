@@ -1,0 +1,15 @@
+void passByRefFunction(int x, int y, int z){
+   x = 10;
+   y = 11;
+   z = 12;
+}
+
+output("PassByReferenceTest.txt"){
+   int a = 1, b = 2, c = 3;
+
+   printf("a = %d, b = %d, c = %d\n", a, b, c);
+
+   passByRefFunction(a, b, c);
+
+   printf("a = %d, b = %d, c = %d\n", a, b, c);
+}

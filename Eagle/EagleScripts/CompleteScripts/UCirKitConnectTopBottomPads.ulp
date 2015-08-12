@@ -1,0 +1,90 @@
+#include "UCirKitGlobalVarS.ulp"
+
+int renameToTopSignal = 0; //0 rename to bottom signals
+                           //1 rename to top signals
+
+UL_PIN topPins[];
+UL_PIN bottomPins[];
+
+UL_CONTACTREF topContactRefs[];
+UL_CONTACTREF bottomContactRefs[];
+
+UL_SIGNAL topSignals[];
+UL_SIGNAL bottomSignals[];
+
+void scanThruAllPairedPinsAndCollect(int minTopPinNum, int minBottomPinNum){
+   schematic(S){
+      S.parts(PART){
+         PART.instances(INSTANCE){
+            INSTANCE.gate.symbol.pins(PIN){
+               int jpNum = strtol(strsub(PART.name, 2, strlen(PART.name)));
+               
+               if (jpNum >= minTopPinNum && jpNum < minTopPinNum + numOfRows * numOfCols){
+                  topPins[jpNum - minTopPinNum] = PIN;
+               } else if (jpNum >= minBottomPinNum && jpNum < minBottomPinNum + numOfRows * numOfCols){
+                  bottomPins[jpNum - minBottomPinNum] = PIN;
+               }
+            }
+         }
+      }
+   }
+}
+
+void scanThruAllPairedContactsAndCollect(int minTopPinNum, int minBottomPinNum){
+   project.board(B){
+      B.signals(S){
+         S.contactrefs(C){
+            int jpNum = strtol(strsub(C.element.name, 2, strlen(C.element.name)));
+
+            if (jpNum >= minTopPinNum && jpNum < minTopPinNum + numOfRows * numOfCols){
+               topContactRefs[jpNum - minTopPinNum] = C;
+               topSignals[jpNum - minTopPinNum] = S;
+            } else if (jpNum >= minBottomPinNum && jpNum < minBottomPinNum + numOfRows * numOfCols){
+               bottomContactRefs[jpNum - minBottomPinNum] = C;
+               bottomSignals[jpNum - minBottomPinNum] = S;
+            }
+         }
+      }
+   }
+}
+
+// void connectTopBottomPads(){
+//    scanThruAllPairedPinsAndCollect();
+//    scanThruAllPairedContactsAndCollect();
+
+//    int countForNaming = 1;
+//    int timeForNaming = time();
+
+//    for (int i = 0; i < numOfRows * numOfCols; ++i){
+//       if (topPins[i] && bottomPins[i]){
+//          topPins[i].wires(WIRE){
+//             sprintf(commands, "%s NAME %d_%d (%f %f);", commands, countForNaming, timeForNaming, u2inch(WIRE.x1), u2inch(WIRE.y1));
+//          }
+
+//          bottomPins[i].wires(WIRE){
+//             sprintf(commands, "%s NAME %d_%d (%f %f);", commands, countForNaming++, timeForNaming, u2inch(WIRE.x1), u2inch(WIRE.y1));
+//          }
+//       }
+//    }
+// }
+
+void connectTopBottomPads(int minTopPinNum, int minBottomPinNum){
+   scanThruAllPairedPinsAndCollect(minTopPinNum, minBottomPinNum);
+   scanThruAllPairedContactsAndCollect(minTopPinNum, minBottomPinNum);
+
+   for (int i = 0; i < numOfRows * numOfCols; ++i){
+      if (topPins[i] && bottomPins[i]){
+         if (renameToTopSignal){
+            bottomPins[i].wires(WIRE){
+               sprintf(commands, "%s NAME %s (%f %f);", commands, topSignals[i].name, u2inch(WIRE.x1), u2inch(WIRE.y1));
+            }
+         }
+         else {
+            topPins[i].wires(WIRE){
+               sprintf(commands, "%s NAME %s (%f %f);", commands, bottomSignals[i].name, u2inch(WIRE.x1), u2inch(WIRE.y1));
+            }
+         }
+         
+      }
+   }
+}
