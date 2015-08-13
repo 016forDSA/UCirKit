@@ -23,46 +23,46 @@ output("RenameNetResults.txt"){
               count++;
                TempCx = u2mil(C.contact.x);
                TempCy = u2mil(C.contact.y);
-               if(TempCx >= 1900 ){ // right side
+               if(TempCx >= 2050 ){ // right side
                   GroupAx[Acount] = TempCx;
                   GroupAy[Acount] = TempCy;
                   GroupAe[Acount] = C.element.name;
                   GroupAc[Acount++] = C.contact.name;
-               } else if(TempCx <= 300){ // left side
+               } else if(TempCx <= 475){ // left side
                   GroupBx[Bcount] = TempCx;
                   GroupBy[Bcount] = TempCy;
                   GroupBe[Bcount] = C.element.name;
                   GroupBc[Bcount++] = C.contact.name;
-               } else if((TempCx <= 925 && TempCy >= 3600) || (TempCx <= 925 && TempCy <= 300)){ // top side
+               } else if((TempCx <= 1250 && TempCy >= 3600) || (TempCx <= 1250 && TempCy <= 450)){ // top side
                   GroupCx[Ccount] = TempCx;
                   GroupCy[Ccount] = TempCy;
                   GroupCe[Ccount] = C.element.name;
                   GroupCc[Ccount++] = C.contact.name;
-               } else if((TempCx >= 1275 && TempCy > 3400) || (TempCx >= 1275 && TempCy <= 300)){ // bottom side
+               } else if((TempCx >= 1275 && TempCy > 3450) || (TempCx >= 1275 && TempCy <= 450)){ // bottom side
                   GroupDx[Dcount] = TempCx;
                   GroupDy[Dcount] = TempCy;
                   GroupDe[Dcount] = C.element.name;
                   GroupDc[Dcount++] = C.contact.name;
                } else { // inner section
-                  if(TempCx >= 1400){
+                  if(TempCx >= 1600){
                   GroupEAx[EAcount] = TempCx;
                   GroupEAy[EAcount] = TempCy;
                   GroupEAf[EAcount] = 1;
                   GroupEAe[EAcount] = C.element.name;
                   GroupEAc[EAcount++] = C.contact.name;
-                } else if(TempCx <= 800){
+                } else if(TempCx <= 1000){
                   GroupEBx[EBcount] = TempCx;
                   GroupEBy[EBcount] = TempCy;
                   GroupEBf[EBcount] = 1;
                   GroupEBe[EBcount] = C.element.name;
                   GroupEBc[EBcount++] = C.contact.name;
-                } else if(TempCx == 900){
+                } else if(TempCx == 1100){
                   GroupECx[ECcount] = TempCx;
                   GroupECy[ECcount] = TempCy;
                   GroupECf[ECcount] = 1;
                   GroupECe[ECcount] = C.element.name;
                   GroupECc[ECcount++] = C.contact.name;
-                } else if(TempCx == 1300){
+                } else if(TempCx == 1500){
                   GroupEDx[EDcount] = TempCx;
                   GroupEDy[EDcount] = TempCy;
                   GroupEDf[EDcount] = 1;
