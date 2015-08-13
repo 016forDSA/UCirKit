@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="mm" style="lines" multiple="1" display="no" altdistance="0.025" altunitdist="inch" altunit="mm"/>
+<grid distance="0.05" unitdist="inch" unit="mm" style="lines" multiple="1" display="no" altdistance="0.127" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -710,30 +710,30 @@ design rules under a new name.</description>
 <element name="JP934" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.731" y="43.942" rot="MR0"/>
 <element name="JP935" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.731" y="42.672" rot="MR0"/>
 <element name="JP936" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.731" y="41.402" rot="MR0"/>
-<element name="JP937" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.731" y="40.132" rot="MR0"/>
-<element name="JP938" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.731" y="38.862" rot="MR0"/>
-<element name="JP939" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.731" y="37.592" rot="MR0"/>
-<element name="JP940" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.731" y="36.322" rot="MR0"/>
-<element name="JP941" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.731" y="35.052" rot="MR0"/>
-<element name="JP942" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.731" y="33.782" rot="MR0"/>
-<element name="JP943" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.731" y="32.512" rot="MR0"/>
-<element name="JP944" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.731" y="31.242" rot="MR0"/>
-<element name="JP945" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.731" y="29.972" rot="MR0"/>
-<element name="JP946" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.731" y="28.702" rot="MR0"/>
-<element name="JP947" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.731" y="27.432" rot="MR0"/>
-<element name="JP948" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.731" y="26.162" rot="MR0"/>
-<element name="JP949" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.731" y="24.892" rot="MR0"/>
-<element name="JP950" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.731" y="23.622" rot="MR0"/>
-<element name="JP951" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.731" y="22.352" rot="MR0"/>
-<element name="JP952" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.731" y="21.082" rot="MR0"/>
-<element name="JP953" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.731" y="19.812" rot="MR0"/>
-<element name="JP954" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.731" y="18.542" rot="MR0"/>
-<element name="JP955" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.731" y="17.272" rot="MR0"/>
-<element name="JP956" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.731" y="16.002" rot="MR0"/>
-<element name="JP957" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.731" y="14.732" rot="MR0"/>
-<element name="JP958" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.731" y="13.462" rot="MR0"/>
-<element name="JP959" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.731" y="12.192" rot="MR0"/>
-<element name="JP960" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.731" y="10.922" rot="MR0"/>
+<element name="JP937" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.731" y="24.892" rot="MR0"/>
+<element name="JP938" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.731" y="23.622" rot="MR0"/>
+<element name="JP939" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.731" y="22.352" rot="MR0"/>
+<element name="JP940" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.731" y="21.082" rot="MR0"/>
+<element name="JP941" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.731" y="19.812" rot="MR0"/>
+<element name="JP942" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.731" y="18.542" rot="MR0"/>
+<element name="JP943" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.731" y="17.272" rot="MR0"/>
+<element name="JP944" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.731" y="16.002" rot="MR0"/>
+<element name="JP945" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.731" y="14.732" rot="MR0"/>
+<element name="JP946" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.731" y="13.462" rot="MR0"/>
+<element name="JP947" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.731" y="12.192" rot="MR0"/>
+<element name="JP948" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.731" y="10.922" rot="MR0"/>
+<element name="JP949" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.731" y="26.162" rot="MR180"/>
+<element name="JP950" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.731" y="27.432" rot="MR180"/>
+<element name="JP951" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.731" y="28.702" rot="MR180"/>
+<element name="JP952" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.731" y="29.972" rot="MR180"/>
+<element name="JP953" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.731" y="31.242" rot="MR180"/>
+<element name="JP954" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.731" y="32.512" rot="MR180"/>
+<element name="JP955" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.731" y="33.782" rot="MR180"/>
+<element name="JP956" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.731" y="35.052" rot="MR180"/>
+<element name="JP957" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.731" y="36.322" rot="MR180"/>
+<element name="JP958" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.731" y="37.592" rot="MR180"/>
+<element name="JP959" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.731" y="38.862" rot="MR180"/>
+<element name="JP960" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="6.731" y="40.132" rot="MR180"/>
 <element name="JP961" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="8.509" y="85.852" rot="MR0"/>
 <element name="JP962" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="8.509" y="84.582" rot="MR0"/>
 <element name="JP963" library="SparkFun-Connectors" package="1X01_SMD_1.27X0.635MM_NO_SILK" value="" x="8.509" y="83.312" rot="MR0"/>
@@ -1159,122 +1159,122 @@ design rules under a new name.</description>
 <signal name="36_1439385772">
 <contactref element="JP937" pad="P$2"/>
 <contactref element="JP233" pad="1"/>
-<wire x1="6.731" y1="40.132" x2="22.225" y2="26.67" width="0" layer="19" extent="16-16"/>
+<wire x1="6.731" y1="24.892" x2="22.225" y2="26.67" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="37_1439385772">
 <contactref element="JP938" pad="P$2"/>
 <contactref element="JP224" pad="1"/>
-<wire x1="6.731" y1="38.862" x2="24.765" y2="29.21" width="0" layer="19" extent="16-16"/>
+<wire x1="6.731" y1="23.622" x2="24.765" y2="29.21" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="38_1439385772">
 <contactref element="JP939" pad="P$2"/>
 <contactref element="JP243" pad="1"/>
-<wire x1="6.731" y1="37.592" x2="22.225" y2="24.13" width="0" layer="19" extent="16-16"/>
+<wire x1="6.731" y1="22.352" x2="22.225" y2="24.13" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="39_1439385772">
 <contactref element="JP940" pad="P$2"/>
 <contactref element="JP234" pad="1"/>
-<wire x1="6.731" y1="36.322" x2="24.765" y2="26.67" width="0" layer="19" extent="16-16"/>
+<wire x1="6.731" y1="21.082" x2="24.765" y2="26.67" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="40_1439385772">
 <contactref element="JP941" pad="P$2"/>
 <contactref element="JP253" pad="1"/>
-<wire x1="6.731" y1="35.052" x2="22.225" y2="21.59" width="0" layer="19" extent="16-16"/>
+<wire x1="6.731" y1="19.812" x2="22.225" y2="21.59" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="41_1439385772">
 <contactref element="JP942" pad="P$2"/>
 <contactref element="JP244" pad="1"/>
-<wire x1="6.731" y1="33.782" x2="24.765" y2="24.13" width="0" layer="19" extent="16-16"/>
+<wire x1="6.731" y1="18.542" x2="24.765" y2="24.13" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="42_1439385772">
 <contactref element="JP943" pad="P$2"/>
 <contactref element="JP215" pad="1"/>
-<wire x1="6.731" y1="32.512" x2="27.305" y2="31.75" width="0" layer="19" extent="16-16"/>
+<wire x1="6.731" y1="17.272" x2="27.305" y2="31.75" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="43_1439385772">
 <contactref element="JP944" pad="P$2"/>
 <contactref element="JP254" pad="1"/>
-<wire x1="6.731" y1="31.242" x2="24.765" y2="21.59" width="0" layer="19" extent="16-16"/>
+<wire x1="6.731" y1="16.002" x2="24.765" y2="21.59" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="44_1439385772">
 <contactref element="JP945" pad="P$2"/>
 <contactref element="JP225" pad="1"/>
-<wire x1="6.731" y1="29.972" x2="27.305" y2="29.21" width="0" layer="19" extent="16-16"/>
+<wire x1="6.731" y1="14.732" x2="27.305" y2="29.21" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="45_1439385772">
 <contactref element="JP946" pad="P$2"/>
 <contactref element="JP235" pad="1"/>
-<wire x1="6.731" y1="28.702" x2="27.305" y2="26.67" width="0" layer="19" extent="16-16"/>
+<wire x1="6.731" y1="13.462" x2="27.305" y2="26.67" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="46_1439385772">
 <contactref element="JP947" pad="P$2"/>
 <contactref element="JP245" pad="1"/>
-<wire x1="6.731" y1="27.432" x2="27.305" y2="24.13" width="0" layer="19" extent="16-16"/>
+<wire x1="6.731" y1="12.192" x2="27.305" y2="24.13" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="47_1439385772">
 <contactref element="JP948" pad="P$2"/>
 <contactref element="JP255" pad="1"/>
-<wire x1="6.731" y1="26.162" x2="27.305" y2="21.59" width="0" layer="19" extent="16-16"/>
+<wire x1="6.731" y1="10.922" x2="27.305" y2="21.59" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="48_1439385772">
 <contactref element="JP949" pad="P$2"/>
 <contactref element="JP205" pad="1"/>
-<wire x1="6.731" y1="24.892" x2="27.305" y2="34.29" width="0" layer="19" extent="16-16"/>
+<wire x1="6.731" y1="26.162" x2="27.305" y2="34.29" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="49_1439385772">
 <contactref element="JP950" pad="P$2"/>
 <contactref element="JP195" pad="1"/>
-<wire x1="6.731" y1="23.622" x2="27.305" y2="36.83" width="0" layer="19" extent="16-16"/>
+<wire x1="6.731" y1="27.432" x2="27.305" y2="36.83" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="50_1439385772">
 <contactref element="JP951" pad="P$2"/>
 <contactref element="JP185" pad="1"/>
-<wire x1="6.731" y1="22.352" x2="27.305" y2="39.37" width="0" layer="19" extent="16-16"/>
+<wire x1="6.731" y1="28.702" x2="27.305" y2="39.37" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="51_1439385772">
 <contactref element="JP952" pad="P$2"/>
 <contactref element="JP175" pad="1"/>
-<wire x1="6.731" y1="21.082" x2="27.305" y2="41.91" width="0" layer="19" extent="16-16"/>
+<wire x1="6.731" y1="29.972" x2="27.305" y2="41.91" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="52_1439385772">
 <contactref element="JP953" pad="P$2"/>
 <contactref element="JP165" pad="1"/>
-<wire x1="6.731" y1="19.812" x2="27.305" y2="44.45" width="0" layer="19" extent="16-16"/>
+<wire x1="6.731" y1="31.242" x2="27.305" y2="44.45" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="53_1439385772">
 <contactref element="JP954" pad="P$2"/>
 <contactref element="JP155" pad="1"/>
-<wire x1="6.731" y1="18.542" x2="27.305" y2="46.99" width="0" layer="19" extent="16-16"/>
+<wire x1="6.731" y1="32.512" x2="27.305" y2="46.99" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="54_1439385772">
 <contactref element="JP955" pad="P$2"/>
 <contactref element="JP145" pad="1"/>
-<wire x1="6.731" y1="17.272" x2="27.305" y2="49.53" width="0" layer="19" extent="16-16"/>
+<wire x1="6.731" y1="33.782" x2="27.305" y2="49.53" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="55_1439385772">
 <contactref element="JP956" pad="P$2"/>
 <contactref element="JP135" pad="1"/>
-<wire x1="6.731" y1="16.002" x2="27.305" y2="52.07" width="0" layer="19" extent="16-16"/>
+<wire x1="6.731" y1="35.052" x2="27.305" y2="52.07" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="56_1439385772">
 <contactref element="JP957" pad="P$2"/>
 <contactref element="JP125" pad="1"/>
-<wire x1="6.731" y1="14.732" x2="27.305" y2="54.61" width="0" layer="19" extent="16-16"/>
+<wire x1="6.731" y1="36.322" x2="27.305" y2="54.61" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="57_1439385772">
 <contactref element="JP958" pad="P$2"/>
 <contactref element="JP115" pad="1"/>
-<wire x1="6.731" y1="13.462" x2="27.305" y2="57.15" width="0" layer="19" extent="16-16"/>
+<wire x1="6.731" y1="37.592" x2="27.305" y2="57.15" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="58_1439385772">
 <contactref element="JP959" pad="P$2"/>
 <contactref element="JP105" pad="1"/>
-<wire x1="6.731" y1="12.192" x2="27.305" y2="59.69" width="0" layer="19" extent="16-16"/>
+<wire x1="6.731" y1="38.862" x2="27.305" y2="59.69" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="59_1439385772">
 <contactref element="JP960" pad="P$2"/>
 <contactref element="JP95" pad="1"/>
-<wire x1="6.731" y1="10.922" x2="27.305" y2="62.23" width="0" layer="19" extent="16-16"/>
+<wire x1="6.731" y1="40.132" x2="27.305" y2="62.23" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="0_1439385713">
 <contactref element="JP961" pad="P$2"/>
