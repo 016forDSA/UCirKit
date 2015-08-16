@@ -12,28 +12,32 @@ real xSpacingForLargeFemaleHeader = 1.0;
 real ySpacingForLargeFemaleHeader = 0.48;
 
 int largePadPartNum = 1;
-string largePadPartStr = "M01PTH_SMD_3.25X0.85MM_NO_SILK";
+string largePadPartStr = "M01PTH_SMD_2.18X1.0668MM_NO_SILK";
 real xSpacingForLargePadPart = 1.0;
 real ySpacingForLargePadPart = 0.48;
 
 int numOfLargeFemaleContacts = numOfRows * numOfCols;
 
 int smallFemaleHeaderPartNum = 1;
-string smallFemaleHeaderPartStr = "M01PTH_SMD_3.25X0.85MM_NO_SILK";
+string smallFemaleHeaderPartStr = "M01PTH_SMD_1.27X0.635MM_NO_SILK";
 real xSpacingForSmallFemaleHeader = 1.0;
 real ySpacingForSmallFemaleHeader = 0.48;
 
 
 //---- Board information
-real largeFemaleStartX = 15.24;  //mm
-real largeFemaleStartY = 86.36;  //mm
-real largeCursorX = 15.24;       //mm
-real largeCursorY = 86.36;       //mm
+real largeFemaleStartX = 17.145;  //mm
+real largeFemaleStartY = 85.09;  //mm
+// real largeCursorX = 15.24;       //mm
+// real largeCursorY = 86.36;       //mm
 
 real smallFemaleStartX = 59.436;   //mm
 real smallFemaleStartY = 85.852;   //mm
-real smallCursorX = 50.546;       //mm
-real smallCursorY = 87.122;       //mm
+// real smallCursorX = 50.546;       //mm
+// real smallCursorY = 87.122;       //mm
+
+real innerContactStartX = 17.145;   //mm
+real innerContactStartY = 8.89;    //mm
+
 
 // int numOfDivisionsX = 2;
 // int numOfDivisionsY = 1;
@@ -47,11 +51,15 @@ real smallCursorY = 87.122;       //mm
 real xSpacingBetweenLargeFemaleHeaders = 2.54; //mm
 real ySpacingBetweenLargeFemaleHeaders = 2.54; //mm
 
-real xSpacingBetweenSmallFemaleHeaders = 1.778; //mm
+real xSpacingBetweenSmallFemaleHeaders = 4; //mm
 real ySpacingBetweenSmallFemaleHeaders = 1.27; //mm
 
-int large = 1;
+real xSpacingBetweenInnerContacts = 4;
+real ySpacingBetweenInnerContacts = 2.54;
+
 int mirror = 1;
+int breadboard = 1;
+int colIncrement = 1;
 
 //---- Eagle Commands
 string commands = "";

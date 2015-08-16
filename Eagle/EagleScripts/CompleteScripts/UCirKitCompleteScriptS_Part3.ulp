@@ -4,23 +4,56 @@
 output("UCirKitCompleteScriptS_Part3.txt"){
    arrangeBoard(1,
                 numOfRows * numOfCols,
-                large,
-                !mirror);
+                colIncrement,
+                !mirror,
+                breadboard,
+                largeFemaleStartX,
+                largeFemaleStartY,
+                xSpacingBetweenLargeFemaleHeaders,
+                ySpacingBetweenLargeFemaleHeaders,
+                numOfRows,
+                numOfCols);
 
    arrangeBoard(numOfRows * numOfCols + 1,
                 2 * numOfRows * numOfCols,
-                large,
-                !mirror);
+                colIncrement,
+                !mirror,
+                !breadboard,
+                innerContactStartX,
+                innerContactStartY,
+                xSpacingBetweenInnerContacts,
+                ySpacingBetweenInnerContacts,
+                numOfRows,
+                numOfCols);
 
    arrangeBoard(2 * numOfRows * numOfCols + 1,
                 3 * numOfRows * numOfCols,
-                !large,
-                !mirror);
+                !colIncrement,
+                !mirror,
+                !breadboard,
+                smallFemaleStartX,
+                smallFemaleStartY,
+                xSpacingBetweenSmallFemaleHeaders,
+                ySpacingBetweenSmallFemaleHeaders,
+                int(2*numOfRows),
+                int(numOfCols/2));
 
    arrangeBoard(3 * numOfRows * numOfCols + 1,
                 4 * numOfRows * numOfCols,
-                !large,
-                mirror);
+                !colIncrement,
+                mirror,
+                !breadboard,
+                smallFemaleStartX + numOfCols * xSpacingBetweenSmallFemaleHeaders,
+                smallFemaleStartY,
+                xSpacingBetweenSmallFemaleHeaders,
+                ySpacingBetweenSmallFemaleHeaders,
+                int(2*numOfRows),
+                int(numOfCols/2));
+
+   // arrangeBoard(301,
+   //              600,
+   //              large,
+   //              !mirror);
 
    // printf(commands);
 }
