@@ -12,14 +12,14 @@ real xSpacingForLargeFemaleHeader = 1.0;
 real ySpacingForLargeFemaleHeader = 0.48;
 
 int largePadPartNum = 1;
-string largePadPartStr = "M01PTH_SMD_2.18X1.0668MM_NO_SILK";
+string largePadPartStr = "M01PTH_SMD_3.25X0.85MM_NO_SILK";
 real xSpacingForLargePadPart = 1.0;
 real ySpacingForLargePadPart = 0.48;
 
 int numOfLargeFemaleContacts = numOfRows * numOfCols;
 
 int smallFemaleHeaderPartNum = 1;
-string smallFemaleHeaderPartStr = "M01PTH_SMD_1.27X0.635MM_NO_SILK";
+string smallFemaleHeaderPartStr = "M01PTH_SMD_3.25X0.85MM_NO_SILK";
 real xSpacingForSmallFemaleHeader = 1.0;
 real ySpacingForSmallFemaleHeader = 0.48;
 
