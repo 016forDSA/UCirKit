@@ -23,46 +23,46 @@ output("RenameNetResults.txt"){
               count++;
                TempCx = u2mil(C.contact.x);
                TempCy = u2mil(C.contact.y);
-               if(TempCx >= 2050 ){ // right side
+               if(TempCx >= 2380 ){ // right side
                   GroupAx[Acount] = TempCx;
                   GroupAy[Acount] = TempCy;
                   GroupAe[Acount] = C.element.name;
                   GroupAc[Acount++] = C.contact.name;
-               } else if(TempCx <= 475){ // left side
+               } else if(TempCx <= 490){ // left side
                   GroupBx[Bcount] = TempCx;
                   GroupBy[Bcount] = TempCy;
                   GroupBe[Bcount] = C.element.name;
                   GroupBc[Bcount++] = C.contact.name;
-               } else if((TempCx <= 1250 && TempCy >= 3600) || (TempCx <= 1250 && TempCy <= 350)){ // top side
+               } else if((TempCx <= 1270 && TempCy >= 3500) || (TempCx <= 1270 && TempCy <= 230)){ // top side
                   GroupCx[Ccount] = TempCx;
                   GroupCy[Ccount] = TempCy;
                   GroupCe[Ccount] = C.element.name;
                   GroupCc[Ccount++] = C.contact.name;
-               } else if((TempCx >= 1275 && TempCy > 3450) || (TempCx >= 1275 && TempCy <= 350)){ // bottom side
+               } else if((TempCx >= 1270 && TempCy >= 3500) || (TempCx >= 1270 && TempCy <= 230)){ // bottom side
                   GroupDx[Dcount] = TempCx;
                   GroupDy[Dcount] = TempCy;
                   GroupDe[Dcount] = C.element.name;
                   GroupDc[Dcount++] = C.contact.name;
                } else { // inner section
-                  if(TempCx >= 1550){
+                  if(TempCx >= 1700){
                   GroupEAx[EAcount] = TempCx;
                   GroupEAy[EAcount] = TempCy;
                   GroupEAf[EAcount] = 1;
                   GroupEAe[EAcount] = C.element.name;
                   GroupEAc[EAcount++] = C.contact.name;
-                } else if(TempCx <= 1000){
+                } else if(TempCx <= 1140){
                   GroupEBx[EBcount] = TempCx;
                   GroupEBy[EBcount] = TempCy;
                   GroupEBf[EBcount] = 1;
                   GroupEBe[EBcount] = C.element.name;
                   GroupEBc[EBcount++] = C.contact.name;
-                } else if(TempCx >= 1050 && TempCx <= 1150){
+                } else if(TempCx >= 1230 && TempCx <= 1240){
                   GroupECx[ECcount] = TempCx;
                   GroupECy[ECcount] = TempCy;
                   GroupECf[ECcount] = 1;
                   GroupECe[ECcount] = C.element.name;
                   GroupECc[ECcount++] = C.contact.name;
-                } else if(TempCx >= 1450 && TempCx <= 1550){
+                } else if(TempCx >= 1630 && TempCx <= 1640){
                   GroupEDx[EDcount] = TempCx;
                   GroupEDy[EDcount] = TempCy;
                   GroupEDf[EDcount] = 1;
@@ -81,7 +81,7 @@ output("RenameNetResults.txt"){
         found = 1;
         for(j = 0; j < EAcount && found; j++){
            // printf("%s %s %d %s %s %d\n", GroupAe[i], GroupAc[i], GroupAy[i], GroupEAe[j], GroupEAc[j], GroupEAy[j]);
-            if((GroupAy[i] == (GroupEAy[j] + 30) || GroupAy[i] == (GroupEAy[j] - 20)) && GroupEAf[j]){
+            if((GroupAy[i] == (GroupEAy[j] + 21) || GroupAy[i] == (GroupEAy[j] - 29)) && GroupEAf[j]){
                GroupEAf[j] = 0;
                sprintf(Renameliste[Rcount], "%s", GroupEAe[j]);
                sprintf(Renamelistc[Rcount++], "%s", GroupEAc[j]);
@@ -94,7 +94,7 @@ output("RenameNetResults.txt"){
       for(i = 0; i < Bcount; i++){
          found = 1;
          for(j = 0; j < EBcount && found; j++){
-            if((GroupBy[i] == (GroupEBy[j] + 30) || GroupBy[i] == (GroupEBy[j] - 20)) && GroupEBf[j]){
+            if((GroupBy[i] == (GroupEBy[j] + 20) || GroupBy[i] == (GroupEBy[j] - 30)) && GroupEBf[j]){
                GroupEBf[j] = 0;
                sprintf(Renameliste[Rcount], "%s", GroupEBe[j]);
                sprintf(Renamelistc[Rcount++], "%s", GroupEBc[j]);
@@ -106,22 +106,22 @@ output("RenameNetResults.txt"){
       }
       for(i = 0; i < Ccount; i++){
          for(j = 0; j < ECcount; j++){
-            if(GroupCy[i] <= 300){
-               if(((GroupCx[i]-645)*2 + 450 ) == GroupECy[j]){
+            if(GroupCy[i] <= 230){
+               if(((GroupCx[i]-815)*2 + 399 ) == GroupECy[j]){
                   sprintf(Renameliste[Rcount], "%s", GroupECe[j]);
                   sprintf(Renamelistc[Rcount++], "%s", GroupECc[j]);
                   sprintf(Renameliste[Rcount], "%s", GroupCe[i]);
                   sprintf(Renamelistc[Rcount++], "%s", GroupCc[i]);
                }
-            } else if(GroupCy[i] == 3720){
-               if((2350 - ((GroupCx[i]-645)*2 ) == GroupECy[j])){
+            } else if(GroupCy[i] == 3520){
+               if((2299 - ((GroupCx[i]-815)*2 ) == GroupECy[j])){
                   sprintf(Renameliste[Rcount], "%s", GroupECe[j]);
                   sprintf(Renamelistc[Rcount++], "%s", GroupECc[j]);
                   sprintf(Renameliste[Rcount], "%s", GroupCe[i]);
                   sprintf(Renamelistc[Rcount++], "%s", GroupCc[i]);
                }   
             } else {
-               if((3350 - ((GroupCx[i]-645)*2 ) == GroupECy[j])){
+               if((3299 - ((GroupCx[i]-815)*2 ) == GroupECy[j])){
                   sprintf(Renameliste[Rcount], "%s", GroupECe[j]);
                   sprintf(Renamelistc[Rcount++], "%s", GroupECc[j]);
                   sprintf(Renameliste[Rcount], "%s", GroupCe[i]);
@@ -132,22 +132,22 @@ output("RenameNetResults.txt"){
       }
       for(i = 0; i < Dcount; i++){
          for(j = 0; j < EDcount; j++){
-            if(GroupDy[i] <= 300){
-               if(((1895 - GroupDx[i])*2 + 450 ) == GroupEDy[j]){
+            if(GroupDy[i] <= 230){
+               if(((2058 - GroupDx[i])*2 + 399 ) == GroupEDy[j]){
                   sprintf(Renameliste[Rcount], "%s", GroupEDe[j]);
                   sprintf(Renamelistc[Rcount++], "%s", GroupEDc[j]);
                   sprintf(Renameliste[Rcount], "%s", GroupDe[i]);
                   sprintf(Renamelistc[Rcount++], "%s", GroupDc[i]);
                }
-            } else if(GroupDy[i] == 3720){
-               if((2350 - ((1895 - GroupDx[i])*2 ) == GroupEDy[j])){
+            } else if(GroupDy[i] == 3523){
+               if((2299 - ((2058 - GroupDx[i])*2 ) == GroupEDy[j])){
                   sprintf(Renameliste[Rcount], "%s", GroupEDe[j]);
                   sprintf(Renamelistc[Rcount++], "%s", GroupEDc[j]);
                   sprintf(Renameliste[Rcount], "%s", GroupDe[i]);
                   sprintf(Renamelistc[Rcount++], "%s", GroupDc[i]);
                }   
             } else {
-               if((3350 - ((1895 - GroupDx[i])*2 ) == GroupEDy[j])){
+               if((3299 - ((2058 - GroupDx[i])*2 ) == GroupEDy[j])){
                   sprintf(Renameliste[Rcount], "%s", GroupEDe[j]);
                   sprintf(Renamelistc[Rcount++], "%s", GroupEDc[j]);
                   sprintf(Renameliste[Rcount], "%s", GroupDe[i]);
