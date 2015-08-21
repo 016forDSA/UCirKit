@@ -1,6 +1,6 @@
 #include "UCirKitGlobalVarS.ulp"
 
-int renameToTopSignal = 0; //0 rename to bottom signals
+int renameToTopSignal = 1; //0 rename to bottom signals
                            //1 rename to top signals
 
 UL_PIN topPins[];

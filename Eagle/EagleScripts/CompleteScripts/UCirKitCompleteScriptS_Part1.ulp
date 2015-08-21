@@ -31,7 +31,6 @@ output("UCirKitCompleteScriptS_Part1.txt"){
                         xSpacingForSmallFemaleHeader,
                         ySpacingForSmallFemaleHeader);
 
-   // addNetOnAllPins();
    // printf(commands);
 }
 

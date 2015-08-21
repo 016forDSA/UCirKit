@@ -1,0 +1,1 @@
+sFIdx = 0, lFMinDisIdx = 0, sFMinDisIdx = 0
