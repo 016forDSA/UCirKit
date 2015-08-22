@@ -1,0 +1,5 @@
+output("UL_AreaTest.txt"){
+   board(B){
+      printf("Area: (%f %f), (%f %f)\n", u2inch(B.area.x1), u2inch(B.area.y1), u2inch(B.area.x2), u2inch(B.area.y2));
+   }
+}
