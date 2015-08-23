@@ -1,0 +1,37 @@
+#include "UCirKitGlobalVarS2.ulp"
+#include "UCirKitAddFemaleHeaderArray.ulp"
+
+//---- Execution
+output("UCirKitCompleteScriptS_Part1.txt"){
+   addFemaleHeaderArray(numOfRows,
+                        numOfCols,
+                        largeFemaleHeaderPartNum,
+                        largeFemaleHeaderPartStr,
+                        xSpacingForLargeFemaleHeader,
+                        ySpacingForLargeFemaleHeader);
+
+   addFemaleHeaderArray(numOfRows,
+                        numOfCols,
+                        largePadPartNum,
+                        largePadPartStr,
+                        xSpacingForLargePadPart,
+                        ySpacingForLargePadPart);
+
+   addFemaleHeaderArray(numOfRows,
+                        numOfCols,
+                        smallFemaleHeaderPartNum,
+                        smallFemaleHeaderPartStr,
+                        xSpacingForSmallFemaleHeader,
+                        ySpacingForSmallFemaleHeader);
+
+   addFemaleHeaderArray(numOfRows,
+                        numOfCols,
+                        smallFemaleHeaderPartNum,
+                        smallFemaleHeaderPartStr,
+                        xSpacingForSmallFemaleHeader,
+                        ySpacingForSmallFemaleHeader);
+
+   // printf(commands);
+}
+
+exit(commands);

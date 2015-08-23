@@ -1,0 +1,12 @@
+#include "UCirKitGlobalVarS2.ulp"
+#include "UCirKitConnectTopBottomPads.ulp"
+
+
+//---- Execution
+output("UCirKitCompleteScriptS_Part5.txt"){
+   connectTopBottomPads(2 * numOfRows * numOfCols + 1, 3 * numOfRows * numOfCols + 1);
+
+   // printf(commands);
+}
+
+exit(commands);

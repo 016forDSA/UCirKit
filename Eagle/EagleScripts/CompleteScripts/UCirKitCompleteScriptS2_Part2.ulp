@@ -1,0 +1,11 @@
+#include "UCirKitGlobalVarS2.ulp"
+#include "UCirKitAddNetOnAllPins.ulp"
+
+//---- Execution
+output("UCirKitCompleteScriptS_Part2.txt"){
+   addNetOnAllPins();
+
+   // printf(commands);
+}
+
+exit(commands);

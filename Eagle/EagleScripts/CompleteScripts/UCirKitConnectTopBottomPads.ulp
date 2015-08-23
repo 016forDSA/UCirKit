@@ -1,4 +1,4 @@
-#include "UCirKitGlobalVarS.ulp"
+#include "UCirKitGlobalVarS2.ulp"
 
 int renameToTopSignal = 1; //0 rename to bottom signals
                            //1 rename to top signals

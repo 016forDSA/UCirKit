@@ -100,7 +100,7 @@ void computeCursorXYByRow(int jpNum){
 // }
 
 void arrangeBoard(int minJp, int maxJp,
-                  int isColIncrement, int isMirror, int isBreadboard,
+                  int isColIncrement, int isMirror, int isBreadboard, int isVertical,
                   real x, real y,
                   real xCustomSpacing, real yCustomSpacing,
                   int cusNumOfRows, int cusNumOfCols){
@@ -132,6 +132,12 @@ void arrangeBoard(int minJp, int maxJp,
          }
 
          generateMoveCommand(E.name, cursorX, cursorY);
+
+         if (isVertical){
+            sprintf(commands, "%s ROTATE =R270 %s;", commands, E.name);
+         }
+
+         printf("E.mirror = %d\n", E.mirror);
 
          if (isMirror){
             sprintf(commands, "%s MIRROR %s;", commands, E.name);
