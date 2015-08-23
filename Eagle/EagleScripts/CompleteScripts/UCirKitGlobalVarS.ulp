@@ -1,8 +1,14 @@
-//---- Breadboard-like general information
+//*************************************************************************
+//****************   Breadboard-like general information    ***************
+//*************************************************************************
 int numOfRows = 30;
 int numOfCols = 10;
 
-//---- Schematic information
+
+
+//*************************************************************************
+//**********************  Schematic information  **************************
+//*************************************************************************
 real xCursor = 0;
 real yCursor = 0;
 
@@ -26,7 +32,11 @@ real xSpacingForSmallFemaleHeader = 1.0;
 real ySpacingForSmallFemaleHeader = 0.48;
 
 
-//---- Board information
+
+//*************************************************************************
+//***************************   Board information   ***********************
+//*************************************************************************
+
 // real largeFemaleStartX = 21;  //mm
 // real largeFemaleStartY = 88;  //mm
 
@@ -51,6 +61,11 @@ real ySpacingBetweenOuterContactsForUpAndDownZones = 4.191; //mm
 real marginToVerticalBorder = 4;    //mm
 real marginToTopHorizontalBorder = 4.8;      //mm
 real marginToBottomHorizontalBorder = 5.9;   //mm
+
+real holeDiameter = 3;  //mm
+real holeToTopHorizontalBorder = 14;   //mm
+real holeToBottomHorizontalBorder = 10;   //mm
+real holeToVerticalBorder = 15;  //mm
 
 real boardWidth;
 real boardHeight;
@@ -96,7 +111,8 @@ int lowerRightOuterPadsJpStartNum = lowerLeftOuterPadsJpEndNum + 1;
 int lowerRightOuterPadsJpEndNum = lowerRightOuterPadsJpStartNum - 1 + numOfCols/2 * 2;
 
 real innerPadsStartX = boardWidth/2 - xSpacingBetweenInnerContacts * (real(numOfCols)/2 - 0.5);
-real innerPadsStartY = boardHeight/2 + ySpacingBetweenInnerContacts * (real(numOfRows)/2 - 1 + 0.5);
+// real innerPadsStartY = boardHeight/2 + ySpacingBetweenInnerContacts * (real(numOfRows)/2 - 1 + 0.5);
+real innerPadsStartY = (boardHeight - holeToTopHorizontalBorder + holeToBottomHorizontalBorder)/2 + ySpacingBetweenInnerContacts * (real(numOfRows)/2 - 1 + 0.5);
 int innerPadsJpStartNum = numOfRows * numOfCols + 1;
 int innerPadsJpEndNum = numOfRows * numOfCols * 2;
 
@@ -105,5 +121,10 @@ int breadboard = 1;
 int colIncrement = 1;
 int rotateToVertical = 1;
 
-//---- Eagle Commands
+
+
+//*************************************************************************
+//**************************  Eagle Commands  *****************************
+//*************************************************************************
+
 string commands = "";

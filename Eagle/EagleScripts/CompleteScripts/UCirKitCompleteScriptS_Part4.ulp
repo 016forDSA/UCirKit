@@ -1,12 +1,9 @@
 #include "UCirKitGlobalVarS.ulp"
-#include "UCirKitConnectTopBottomPads.ulp"
-
+#include "UCirKitAdd4Holes.ulp"
 
 //---- Execution
 output("UCirKitCompleteScriptS_Part4.txt"){
-   connectTopBottomPads(2 * numOfRows * numOfCols + 1, 3 * numOfRows * numOfCols + 1);
-
-   // connectTopBottomPads(2 * numOfRows * numOfCols + 1, numOfRows * numOfCols + 1);
+   add4Holes();
 
    // printf(commands);
 }

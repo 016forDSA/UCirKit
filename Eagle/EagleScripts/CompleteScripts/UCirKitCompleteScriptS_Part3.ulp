@@ -113,12 +113,12 @@ output("UCirKitCompleteScriptS_Part3.txt"){
                 innerPadsJpEndNum,
                 colIncrement,
                 !mirror,
-                !breadboard,
+                breadboard,
                 !rotateToVertical,
-                innerPadsStartX,
-                innerPadsStartY,
-                xSpacingBetweenInnerContacts,
-                ySpacingBetweenInnerContacts,
+                largeFemaleStartX,
+                largeFemaleStartY,
+                xSpacingBetweenLargeFemaleHeaders,
+                ySpacingBetweenLargeFemaleHeaders,
                 numOfRows,
                 numOfCols);
 
