@@ -160,6 +160,20 @@
 <hole x="13.5" y="90.5" drill="4"/>
 <hole x="56.5" y="90.5" drill="4"/>
 <hole x="56.5" y="9.5" drill="4"/>
+<text x="16.637" y="85.979" size="1.778" layer="21">1</text>
+<text x="51.943" y="86.106" size="1.778" layer="21">1</text>
+<text x="16.637" y="75.819" size="1.778" layer="21">5</text>
+<text x="52.07" y="75.692" size="1.778" layer="21">5</text>
+<text x="15.113" y="63.119" size="1.778" layer="21">10</text>
+<text x="51.816" y="63.119" size="1.778" layer="21">10</text>
+<text x="15.113" y="50.292" size="1.778" layer="21">15</text>
+<text x="51.816" y="50.419" size="1.778" layer="21">15</text>
+<text x="15.113" y="37.719" size="1.778" layer="21">20</text>
+<text x="51.943" y="37.846" size="1.778" layer="21">20</text>
+<text x="15.24" y="24.892" size="1.778" layer="21">25</text>
+<text x="52.07" y="24.892" size="1.778" layer="21">25</text>
+<text x="15.367" y="12.319" size="1.778" layer="21">30</text>
+<text x="52.07" y="12.192" size="1.778" layer="21">30</text>
 </plain>
 <libraries>
 <library name="SparkFun-Connectors">

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.3.0">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -283,9 +283,6 @@ design rules under a new name.</description>
 <autorouter>
 <pass name="Default">
 <param name="RoutingGrid" value="50mil"/>
-<param name="AutoGrid" value="1"/>
-<param name="Efforts" value="0"/>
-<param name="TopRouterVariant" value="1"/>
 <param name="tpViaShape" value="round"/>
 <param name="PrefDir.1" value="|"/>
 <param name="PrefDir.2" value="0"/>
@@ -979,186 +976,6 @@ design rules under a new name.</description>
 <element name="JP1200" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="53.415" y="3" rot="MR270"/>
 </elements>
 <signals>
-<signal name="N$5">
-<contactref element="JP5" pad="1"/>
-</signal>
-<signal name="N$6">
-<contactref element="JP6" pad="1"/>
-</signal>
-<signal name="N$15">
-<contactref element="JP15" pad="1"/>
-</signal>
-<signal name="N$16">
-<contactref element="JP16" pad="1"/>
-</signal>
-<signal name="N$25">
-<contactref element="JP25" pad="1"/>
-</signal>
-<signal name="N$26">
-<contactref element="JP26" pad="1"/>
-</signal>
-<signal name="N$35">
-<contactref element="JP35" pad="1"/>
-</signal>
-<signal name="N$36">
-<contactref element="JP36" pad="1"/>
-</signal>
-<signal name="N$45">
-<contactref element="JP45" pad="1"/>
-</signal>
-<signal name="N$46">
-<contactref element="JP46" pad="1"/>
-</signal>
-<signal name="N$55">
-<contactref element="JP55" pad="1"/>
-</signal>
-<signal name="N$56">
-<contactref element="JP56" pad="1"/>
-</signal>
-<signal name="N$65">
-<contactref element="JP65" pad="1"/>
-</signal>
-<signal name="N$66">
-<contactref element="JP66" pad="1"/>
-</signal>
-<signal name="N$75">
-<contactref element="JP75" pad="1"/>
-</signal>
-<signal name="N$76">
-<contactref element="JP76" pad="1"/>
-</signal>
-<signal name="N$85">
-<contactref element="JP85" pad="1"/>
-</signal>
-<signal name="N$86">
-<contactref element="JP86" pad="1"/>
-</signal>
-<signal name="N$95">
-<contactref element="JP95" pad="1"/>
-</signal>
-<signal name="N$96">
-<contactref element="JP96" pad="1"/>
-</signal>
-<signal name="N$105">
-<contactref element="JP105" pad="1"/>
-</signal>
-<signal name="N$106">
-<contactref element="JP106" pad="1"/>
-</signal>
-<signal name="N$115">
-<contactref element="JP115" pad="1"/>
-</signal>
-<signal name="N$116">
-<contactref element="JP116" pad="1"/>
-</signal>
-<signal name="N$125">
-<contactref element="JP125" pad="1"/>
-</signal>
-<signal name="N$126">
-<contactref element="JP126" pad="1"/>
-</signal>
-<signal name="N$135">
-<contactref element="JP135" pad="1"/>
-</signal>
-<signal name="N$136">
-<contactref element="JP136" pad="1"/>
-</signal>
-<signal name="N$145">
-<contactref element="JP145" pad="1"/>
-</signal>
-<signal name="N$146">
-<contactref element="JP146" pad="1"/>
-</signal>
-<signal name="N$155">
-<contactref element="JP155" pad="1"/>
-</signal>
-<signal name="N$156">
-<contactref element="JP156" pad="1"/>
-</signal>
-<signal name="N$165">
-<contactref element="JP165" pad="1"/>
-</signal>
-<signal name="N$166">
-<contactref element="JP166" pad="1"/>
-</signal>
-<signal name="N$175">
-<contactref element="JP175" pad="1"/>
-</signal>
-<signal name="N$176">
-<contactref element="JP176" pad="1"/>
-</signal>
-<signal name="N$185">
-<contactref element="JP185" pad="1"/>
-</signal>
-<signal name="N$186">
-<contactref element="JP186" pad="1"/>
-</signal>
-<signal name="N$195">
-<contactref element="JP195" pad="1"/>
-</signal>
-<signal name="N$196">
-<contactref element="JP196" pad="1"/>
-</signal>
-<signal name="N$205">
-<contactref element="JP205" pad="1"/>
-</signal>
-<signal name="N$206">
-<contactref element="JP206" pad="1"/>
-</signal>
-<signal name="N$215">
-<contactref element="JP215" pad="1"/>
-</signal>
-<signal name="N$216">
-<contactref element="JP216" pad="1"/>
-</signal>
-<signal name="N$225">
-<contactref element="JP225" pad="1"/>
-</signal>
-<signal name="N$226">
-<contactref element="JP226" pad="1"/>
-</signal>
-<signal name="N$235">
-<contactref element="JP235" pad="1"/>
-</signal>
-<signal name="N$236">
-<contactref element="JP236" pad="1"/>
-</signal>
-<signal name="N$245">
-<contactref element="JP245" pad="1"/>
-</signal>
-<signal name="N$246">
-<contactref element="JP246" pad="1"/>
-</signal>
-<signal name="N$255">
-<contactref element="JP255" pad="1"/>
-</signal>
-<signal name="N$256">
-<contactref element="JP256" pad="1"/>
-</signal>
-<signal name="N$265">
-<contactref element="JP265" pad="1"/>
-</signal>
-<signal name="N$266">
-<contactref element="JP266" pad="1"/>
-</signal>
-<signal name="N$275">
-<contactref element="JP275" pad="1"/>
-</signal>
-<signal name="N$276">
-<contactref element="JP276" pad="1"/>
-</signal>
-<signal name="N$285">
-<contactref element="JP285" pad="1"/>
-</signal>
-<signal name="N$286">
-<contactref element="JP286" pad="1"/>
-</signal>
-<signal name="N$295">
-<contactref element="JP295" pad="1"/>
-</signal>
-<signal name="N$296">
-<contactref element="JP296" pad="1"/>
-</signal>
 <signal name="151_1440337657">
 <contactref element="JP901" pad="P$1"/>
 <contactref element="JP3" pad="1"/>
@@ -2359,185 +2176,305 @@ design rules under a new name.</description>
 <contactref element="JP297" pad="1"/>
 <wire x1="42.62" y1="13.17" x2="67" y2="12.535" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="N$1141">
+<signal name="28_1440337842">
 <contactref element="JP1141" pad="P$1"/>
+<contactref element="JP145" pad="1"/>
+<wire x1="29.92" y1="51.27" x2="16.585" y2="97" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="N$1142">
+<signal name="26_1440337842">
 <contactref element="JP1142" pad="P$1"/>
+<contactref element="JP135" pad="1"/>
+<wire x1="29.92" y1="53.81" x2="17.855" y2="97" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="N$1143">
+<signal name="24_1440337842">
 <contactref element="JP1143" pad="P$1"/>
+<contactref element="JP125" pad="1"/>
+<wire x1="29.92" y1="56.35" x2="19.125" y2="97" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="N$1144">
+<signal name="22_1440337842">
 <contactref element="JP1144" pad="P$1"/>
+<contactref element="JP115" pad="1"/>
+<wire x1="29.92" y1="58.89" x2="20.395" y2="97" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="N$1145">
+<signal name="20_1440337842">
 <contactref element="JP1145" pad="P$1"/>
+<contactref element="JP105" pad="1"/>
+<wire x1="29.92" y1="61.43" x2="21.665" y2="97" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="N$1146">
+<signal name="18_1440337842">
 <contactref element="JP1146" pad="P$1"/>
+<contactref element="JP95" pad="1"/>
+<wire x1="29.92" y1="63.97" x2="22.935" y2="97" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="N$1147">
+<signal name="16_1440337842">
 <contactref element="JP1147" pad="P$1"/>
+<contactref element="JP85" pad="1"/>
+<wire x1="29.92" y1="66.51" x2="24.205" y2="97" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="N$1148">
+<signal name="12_1440337842">
 <contactref element="JP1148" pad="P$1"/>
+<contactref element="JP65" pad="1"/>
+<wire x1="29.92" y1="71.59" x2="25.475" y2="97" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="N$1149">
+<signal name="8_1440337842">
 <contactref element="JP1149" pad="P$1"/>
+<contactref element="JP45" pad="1"/>
+<wire x1="29.92" y1="76.67" x2="26.745" y2="97" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="N$1150">
+<signal name="4_1440337842">
 <contactref element="JP1150" pad="P$1"/>
+<contactref element="JP25" pad="1"/>
+<wire x1="29.92" y1="81.75" x2="28.015" y2="97" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="N$1151">
+<signal name="0_1440337842">
 <contactref element="JP1151" pad="P$1"/>
+<contactref element="JP5" pad="1"/>
+<wire x1="29.92" y1="86.83" x2="29.285" y2="97" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="N$1152">
+<signal name="1_1440337842">
 <contactref element="JP1152" pad="P$1"/>
+<contactref element="JP15" pad="1"/>
+<wire x1="29.92" y1="84.29" x2="30.555" y2="97" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="N$1153">
+<signal name="5_1440337842">
 <contactref element="JP1153" pad="P$1"/>
+<contactref element="JP35" pad="1"/>
+<wire x1="29.92" y1="79.21" x2="31.825" y2="97" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="N$1154">
+<signal name="9_1440337842">
 <contactref element="JP1154" pad="P$1"/>
+<contactref element="JP55" pad="1"/>
+<wire x1="29.92" y1="74.13" x2="33.095" y2="97" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="N$1155">
+<signal name="13_1440337842">
 <contactref element="JP1155" pad="P$1"/>
+<contactref element="JP75" pad="1"/>
+<wire x1="29.92" y1="69.05" x2="34.365" y2="97" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="N$1156">
+<signal name="12_1440337868">
 <contactref element="JP1156" pad="P$1"/>
+<contactref element="JP66" pad="1"/>
+<wire x1="40.08" y1="71.59" x2="35.635" y2="97" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="N$1157">
+<signal name="8_1440337868">
 <contactref element="JP1157" pad="P$1"/>
+<contactref element="JP46" pad="1"/>
+<wire x1="40.08" y1="76.67" x2="36.905" y2="97" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="N$1158">
+<signal name="4_1440337868">
 <contactref element="JP1158" pad="P$1"/>
+<contactref element="JP26" pad="1"/>
+<wire x1="40.08" y1="81.75" x2="38.175" y2="97" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="N$1159">
+<signal name="0_1440337868">
 <contactref element="JP1159" pad="P$1"/>
+<contactref element="JP6" pad="1"/>
+<wire x1="40.08" y1="86.83" x2="39.445" y2="97" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="N$1160">
+<signal name="1_1440337868">
 <contactref element="JP1160" pad="P$1"/>
+<contactref element="JP16" pad="1"/>
+<wire x1="40.08" y1="84.29" x2="40.715" y2="97" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="N$1161">
+<signal name="5_1440337868">
 <contactref element="JP1161" pad="P$1"/>
+<contactref element="JP36" pad="1"/>
+<wire x1="40.08" y1="79.21" x2="41.985" y2="97" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="N$1162">
+<signal name="9_1440337868">
 <contactref element="JP1162" pad="P$1"/>
+<contactref element="JP56" pad="1"/>
+<wire x1="40.08" y1="74.13" x2="43.255" y2="97" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="N$1163">
+<signal name="13_1440337868">
 <contactref element="JP1163" pad="P$1"/>
+<contactref element="JP76" pad="1"/>
+<wire x1="40.08" y1="69.05" x2="44.525" y2="97" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="N$1164">
+<signal name="14_1440337868">
 <contactref element="JP1164" pad="P$1"/>
+<contactref element="JP86" pad="1"/>
+<wire x1="40.08" y1="66.51" x2="45.795" y2="97" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="N$1165">
+<signal name="15_1440337868">
 <contactref element="JP1165" pad="P$1"/>
+<contactref element="JP96" pad="1"/>
+<wire x1="40.08" y1="63.97" x2="47.065" y2="97" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="N$1166">
+<signal name="16_1440337868">
 <contactref element="JP1166" pad="P$1"/>
+<contactref element="JP106" pad="1"/>
+<wire x1="40.08" y1="61.43" x2="48.335" y2="97" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="N$1167">
+<signal name="17_1440337868">
 <contactref element="JP1167" pad="P$1"/>
+<contactref element="JP116" pad="1"/>
+<wire x1="40.08" y1="58.89" x2="49.605" y2="97" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="N$1168">
+<signal name="18_1440337868">
 <contactref element="JP1168" pad="P$1"/>
+<contactref element="JP126" pad="1"/>
+<wire x1="40.08" y1="56.35" x2="50.875" y2="97" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="N$1169">
+<signal name="19_1440337868">
 <contactref element="JP1169" pad="P$1"/>
+<contactref element="JP136" pad="1"/>
+<wire x1="40.08" y1="53.81" x2="52.145" y2="97" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="N$1170">
+<signal name="20_1440337868">
 <contactref element="JP1170" pad="P$1"/>
+<contactref element="JP146" pad="1"/>
+<wire x1="40.08" y1="51.27" x2="53.415" y2="97" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="N$1171">
+<signal name="29_1440337842">
 <contactref element="JP1171" pad="P$1"/>
+<contactref element="JP155" pad="1"/>
+<wire x1="16.585" y1="3" x2="29.92" y2="48.73" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="N$1172">
+<signal name="27_1440337842">
 <contactref element="JP1172" pad="P$1"/>
+<contactref element="JP165" pad="1"/>
+<wire x1="17.855" y1="3" x2="29.92" y2="46.19" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="N$1173">
+<signal name="25_1440337842">
 <contactref element="JP1173" pad="P$1"/>
+<contactref element="JP175" pad="1"/>
+<wire x1="19.125" y1="3" x2="29.92" y2="43.65" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="N$1174">
+<signal name="23_1440337842">
 <contactref element="JP1174" pad="P$1"/>
+<contactref element="JP185" pad="1"/>
+<wire x1="20.395" y1="3" x2="29.92" y2="41.11" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="N$1175">
+<signal name="21_1440337842">
 <contactref element="JP1175" pad="P$1"/>
+<contactref element="JP195" pad="1"/>
+<wire x1="21.665" y1="3" x2="29.92" y2="38.57" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="N$1176">
+<signal name="19_1440337842">
 <contactref element="JP1176" pad="P$1"/>
+<contactref element="JP205" pad="1"/>
+<wire x1="22.935" y1="3" x2="29.92" y2="36.03" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="N$1177">
+<signal name="17_1440337842">
 <contactref element="JP1177" pad="P$1"/>
+<contactref element="JP215" pad="1"/>
+<wire x1="24.205" y1="3" x2="29.92" y2="33.49" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="N$1178">
+<signal name="14_1440337842">
 <contactref element="JP1178" pad="P$1"/>
+<contactref element="JP235" pad="1"/>
+<wire x1="25.475" y1="3" x2="29.92" y2="28.41" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="N$1179">
+<signal name="10_1440337842">
 <contactref element="JP1179" pad="P$1"/>
+<contactref element="JP255" pad="1"/>
+<wire x1="26.745" y1="3" x2="29.92" y2="23.33" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="N$1180">
+<signal name="6_1440337842">
 <contactref element="JP1180" pad="P$1"/>
+<contactref element="JP275" pad="1"/>
+<wire x1="28.015" y1="3" x2="29.92" y2="18.25" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="N$1181">
+<signal name="2_1440337842">
 <contactref element="JP1181" pad="P$1"/>
+<contactref element="JP295" pad="1"/>
+<wire x1="29.285" y1="3" x2="29.92" y2="13.17" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="N$1182">
+<signal name="3_1440337842">
 <contactref element="JP1182" pad="P$1"/>
+<contactref element="JP285" pad="1"/>
+<wire x1="30.555" y1="3" x2="29.92" y2="15.71" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="N$1183">
+<signal name="7_1440337842">
 <contactref element="JP1183" pad="P$1"/>
+<contactref element="JP265" pad="1"/>
+<wire x1="31.825" y1="3" x2="29.92" y2="20.79" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="N$1184">
+<signal name="11_1440337842">
 <contactref element="JP1184" pad="P$1"/>
+<contactref element="JP245" pad="1"/>
+<wire x1="33.095" y1="3" x2="29.92" y2="25.87" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="N$1185">
+<signal name="15_1440337842">
 <contactref element="JP1185" pad="P$1"/>
+<contactref element="JP225" pad="1"/>
+<wire x1="34.365" y1="3" x2="29.92" y2="30.95" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="N$1186">
+<signal name="21_1440337868">
 <contactref element="JP1186" pad="P$1"/>
+<contactref element="JP236" pad="1"/>
+<wire x1="35.635" y1="3" x2="40.08" y2="28.41" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="N$1187">
+<signal name="10_1440337868">
 <contactref element="JP1187" pad="P$1"/>
+<contactref element="JP256" pad="1"/>
+<wire x1="36.905" y1="3" x2="40.08" y2="23.33" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="N$1188">
+<signal name="6_1440337868">
 <contactref element="JP1188" pad="P$1"/>
+<contactref element="JP276" pad="1"/>
+<wire x1="38.175" y1="3" x2="40.08" y2="18.25" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="N$1189">
+<signal name="2_1440337868">
 <contactref element="JP1189" pad="P$1"/>
+<contactref element="JP296" pad="1"/>
+<wire x1="39.445" y1="3" x2="40.08" y2="13.17" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="N$1190">
+<signal name="3_1440337868">
 <contactref element="JP1190" pad="P$1"/>
+<contactref element="JP286" pad="1"/>
+<wire x1="40.715" y1="3" x2="40.08" y2="15.71" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="N$1191">
+<signal name="7_1440337868">
 <contactref element="JP1191" pad="P$1"/>
+<contactref element="JP266" pad="1"/>
+<wire x1="41.985" y1="3" x2="40.08" y2="20.79" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="N$1192">
+<signal name="11_1440337868">
 <contactref element="JP1192" pad="P$1"/>
+<contactref element="JP246" pad="1"/>
+<wire x1="43.255" y1="3" x2="40.08" y2="25.87" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="N$1193">
+<signal name="22_1440337868">
 <contactref element="JP1193" pad="P$1"/>
+<contactref element="JP226" pad="1"/>
+<wire x1="44.525" y1="3" x2="40.08" y2="30.95" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="N$1194">
+<signal name="23_1440337868">
 <contactref element="JP1194" pad="P$1"/>
+<contactref element="JP216" pad="1"/>
+<wire x1="45.795" y1="3" x2="40.08" y2="33.49" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="N$1195">
+<signal name="24_1440337868">
 <contactref element="JP1195" pad="P$1"/>
+<contactref element="JP206" pad="1"/>
+<wire x1="47.065" y1="3" x2="40.08" y2="36.03" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="N$1196">
+<signal name="25_1440337868">
 <contactref element="JP1196" pad="P$1"/>
+<contactref element="JP196" pad="1"/>
+<wire x1="48.335" y1="3" x2="40.08" y2="38.57" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="N$1197">
+<signal name="26_1440337868">
 <contactref element="JP1197" pad="P$1"/>
+<contactref element="JP186" pad="1"/>
+<wire x1="49.605" y1="3" x2="40.08" y2="41.11" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="N$1198">
+<signal name="27_1440337868">
 <contactref element="JP1198" pad="P$1"/>
+<contactref element="JP176" pad="1"/>
+<wire x1="50.875" y1="3" x2="40.08" y2="43.65" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="N$1199">
+<signal name="28_1440337868">
 <contactref element="JP1199" pad="P$1"/>
+<contactref element="JP166" pad="1"/>
+<wire x1="52.145" y1="3" x2="40.08" y2="46.19" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="N$1200">
+<signal name="29_1440337868">
 <contactref element="JP1200" pad="P$1"/>
+<contactref element="JP156" pad="1"/>
+<wire x1="53.415" y1="3" x2="40.08" y2="48.73" width="0" layer="19" extent="16-16"/>
 </signal>
 </signals>
 </board>
