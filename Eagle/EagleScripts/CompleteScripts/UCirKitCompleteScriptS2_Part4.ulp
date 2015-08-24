@@ -2,7 +2,7 @@
 #include "UCirKitAdd4Holes.ulp"
 
 //---- Execution
-output("UCirKitCompleteScriptS_Part4.txt"){
+output("UCirKitCompleteScriptS2_Part4.txt"){
    add4Holes();
 
    // printf(commands);

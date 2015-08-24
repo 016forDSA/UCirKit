@@ -3,8 +3,9 @@
 
 
 //---- Execution
-output("UCirKitCompleteScriptS_Part5.txt"){
-   connectTopBottomPads(2 * numOfRows * numOfCols + 1, 3 * numOfRows * numOfCols + 1);
+output("UCirKitCompleteScriptS2_Part5.txt"){
+   connectTopBottomPads(numOfRows * numOfCols + 1, 2 * numOfRows * numOfCols + 1);
+   connectTopBottomPads(3 * numOfRows * numOfCols + 1, 4 * numOfRows * numOfCols + 1);
 
    // printf(commands);
 }

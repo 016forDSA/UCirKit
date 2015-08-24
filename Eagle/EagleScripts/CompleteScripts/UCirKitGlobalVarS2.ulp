@@ -82,7 +82,7 @@ int largeFemaleJpEndNum = numOfRows * numOfCols;
 
 real leftOuterPadsStartX = marginToVerticalBorder;
 real leftOuterPadsStartY = boardHeight/2 + ySpacingBetweenOuterContactsForLeftAndRightZones * real(numOfRows-0.5);
-int leftOuterPadsJpStartNum = numOfRows * numOfCols * 2 + 1;
+int leftOuterPadsJpStartNum = numOfRows * numOfCols * 3 + 1;
 int leftOuterPadsJpEndNum = leftOuterPadsJpStartNum - 1 + numOfRows * 2 * 2;
 
 real rightOuterPadsStartX = boardWidth - marginToVerticalBorder - xSpacingBetweenOuterContactsForLeftAndRightZones;

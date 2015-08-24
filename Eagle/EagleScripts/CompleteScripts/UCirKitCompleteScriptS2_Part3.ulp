@@ -1,7 +1,7 @@
 #include "UCirKitGlobalVarS2.ulp"
 #include "UCirKitArrangeBoard.ulp"
 
-output("UCirKitCompleteScriptS_Part3.txt"){
+output("UCirKitCompleteScriptS2_Part3.txt"){
    // arrangeBoard(1,
    //              numOfRows * numOfCols,
    //              colIncrement,
@@ -113,6 +113,19 @@ output("UCirKitCompleteScriptS_Part3.txt"){
                 innerPadsJpEndNum,
                 colIncrement,
                 !mirror,
+                breadboard,
+                !rotateToVertical,
+                largeFemaleStartX,
+                largeFemaleStartY,
+                xSpacingBetweenLargeFemaleHeaders,
+                ySpacingBetweenLargeFemaleHeaders,
+                numOfRows,
+                numOfCols);
+
+   arrangeBoard(innerPadsJpStartNum + 300,
+                innerPadsJpEndNum + 300,
+                colIncrement,
+                mirror,
                 breadboard,
                 !rotateToVertical,
                 largeFemaleStartX,
