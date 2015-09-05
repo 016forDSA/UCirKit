@@ -394,12 +394,5 @@ UsedLibrary="/Applications/EAGLE-7.3.0/lbr/xilinx-xcv.lbr"
 UsedLibrary="/Applications/EAGLE-7.3.0/lbr/zetex.lbr"
 UsedLibrary="/Applications/EAGLE-7.3.0/lbr/zilog.lbr"
 
-[Win_1]
-Type="Control Panel"
-Loc="200 -903 799 -504"
-State=2
-Number=0
-
 [Desktop]
-Screen="1920 1980"
-Window="Win_1"
+Screen="2560 1440"
