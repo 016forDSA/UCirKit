@@ -1,24 +1,130 @@
-//---- Breadboard-like general information
+//*************************************************************************
+//****************   Breadboard-like general information    ***************
+//*************************************************************************
 int numOfRows = 30;
-int numOfCols = 20;
+int numOfCols = 10;
 
-//---- Schematic information
+
+
+//*************************************************************************
+//**********************  Schematic information  **************************
+//*************************************************************************
 real xCursor = 0;
 real yCursor = 0;
 
 int largeFemaleHeaderPartNum = 1;
-string largeFemaleHeaderPartStr = "M01PTH";
+string largeFemaleHeaderPartStr = "M01PTH_WITHOUT_TEXT";
 real xSpacingForLargeFemaleHeader = 1.0;
 real ySpacingForLargeFemaleHeader = 0.48;
 
+int largePadPartNum = 1;
+// string largePadPartStr = "M01PTH_SMD_2.18X1.0668MM_NO_SILK";
+string largePadPartStr = "M01PTH_SMD_3.25X0.85MM_NO_SILK";
+real xSpacingForLargePadPart = 1.0;
+real ySpacingForLargePadPart = 0.48;
+
+int numOfLargeFemaleContacts = numOfRows * numOfCols;
+
 int smallFemaleHeaderPartNum = 1;
-string smallFemaleHeaderPartStr = "M01PTH_1.27MM";
+// string smallFemaleHeaderPartStr = "M01PTH_SMD_1.27X0.635MM_NO_SILK";
+string smallFemaleHeaderPartStr = "M01PTH_SMD_3.25X0.85MM_NO_SILK";
 real xSpacingForSmallFemaleHeader = 1.0;
 real ySpacingForSmallFemaleHeader = 0.48;
 
 
-//---- Board information
+
+//*************************************************************************
+//***************************   Board information   ***********************
+//*************************************************************************
+
+// real largeFemaleStartX = 21;  //mm
+// real largeFemaleStartY = 88;  //mm
+
+// real smallFemaleStartX = 90;   //mm
+// real smallFemaleStartY = 91;   //mm
+
+// real innerContactStartX = 124;   //mm
+// real innerContactStartY = 96;    //mm
+
+real xSpacingBetweenLargeFemaleHeaders = 2.54; //mm
+real ySpacingBetweenLargeFemaleHeaders = 2.54; //mm
+
+real xSpacingBetweenInnerContacts = 4.4;  //mm
+real ySpacingBetweenInnerContacts = 2.37; //mm
+
+real xSpacingBetweenOuterContactsForLeftAndRightZones = 5.27; //mm
+real ySpacingBetweenOuterContactsForLeftAndRightZones = 1.27; //mm
+
+real xSpacingBetweenOuterContactsForUpAndDownZones = ySpacingBetweenOuterContactsForLeftAndRightZones;
+real ySpacingBetweenOuterContactsForUpAndDownZones = 4.191; //mm
+
+real marginToVerticalBorder = 4;    //mm
+real marginToTopHorizontalBorder = 4.8;      //mm
+real marginToBottomHorizontalBorder = 5.9;   //mm
+
+real holeDiameter = 3;  //mm
+real holeToTopHorizontalBorder = 14;   //mm
+real holeToBottomHorizontalBorder = 10;   //mm
+real holeToVerticalBorder = 15;  //mm
+
+real boardWidth;
+real boardHeight;
+
+project.board(B){
+   boardWidth = u2mm(B.area.x2);
+   boardHeight = u2mm(B.area.y2);
+}
+
+real largeFemaleStartX = boardWidth/2 - xSpacingBetweenLargeFemaleHeaders * (real(numOfCols)/2 + 1);
+real largeFemaleStartY = boardHeight/2 + ySpacingBetweenLargeFemaleHeaders * (real(numOfRows)/2 - 1 + 0.5);
+int largeFemaleJpStartNum = 1;
+int largeFemaleJpEndNum = numOfRows * numOfCols;
+
+real leftOuterPadsStartX = marginToVerticalBorder;
+real leftOuterPadsStartY = boardHeight/2 + ySpacingBetweenOuterContactsForLeftAndRightZones * real(numOfRows-0.5);
+int leftOuterPadsJpStartNum = numOfRows * numOfCols * 2 + 1;
+int leftOuterPadsJpEndNum = leftOuterPadsJpStartNum - 1 + numOfRows * 2 * 2;
+
+real rightOuterPadsStartX = boardWidth - marginToVerticalBorder - xSpacingBetweenOuterContactsForLeftAndRightZones;
+real rightOuterPadsStartY = leftOuterPadsStartY;
+int rightOuterPadsJpStartNum = leftOuterPadsJpEndNum + 1;
+int rightOuterPadsJpEndNum = rightOuterPadsJpStartNum - 1 + numOfRows * 2 * 2;
+
+real upperLeftOuterPadsStartX = largeFemaleStartX - xSpacingBetweenOuterContactsForUpAndDownZones/2;
+real upperLeftOuterPadsStartY = boardHeight - marginToTopHorizontalBorder;
+int upperLeftOuterPadsJpStartNum = rightOuterPadsJpEndNum + 1;
+int upperLeftOuterPadsJpEndNum = upperLeftOuterPadsJpStartNum - 1 + numOfCols/2 * 2 * 2;
+
+real upperRightOuterPadsStartX = boardWidth/2 + xSpacingBetweenLargeFemaleHeaders * 2 - xSpacingBetweenOuterContactsForUpAndDownZones/2;
+real upperRightOuterPadsStartY = upperLeftOuterPadsStartY;
+int upperRightOuterPadsJpStartNum = upperLeftOuterPadsJpEndNum + 1;
+int upperRightOuterPadsJpEndNum = upperRightOuterPadsJpStartNum - 1 + numOfCols/2 * 2 * 2;
+
+real lowerLeftOuterPadsStartX = largeFemaleStartX - xSpacingBetweenOuterContactsForUpAndDownZones/2;
+real lowerLeftOuterPadsStartY = marginToBottomHorizontalBorder;
+int lowerLeftOuterPadsJpStartNum = upperRightOuterPadsJpEndNum + 1;
+int lowerLeftOuterPadsJpEndNum = lowerLeftOuterPadsJpStartNum - 1 + numOfCols/2 * 2;
+
+real lowerRightOuterPadsStartX = boardWidth/2 + xSpacingBetweenLargeFemaleHeaders * 2 - xSpacingBetweenOuterContactsForUpAndDownZones/2;
+real lowerRightOuterPadsStartY = marginToBottomHorizontalBorder;
+int lowerRightOuterPadsJpStartNum = lowerLeftOuterPadsJpEndNum + 1;
+int lowerRightOuterPadsJpEndNum = lowerRightOuterPadsJpStartNum - 1 + numOfCols/2 * 2;
+
+real innerPadsStartX = boardWidth/2 - xSpacingBetweenInnerContacts * (real(numOfCols)/2 - 0.5);
+// real innerPadsStartY = boardHeight/2 + ySpacingBetweenInnerContacts * (real(numOfRows)/2 - 1 + 0.5);
+real innerPadsStartY = (boardHeight - holeToTopHorizontalBorder + holeToBottomHorizontalBorder)/2 + ySpacingBetweenInnerContacts * (real(numOfRows)/2 - 1 + 0.5);
+int innerPadsJpStartNum = numOfRows * numOfCols + 1;
+int innerPadsJpEndNum = numOfRows * numOfCols * 2;
+
+int mirror = 1;
+int breadboard = 1;
+int colIncrement = 1;
+int rotateToVertical = 1;
 
 
-//---- Eagle Commands
+
+//*************************************************************************
+//**************************  Eagle Commands  *****************************
+//*************************************************************************
+
 string commands = "";

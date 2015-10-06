@@ -1,14 +1,21 @@
-#include "UCirKitGlobalVarS.ulp"
+#include "UCirKitGlobalVarS2.ulp"
 #include "UCirKitAddFemaleHeaderArray.ulp"
 
 //---- Execution
-output("UCirKitCompleteScriptS_Part1.txt"){
+output("UCirKitCompleteScriptS2_Part1.txt"){
    addFemaleHeaderArray(numOfRows,
                         numOfCols,
                         largeFemaleHeaderPartNum,
                         largeFemaleHeaderPartStr,
                         xSpacingForLargeFemaleHeader,
                         ySpacingForLargeFemaleHeader);
+
+   addFemaleHeaderArray(numOfRows,
+                        numOfCols,
+                        largePadPartNum,
+                        largePadPartStr,
+                        xSpacingForLargePadPart,
+                        ySpacingForLargePadPart);
 
    addFemaleHeaderArray(numOfRows,
                         numOfCols,

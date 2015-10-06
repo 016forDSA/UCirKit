@@ -1,0 +1,11 @@
+#include "UCirKitGlobalVarS.ulp"
+#include "UCirKitAdd4Holes.ulp"
+
+//---- Execution
+output("UCirKitCompleteScriptS_Part4.txt"){
+   add4Holes();
+
+   // printf(commands);
+}
+
+exit(commands);

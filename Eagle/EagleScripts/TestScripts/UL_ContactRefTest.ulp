@@ -2,9 +2,10 @@ output("UL_ContactRefTest.txt"){
    schematic(SCH){
       project.board(BOARD){
          BOARD.signals(S){
-            printf("Signal '%s'\n", S.name);
+            //printf("Signal '%s'\n", S.name);
+            printf("\n");
             S.contactrefs(C){
-               printf("%s,\t %s\t x = %f \t y = %f\n", C.element.name, C.contact.name, u2mil(C.contact.x), u2mil(C.contact.y));
+               printf("%s\t,", C.element.name);
             }
          }
       }

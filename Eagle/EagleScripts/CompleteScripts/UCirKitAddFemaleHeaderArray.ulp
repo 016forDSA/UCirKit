@@ -1,4 +1,4 @@
-#include "UCirKitGlobalVarS.ulp"
+#include "UCirKitGlobalVarS2.ulp"
 
 int jpNum = 1;
 
@@ -12,15 +12,18 @@ void addFemaleHeaderArray(int numOfRowFemaleHeaders,
    int numOfPartsInACol = numOfRowFemaleHeaders/femaleHeaderPartNum;
 
    for (int i = 0; i < numOfPartsInACol; ++i){
-      for (int i = 0; i < numOfColFemaleHeaders; ++i){
-         sprintf(commands, "%sADD %s@SparkFun-Connectors MR0 (%f %f);", commands, femaleHeaderPartStr, xCursor, yCursor);
-         sprintf(commands, "%sROTATE R180 JP%d;", commands, jpNum++);
+      for (int j = 0; j < numOfColFemaleHeaders; ++j){
+         sprintf(commands, "%sADD %s@SparkFun-Connectors (%f %f);", commands, femaleHeaderPartStr, xCursor, yCursor);
+         // sprintf(commands, "%sADD %s@SparkFun-Connectors MR0 (%f %f);", commands, femaleHeaderPartStr, xCursor, yCursor);
+         // sprintf(commands, "%sROTATE R180 JP%d;", commands, jpNum++);
 
          xCursor += xSpacingInInch;
       }
       xCursor = 0;
       yCursor -= (ySpacingInInch * femaleHeaderPartNum);
    }
+
+   yCursor -= (ySpacingInInch * femaleHeaderPartNum);
 }
 
 //---- Execution

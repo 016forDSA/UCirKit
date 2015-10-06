@@ -1,6 +1,6 @@
 string cmd = "";
 
-output("RenameWireByPinAndContactRef.txt"){
+output("RenameWireByPin.txt"){
    schematic(SCH){
       SCH.parts(PART){
          PART.instances(INSTANCE){

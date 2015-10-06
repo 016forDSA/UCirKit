@@ -1,4 +1,4 @@
-#include "UCirKitGlobalVar.ulp"
+#include "UCirKitGlobalVarS2.ulp"
 
 real wireLength = 0.5;
 // string 

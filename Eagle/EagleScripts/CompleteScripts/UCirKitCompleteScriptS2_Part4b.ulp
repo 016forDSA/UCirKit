@@ -1,0 +1,37 @@
+#include "UCirKitGlobalVarS2.ulp"
+#include "UCirKitArrangeBoard.ulp"
+
+// Only Bottom PCBs need to execute this!!
+
+//---- Execution
+output("UCirKitCompleteScriptS2_Part4b.txt"){
+   arrangeBoard(innerPadsJpStartNum,
+                innerPadsJpEndNum,
+                colIncrement,
+                !mirror,
+                !breadboard,
+                !rotateToVertical,
+                innerPadsStartX,
+                innerPadsStartY,
+                xSpacingBetweenInnerContacts,
+                ySpacingBetweenInnerContacts,
+                numOfRows,
+                numOfCols);
+
+   arrangeBoard(innerPadsJpStartNum + numOfRows * numOfCols,
+                innerPadsJpEndNum + numOfRows * numOfCols,
+                colIncrement,
+                !mirror,
+                !breadboard,
+                !rotateToVertical,
+                innerPadsStartX,
+                innerPadsStartY,
+                xSpacingBetweenInnerContacts,
+                ySpacingBetweenInnerContacts,
+                numOfRows,
+                numOfCols);
+
+   // printf(commands);
+}
+
+exit(commands);

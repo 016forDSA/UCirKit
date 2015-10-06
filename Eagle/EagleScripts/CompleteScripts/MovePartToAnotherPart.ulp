@@ -1,0 +1,29 @@
+string command = "";
+
+output("MovePartToAnotherPart.txt"){
+   board(B1){
+      B1.elements(E1){
+         if (E1.mirror){
+            int mirrorJpNum = strtol(strsub(E1.name, 2, strlen(E1.name)));
+
+            board(B2){
+               B2.elements(E2){
+                  if (!E2.mirror){
+                     int nonMirrorJpNum = strtol(strsub(E2.name, 2, strlen(E2.name)));
+
+                     if (mirrorJpNum == nonMirrorJpNum + 300){
+                        sprintf(command, "%s MOVE %s (%f %f);", command, E1.name, u2mm(E2.x), u2mm(E2.y));
+                        sprintf(command, "%s ROTATE R%d %s;", command, abs(int(E2.angle - E1.angle)), E1.name);
+                     }
+                  }
+                  //printf("E2 : %s; Angle : %f\n", E2.name, E2.angle);
+                  
+               }
+            }
+         }
+      }
+   }
+   printf("%s", command);
+}
+
+exit(command);

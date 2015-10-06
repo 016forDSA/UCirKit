@@ -1,0 +1,40 @@
+#include "UCirKitGlobalVarS2.ulp"
+
+int myatoi(string str){
+   int x = 0;
+   int c = 1;
+   for(int i = strlen(str) - 1; i >= 0; i--){
+      x += (str[i] - '0') * c;
+      c *= 10;
+   }
+   return x;
+}
+
+void ParseToFourNumInGlobalVar(string str){
+   // four Global Var : x1, y1, x2, y2
+   int j = 0;
+   int c = 0;
+   int flag = 0;
+   string tmp = "";
+   while(str[j] != '\0'){
+      if(str[j] == '\''){
+         c = 0;
+         tmp = "";
+         flag++;
+         while(str[++j] != '\'')
+            tmp [c++] = str[j];
+         j++;
+         if(flag == 1)
+            x1 = tmp[0] - 'A';
+         else if(flag == 2)
+            y1 = myatoi(tmp);
+         else if(flag == 3)
+            x2 = tmp[0] - 'A';
+         else 
+            y2 = myatoi(tmp);
+      } else {
+         j++;
+      }
+   }
+   printf("Parse: %d %d %d %d\n", x1, y1, x2, y2);
+}

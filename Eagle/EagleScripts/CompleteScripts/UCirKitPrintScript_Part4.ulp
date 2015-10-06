@@ -1,0 +1,27 @@
+#include "UCirKitGlobalVarS2.ulp"
+#include "UCirKitChangeCoordinate.ulp"
+#include "UCirKitParseToFourNumInGlobalVar.ulp"
+
+Pair_num = 0;
+int i;
+output("MovePartToAnotherPart.txt"){
+   for(i = 0; i < lines_count; i++, Pair_num += 2){
+         ParseToFourNumInGlobalVar(lines[i]);
+         PutInPair(Pair_num, x1, y1, x2, y2);
+   }
+
+
+
+   printf("Parse: %d %d %d %d\n", x1, y1, x2, y2);
+   printf("Start: x:%f, y:%f\n", largeFemaleStartX, largeFemaleStartY);
+   i = 0;
+   board(B1){
+      B1.elements(E1){
+         printf("x : %f, y : %f\n", PairX[i], PairY[i]);
+         sprintf(commands, "%s MOVE %s (%f %f);", commands, E1.name, PairX[i], PairY[i]);
+         i++;
+      }
+   }
+}
+
+exit(commands);

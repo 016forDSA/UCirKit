@@ -1,0 +1,38 @@
+#include "UCirKitGlobalVarS2.ulp"
+
+int ColRowToNo(real x, real y){
+   return  (9 - x)+ 10 * (y - 1);
+}
+
+int NoToRow(int n){
+   return n/10;
+}
+
+int NoToCol(int n){
+   return n - 10 * (n / 10);
+}
+
+real ColTox(int x){
+   int reverse_x = 9 -x;
+   return LeftTopStartX + XSpacing * reverse_x;
+}
+
+real RowToy(int y){
+   return LeftTopStartY - YSpacing * y;
+}
+
+void PutInPair(int i, real x1, real y1, real x2, real y2){
+
+   int tmp;
+   tmp = ColRowToNo(x1, y1);
+   Pair[i] = tmp;
+   printf("map %d : %d\n", tmp, Pair[i]);
+   PairX[i] = ColTox(NoToCol(Pair[i]));
+   PairY[i] = RowToy(NoToRow(Pair[i]));
+   
+   tmp = ColRowToNo(x2, y2);  
+   Pair[i + 1] = tmp;
+   printf("map %d : %d\n", tmp, Pair[i + 1]);
+   PairX[i + 1] = ColTox(NoToCol(Pair[i + 1]));
+   PairY[i + 1] = RowToy(NoToRow(Pair[i + 1]));
+}

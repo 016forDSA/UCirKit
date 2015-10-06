@@ -1,0 +1,20 @@
+#include "UCirKitGlobalVarS2.ulp"
+#include "UCirKitChangeCoordinate.ulp"
+#include "UCirKitParseToFourNumInGlobalVar.ulp"
+
+// string fileName;
+output("ParseTest.txt"){
+
+   // int nLines = fileread(lines, Fritzing_Text);
+   int i;
+   for(i = 0; i < lines_count; i++, Pair_num += 2){
+      ParseToFourNumInGlobalVar(lines[i]);
+      PutInPair(Pair_num, x1, y1, x2, y2);
+   }
+
+   for(i = 0; i < Pair_num; i++){
+      printf("No: %d, x: %f, y: %f\n", Pair[i], PairX[i], PairY[i]);
+      sprintf(commands, "%sADD %s@SparkFun-Connectors (%f %d);", commands, smallFemaleHeaderPartStr, 0.8 * i, 0);         
+   }
+}
+exit(commands);

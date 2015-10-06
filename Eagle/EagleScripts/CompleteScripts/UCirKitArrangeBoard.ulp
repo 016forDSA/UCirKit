@@ -1,0 +1,147 @@
+// #include "UCirKitGlobalVarS.ulp"
+
+int minJpNum;
+int maxJpNum;
+
+real startX;
+real startY;
+real xSpacing;
+real ySpacing;
+int customNumOfRows;
+int customNumOfCols;
+
+real cursorX;
+real cursorY;
+
+void generateMoveCommand(string name, real x, real y){
+   sprintf(commands, "%s MOVE %s (%f %f);", commands, name, x, y);
+}
+
+// void computeLargeCursorXY(int jpNum){
+//    if (jpNum % numOfCols == 0){
+//       largeCursorX = largeFemaleStartX + (numOfCols - 1) * xSpacingBetweenLargeFemaleHeaders;
+//       largeCursorY = largeFemaleStartY - (jpNum / numOfCols - 1) * ySpacingBetweenLargeFemaleHeaders;
+//    } else {
+//       largeCursorX = largeFemaleStartX + ((jpNum % numOfCols) - 1) * xSpacingBetweenLargeFemaleHeaders;
+//       largeCursorY = largeFemaleStartY - (jpNum / numOfCols) * ySpacingBetweenLargeFemaleHeaders;
+//    }
+
+//    if (jpNum % numOfCols > int(numOfCols/2) || jpNum % numOfCols == 0){
+//       largeCursorX += (xSpacingBetweenLargeFemaleHeaders*3);
+//    }
+// }
+
+// void computeSmallCursorXY(int jpNum){
+//    jpNum -= numOfLargeFemaleContacts;
+
+//    if (jpNum % (2*numOfRows) == 0){
+//       smallCursorX = smallFemaleStartX + (jpNum / (2*numOfRows) - 1) * xSpacingBetweenSmallFemaleHeaders;
+//       smallCursorY = smallFemaleStartY - ((2*numOfRows) - 1) * ySpacingBetweenSmallFemaleHeaders;
+//    } else {
+//       smallCursorX = smallFemaleStartX + (jpNum / (2*numOfRows)) * xSpacingBetweenSmallFemaleHeaders;
+//       smallCursorY = smallFemaleStartY - ((jpNum % (2*numOfRows)) - 1) * ySpacingBetweenSmallFemaleHeaders;
+//    }
+// }
+
+void computeBreadBoardDivisionCursorXByCol(int jpNum){
+   if (jpNum % customNumOfCols > int(customNumOfCols/2) || jpNum % customNumOfCols == 0){
+      cursorX += (xSpacing*3);
+   }
+}
+
+void computeCursorXYByCol(int jpNum){
+   jpNum -= (minJpNum - 1);
+
+   if (jpNum % customNumOfCols == 0){
+      cursorX = startX + (customNumOfCols - 1) * xSpacing;
+      cursorY = startY - (jpNum / customNumOfCols - 1) * ySpacing;
+   } else {
+      cursorX = startX + ((jpNum % customNumOfCols) - 1) * xSpacing;
+      cursorY = startY - (jpNum / customNumOfCols) * ySpacing;
+   }
+}
+
+void computeCursorXYByRow(int jpNum){
+   jpNum -= (minJpNum - 1);
+
+   if (jpNum % customNumOfRows == 0){
+      cursorX = startX + (jpNum / customNumOfRows - 1) * xSpacing;
+      cursorY = startY - (customNumOfRows - 1) * ySpacing;
+   } else {
+      cursorX = startX + (jpNum / customNumOfRows) * xSpacing;
+      cursorY = startY - ((jpNum % customNumOfRows) - 1) * ySpacing;
+   }
+}
+
+// void arrangeBoard(int minJp, int maxJp, int large, int mirror){
+//    minJpNum = minJp;
+//    maxJpNum = maxJp;
+
+//    board(B){
+//       B.elements(E){
+//          int jpNum = strtol(strsub(E.name, 2, strlen(E.name)));
+
+//          if (jpNum < minJpNum || jpNum > maxJpNum)
+//             continue;
+
+//          if (large){
+//             computeLargeCursorXY(jpNum);
+//             generateMoveCommand(E.name, largeCursorX, largeCursorY);
+//          } else {
+//             computeSmallCursorXY(jpNum);
+//             generateMoveCommand(E.name, smallCursorX, smallCursorY);
+//          }
+
+//          if (mirror){
+//             sprintf(commands, "%s MIRROR %s;", commands, E.name);
+//          }
+//       }
+//    }
+// }
+
+void arrangeBoard(int minJp, int maxJp,
+                  int isColIncrement, int isMirror, int isBreadboard, int isVertical,
+                  real x, real y,
+                  real xCustomSpacing, real yCustomSpacing,
+                  int cusNumOfRows, int cusNumOfCols){
+
+   minJpNum = minJp;
+   maxJpNum = maxJp;
+   startX = x;
+   startY = y;
+   xSpacing = xCustomSpacing;
+   ySpacing = yCustomSpacing;
+   customNumOfRows = cusNumOfRows;
+   customNumOfCols = cusNumOfCols;
+
+   board(B){
+      B.elements(E){
+         int jpNum = strtol(strsub(E.name, 2, strlen(E.name)));
+
+         if (jpNum < minJpNum || jpNum > maxJpNum)
+            continue;
+
+         if (isColIncrement){
+            computeCursorXYByCol(jpNum);
+
+            if (isBreadboard){
+               computeBreadBoardDivisionCursorXByCol(jpNum);
+            }
+         } else {
+            computeCursorXYByRow(jpNum);
+         }
+
+         generateMoveCommand(E.name, cursorX, cursorY);
+
+         if (isVertical){
+            sprintf(commands, "%s ROTATE =R270 %s;", commands, E.name);
+         }
+
+         printf("E.mirror = %d\n", E.mirror);
+
+         if (isMirror){
+            sprintf(commands, "%s MIRROR %s;", commands, E.name);
+         }
+      }
+   }
+}

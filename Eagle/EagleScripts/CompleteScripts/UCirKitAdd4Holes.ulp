@@ -1,0 +1,11 @@
+#include "UCirKitGlobalVarS2.ulp"
+
+void add4Holes(){
+   sprintf(commands, "%s HOLE %f (%f %f);", commands, holeDiameter, holeToVerticalBorder, holeToBottomHorizontalBorder);
+
+   sprintf(commands, "%s HOLE %f (%f %f);", commands, holeDiameter, holeToVerticalBorder, boardHeight - holeToTopHorizontalBorder);
+
+   sprintf(commands, "%s HOLE %f (%f %f);", commands, holeDiameter, boardWidth - holeToVerticalBorder, boardHeight - holeToTopHorizontalBorder);
+
+   sprintf(commands, "%s HOLE %f (%f %f);", commands, holeDiameter, boardWidth - holeToVerticalBorder, holeToBottomHorizontalBorder);
+}

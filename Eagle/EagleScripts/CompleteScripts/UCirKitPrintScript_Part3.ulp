@@ -1,0 +1,45 @@
+#include "UCirKitGlobalVarS2.ulp"
+#include "UCirKitChangeCoordinate.ulp"
+#include "UCirKitParseToFourNumInGlobalVar.ulp"
+int count = 0;
+string new_name;
+Pair_num = 0;
+int i;
+
+output("Name.txt"){
+   for(i = 0; i < lines_count; i++, Pair_num += 2){
+         ParseToFourNumInGlobalVar(lines[i]);
+         PutInPair(Pair_num, x1, y1, x2, y2);
+   }
+   schematic(S) {
+      S.parts(PART){
+          PART.instances(INSTANCE){
+            INSTANCE.gate.symbol.pins(PIN){
+               Pair[count++] = strtol(strsub(PART.name, 2, strlen(PART.name)));
+            }
+         }
+      }
+    
+      printf("stop\n");
+      count = 0;
+      for(i = 0; i < Pair_num; i+=2, count++){ 
+        S.parts(PART){
+          PART.instances(INSTANCE){
+            INSTANCE.gate.symbol.pins(PIN){
+              if ((myatoi(strsub(PART.name, 2, strlen(PART.name))) ==  Pair[i] || myatoi(strsub(PART.name, 2, strlen(PART.name))) == Pair[i + 1])){
+                  PIN.wires(WIRE){  
+                     sprintf(new_name, "NEW_%d", count);
+                     sprintf(commands, "%s NAME %s (%f %f);", commands, new_name, u2inch(WIRE.x1), u2inch(WIRE.y1));
+                     printf("NAME %s (%f %f);\n", new_name, u2inch(WIRE.x1), u2inch(WIRE.y1));
+                  }
+                  //printf("JP : %s NUM %s f : %d\n", Renameliste[i], Renamelistc[i], found);
+                  //found--;
+              }
+            }
+          }
+        }
+      }
+   }    
+}
+
+exit(commands);
