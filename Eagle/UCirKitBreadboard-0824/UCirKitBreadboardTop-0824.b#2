@@ -1,0 +1,2785 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="7.3.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.05" unitdist="inch" unit="mm" style="lines" multiple="1" display="no" altdistance="0.127" altunitdist="mm" altunit="mm"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="no" active="no"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="no" active="no"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="no" active="no"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="no"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="no" active="no"/>
+<layer number="95" name="Names" color="7" fill="1" visible="no" active="no"/>
+<layer number="96" name="Values" color="7" fill="1" visible="no" active="no"/>
+<layer number="97" name="Info" color="7" fill="1" visible="no" active="no"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="no" active="no"/>
+<layer number="99" name="SpiceOrder" color="7" fill="1" visible="no" active="no"/>
+<layer number="100" name="Muster" color="7" fill="1" visible="no" active="no"/>
+<layer number="101" name="Patch_Top" color="12" fill="4" visible="no" active="yes"/>
+<layer number="102" name="Vscore" color="7" fill="1" visible="no" active="yes"/>
+<layer number="103" name="tMap" color="7" fill="1" visible="no" active="yes"/>
+<layer number="104" name="Name" color="16" fill="1" visible="no" active="yes"/>
+<layer number="105" name="tPlate" color="7" fill="1" visible="no" active="yes"/>
+<layer number="106" name="bPlate" color="7" fill="1" visible="no" active="yes"/>
+<layer number="107" name="Crop" color="7" fill="1" visible="no" active="yes"/>
+<layer number="108" name="tplace-old" color="10" fill="1" visible="no" active="yes"/>
+<layer number="109" name="ref-old" color="11" fill="1" visible="no" active="yes"/>
+<layer number="110" name="fp0" color="7" fill="1" visible="no" active="yes"/>
+<layer number="111" name="LPC17xx" color="7" fill="1" visible="no" active="yes"/>
+<layer number="112" name="tSilk" color="7" fill="1" visible="no" active="yes"/>
+<layer number="113" name="IDFDebug" color="4" fill="1" visible="no" active="yes"/>
+<layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="yes"/>
+<layer number="118" name="Rect_Pads" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="yes"/>
+<layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="yes"/>
+<layer number="123" name="tTestmark" color="7" fill="1" visible="no" active="yes"/>
+<layer number="124" name="bTestmark" color="7" fill="1" visible="no" active="yes"/>
+<layer number="125" name="_tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="126" name="_bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="127" name="_tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="128" name="_bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="129" name="Mask" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="131" name="tAdjust" color="7" fill="1" visible="no" active="yes"/>
+<layer number="132" name="bAdjust" color="7" fill="1" visible="no" active="yes"/>
+<layer number="144" name="Drill_legend" color="7" fill="1" visible="no" active="yes"/>
+<layer number="150" name="Notes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="151" name="HeatSink" color="7" fill="1" visible="no" active="yes"/>
+<layer number="152" name="_bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="153" name="FabDoc1" color="7" fill="1" visible="no" active="yes"/>
+<layer number="154" name="FabDoc2" color="7" fill="1" visible="no" active="yes"/>
+<layer number="155" name="FabDoc3" color="7" fill="1" visible="no" active="yes"/>
+<layer number="199" name="Contour" color="7" fill="1" visible="no" active="yes"/>
+<layer number="200" name="200bmp" color="1" fill="10" visible="no" active="yes"/>
+<layer number="201" name="201bmp" color="2" fill="10" visible="no" active="yes"/>
+<layer number="202" name="202bmp" color="3" fill="10" visible="no" active="yes"/>
+<layer number="203" name="203bmp" color="4" fill="10" visible="no" active="yes"/>
+<layer number="204" name="204bmp" color="5" fill="10" visible="no" active="yes"/>
+<layer number="205" name="205bmp" color="6" fill="10" visible="no" active="yes"/>
+<layer number="206" name="206bmp" color="7" fill="10" visible="no" active="yes"/>
+<layer number="207" name="207bmp" color="8" fill="10" visible="no" active="yes"/>
+<layer number="208" name="208bmp" color="9" fill="10" visible="no" active="yes"/>
+<layer number="209" name="209bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="210" name="210bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="211" name="211bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="212" name="212bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="213" name="213bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="214" name="214bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="215" name="215bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="216" name="216bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="217" name="217bmp" color="18" fill="1" visible="no" active="no"/>
+<layer number="218" name="218bmp" color="19" fill="1" visible="no" active="no"/>
+<layer number="219" name="219bmp" color="20" fill="1" visible="no" active="no"/>
+<layer number="220" name="220bmp" color="21" fill="1" visible="no" active="no"/>
+<layer number="221" name="221bmp" color="22" fill="1" visible="no" active="no"/>
+<layer number="222" name="222bmp" color="23" fill="1" visible="no" active="no"/>
+<layer number="223" name="223bmp" color="24" fill="1" visible="no" active="no"/>
+<layer number="224" name="224bmp" color="25" fill="1" visible="no" active="no"/>
+<layer number="225" name="225bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="226" name="226bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="227" name="227bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="228" name="228bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="229" name="229bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="230" name="230bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="231" name="231bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="248" name="Housing" color="7" fill="1" visible="no" active="yes"/>
+<layer number="249" name="Edge" color="7" fill="1" visible="no" active="yes"/>
+<layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
+<layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
+<layer number="254" name="cooling" color="7" fill="1" visible="no" active="yes"/>
+<layer number="255" name="routoute" color="7" fill="1" visible="yes" active="yes"/>
+</layers>
+<board>
+<plain>
+<wire x1="0" y1="0" x2="70" y2="0" width="0" layer="20"/>
+<wire x1="70" y1="0" x2="70" y2="100" width="0" layer="20"/>
+<wire x1="70" y1="100" x2="0" y2="100" width="0" layer="20"/>
+<wire x1="0" y1="100" x2="0" y2="0" width="0" layer="20"/>
+<hole x="13.5" y="9.5" drill="4"/>
+<hole x="13.5" y="90.5" drill="4"/>
+<hole x="56.5" y="90.5" drill="4"/>
+<hole x="56.5" y="9.5" drill="4"/>
+</plain>
+<libraries>
+<library name="SparkFun-Connectors">
+<description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
+In this library you'll find connectors and sockets- basically anything that can be plugged into or onto.&lt;br&gt;&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is the end user's responsibility to ensure correctness and suitablity for a given componet or application. If you enjoy using this library, please buy one of our products at www.sparkfun.com.
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="1X01_WITHOUT_TEXT">
+<wire x1="1.27" y1="0.635" x2="0.635" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="0.635" y1="1.27" x2="-0.635" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="-0.635" y1="1.27" x2="-1.27" y2="0.635" width="0.2032" layer="21"/>
+<wire x1="-1.27" y1="0.635" x2="-1.27" y2="-0.635" width="0.2032" layer="21"/>
+<wire x1="-1.27" y1="-0.635" x2="-0.635" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="-0.635" y1="-1.27" x2="0.635" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="0.635" y1="-1.27" x2="1.27" y2="-0.635" width="0.2032" layer="21"/>
+<wire x1="1.27" y1="-0.635" x2="1.27" y2="0.635" width="0.2032" layer="21"/>
+<pad name="1" x="0" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
+</package>
+<package name="1X01_SMD_3.25X0.85MM_NO_SILK">
+<smd name="P$1" x="0" y="0" dx="3.25" dy="0.85" layer="1" roundness="9"/>
+</package>
+</packages>
+</library>
+</libraries>
+<attributes>
+</attributes>
+<variantdefs>
+</variantdefs>
+<classes>
+<class number="0" name="default" width="0" drill="0">
+</class>
+</classes>
+<designrules name="default">
+<description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
+&lt;p&gt;
+Die Standard-Design-Rules sind so gewählt, dass sie für 
+die meisten Anwendungen passen. Sollte ihre Platine 
+besondere Anforderungen haben, treffen Sie die erforderlichen
+Einstellungen hier und speichern die Design Rules unter 
+einem neuen Namen ab.</description>
+<description language="en">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
+&lt;p&gt;
+The default Design Rules have been set to cover
+a wide range of applications. Your particular design
+may have different requirements, so please make the
+necessary adjustments and save your customized
+design rules under a new name.</description>
+<param name="layerSetup" value="(1*16)"/>
+<param name="mtCopper" value="0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm"/>
+<param name="mtIsolate" value="1.5mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm"/>
+<param name="mdWireWire" value="8mil"/>
+<param name="mdWirePad" value="8mil"/>
+<param name="mdWireVia" value="8mil"/>
+<param name="mdPadPad" value="8mil"/>
+<param name="mdPadVia" value="8mil"/>
+<param name="mdViaVia" value="8mil"/>
+<param name="mdSmdPad" value="8mil"/>
+<param name="mdSmdVia" value="8mil"/>
+<param name="mdSmdSmd" value="8mil"/>
+<param name="mdViaViaSameLayer" value="8mil"/>
+<param name="mnLayersViaInSmd" value="2"/>
+<param name="mdCopperDimension" value="40mil"/>
+<param name="mdDrill" value="8mil"/>
+<param name="mdSmdStop" value="0mil"/>
+<param name="msWidth" value="10mil"/>
+<param name="msDrill" value="24mil"/>
+<param name="msMicroVia" value="9.99mm"/>
+<param name="msBlindViaRatio" value="0.5"/>
+<param name="rvPadTop" value="0.25"/>
+<param name="rvPadInner" value="0.25"/>
+<param name="rvPadBottom" value="0.25"/>
+<param name="rvViaOuter" value="0.25"/>
+<param name="rvViaInner" value="0.25"/>
+<param name="rvMicroViaOuter" value="0.25"/>
+<param name="rvMicroViaInner" value="0.25"/>
+<param name="rlMinPadTop" value="10mil"/>
+<param name="rlMaxPadTop" value="20mil"/>
+<param name="rlMinPadInner" value="10mil"/>
+<param name="rlMaxPadInner" value="20mil"/>
+<param name="rlMinPadBottom" value="10mil"/>
+<param name="rlMaxPadBottom" value="20mil"/>
+<param name="rlMinViaOuter" value="8mil"/>
+<param name="rlMaxViaOuter" value="20mil"/>
+<param name="rlMinViaInner" value="8mil"/>
+<param name="rlMaxViaInner" value="20mil"/>
+<param name="rlMinMicroViaOuter" value="4mil"/>
+<param name="rlMaxMicroViaOuter" value="20mil"/>
+<param name="rlMinMicroViaInner" value="4mil"/>
+<param name="rlMaxMicroViaInner" value="20mil"/>
+<param name="psTop" value="-1"/>
+<param name="psBottom" value="-1"/>
+<param name="psFirst" value="-1"/>
+<param name="psElongationLong" value="100"/>
+<param name="psElongationOffset" value="100"/>
+<param name="mvStopFrame" value="1"/>
+<param name="mvCreamFrame" value="0"/>
+<param name="mlMinStopFrame" value="4mil"/>
+<param name="mlMaxStopFrame" value="4mil"/>
+<param name="mlMinCreamFrame" value="0mil"/>
+<param name="mlMaxCreamFrame" value="0mil"/>
+<param name="mlViaStopLimit" value="0mil"/>
+<param name="srRoundness" value="0"/>
+<param name="srMinRoundness" value="0mil"/>
+<param name="srMaxRoundness" value="0mil"/>
+<param name="slThermalIsolate" value="10mil"/>
+<param name="slThermalsForVias" value="0"/>
+<param name="dpMaxLengthDifference" value="10mm"/>
+<param name="dpGapFactor" value="2.5"/>
+<param name="checkGrid" value="0"/>
+<param name="checkAngle" value="0"/>
+<param name="checkFont" value="1"/>
+<param name="checkRestrict" value="1"/>
+<param name="useDiameter" value="13"/>
+<param name="maxErrors" value="50"/>
+</designrules>
+<autorouter>
+<pass name="Default">
+<param name="RoutingGrid" value="50mil"/>
+<param name="AutoGrid" value="1"/>
+<param name="Efforts" value="0"/>
+<param name="TopRouterVariant" value="1"/>
+<param name="tpViaShape" value="round"/>
+<param name="PrefDir.1" value="|"/>
+<param name="PrefDir.2" value="0"/>
+<param name="PrefDir.3" value="0"/>
+<param name="PrefDir.4" value="0"/>
+<param name="PrefDir.5" value="0"/>
+<param name="PrefDir.6" value="0"/>
+<param name="PrefDir.7" value="0"/>
+<param name="PrefDir.8" value="0"/>
+<param name="PrefDir.9" value="0"/>
+<param name="PrefDir.10" value="0"/>
+<param name="PrefDir.11" value="0"/>
+<param name="PrefDir.12" value="0"/>
+<param name="PrefDir.13" value="0"/>
+<param name="PrefDir.14" value="0"/>
+<param name="PrefDir.15" value="0"/>
+<param name="PrefDir.16" value="-"/>
+<param name="cfVia" value="8"/>
+<param name="cfNonPref" value="5"/>
+<param name="cfChangeDir" value="2"/>
+<param name="cfOrthStep" value="2"/>
+<param name="cfDiagStep" value="3"/>
+<param name="cfExtdStep" value="0"/>
+<param name="cfBonusStep" value="1"/>
+<param name="cfMalusStep" value="1"/>
+<param name="cfPadImpact" value="4"/>
+<param name="cfSmdImpact" value="4"/>
+<param name="cfBusImpact" value="0"/>
+<param name="cfHugging" value="3"/>
+<param name="cfAvoid" value="4"/>
+<param name="cfPolygon" value="10"/>
+<param name="cfBase.1" value="0"/>
+<param name="cfBase.2" value="1"/>
+<param name="cfBase.3" value="1"/>
+<param name="cfBase.4" value="1"/>
+<param name="cfBase.5" value="1"/>
+<param name="cfBase.6" value="1"/>
+<param name="cfBase.7" value="1"/>
+<param name="cfBase.8" value="1"/>
+<param name="cfBase.9" value="1"/>
+<param name="cfBase.10" value="1"/>
+<param name="cfBase.11" value="1"/>
+<param name="cfBase.12" value="1"/>
+<param name="cfBase.13" value="1"/>
+<param name="cfBase.14" value="1"/>
+<param name="cfBase.15" value="1"/>
+<param name="cfBase.16" value="0"/>
+<param name="mnVias" value="20"/>
+<param name="mnSegments" value="9999"/>
+<param name="mnExtdSteps" value="9999"/>
+<param name="mnRipupLevel" value="10"/>
+<param name="mnRipupSteps" value="100"/>
+<param name="mnRipupTotal" value="100"/>
+</pass>
+<pass name="Follow-me" refer="Default" active="yes">
+</pass>
+<pass name="Busses" refer="Default" active="yes">
+<param name="cfNonPref" value="4"/>
+<param name="cfBusImpact" value="4"/>
+<param name="cfHugging" value="0"/>
+<param name="mnVias" value="0"/>
+</pass>
+<pass name="Route" refer="Default" active="yes">
+</pass>
+<pass name="Optimize1" refer="Default" active="yes">
+<param name="cfVia" value="99"/>
+<param name="cfExtdStep" value="10"/>
+<param name="cfHugging" value="1"/>
+<param name="mnExtdSteps" value="1"/>
+<param name="mnRipupLevel" value="0"/>
+</pass>
+<pass name="Optimize2" refer="Optimize1" active="yes">
+<param name="cfNonPref" value="0"/>
+<param name="cfChangeDir" value="6"/>
+<param name="cfExtdStep" value="0"/>
+<param name="cfBonusStep" value="2"/>
+<param name="cfMalusStep" value="2"/>
+<param name="cfPadImpact" value="2"/>
+<param name="cfSmdImpact" value="2"/>
+<param name="cfHugging" value="0"/>
+</pass>
+<pass name="Optimize3" refer="Optimize2" active="yes">
+<param name="cfChangeDir" value="8"/>
+<param name="cfPadImpact" value="0"/>
+<param name="cfSmdImpact" value="0"/>
+</pass>
+<pass name="Optimize4" refer="Optimize3" active="yes">
+<param name="cfChangeDir" value="25"/>
+</pass>
+</autorouter>
+<elements>
+<element name="JP1" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="19.76" y="86.83"/>
+<element name="JP2" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="22.3" y="86.83"/>
+<element name="JP3" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="24.84" y="86.83"/>
+<element name="JP4" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="27.38" y="86.83"/>
+<element name="JP5" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="29.92" y="86.83"/>
+<element name="JP6" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="40.08" y="86.83"/>
+<element name="JP7" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="42.62" y="86.83"/>
+<element name="JP8" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="45.16" y="86.83"/>
+<element name="JP9" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="47.7" y="86.83"/>
+<element name="JP10" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="50.24" y="86.83"/>
+<element name="JP11" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="19.76" y="84.29"/>
+<element name="JP12" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="22.3" y="84.29"/>
+<element name="JP13" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="24.84" y="84.29"/>
+<element name="JP14" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="27.38" y="84.29"/>
+<element name="JP15" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="29.92" y="84.29"/>
+<element name="JP16" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="40.08" y="84.29"/>
+<element name="JP17" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="42.62" y="84.29"/>
+<element name="JP18" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="45.16" y="84.29"/>
+<element name="JP19" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="47.7" y="84.29"/>
+<element name="JP20" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="50.24" y="84.29"/>
+<element name="JP21" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="19.76" y="81.75"/>
+<element name="JP22" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="22.3" y="81.75"/>
+<element name="JP23" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="24.84" y="81.75"/>
+<element name="JP24" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="27.38" y="81.75"/>
+<element name="JP25" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="29.92" y="81.75"/>
+<element name="JP26" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="40.08" y="81.75"/>
+<element name="JP27" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="42.62" y="81.75"/>
+<element name="JP28" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="45.16" y="81.75"/>
+<element name="JP29" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="47.7" y="81.75"/>
+<element name="JP30" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="50.24" y="81.75"/>
+<element name="JP31" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="19.76" y="79.21"/>
+<element name="JP32" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="22.3" y="79.21"/>
+<element name="JP33" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="24.84" y="79.21"/>
+<element name="JP34" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="27.38" y="79.21"/>
+<element name="JP35" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="29.92" y="79.21"/>
+<element name="JP36" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="40.08" y="79.21"/>
+<element name="JP37" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="42.62" y="79.21"/>
+<element name="JP38" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="45.16" y="79.21"/>
+<element name="JP39" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="47.7" y="79.21"/>
+<element name="JP40" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="50.24" y="79.21"/>
+<element name="JP41" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="19.76" y="76.67"/>
+<element name="JP42" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="22.3" y="76.67"/>
+<element name="JP43" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="24.84" y="76.67"/>
+<element name="JP44" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="27.38" y="76.67"/>
+<element name="JP45" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="29.92" y="76.67"/>
+<element name="JP46" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="40.08" y="76.67"/>
+<element name="JP47" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="42.62" y="76.67"/>
+<element name="JP48" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="45.16" y="76.67"/>
+<element name="JP49" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="47.7" y="76.67"/>
+<element name="JP50" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="50.24" y="76.67"/>
+<element name="JP51" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="19.76" y="74.13"/>
+<element name="JP52" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="22.3" y="74.13"/>
+<element name="JP53" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="24.84" y="74.13"/>
+<element name="JP54" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="27.38" y="74.13"/>
+<element name="JP55" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="29.92" y="74.13"/>
+<element name="JP56" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="40.08" y="74.13"/>
+<element name="JP57" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="42.62" y="74.13"/>
+<element name="JP58" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="45.16" y="74.13"/>
+<element name="JP59" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="47.7" y="74.13"/>
+<element name="JP60" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="50.24" y="74.13"/>
+<element name="JP61" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="19.76" y="71.59"/>
+<element name="JP62" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="22.3" y="71.59"/>
+<element name="JP63" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="24.84" y="71.59"/>
+<element name="JP64" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="27.38" y="71.59"/>
+<element name="JP65" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="29.92" y="71.59"/>
+<element name="JP66" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="40.08" y="71.59"/>
+<element name="JP67" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="42.62" y="71.59"/>
+<element name="JP68" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="45.16" y="71.59"/>
+<element name="JP69" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="47.7" y="71.59"/>
+<element name="JP70" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="50.24" y="71.59"/>
+<element name="JP71" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="19.76" y="69.05"/>
+<element name="JP72" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="22.3" y="69.05"/>
+<element name="JP73" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="24.84" y="69.05"/>
+<element name="JP74" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="27.38" y="69.05"/>
+<element name="JP75" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="29.92" y="69.05"/>
+<element name="JP76" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="40.08" y="69.05"/>
+<element name="JP77" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="42.62" y="69.05"/>
+<element name="JP78" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="45.16" y="69.05"/>
+<element name="JP79" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="47.7" y="69.05"/>
+<element name="JP80" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="50.24" y="69.05"/>
+<element name="JP81" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="19.76" y="66.51"/>
+<element name="JP82" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="22.3" y="66.51"/>
+<element name="JP83" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="24.84" y="66.51"/>
+<element name="JP84" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="27.38" y="66.51"/>
+<element name="JP85" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="29.92" y="66.51"/>
+<element name="JP86" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="40.08" y="66.51"/>
+<element name="JP87" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="42.62" y="66.51"/>
+<element name="JP88" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="45.16" y="66.51"/>
+<element name="JP89" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="47.7" y="66.51"/>
+<element name="JP90" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="50.24" y="66.51"/>
+<element name="JP91" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="19.76" y="63.97"/>
+<element name="JP92" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="22.3" y="63.97"/>
+<element name="JP93" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="24.84" y="63.97"/>
+<element name="JP94" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="27.38" y="63.97"/>
+<element name="JP95" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="29.92" y="63.97"/>
+<element name="JP96" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="40.08" y="63.97"/>
+<element name="JP97" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="42.62" y="63.97"/>
+<element name="JP98" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="45.16" y="63.97"/>
+<element name="JP99" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="47.7" y="63.97"/>
+<element name="JP100" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="50.24" y="63.97"/>
+<element name="JP101" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="19.76" y="61.43"/>
+<element name="JP102" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="22.3" y="61.43"/>
+<element name="JP103" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="24.84" y="61.43"/>
+<element name="JP104" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="27.38" y="61.43"/>
+<element name="JP105" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="29.92" y="61.43"/>
+<element name="JP106" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="40.08" y="61.43"/>
+<element name="JP107" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="42.62" y="61.43"/>
+<element name="JP108" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="45.16" y="61.43"/>
+<element name="JP109" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="47.7" y="61.43"/>
+<element name="JP110" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="50.24" y="61.43"/>
+<element name="JP111" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="19.76" y="58.89"/>
+<element name="JP112" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="22.3" y="58.89"/>
+<element name="JP113" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="24.84" y="58.89"/>
+<element name="JP114" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="27.38" y="58.89"/>
+<element name="JP115" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="29.92" y="58.89"/>
+<element name="JP116" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="40.08" y="58.89"/>
+<element name="JP117" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="42.62" y="58.89"/>
+<element name="JP118" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="45.16" y="58.89"/>
+<element name="JP119" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="47.7" y="58.89"/>
+<element name="JP120" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="50.24" y="58.89"/>
+<element name="JP121" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="19.76" y="56.35"/>
+<element name="JP122" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="22.3" y="56.35"/>
+<element name="JP123" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="24.84" y="56.35"/>
+<element name="JP124" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="27.38" y="56.35"/>
+<element name="JP125" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="29.92" y="56.35"/>
+<element name="JP126" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="40.08" y="56.35"/>
+<element name="JP127" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="42.62" y="56.35"/>
+<element name="JP128" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="45.16" y="56.35"/>
+<element name="JP129" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="47.7" y="56.35"/>
+<element name="JP130" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="50.24" y="56.35"/>
+<element name="JP131" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="19.76" y="53.81"/>
+<element name="JP132" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="22.3" y="53.81"/>
+<element name="JP133" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="24.84" y="53.81"/>
+<element name="JP134" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="27.38" y="53.81"/>
+<element name="JP135" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="29.92" y="53.81"/>
+<element name="JP136" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="40.08" y="53.81"/>
+<element name="JP137" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="42.62" y="53.81"/>
+<element name="JP138" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="45.16" y="53.81"/>
+<element name="JP139" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="47.7" y="53.81"/>
+<element name="JP140" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="50.24" y="53.81"/>
+<element name="JP141" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="19.76" y="51.27"/>
+<element name="JP142" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="22.3" y="51.27"/>
+<element name="JP143" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="24.84" y="51.27"/>
+<element name="JP144" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="27.38" y="51.27"/>
+<element name="JP145" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="29.92" y="51.27"/>
+<element name="JP146" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="40.08" y="51.27"/>
+<element name="JP147" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="42.62" y="51.27"/>
+<element name="JP148" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="45.16" y="51.27"/>
+<element name="JP149" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="47.7" y="51.27"/>
+<element name="JP150" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="50.24" y="51.27"/>
+<element name="JP151" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="19.76" y="48.73"/>
+<element name="JP152" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="22.3" y="48.73"/>
+<element name="JP153" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="24.84" y="48.73"/>
+<element name="JP154" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="27.38" y="48.73"/>
+<element name="JP155" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="29.92" y="48.73"/>
+<element name="JP156" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="40.08" y="48.73"/>
+<element name="JP157" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="42.62" y="48.73"/>
+<element name="JP158" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="45.16" y="48.73"/>
+<element name="JP159" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="47.7" y="48.73"/>
+<element name="JP160" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="50.24" y="48.73"/>
+<element name="JP161" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="19.76" y="46.19"/>
+<element name="JP162" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="22.3" y="46.19"/>
+<element name="JP163" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="24.84" y="46.19"/>
+<element name="JP164" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="27.38" y="46.19"/>
+<element name="JP165" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="29.92" y="46.19"/>
+<element name="JP166" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="40.08" y="46.19"/>
+<element name="JP167" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="42.62" y="46.19"/>
+<element name="JP168" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="45.16" y="46.19"/>
+<element name="JP169" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="47.7" y="46.19"/>
+<element name="JP170" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="50.24" y="46.19"/>
+<element name="JP171" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="19.76" y="43.65"/>
+<element name="JP172" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="22.3" y="43.65"/>
+<element name="JP173" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="24.84" y="43.65"/>
+<element name="JP174" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="27.38" y="43.65"/>
+<element name="JP175" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="29.92" y="43.65"/>
+<element name="JP176" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="40.08" y="43.65"/>
+<element name="JP177" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="42.62" y="43.65"/>
+<element name="JP178" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="45.16" y="43.65"/>
+<element name="JP179" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="47.7" y="43.65"/>
+<element name="JP180" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="50.24" y="43.65"/>
+<element name="JP181" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="19.76" y="41.11"/>
+<element name="JP182" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="22.3" y="41.11"/>
+<element name="JP183" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="24.84" y="41.11"/>
+<element name="JP184" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="27.38" y="41.11"/>
+<element name="JP185" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="29.92" y="41.11"/>
+<element name="JP186" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="40.08" y="41.11"/>
+<element name="JP187" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="42.62" y="41.11"/>
+<element name="JP188" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="45.16" y="41.11"/>
+<element name="JP189" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="47.7" y="41.11"/>
+<element name="JP190" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="50.24" y="41.11"/>
+<element name="JP191" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="19.76" y="38.57"/>
+<element name="JP192" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="22.3" y="38.57"/>
+<element name="JP193" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="24.84" y="38.57"/>
+<element name="JP194" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="27.38" y="38.57"/>
+<element name="JP195" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="29.92" y="38.57"/>
+<element name="JP196" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="40.08" y="38.57"/>
+<element name="JP197" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="42.62" y="38.57"/>
+<element name="JP198" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="45.16" y="38.57"/>
+<element name="JP199" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="47.7" y="38.57"/>
+<element name="JP200" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="50.24" y="38.57"/>
+<element name="JP201" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="19.76" y="36.03"/>
+<element name="JP202" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="22.3" y="36.03"/>
+<element name="JP203" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="24.84" y="36.03"/>
+<element name="JP204" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="27.38" y="36.03"/>
+<element name="JP205" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="29.92" y="36.03"/>
+<element name="JP206" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="40.08" y="36.03"/>
+<element name="JP207" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="42.62" y="36.03"/>
+<element name="JP208" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="45.16" y="36.03"/>
+<element name="JP209" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="47.7" y="36.03"/>
+<element name="JP210" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="50.24" y="36.03"/>
+<element name="JP211" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="19.76" y="33.49"/>
+<element name="JP212" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="22.3" y="33.49"/>
+<element name="JP213" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="24.84" y="33.49"/>
+<element name="JP214" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="27.38" y="33.49"/>
+<element name="JP215" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="29.92" y="33.49"/>
+<element name="JP216" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="40.08" y="33.49"/>
+<element name="JP217" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="42.62" y="33.49"/>
+<element name="JP218" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="45.16" y="33.49"/>
+<element name="JP219" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="47.7" y="33.49"/>
+<element name="JP220" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="50.24" y="33.49"/>
+<element name="JP221" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="19.76" y="30.95"/>
+<element name="JP222" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="22.3" y="30.95"/>
+<element name="JP223" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="24.84" y="30.95"/>
+<element name="JP224" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="27.38" y="30.95"/>
+<element name="JP225" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="29.92" y="30.95"/>
+<element name="JP226" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="40.08" y="30.95"/>
+<element name="JP227" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="42.62" y="30.95"/>
+<element name="JP228" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="45.16" y="30.95"/>
+<element name="JP229" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="47.7" y="30.95"/>
+<element name="JP230" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="50.24" y="30.95"/>
+<element name="JP231" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="19.76" y="28.41"/>
+<element name="JP232" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="22.3" y="28.41"/>
+<element name="JP233" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="24.84" y="28.41"/>
+<element name="JP234" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="27.38" y="28.41"/>
+<element name="JP235" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="29.92" y="28.41"/>
+<element name="JP236" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="40.08" y="28.41"/>
+<element name="JP237" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="42.62" y="28.41"/>
+<element name="JP238" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="45.16" y="28.41"/>
+<element name="JP239" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="47.7" y="28.41"/>
+<element name="JP240" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="50.24" y="28.41"/>
+<element name="JP241" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="19.76" y="25.87"/>
+<element name="JP242" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="22.3" y="25.87"/>
+<element name="JP243" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="24.84" y="25.87"/>
+<element name="JP244" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="27.38" y="25.87"/>
+<element name="JP245" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="29.92" y="25.87"/>
+<element name="JP246" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="40.08" y="25.87"/>
+<element name="JP247" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="42.62" y="25.87"/>
+<element name="JP248" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="45.16" y="25.87"/>
+<element name="JP249" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="47.7" y="25.87"/>
+<element name="JP250" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="50.24" y="25.87"/>
+<element name="JP251" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="19.76" y="23.33"/>
+<element name="JP252" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="22.3" y="23.33"/>
+<element name="JP253" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="24.84" y="23.33"/>
+<element name="JP254" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="27.38" y="23.33"/>
+<element name="JP255" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="29.92" y="23.33"/>
+<element name="JP256" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="40.08" y="23.33"/>
+<element name="JP257" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="42.62" y="23.33"/>
+<element name="JP258" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="45.16" y="23.33"/>
+<element name="JP259" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="47.7" y="23.33"/>
+<element name="JP260" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="50.24" y="23.33"/>
+<element name="JP261" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="19.76" y="20.79"/>
+<element name="JP262" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="22.3" y="20.79"/>
+<element name="JP263" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="24.84" y="20.79"/>
+<element name="JP264" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="27.38" y="20.79"/>
+<element name="JP265" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="29.92" y="20.79"/>
+<element name="JP266" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="40.08" y="20.79"/>
+<element name="JP267" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="42.62" y="20.79"/>
+<element name="JP268" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="45.16" y="20.79"/>
+<element name="JP269" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="47.7" y="20.79"/>
+<element name="JP270" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="50.24" y="20.79"/>
+<element name="JP271" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="19.76" y="18.25"/>
+<element name="JP272" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="22.3" y="18.25"/>
+<element name="JP273" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="24.84" y="18.25"/>
+<element name="JP274" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="27.38" y="18.25"/>
+<element name="JP275" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="29.92" y="18.25"/>
+<element name="JP276" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="40.08" y="18.25"/>
+<element name="JP277" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="42.62" y="18.25"/>
+<element name="JP278" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="45.16" y="18.25"/>
+<element name="JP279" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="47.7" y="18.25"/>
+<element name="JP280" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="50.24" y="18.25"/>
+<element name="JP281" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="19.76" y="15.71"/>
+<element name="JP282" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="22.3" y="15.71"/>
+<element name="JP283" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="24.84" y="15.71"/>
+<element name="JP284" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="27.38" y="15.71"/>
+<element name="JP285" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="29.92" y="15.71"/>
+<element name="JP286" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="40.08" y="15.71"/>
+<element name="JP287" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="42.62" y="15.71"/>
+<element name="JP288" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="45.16" y="15.71"/>
+<element name="JP289" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="47.7" y="15.71"/>
+<element name="JP290" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="50.24" y="15.71"/>
+<element name="JP291" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="19.76" y="13.17"/>
+<element name="JP292" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="22.3" y="13.17"/>
+<element name="JP293" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="24.84" y="13.17"/>
+<element name="JP294" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="27.38" y="13.17"/>
+<element name="JP295" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="29.92" y="13.17"/>
+<element name="JP296" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="40.08" y="13.17"/>
+<element name="JP297" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="42.62" y="13.17"/>
+<element name="JP298" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="45.16" y="13.17"/>
+<element name="JP299" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="47.7" y="13.17"/>
+<element name="JP300" library="SparkFun-Connectors" package="1X01_WITHOUT_TEXT" value="" x="50.24" y="13.17"/>
+<element name="JP1201" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="3" y="87.465" rot="MR0"/>
+<element name="JP1202" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="3" y="86.195" rot="MR0"/>
+<element name="JP1203" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="3" y="84.925" rot="MR0"/>
+<element name="JP1204" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="3" y="83.655" rot="MR0"/>
+<element name="JP1205" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="3" y="82.385" rot="MR0"/>
+<element name="JP1206" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="3" y="81.115" rot="MR0"/>
+<element name="JP1207" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="3" y="79.845" rot="MR0"/>
+<element name="JP1208" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="3" y="78.575" rot="MR0"/>
+<element name="JP1209" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="3" y="77.305" rot="MR0"/>
+<element name="JP1210" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="3" y="76.035" rot="MR0"/>
+<element name="JP1211" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="3" y="74.765" rot="MR0"/>
+<element name="JP1212" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="3" y="73.495" rot="MR0"/>
+<element name="JP1213" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="3" y="72.225" rot="MR0"/>
+<element name="JP1214" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="3" y="70.955" rot="MR0"/>
+<element name="JP1215" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="3" y="69.685" rot="MR0"/>
+<element name="JP1216" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="3" y="68.415" rot="MR0"/>
+<element name="JP1217" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="3" y="67.145" rot="MR0"/>
+<element name="JP1218" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="3" y="65.875" rot="MR0"/>
+<element name="JP1219" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="3" y="64.605" rot="MR0"/>
+<element name="JP1220" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="3" y="63.335" rot="MR0"/>
+<element name="JP1221" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="3" y="62.065" rot="MR0"/>
+<element name="JP1222" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="3" y="60.795" rot="MR0"/>
+<element name="JP1223" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="3" y="59.525" rot="MR0"/>
+<element name="JP1224" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="3" y="58.255" rot="MR0"/>
+<element name="JP1225" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="3" y="56.985" rot="MR0"/>
+<element name="JP1226" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="3" y="55.715" rot="MR0"/>
+<element name="JP1227" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="3" y="54.445" rot="MR0"/>
+<element name="JP1228" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="3" y="53.175" rot="MR0"/>
+<element name="JP1229" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="3" y="51.905" rot="MR0"/>
+<element name="JP1230" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="3" y="50.635" rot="MR0"/>
+<element name="JP1231" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="3" y="49.365" rot="MR0"/>
+<element name="JP1232" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="3" y="48.095" rot="MR0"/>
+<element name="JP1233" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="3" y="46.825" rot="MR0"/>
+<element name="JP1234" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="3" y="45.555" rot="MR0"/>
+<element name="JP1235" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="3" y="44.285" rot="MR0"/>
+<element name="JP1236" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="3" y="43.015" rot="MR0"/>
+<element name="JP1237" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="3" y="41.745" rot="MR0"/>
+<element name="JP1238" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="3" y="40.475" rot="MR0"/>
+<element name="JP1239" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="3" y="39.205" rot="MR0"/>
+<element name="JP1240" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="3" y="37.935" rot="MR0"/>
+<element name="JP1241" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="3" y="36.665" rot="MR0"/>
+<element name="JP1242" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="3" y="35.395" rot="MR0"/>
+<element name="JP1243" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="3" y="34.125" rot="MR0"/>
+<element name="JP1244" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="3" y="32.855" rot="MR0"/>
+<element name="JP1245" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="3" y="31.585" rot="MR0"/>
+<element name="JP1246" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="3" y="30.315" rot="MR0"/>
+<element name="JP1247" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="3" y="29.045" rot="MR0"/>
+<element name="JP1248" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="3" y="27.775" rot="MR0"/>
+<element name="JP1249" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="3" y="26.505" rot="MR0"/>
+<element name="JP1250" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="3" y="25.235" rot="MR0"/>
+<element name="JP1251" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="3" y="23.965" rot="MR0"/>
+<element name="JP1252" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="3" y="22.695" rot="MR0"/>
+<element name="JP1253" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="3" y="21.425" rot="MR0"/>
+<element name="JP1254" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="3" y="20.155" rot="MR0"/>
+<element name="JP1255" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="3" y="18.885" rot="MR0"/>
+<element name="JP1256" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="3" y="17.615" rot="MR0"/>
+<element name="JP1257" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="3" y="16.345" rot="MR0"/>
+<element name="JP1258" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="3" y="15.075" rot="MR0"/>
+<element name="JP1259" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="3" y="13.805" rot="MR0"/>
+<element name="JP1260" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="3" y="12.535" rot="MR0"/>
+<element name="JP1261" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="7.5" y="87.465" rot="MR0"/>
+<element name="JP1262" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="7.5" y="86.195" rot="MR0"/>
+<element name="JP1263" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="7.5" y="84.925" rot="MR0"/>
+<element name="JP1264" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="7.5" y="83.655" rot="MR0"/>
+<element name="JP1265" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="7.5" y="82.385" rot="MR0"/>
+<element name="JP1266" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="7.5" y="81.115" rot="MR0"/>
+<element name="JP1267" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="7.5" y="79.845" rot="MR0"/>
+<element name="JP1268" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="7.5" y="78.575" rot="MR0"/>
+<element name="JP1269" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="7.5" y="77.305" rot="MR0"/>
+<element name="JP1270" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="7.5" y="76.035" rot="MR0"/>
+<element name="JP1271" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="7.5" y="74.765" rot="MR0"/>
+<element name="JP1272" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="7.5" y="73.495" rot="MR0"/>
+<element name="JP1273" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="7.5" y="72.225" rot="MR0"/>
+<element name="JP1274" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="7.5" y="70.955" rot="MR0"/>
+<element name="JP1275" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="7.5" y="69.685" rot="MR0"/>
+<element name="JP1276" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="7.5" y="68.415" rot="MR0"/>
+<element name="JP1277" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="7.5" y="67.145" rot="MR0"/>
+<element name="JP1278" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="7.5" y="65.875" rot="MR0"/>
+<element name="JP1279" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="7.5" y="64.605" rot="MR0"/>
+<element name="JP1280" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="7.5" y="63.335" rot="MR0"/>
+<element name="JP1281" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="7.5" y="62.065" rot="MR0"/>
+<element name="JP1282" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="7.5" y="60.795" rot="MR0"/>
+<element name="JP1283" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="7.5" y="59.525" rot="MR0"/>
+<element name="JP1284" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="7.5" y="58.255" rot="MR0"/>
+<element name="JP1285" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="7.5" y="56.985" rot="MR0"/>
+<element name="JP1286" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="7.5" y="55.715" rot="MR0"/>
+<element name="JP1287" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="7.5" y="54.445" rot="MR0"/>
+<element name="JP1288" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="7.5" y="53.175" rot="MR0"/>
+<element name="JP1289" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="7.5" y="51.905" rot="MR0"/>
+<element name="JP1290" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="7.5" y="50.635" rot="MR0"/>
+<element name="JP1291" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="7.5" y="49.365" rot="MR0"/>
+<element name="JP1292" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="7.5" y="48.095" rot="MR0"/>
+<element name="JP1293" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="7.5" y="46.825" rot="MR0"/>
+<element name="JP1294" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="7.5" y="45.555" rot="MR0"/>
+<element name="JP1295" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="7.5" y="44.285" rot="MR0"/>
+<element name="JP1296" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="7.5" y="43.015" rot="MR0"/>
+<element name="JP1297" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="7.5" y="41.745" rot="MR0"/>
+<element name="JP1298" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="7.5" y="40.475" rot="MR0"/>
+<element name="JP1299" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="7.5" y="39.205" rot="MR0"/>
+<element name="JP1300" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="7.5" y="37.935" rot="MR0"/>
+<element name="JP1301" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="7.5" y="36.665" rot="MR0"/>
+<element name="JP1302" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="7.5" y="35.395" rot="MR0"/>
+<element name="JP1303" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="7.5" y="34.125" rot="MR0"/>
+<element name="JP1304" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="7.5" y="32.855" rot="MR0"/>
+<element name="JP1305" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="7.5" y="31.585" rot="MR0"/>
+<element name="JP1306" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="7.5" y="30.315" rot="MR0"/>
+<element name="JP1307" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="7.5" y="29.045" rot="MR0"/>
+<element name="JP1308" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="7.5" y="27.775" rot="MR0"/>
+<element name="JP1309" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="7.5" y="26.505" rot="MR0"/>
+<element name="JP1310" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="7.5" y="25.235" rot="MR0"/>
+<element name="JP1311" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="7.5" y="23.965" rot="MR0"/>
+<element name="JP1312" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="7.5" y="22.695" rot="MR0"/>
+<element name="JP1313" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="7.5" y="21.425" rot="MR0"/>
+<element name="JP1314" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="7.5" y="20.155" rot="MR0"/>
+<element name="JP1315" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="7.5" y="18.885" rot="MR0"/>
+<element name="JP1316" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="7.5" y="17.615" rot="MR0"/>
+<element name="JP1317" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="7.5" y="16.345" rot="MR0"/>
+<element name="JP1318" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="7.5" y="15.075" rot="MR0"/>
+<element name="JP1319" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="7.5" y="13.805" rot="MR0"/>
+<element name="JP1320" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="7.5" y="12.535" rot="MR0"/>
+<element name="JP1321" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="62.5" y="87.465" rot="MR0"/>
+<element name="JP1322" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="62.5" y="86.195" rot="MR0"/>
+<element name="JP1323" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="62.5" y="84.925" rot="MR0"/>
+<element name="JP1324" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="62.5" y="83.655" rot="MR0"/>
+<element name="JP1325" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="62.5" y="82.385" rot="MR0"/>
+<element name="JP1326" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="62.5" y="81.115" rot="MR0"/>
+<element name="JP1327" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="62.5" y="79.845" rot="MR0"/>
+<element name="JP1328" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="62.5" y="78.575" rot="MR0"/>
+<element name="JP1329" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="62.5" y="77.305" rot="MR0"/>
+<element name="JP1330" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="62.5" y="76.035" rot="MR0"/>
+<element name="JP1331" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="62.5" y="74.765" rot="MR0"/>
+<element name="JP1332" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="62.5" y="73.495" rot="MR0"/>
+<element name="JP1333" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="62.5" y="72.225" rot="MR0"/>
+<element name="JP1334" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="62.5" y="70.955" rot="MR0"/>
+<element name="JP1335" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="62.5" y="69.685" rot="MR0"/>
+<element name="JP1336" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="62.5" y="68.415" rot="MR0"/>
+<element name="JP1337" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="62.5" y="67.145" rot="MR0"/>
+<element name="JP1338" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="62.5" y="65.875" rot="MR0"/>
+<element name="JP1339" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="62.5" y="64.605" rot="MR0"/>
+<element name="JP1340" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="62.5" y="63.335" rot="MR0"/>
+<element name="JP1341" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="62.5" y="62.065" rot="MR0"/>
+<element name="JP1342" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="62.5" y="60.795" rot="MR0"/>
+<element name="JP1343" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="62.5" y="59.525" rot="MR0"/>
+<element name="JP1344" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="62.5" y="58.255" rot="MR0"/>
+<element name="JP1345" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="62.5" y="56.985" rot="MR0"/>
+<element name="JP1346" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="62.5" y="55.715" rot="MR0"/>
+<element name="JP1347" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="62.5" y="54.445" rot="MR0"/>
+<element name="JP1348" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="62.5" y="53.175" rot="MR0"/>
+<element name="JP1349" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="62.5" y="51.905" rot="MR0"/>
+<element name="JP1350" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="62.5" y="50.635" rot="MR0"/>
+<element name="JP1351" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="62.5" y="49.365" rot="MR0"/>
+<element name="JP1352" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="62.5" y="48.095" rot="MR0"/>
+<element name="JP1353" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="62.5" y="46.825" rot="MR0"/>
+<element name="JP1354" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="62.5" y="45.555" rot="MR0"/>
+<element name="JP1355" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="62.5" y="44.285" rot="MR0"/>
+<element name="JP1356" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="62.5" y="43.015" rot="MR0"/>
+<element name="JP1357" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="62.5" y="41.745" rot="MR0"/>
+<element name="JP1358" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="62.5" y="40.475" rot="MR0"/>
+<element name="JP1359" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="62.5" y="39.205" rot="MR0"/>
+<element name="JP1360" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="62.5" y="37.935" rot="MR0"/>
+<element name="JP1361" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="62.5" y="36.665" rot="MR0"/>
+<element name="JP1362" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="62.5" y="35.395" rot="MR0"/>
+<element name="JP1363" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="62.5" y="34.125" rot="MR0"/>
+<element name="JP1364" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="62.5" y="32.855" rot="MR0"/>
+<element name="JP1365" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="62.5" y="31.585" rot="MR0"/>
+<element name="JP1366" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="62.5" y="30.315" rot="MR0"/>
+<element name="JP1367" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="62.5" y="29.045" rot="MR0"/>
+<element name="JP1368" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="62.5" y="27.775" rot="MR0"/>
+<element name="JP1369" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="62.5" y="26.505" rot="MR0"/>
+<element name="JP1370" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="62.5" y="25.235" rot="MR0"/>
+<element name="JP1371" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="62.5" y="23.965" rot="MR0"/>
+<element name="JP1372" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="62.5" y="22.695" rot="MR0"/>
+<element name="JP1373" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="62.5" y="21.425" rot="MR0"/>
+<element name="JP1374" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="62.5" y="20.155" rot="MR0"/>
+<element name="JP1375" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="62.5" y="18.885" rot="MR0"/>
+<element name="JP1376" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="62.5" y="17.615" rot="MR0"/>
+<element name="JP1377" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="62.5" y="16.345" rot="MR0"/>
+<element name="JP1378" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="62.5" y="15.075" rot="MR0"/>
+<element name="JP1379" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="62.5" y="13.805" rot="MR0"/>
+<element name="JP1380" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="62.5" y="12.535" rot="MR0"/>
+<element name="JP1381" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="67" y="87.465" rot="MR0"/>
+<element name="JP1382" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="67" y="86.195" rot="MR0"/>
+<element name="JP1383" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="67" y="84.925" rot="MR0"/>
+<element name="JP1384" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="67" y="83.655" rot="MR0"/>
+<element name="JP1385" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="67" y="82.385" rot="MR0"/>
+<element name="JP1386" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="67" y="81.115" rot="MR0"/>
+<element name="JP1387" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="67" y="79.845" rot="MR0"/>
+<element name="JP1388" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="67" y="78.575" rot="MR0"/>
+<element name="JP1389" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="67" y="77.305" rot="MR0"/>
+<element name="JP1390" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="67" y="76.035" rot="MR0"/>
+<element name="JP1391" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="67" y="74.765" rot="MR0"/>
+<element name="JP1392" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="67" y="73.495" rot="MR0"/>
+<element name="JP1393" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="67" y="72.225" rot="MR0"/>
+<element name="JP1394" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="67" y="70.955" rot="MR0"/>
+<element name="JP1395" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="67" y="69.685" rot="MR0"/>
+<element name="JP1396" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="67" y="68.415" rot="MR0"/>
+<element name="JP1397" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="67" y="67.145" rot="MR0"/>
+<element name="JP1398" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="67" y="65.875" rot="MR0"/>
+<element name="JP1399" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="67" y="64.605" rot="MR0"/>
+<element name="JP1400" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="67" y="63.335" rot="MR0"/>
+<element name="JP1401" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="67" y="62.065" rot="MR0"/>
+<element name="JP1402" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="67" y="60.795" rot="MR0"/>
+<element name="JP1403" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="67" y="59.525" rot="MR0"/>
+<element name="JP1404" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="67" y="58.255" rot="MR0"/>
+<element name="JP1405" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="67" y="56.985" rot="MR0"/>
+<element name="JP1406" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="67" y="55.715" rot="MR0"/>
+<element name="JP1407" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="67" y="54.445" rot="MR0"/>
+<element name="JP1408" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="67" y="53.175" rot="MR0"/>
+<element name="JP1409" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="67" y="51.905" rot="MR0"/>
+<element name="JP1410" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="67" y="50.635" rot="MR0"/>
+<element name="JP1411" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="67" y="49.365" rot="MR0"/>
+<element name="JP1412" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="67" y="48.095" rot="MR0"/>
+<element name="JP1413" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="67" y="46.825" rot="MR0"/>
+<element name="JP1414" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="67" y="45.555" rot="MR0"/>
+<element name="JP1415" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="67" y="44.285" rot="MR0"/>
+<element name="JP1416" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="67" y="43.015" rot="MR0"/>
+<element name="JP1417" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="67" y="41.745" rot="MR0"/>
+<element name="JP1418" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="67" y="40.475" rot="MR0"/>
+<element name="JP1419" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="67" y="39.205" rot="MR0"/>
+<element name="JP1420" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="67" y="37.935" rot="MR0"/>
+<element name="JP1421" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="67" y="36.665" rot="MR0"/>
+<element name="JP1422" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="67" y="35.395" rot="MR0"/>
+<element name="JP1423" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="67" y="34.125" rot="MR0"/>
+<element name="JP1424" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="67" y="32.855" rot="MR0"/>
+<element name="JP1425" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="67" y="31.585" rot="MR0"/>
+<element name="JP1426" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="67" y="30.315" rot="MR0"/>
+<element name="JP1427" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="67" y="29.045" rot="MR0"/>
+<element name="JP1428" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="67" y="27.775" rot="MR0"/>
+<element name="JP1429" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="67" y="26.505" rot="MR0"/>
+<element name="JP1430" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="67" y="25.235" rot="MR0"/>
+<element name="JP1431" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="67" y="23.965" rot="MR0"/>
+<element name="JP1432" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="67" y="22.695" rot="MR0"/>
+<element name="JP1433" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="67" y="21.425" rot="MR0"/>
+<element name="JP1434" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="67" y="20.155" rot="MR0"/>
+<element name="JP1435" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="67" y="18.885" rot="MR0"/>
+<element name="JP1436" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="67" y="17.615" rot="MR0"/>
+<element name="JP1437" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="67" y="16.345" rot="MR0"/>
+<element name="JP1438" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="67" y="15.075" rot="MR0"/>
+<element name="JP1439" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="67" y="13.805" rot="MR0"/>
+<element name="JP1440" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="67" y="12.535" rot="MR0"/>
+<element name="JP1441" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="16.585" y="97" rot="MR270"/>
+<element name="JP1442" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="17.855" y="97" rot="MR270"/>
+<element name="JP1443" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="19.125" y="97" rot="MR270"/>
+<element name="JP1444" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="20.395" y="97" rot="MR270"/>
+<element name="JP1445" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="21.665" y="97" rot="MR270"/>
+<element name="JP1446" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="22.935" y="97" rot="MR270"/>
+<element name="JP1447" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="24.205" y="97" rot="MR270"/>
+<element name="JP1448" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="25.475" y="97" rot="MR270"/>
+<element name="JP1449" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="26.745" y="97" rot="MR270"/>
+<element name="JP1450" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="28.015" y="97" rot="MR270"/>
+<element name="JP1451" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="29.285" y="97" rot="MR270"/>
+<element name="JP1452" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="30.555" y="97" rot="MR270"/>
+<element name="JP1453" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="31.825" y="97" rot="MR270"/>
+<element name="JP1454" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="33.095" y="97" rot="MR270"/>
+<element name="JP1455" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="34.365" y="97" rot="MR270"/>
+<element name="JP1456" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="35.635" y="97" rot="MR270"/>
+<element name="JP1457" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="36.905" y="97" rot="MR270"/>
+<element name="JP1458" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="38.175" y="97" rot="MR270"/>
+<element name="JP1459" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="39.445" y="97" rot="MR270"/>
+<element name="JP1460" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="40.715" y="97" rot="MR270"/>
+<element name="JP1461" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="41.985" y="97" rot="MR270"/>
+<element name="JP1462" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="43.255" y="97" rot="MR270"/>
+<element name="JP1463" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="44.525" y="97" rot="MR270"/>
+<element name="JP1464" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="45.795" y="97" rot="MR270"/>
+<element name="JP1465" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="47.065" y="97" rot="MR270"/>
+<element name="JP1466" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="48.335" y="97" rot="MR270"/>
+<element name="JP1467" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="49.605" y="97" rot="MR270"/>
+<element name="JP1468" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="50.875" y="97" rot="MR270"/>
+<element name="JP1469" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="52.145" y="97" rot="MR270"/>
+<element name="JP1470" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="53.415" y="97" rot="MR270"/>
+<element name="JP1471" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="16.585" y="3" rot="MR270"/>
+<element name="JP1472" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="17.855" y="3" rot="MR270"/>
+<element name="JP1473" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="19.125" y="3" rot="MR270"/>
+<element name="JP1474" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="20.395" y="3" rot="MR270"/>
+<element name="JP1475" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="21.665" y="3" rot="MR270"/>
+<element name="JP1476" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="22.935" y="3" rot="MR270"/>
+<element name="JP1477" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="24.205" y="3" rot="MR270"/>
+<element name="JP1478" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="25.475" y="3" rot="MR270"/>
+<element name="JP1479" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="26.745" y="3" rot="MR270"/>
+<element name="JP1480" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="28.015" y="3" rot="MR270"/>
+<element name="JP1481" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="29.285" y="3" rot="MR270"/>
+<element name="JP1482" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="30.555" y="3" rot="MR270"/>
+<element name="JP1483" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="31.825" y="3" rot="MR270"/>
+<element name="JP1484" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="33.095" y="3" rot="MR270"/>
+<element name="JP1485" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="34.365" y="3" rot="MR270"/>
+<element name="JP1486" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="35.635" y="3" rot="MR270"/>
+<element name="JP1487" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="36.905" y="3" rot="MR270"/>
+<element name="JP1488" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="38.175" y="3" rot="MR270"/>
+<element name="JP1489" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="39.445" y="3" rot="MR270"/>
+<element name="JP1490" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="40.715" y="3" rot="MR270"/>
+<element name="JP1491" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="41.985" y="3" rot="MR270"/>
+<element name="JP1492" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="43.255" y="3" rot="MR270"/>
+<element name="JP1493" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="44.525" y="3" rot="MR270"/>
+<element name="JP1494" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="45.795" y="3" rot="MR270"/>
+<element name="JP1495" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="47.065" y="3" rot="MR270"/>
+<element name="JP1496" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="48.335" y="3" rot="MR270"/>
+<element name="JP1497" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="49.605" y="3" rot="MR270"/>
+<element name="JP1498" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="50.875" y="3" rot="MR270"/>
+<element name="JP1499" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="52.145" y="3" rot="MR270"/>
+<element name="JP1500" library="SparkFun-Connectors" package="1X01_SMD_3.25X0.85MM_NO_SILK" value="" x="53.415" y="3" rot="MR270"/>
+</elements>
+<signals>
+<signal name="N$1">
+<contactref element="JP1" pad="1"/>
+</signal>
+<signal name="N$2">
+<contactref element="JP2" pad="1"/>
+</signal>
+<signal name="N$3">
+<contactref element="JP3" pad="1"/>
+</signal>
+<signal name="N$4">
+<contactref element="JP4" pad="1"/>
+</signal>
+<signal name="N$5">
+<contactref element="JP5" pad="1"/>
+</signal>
+<signal name="N$6">
+<contactref element="JP6" pad="1"/>
+</signal>
+<signal name="N$7">
+<contactref element="JP7" pad="1"/>
+</signal>
+<signal name="N$8">
+<contactref element="JP8" pad="1"/>
+</signal>
+<signal name="N$9">
+<contactref element="JP9" pad="1"/>
+</signal>
+<signal name="N$10">
+<contactref element="JP10" pad="1"/>
+</signal>
+<signal name="N$11">
+<contactref element="JP11" pad="1"/>
+</signal>
+<signal name="N$12">
+<contactref element="JP12" pad="1"/>
+</signal>
+<signal name="N$13">
+<contactref element="JP13" pad="1"/>
+</signal>
+<signal name="N$14">
+<contactref element="JP14" pad="1"/>
+</signal>
+<signal name="N$15">
+<contactref element="JP15" pad="1"/>
+</signal>
+<signal name="N$16">
+<contactref element="JP16" pad="1"/>
+</signal>
+<signal name="N$17">
+<contactref element="JP17" pad="1"/>
+</signal>
+<signal name="N$18">
+<contactref element="JP18" pad="1"/>
+</signal>
+<signal name="N$19">
+<contactref element="JP19" pad="1"/>
+</signal>
+<signal name="N$20">
+<contactref element="JP20" pad="1"/>
+</signal>
+<signal name="N$21">
+<contactref element="JP21" pad="1"/>
+</signal>
+<signal name="N$22">
+<contactref element="JP22" pad="1"/>
+</signal>
+<signal name="N$23">
+<contactref element="JP23" pad="1"/>
+</signal>
+<signal name="N$24">
+<contactref element="JP24" pad="1"/>
+</signal>
+<signal name="N$25">
+<contactref element="JP25" pad="1"/>
+</signal>
+<signal name="N$26">
+<contactref element="JP26" pad="1"/>
+</signal>
+<signal name="N$27">
+<contactref element="JP27" pad="1"/>
+</signal>
+<signal name="N$28">
+<contactref element="JP28" pad="1"/>
+</signal>
+<signal name="N$29">
+<contactref element="JP29" pad="1"/>
+</signal>
+<signal name="N$30">
+<contactref element="JP30" pad="1"/>
+</signal>
+<signal name="N$31">
+<contactref element="JP31" pad="1"/>
+</signal>
+<signal name="N$32">
+<contactref element="JP32" pad="1"/>
+</signal>
+<signal name="N$33">
+<contactref element="JP33" pad="1"/>
+</signal>
+<signal name="N$34">
+<contactref element="JP34" pad="1"/>
+</signal>
+<signal name="N$35">
+<contactref element="JP35" pad="1"/>
+</signal>
+<signal name="N$36">
+<contactref element="JP36" pad="1"/>
+</signal>
+<signal name="N$37">
+<contactref element="JP37" pad="1"/>
+</signal>
+<signal name="N$38">
+<contactref element="JP38" pad="1"/>
+</signal>
+<signal name="N$39">
+<contactref element="JP39" pad="1"/>
+</signal>
+<signal name="N$40">
+<contactref element="JP40" pad="1"/>
+</signal>
+<signal name="N$41">
+<contactref element="JP41" pad="1"/>
+</signal>
+<signal name="N$42">
+<contactref element="JP42" pad="1"/>
+</signal>
+<signal name="N$43">
+<contactref element="JP43" pad="1"/>
+</signal>
+<signal name="N$44">
+<contactref element="JP44" pad="1"/>
+</signal>
+<signal name="N$45">
+<contactref element="JP45" pad="1"/>
+</signal>
+<signal name="N$46">
+<contactref element="JP46" pad="1"/>
+</signal>
+<signal name="N$47">
+<contactref element="JP47" pad="1"/>
+</signal>
+<signal name="N$48">
+<contactref element="JP48" pad="1"/>
+</signal>
+<signal name="N$49">
+<contactref element="JP49" pad="1"/>
+</signal>
+<signal name="N$50">
+<contactref element="JP50" pad="1"/>
+</signal>
+<signal name="N$51">
+<contactref element="JP51" pad="1"/>
+</signal>
+<signal name="N$52">
+<contactref element="JP52" pad="1"/>
+</signal>
+<signal name="N$53">
+<contactref element="JP53" pad="1"/>
+</signal>
+<signal name="N$54">
+<contactref element="JP54" pad="1"/>
+</signal>
+<signal name="N$55">
+<contactref element="JP55" pad="1"/>
+</signal>
+<signal name="N$56">
+<contactref element="JP56" pad="1"/>
+</signal>
+<signal name="N$57">
+<contactref element="JP57" pad="1"/>
+</signal>
+<signal name="N$58">
+<contactref element="JP58" pad="1"/>
+</signal>
+<signal name="N$59">
+<contactref element="JP59" pad="1"/>
+</signal>
+<signal name="N$60">
+<contactref element="JP60" pad="1"/>
+</signal>
+<signal name="N$61">
+<contactref element="JP61" pad="1"/>
+</signal>
+<signal name="N$62">
+<contactref element="JP62" pad="1"/>
+</signal>
+<signal name="N$63">
+<contactref element="JP63" pad="1"/>
+</signal>
+<signal name="N$64">
+<contactref element="JP64" pad="1"/>
+</signal>
+<signal name="N$65">
+<contactref element="JP65" pad="1"/>
+</signal>
+<signal name="N$66">
+<contactref element="JP66" pad="1"/>
+</signal>
+<signal name="N$67">
+<contactref element="JP67" pad="1"/>
+</signal>
+<signal name="N$68">
+<contactref element="JP68" pad="1"/>
+</signal>
+<signal name="N$69">
+<contactref element="JP69" pad="1"/>
+</signal>
+<signal name="N$70">
+<contactref element="JP70" pad="1"/>
+</signal>
+<signal name="N$71">
+<contactref element="JP71" pad="1"/>
+</signal>
+<signal name="N$72">
+<contactref element="JP72" pad="1"/>
+</signal>
+<signal name="N$73">
+<contactref element="JP73" pad="1"/>
+</signal>
+<signal name="N$74">
+<contactref element="JP74" pad="1"/>
+</signal>
+<signal name="N$75">
+<contactref element="JP75" pad="1"/>
+</signal>
+<signal name="N$76">
+<contactref element="JP76" pad="1"/>
+</signal>
+<signal name="N$77">
+<contactref element="JP77" pad="1"/>
+</signal>
+<signal name="N$78">
+<contactref element="JP78" pad="1"/>
+</signal>
+<signal name="N$79">
+<contactref element="JP79" pad="1"/>
+</signal>
+<signal name="N$80">
+<contactref element="JP80" pad="1"/>
+</signal>
+<signal name="N$81">
+<contactref element="JP81" pad="1"/>
+</signal>
+<signal name="N$82">
+<contactref element="JP82" pad="1"/>
+</signal>
+<signal name="N$83">
+<contactref element="JP83" pad="1"/>
+</signal>
+<signal name="N$84">
+<contactref element="JP84" pad="1"/>
+</signal>
+<signal name="N$85">
+<contactref element="JP85" pad="1"/>
+</signal>
+<signal name="N$86">
+<contactref element="JP86" pad="1"/>
+</signal>
+<signal name="N$87">
+<contactref element="JP87" pad="1"/>
+</signal>
+<signal name="N$88">
+<contactref element="JP88" pad="1"/>
+</signal>
+<signal name="N$89">
+<contactref element="JP89" pad="1"/>
+</signal>
+<signal name="N$90">
+<contactref element="JP90" pad="1"/>
+</signal>
+<signal name="N$91">
+<contactref element="JP91" pad="1"/>
+</signal>
+<signal name="N$92">
+<contactref element="JP92" pad="1"/>
+</signal>
+<signal name="N$93">
+<contactref element="JP93" pad="1"/>
+</signal>
+<signal name="N$94">
+<contactref element="JP94" pad="1"/>
+</signal>
+<signal name="N$95">
+<contactref element="JP95" pad="1"/>
+</signal>
+<signal name="N$96">
+<contactref element="JP96" pad="1"/>
+</signal>
+<signal name="N$97">
+<contactref element="JP97" pad="1"/>
+</signal>
+<signal name="N$98">
+<contactref element="JP98" pad="1"/>
+</signal>
+<signal name="N$99">
+<contactref element="JP99" pad="1"/>
+</signal>
+<signal name="N$100">
+<contactref element="JP100" pad="1"/>
+</signal>
+<signal name="N$101">
+<contactref element="JP101" pad="1"/>
+</signal>
+<signal name="N$102">
+<contactref element="JP102" pad="1"/>
+</signal>
+<signal name="N$103">
+<contactref element="JP103" pad="1"/>
+</signal>
+<signal name="N$104">
+<contactref element="JP104" pad="1"/>
+</signal>
+<signal name="N$105">
+<contactref element="JP105" pad="1"/>
+</signal>
+<signal name="N$106">
+<contactref element="JP106" pad="1"/>
+</signal>
+<signal name="N$107">
+<contactref element="JP107" pad="1"/>
+</signal>
+<signal name="N$108">
+<contactref element="JP108" pad="1"/>
+</signal>
+<signal name="N$109">
+<contactref element="JP109" pad="1"/>
+</signal>
+<signal name="N$110">
+<contactref element="JP110" pad="1"/>
+</signal>
+<signal name="N$111">
+<contactref element="JP111" pad="1"/>
+</signal>
+<signal name="N$112">
+<contactref element="JP112" pad="1"/>
+</signal>
+<signal name="N$113">
+<contactref element="JP113" pad="1"/>
+</signal>
+<signal name="N$114">
+<contactref element="JP114" pad="1"/>
+</signal>
+<signal name="N$115">
+<contactref element="JP115" pad="1"/>
+</signal>
+<signal name="N$116">
+<contactref element="JP116" pad="1"/>
+</signal>
+<signal name="N$117">
+<contactref element="JP117" pad="1"/>
+</signal>
+<signal name="N$118">
+<contactref element="JP118" pad="1"/>
+</signal>
+<signal name="N$119">
+<contactref element="JP119" pad="1"/>
+</signal>
+<signal name="N$120">
+<contactref element="JP120" pad="1"/>
+</signal>
+<signal name="N$121">
+<contactref element="JP121" pad="1"/>
+</signal>
+<signal name="N$122">
+<contactref element="JP122" pad="1"/>
+</signal>
+<signal name="N$123">
+<contactref element="JP123" pad="1"/>
+</signal>
+<signal name="N$124">
+<contactref element="JP124" pad="1"/>
+</signal>
+<signal name="N$125">
+<contactref element="JP125" pad="1"/>
+</signal>
+<signal name="N$126">
+<contactref element="JP126" pad="1"/>
+</signal>
+<signal name="N$127">
+<contactref element="JP127" pad="1"/>
+</signal>
+<signal name="N$128">
+<contactref element="JP128" pad="1"/>
+</signal>
+<signal name="N$129">
+<contactref element="JP129" pad="1"/>
+</signal>
+<signal name="N$130">
+<contactref element="JP130" pad="1"/>
+</signal>
+<signal name="N$131">
+<contactref element="JP131" pad="1"/>
+</signal>
+<signal name="N$132">
+<contactref element="JP132" pad="1"/>
+</signal>
+<signal name="N$133">
+<contactref element="JP133" pad="1"/>
+</signal>
+<signal name="N$134">
+<contactref element="JP134" pad="1"/>
+</signal>
+<signal name="N$135">
+<contactref element="JP135" pad="1"/>
+</signal>
+<signal name="N$136">
+<contactref element="JP136" pad="1"/>
+</signal>
+<signal name="N$137">
+<contactref element="JP137" pad="1"/>
+</signal>
+<signal name="N$138">
+<contactref element="JP138" pad="1"/>
+</signal>
+<signal name="N$139">
+<contactref element="JP139" pad="1"/>
+</signal>
+<signal name="N$140">
+<contactref element="JP140" pad="1"/>
+</signal>
+<signal name="N$141">
+<contactref element="JP141" pad="1"/>
+</signal>
+<signal name="N$142">
+<contactref element="JP142" pad="1"/>
+</signal>
+<signal name="N$143">
+<contactref element="JP143" pad="1"/>
+</signal>
+<signal name="N$144">
+<contactref element="JP144" pad="1"/>
+</signal>
+<signal name="N$145">
+<contactref element="JP145" pad="1"/>
+</signal>
+<signal name="N$146">
+<contactref element="JP146" pad="1"/>
+</signal>
+<signal name="N$147">
+<contactref element="JP147" pad="1"/>
+</signal>
+<signal name="N$148">
+<contactref element="JP148" pad="1"/>
+</signal>
+<signal name="N$149">
+<contactref element="JP149" pad="1"/>
+</signal>
+<signal name="N$150">
+<contactref element="JP150" pad="1"/>
+</signal>
+<signal name="N$151">
+<contactref element="JP151" pad="1"/>
+</signal>
+<signal name="N$152">
+<contactref element="JP152" pad="1"/>
+</signal>
+<signal name="N$153">
+<contactref element="JP153" pad="1"/>
+</signal>
+<signal name="N$154">
+<contactref element="JP154" pad="1"/>
+</signal>
+<signal name="N$155">
+<contactref element="JP155" pad="1"/>
+</signal>
+<signal name="N$156">
+<contactref element="JP156" pad="1"/>
+</signal>
+<signal name="N$157">
+<contactref element="JP157" pad="1"/>
+</signal>
+<signal name="N$158">
+<contactref element="JP158" pad="1"/>
+</signal>
+<signal name="N$159">
+<contactref element="JP159" pad="1"/>
+</signal>
+<signal name="N$160">
+<contactref element="JP160" pad="1"/>
+</signal>
+<signal name="N$161">
+<contactref element="JP161" pad="1"/>
+</signal>
+<signal name="N$162">
+<contactref element="JP162" pad="1"/>
+</signal>
+<signal name="N$163">
+<contactref element="JP163" pad="1"/>
+</signal>
+<signal name="N$164">
+<contactref element="JP164" pad="1"/>
+</signal>
+<signal name="N$165">
+<contactref element="JP165" pad="1"/>
+</signal>
+<signal name="N$166">
+<contactref element="JP166" pad="1"/>
+</signal>
+<signal name="N$167">
+<contactref element="JP167" pad="1"/>
+</signal>
+<signal name="N$168">
+<contactref element="JP168" pad="1"/>
+</signal>
+<signal name="N$169">
+<contactref element="JP169" pad="1"/>
+</signal>
+<signal name="N$170">
+<contactref element="JP170" pad="1"/>
+</signal>
+<signal name="N$171">
+<contactref element="JP171" pad="1"/>
+</signal>
+<signal name="N$172">
+<contactref element="JP172" pad="1"/>
+</signal>
+<signal name="N$173">
+<contactref element="JP173" pad="1"/>
+</signal>
+<signal name="N$174">
+<contactref element="JP174" pad="1"/>
+</signal>
+<signal name="N$175">
+<contactref element="JP175" pad="1"/>
+</signal>
+<signal name="N$176">
+<contactref element="JP176" pad="1"/>
+</signal>
+<signal name="N$177">
+<contactref element="JP177" pad="1"/>
+</signal>
+<signal name="N$178">
+<contactref element="JP178" pad="1"/>
+</signal>
+<signal name="N$179">
+<contactref element="JP179" pad="1"/>
+</signal>
+<signal name="N$180">
+<contactref element="JP180" pad="1"/>
+</signal>
+<signal name="N$181">
+<contactref element="JP181" pad="1"/>
+</signal>
+<signal name="N$182">
+<contactref element="JP182" pad="1"/>
+</signal>
+<signal name="N$183">
+<contactref element="JP183" pad="1"/>
+</signal>
+<signal name="N$184">
+<contactref element="JP184" pad="1"/>
+</signal>
+<signal name="N$185">
+<contactref element="JP185" pad="1"/>
+</signal>
+<signal name="N$186">
+<contactref element="JP186" pad="1"/>
+</signal>
+<signal name="N$187">
+<contactref element="JP187" pad="1"/>
+</signal>
+<signal name="N$188">
+<contactref element="JP188" pad="1"/>
+</signal>
+<signal name="N$189">
+<contactref element="JP189" pad="1"/>
+</signal>
+<signal name="N$190">
+<contactref element="JP190" pad="1"/>
+</signal>
+<signal name="N$191">
+<contactref element="JP191" pad="1"/>
+</signal>
+<signal name="N$192">
+<contactref element="JP192" pad="1"/>
+</signal>
+<signal name="N$193">
+<contactref element="JP193" pad="1"/>
+</signal>
+<signal name="N$194">
+<contactref element="JP194" pad="1"/>
+</signal>
+<signal name="N$195">
+<contactref element="JP195" pad="1"/>
+</signal>
+<signal name="N$196">
+<contactref element="JP196" pad="1"/>
+</signal>
+<signal name="N$197">
+<contactref element="JP197" pad="1"/>
+</signal>
+<signal name="N$198">
+<contactref element="JP198" pad="1"/>
+</signal>
+<signal name="N$199">
+<contactref element="JP199" pad="1"/>
+</signal>
+<signal name="N$200">
+<contactref element="JP200" pad="1"/>
+</signal>
+<signal name="N$201">
+<contactref element="JP201" pad="1"/>
+</signal>
+<signal name="N$202">
+<contactref element="JP202" pad="1"/>
+</signal>
+<signal name="N$203">
+<contactref element="JP203" pad="1"/>
+</signal>
+<signal name="N$204">
+<contactref element="JP204" pad="1"/>
+</signal>
+<signal name="N$205">
+<contactref element="JP205" pad="1"/>
+</signal>
+<signal name="N$206">
+<contactref element="JP206" pad="1"/>
+</signal>
+<signal name="N$207">
+<contactref element="JP207" pad="1"/>
+</signal>
+<signal name="N$208">
+<contactref element="JP208" pad="1"/>
+</signal>
+<signal name="N$209">
+<contactref element="JP209" pad="1"/>
+</signal>
+<signal name="N$210">
+<contactref element="JP210" pad="1"/>
+</signal>
+<signal name="N$211">
+<contactref element="JP211" pad="1"/>
+</signal>
+<signal name="N$212">
+<contactref element="JP212" pad="1"/>
+</signal>
+<signal name="N$213">
+<contactref element="JP213" pad="1"/>
+</signal>
+<signal name="N$214">
+<contactref element="JP214" pad="1"/>
+</signal>
+<signal name="N$215">
+<contactref element="JP215" pad="1"/>
+</signal>
+<signal name="N$216">
+<contactref element="JP216" pad="1"/>
+</signal>
+<signal name="N$217">
+<contactref element="JP217" pad="1"/>
+</signal>
+<signal name="N$218">
+<contactref element="JP218" pad="1"/>
+</signal>
+<signal name="N$219">
+<contactref element="JP219" pad="1"/>
+</signal>
+<signal name="N$220">
+<contactref element="JP220" pad="1"/>
+</signal>
+<signal name="N$221">
+<contactref element="JP221" pad="1"/>
+</signal>
+<signal name="N$222">
+<contactref element="JP222" pad="1"/>
+</signal>
+<signal name="N$223">
+<contactref element="JP223" pad="1"/>
+</signal>
+<signal name="N$224">
+<contactref element="JP224" pad="1"/>
+</signal>
+<signal name="N$225">
+<contactref element="JP225" pad="1"/>
+</signal>
+<signal name="N$226">
+<contactref element="JP226" pad="1"/>
+</signal>
+<signal name="N$227">
+<contactref element="JP227" pad="1"/>
+</signal>
+<signal name="N$228">
+<contactref element="JP228" pad="1"/>
+</signal>
+<signal name="N$229">
+<contactref element="JP229" pad="1"/>
+</signal>
+<signal name="N$230">
+<contactref element="JP230" pad="1"/>
+</signal>
+<signal name="N$231">
+<contactref element="JP231" pad="1"/>
+</signal>
+<signal name="N$232">
+<contactref element="JP232" pad="1"/>
+</signal>
+<signal name="N$233">
+<contactref element="JP233" pad="1"/>
+</signal>
+<signal name="N$234">
+<contactref element="JP234" pad="1"/>
+</signal>
+<signal name="N$235">
+<contactref element="JP235" pad="1"/>
+</signal>
+<signal name="N$236">
+<contactref element="JP236" pad="1"/>
+</signal>
+<signal name="N$237">
+<contactref element="JP237" pad="1"/>
+</signal>
+<signal name="N$238">
+<contactref element="JP238" pad="1"/>
+</signal>
+<signal name="N$239">
+<contactref element="JP239" pad="1"/>
+</signal>
+<signal name="N$240">
+<contactref element="JP240" pad="1"/>
+</signal>
+<signal name="N$241">
+<contactref element="JP241" pad="1"/>
+</signal>
+<signal name="N$242">
+<contactref element="JP242" pad="1"/>
+</signal>
+<signal name="N$243">
+<contactref element="JP243" pad="1"/>
+</signal>
+<signal name="N$244">
+<contactref element="JP244" pad="1"/>
+</signal>
+<signal name="N$245">
+<contactref element="JP245" pad="1"/>
+</signal>
+<signal name="N$246">
+<contactref element="JP246" pad="1"/>
+</signal>
+<signal name="N$247">
+<contactref element="JP247" pad="1"/>
+</signal>
+<signal name="N$248">
+<contactref element="JP248" pad="1"/>
+</signal>
+<signal name="N$249">
+<contactref element="JP249" pad="1"/>
+</signal>
+<signal name="N$250">
+<contactref element="JP250" pad="1"/>
+</signal>
+<signal name="N$251">
+<contactref element="JP251" pad="1"/>
+</signal>
+<signal name="N$252">
+<contactref element="JP252" pad="1"/>
+</signal>
+<signal name="N$253">
+<contactref element="JP253" pad="1"/>
+</signal>
+<signal name="N$254">
+<contactref element="JP254" pad="1"/>
+</signal>
+<signal name="N$255">
+<contactref element="JP255" pad="1"/>
+</signal>
+<signal name="N$256">
+<contactref element="JP256" pad="1"/>
+</signal>
+<signal name="N$257">
+<contactref element="JP257" pad="1"/>
+</signal>
+<signal name="N$258">
+<contactref element="JP258" pad="1"/>
+</signal>
+<signal name="N$259">
+<contactref element="JP259" pad="1"/>
+</signal>
+<signal name="N$260">
+<contactref element="JP260" pad="1"/>
+</signal>
+<signal name="N$261">
+<contactref element="JP261" pad="1"/>
+</signal>
+<signal name="N$262">
+<contactref element="JP262" pad="1"/>
+</signal>
+<signal name="N$263">
+<contactref element="JP263" pad="1"/>
+</signal>
+<signal name="N$264">
+<contactref element="JP264" pad="1"/>
+</signal>
+<signal name="N$265">
+<contactref element="JP265" pad="1"/>
+</signal>
+<signal name="N$266">
+<contactref element="JP266" pad="1"/>
+</signal>
+<signal name="N$267">
+<contactref element="JP267" pad="1"/>
+</signal>
+<signal name="N$268">
+<contactref element="JP268" pad="1"/>
+</signal>
+<signal name="N$269">
+<contactref element="JP269" pad="1"/>
+</signal>
+<signal name="N$270">
+<contactref element="JP270" pad="1"/>
+</signal>
+<signal name="N$271">
+<contactref element="JP271" pad="1"/>
+</signal>
+<signal name="N$272">
+<contactref element="JP272" pad="1"/>
+</signal>
+<signal name="N$273">
+<contactref element="JP273" pad="1"/>
+</signal>
+<signal name="N$274">
+<contactref element="JP274" pad="1"/>
+</signal>
+<signal name="N$275">
+<contactref element="JP275" pad="1"/>
+</signal>
+<signal name="N$276">
+<contactref element="JP276" pad="1"/>
+</signal>
+<signal name="N$277">
+<contactref element="JP277" pad="1"/>
+</signal>
+<signal name="N$278">
+<contactref element="JP278" pad="1"/>
+</signal>
+<signal name="N$279">
+<contactref element="JP279" pad="1"/>
+</signal>
+<signal name="N$280">
+<contactref element="JP280" pad="1"/>
+</signal>
+<signal name="N$281">
+<contactref element="JP281" pad="1"/>
+</signal>
+<signal name="N$282">
+<contactref element="JP282" pad="1"/>
+</signal>
+<signal name="N$283">
+<contactref element="JP283" pad="1"/>
+</signal>
+<signal name="N$284">
+<contactref element="JP284" pad="1"/>
+</signal>
+<signal name="N$285">
+<contactref element="JP285" pad="1"/>
+</signal>
+<signal name="N$286">
+<contactref element="JP286" pad="1"/>
+</signal>
+<signal name="N$287">
+<contactref element="JP287" pad="1"/>
+</signal>
+<signal name="N$288">
+<contactref element="JP288" pad="1"/>
+</signal>
+<signal name="N$289">
+<contactref element="JP289" pad="1"/>
+</signal>
+<signal name="N$290">
+<contactref element="JP290" pad="1"/>
+</signal>
+<signal name="N$291">
+<contactref element="JP291" pad="1"/>
+</signal>
+<signal name="N$292">
+<contactref element="JP292" pad="1"/>
+</signal>
+<signal name="N$293">
+<contactref element="JP293" pad="1"/>
+</signal>
+<signal name="N$294">
+<contactref element="JP294" pad="1"/>
+</signal>
+<signal name="N$295">
+<contactref element="JP295" pad="1"/>
+</signal>
+<signal name="N$296">
+<contactref element="JP296" pad="1"/>
+</signal>
+<signal name="N$297">
+<contactref element="JP297" pad="1"/>
+</signal>
+<signal name="N$298">
+<contactref element="JP298" pad="1"/>
+</signal>
+<signal name="N$299">
+<contactref element="JP299" pad="1"/>
+</signal>
+<signal name="N$300">
+<contactref element="JP300" pad="1"/>
+</signal>
+<signal name="N$1201">
+<contactref element="JP1201" pad="P$1"/>
+</signal>
+<signal name="N$1202">
+<contactref element="JP1202" pad="P$1"/>
+</signal>
+<signal name="N$1203">
+<contactref element="JP1203" pad="P$1"/>
+</signal>
+<signal name="N$1204">
+<contactref element="JP1204" pad="P$1"/>
+</signal>
+<signal name="N$1205">
+<contactref element="JP1205" pad="P$1"/>
+</signal>
+<signal name="N$1206">
+<contactref element="JP1206" pad="P$1"/>
+</signal>
+<signal name="N$1207">
+<contactref element="JP1207" pad="P$1"/>
+</signal>
+<signal name="N$1208">
+<contactref element="JP1208" pad="P$1"/>
+</signal>
+<signal name="N$1209">
+<contactref element="JP1209" pad="P$1"/>
+</signal>
+<signal name="N$1210">
+<contactref element="JP1210" pad="P$1"/>
+</signal>
+<signal name="N$1211">
+<contactref element="JP1211" pad="P$1"/>
+</signal>
+<signal name="N$1212">
+<contactref element="JP1212" pad="P$1"/>
+</signal>
+<signal name="N$1213">
+<contactref element="JP1213" pad="P$1"/>
+</signal>
+<signal name="N$1214">
+<contactref element="JP1214" pad="P$1"/>
+</signal>
+<signal name="N$1215">
+<contactref element="JP1215" pad="P$1"/>
+</signal>
+<signal name="N$1216">
+<contactref element="JP1216" pad="P$1"/>
+</signal>
+<signal name="N$1217">
+<contactref element="JP1217" pad="P$1"/>
+</signal>
+<signal name="N$1218">
+<contactref element="JP1218" pad="P$1"/>
+</signal>
+<signal name="N$1219">
+<contactref element="JP1219" pad="P$1"/>
+</signal>
+<signal name="N$1220">
+<contactref element="JP1220" pad="P$1"/>
+</signal>
+<signal name="N$1221">
+<contactref element="JP1221" pad="P$1"/>
+</signal>
+<signal name="N$1222">
+<contactref element="JP1222" pad="P$1"/>
+</signal>
+<signal name="N$1223">
+<contactref element="JP1223" pad="P$1"/>
+</signal>
+<signal name="N$1224">
+<contactref element="JP1224" pad="P$1"/>
+</signal>
+<signal name="N$1225">
+<contactref element="JP1225" pad="P$1"/>
+</signal>
+<signal name="N$1226">
+<contactref element="JP1226" pad="P$1"/>
+</signal>
+<signal name="N$1227">
+<contactref element="JP1227" pad="P$1"/>
+</signal>
+<signal name="N$1228">
+<contactref element="JP1228" pad="P$1"/>
+</signal>
+<signal name="N$1229">
+<contactref element="JP1229" pad="P$1"/>
+</signal>
+<signal name="N$1230">
+<contactref element="JP1230" pad="P$1"/>
+</signal>
+<signal name="N$1231">
+<contactref element="JP1231" pad="P$1"/>
+</signal>
+<signal name="N$1232">
+<contactref element="JP1232" pad="P$1"/>
+</signal>
+<signal name="N$1233">
+<contactref element="JP1233" pad="P$1"/>
+</signal>
+<signal name="N$1234">
+<contactref element="JP1234" pad="P$1"/>
+</signal>
+<signal name="N$1235">
+<contactref element="JP1235" pad="P$1"/>
+</signal>
+<signal name="N$1236">
+<contactref element="JP1236" pad="P$1"/>
+</signal>
+<signal name="N$1237">
+<contactref element="JP1237" pad="P$1"/>
+</signal>
+<signal name="N$1238">
+<contactref element="JP1238" pad="P$1"/>
+</signal>
+<signal name="N$1239">
+<contactref element="JP1239" pad="P$1"/>
+</signal>
+<signal name="N$1240">
+<contactref element="JP1240" pad="P$1"/>
+</signal>
+<signal name="N$1241">
+<contactref element="JP1241" pad="P$1"/>
+</signal>
+<signal name="N$1242">
+<contactref element="JP1242" pad="P$1"/>
+</signal>
+<signal name="N$1243">
+<contactref element="JP1243" pad="P$1"/>
+</signal>
+<signal name="N$1244">
+<contactref element="JP1244" pad="P$1"/>
+</signal>
+<signal name="N$1245">
+<contactref element="JP1245" pad="P$1"/>
+</signal>
+<signal name="N$1246">
+<contactref element="JP1246" pad="P$1"/>
+</signal>
+<signal name="N$1247">
+<contactref element="JP1247" pad="P$1"/>
+</signal>
+<signal name="N$1248">
+<contactref element="JP1248" pad="P$1"/>
+</signal>
+<signal name="N$1249">
+<contactref element="JP1249" pad="P$1"/>
+</signal>
+<signal name="N$1250">
+<contactref element="JP1250" pad="P$1"/>
+</signal>
+<signal name="N$1251">
+<contactref element="JP1251" pad="P$1"/>
+</signal>
+<signal name="N$1252">
+<contactref element="JP1252" pad="P$1"/>
+</signal>
+<signal name="N$1253">
+<contactref element="JP1253" pad="P$1"/>
+</signal>
+<signal name="N$1254">
+<contactref element="JP1254" pad="P$1"/>
+</signal>
+<signal name="N$1255">
+<contactref element="JP1255" pad="P$1"/>
+</signal>
+<signal name="N$1256">
+<contactref element="JP1256" pad="P$1"/>
+</signal>
+<signal name="N$1257">
+<contactref element="JP1257" pad="P$1"/>
+</signal>
+<signal name="N$1258">
+<contactref element="JP1258" pad="P$1"/>
+</signal>
+<signal name="N$1259">
+<contactref element="JP1259" pad="P$1"/>
+</signal>
+<signal name="N$1260">
+<contactref element="JP1260" pad="P$1"/>
+</signal>
+<signal name="N$1261">
+<contactref element="JP1261" pad="P$1"/>
+</signal>
+<signal name="N$1262">
+<contactref element="JP1262" pad="P$1"/>
+</signal>
+<signal name="N$1263">
+<contactref element="JP1263" pad="P$1"/>
+</signal>
+<signal name="N$1264">
+<contactref element="JP1264" pad="P$1"/>
+</signal>
+<signal name="N$1265">
+<contactref element="JP1265" pad="P$1"/>
+</signal>
+<signal name="N$1266">
+<contactref element="JP1266" pad="P$1"/>
+</signal>
+<signal name="N$1267">
+<contactref element="JP1267" pad="P$1"/>
+</signal>
+<signal name="N$1268">
+<contactref element="JP1268" pad="P$1"/>
+</signal>
+<signal name="N$1269">
+<contactref element="JP1269" pad="P$1"/>
+</signal>
+<signal name="N$1270">
+<contactref element="JP1270" pad="P$1"/>
+</signal>
+<signal name="N$1271">
+<contactref element="JP1271" pad="P$1"/>
+</signal>
+<signal name="N$1272">
+<contactref element="JP1272" pad="P$1"/>
+</signal>
+<signal name="N$1273">
+<contactref element="JP1273" pad="P$1"/>
+</signal>
+<signal name="N$1274">
+<contactref element="JP1274" pad="P$1"/>
+</signal>
+<signal name="N$1275">
+<contactref element="JP1275" pad="P$1"/>
+</signal>
+<signal name="N$1276">
+<contactref element="JP1276" pad="P$1"/>
+</signal>
+<signal name="N$1277">
+<contactref element="JP1277" pad="P$1"/>
+</signal>
+<signal name="N$1278">
+<contactref element="JP1278" pad="P$1"/>
+</signal>
+<signal name="N$1279">
+<contactref element="JP1279" pad="P$1"/>
+</signal>
+<signal name="N$1280">
+<contactref element="JP1280" pad="P$1"/>
+</signal>
+<signal name="N$1281">
+<contactref element="JP1281" pad="P$1"/>
+</signal>
+<signal name="N$1282">
+<contactref element="JP1282" pad="P$1"/>
+</signal>
+<signal name="N$1283">
+<contactref element="JP1283" pad="P$1"/>
+</signal>
+<signal name="N$1284">
+<contactref element="JP1284" pad="P$1"/>
+</signal>
+<signal name="N$1285">
+<contactref element="JP1285" pad="P$1"/>
+</signal>
+<signal name="N$1286">
+<contactref element="JP1286" pad="P$1"/>
+</signal>
+<signal name="N$1287">
+<contactref element="JP1287" pad="P$1"/>
+</signal>
+<signal name="N$1288">
+<contactref element="JP1288" pad="P$1"/>
+</signal>
+<signal name="N$1289">
+<contactref element="JP1289" pad="P$1"/>
+</signal>
+<signal name="N$1290">
+<contactref element="JP1290" pad="P$1"/>
+</signal>
+<signal name="N$1291">
+<contactref element="JP1291" pad="P$1"/>
+</signal>
+<signal name="N$1292">
+<contactref element="JP1292" pad="P$1"/>
+</signal>
+<signal name="N$1293">
+<contactref element="JP1293" pad="P$1"/>
+</signal>
+<signal name="N$1294">
+<contactref element="JP1294" pad="P$1"/>
+</signal>
+<signal name="N$1295">
+<contactref element="JP1295" pad="P$1"/>
+</signal>
+<signal name="N$1296">
+<contactref element="JP1296" pad="P$1"/>
+</signal>
+<signal name="N$1297">
+<contactref element="JP1297" pad="P$1"/>
+</signal>
+<signal name="N$1298">
+<contactref element="JP1298" pad="P$1"/>
+</signal>
+<signal name="N$1299">
+<contactref element="JP1299" pad="P$1"/>
+</signal>
+<signal name="N$1300">
+<contactref element="JP1300" pad="P$1"/>
+</signal>
+<signal name="N$1301">
+<contactref element="JP1301" pad="P$1"/>
+</signal>
+<signal name="N$1302">
+<contactref element="JP1302" pad="P$1"/>
+</signal>
+<signal name="N$1303">
+<contactref element="JP1303" pad="P$1"/>
+</signal>
+<signal name="N$1304">
+<contactref element="JP1304" pad="P$1"/>
+</signal>
+<signal name="N$1305">
+<contactref element="JP1305" pad="P$1"/>
+</signal>
+<signal name="N$1306">
+<contactref element="JP1306" pad="P$1"/>
+</signal>
+<signal name="N$1307">
+<contactref element="JP1307" pad="P$1"/>
+</signal>
+<signal name="N$1308">
+<contactref element="JP1308" pad="P$1"/>
+</signal>
+<signal name="N$1309">
+<contactref element="JP1309" pad="P$1"/>
+</signal>
+<signal name="N$1310">
+<contactref element="JP1310" pad="P$1"/>
+</signal>
+<signal name="N$1311">
+<contactref element="JP1311" pad="P$1"/>
+</signal>
+<signal name="N$1312">
+<contactref element="JP1312" pad="P$1"/>
+</signal>
+<signal name="N$1313">
+<contactref element="JP1313" pad="P$1"/>
+</signal>
+<signal name="N$1314">
+<contactref element="JP1314" pad="P$1"/>
+</signal>
+<signal name="N$1315">
+<contactref element="JP1315" pad="P$1"/>
+</signal>
+<signal name="N$1316">
+<contactref element="JP1316" pad="P$1"/>
+</signal>
+<signal name="N$1317">
+<contactref element="JP1317" pad="P$1"/>
+</signal>
+<signal name="N$1318">
+<contactref element="JP1318" pad="P$1"/>
+</signal>
+<signal name="N$1319">
+<contactref element="JP1319" pad="P$1"/>
+</signal>
+<signal name="N$1320">
+<contactref element="JP1320" pad="P$1"/>
+</signal>
+<signal name="N$1321">
+<contactref element="JP1321" pad="P$1"/>
+</signal>
+<signal name="N$1322">
+<contactref element="JP1322" pad="P$1"/>
+</signal>
+<signal name="N$1323">
+<contactref element="JP1323" pad="P$1"/>
+</signal>
+<signal name="N$1324">
+<contactref element="JP1324" pad="P$1"/>
+</signal>
+<signal name="N$1325">
+<contactref element="JP1325" pad="P$1"/>
+</signal>
+<signal name="N$1326">
+<contactref element="JP1326" pad="P$1"/>
+</signal>
+<signal name="N$1327">
+<contactref element="JP1327" pad="P$1"/>
+</signal>
+<signal name="N$1328">
+<contactref element="JP1328" pad="P$1"/>
+</signal>
+<signal name="N$1329">
+<contactref element="JP1329" pad="P$1"/>
+</signal>
+<signal name="N$1330">
+<contactref element="JP1330" pad="P$1"/>
+</signal>
+<signal name="N$1331">
+<contactref element="JP1331" pad="P$1"/>
+</signal>
+<signal name="N$1332">
+<contactref element="JP1332" pad="P$1"/>
+</signal>
+<signal name="N$1333">
+<contactref element="JP1333" pad="P$1"/>
+</signal>
+<signal name="N$1334">
+<contactref element="JP1334" pad="P$1"/>
+</signal>
+<signal name="N$1335">
+<contactref element="JP1335" pad="P$1"/>
+</signal>
+<signal name="N$1336">
+<contactref element="JP1336" pad="P$1"/>
+</signal>
+<signal name="N$1337">
+<contactref element="JP1337" pad="P$1"/>
+</signal>
+<signal name="N$1338">
+<contactref element="JP1338" pad="P$1"/>
+</signal>
+<signal name="N$1339">
+<contactref element="JP1339" pad="P$1"/>
+</signal>
+<signal name="N$1340">
+<contactref element="JP1340" pad="P$1"/>
+</signal>
+<signal name="N$1341">
+<contactref element="JP1341" pad="P$1"/>
+</signal>
+<signal name="N$1342">
+<contactref element="JP1342" pad="P$1"/>
+</signal>
+<signal name="N$1343">
+<contactref element="JP1343" pad="P$1"/>
+</signal>
+<signal name="N$1344">
+<contactref element="JP1344" pad="P$1"/>
+</signal>
+<signal name="N$1345">
+<contactref element="JP1345" pad="P$1"/>
+</signal>
+<signal name="N$1346">
+<contactref element="JP1346" pad="P$1"/>
+</signal>
+<signal name="N$1347">
+<contactref element="JP1347" pad="P$1"/>
+</signal>
+<signal name="N$1348">
+<contactref element="JP1348" pad="P$1"/>
+</signal>
+<signal name="N$1349">
+<contactref element="JP1349" pad="P$1"/>
+</signal>
+<signal name="N$1350">
+<contactref element="JP1350" pad="P$1"/>
+</signal>
+<signal name="N$1351">
+<contactref element="JP1351" pad="P$1"/>
+</signal>
+<signal name="N$1352">
+<contactref element="JP1352" pad="P$1"/>
+</signal>
+<signal name="N$1353">
+<contactref element="JP1353" pad="P$1"/>
+</signal>
+<signal name="N$1354">
+<contactref element="JP1354" pad="P$1"/>
+</signal>
+<signal name="N$1355">
+<contactref element="JP1355" pad="P$1"/>
+</signal>
+<signal name="N$1356">
+<contactref element="JP1356" pad="P$1"/>
+</signal>
+<signal name="N$1357">
+<contactref element="JP1357" pad="P$1"/>
+</signal>
+<signal name="N$1358">
+<contactref element="JP1358" pad="P$1"/>
+</signal>
+<signal name="N$1359">
+<contactref element="JP1359" pad="P$1"/>
+</signal>
+<signal name="N$1360">
+<contactref element="JP1360" pad="P$1"/>
+</signal>
+<signal name="N$1361">
+<contactref element="JP1361" pad="P$1"/>
+</signal>
+<signal name="N$1362">
+<contactref element="JP1362" pad="P$1"/>
+</signal>
+<signal name="N$1363">
+<contactref element="JP1363" pad="P$1"/>
+</signal>
+<signal name="N$1364">
+<contactref element="JP1364" pad="P$1"/>
+</signal>
+<signal name="N$1365">
+<contactref element="JP1365" pad="P$1"/>
+</signal>
+<signal name="N$1366">
+<contactref element="JP1366" pad="P$1"/>
+</signal>
+<signal name="N$1367">
+<contactref element="JP1367" pad="P$1"/>
+</signal>
+<signal name="N$1368">
+<contactref element="JP1368" pad="P$1"/>
+</signal>
+<signal name="N$1369">
+<contactref element="JP1369" pad="P$1"/>
+</signal>
+<signal name="N$1370">
+<contactref element="JP1370" pad="P$1"/>
+</signal>
+<signal name="N$1371">
+<contactref element="JP1371" pad="P$1"/>
+</signal>
+<signal name="N$1372">
+<contactref element="JP1372" pad="P$1"/>
+</signal>
+<signal name="N$1373">
+<contactref element="JP1373" pad="P$1"/>
+</signal>
+<signal name="N$1374">
+<contactref element="JP1374" pad="P$1"/>
+</signal>
+<signal name="N$1375">
+<contactref element="JP1375" pad="P$1"/>
+</signal>
+<signal name="N$1376">
+<contactref element="JP1376" pad="P$1"/>
+</signal>
+<signal name="N$1377">
+<contactref element="JP1377" pad="P$1"/>
+</signal>
+<signal name="N$1378">
+<contactref element="JP1378" pad="P$1"/>
+</signal>
+<signal name="N$1379">
+<contactref element="JP1379" pad="P$1"/>
+</signal>
+<signal name="N$1380">
+<contactref element="JP1380" pad="P$1"/>
+</signal>
+<signal name="N$1381">
+<contactref element="JP1381" pad="P$1"/>
+</signal>
+<signal name="N$1382">
+<contactref element="JP1382" pad="P$1"/>
+</signal>
+<signal name="N$1383">
+<contactref element="JP1383" pad="P$1"/>
+</signal>
+<signal name="N$1384">
+<contactref element="JP1384" pad="P$1"/>
+</signal>
+<signal name="N$1385">
+<contactref element="JP1385" pad="P$1"/>
+</signal>
+<signal name="N$1386">
+<contactref element="JP1386" pad="P$1"/>
+</signal>
+<signal name="N$1387">
+<contactref element="JP1387" pad="P$1"/>
+</signal>
+<signal name="N$1388">
+<contactref element="JP1388" pad="P$1"/>
+</signal>
+<signal name="N$1389">
+<contactref element="JP1389" pad="P$1"/>
+</signal>
+<signal name="N$1390">
+<contactref element="JP1390" pad="P$1"/>
+</signal>
+<signal name="N$1391">
+<contactref element="JP1391" pad="P$1"/>
+</signal>
+<signal name="N$1392">
+<contactref element="JP1392" pad="P$1"/>
+</signal>
+<signal name="N$1393">
+<contactref element="JP1393" pad="P$1"/>
+</signal>
+<signal name="N$1394">
+<contactref element="JP1394" pad="P$1"/>
+</signal>
+<signal name="N$1395">
+<contactref element="JP1395" pad="P$1"/>
+</signal>
+<signal name="N$1396">
+<contactref element="JP1396" pad="P$1"/>
+</signal>
+<signal name="N$1397">
+<contactref element="JP1397" pad="P$1"/>
+</signal>
+<signal name="N$1398">
+<contactref element="JP1398" pad="P$1"/>
+</signal>
+<signal name="N$1399">
+<contactref element="JP1399" pad="P$1"/>
+</signal>
+<signal name="N$1400">
+<contactref element="JP1400" pad="P$1"/>
+</signal>
+<signal name="N$1401">
+<contactref element="JP1401" pad="P$1"/>
+</signal>
+<signal name="N$1402">
+<contactref element="JP1402" pad="P$1"/>
+</signal>
+<signal name="N$1403">
+<contactref element="JP1403" pad="P$1"/>
+</signal>
+<signal name="N$1404">
+<contactref element="JP1404" pad="P$1"/>
+</signal>
+<signal name="N$1405">
+<contactref element="JP1405" pad="P$1"/>
+</signal>
+<signal name="N$1406">
+<contactref element="JP1406" pad="P$1"/>
+</signal>
+<signal name="N$1407">
+<contactref element="JP1407" pad="P$1"/>
+</signal>
+<signal name="N$1408">
+<contactref element="JP1408" pad="P$1"/>
+</signal>
+<signal name="N$1409">
+<contactref element="JP1409" pad="P$1"/>
+</signal>
+<signal name="N$1410">
+<contactref element="JP1410" pad="P$1"/>
+</signal>
+<signal name="N$1411">
+<contactref element="JP1411" pad="P$1"/>
+</signal>
+<signal name="N$1412">
+<contactref element="JP1412" pad="P$1"/>
+</signal>
+<signal name="N$1413">
+<contactref element="JP1413" pad="P$1"/>
+</signal>
+<signal name="N$1414">
+<contactref element="JP1414" pad="P$1"/>
+</signal>
+<signal name="N$1415">
+<contactref element="JP1415" pad="P$1"/>
+</signal>
+<signal name="N$1416">
+<contactref element="JP1416" pad="P$1"/>
+</signal>
+<signal name="N$1417">
+<contactref element="JP1417" pad="P$1"/>
+</signal>
+<signal name="N$1418">
+<contactref element="JP1418" pad="P$1"/>
+</signal>
+<signal name="N$1419">
+<contactref element="JP1419" pad="P$1"/>
+</signal>
+<signal name="N$1420">
+<contactref element="JP1420" pad="P$1"/>
+</signal>
+<signal name="N$1421">
+<contactref element="JP1421" pad="P$1"/>
+</signal>
+<signal name="N$1422">
+<contactref element="JP1422" pad="P$1"/>
+</signal>
+<signal name="N$1423">
+<contactref element="JP1423" pad="P$1"/>
+</signal>
+<signal name="N$1424">
+<contactref element="JP1424" pad="P$1"/>
+</signal>
+<signal name="N$1425">
+<contactref element="JP1425" pad="P$1"/>
+</signal>
+<signal name="N$1426">
+<contactref element="JP1426" pad="P$1"/>
+</signal>
+<signal name="N$1427">
+<contactref element="JP1427" pad="P$1"/>
+</signal>
+<signal name="N$1428">
+<contactref element="JP1428" pad="P$1"/>
+</signal>
+<signal name="N$1429">
+<contactref element="JP1429" pad="P$1"/>
+</signal>
+<signal name="N$1430">
+<contactref element="JP1430" pad="P$1"/>
+</signal>
+<signal name="N$1431">
+<contactref element="JP1431" pad="P$1"/>
+</signal>
+<signal name="N$1432">
+<contactref element="JP1432" pad="P$1"/>
+</signal>
+<signal name="N$1433">
+<contactref element="JP1433" pad="P$1"/>
+</signal>
+<signal name="N$1434">
+<contactref element="JP1434" pad="P$1"/>
+</signal>
+<signal name="N$1435">
+<contactref element="JP1435" pad="P$1"/>
+</signal>
+<signal name="N$1436">
+<contactref element="JP1436" pad="P$1"/>
+</signal>
+<signal name="N$1437">
+<contactref element="JP1437" pad="P$1"/>
+</signal>
+<signal name="N$1438">
+<contactref element="JP1438" pad="P$1"/>
+</signal>
+<signal name="N$1439">
+<contactref element="JP1439" pad="P$1"/>
+</signal>
+<signal name="N$1440">
+<contactref element="JP1440" pad="P$1"/>
+</signal>
+<signal name="N$1441">
+<contactref element="JP1441" pad="P$1"/>
+</signal>
+<signal name="N$1442">
+<contactref element="JP1442" pad="P$1"/>
+</signal>
+<signal name="N$1443">
+<contactref element="JP1443" pad="P$1"/>
+</signal>
+<signal name="N$1444">
+<contactref element="JP1444" pad="P$1"/>
+</signal>
+<signal name="N$1445">
+<contactref element="JP1445" pad="P$1"/>
+</signal>
+<signal name="N$1446">
+<contactref element="JP1446" pad="P$1"/>
+</signal>
+<signal name="N$1447">
+<contactref element="JP1447" pad="P$1"/>
+</signal>
+<signal name="N$1448">
+<contactref element="JP1448" pad="P$1"/>
+</signal>
+<signal name="N$1449">
+<contactref element="JP1449" pad="P$1"/>
+</signal>
+<signal name="N$1450">
+<contactref element="JP1450" pad="P$1"/>
+</signal>
+<signal name="N$1451">
+<contactref element="JP1451" pad="P$1"/>
+</signal>
+<signal name="N$1452">
+<contactref element="JP1452" pad="P$1"/>
+</signal>
+<signal name="N$1453">
+<contactref element="JP1453" pad="P$1"/>
+</signal>
+<signal name="N$1454">
+<contactref element="JP1454" pad="P$1"/>
+</signal>
+<signal name="N$1455">
+<contactref element="JP1455" pad="P$1"/>
+</signal>
+<signal name="N$1456">
+<contactref element="JP1456" pad="P$1"/>
+</signal>
+<signal name="N$1457">
+<contactref element="JP1457" pad="P$1"/>
+</signal>
+<signal name="N$1458">
+<contactref element="JP1458" pad="P$1"/>
+</signal>
+<signal name="N$1459">
+<contactref element="JP1459" pad="P$1"/>
+</signal>
+<signal name="N$1460">
+<contactref element="JP1460" pad="P$1"/>
+</signal>
+<signal name="N$1461">
+<contactref element="JP1461" pad="P$1"/>
+</signal>
+<signal name="N$1462">
+<contactref element="JP1462" pad="P$1"/>
+</signal>
+<signal name="N$1463">
+<contactref element="JP1463" pad="P$1"/>
+</signal>
+<signal name="N$1464">
+<contactref element="JP1464" pad="P$1"/>
+</signal>
+<signal name="N$1465">
+<contactref element="JP1465" pad="P$1"/>
+</signal>
+<signal name="N$1466">
+<contactref element="JP1466" pad="P$1"/>
+</signal>
+<signal name="N$1467">
+<contactref element="JP1467" pad="P$1"/>
+</signal>
+<signal name="N$1468">
+<contactref element="JP1468" pad="P$1"/>
+</signal>
+<signal name="N$1469">
+<contactref element="JP1469" pad="P$1"/>
+</signal>
+<signal name="N$1470">
+<contactref element="JP1470" pad="P$1"/>
+</signal>
+<signal name="N$1471">
+<contactref element="JP1471" pad="P$1"/>
+</signal>
+<signal name="N$1472">
+<contactref element="JP1472" pad="P$1"/>
+</signal>
+<signal name="N$1473">
+<contactref element="JP1473" pad="P$1"/>
+</signal>
+<signal name="N$1474">
+<contactref element="JP1474" pad="P$1"/>
+</signal>
+<signal name="N$1475">
+<contactref element="JP1475" pad="P$1"/>
+</signal>
+<signal name="N$1476">
+<contactref element="JP1476" pad="P$1"/>
+</signal>
+<signal name="N$1477">
+<contactref element="JP1477" pad="P$1"/>
+</signal>
+<signal name="N$1478">
+<contactref element="JP1478" pad="P$1"/>
+</signal>
+<signal name="N$1479">
+<contactref element="JP1479" pad="P$1"/>
+</signal>
+<signal name="N$1480">
+<contactref element="JP1480" pad="P$1"/>
+</signal>
+<signal name="N$1481">
+<contactref element="JP1481" pad="P$1"/>
+</signal>
+<signal name="N$1482">
+<contactref element="JP1482" pad="P$1"/>
+</signal>
+<signal name="N$1483">
+<contactref element="JP1483" pad="P$1"/>
+</signal>
+<signal name="N$1484">
+<contactref element="JP1484" pad="P$1"/>
+</signal>
+<signal name="N$1485">
+<contactref element="JP1485" pad="P$1"/>
+</signal>
+<signal name="N$1486">
+<contactref element="JP1486" pad="P$1"/>
+</signal>
+<signal name="N$1487">
+<contactref element="JP1487" pad="P$1"/>
+</signal>
+<signal name="N$1488">
+<contactref element="JP1488" pad="P$1"/>
+</signal>
+<signal name="N$1489">
+<contactref element="JP1489" pad="P$1"/>
+</signal>
+<signal name="N$1490">
+<contactref element="JP1490" pad="P$1"/>
+</signal>
+<signal name="N$1491">
+<contactref element="JP1491" pad="P$1"/>
+</signal>
+<signal name="N$1492">
+<contactref element="JP1492" pad="P$1"/>
+</signal>
+<signal name="N$1493">
+<contactref element="JP1493" pad="P$1"/>
+</signal>
+<signal name="N$1494">
+<contactref element="JP1494" pad="P$1"/>
+</signal>
+<signal name="N$1495">
+<contactref element="JP1495" pad="P$1"/>
+</signal>
+<signal name="N$1496">
+<contactref element="JP1496" pad="P$1"/>
+</signal>
+<signal name="N$1497">
+<contactref element="JP1497" pad="P$1"/>
+</signal>
+<signal name="N$1498">
+<contactref element="JP1498" pad="P$1"/>
+</signal>
+<signal name="N$1499">
+<contactref element="JP1499" pad="P$1"/>
+</signal>
+<signal name="N$1500">
+<contactref element="JP1500" pad="P$1"/>
+</signal>
+</signals>
+</board>
+</drawing>
+</eagle>
