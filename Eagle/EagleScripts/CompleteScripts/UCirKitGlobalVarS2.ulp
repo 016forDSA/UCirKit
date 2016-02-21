@@ -31,6 +31,8 @@ int numOfLargeFemaleContacts = numOfRows * numOfCols;
 int smallFemaleHeaderPartNum = 1;
 // string smallFemaleHeaderPartStr = "M01PTH_SMD_1.27X0.635MM_NO_SILK";
 string smallFemaleHeaderPartStr = "M01PTH_SMD_3.25X0.85MM_NO_SILK";
+real smallFemaleHeaderLength = 3.25;
+real smallFemaleHeaderWidth = 0.85;
 real xSpacingForSmallFemaleHeader = 1.0;
 real ySpacingForSmallFemaleHeader = 0.48;
 
@@ -96,7 +98,7 @@ project.board(B){
    boardHeight = u2mm(B.area.y2);
 }
 
-real largeFemaleStartX = boardWidth/2 - xSpacingBetweenLargeFemaleHeaders * (real(numOfCols)/2 + 1);
+real largeFemaleStartX = boardWidth/2 - xSpacingBetweenLargeFemaleHeaders * (real(numOfCols)/2 + 0.5);
 real largeFemaleStartY = boardHeight/2 + ySpacingBetweenLargeFemaleHeaders * (real(numOfRows)/2 - 1 + 0.5);
 int largeFemaleJpStartNum = 1;
 int largeFemaleJpEndNum = numOfRows * numOfCols;
@@ -143,14 +145,14 @@ int colIncrement = 1;
 int rotateToVertical = 1;
 
 //******* plates
-real horizonatalPlatePadsForPaperStartX = innerPadsStartX - largePadLength/2;
+real horizonatalPlatePadsForPaperStartX = innerPadsStartX - largePadLength/2 + platePadForPaperLength/2;
 real horizonatalPlatePadsForPaperStartY = innerPadsStartY + platePadForPaperWidth/2 + 3;
 real xSpacingBetweenHorizontalPlatePadsForPaper = 2;   //mm
 int horizontalPlatePadsJpStartNum = lowerLeftOuterPadsJpEndNum + numOfRows * numOfCols + 1;
 int horizontalPlatePadsJpEndNum = horizontalPlatePadsJpStartNum - 1 + numOfRowsForHorizontalPlatesForPaper * numOfColsForHorizontalPlatesForPaper;
 
 real verticalPlatePadsForPaperStartX = innerPadsStartX - platePadForPaperLength/2 - 3;
-real verticalPlatePadsForPaperStartY = leftOuterPadsStartY;
+real verticalPlatePadsForPaperStartY = leftOuterPadsStartY - abs(smallFemaleHeaderWidth/2 - platePadForPaperLength/2);
 real ySpacingBetweenVerticalPlatePadsForPaper = 2;   //mm
 int verticalPlatePadsJpStartNum = horizontalPlatePadsJpEndNum + 1;
 int verticalPlatePadsJpEndNum = verticalPlatePadsJpStartNum - 1 + numOfRowsForVerticalPlatesForPaper * numOfColsForVerticalPlatesForPaper;

@@ -45,7 +45,8 @@ void generateMoveCommand(string name, real x, real y){
 
 void computeBreadBoardDivisionCursorXByCol(int jpNum){
    if (jpNum % customNumOfCols > int(customNumOfCols/2) || jpNum % customNumOfCols == 0){
-      cursorX += (xSpacing*3);
+      // cursorX += (xSpacing*3);
+      cursorX += (xSpacing*2);
    }
 }
 
