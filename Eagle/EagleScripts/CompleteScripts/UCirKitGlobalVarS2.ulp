@@ -19,7 +19,10 @@ real ySpacingForLargeFemaleHeader = 0.48;
 
 int largePadPartNum = 1;
 // string largePadPartStr = "M01PTH_SMD_2.18X1.0668MM_NO_SILK";
-string largePadPartStr = "M01PTH_SMD_3.25X0.85MM_NO_SILK";
+// string largePadPartStr = "M01PTH_SMD_3.25X0.85MM_NO_SILK";
+string largePadPartStr = "M01PTH_SMD_3.05X1.05MM_NO_SILK";
+real largePadLength = 3.05;   //change this if pad part changes
+real largePadWidth = 1.05;    //change this if pad part changes
 real xSpacingForLargePadPart = 1.0;
 real ySpacingForLargePadPart = 0.48;
 
@@ -31,7 +34,25 @@ string smallFemaleHeaderPartStr = "M01PTH_SMD_3.25X0.85MM_NO_SILK";
 real xSpacingForSmallFemaleHeader = 1.0;
 real ySpacingForSmallFemaleHeader = 0.48;
 
+//********** Plates
+int numOfRowsForHorizontalPlatesForPaper = 1;
+int numOfColsForHorizontalPlatesForPaper = 2;
+int numOfRowsForVerticalPlatesForPaper = 2;
+int numOfColsForVerticalPlatesForPaper = 1;
+int platePadForPaperPartNum = 1;
+string platePadForPaperPartStr = "M01PTH_SMD_1.5X1.5MM_NO_SILK";
+real platePadForPaperLength = 1.5;  //change this if pad part changes
+real platePadForPaperWidth = 1.5;   //change this if pad part changes
+real xSpacingForHorizontalPlatesForPaperOnSchematics = 1.0;
+real ySpacingForHorizontalPlatesForPaperOnSchematics = 0.48;
+real xSpacingForVerticalPlatesForPaperOnSchematics = 1.0;
+real ySpacingForVerticalPlatesForPaperOnSchematics = 0.48;
 
+int numOfPlatesForEachHole = 2;
+int platePadForHolesPartNum = 1;
+string platePadForHolesPartStr = "M01PTH_SMD_1.5X1.5MM_NO_SILK";
+real xSpacingForPlatePadsForHoleOnSchematics = 1.0;
+real ySpacingForPlatePadsForHoleOnSchematics = 0.48;
 
 //*************************************************************************
 //***************************   Board information   ***********************
@@ -49,7 +70,7 @@ real ySpacingForSmallFemaleHeader = 0.48;
 real xSpacingBetweenLargeFemaleHeaders = 2.54; //mm
 real ySpacingBetweenLargeFemaleHeaders = 2.54; //mm
 
-real xSpacingBetweenInnerContacts = 4.45;  //mm
+real xSpacingBetweenInnerContacts = 4.00;  //mm
 real ySpacingBetweenInnerContacts = 2.45; //mm
 
 real xSpacingBetweenOuterContactsForLeftAndRightZones = 4.5; //mm
@@ -58,14 +79,14 @@ real ySpacingBetweenOuterContactsForLeftAndRightZones = 1.27; //mm
 real xSpacingBetweenOuterContactsForUpAndDownZones = ySpacingBetweenOuterContactsForLeftAndRightZones;
 real ySpacingBetweenOuterContactsForUpAndDownZones = 4.191; //mm
 
-real marginToVerticalBorder = 3;    //mm
-real marginToTopHorizontalBorder = 3;      //mm
-real marginToBottomHorizontalBorder = 3;   //mm
+real marginToVerticalBorder = 8;    //mm
+real marginToTopHorizontalBorder = 8;      //mm
+real marginToBottomHorizontalBorder = 8;   //mm
 
 real holeDiameter = 4;  //mm
-real holeToTopHorizontalBorder = 9.5;   //mm
-real holeToBottomHorizontalBorder = 9.5;   //mm
-real holeToVerticalBorder = 13.5;  //mm
+real holeToTopHorizontalBorder = 8;   //mm
+real holeToBottomHorizontalBorder = 8;   //mm
+real holeToVerticalBorder = 8;  //mm
 
 real boardWidth;
 real boardHeight;
@@ -121,11 +142,25 @@ int breadboard = 1;
 int colIncrement = 1;
 int rotateToVertical = 1;
 
+//******* plates
+real horizonatalPlatePadsForPaperStartX = innerPadsStartX - largePadLength/2;
+real horizonatalPlatePadsForPaperStartY = innerPadsStartY + platePadForPaperWidth/2 + 3;
+real xSpacingBetweenHorizontalPlatePadsForPaper = 2;   //mm
+int horizontalPlatePadsJpStartNum = lowerLeftOuterPadsJpEndNum + numOfRows * numOfCols + 1;
+int horizontalPlatePadsJpEndNum = horizontalPlatePadsJpStartNum - 1 + numOfRowsForHorizontalPlatesForPaper * numOfColsForHorizontalPlatesForPaper;
+
+real verticalPlatePadsForPaperStartX = innerPadsStartX - platePadForPaperLength/2 - 3;
+real verticalPlatePadsForPaperStartY = leftOuterPadsStartY;
+real ySpacingBetweenVerticalPlatePadsForPaper = 2;   //mm
+int verticalPlatePadsJpStartNum = horizontalPlatePadsJpEndNum + 1;
+int verticalPlatePadsJpEndNum = verticalPlatePadsJpStartNum - 1 + numOfRowsForVerticalPlatesForPaper * numOfColsForVerticalPlatesForPaper;
+
+real spacingBetweenPlateAndHole = 5;   //mm
 //*************************************************************************
 //**************************  Print ***************************************
 //*************************************************************************
 
-string Fritzing_Text = " /Applications/EAGLE-7.3.0/ulp/test.txt";
+string Fritzing_Text = "UntitledSketch3.txt";
 real FritzingStartX = 1;
 real FritzingStartY = 1;
 int Pair_num = 0;
@@ -141,47 +176,47 @@ real YSpacing = 2.45;
 //int map[] = {1, 302, 303, 304, 313, 305, 306, 307, 308, 317, 310, 301, 325, 314, 315, 324, 327, 328, 318, 316, 309, 311, 322, 333, 335, 323, 336, 338, 326, 329, 320, 312, 332, 334, 343, 344, 337, 347, 348, 339, 319, 321, 342, 345, 353, 354, 357, 358, 346, 349, 330, 331, 352, 364, 355, 365, 367, 368, 356, 359, 340, 341, 362, 405, 373, 393, 398, 388, 378, 369, 350, 351, 372, 363, 374, 403, 397, 387, 377, 379, 360, 361, 382, 383, 375, 423, 428, 408, 366, 389, 370, 371, 392, 384, 385, 415, 448, 418, 376, 399, 380, 381, 402, 394, 404, 425, 426, 396, 386, 409, 390, 391, 412, 413, 395, 435, 436, 438, 407, 419, 400, 401, 422, 414, 424, 445, 446, 406, 417, 429, 410, 411, 432, 433, 434, 455, 456, 458, 427, 439, 420, 421, 442, 443, 444, 465, 466, 416, 437, 449, 430, 431, 452, 453, 454, 475, 476, 457, 447, 459, 440, 441, 462, 463, 464, 485, 486, 467, 468, 469, 450, 451, 472, 473, 474, 495, 496, 477, 478, 479, 460, 461, 482, 483, 484, 505, 506, 487, 488, 489, 470, 471, 492, 493, 494, 515, 516, 497, 498, 499, 480, 481, 502, 503, 504, 555, 566, 507, 508, 509, 490, 491, 512, 513, 514, 563, 547, 517, 518, 519, 500, 501, 522, 523, 524, 525, 526, 527, 528, 529, 510, 511, 532, 533, 534, 564, 567, 537, 538, 539, 520, 521, 542, 543, 544, 535, 536, 558, 548, 549, 530, 531, 552, 553, 554, 545, 546, 557, 576, 559, 540, 541, 562, 565, 575, 573, 556, 568, 577, 569, 550, 551, 572, 584, 585, 574, 578, 586, 588, 579, 560, 561, 581, 592, 594, 595, 587, 598, 599, 590, 570, 571, 582, 591, 593, 583, 596, 597, 600, 589, 580};
 string lines[];
 int lines_count = 0;
-lines[lines_count++]="WirePair<[['A', '1'], ['D', '2']]";
-lines[lines_count++]="WirePair<[['D', '1'], ['J', '10']]";
-lines[lines_count++]="WirePair<[['J', '1'], ['F', '27']]";
-lines[lines_count++]="WirePair<[['J', '1'], ['A', '14']]";
-lines[lines_count++]="WirePair<[['J', '1'], ['A', '20']]";
-lines[lines_count++]="WirePair<[['F', '1'], ['G', '17']]";
-lines[lines_count++]="WirePair<[['F', '2'], ['G', '16']]";
-lines[lines_count++]="WirePair<[['F', '3'], ['G', '20']]";
-lines[lines_count++]="WirePair<[['F', '4'], ['G', '15']]";
-lines[lines_count++]="WirePair<[['F', '5'], ['G', '19']]";
-lines[lines_count++]="WirePair<[['F', '6'], ['J', '7']]";
-lines[lines_count++]="WirePair<[['D', '3'], ['G', '18']]";
-lines[lines_count++]="WirePair<[['D', '4'], ['J', '9']]";
-lines[lines_count++]="WirePair<[['D', '5'], ['J', '8']]";
-lines[lines_count++]="WirePair<[['A', '5'], ['A', '15']]";
-lines[lines_count++]="WirePair<[['D', '6'], ['G', '14']]"; 
-lines[lines_count++]="WirePair<[['A', '10'], ['F', '21']]";
-lines[lines_count++]="WirePair<[['J', '11'], ['A', '16']]";
-lines[lines_count++]="WirePair<[['J', '12'], ['A', '18']]";
-lines[lines_count++]="WirePair<[['J', '13'], ['A', '19']]";
-lines[lines_count++]="WirePair<[['D', '14'], ['E', '14']]";
-lines[lines_count++]="WirePair<[['D', '15'], ['E', '15']]";
-lines[lines_count++]="WirePair<[['D', '16'], ['E', '16']]";
-lines[lines_count++]="WirePair<[['D', '17'], ['E', '17']]";
-lines[lines_count++]="WirePair<[['D', '18'], ['E', '18']]";
-lines[lines_count++]="WirePair<[['D', '19'], ['E', '19']]";
-lines[lines_count++]="WirePair<[['D', '20'], ['E', '20']]";
-lines[lines_count++]="WirePair<[['A', '17'], ['E', '30']]";
-lines[lines_count++]="WirePair<[['D', '21'], ['E', '30']]";  
-lines[lines_count++]="WirePair<[['A', '23'], ['D', '24']]";  
-lines[lines_count++]="WirePair<[['A', '24'], ['E', '30']]";  
-lines[lines_count++]="WirePair<[['A', '25'], ['D', '25']]";  
-lines[lines_count++]="WirePair<[['A', '26'], ['D', '26']]";  
-lines[lines_count++]="WirePair<[['F', '24'], ['J', '26']]";  
-lines[lines_count++]="WirePair<[['F', '25'], ['J', '25']]";  
-lines[lines_count++]="WirePair<[['F', '26'], ['J', '24']]";  
-lines[lines_count++]="WirePair<[['F', '27'], ['J', '27']]";  
-lines[lines_count++]="WirePair<[['A', '28'], ['D', '27']]";  
-lines[lines_count++]="WirePair<[['A', '29'], ['E', '30']]";  
-lines[lines_count++]="WirePair<[['J', '29'], ['I', '29']]";
-lines[lines_count++]="WirePair<[['I', '30'], ['E', '30']]";  
+
+lines[lines_count++] = "[['D', '1'], ['C', '1']]";
+lines[lines_count++] = "[['D', '4'], ['B', '4']]";
+lines[lines_count++] = "[['D', '6'], ['B', '6']]";
+lines[lines_count++] = "[['D', '7'], ['B', '7']]";
+lines[lines_count++] = "[['D', '21'], ['D', '19']]";
+lines[lines_count++] = "[['D', '22'], ['D', '18']]";
+lines[lines_count++] = "[['D', '23'], ['D', '17']]";
+lines[lines_count++] = "[['D', '24'], ['D', '16']]";
+lines[lines_count++] = "[['A', '29'], ['A', '30']]";
+lines[lines_count++] = "[['A', '28'], ['A', '29']]";
+lines[lines_count++] = "[['A', '27'], ['A', '28']]";
+lines[lines_count++] = "[['A', '26'], ['A', '27']]";
+lines[lines_count++] = "[['A', '25'], ['A', '26']]";
+lines[lines_count++] = "[['A', '24'], ['A', '25']]";
+lines[lines_count++] = "[['A', '23'], ['A', '24']]";
+lines[lines_count++] = "[['A', '22'], ['A', '23']]";
+lines[lines_count++] = "[['A', '21'], ['A', '22']]";
+lines[lines_count++] = "[['D', '25'], ['D', '15']]";
+lines[lines_count++] = "[['D', '26'], ['D', '14']]";
+lines[lines_count++] = "[['D', '27'], ['D', '13']]";
+lines[lines_count++] = "[['D', '28'], ['D', '12']]";
+lines[lines_count++] = "[['D', '29'], ['D', '11']]";
+lines[lines_count++] = "[['D', '30'], ['D', '10']]";
+lines[lines_count++] = "[['B', '5'], ['A', '21']]";
+lines[lines_count++] = "[['C', '2'], ['B', '5']]";
+lines[lines_count++] = "[['J', '19'], ['G', '19']]";
+lines[lines_count++] = "[['J', '18'], ['G', '18']]";
+lines[lines_count++] = "[['J', '17'], ['G', '17']]";
+lines[lines_count++] = "[['J', '16'], ['G', '16']]";
+lines[lines_count++] = "[['J', '15'], ['G', '15']]";
+lines[lines_count++] = "[['J', '14'], ['G', '14']]";
+lines[lines_count++] = "[['J', '13'], ['G', '13']]";
+lines[lines_count++] = "[['J', '12'], ['G', '12']]";
+lines[lines_count++] = "[['J', '11'], ['G', '11']]";
+lines[lines_count++] = "[['J', '10'], ['G', '10']]";
+lines[lines_count++] = "[['J', '9'], ['G', '7']]";
+lines[lines_count++] = "[['J', '8'], ['G', '6']]";
+lines[lines_count++] = "[['J', '7'], ['G', '4']]";
+lines[lines_count++] = "[['J', '6'], ['G', '1']]";
+lines[lines_count++] = "[['J', '5'], ['C', '2']]";
 
 //*************************************************************************
 //**************************  Eagle Commands  *****************************
