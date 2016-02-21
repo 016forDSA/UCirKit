@@ -143,6 +143,8 @@ int mirror = 1;
 int breadboard = 1;
 int colIncrement = 1;
 int rotateToVertical = 1;
+int verticallySymmetric = 1;
+int horizontallySymmetric = 1;
 
 //******* plates
 real horizonatalPlatePadsForPaperStartX = innerPadsStartX - largePadLength/2 + platePadForPaperLength/2;
@@ -154,7 +156,7 @@ int horizontalPlatePadsJpEndNum = horizontalPlatePadsJpStartNum - 1 + numOfRowsF
 real verticalPlatePadsForPaperStartX = innerPadsStartX - platePadForPaperWidth/2 - 3.5;
 real verticalPlatePadsForPaperStartY = leftOuterPadsStartY - abs(smallFemaleHeaderWidth/2 - platePadForPaperLength/2);
 real ySpacingBetweenVerticalPlatePadsForPaper = 2;   //mm
-int verticalPlatePadsJpStartNum = horizontalPlatePadsJpEndNum + 1;
+int verticalPlatePadsJpStartNum = horizontalPlatePadsJpEndNum + 1 + (horizontalPlatePadsJpEndNum - horizontalPlatePadsJpStartNum + 1);
 int verticalPlatePadsJpEndNum = verticalPlatePadsJpStartNum - 1 + numOfRowsForVerticalPlatesForPaper * numOfColsForVerticalPlatesForPaper;
 
 real spacingBetweenPlateAndHole = 5;   //mm

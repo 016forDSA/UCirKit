@@ -45,12 +45,27 @@ output("UCirKitCompleteScriptS2_Part1.txt"){
                         xSpacingForHorizontalPlatesForPaperOnSchematics,
                         ySpacingForHorizontalPlatesForPaperOnSchematics);
 
+   addFemaleHeaderArray(numOfRowsForHorizontalPlatesForPaper,
+                        numOfColsForHorizontalPlatesForPaper,
+                        platePadForPaperPartNum,
+                        platePadForPaperPartStr,
+                        xSpacingForHorizontalPlatesForPaperOnSchematics,
+                        ySpacingForHorizontalPlatesForPaperOnSchematics);
+
    addFemaleHeaderArray(numOfRowsForVerticalPlatesForPaper,
                         numOfColsForVerticalPlatesForPaper,
                         platePadForPaperPartNum,
                         platePadForPaperPartStr,
                         xSpacingForVerticalPlatesForPaperOnSchematics,
                         ySpacingForVerticalPlatesForPaperOnSchematics);
+
+   addFemaleHeaderArray(numOfRowsForVerticalPlatesForPaper,
+                        numOfColsForVerticalPlatesForPaper,
+                        platePadForPaperPartNum,
+                        platePadForPaperPartStr,
+                        xSpacingForVerticalPlatesForPaperOnSchematics,
+                        ySpacingForVerticalPlatesForPaperOnSchematics);
+
    // printf(commands);
 }
 
