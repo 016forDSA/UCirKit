@@ -31,6 +31,31 @@ output("UCirKitCompleteScriptS2_Part4b.txt"){
                 numOfRows,
                 numOfCols);
 
+   arrangeBoard(horizontalPlatePadsJpStartNum,
+                horizontalPlatePadsJpEndNum,
+                colIncrement,
+                !mirror,
+                !breadboard,
+                !rotateToVertical,
+                horizonatalPlatePadsForPaperStartX,
+                horizonatalPlatePadsForPaperStartY,
+                xSpacingBetweenHorizontalPlatePadsForPaper,
+                0,
+                numOfRowsForHorizontalPlatesForPaper,
+                numOfColsForHorizontalPlatesForPaper);
+
+   arrangeBoard(verticalPlatePadsJpStartNum,
+                verticalPlatePadsJpEndNum,
+                !colIncrement,
+                !mirror,
+                !breadboard,
+                rotateToVertical,
+                verticalPlatePadsForPaperStartX,
+                verticalPlatePadsForPaperStartY,
+                0,
+                ySpacingBetweenVerticalPlatePadsForPaper,
+                numOfRowsForVerticalPlatesForPaper,
+                numOfColsForVerticalPlatesForPaper);
    // printf(commands);
 }
 
