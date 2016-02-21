@@ -38,13 +38,13 @@ real ySpacingForSmallFemaleHeader = 0.48;
 
 //********** Plates
 int numOfRowsForHorizontalPlatesForPaper = 1;
-int numOfColsForHorizontalPlatesForPaper = 2;
-int numOfRowsForVerticalPlatesForPaper = 2;
+int numOfColsForHorizontalPlatesForPaper = 1;
+int numOfRowsForVerticalPlatesForPaper = 1;
 int numOfColsForVerticalPlatesForPaper = 1;
 int platePadForPaperPartNum = 1;
-string platePadForPaperPartStr = "M01PTH_SMD_1.5X1.5MM_NO_SILK";
-real platePadForPaperLength = 1.5;  //change this if pad part changes
-real platePadForPaperWidth = 1.5;   //change this if pad part changes
+string platePadForPaperPartStr = "M01PTH_SMD_7.5X0.8MM_NO_SILK";
+real platePadForPaperLength = 7.5;  //change this if pad part changes
+real platePadForPaperWidth = 0.8;   //change this if pad part changes
 real xSpacingForHorizontalPlatesForPaperOnSchematics = 1.0;
 real ySpacingForHorizontalPlatesForPaperOnSchematics = 0.48;
 real xSpacingForVerticalPlatesForPaperOnSchematics = 1.0;
@@ -151,7 +151,7 @@ real xSpacingBetweenHorizontalPlatePadsForPaper = 2;   //mm
 int horizontalPlatePadsJpStartNum = lowerLeftOuterPadsJpEndNum + numOfRows * numOfCols + 1;
 int horizontalPlatePadsJpEndNum = horizontalPlatePadsJpStartNum - 1 + numOfRowsForHorizontalPlatesForPaper * numOfColsForHorizontalPlatesForPaper;
 
-real verticalPlatePadsForPaperStartX = innerPadsStartX - platePadForPaperLength/2 - 3;
+real verticalPlatePadsForPaperStartX = innerPadsStartX - platePadForPaperWidth/2 - 3.5;
 real verticalPlatePadsForPaperStartY = leftOuterPadsStartY - abs(smallFemaleHeaderWidth/2 - platePadForPaperLength/2);
 real ySpacingBetweenVerticalPlatePadsForPaper = 2;   //mm
 int verticalPlatePadsJpStartNum = horizontalPlatePadsJpEndNum + 1;
