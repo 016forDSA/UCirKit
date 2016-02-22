@@ -85,6 +85,7 @@ real marginToVerticalBorder = 8;    //mm
 real marginToTopHorizontalBorder = 8;      //mm
 real marginToBottomHorizontalBorder = 8;   //mm
 
+int numOfHoles = 4;
 real holeDiameter = 4;  //mm
 real holeToTopHorizontalBorder = 8;   //mm
 real holeToBottomHorizontalBorder = 8;   //mm
@@ -150,14 +151,14 @@ int horizontallySymmetric = 1;
 real horizonatalPlatePadsForPaperStartX = innerPadsStartX - largePadLength/2 + platePadForPaperLength/2;
 real horizonatalPlatePadsForPaperStartY = innerPadsStartY + platePadForPaperWidth/2 + 3;
 real xSpacingBetweenHorizontalPlatePadsForPaper = 2;   //mm
-int horizontalPlatePadsJpStartNum = lowerLeftOuterPadsJpEndNum + numOfRows * numOfCols + 1;
-int horizontalPlatePadsJpEndNum = horizontalPlatePadsJpStartNum - 1 + numOfRowsForHorizontalPlatesForPaper * numOfColsForHorizontalPlatesForPaper;
+int horizontalPlatePadsForPaperJpStartNum = lowerLeftOuterPadsJpEndNum + numOfRows * numOfCols + 1;
+int horizontalPlatePadsForPaperJpEndNum = horizontalPlatePadsForPaperJpStartNum - 1 + numOfRowsForHorizontalPlatesForPaper * numOfColsForHorizontalPlatesForPaper;
 
 real verticalPlatePadsForPaperStartX = innerPadsStartX - platePadForPaperWidth/2 - 3.5;
 real verticalPlatePadsForPaperStartY = leftOuterPadsStartY - abs(smallFemaleHeaderWidth/2 - platePadForPaperLength/2);
 real ySpacingBetweenVerticalPlatePadsForPaper = 2;   //mm
-int verticalPlatePadsJpStartNum = horizontalPlatePadsJpEndNum + 1 + (horizontalPlatePadsJpEndNum - horizontalPlatePadsJpStartNum + 1);
-int verticalPlatePadsJpEndNum = verticalPlatePadsJpStartNum - 1 + numOfRowsForVerticalPlatesForPaper * numOfColsForVerticalPlatesForPaper;
+int verticalPlatePadsForPaperJpStartNum = horizontalPlatePadsForPaperJpEndNum + 1 + (horizontalPlatePadsForPaperJpEndNum - horizontalPlatePadsForPaperJpStartNum + 1);
+int verticalPlatePadsForPaperJpEndNum = verticalPlatePadsForPaperJpStartNum - 1 + numOfRowsForVerticalPlatesForPaper * numOfColsForVerticalPlatesForPaper;
 
 real spacingBetweenPlateAndHole = 5;   //mm
 //*************************************************************************

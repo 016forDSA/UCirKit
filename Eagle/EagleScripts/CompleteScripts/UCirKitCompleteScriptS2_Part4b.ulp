@@ -35,8 +35,8 @@ output("UCirKitCompleteScriptS2_Part4b.txt"){
                 numOfRows,
                 numOfCols);
 
-   arrangeBoard(horizontalPlatePadsJpStartNum,
-                horizontalPlatePadsJpEndNum,
+   arrangeBoard(horizontalPlatePadsForPaperJpStartNum,
+                horizontalPlatePadsForPaperJpEndNum,
                 colIncrement,
                 !mirror,
                 !breadboard,
@@ -50,8 +50,8 @@ output("UCirKitCompleteScriptS2_Part4b.txt"){
                 numOfRowsForHorizontalPlatesForPaper,
                 numOfColsForHorizontalPlatesForPaper);
 
-   arrangeBoard(horizontalPlatePadsJpStartNum + numOfRowsForHorizontalPlatesForPaper * numOfColsForHorizontalPlatesForPaper,
-                horizontalPlatePadsJpEndNum + numOfRowsForHorizontalPlatesForPaper * numOfColsForHorizontalPlatesForPaper,
+   arrangeBoard(horizontalPlatePadsForPaperJpStartNum + numOfRowsForHorizontalPlatesForPaper * numOfColsForHorizontalPlatesForPaper,
+                horizontalPlatePadsForPaperJpEndNum + numOfRowsForHorizontalPlatesForPaper * numOfColsForHorizontalPlatesForPaper,
                 colIncrement,
                 mirror,
                 !breadboard,
@@ -65,8 +65,8 @@ output("UCirKitCompleteScriptS2_Part4b.txt"){
                 numOfRowsForHorizontalPlatesForPaper,
                 numOfColsForHorizontalPlatesForPaper);
 
-   arrangeBoard(verticalPlatePadsJpStartNum,
-                verticalPlatePadsJpEndNum,
+   arrangeBoard(verticalPlatePadsForPaperJpStartNum,
+                verticalPlatePadsForPaperJpEndNum,
                 !colIncrement,
                 !mirror,
                 !breadboard,
@@ -80,8 +80,8 @@ output("UCirKitCompleteScriptS2_Part4b.txt"){
                 numOfRowsForVerticalPlatesForPaper,
                 numOfColsForVerticalPlatesForPaper);
 
-   arrangeBoard(verticalPlatePadsJpStartNum + numOfRowsForVerticalPlatesForPaper * numOfColsForVerticalPlatesForPaper,
-                verticalPlatePadsJpEndNum + numOfRowsForVerticalPlatesForPaper * numOfColsForVerticalPlatesForPaper,
+   arrangeBoard(verticalPlatePadsForPaperJpStartNum + numOfRowsForVerticalPlatesForPaper * numOfColsForVerticalPlatesForPaper,
+                verticalPlatePadsForPaperJpEndNum + numOfRowsForVerticalPlatesForPaper * numOfColsForVerticalPlatesForPaper,
                 !colIncrement,
                 mirror,
                 !breadboard,
