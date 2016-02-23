@@ -1,6 +1,16 @@
 #include "UCirKitGlobalVarS2.ulp"
 
 int jpNum = 1;
+real xCursorBaseline = 0;
+real maxXCursor = 0;
+
+void checkIfCursorOutOfPermittedRange(){
+   if (yCursor >= 78 || yCursor <= -78){
+      xCursorBaseline = maxXCursor + 1;
+      xCursor = xCursorBaseline;
+      yCursor = 0;
+   }
+}
 
 void addFemaleHeaderArray(int numOfRowFemaleHeaders,
                           int numOfColFemaleHeaders,
@@ -19,11 +29,19 @@ void addFemaleHeaderArray(int numOfRowFemaleHeaders,
 
          xCursor += xSpacingInInch;
       }
-      xCursor = 0;
+      if (xCursor > maxXCursor){
+         maxXCursor = xCursor;
+      }
+      
+      xCursor = xCursorBaseline;
       yCursor -= (ySpacingInInch * femaleHeaderPartNum);
+
+      checkIfCursorOutOfPermittedRange();
    }
 
    yCursor -= (ySpacingInInch * femaleHeaderPartNum);
+
+   checkIfCursorOutOfPermittedRange();
 }
 
 //---- Execution
