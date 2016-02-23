@@ -38,34 +38,34 @@ output("UCirKitCompleteScriptS2_Part1.txt"){
                         xSpacingForSmallFemaleHeader,
                         ySpacingForSmallFemaleHeader);
 
-   addFemaleHeaderArray(numOfRowsForHorizontalPlatesForPaper,
-                        numOfColsForHorizontalPlatesForPaper,
-                        platePadForPaperPartNum,
-                        platePadForPaperPartStr,
-                        xSpacingForHorizontalPlatesForPaperOnSchematics,
-                        ySpacingForHorizontalPlatesForPaperOnSchematics);
+   int i;
+   for (i = 0; i < numOfRepeatedHorizontalPlatesForPaper; ++i){
+      addFemaleHeaderArray(numOfRowsForHorizontalPlatesForPaper,
+                           numOfColsForHorizontalPlatesForPaper,
+                           platePadForPaperPartNum,
+                           platePadForPaperPartStr,
+                           xSpacingForHorizontalPlatesForPaperOnSchematics,
+                           ySpacingForHorizontalPlatesForPaperOnSchematics);
+   }
 
-   addFemaleHeaderArray(numOfRowsForHorizontalPlatesForPaper,
-                        numOfColsForHorizontalPlatesForPaper,
-                        platePadForPaperPartNum,
-                        platePadForPaperPartStr,
-                        xSpacingForHorizontalPlatesForPaperOnSchematics,
-                        ySpacingForHorizontalPlatesForPaperOnSchematics);
+   for (i = 0; i < numOfRepeatedVerticalPlatesForPaper; ++i){
+      addFemaleHeaderArray(numOfRowsForVerticalPlatesForPaper,
+                           numOfColsForVerticalPlatesForPaper,
+                           platePadForPaperPartNum,
+                           platePadForPaperPartStr,
+                           xSpacingForVerticalPlatesForPaperOnSchematics,
+                           ySpacingForVerticalPlatesForPaperOnSchematics);
+   }
 
-   addFemaleHeaderArray(numOfRowsForVerticalPlatesForPaper,
-                        numOfColsForVerticalPlatesForPaper,
-                        platePadForPaperPartNum,
-                        platePadForPaperPartStr,
-                        xSpacingForVerticalPlatesForPaperOnSchematics,
-                        ySpacingForVerticalPlatesForPaperOnSchematics);
-
-   addFemaleHeaderArray(numOfRowsForVerticalPlatesForPaper,
-                        numOfColsForVerticalPlatesForPaper,
-                        platePadForPaperPartNum,
-                        platePadForPaperPartStr,
-                        xSpacingForVerticalPlatesForPaperOnSchematics,
-                        ySpacingForVerticalPlatesForPaperOnSchematics);
-
+   for (i = 0; i < 2; ++i){
+      addFemaleHeaderArray(numOfHoles,
+                           numOfPlatesForEachHole,
+                           platePadForHolesPartNum,
+                           platePadForHolesPartStr,
+                           xSpacingForPlatePadsForHoleOnSchematics,
+                           ySpacingForPlatePadsForHoleOnSchematics);
+   }
+   
    // printf(commands);
 }
 
