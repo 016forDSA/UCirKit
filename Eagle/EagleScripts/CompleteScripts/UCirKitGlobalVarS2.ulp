@@ -164,7 +164,7 @@ real ySpacingBetweenVerticalPlatePadsForPaper = 2;   //mm
 int verticalPlatePadsForPaperJpStartNum = horizontalPlatePadsForPaperJpEndNum + 1 + (numOfRepeatedHorizontalPlatesForPaper - 1) * (horizontalPlatePadsForPaperJpEndNum - horizontalPlatePadsForPaperJpStartNum + 1);
 int verticalPlatePadsForPaperJpEndNum = verticalPlatePadsForPaperJpStartNum - 1 + numOfRowsForVerticalPlatesForPaper * numOfColsForVerticalPlatesForPaper;
 
-real spacingBetweenPlateAndHole = 4 + platePadForPaperWidth/2;   //mm
+real spacingBetweenPlateAndHole = holeDiameter/2 + platePadForHolesWidth/2;   //mm
 int platePadsForHolesJpStartNum = verticalPlatePadsForPaperJpEndNum + 1 + (numOfRepeatedVerticalPlatesForPaper - 1) * (verticalPlatePadsForPaperJpEndNum - verticalPlatePadsForPaperJpStartNum + 1);
 int platePadsForHolesJpEndNum = platePadsForHolesJpStartNum - 1 + numOfPlatesForEachHole;
 //*************************************************************************
