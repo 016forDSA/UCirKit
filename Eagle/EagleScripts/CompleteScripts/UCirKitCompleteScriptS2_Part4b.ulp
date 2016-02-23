@@ -53,11 +53,41 @@ output("UCirKitCompleteScriptS2_Part4b.txt"){
    arrangeBoard(horizontalPlatePadsForPaperJpStartNum + numOfRowsForHorizontalPlatesForPaper * numOfColsForHorizontalPlatesForPaper,
                 horizontalPlatePadsForPaperJpEndNum + numOfRowsForHorizontalPlatesForPaper * numOfColsForHorizontalPlatesForPaper,
                 colIncrement,
+                !mirror,
+                !breadboard,
+                !rotateToVertical,
+                verticallySymmetric,
+                horizontallySymmetric,
+                horizonatalPlatePadsForPaperStartX,
+                horizonatalPlatePadsForPaperStartY,
+                xSpacingBetweenHorizontalPlatePadsForPaper,
+                0,
+                numOfRowsForHorizontalPlatesForPaper,
+                numOfColsForHorizontalPlatesForPaper);
+
+   arrangeBoard(horizontalPlatePadsForPaperJpStartNum + 2 * numOfRowsForHorizontalPlatesForPaper * numOfColsForHorizontalPlatesForPaper,
+                horizontalPlatePadsForPaperJpEndNum + 2 * numOfRowsForHorizontalPlatesForPaper * numOfColsForHorizontalPlatesForPaper,
+                colIncrement,
                 mirror,
                 !breadboard,
                 !rotateToVertical,
                 verticallySymmetric,
                 !horizontallySymmetric,
+                horizonatalPlatePadsForPaperStartX,
+                horizonatalPlatePadsForPaperStartY,
+                xSpacingBetweenHorizontalPlatePadsForPaper,
+                0,
+                numOfRowsForHorizontalPlatesForPaper,
+                numOfColsForHorizontalPlatesForPaper);
+
+   arrangeBoard(horizontalPlatePadsForPaperJpStartNum + 3 * numOfRowsForHorizontalPlatesForPaper * numOfColsForHorizontalPlatesForPaper,
+                horizontalPlatePadsForPaperJpEndNum + 3 * numOfRowsForHorizontalPlatesForPaper * numOfColsForHorizontalPlatesForPaper,
+                colIncrement,
+                mirror,
+                !breadboard,
+                !rotateToVertical,
+                !verticallySymmetric,
+                horizontallySymmetric,
                 horizonatalPlatePadsForPaperStartX,
                 horizonatalPlatePadsForPaperStartY,
                 xSpacingBetweenHorizontalPlatePadsForPaper,
@@ -83,6 +113,21 @@ output("UCirKitCompleteScriptS2_Part4b.txt"){
    arrangeBoard(verticalPlatePadsForPaperJpStartNum + numOfRowsForVerticalPlatesForPaper * numOfColsForVerticalPlatesForPaper,
                 verticalPlatePadsForPaperJpEndNum + numOfRowsForVerticalPlatesForPaper * numOfColsForVerticalPlatesForPaper,
                 !colIncrement,
+                !mirror,
+                !breadboard,
+                rotateToVertical,
+                verticallySymmetric,
+                horizontallySymmetric,
+                verticalPlatePadsForPaperStartX,
+                verticalPlatePadsForPaperStartY,
+                0,
+                ySpacingBetweenVerticalPlatePadsForPaper,
+                numOfRowsForVerticalPlatesForPaper,
+                numOfColsForVerticalPlatesForPaper);
+
+   arrangeBoard(verticalPlatePadsForPaperJpStartNum + 2 * numOfRowsForVerticalPlatesForPaper * numOfColsForVerticalPlatesForPaper,
+                verticalPlatePadsForPaperJpEndNum + 2 * numOfRowsForVerticalPlatesForPaper * numOfColsForVerticalPlatesForPaper,
+                !colIncrement,
                 mirror,
                 !breadboard,
                 rotateToVertical,
@@ -94,6 +139,57 @@ output("UCirKitCompleteScriptS2_Part4b.txt"){
                 ySpacingBetweenVerticalPlatePadsForPaper,
                 numOfRowsForVerticalPlatesForPaper,
                 numOfColsForVerticalPlatesForPaper);
+
+   arrangeBoard(verticalPlatePadsForPaperJpStartNum + 3 * numOfRowsForVerticalPlatesForPaper * numOfColsForVerticalPlatesForPaper,
+                verticalPlatePadsForPaperJpEndNum + 3 * numOfRowsForVerticalPlatesForPaper * numOfColsForVerticalPlatesForPaper,
+                !colIncrement,
+                mirror,
+                !breadboard,
+                rotateToVertical,
+                !verticallySymmetric,
+                horizontallySymmetric,
+                verticalPlatePadsForPaperStartX,
+                verticalPlatePadsForPaperStartY,
+                0,
+                ySpacingBetweenVerticalPlatePadsForPaper,
+                numOfRowsForVerticalPlatesForPaper,
+                numOfColsForVerticalPlatesForPaper);
+
+   for (int i = 0; i < numOfHoles * numOfPlatesForEachHole * 2; i = i + 2){
+      int verticallySymmetricBit = int(i/2) % 2;
+      int horizontallySymmetricBit = int(i/4) % 2;
+      int mirrorBit = int(i/8) % 2;
+
+      arrangeBoard(platePadsForHolesJpStartNum + i,
+                   platePadsForHolesJpEndNum + i,
+                   colIncrement,
+                   mirrorBit,
+                   !breadboard,
+                   !rotateToVertical,
+                   verticallySymmetricBit,
+                   horizontallySymmetricBit,
+                   holeToVerticalBorder,
+                   holeToBottomHorizontalBorder + spacingBetweenPlateAndHole,
+                   0,
+                   0,
+                   1,
+                   1);
+
+      arrangeBoard(platePadsForHolesJpStartNum + 1 + i,
+                   platePadsForHolesJpEndNum + 1 + i,
+                   colIncrement,
+                   mirrorBit,
+                   !breadboard,
+                   rotateToVertical,
+                   verticallySymmetricBit,
+                   horizontallySymmetricBit,
+                   holeToVerticalBorder + spacingBetweenPlateAndHole,
+                   holeToBottomHorizontalBorder,
+                   0,
+                   0,
+                   1,
+                   1);
+   }
    // printf(commands);
 }
 

@@ -42,6 +42,8 @@ int numOfColsForHorizontalPlatesForPaper = 1;
 int numOfRowsForVerticalPlatesForPaper = 1;
 int numOfColsForVerticalPlatesForPaper = 1;
 int platePadForPaperPartNum = 1;
+int numOfRepeatedHorizontalPlatesForPaper = 4;
+int numOfRepeatedVerticalPlatesForPaper = 4;
 string platePadForPaperPartStr = "M01PTH_SMD_7.5X0.8MM_NO_SILK";
 real platePadForPaperLength = 7.5;  //change this if pad part changes
 real platePadForPaperWidth = 0.8;   //change this if pad part changes
@@ -53,6 +55,8 @@ real ySpacingForVerticalPlatesForPaperOnSchematics = 0.48;
 int numOfPlatesForEachHole = 2;
 int platePadForHolesPartNum = 1;
 string platePadForHolesPartStr = "M01PTH_SMD_1.5X1.5MM_NO_SILK";
+real platePadForHolesLength = 1.5;
+real platePadForHolesWidth = 1.5;
 real xSpacingForPlatePadsForHoleOnSchematics = 1.0;
 real ySpacingForPlatePadsForHoleOnSchematics = 0.48;
 
@@ -157,10 +161,12 @@ int horizontalPlatePadsForPaperJpEndNum = horizontalPlatePadsForPaperJpStartNum 
 real verticalPlatePadsForPaperStartX = innerPadsStartX - platePadForPaperWidth/2 - 3.5;
 real verticalPlatePadsForPaperStartY = leftOuterPadsStartY - abs(smallFemaleHeaderWidth/2 - platePadForPaperLength/2);
 real ySpacingBetweenVerticalPlatePadsForPaper = 2;   //mm
-int verticalPlatePadsForPaperJpStartNum = horizontalPlatePadsForPaperJpEndNum + 1 + (horizontalPlatePadsForPaperJpEndNum - horizontalPlatePadsForPaperJpStartNum + 1);
+int verticalPlatePadsForPaperJpStartNum = horizontalPlatePadsForPaperJpEndNum + 1 + (numOfRepeatedHorizontalPlatesForPaper - 1) * (horizontalPlatePadsForPaperJpEndNum - horizontalPlatePadsForPaperJpStartNum + 1);
 int verticalPlatePadsForPaperJpEndNum = verticalPlatePadsForPaperJpStartNum - 1 + numOfRowsForVerticalPlatesForPaper * numOfColsForVerticalPlatesForPaper;
 
-real spacingBetweenPlateAndHole = 5;   //mm
+real spacingBetweenPlateAndHole = 4 + platePadForPaperWidth/2;   //mm
+int platePadsForHolesJpStartNum = verticalPlatePadsForPaperJpEndNum + 1 + (numOfRepeatedVerticalPlatesForPaper - 1) * (verticalPlatePadsForPaperJpEndNum - verticalPlatePadsForPaperJpStartNum + 1);
+int platePadsForHolesJpEndNum = platePadsForHolesJpStartNum - 1 + numOfPlatesForEachHole;
 //*************************************************************************
 //**************************  Print ***************************************
 //*************************************************************************
