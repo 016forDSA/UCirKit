@@ -1,7 +1,7 @@
 #include "UCirKitGlobalVarS2.ulp"
 #include "UCirKitArrangeBoard.ulp"
 
-output("UCirKitCompleteScriptS2_Part3.txt"){
+void arrangeFemaleHeaders(){
    arrangeBoard(largeFemaleJpStartNum,
                 largeFemaleJpEndNum,
                 colIncrement,
@@ -16,7 +16,9 @@ output("UCirKitCompleteScriptS2_Part3.txt"){
                 ySpacingBetweenLargeFemaleHeaders,
                 numOfRows,
                 numOfCols);
+}
 
+void arrangeInnerPads(){
    arrangeBoard(innerPadsJpStartNum,
                 innerPadsJpEndNum,
                 colIncrement,
@@ -32,8 +34,8 @@ output("UCirKitCompleteScriptS2_Part3.txt"){
                 numOfRows,
                 numOfCols);
 
-   arrangeBoard(innerPadsJpStartNum + 300,
-                innerPadsJpEndNum + 300,
+   arrangeBoard(innerPadsJpStartNum + numOfRows * numOfCols,
+                innerPadsJpEndNum + numOfRows * numOfCols,
                 colIncrement,
                 mirror,
                 breadboard,
@@ -46,7 +48,9 @@ output("UCirKitCompleteScriptS2_Part3.txt"){
                 ySpacingBetweenLargeFemaleHeaders,
                 numOfRows,
                 numOfCols);
+}
 
+void arrangeOuterPads(){
    arrangeBoard(leftOuterPadsJpStartNum,
                 leftOuterPadsJpEndNum,
                 !colIncrement,
@@ -166,6 +170,14 @@ output("UCirKitCompleteScriptS2_Part3.txt"){
                 ySpacingBetweenOuterContactsForUpAndDownZones,
                 1,
                 30);
+}
+
+output("UCirKitCompleteScriptS2_Part3.txt"){
+   arrangeFemaleHeaders();
+
+   arrangeInnerPads();
+
+   arrangeOuterPads();
 
    // printf(commands);
 }
