@@ -1,10 +1,12 @@
 #include "UCirKitGlobalVarS2.ulp"
 #include "UCirKitAdd4Holes.ulp"
+#include "UCirKitAddFiducialMarksOnBothSides.ulp"
 
 //---- Execution
 output("UCirKitCompleteScriptS2_Part4.txt"){
    add4Holes();
 
+   addFiducialMarksOnBothSides();
    // printf(commands);
 }
 

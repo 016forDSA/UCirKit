@@ -1,0 +1,13 @@
+#include "UCirKitGlobalVarS2.ulp"
+
+void addFiducialMarksOnBothSides(){
+   sprintf(commands, "%sADD %s@SparkFun-Aesthetics (%f %f);", commands, fiducialMarkPartStr, fiducialMarkToVerticalBorders, boardHeight - fiducialMarkToHorizontalBorders);
+
+   sprintf(commands, "%sADD %s@SparkFun-Aesthetics (%f %f);", commands, fiducialMarkPartStr, boardWidth - fiducialMarkToVerticalBorders, fiducialMarkToHorizontalBorders);
+
+   sprintf(commands, "%sADD %s@SparkFun-Aesthetics (%f %f);", commands, fiducialMarkPartStr, boardWidth - fiducialMarkToVerticalBorders, boardHeight - fiducialMarkToHorizontalBorders);
+   sprintf(commands, "%sMIRROR (%f %f);", commands, boardWidth - fiducialMarkToVerticalBorders, boardHeight - fiducialMarkToHorizontalBorders);
+
+   sprintf(commands, "%sADD %s@SparkFun-Aesthetics (%f %f);", commands, fiducialMarkPartStr, fiducialMarkToVerticalBorders, fiducialMarkToHorizontalBorders);
+   sprintf(commands, "%sMIRROR (%f %f);", commands, fiducialMarkToVerticalBorders, fiducialMarkToHorizontalBorders);
+}

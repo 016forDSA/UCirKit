@@ -18,7 +18,6 @@ real xSpacingForLargeFemaleHeader = 1.0;
 real ySpacingForLargeFemaleHeader = 0.48;
 
 int largePadPartNum = 1;
-// string largePadPartStr = "M01PTH_SMD_2.18X1.0668MM_NO_SILK";
 // string largePadPartStr = "M01PTH_SMD_3.25X0.85MM_NO_SILK";
 string largePadPartStr = "M01PTH_SMD_3.0X1.0MM_NO_SILK";
 real largePadLength = 3.0;   //change this if pad part changes
@@ -29,24 +28,24 @@ real ySpacingForLargePadPart = 0.48;
 int numOfLargeFemaleContacts = numOfRows * numOfCols;
 
 int smallFemaleHeaderPartNum = 1;
-// string smallFemaleHeaderPartStr = "M01PTH_SMD_1.27X0.635MM_NO_SILK";
-string smallFemaleHeaderPartStr = "M01PTH_SMD_3.25X0.85MM_NO_SILK";
-real smallFemaleHeaderLength = 3.25;
-real smallFemaleHeaderWidth = 0.85;
+// string smallFemaleHeaderPartStr = "M01PTH_SMD_3.25X0.85MM_NO_SILK";
+string smallFemaleHeaderPartStr = "M01PTH_SMD_3.0X1.0MM_NO_SILK";
+real smallFemaleHeaderLength = 3.0;
+real smallFemaleHeaderWidth = 1.0;
 real xSpacingForSmallFemaleHeader = 1.0;
 real ySpacingForSmallFemaleHeader = 0.48;
 
 //********** Plates
 int numOfRowsForHorizontalPlatesForPaper = 1;
-int numOfColsForHorizontalPlatesForPaper = 3;
-int numOfRowsForVerticalPlatesForPaper = 3;
+int numOfColsForHorizontalPlatesForPaper = 2;
+int numOfRowsForVerticalPlatesForPaper = 2;
 int numOfColsForVerticalPlatesForPaper = 1;
 int platePadForPaperPartNum = 1;
 int numOfRepeatedHorizontalPlatesForPaper = 4;
 int numOfRepeatedVerticalPlatesForPaper = 4;
-string platePadForPaperPartStr = "M01PTH_SMD_1.5X1.5MM_NO_SILK";
-real platePadForPaperLength = 1.5;  //change this if pad part changes
-real platePadForPaperWidth = 1.5;   //change this if pad part changes
+string platePadForPaperPartStr = "M01PTH_SMD_3.2X1.1MM_NO_SILK";
+real platePadForPaperLength = 3.2;  //change this if pad part changes
+real platePadForPaperWidth = 1.1;   //change this if pad part changes
 real xSpacingForHorizontalPlatesForPaperOnSchematics = 1.0;
 real ySpacingForHorizontalPlatesForPaperOnSchematics = 0.48;
 real xSpacingForVerticalPlatesForPaperOnSchematics = 1.0;
@@ -54,9 +53,9 @@ real ySpacingForVerticalPlatesForPaperOnSchematics = 0.48;
 
 int numOfPlatesForEachHole = 2;
 int platePadForHolesPartNum = 1;
-string platePadForHolesPartStr = "M01PTH_SMD_1.5X1.5MM_NO_SILK";
-real platePadForHolesLength = 1.5;
-real platePadForHolesWidth = 1.5;
+string platePadForHolesPartStr = "M01PTH_SMD_3.2X1.1MM_NO_SILK";
+real platePadForHolesLength = 3.2;
+real platePadForHolesWidth = 1.1;
 real xSpacingForPlatePadsForHoleOnSchematics = 1.0;
 real ySpacingForPlatePadsForHoleOnSchematics = 0.48;
 
@@ -154,19 +153,25 @@ int horizontallySymmetric = 1;
 //******* plates
 real horizonatalPlatePadsForPaperStartX = innerPadsStartX - largePadLength/2 + platePadForPaperLength/2;
 real horizonatalPlatePadsForPaperStartY = innerPadsStartY + largePadWidth/2 + platePadForPaperWidth/2 + 3.0;
-real xSpacingBetweenHorizontalPlatePadsForPaper = 2;   //mm
+real xSpacingBetweenHorizontalPlatePadsForPaper = 3.5;   //mm
 int horizontalPlatePadsForPaperJpStartNum = lowerLeftOuterPadsJpEndNum + numOfRows * numOfCols + 1;
 int horizontalPlatePadsForPaperJpEndNum = horizontalPlatePadsForPaperJpStartNum - 1 + numOfRowsForHorizontalPlatesForPaper * numOfColsForHorizontalPlatesForPaper;
 
 real verticalPlatePadsForPaperStartX = innerPadsStartX - largePadLength/2 - platePadForPaperWidth/2 - 2.4;
 real verticalPlatePadsForPaperStartY = leftOuterPadsStartY - abs(smallFemaleHeaderWidth/2 - platePadForPaperLength/2);
-real ySpacingBetweenVerticalPlatePadsForPaper = 2;   //mm
+real ySpacingBetweenVerticalPlatePadsForPaper = 3.5;   //mm
 int verticalPlatePadsForPaperJpStartNum = horizontalPlatePadsForPaperJpEndNum + 1 + (numOfRepeatedHorizontalPlatesForPaper - 1) * (horizontalPlatePadsForPaperJpEndNum - horizontalPlatePadsForPaperJpStartNum + 1);
 int verticalPlatePadsForPaperJpEndNum = verticalPlatePadsForPaperJpStartNum - 1 + numOfRowsForVerticalPlatesForPaper * numOfColsForVerticalPlatesForPaper;
 
 real spacingBetweenPlateAndHole = holeDiameter/2 + platePadForHolesWidth/2 + 0.5;   //mm
 int platePadsForHolesJpStartNum = verticalPlatePadsForPaperJpEndNum + 1 + (numOfRepeatedVerticalPlatesForPaper - 1) * (verticalPlatePadsForPaperJpEndNum - verticalPlatePadsForPaperJpStartNum + 1);
 int platePadsForHolesJpEndNum = platePadsForHolesJpStartNum - 1 + numOfPlatesForEachHole;
+
+//******* Fudicial Marks
+string fiducialMarkPartStr = "FIDUCIAL-1X2";
+real fiducialMarkToVerticalBorders = 3;   //mm
+real fiducialMarkToHorizontalBorders = 3; //mm
+
 //*************************************************************************
 //**************************  Print ***************************************
 //*************************************************************************
