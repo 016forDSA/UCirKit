@@ -161,7 +161,7 @@ output("UCirKitCompleteScriptS2_Part4b.txt"){
       int mirrorBit = int(i/8) % 2;
 
       arrangeBoard(platePadsForHolesJpStartNum + i,
-                   platePadsForHolesJpEndNum + i,
+                   platePadsForHolesJpStartNum + i,
                    colIncrement,
                    mirrorBit,
                    !breadboard,
@@ -176,7 +176,7 @@ output("UCirKitCompleteScriptS2_Part4b.txt"){
                    1);
 
       arrangeBoard(platePadsForHolesJpStartNum + 1 + i,
-                   platePadsForHolesJpEndNum + 1 + i,
+                   platePadsForHolesJpStartNum + 1 + i,
                    colIncrement,
                    mirrorBit,
                    !breadboard,
@@ -189,6 +189,8 @@ output("UCirKitCompleteScriptS2_Part4b.txt"){
                    0,
                    1,
                    1);
+      // printf("platePadsForHolesJpStartNum + i = %d; \t v %d \t h %d \t m %d\n", platePadsForHolesJpStartNum + i, verticallySymmetricBit, horizontallySymmetricBit, mirrorBit);
+      // printf("platePadsForHolesJpStartNum + i + 1 = %d; \t v %d \t h %d \t m %d\n", platePadsForHolesJpStartNum + i + 1, verticallySymmetricBit, horizontallySymmetricBit, mirrorBit);
    }
    // printf(commands);
 }
