@@ -142,13 +142,15 @@ void arrangeBoard(int minJp, int maxJp,
          }
          generateMoveCommand(E.name, newX, newY);
 
-         if (isVertical){
+         if (isVertical && E.angle != 270.0){
             sprintf(commands, "%s ROTATE =R270 %s;", commands, E.name);
+         } else if (!isVertical && E.angle != 0.0){
+            sprintf(commands, "%s ROTATE =R0 %s;", commands, E.name);
          }
 
-         printf("E.mirror = %d\n", E.mirror);
-
-         if (isMirror){
+         // printf("E.mirror = %d\n", E.mirror);
+         // printf("jpNum = %d \t minJpNum = %d \t maxJpNum = %d \t isVertical = %d \t E.mirror = %d \t isMirror = %d \t E.angle = %f\n", jpNum, minJpNum, maxJpNum, isVertical, E.mirror, isMirror, E.angle);
+         if (isMirror && E.mirror == 0){
             sprintf(commands, "%s MIRROR %s;", commands, E.name);
          }
       }
