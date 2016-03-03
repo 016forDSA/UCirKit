@@ -1,0 +1,50 @@
+#include "CircuitStack0302GlobalVar.ulp"
+
+int jpNum = 1;
+real xCursorBaseline = 0;
+real maxXCursor = 0;
+
+void checkIfCursorOutOfPermittedRange(){
+   if (yCursor >= 78 || yCursor <= -78){
+      xCursorBaseline = maxXCursor + 1;
+      xCursor = xCursorBaseline;
+      yCursor = 0;
+   }
+}
+
+void addFemaleHeaderArray(int numOfRowFemaleHeaders,
+                          int numOfColFemaleHeaders,
+                          int femaleHeaderPartNum,
+                          string femaleHeaderPartStr,
+                          real xSpacingInInch,
+                          real ySpacingInInch){
+
+   int numOfPartsInACol = numOfRowFemaleHeaders/femaleHeaderPartNum;
+
+   for (int i = 0; i < numOfPartsInACol; ++i){
+      for (int j = 0; j < numOfColFemaleHeaders; ++j){
+         sprintf(commands, "%sADD %s@SparkFun-Connectors (%f %f);", commands, femaleHeaderPartStr, xCursor, yCursor);
+         // sprintf(commands, "%sADD %s@SparkFun-Connectors MR0 (%f %f);", commands, femaleHeaderPartStr, xCursor, yCursor);
+         // sprintf(commands, "%sROTATE R180 JP%d;", commands, jpNum++);
+
+         xCursor += xSpacingInInch;
+      }
+      if (xCursor > maxXCursor){
+         maxXCursor = xCursor;
+      }
+      
+      xCursor = xCursorBaseline;
+      yCursor -= (ySpacingInInch * femaleHeaderPartNum);
+
+      checkIfCursorOutOfPermittedRange();
+   }
+
+   yCursor -= (ySpacingInInch * femaleHeaderPartNum);
+
+   checkIfCursorOutOfPermittedRange();
+}
+
+//---- Execution
+// if (argv[0] == "UCirKitAddFemaleHeaderArray"){
+//    exit(argv[1]);
+// }

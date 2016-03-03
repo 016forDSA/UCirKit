@@ -1,0 +1,79 @@
+#include "CircuitStack0302GlobalVar.ulp"
+#include "CircuitStackAddFemaleHeaderArray.ulp"
+
+//---- Execution
+output("CircuitStack0302Script_Part1.txt"){
+   addFemaleHeaderArray(numOfRows,
+                        numOfCols,
+                        largeFemaleHeaderPartNum,
+                        largeFemaleHeaderPartStr,
+                        xSpacingForLargeFemaleHeader,
+                        ySpacingForLargeFemaleHeader);
+
+   addFemaleHeaderArray(numOfInnerPadRows,
+                        numOfInnerPadCols,
+                        largePadPartNum,
+                        largePadPartStr,
+                        xSpacingForLargePadPart,
+                        ySpacingForLargePadPart);
+
+   addFemaleHeaderArray(numOfInnerPadRows,
+                        numOfInnerPadCols,
+                        largePadPartNum,
+                        largePadPartStr,
+                        xSpacingForLargePadPart,
+                        ySpacingForLargePadPart);
+
+   addFemaleHeaderArray(numOfOuterPadRows,
+                        numOfOuterPadCols * 2,
+                        smallFemaleHeaderPartNum,
+                        smallFemaleHeaderPartStr,
+                        xSpacingForSmallFemaleHeader,
+                        ySpacingForSmallFemaleHeader);
+
+   addFemaleHeaderArray(numOfOuterPadRows,
+                        numOfOuterPadCols * 2,
+                        smallFemaleHeaderPartNum,
+                        smallFemaleHeaderPartStr,
+                        xSpacingForSmallFemaleHeader,
+                        ySpacingForSmallFemaleHeader);
+
+   int i;
+   for (i = 0; i < numOfRepeatedHorizontalPlatesForPaper; ++i){
+      addFemaleHeaderArray(numOfRowsForHorizontalPlatesForPaper,
+                           numOfColsForHorizontalPlatesForPaper,
+                           platePadForPaperPartNum,
+                           platePadForPaperPartStr,
+                           xSpacingForHorizontalPlatesForPaperOnSchematics,
+                           ySpacingForHorizontalPlatesForPaperOnSchematics);
+   }
+
+   for (i = 0; i < numOfRepeatedVerticalPlatesForPaper; ++i){
+      addFemaleHeaderArray(numOfRowsForVerticalPlatesForPaper,
+                           numOfColsForVerticalPlatesForPaper,
+                           platePadForPaperPartNum,
+                           platePadForPaperPartStr,
+                           xSpacingForVerticalPlatesForPaperOnSchematics,
+                           ySpacingForVerticalPlatesForPaperOnSchematics);
+   }
+
+   for (i = 0; i < 2; ++i){
+      addFemaleHeaderArray(numOfHoles,
+                           numOfPlatesForEachHole,
+                           platePadForHolesPartNum,
+                           platePadForHolesPartStr,
+                           xSpacingForPlatePadsForHoleOnSchematics,
+                           ySpacingForPlatePadsForHoleOnSchematics);
+   }
+   
+   addFemaleHeaderArray(numOfShortedFemalePinRows,
+                        numOfShortedFemalePinCols,
+                        largeFemaleHeaderPartNum,
+                        largeFemaleHeaderPartStr,
+                        xSpacingForLargeFemaleHeader,
+                        ySpacingForLargeFemaleHeader);
+
+   // printf(commands);
+}
+
+exit(commands);

@@ -1,0 +1,173 @@
+#include "CircuitStack0302GlobalVar.ulp"
+#include "UCirKitArrangeBoard.ulp"
+
+void arrangeFemaleHeaders(){
+   arrangeBoard(largeFemaleJpStartNum,
+                largeFemaleJpEndNum,
+                colIncrement,
+                !mirror,
+                breadboard,
+                !rotateToVertical,
+                !verticallySymmetric,
+                !horizontallySymmetric,
+                largeFemaleStartX,
+                largeFemaleStartY,
+                xSpacingBetweenLargeFemaleHeaders,
+                ySpacingBetweenLargeFemaleHeaders,
+                numOfRows,
+                numOfCols);
+
+   arrangeBoard(leftShortedColFemalePinJpStartNum,
+                leftShortedColFemalePinJpEndNum,
+                colIncrement,
+                !mirror,
+                !breadboard,
+                !rotateToVertical,
+                !verticallySymmetric,
+                !horizontallySymmetric,
+                leftShortedColFemalePinStartX,
+                leftShortedColFemalePinStartY,
+                xSpacingBetweenLargeFemaleHeaders,
+                ySpacingBetweenLargeFemaleHeaders,
+                numOfShortedFemalePinRows,
+                numOfShortedFemalePinCols/2);
+
+   arrangeBoard(rightShortedColFemalePinJpStartNum,
+                rightShortedColFemalePinJpEndNum,
+                colIncrement,
+                !mirror,
+                !breadboard,
+                !rotateToVertical,
+                verticallySymmetric,
+                !horizontallySymmetric,
+                rightShortedColFemalePinStartX,
+                rightShortedColFemalePinStartY,
+                xSpacingBetweenLargeFemaleHeaders,
+                ySpacingBetweenLargeFemaleHeaders,
+                numOfShortedFemalePinRows,
+                numOfShortedFemalePinCols/2);
+}
+
+void arrangeInnerPads(){
+   arrangeBoard(innerPadsJpStartNum,
+                innerPadsJpEndNum,
+                colIncrement,
+                !mirror,
+                !breadboard,
+                !rotateToVertical,
+                !verticallySymmetric,
+                !horizontallySymmetric,
+                innerPadsStartX,
+                innerPadsStartY,
+                xSpacingBetweenLargeFemaleHeaders * 7,
+                ySpacingBetweenLargeFemaleHeaders,
+                numOfInnerPadRows,
+                numOfInnerPadCols);
+
+   arrangeBoard(innerPadsJpStartNum + numOfInnerPadRows * numOfInnerPadCols,
+                innerPadsJpEndNum + numOfInnerPadRows * numOfInnerPadCols,
+                colIncrement,
+                mirror,
+                !breadboard,
+                !rotateToVertical,
+                !verticallySymmetric,
+                !horizontallySymmetric,
+                innerPadsStartX,
+                innerPadsStartY,
+                xSpacingBetweenLargeFemaleHeaders * 7,
+                ySpacingBetweenLargeFemaleHeaders,
+                numOfInnerPadRows,
+                numOfInnerPadCols);
+}
+
+void arrangeOuterPads(){
+   arrangeBoard(leftOuterPadsJpStartNum,
+                leftOuterPadsJpEndNum,
+                !colIncrement,
+                !mirror,
+                !breadboard,
+                !rotateToVertical,
+                !verticallySymmetric,
+                !horizontallySymmetric,
+                leftOuterPadsStartX,
+                leftOuterPadsStartY,
+                xSpacingBetweenOuterContactsForLeftAndRightZones,
+                ySpacingBetweenOuterContactsForLeftAndRightZones,
+                numOfOuterPadRows,
+                numOfOuterPadCols);
+
+   arrangeBoard(leftOuterPadsJpStartNum + numOfOuterPadRows * numOfOuterPadCols,
+                leftOuterPadsJpEndNum + numOfOuterPadRows * numOfOuterPadCols,
+                !colIncrement,
+                mirror,
+                !breadboard,
+                !rotateToVertical,
+                !verticallySymmetric,
+                !horizontallySymmetric,
+                leftOuterPadsStartX,
+                leftOuterPadsStartY,
+                xSpacingBetweenOuterContactsForLeftAndRightZones,
+                ySpacingBetweenOuterContactsForLeftAndRightZones,
+                numOfOuterPadRows,
+                numOfOuterPadCols);
+
+   arrangeBoard(rightOuterPadsJpStartNum,
+                rightOuterPadsJpEndNum,
+                !colIncrement,
+                !mirror,
+                !breadboard,
+                !rotateToVertical,
+                verticallySymmetric,
+                !horizontallySymmetric,
+                rightOuterPadsStartX,
+                rightOuterPadsStartY,
+                xSpacingBetweenOuterContactsForLeftAndRightZones,
+                ySpacingBetweenOuterContactsForLeftAndRightZones,
+                numOfOuterPadRows,
+                numOfOuterPadCols);
+
+   arrangeBoard(rightOuterPadsJpStartNum + numOfOuterPadRows * numOfOuterPadCols,
+                rightOuterPadsJpEndNum + numOfOuterPadRows * numOfOuterPadCols,
+                !colIncrement,
+                mirror,
+                !breadboard,
+                !rotateToVertical,
+                verticallySymmetric,
+                !horizontallySymmetric,
+                rightOuterPadsStartX,
+                rightOuterPadsStartY,
+                xSpacingBetweenOuterContactsForLeftAndRightZones,
+                ySpacingBetweenOuterContactsForLeftAndRightZones,
+                numOfOuterPadRows,
+                numOfOuterPadCols);
+
+}
+
+output("CircuitStack0302Script_Part3.txt"){
+   arrangeFemaleHeaders();
+
+   arrangeInnerPads();
+
+   arrangeOuterPads();
+
+   printf("largeFemaleJpStartNum : %d\n", largeFemaleJpStartNum);
+   printf("largeFemaleJpEndNum : %d\n", largeFemaleJpEndNum);
+   printf("innerPadsJpStartNum : %d\n", innerPadsJpStartNum);
+   printf("innerPadsJpEndNum : %d\n", innerPadsJpEndNum);
+   printf("leftOuterPadsJpStartNum : %d\n", leftOuterPadsJpStartNum);
+   printf("leftOuterPadsJpEndNum : %d\n", leftOuterPadsJpEndNum);
+   printf("rightOuterPadsJpStartNum : %d\n", rightOuterPadsJpStartNum);
+   printf("rightOuterPadsJpEndNum : %d\n", rightOuterPadsJpEndNum);
+   printf("horizontalPlatePadsForPaperJpStartNum : %d\n", horizontalPlatePadsForPaperJpStartNum);
+   printf("horizontalPlatePadsForPaperJpEndNum : %d\n", horizontalPlatePadsForPaperJpEndNum);
+   printf("verticalPlatePadsForPaperJpStartNum : %d\n", verticalPlatePadsForPaperJpStartNum);
+   printf("verticalPlatePadsForPaperJpEndNum : %d\n", verticalPlatePadsForPaperJpEndNum);
+   printf("platePadsForHolesJpStartNum : %d\n", platePadsForHolesJpStartNum);
+   printf("platePadsForHolesJpEndNum : %d\n", platePadsForHolesJpEndNum);
+   printf("leftShortedColFemalePinJpStartNum : %d\n", leftShortedColFemalePinJpStartNum);
+   printf("leftShortedColFemalePinJpEndNum : %d\n", leftShortedColFemalePinJpEndNum);
+   printf("rightShortedColFemalePinJpStartNum : %d\n", rightShortedColFemalePinJpStartNum);
+   printf("rightShortedColFemalePinJpEndNum : %d\n", rightShortedColFemalePinJpEndNum);
+}
+
+exit(commands);
