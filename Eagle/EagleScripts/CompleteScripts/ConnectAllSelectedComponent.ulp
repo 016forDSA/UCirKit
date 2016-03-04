@@ -1,0 +1,88 @@
+//-------------------------------
+UL_CONTACTREF involvedContactRefs[];
+UL_SIGNAL involvedSignals[];
+int involvedContactCount = 0;
+int involvedSignalCount = 0;
+
+//--------------------------------
+UL_PIN involvedPins[];
+int involvedPinCount = 0;
+
+//--------------------------------
+string command = "";
+
+// **************************************************************************
+// **************************************************************************
+// **************************************************************************
+void getAllInvolvedSignalsOnBoard(){
+   project.board(B){
+      B.signals(S){
+         S.contactrefs(C){
+            if(ingroup(C.element)){
+               involvedSignals[involvedSignalCount++] = S;
+            }
+         }
+      }
+   }
+   // for (int i = 0; i < contactCount; ++i){
+   //    printf("contactRefs[%d].element.name = %s, contact.name = %s\n", i, contactRefs[i].element.name, contactRefs[i].contact.name);
+   //    printf("signals[%d].name = %s\n", i, signals[i].name);
+   // }
+   // for (i = 0; i < sFContactCount; ++i){
+   //    printf("sFContactRefs[%d].element.name = %s, contact.name = %s\n", i, sFContactRefs[i].element.name, sFContactRefs[i].contact.name);
+   //    printf("sFSignals[%d].name = %s\n", i, sFSignals[i].name);
+   // }
+}
+
+void getAllInvolvedContactRefsByInvolvedSignalsOnBoard(){
+   project.board(B){
+      B.signals(S){
+         for (int i = 0; i < involvedSignalCount; ++i){
+            if (involvedSignals[i].name == S.name){
+               S.contactrefs(C){
+                  involvedContactRefs[involvedContactCount++] = C;
+               }
+            }
+         }
+      }
+   }
+}
+
+void getAllInvolvedPinsOnSchematicFromContactRefsOnBoard(){
+   schematic(S){
+      S.parts(PART){
+         PART.instances(INSTANCE){
+            INSTANCE.gate.symbol.pins(PIN){
+               for (int i = 0; i < involvedContactCount; ++i){
+                  if (PART.name == involvedContactRefs[i].element.name){
+                     involvedPins[involvedPinCount++] = PIN;
+                  }
+               }
+            }
+         }
+      }
+   }
+}
+
+void createCommand(){
+   int signalNameSuffix = time();
+
+   for (int i = 0; i < involvedPinCount; ++i){
+      involvedPins[i].wires(WIRE){
+         sprintf(command, "%s NAME %d (%f %f);", command, signalNameSuffix, u2inch(WIRE.x1), u2inch(WIRE.y1));
+      }
+   }
+}
+
+// **************************************************************************
+// **************************************************************************
+// **************************************************************************
+output("GroupSelectConnectWire.txt"){
+   getAllInvolvedSignalsOnBoard();
+   getAllInvolvedContactRefsByInvolvedSignalsOnBoard();
+   getAllInvolvedPinsOnSchematicFromContactRefsOnBoard();
+   createCommand();
+   
+}
+
+exit(command);
