@@ -50,7 +50,7 @@ void arrangeFemaleHeaders(){
 
 void arrangeInnerPads(){
    arrangeBoard(innerPadsJpStartNum,
-                innerPadsJpEndNum,
+                innerPadsJpStartNum + numOfInnerPadRows * 1 - 1,
                 colIncrement,
                 !mirror,
                 !breadboard,
@@ -59,13 +59,13 @@ void arrangeInnerPads(){
                 !horizontallySymmetric,
                 innerPadsStartX,
                 innerPadsStartY,
-                xSpacingBetweenLargeFemaleHeaders * 7,
+                xSpacingBetweenLargeFemaleHeaders,
                 ySpacingBetweenLargeFemaleHeaders,
                 numOfInnerPadRows,
-                numOfInnerPadCols);
+                1);
 
-   arrangeBoard(innerPadsJpStartNum + numOfInnerPadRows * numOfInnerPadCols,
-                innerPadsJpEndNum + numOfInnerPadRows * numOfInnerPadCols,
+   arrangeBoard(innerPadsJpStartNum + 1 * numOfInnerPadRows * 1,
+                innerPadsJpStartNum + 2 * numOfInnerPadRows * 1 - 1,
                 colIncrement,
                 mirror,
                 !breadboard,
@@ -74,10 +74,162 @@ void arrangeInnerPads(){
                 !horizontallySymmetric,
                 innerPadsStartX,
                 innerPadsStartY,
-                xSpacingBetweenLargeFemaleHeaders * 7,
+                xSpacingBetweenLargeFemaleHeaders,
                 ySpacingBetweenLargeFemaleHeaders,
                 numOfInnerPadRows,
-                numOfInnerPadCols);
+                1);
+
+   arrangeBoard(innerPadsJpStartNum + 2 * numOfInnerPadRows * 1,
+                innerPadsJpStartNum + 3 * numOfInnerPadRows * 1 - 1,
+                colIncrement,
+                !mirror,
+                !breadboard,
+                !rotateToVertical,
+                verticallySymmetric,
+                !horizontallySymmetric,
+                innerPadsStartX,
+                innerPadsStartY,
+                xSpacingBetweenLargeFemaleHeaders,
+                ySpacingBetweenLargeFemaleHeaders,
+                numOfInnerPadRows,
+                1);
+
+   arrangeBoard(innerPadsJpStartNum + 3 * numOfInnerPadRows * 1,
+                innerPadsJpStartNum + 4 * numOfInnerPadRows * 1 - 1,
+                colIncrement,
+                mirror,
+                !breadboard,
+                !rotateToVertical,
+                verticallySymmetric,
+                !horizontallySymmetric,
+                innerPadsStartX,
+                innerPadsStartY,
+                xSpacingBetweenLargeFemaleHeaders,
+                ySpacingBetweenLargeFemaleHeaders,
+                numOfInnerPadRows,
+                1);
+}
+
+void arrangeShortedInnerPads(){
+   arrangeBoard(shortedInnerPinJpStartNum,
+                shortedInnerPinJpEndNum,
+                !colIncrement,
+                !mirror,
+                !breadboard,
+                !rotateToVertical,
+                !verticallySymmetric,
+                !horizontallySymmetric,
+                firstShortedColInnerPinStartX,
+                firstShortedColInnerPinStartY,
+                xSpacingBetweenLargeFemaleHeaders,
+                ySpacingBetweenShortedInnerPads,
+                numOfShortedInnerPinRows,
+                numOfShortedInnerPinCols);
+
+   arrangeBoard(shortedInnerPinJpStartNum + numOfShortedInnerPinRows * numOfShortedInnerPinCols,
+                shortedInnerPinJpEndNum + numOfShortedInnerPinRows * numOfShortedInnerPinCols,
+                !colIncrement,
+                mirror,
+                !breadboard,
+                !rotateToVertical,
+                !verticallySymmetric,
+                !horizontallySymmetric,
+                firstShortedColInnerPinStartX,
+                firstShortedColInnerPinStartY,
+                xSpacingBetweenLargeFemaleHeaders,
+                ySpacingBetweenShortedInnerPads,
+                numOfShortedInnerPinRows,
+                numOfShortedInnerPinCols);
+
+   arrangeBoard(shortedInnerPinJpStartNum + 2 * numOfShortedInnerPinRows * numOfShortedInnerPinCols,
+                shortedInnerPinJpEndNum + 2 * numOfShortedInnerPinRows * numOfShortedInnerPinCols,
+                !colIncrement,
+                !mirror,
+                !breadboard,
+                !rotateToVertical,
+                !verticallySymmetric,
+                !horizontallySymmetric,
+                secondShortedColInnerPinStartX,
+                secondShortedColInnerPinStartY,
+                xSpacingBetweenLargeFemaleHeaders,
+                ySpacingBetweenShortedInnerPads,
+                numOfShortedInnerPinRows,
+                numOfShortedInnerPinCols);
+
+   arrangeBoard(shortedInnerPinJpStartNum + 3 * numOfShortedInnerPinRows * numOfShortedInnerPinCols,
+                shortedInnerPinJpEndNum + 3 * numOfShortedInnerPinRows * numOfShortedInnerPinCols,
+                !colIncrement,
+                mirror,
+                !breadboard,
+                !rotateToVertical,
+                !verticallySymmetric,
+                !horizontallySymmetric,
+                secondShortedColInnerPinStartX,
+                secondShortedColInnerPinStartY,
+                xSpacingBetweenLargeFemaleHeaders,
+                ySpacingBetweenShortedInnerPads,
+                numOfShortedInnerPinRows,
+                numOfShortedInnerPinCols);
+
+   arrangeBoard(shortedInnerPinJpStartNum + 4 * numOfShortedInnerPinRows * numOfShortedInnerPinCols,
+                shortedInnerPinJpEndNum + 4 * numOfShortedInnerPinRows * numOfShortedInnerPinCols,
+                !colIncrement,
+                !mirror,
+                !breadboard,
+                !rotateToVertical,
+                verticallySymmetric,
+                !horizontallySymmetric,
+                firstShortedColInnerPinStartX,
+                firstShortedColInnerPinStartY,
+                xSpacingBetweenLargeFemaleHeaders,
+                ySpacingBetweenShortedInnerPads,
+                numOfShortedInnerPinRows,
+                numOfShortedInnerPinCols);
+
+   arrangeBoard(shortedInnerPinJpStartNum + 5 * numOfShortedInnerPinRows * numOfShortedInnerPinCols,
+                shortedInnerPinJpEndNum + 5 * numOfShortedInnerPinRows * numOfShortedInnerPinCols,
+                !colIncrement,
+                mirror,
+                !breadboard,
+                !rotateToVertical,
+                verticallySymmetric,
+                !horizontallySymmetric,
+                firstShortedColInnerPinStartX,
+                firstShortedColInnerPinStartY,
+                xSpacingBetweenLargeFemaleHeaders,
+                ySpacingBetweenShortedInnerPads,
+                numOfShortedInnerPinRows,
+                numOfShortedInnerPinCols);
+
+   arrangeBoard(shortedInnerPinJpStartNum + 6 * numOfShortedInnerPinRows * numOfShortedInnerPinCols,
+                shortedInnerPinJpEndNum + 6 * numOfShortedInnerPinRows * numOfShortedInnerPinCols,
+                !colIncrement,
+                !mirror,
+                !breadboard,
+                !rotateToVertical,
+                verticallySymmetric,
+                !horizontallySymmetric,
+                secondShortedColInnerPinStartX,
+                secondShortedColInnerPinStartY,
+                xSpacingBetweenLargeFemaleHeaders,
+                ySpacingBetweenShortedInnerPads,
+                numOfShortedInnerPinRows,
+                numOfShortedInnerPinCols);
+
+   arrangeBoard(shortedInnerPinJpStartNum + 7 * numOfShortedInnerPinRows * numOfShortedInnerPinCols,
+                shortedInnerPinJpEndNum + 7 * numOfShortedInnerPinRows * numOfShortedInnerPinCols,
+                !colIncrement,
+                mirror,
+                !breadboard,
+                !rotateToVertical,
+                verticallySymmetric,
+                !horizontallySymmetric,
+                secondShortedColInnerPinStartX,
+                secondShortedColInnerPinStartY,
+                xSpacingBetweenLargeFemaleHeaders,
+                ySpacingBetweenShortedInnerPads,
+                numOfShortedInnerPinRows,
+                numOfShortedInnerPinCols);
 }
 
 void arrangeOuterPads(){
@@ -150,6 +302,8 @@ output("CircuitStack0302Script_Part3.txt"){
 
    arrangeOuterPads();
 
+   arrangeShortedInnerPads();
+
    printf("largeFemaleJpStartNum : %d\n", largeFemaleJpStartNum);
    printf("largeFemaleJpEndNum : %d\n", largeFemaleJpEndNum);
    printf("innerPadsJpStartNum : %d\n", innerPadsJpStartNum);
@@ -168,6 +322,10 @@ output("CircuitStack0302Script_Part3.txt"){
    printf("leftShortedColFemalePinJpEndNum : %d\n", leftShortedColFemalePinJpEndNum);
    printf("rightShortedColFemalePinJpStartNum : %d\n", rightShortedColFemalePinJpStartNum);
    printf("rightShortedColFemalePinJpEndNum : %d\n", rightShortedColFemalePinJpEndNum);
+   printf("shortedInnerPinJpStartNum : %d\n", shortedInnerPinJpStartNum);
+   printf("shortedInnerPinJpEndNum : %d\n", shortedInnerPinJpEndNum);
+   printf("shortedInnerPinJpStartNum + numOfShortedInnerPinRows * numOfShortedInnerPinCols : %d\n", shortedInnerPinJpStartNum + numOfShortedInnerPinRows * numOfShortedInnerPinCols);
+   printf("shortedInnerPinJpEndNum + numOfShortedInnerPinRows * numOfShortedInnerPinCols : %d\n", shortedInnerPinJpEndNum + numOfShortedInnerPinRows * numOfShortedInnerPinCols);
 }
 
 exit(commands);

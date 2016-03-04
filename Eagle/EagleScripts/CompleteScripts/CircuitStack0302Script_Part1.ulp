@@ -73,6 +73,16 @@ output("CircuitStack0302Script_Part1.txt"){
                         xSpacingForLargeFemaleHeader,
                         ySpacingForLargeFemaleHeader);
 
+   for (i = 0; i < 2; ++i){
+      addFemaleHeaderArray(numOfShortedInnerPinRows,
+                           numOfShortedInnerPinCols * 4,
+                           smallFemaleHeaderPartNum,
+                           smallFemaleHeaderPartStr,
+                           xSpacingForLargeFemaleHeader,
+                           ySpacingForLargeFemaleHeader);
+   }
+
+
    // printf(commands);
 }
 
