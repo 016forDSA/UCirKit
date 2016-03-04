@@ -138,13 +138,13 @@ int horizontallySymmetric = 1;
 //******* plates
 real horizonatalPlatePadsForPaperStartX = innerPadsStartX - largePadLength/2 + platePadForPaperLength/2 - 4.0;
 real horizonatalPlatePadsForPaperStartY = innerPadsStartY + largePadWidth/2 + platePadForPaperWidth/2 + 3.0;
-real xSpacingBetweenHorizontalPlatePadsForPaper = 3.5;   //mm
+real xSpacingBetweenHorizontalPlatePadsForPaper = 4.0;   //mm
 int horizontalPlatePadsForPaperJpStartNum = rightOuterPadsJpEndNum + numOfOuterPadRows * numOfOuterPadCols + 1;
 int horizontalPlatePadsForPaperJpEndNum = horizontalPlatePadsForPaperJpStartNum - 1 + numOfRowsForHorizontalPlatesForPaper * numOfColsForHorizontalPlatesForPaper;
 
 real verticalPlatePadsForPaperStartX = innerPadsStartX - largePadLength/2 - platePadForPaperWidth/2 - 5.0;
 real verticalPlatePadsForPaperStartY = leftOuterPadsStartY - abs(smallFemaleHeaderWidth/2 - platePadForPaperLength/2);
-real ySpacingBetweenVerticalPlatePadsForPaper = 3.5;   //mm
+real ySpacingBetweenVerticalPlatePadsForPaper = 4.0;   //mm
 int verticalPlatePadsForPaperJpStartNum = horizontalPlatePadsForPaperJpEndNum + 1 + (numOfRepeatedHorizontalPlatesForPaper - 1) * (horizontalPlatePadsForPaperJpEndNum - horizontalPlatePadsForPaperJpStartNum + 1);
 int verticalPlatePadsForPaperJpEndNum = verticalPlatePadsForPaperJpStartNum - 1 + numOfRowsForVerticalPlatesForPaper * numOfColsForVerticalPlatesForPaper;
 
