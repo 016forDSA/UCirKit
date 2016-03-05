@@ -1,13 +1,13 @@
 //*************************************************************************
 //****************   Breadboard-like general information    ***************
 //*************************************************************************
-int numOfRows = 30;
+int numOfRows = 64;
 int numOfCols = 10;
 
 int numOfShortedFemalePinRows = numOfRows;
 int numOfShortedFemalePinCols = 4;
 
-int numOfShortedInnerPinRows = int(numOfRows/6);
+int numOfShortedInnerPinRows = int(numOfRows/8);
 int numOfShortedInnerPinCols = 1;
 
 int numOfInnerPadRows = numOfRows;
@@ -173,9 +173,9 @@ int rightShortedColFemalePinJpEndNum = rightShortedColFemalePinJpStartNum + numO
 
 //******* Inner shorted pads
 real firstShortedColInnerPinStartX = innerPadsStartX - 2.5 * xSpacingBetweenLargeFemaleHeaders;
-real firstShortedColInnerPinStartY = innerPadsStartY - 2.0 * ySpacingBetweenLargeFemaleHeaders;
+real firstShortedColInnerPinStartY = innerPadsStartY - 3.0 * ySpacingBetweenLargeFemaleHeaders;
 real secondShortedColInnerPinStartX = firstShortedColInnerPinStartX;
-real secondShortedColInnerPinStartY = innerPadsStartY - 3.0 * ySpacingBetweenLargeFemaleHeaders;
+real secondShortedColInnerPinStartY = innerPadsStartY - 4.0 * ySpacingBetweenLargeFemaleHeaders;
 real ySpacingBetweenShortedInnerPads = ySpacingBetweenLargeFemaleHeaders * numOfRows / numOfShortedInnerPinRows;
 int shortedInnerPinJpStartNum = rightShortedColFemalePinJpEndNum + 1;
 int shortedInnerPinJpEndNum = shortedInnerPinJpStartNum + numOfShortedInnerPinRows * numOfShortedInnerPinCols - 1;
