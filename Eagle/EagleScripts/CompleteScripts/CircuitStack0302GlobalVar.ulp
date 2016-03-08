@@ -8,14 +8,14 @@ int numOfCols = 10;
 int numOfShortedFemalePinRows = numOfRows;
 int numOfShortedFemalePinCols = 4;
 
-int numOfShortedInnerPinRows = int(numOfRows/6);
+int numOfShortedInnerPinRows = int((numOfRows+2)/8);
 // int numOfShortedInnerPinRows = int(numOfRows/8);
 int numOfShortedInnerPinCols = 1;
 
 int numOfInnerPadRows = numOfRows;
 int numOfInnerPadCols = numOfCols/5;
 
-int numOfOuterPadRows = numOfRows;
+int numOfOuterPadRows = numOfRows + 2;
 int numOfOuterPadCols = 1;
 //*************************************************************************
 //**********************  Schematic information  **************************
@@ -118,13 +118,13 @@ real largeFemaleStartY = boardHeight/2 + ySpacingBetweenLargeFemaleHeaders * (re
 int largeFemaleJpStartNum = 1;
 int largeFemaleJpEndNum = numOfRows * numOfCols;
 
-real innerPadsStartX = largeFemaleStartX + 3 * xSpacingBetweenLargeFemaleHeaders;
+real innerPadsStartX = largeFemaleStartX + 2 * xSpacingBetweenLargeFemaleHeaders;
 real innerPadsStartY = largeFemaleStartY;
 int innerPadsJpStartNum = largeFemaleJpEndNum + 1;
 int innerPadsJpEndNum = innerPadsJpStartNum - 1 + numOfInnerPadRows * numOfInnerPadCols;
 
-real leftOuterPadsStartX = largeFemaleStartX - 2.0 * xSpacingBetweenLargeFemaleHeaders;
-real leftOuterPadsStartY = innerPadsStartY;
+real leftOuterPadsStartX = largeFemaleStartX - 2.4 * xSpacingBetweenLargeFemaleHeaders;
+real leftOuterPadsStartY = innerPadsStartY + 1 * ySpacingBetweenLargeFemaleHeaders;
 int leftOuterPadsJpStartNum = innerPadsJpEndNum + 1 + numOfInnerPadRows * numOfInnerPadCols;
 int leftOuterPadsJpEndNum = leftOuterPadsJpStartNum - 1 + numOfOuterPadRows * numOfOuterPadCols;
 
@@ -141,13 +141,13 @@ int verticallySymmetric = 1;
 int horizontallySymmetric = 1;
 
 //******* plates
-real horizonatalPlatePadsForPaperStartX = innerPadsStartX - largePadLength/2 + platePadForPaperLength/2 - 6.0;
-real horizonatalPlatePadsForPaperStartY = innerPadsStartY + largePadWidth/2 + platePadForPaperWidth/2 + 3.0;
+real horizonatalPlatePadsForPaperStartX = innerPadsStartX - largePadLength/2 + platePadForPaperLength/2 - 5.0;
+real horizonatalPlatePadsForPaperStartY = innerPadsStartY + largePadWidth/2 + platePadForPaperWidth/2 + 2.0;
 real xSpacingBetweenHorizontalPlatePadsForPaper = 4.0;   //mm
 int horizontalPlatePadsForPaperJpStartNum = rightOuterPadsJpEndNum + numOfOuterPadRows * numOfOuterPadCols + 1;
 int horizontalPlatePadsForPaperJpEndNum = horizontalPlatePadsForPaperJpStartNum - 1 + numOfRowsForHorizontalPlatesForPaper * numOfColsForHorizontalPlatesForPaper;
 
-real verticalPlatePadsForPaperStartX = innerPadsStartX - largePadLength/2 - platePadForPaperWidth/2 - 7.6;
+real verticalPlatePadsForPaperStartX = innerPadsStartX - largePadLength/2 - platePadForPaperWidth/2 - 6.0;
 real verticalPlatePadsForPaperStartY = leftOuterPadsStartY - abs(smallFemaleHeaderWidth/2 - platePadForPaperLength/2);
 real ySpacingBetweenVerticalPlatePadsForPaper = 4.0;   //mm
 int verticalPlatePadsForPaperJpStartNum = horizontalPlatePadsForPaperJpEndNum + 1 + (numOfRepeatedHorizontalPlatesForPaper - 1) * (horizontalPlatePadsForPaperJpEndNum - horizontalPlatePadsForPaperJpStartNum + 1);
@@ -174,21 +174,29 @@ int rightShortedColFemalePinJpStartNum = leftShortedColFemalePinJpEndNum + 1;
 int rightShortedColFemalePinJpEndNum = rightShortedColFemalePinJpStartNum + numOfShortedFemalePinRows * numOfShortedFemalePinCols/2  - 1;
 
 //******* Inner shorted pads
-real firstShortedColInnerPinStartX = innerPadsStartX - 2.5 * xSpacingBetweenLargeFemaleHeaders;
-// real firstShortedColInnerPinStartY = innerPadsStartY - 3.0 * ySpacingBetweenLargeFemaleHeaders;
-real firstShortedColInnerPinStartY = innerPadsStartY - 2.0 * ySpacingBetweenLargeFemaleHeaders;
+real firstShortedColInnerPinStartX = innerPadsStartX + 3.5 * xSpacingBetweenLargeFemaleHeaders;
+real firstShortedColInnerPinStartY = innerPadsStartY - 1.0 * ySpacingBetweenLargeFemaleHeaders;
 real secondShortedColInnerPinStartX = firstShortedColInnerPinStartX;
-// real secondShortedColInnerPinStartY = innerPadsStartY - 4.0 * ySpacingBetweenLargeFemaleHeaders;
-real secondShortedColInnerPinStartY = innerPadsStartY - 3.0 * ySpacingBetweenLargeFemaleHeaders;
-real ySpacingBetweenShortedInnerPads = ySpacingBetweenLargeFemaleHeaders * numOfRows / numOfShortedInnerPinRows;
+real secondShortedColInnerPinStartY = innerPadsStartY - 2.0 * ySpacingBetweenLargeFemaleHeaders;
+real thirdShortedColInnerPinStartX = firstShortedColInnerPinStartX;
+real thirdShortedColInnerPinStartY = innerPadsStartY - 3.0 * ySpacingBetweenLargeFemaleHeaders;
+real fourthShortedColInnerPinStartX = firstShortedColInnerPinStartX;
+real fourthShortedColInnerPinStartY = innerPadsStartY - 4.0 * ySpacingBetweenLargeFemaleHeaders;
+// real ySpacingBetweenShortedInnerPads = ySpacingBetweenLargeFemaleHeaders * numOfRows / numOfShortedInnerPinRows;
+real ySpacingBetweenShortedInnerPads = ySpacingBetweenLargeFemaleHeaders * 32 / numOfShortedInnerPinRows;
 int shortedInnerPinJpStartNum = rightShortedColFemalePinJpEndNum + 1;
 int shortedInnerPinJpEndNum = shortedInnerPinJpStartNum + numOfShortedInnerPinRows * numOfShortedInnerPinCols - 1;
 
 //******* Text numbering
-real leftTextNumberingStartX = largeFemaleStartX - 1.5 * xSpacingBetweenLargeFemaleHeaders;
-real leftTextNumberingStartY = largeFemaleStartY;// - 0.4 * ySpacingBetweenLargeFemaleHeaders;
-real rightTextNumberingStartX = largeFemaleStartX + 12.5 * xSpacingBetweenLargeFemaleHeaders;
-real rightTextNumberingStartY = largeFemaleStartY;// -  * ySpacingBetweenLargeFemaleHeaders;
+real leftInnerTextNumberingStartX = largeFemaleStartX - 1.5 * xSpacingBetweenLargeFemaleHeaders;
+real leftInnerTextNumberingStartY = largeFemaleStartY;// - 0.4 * ySpacingBetweenLargeFemaleHeaders;
+real rightInnerTextNumberingStartX = largeFemaleStartX + 12.5 * xSpacingBetweenLargeFemaleHeaders;
+real rightInnerTextNumberingStartY = largeFemaleStartY;// -  * ySpacingBetweenLargeFemaleHeaders;
+
+real leftOuterTextNumberingStartX = leftShortedColFemalePinStartX - 1.5 * xSpacingBetweenLargeFemaleHeaders;
+real leftOuterTextNumberingStartY = largeFemaleStartY;// - 0.4 * ySpacingBetweenLargeFemaleHeaders;
+real rightOuterTextNumberingStartX = (boardWidth - leftOuterTextNumberingStartX);
+real rightOuterTextNumberingStartY = largeFemaleStartY;// -  * ySpacingBetweenLargeFemaleHeaders;
 
 //*************************************************************************
 //**************************  Print ***************************************
