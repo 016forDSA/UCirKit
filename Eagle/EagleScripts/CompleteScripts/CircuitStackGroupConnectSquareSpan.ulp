@@ -1,0 +1,157 @@
+//-------------------------------
+real negativeX = 0;
+real positiveX = 0;
+real negativeY = 0;
+real positiveY = 0;
+
+UL_CONTACTREF signalInvolvedContactRefs[];
+UL_CONTACTREF completedContactRefs[];
+UL_SIGNAL involvedSignals[];
+
+int signalInvolvedContactCount = 0;
+int completedContactCount = 0;
+int involvedSignalCount = 0;
+
+//--------------------------------
+UL_PIN involvedPins[];
+int involvedPinCount = 0;
+
+//--------------------------------
+string command = "";
+int signalNameSuffixCounter = 0;
+
+// **************************************************************************
+// **************************************************************************
+// **************************************************************************
+
+int isContactRefComplete(UL_CONTACTREF contactRef){
+   for (int i = 0; i < completedContactCount; ++i){
+      if (completedContactRefs[i].element.name == contactRef.element.name){
+         return 1;
+      }
+   }
+   return 0;
+}
+
+void getAllSquareSpannedContactRefsByAContactRef(UL_CONTACTREF contactRef){
+   project.board(B){
+      B.signals(S){
+         S.contactrefs(C){
+            if (u2mm(C.element.x) >= u2mm(contactRef.element.x) - negativeX &&
+                u2mm(C.element.x) <= u2mm(contactRef.element.x) + positiveX &&
+                u2mm(C.element.y) >= u2mm(contactRef.element.y) - negativeY &&
+                u2mm(C.element.y) <= u2mm(contactRef.element.y) + positiveY){
+               if (isContactRefComplete(C) == 0){
+                  completedContactRefs[completedContactCount++] = C;
+               }
+               involvedSignals[involvedSignalCount++] = S;
+               printf("contactRef.element.name : %s\t contactRef.element.x : %f \t contactRef.element.y : %f\n", contactRef.element.name, u2mm(contactRef.element.x), u2mm(contactRef.element.y));
+               printf("C.element.name : %s\t C.element.x : %f \t C.element.y : %f\n", C.element.name, u2mm(C.element.x), u2mm(C.element.y));
+               printf("u2mm(contactRef.element.x) - negativeX = %f\n", u2mm(contactRef.element.x) - negativeX);
+               printf("u2mm(contactRef.element.x) + positiveX = %f\n", u2mm(contactRef.element.x) + positiveX);
+               printf("u2mm(contactRef.element.y) - negativeY = %f\n", u2mm(contactRef.element.y) - negativeY);
+               printf("u2mm(contactRef.element.y) + positiveY = %f\n", u2mm(contactRef.element.y) + positiveY);
+            }
+         }
+      }
+   }
+}
+
+// void getAllInvolvedSignalsOnBoard(UL_SIGNAL signal){
+//    involvedSignals[involvedSignalCount++] = signal;
+//    // for (int i = 0; i < contactCount; ++i){
+//    //    printf("contactRefs[%d].element.name = %s, contact.name = %s\n", i, contactRefs[i].element.name, contactRefs[i].contact.name);
+//    //    printf("signals[%d].name = %s\n", i, signals[i].name);
+//    // }
+//    // for (i = 0; i < sFContactCount; ++i){
+//    //    printf("sFContactRefs[%d].element.name = %s, contact.name = %s\n", i, sFContactRefs[i].element.name, sFContactRefs[i].contact.name);
+//    //    printf("sFSignals[%d].name = %s\n", i, sFSignals[i].name);
+//    // }
+// }
+
+void getAllSignalInvolvedContactRefsByInvolvedSignalsOnBoard(){
+   project.board(B){
+      B.signals(S){
+         for (int i = 0; i < involvedSignalCount; ++i){
+            if (involvedSignals[i].name == S.name){
+               S.contactrefs(C){
+                  signalInvolvedContactRefs[signalInvolvedContactCount++] = C;
+                  printf("signalInvolvedContactRefs[signalInvolvedContactCount].element.name = %s\n", signalInvolvedContactRefs[signalInvolvedContactCount-1].element.name);
+                  printf("involvedSignals[i].name = %s\n", involvedSignals[i].name);
+               }
+            }
+         }
+      }
+   }
+}
+
+void getAllInvolvedPinsOnSchematicFromSignalInvolvedContactRefsOnBoard(){
+   schematic(S){
+      S.parts(PART){
+         PART.instances(INSTANCE){
+            INSTANCE.gate.symbol.pins(PIN){
+               for (int i = 0; i < signalInvolvedContactCount; ++i){
+                  if (PART.name == signalInvolvedContactRefs[i].element.name){
+                     involvedPins[involvedPinCount++] = PIN;
+                  }
+               }
+            }
+         }
+      }
+   }
+}
+
+void createCommand(){
+   int signalNameSuffix = time();
+
+   for (int i = 0; i < involvedPinCount; ++i){
+      involvedPins[i].wires(WIRE){
+         sprintf(command, "%s NAME %d_%d (%f %f);", command, signalNameSuffix, signalNameSuffixCounter, u2inch(WIRE.x1), u2inch(WIRE.y1));
+      }
+   }
+   signalNameSuffixCounter++;
+}
+
+void traverseThruSelectedContacts(){
+   project.board(B){
+      B.signals(S){
+         S.contactrefs(C){
+            if(ingroup(C.element) && isContactRefComplete(C) == 0){
+
+               getAllSquareSpannedContactRefsByAContactRef(C);
+               getAllSignalInvolvedContactRefsByInvolvedSignalsOnBoard();
+               getAllInvolvedPinsOnSchematicFromSignalInvolvedContactRefsOnBoard();
+               createCommand();
+            }
+            signalInvolvedContactCount = 0;
+            involvedPinCount = 0;
+            involvedSignalCount = 0;
+         }
+      }
+   }
+}
+
+// **************************************************************************
+// **************************************************************************
+// **************************************************************************
+output("CircuitStackGroupConnectSquareSpan.txt"){
+   if (argc != 5){
+      dlgMessageBox("Incorrect number of arguments\n \
+                     usage : run CircuitStackGroupConnectSquareSpan \n \
+                                                        <negative x direction to connect element \n \
+                                                        <positive x direction to connect element> \n \
+                                                        <negative y direction to connect element> \n \
+                                                        <positive y direction to connect element> \n \
+                                                        ", "Ok");
+      exit(1);
+   }
+   negativeX = strtod(argv[1]);
+   positiveX = strtod(argv[2]);
+   negativeY = strtod(argv[3]);
+   positiveY = strtod(argv[4]);
+   printf("negativeX = %f \t positiveX = %f \t negativeY = %f \t positiveY = %f\n", negativeX, positiveX, negativeY, positiveY);
+   traverseThruSelectedContacts();
+   printf("command : %s\n", command);
+}
+
+exit(command);
