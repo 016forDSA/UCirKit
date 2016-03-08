@@ -1,0 +1,5 @@
+void addTextNumbering(real startX, real startY, real ySpacing){
+   for (int i = 0; i < numOfRows; ++i){
+      sprintf(commands, "%s TEXT %d R0 (%f %f) ;", commands, i+1, startX, startY - i * ySpacing);
+   }
+}
